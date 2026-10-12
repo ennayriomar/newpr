@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-12T11:05:39.823759+00:00",
+  "repository": "ennayriomar/newpr",
+  "archive_commit": "ad9f19033b3393d21cc74d6b33a7fd1a8b5b663b",
+  "verification": "Public download of every archive part, followed by streaming validation of every archive member without extraction",
+  "original_result_files_verified": 4580,
+  "archive_members_verified": 4582,
+  "archive_parts_downloaded_and_sha256_verified": 546,
+  "original_result_bytes": 4906209930,
+  "archive_bytes": 4579198450,
+  "archive_sha256": "ddb0775710c984fa32f89baf60a25a314e991263de85d0c4321a52b7e66f5bdb",
+  "all_original_file_sha256_checks_passed": true,
+  "complete_archive_sha256_check_passed": true,
+  "browsable_original_files_remote_git_hashes_verified": 1925,
+  "reports_zip": {
+    "bytes": 32032689,
+    "sha256": "9b51429274102822da0eed805f0495c0a5f52572c85aa647f7e6f303fd346d6a",
+    "public_download_sha256_verified": true,
+    "zip_crc_verified": true
+  }
+}
