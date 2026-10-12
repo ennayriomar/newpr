@@ -1,0 +1,93 @@
+{
+  "actions": {
+    "defective": 2,
+    "normal": 1,
+    "unresolved/reference-insufficient": 1
+  },
+  "adequacy_precision": {
+    "curve": [
+      {
+        "accepted": 4,
+        "adequacy_threshold": 0.0,
+        "coverage": 1.0,
+        "precision_correct_decision": 0.75
+      },
+      {
+        "accepted": 4,
+        "adequacy_threshold": 0.48604443669319153,
+        "coverage": 1.0,
+        "precision_correct_decision": 0.75
+      },
+      {
+        "accepted": 3,
+        "adequacy_threshold": 0.5083067417144775,
+        "coverage": 0.75,
+        "precision_correct_decision": 0.6666666666666666
+      },
+      {
+        "accepted": 2,
+        "adequacy_threshold": 0.5151975154876709,
+        "coverage": 0.5,
+        "precision_correct_decision": 0.5
+      },
+      {
+        "accepted": 1,
+        "adequacy_threshold": 0.5172454118728638,
+        "coverage": 0.25,
+        "precision_correct_decision": 1.0
+      },
+      {
+        "accepted": 0,
+        "adequacy_threshold": 1.0,
+        "coverage": 0.0,
+        "precision_correct_decision": null
+      }
+    ],
+    "event": "image decision correct at locked calibration cutoff; empirical correctness proxy, NOT ground-truth support adequacy"
+  },
+  "calibration_ids": [
+    "mvtec_ad:capsule/train/good/158.png",
+    "mvtec_ad:capsule/train/good/117.png",
+    "mvtec_ad:capsule/train/good/086.png",
+    "mvtec_ad:capsule/train/good/017.png"
+  ],
+  "category": "bottle",
+  "dataset": "mvtec_ad",
+  "image": {
+    "ap": 1.0,
+    "auroc": 1.0,
+    "f1_max_offline": 1.0,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 0,
+    "fp": 1,
+    "locked_f1": 0.8,
+    "locked_threshold": 0.7440449511315904,
+    "tp": 2
+  },
+  "method": "support_hybrid",
+  "pixel": {
+    "ap": 0.8699814868793813,
+    "auroc": 0.9916438746263904,
+    "f1_max_offline": 0.8057604940458866,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 5738,
+    "fp": 158556,
+    "locked_f1": 0.6423337324480244,
+    "locked_threshold": 0.5716907978057861,
+    "tp": 147528
+  },
+  "queries": 4,
+  "query_repeat_semantics": "same locked queries across methods/k/support draws; draws are not independent query populations",
+  "role": "final_test",
+  "seed": 2,
+  "selective_decision": {
+    "accepted": 3,
+    "accuracy_accepted": 0.6666666666666666,
+    "adequacy_threshold": 0.5,
+    "correct_accepted": 2,
+    "coverage": 0.75,
+    "semantics": "empirical accepted-decision correctness; no guarantee"
+  },
+  "shots": 2,
+  "unique_query_count": 4
+}

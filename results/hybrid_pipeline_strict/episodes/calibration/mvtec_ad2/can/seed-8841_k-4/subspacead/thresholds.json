@@ -1,0 +1,28 @@
+{
+  "additional_calibration_normal_images": 4,
+  "adequacy_threshold": 0.5,
+  "calibration_ids": [
+    "mvtec_ad2:can/validation/good/001_regular.png",
+    "mvtec_ad2:can/validation/good/009_regular.png",
+    "mvtec_ad2:can/validation/good/004_regular.png",
+    "mvtec_ad2:can/validation/good/011_regular.png"
+  ],
+  "calibration_native_splits": [
+    "validation"
+  ],
+  "calibration_support_ids": [
+    "mvtec_ad2:can/train/good/396_regular.png",
+    "mvtec_ad2:can/train/good/101_regular.png",
+    "mvtec_ad2:can/train/good/052_regular.png",
+    "mvtec_ad2:can/train/good/151_regular.png"
+  ],
+  "category": "can",
+  "dataset": "mvtec_ad2",
+  "final_labels_used": false,
+  "image_threshold": 49.25447438687717,
+  "method": "subspacead",
+  "native_test_defect_labels_used": false,
+  "pixel_threshold": 23.389440536499023,
+  "procedure": "normal-only validation mean+3std; no guaranteed false-alarm rate",
+  "shots": 4
+}

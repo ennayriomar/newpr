@@ -1,0 +1,36 @@
+{
+  "status": "verified",
+  "backbone": "DINOv2 ViT-B/14",
+  "source_repository": "https://github.com/facebookresearch/dinov2",
+  "source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "checkpoint_url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth",
+  "torch": "2.7.1+cpu",
+  "cuda_available": false,
+  "device": "cpu",
+  "pretrained_weights_loaded": true,
+  "random_fallback_used": false,
+  "frozen_parameters_verified": true,
+  "eval_mode_verified": true,
+  "patch_grid_verified": true,
+  "real_data_model_pilot_run": false,
+  "image": "/workspace/datasets/visa/candle/Data/Images/Normal/0000.JPG",
+  "phase": "complete",
+  "checkpoint_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+  "checksum_scope": "Recorded checksum of the artifact obtained by the official HTTPS loader; no publisher-provided checksum is asserted.",
+  "patch_grid": [
+    16,
+    16
+  ],
+  "feature_shape": [
+    1,
+    256,
+    768
+  ],
+  "deterministic_repeat_verified": true,
+  "original_image_size": [
+    1284,
+    1168
+  ],
+  "two_extractions_seconds": 0.47952566200001456,
+  "preprocessing": "RGB; full-image resize to 224x224 with Pillow bicubic (aspect ratio may change); float32 /255; ImageNet mean/std; final normalized patch tokens. Pilot preprocessing, not a claimed faithful AnomalyDINO reproduction."
+}

@@ -1,0 +1,80 @@
+{
+  "ad2_calibration_normals": 4,
+  "adequacy_threshold": 0.5,
+  "benchmarks": [
+    {
+      "category": "cable",
+      "dataset": "mvtec_ad",
+      "role": "validation"
+    },
+    {
+      "category": "macaroni2",
+      "dataset": "visa",
+      "role": "validation"
+    },
+    {
+      "category": "bottle",
+      "dataset": "mvtec_ad",
+      "role": "final_test"
+    },
+    {
+      "category": "capsules",
+      "dataset": "visa",
+      "role": "final_test"
+    },
+    {
+      "category": "can",
+      "dataset": "mvtec_ad2",
+      "role": "stress_final_public"
+    }
+  ],
+  "calibration_categories": {
+    "mvtec_ad": "capsule",
+    "mvtec_ad2": "can",
+    "visa": "fryum"
+  },
+  "calibration_queries_per_label": 2,
+  "calibration_seed": 8841,
+  "feature_cache": "/workspace/feature_cache/dense_dinov2_vitb14",
+  "layers": [
+    2,
+    5,
+    8,
+    11
+  ],
+  "map_storage_dtype": "float16",
+  "max_metric_pixels_per_episode": 25000000,
+  "models": {
+    "hybrid": {
+      "density_neighbors": 8,
+      "density_quantile": 0.95,
+      "explained_variance": 0.99
+    },
+    "subspace_explained_variance": 0.99
+  },
+  "output": "/workspace/reports/hybrid_pipeline",
+  "pixel_metric_representation": "native_float32_exact",
+  "queries_per_label": 2,
+  "query_seed": 20261012,
+  "resolution": 224,
+  "role_config": "/workspace/tools/configs/milestone2.json",
+  "role_manifest": "/workspace/reports/milestone2/split_manifest.jsonl",
+  "roots": {
+    "mvtec_ad": "/workspace/datasets/mvtec_ad",
+    "mvtec_ad2": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2",
+    "visa": "/workspace/datasets/visa"
+  },
+  "schema_version": 1,
+  "scope": "feasibility_pilot_5_categories_3_support_draws_native_metrics",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "shots": [
+    1,
+    2,
+    4
+  ],
+  "verification_workers": 4
+}

@@ -1,0 +1,16 @@
+{
+  "acquisition_budget": 0,
+  "augmented_images": 0,
+  "base_normal_images": 1,
+  "candidate_pool_size": 0,
+  "deviations": "common official DINOv2 ViT-B/14 source, configured resolution/layers and aug_count=0; not published ViT-G/registers 672 augmented benchmarks",
+  "feature_aggregation": "unnormalized mean of declared ViT-B blocks",
+  "feature_dim": 768,
+  "image_aggregation": "official floor top1% of square-resolution processed map",
+  "map": "official square-resolution cv2 bilinear + 3x3 Gaussian sigma=4; then native bilinear",
+  "memory_tokens": 256,
+  "method": "subspacead",
+  "pca_components": 69,
+  "pca_ev": 0.99,
+  "score_method": "official squared reconstruction"
+}

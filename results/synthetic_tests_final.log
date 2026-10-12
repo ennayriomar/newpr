@@ -1,0 +1,19 @@
+test_synthetic_bad_checksum_never_publishes_data (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_bad_checksum_never_publishes_data) ... ok
+test_synthetic_existing_data_is_preserved (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_existing_data_is_preserved) ... ok
+test_synthetic_leakage_causes_nonzero_cli_exit (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_leakage_causes_nonzero_cli_exit) ... ok
+test_synthetic_misaligned_mask_reported (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_misaligned_mask_reported) ... ok
+test_synthetic_missing_mask_reported (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_missing_mask_reported) ... ok
+test_synthetic_path_escape_rejected (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_path_escape_rejected) ... ok
+test_synthetic_unsafe_archive_never_escapes_staging (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_unsafe_archive_never_escapes_staging) ... ok
+test_synthetic_visa_multiclass_mask_allowed (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_visa_multiclass_mask_allowed) ... ok
+test_synthetic_cache_invalidates_provenance_changes (test_patch_nn_synthetic.SyntheticPatchNNTests.test_synthetic_cache_invalidates_provenance_changes) ... ok
+test_synthetic_fixed_shot_budget_rejected (test_patch_nn_synthetic.SyntheticPatchNNTests.test_synthetic_fixed_shot_budget_rejected) ... ok
+test_synthetic_grid_restoration_preserves_corners_and_size (test_patch_nn_synthetic.SyntheticPatchNNTests.test_synthetic_grid_restoration_preserves_corners_and_size) ... ok
+test_synthetic_invalid_grid_rejected (test_patch_nn_synthetic.SyntheticPatchNNTests.test_synthetic_invalid_grid_rejected) ... ok
+test_synthetic_normalized_euclidean_distance (test_patch_nn_synthetic.SyntheticPatchNNTests.test_synthetic_normalized_euclidean_distance) ... ok
+test_synthetic_support_query_overlap_rejected (test_patch_nn_synthetic.SyntheticPatchNNTests.test_synthetic_support_query_overlap_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.232s
+
+OK

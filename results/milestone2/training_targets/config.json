@@ -1,0 +1,82 @@
+{
+  "output": "/workspace/reports/milestone2",
+  "feature_cache": "/workspace/feature_cache/dinov2_vitb14",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "initial_shots": 1,
+  "acquisition_budget": 1,
+  "candidate_pool_size": 16,
+  "source_queries_per_seed": 2,
+  "partition_seed": 123,
+  "loss": {
+    "type": "balanced_pixel_margin_mse",
+    "margin": 1.0
+  },
+  "source_categories": {
+    "mvtec_ad": "carpet",
+    "visa": "candle"
+  },
+  "roots": {
+    "mvtec_ad": "/workspace/datasets/mvtec_ad",
+    "visa": "/workspace/datasets/visa",
+    "mvtec_ad2": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2"
+  },
+  "category_roles": {
+    "mvtec_ad": {
+      "meta_training": [
+        "carpet",
+        "grid",
+        "leather",
+        "tile",
+        "wood"
+      ],
+      "validation": [
+        "cable",
+        "hazelnut",
+        "transistor"
+      ],
+      "calibration": [
+        "capsule",
+        "screw",
+        "toothbrush"
+      ],
+      "final_test": [
+        "bottle",
+        "metal_nut",
+        "pill",
+        "zipper"
+      ]
+    },
+    "visa": {
+      "meta_training": [
+        "candle",
+        "cashew",
+        "chewinggum",
+        "macaroni1",
+        "pcb1"
+      ],
+      "validation": [
+        "macaroni2",
+        "pcb2"
+      ],
+      "calibration": [
+        "fryum",
+        "pcb3"
+      ],
+      "final_test": [
+        "capsules",
+        "pcb4",
+        "pipe_fryum"
+      ]
+    }
+  },
+  "evaluation_categories": {
+    "mvtec_ad": "bottle",
+    "visa": "capsules"
+  },
+  "baseline_output": "/workspace/reports/baseline_pilot",
+  "generated_root": "/workspace/generated_training_queries"
+}

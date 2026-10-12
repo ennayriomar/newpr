@@ -1,0 +1,10 @@
+{
+  "suite": "SyntheticDatasetToolTests",
+  "command": "PYTHONPATH=/workspace/tools /workspace/venvs/safe_iad/bin/python -m unittest discover -s /workspace/tools/tests -p \"*_synthetic.py\" -v",
+  "tests_executed": 8,
+  "passed": 8,
+  "failed": 0,
+  "skipped": 0,
+  "synthetic": true,
+  "scope": "Acquisition and dataset verification failure handling; does not validate model inference or benchmark performance."
+}

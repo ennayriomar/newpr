@@ -1,0 +1,13 @@
+/workspace/.cache/dinov2-source/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/workspace/.cache/dinov2-source/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/workspace/.cache/dinov2-source/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+{"dataset": "mvtec_ad", "seed": 0, "targets": 64}
+{"dataset": "mvtec_ad", "seed": 1, "targets": 64}
+{"dataset": "mvtec_ad", "seed": 2, "targets": 64}
+{"dataset": "visa", "seed": 0, "targets": 64}
+{"dataset": "visa", "seed": 1, "targets": 64}
+{"dataset": "visa", "seed": 2, "targets": 64}
+{"targets": 384, "source_episodes": 6, "real_normal_training_queries": 12, "synthetic_training_queries": 12, "positive_benefit_targets": 380, "negative_benefit_targets": 4, "source_categories": {"mvtec_ad": "carpet", "visa": "candle"}, "loss_specification": {"type": "balanced_pixel_margin_mse", "margin": 1.0}, "feature_names": ["nn_mean", "nn_std", "nn_max", "top_one_percent", "knn_mean", "knn_std", "distinct_reference_mean", "dispersion_mean", "dispersion_std", "loo_sensitivity_imputed", "loo_missing", "global_support_distance", "candidate_query_global_distance", "candidate_support_global_distance", "candidate_nn_mean", "candidate_nn_std", "candidate_nn_max", "score_drop_mean", "score_drop_max"], "final_test_labels_used": false, "independence_note": "Rows sharing a source image/support episode are dependent. Synthetic anomalies are supervision only, not benchmark performance evidence."}

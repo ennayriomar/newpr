@@ -1,0 +1,319 @@
+{"dataset": "mvtec_ad", "checked": 1000, "total": 5354}
+{"dataset": "mvtec_ad", "checked": 2000, "total": 5354}
+{"dataset": "mvtec_ad", "checked": 3000, "total": 5354}
+{"dataset": "mvtec_ad", "checked": 4000, "total": 5354}
+{"dataset": "mvtec_ad", "checked": 5000, "total": 5354}
+{"dataset": "mvtec_ad", "checked": 5354, "total": 5354}
+{"dataset": "mvtec_ad", "status": "passed", "total_images": 5354, "native_splits_checked": ["test", "train"]}
+{"dataset": "visa", "checked": 1000, "total": 10821}
+{"dataset": "visa", "checked": 2000, "total": 10821}
+{"dataset": "visa", "checked": 3000, "total": 10821}
+{"dataset": "visa", "checked": 4000, "total": 10821}
+{"dataset": "visa", "checked": 5000, "total": 10821}
+{"dataset": "visa", "checked": 6000, "total": 10821}
+{"dataset": "visa", "checked": 7000, "total": 10821}
+{"dataset": "visa", "checked": 8000, "total": 10821}
+{"dataset": "visa", "checked": 9000, "total": 10821}
+{"dataset": "visa", "checked": 10000, "total": 10821}
+{"dataset": "visa", "checked": 10821, "total": 10821}
+{"dataset": "visa", "status": "passed", "total_images": 10821, "native_splits_checked": ["test", "train"]}
+{"dataset": "mvtec_ad2", "checked": 1000, "total": 3914}
+{"dataset": "mvtec_ad2", "checked": 2000, "total": 3914}
+{"dataset": "mvtec_ad2", "checked": 3000, "total": 3914}
+{"dataset": "mvtec_ad2", "checked": 3914, "total": 3914}
+{"dataset": "mvtec_ad2", "status": "passed", "total_images": 3914, "native_splits_checked": ["test_public", "train", "validation"]}
+/workspace/.cache/dinov2-source/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/workspace/.cache/dinov2-source/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/workspace/.cache/dinov2-source/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 0, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 0, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 0, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 1, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 1, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 1, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 2, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 2, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 2, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 0, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 0, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 0, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 1, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 1, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 1, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 2, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 2, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 2, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 0, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 0, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 0, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 1, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 1, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 1, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 2, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 2, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 2, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 0, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 0, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 0, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 1, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 1, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 1, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 2, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 2, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 2, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 0, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 0, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 0, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 1, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 1, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 1, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 2, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 2, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 2, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 0, "shots": 1, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 0, "shots": 2, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 0, "shots": 4, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 1, "shots": 1, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 1, "shots": 2, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 1, "shots": 4, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 2, "shots": 1, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 2, "shots": 2, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 2, "shots": 4, "method": "anomalydino", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 0, "shots": 1, "method": "anomalydino", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 0, "shots": 2, "method": "anomalydino", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 0, "shots": 4, "method": "anomalydino", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 1, "shots": 1, "method": "anomalydino", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 1, "shots": 2, "method": "anomalydino", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 1, "shots": 4, "method": "anomalydino", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 2, "shots": 1, "method": "anomalydino", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 2, "shots": 2, "method": "anomalydino", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 2, "shots": 4, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 0, "shots": 1, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 0, "shots": 2, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 0, "shots": 4, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 1, "shots": 1, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 1, "shots": 2, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 1, "shots": 4, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 2, "shots": 1, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 2, "shots": 2, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 2, "shots": 4, "method": "anomalydino", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 0, "shots": 1, "method": "anomalydino", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 0, "shots": 2, "method": "anomalydino", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 0, "shots": 4, "method": "anomalydino", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 1, "shots": 1, "method": "anomalydino", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 1, "shots": 2, "method": "anomalydino", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 1, "shots": 4, "method": "anomalydino", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 2, "shots": 1, "method": "anomalydino", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 2, "shots": 2, "method": "anomalydino", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 2, "shots": 4, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 0, "shots": 1, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 0, "shots": 2, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 0, "shots": 4, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 1, "shots": 1, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 1, "shots": 2, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 1, "shots": 4, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 2, "shots": 1, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 2, "shots": 2, "method": "anomalydino", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 2, "shots": 4, "method": "anomalydino", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 1647.41it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 249.90it/s]
+PCA Pass 1/2 (Mean):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 2/2 [00:00<00:00, 8224.13it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 2/2 [00:00<00:00, 366.11it/s]
+PCA Pass 1/2 (Mean):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 4/4 [00:00<00:00, 4391.94it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 4/4 [00:00<00:00, 280.28it/s]
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 4310.69it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 378.44it/s]
+PCA Pass 1/2 (Mean):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 2/2 [00:00<00:00, 1345.62it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 2/2 [00:00<00:00, 346.22it/s]
+PCA Pass 1/2 (Mean):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 4/4 [00:00<00:00, 8062.09it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 4/4 [00:00<00:00, 360.72it/s]
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 4544.21it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 363.84it/s]
+PCA Pass 1/2 (Mean):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 2/2 [00:00<00:00, 4934.48it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 2/2 [00:00<00:00, 306.67it/s]
+PCA Pass 1/2 (Mean):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 4/4 [00:00<00:00, 4670.72it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 4/4 [00:00<00:00, 199.56it/s]
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 5053.38it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 355.72it/s]
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 0, "shots": 1, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 2/2 [00:00<00:00, 4790.75it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 2/2 [00:00<00:00, 269.71it/s]
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 0, "shots": 2, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 4/4 [00:00<00:00, 4217.50it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 4/4 [00:00<00:00, 258.78it/s]
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 0, "shots": 4, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 5065.58it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 226.67it/s]
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 1, "shots": 1, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 2/2 [00:00<00:00, 7913.78it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 2/2 [00:00<00:00, 387.57it/s]
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 1, "shots": 2, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 4/4 [00:00<00:00, 5319.35it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 4/4 [00:00<00:00, 268.70it/s]
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 1, "shots": 4, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 3919.91it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 320.54it/s]
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 2, "shots": 1, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 2/2 [00:00<00:00, 4219.62it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 2/2 [00:00<00:00, 197.79it/s]
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 2, "shots": 2, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 4/4 [00:00<00:00, 7832.50it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 4/4 [00:00<00:00, 233.01it/s]
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 2, "shots": 4, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 5841.65it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 231.44it/s]
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 0, "shots": 1, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 2/2 [00:00<00:00, 5152.71it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 2/2 [00:00<00:00, 315.78it/s]
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 0, "shots": 2, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 4/4 [00:00<00:00, 9404.27it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 4/4 [00:00<00:00, 346.30it/s]
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 0, "shots": 4, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 3363.52it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 208.25it/s]
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 1, "shots": 1, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 2/2 [00:00<00:00, 5143.23it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 2/2 [00:00<00:00, 270.04it/s]
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 1, "shots": 2, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 4/4 [00:00<00:00, 2699.91it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 4/4 [00:00<00:00, 218.79it/s]
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 1, "shots": 4, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 6260.16it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 314.20it/s]
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 2, "shots": 1, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 2/2 [00:00<00:00, 5197.40it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 2/2 [00:00<00:00, 261.71it/s]
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 2, "shots": 2, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 4/4 [00:00<00:00, 9642.08it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 4/4 [00:00<00:00, 237.59it/s]
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 2, "shots": 4, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 1938.22it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 228.87it/s]
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 0, "shots": 1, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 2/2 [00:00<00:00, 6017.65it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 2/2 [00:00<00:00, 242.35it/s]
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 0, "shots": 2, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 4/4 [00:00<00:00, 7887.74it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 4/4 [00:00<00:00, 234.18it/s]
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 0, "shots": 4, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 4707.41it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 232.46it/s]
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 1, "shots": 1, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 2/2 [00:00<00:00, 7781.64it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 2/2 [00:00<00:00, 365.58it/s]
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 1, "shots": 2, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 4/4 [00:00<00:00, 9686.61it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 4/4 [00:00<00:00, 369.71it/s]
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 1, "shots": 4, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 3692.17it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 159.49it/s]
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 2, "shots": 1, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 2/2 [00:00<00:00, 9187.96it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 2/2 [00:00<00:00, 427.38it/s]
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 2, "shots": 2, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 4/4 [00:00<00:00, 7513.31it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 4/4 [00:00<00:00, 239.68it/s]
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 2, "shots": 4, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 4433.73it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 92.12it/s]
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 0, "shots": 1, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 2/2 [00:00<00:00, 5607.36it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 2/2 [00:00<00:00, 315.90it/s]
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 0, "shots": 2, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 4/4 [00:00<00:00, 5377.31it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 4/4 [00:00<00:00, 279.63it/s]
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 0, "shots": 4, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 5210.32it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 316.29it/s]
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 1, "shots": 1, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 2/2 [00:00<00:00, 5269.23it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 2/2 [00:00<00:00, 225.63it/s]
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 1, "shots": 2, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 4/4 [00:00<00:00, 5385.94it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 4/4 [00:00<00:00, 189.08it/s]
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 1, "shots": 4, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 6043.67it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 225.69it/s]
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 2, "shots": 1, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 2/2 [00:00<00:00, 4987.28it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 2/2 [00:00<00:00, 236.60it/s]
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 2, "shots": 2, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 4/4 [00:00<00:00, 8986.19it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 4/4 [00:00<00:00, 242.93it/s]
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 2, "shots": 4, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 3597.17it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 376.91it/s]
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 0, "shots": 1, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 2/2 [00:00<00:00, 6652.35it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 2/2 [00:00<00:00, 316.29it/s]
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 0, "shots": 2, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 4/4 [00:00<00:00, 5603.61it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 4/4 [00:00<00:00, 299.44it/s]
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 0, "shots": 4, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 5667.98it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 254.73it/s]
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 1, "shots": 1, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 2/2 [00:00<00:00, 7550.50it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 2/2 [00:00<00:00, 358.46it/s]
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 1, "shots": 2, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 4/4 [00:00<00:00, 8280.96it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 4/4 [00:00<00:00, 394.80it/s]
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 1, "shots": 4, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 403.80it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 122.23it/s]
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 2, "shots": 1, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 2/2 [00:00<00:00, 5698.78it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/2 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 2/2 [00:00<00:00, 327.35it/s]
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 2, "shots": 2, "method": "subspacead", "queries": 4}
+PCA Pass 1/2 (Mean):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 4/4 [00:00<00:00, 10330.80it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/4 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 4/4 [00:00<00:00, 371.16it/s]
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 2, "shots": 4, "method": "subspacead", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 0, "shots": 1, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 0, "shots": 2, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 0, "shots": 4, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 1, "shots": 1, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 1, "shots": 2, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 1, "shots": 4, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 2, "shots": 1, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 2, "shots": 2, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 2, "shots": 4, "method": "support_hybrid", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 0, "shots": 1, "method": "support_hybrid", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 0, "shots": 2, "method": "support_hybrid", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 0, "shots": 4, "method": "support_hybrid", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 1, "shots": 1, "method": "support_hybrid", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 1, "shots": 2, "method": "support_hybrid", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 1, "shots": 4, "method": "support_hybrid", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 2, "shots": 1, "method": "support_hybrid", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 2, "shots": 2, "method": "support_hybrid", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 2, "shots": 4, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 0, "shots": 1, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 0, "shots": 2, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 0, "shots": 4, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 1, "shots": 1, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 1, "shots": 2, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 1, "shots": 4, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 2, "shots": 1, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 2, "shots": 2, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 2, "shots": 4, "method": "support_hybrid", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 0, "shots": 1, "method": "support_hybrid", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 0, "shots": 2, "method": "support_hybrid", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 0, "shots": 4, "method": "support_hybrid", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 1, "shots": 1, "method": "support_hybrid", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 1, "shots": 2, "method": "support_hybrid", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 1, "shots": 4, "method": "support_hybrid", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 2, "shots": 1, "method": "support_hybrid", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 2, "shots": 2, "method": "support_hybrid", "queries": 4}
+{"dataset": "visa", "category": "capsules", "role": "final_test", "seed": 2, "shots": 4, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 0, "shots": 1, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 0, "shots": 2, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 0, "shots": 4, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 1, "shots": 1, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 1, "shots": 2, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 1, "shots": 4, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 2, "shots": 1, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 2, "shots": 2, "method": "support_hybrid", "queries": 4}
+{"dataset": "mvtec_ad2", "category": "can", "role": "stress_final_public", "seed": 2, "shots": 4, "method": "support_hybrid", "queries": 4}
+{"adequacy": "bounded empirical diagnostic; no support-adequacy ground truth, calibrated probability or theoretical reliability guarantee", "baseline_fidelity": "official scoring-core variants at declared common backbone/settings; published full benchmark recipes have not been reproduced", "configured_adequacy_threshold": 0.5, "evaluation_episodes": 180, "full_benchmarks_run": false, "native_test_defect_labels_used_for_calibration": false, "prediction_records": 720, "private_submission": "blocked: private images absent; real public/validation exports use official paths and per-file checks, not a complete server submission", "reproducibility": "deterministic CPU algorithms, pinned sources/weights, fingerprinted data and immutable maps/metrics; repeated completed invocation validates integrity and independently recomputes one real query per method", "scope": "feasibility_pilot_5_categories_3_support_draws_native_metrics", "status": "completed_declared_scope", "verification_images": 20089}

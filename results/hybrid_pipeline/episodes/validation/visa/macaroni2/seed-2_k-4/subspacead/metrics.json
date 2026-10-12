@@ -1,0 +1,42 @@
+{
+  "actions": {
+    "normal": 4
+  },
+  "calibration_ids": [
+    "visa:fryum/Data/Images/Normal/377.JPG",
+    "visa:fryum/Data/Images/Normal/272.JPG",
+    "visa:fryum/Data/Images/Anomaly/051.JPG",
+    "visa:fryum/Data/Images/Anomaly/005.JPG"
+  ],
+  "category": "macaroni2",
+  "dataset": "visa",
+  "image": {
+    "ap": 0.75,
+    "auroc": 0.5,
+    "f1_max_offline": 0.6666666666666666,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 2,
+    "fp": 0,
+    "locked_f1": 0.0,
+    "locked_threshold": 49.88555145263672,
+    "tp": 0
+  },
+  "method": "subspacead",
+  "pixel": {
+    "ap": 0.07751779696476367,
+    "auroc": 0.9753705282988255,
+    "f1_max_offline": 0.19006323396567298,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 400,
+    "fp": 11351,
+    "locked_f1": 0.12155191747028482,
+    "locked_threshold": 19.101032257080078,
+    "tp": 813
+  },
+  "queries": 4,
+  "query_repeat_semantics": "same locked queries across methods/k/support draws; draws are not independent query populations",
+  "role": "validation",
+  "seed": 2,
+  "shots": 4,
+  "unique_query_count": 4
+}

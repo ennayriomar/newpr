@@ -1,0 +1,19 @@
+{
+  "completed_episodes": 24,
+  "prediction_records": 192,
+  "unique_query_images": 16,
+  "strict_shot_budgets_verified": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "support_query_overlap": 0,
+  "acquired_reference_images": 0,
+  "original_resolution_maps_checked": 192,
+  "finite_maps_checked": 192,
+  "input_fingerprints_present": true,
+  "metrics_repeat_identical": true,
+  "resume_command_exit_code": 0,
+  "scope": "Internal baseline pilot only; no proposed-method, calibration or full-benchmark claim."
+}

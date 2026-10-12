@@ -1,0 +1,3673 @@
+{
+  "category_roles": {
+    "mvtec_ad": {
+      "calibration": [
+        "capsule",
+        "screw",
+        "toothbrush"
+      ],
+      "final_test": [
+        "bottle",
+        "metal_nut",
+        "pill",
+        "zipper"
+      ],
+      "meta_training": [
+        "carpet",
+        "grid",
+        "leather",
+        "tile",
+        "wood"
+      ],
+      "validation": [
+        "cable",
+        "hazelnut",
+        "transistor"
+      ]
+    },
+    "visa": {
+      "calibration": [
+        "fryum",
+        "pcb3"
+      ],
+      "final_test": [
+        "capsules",
+        "pcb4",
+        "pipe_fryum"
+      ],
+      "meta_training": [
+        "candle",
+        "cashew",
+        "chewinggum",
+        "macaroni1",
+        "pcb1"
+      ],
+      "validation": [
+        "macaroni2",
+        "pcb2"
+      ]
+    }
+  },
+  "data_fingerprints": {
+    "mvtec_ad2:can/test_public/bad/000_underexposed.png": {
+      "image_sha256": "bbecea5c3c087c6e6f699b3525cab75afd045dc64f2c7acb59ae67e2b5e3d09f",
+      "mask_sha256": "a4beca921f397780c701f49e17929543d37ec5a34e6bbc161dfe795af3db0313"
+    },
+    "mvtec_ad2:can/test_public/bad/007_underexposed.png": {
+      "image_sha256": "072bec617bba7deeea7cb39e87110704870f3d74f4d4942004ace81a152d0ce6",
+      "mask_sha256": "d88c327c668fee27fcfba7726bde75e7e0be121b75f07a528aed17af2a6c181a"
+    },
+    "mvtec_ad2:can/test_public/good/005_underexposed.png": {
+      "image_sha256": "ee38b0c998b79c5d77d3eb9bb97f66449db59c25850218c74f9f6cd5765302d4",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/test_public/good/010_shift_1.png": {
+      "image_sha256": "5ec34d961c34d78e4919608c21fc0dece72fed58a49fa17cc5bbcca65b97adf5",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/train/good/044_regular.png": {
+      "image_sha256": "1ef722200275edd0e1b60ba1c14b6d81b4c1a92d18b7c5226434eaded307622f",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/train/good/052_regular.png": {
+      "image_sha256": "486091f5045093180678a8d9e7a3de0484a971e590674c6a019de6524e8ac85e",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/train/good/101_regular.png": {
+      "image_sha256": "e47283922fa30302e043a2d23ecbf2bb61703190796d12446d142ee56cc9c3a3",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/train/good/107_regular.png": {
+      "image_sha256": "48fd7af56fcbbef1ed686e9143155d8c762a6216ae31dd652366379557e0aead",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/train/good/111_regular.png": {
+      "image_sha256": "9a4f290d9cc6c88973984bda2854bafb9b8d155aefa820210a69c70232238490",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/train/good/122_regular.png": {
+      "image_sha256": "724077a1af08040079d10f7c1b9aab511e39864250e37d2bea072b90e968a839",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/train/good/151_regular.png": {
+      "image_sha256": "3d619555aff1da1b6f5bd5967bcb525fd99d11c81b1f88b999dfc4c2aabf823b",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/train/good/193_regular.png": {
+      "image_sha256": "600ba785c4f4810e3ef44856c6621dd9b614c9475169e354b21b00a2232c5e02",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/train/good/209_regular.png": {
+      "image_sha256": "2e7ded6f85eaec1e04d73c6b0285a93fd1d14aba5875c305af67fe2830695677",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/train/good/210_regular.png": {
+      "image_sha256": "b3b8ba09b12b6bbd5ef7b2c5e4bc4a0a7aa3ab48b36ac90412d298f7cdc18f2e",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/train/good/261_regular.png": {
+      "image_sha256": "3bdac97f812d372156b6713b29ac3e780e58a9376802c2ac333283141e235c66",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/train/good/310_regular.png": {
+      "image_sha256": "9a78927bd4ca26f9a5724bc7da7da00678a42050cf11b03754bebf125c3d3a9b",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/train/good/342_regular.png": {
+      "image_sha256": "78df27a42473067f234f5d4cfdf837c9f6ae67dd1f0398d001f811520871ccd2",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/train/good/347_regular.png": {
+      "image_sha256": "11676a31a28caef990bf0613517db87ff6a798ad9d6c16657b6cd0cc92f27e33",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/train/good/391_regular.png": {
+      "image_sha256": "90a13bec2fc953ae3bdd66fd87f9e266b906be1d2fc25727d2416b264fd23083",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/train/good/396_regular.png": {
+      "image_sha256": "a94dfa97e7c9ed8e595fe2ead32594d23e38e9c0164166161c45be2b0d82d4f5",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/validation/good/001_regular.png": {
+      "image_sha256": "8bc56413eb841e4dd964371410fd1423488b7d0659b652aa85df0a63858885ed",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/validation/good/004_regular.png": {
+      "image_sha256": "e8fa6cf68d47930c66cce1ba829800b7f6852825ba6b28f1c049ec1777140f5e",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/validation/good/009_regular.png": {
+      "image_sha256": "3a692ac27b93b0307577e14dc4b51a60ab6680b348c5dced3b3d66a973f897d2",
+      "mask_sha256": null
+    },
+    "mvtec_ad2:can/validation/good/011_regular.png": {
+      "image_sha256": "d77ee2f76a49fab058cb1a006430f53682aed91ad3e3ac04c954dcc084d90ed1",
+      "mask_sha256": null
+    },
+    "mvtec_ad:bottle/test/broken_large/006.png": {
+      "image_sha256": "7e1590d94352b6a5d9463d4b378721ac80335f512d78095c7126d3eae1799fae",
+      "mask_sha256": "88dea230ed1c731217bc7a55c13e5c1c2ca18e656983fdb4d0c3341521a1d64a"
+    },
+    "mvtec_ad:bottle/test/broken_small/002.png": {
+      "image_sha256": "e605efdbf20478f09084f3026eaa96b91d9d1e7bc113cbe8fb700f2bbcc2763e",
+      "mask_sha256": "a2a132da1d5f7d101f8aa3cd9eb187a4351536d6af1481bdf1b9d97e5f689021"
+    },
+    "mvtec_ad:bottle/test/good/006.png": {
+      "image_sha256": "cb8b1201fa027fada3209cde87514b778231e5d0923c5517d40e78b2e0423e35",
+      "mask_sha256": null
+    },
+    "mvtec_ad:bottle/test/good/015.png": {
+      "image_sha256": "179aecaca86a1964bdc3075782bb36dcd1c7b25266077711a157d2dd565cfffc",
+      "mask_sha256": null
+    },
+    "mvtec_ad:bottle/train/good/022.png": {
+      "image_sha256": "f8e1ece1086cc7e75dcacffdb7ac5485f767a7a53cb2f92033fc29f58e2708ba",
+      "mask_sha256": null
+    },
+    "mvtec_ad:bottle/train/good/054.png": {
+      "image_sha256": "7ed6a41a7d4b684bfbfb89fbe3989ce90c7ea1179bbf4abec4964d15a91f28ec",
+      "mask_sha256": null
+    },
+    "mvtec_ad:bottle/train/good/056.png": {
+      "image_sha256": "ccd542b186751026009fc32ecbd8f9f48fee61cf6274ecd0b4c8ca2b4e53f1f4",
+      "mask_sha256": null
+    },
+    "mvtec_ad:bottle/train/good/062.png": {
+      "image_sha256": "bfafe9b9838a8668983da26610405ea0e5f31c3564a4746e80a79722085f56a2",
+      "mask_sha256": null
+    },
+    "mvtec_ad:bottle/train/good/097.png": {
+      "image_sha256": "c56961852e48d230edf7edb841f5ca8644cf0c37c6669ac9e604fb674b6e4ada",
+      "mask_sha256": null
+    },
+    "mvtec_ad:bottle/train/good/105.png": {
+      "image_sha256": "c4de3ba2c7d63be43db74b68fa16188f3e00cb4a2c7d51a8e37b84ab02c1b4d2",
+      "mask_sha256": null
+    },
+    "mvtec_ad:bottle/train/good/106.png": {
+      "image_sha256": "3a2700ef2b72514e52b11af74a2b1e9a8bc22155391e6dd2a45540b91c682e53",
+      "mask_sha256": null
+    },
+    "mvtec_ad:bottle/train/good/131.png": {
+      "image_sha256": "0c3bd83326c85b3ecec654964a8fec78e16010777146ac5709028ff3c430db76",
+      "mask_sha256": null
+    },
+    "mvtec_ad:bottle/train/good/157.png": {
+      "image_sha256": "e4a5c2f8ddb99cb6836996835134ce3a112dbc6ea7e124607263a7a6e310ee16",
+      "mask_sha256": null
+    },
+    "mvtec_ad:bottle/train/good/172.png": {
+      "image_sha256": "7b045f9d28f363ab8a73a86b06deb41f80533a46ebc07c5c803a36fe92c72b71",
+      "mask_sha256": null
+    },
+    "mvtec_ad:bottle/train/good/175.png": {
+      "image_sha256": "99c43c84a67ee65a17a25d324fef1853dc04459eaf6d0e03fa7ebc20962918ca",
+      "mask_sha256": null
+    },
+    "mvtec_ad:bottle/train/good/198.png": {
+      "image_sha256": "4646f9fbdec0168c37f122a338968ad7b97db18ccaa35c4281a997e0d2f4cb67",
+      "mask_sha256": null
+    },
+    "mvtec_ad:cable/test/bent_wire/005.png": {
+      "image_sha256": "f87e5b4f7be87b2518820c3ee8815c15d88d48cfbfeadf3dbb0770d90099fa34",
+      "mask_sha256": "d112b9949d10a6a6fbeac1e6ebf5614070886d6f118fcd27fd17f29b4ad6a3a3"
+    },
+    "mvtec_ad:cable/test/cut_inner_insulation/011.png": {
+      "image_sha256": "d447e539ee5d9fc8fc0299b362556f3ee8c5b09e2872ba731fe328e381fe0c12",
+      "mask_sha256": "28600a95fde3fe847c63ad6619efb5699d9cf5ca6cc48186990aef86009006c7"
+    },
+    "mvtec_ad:cable/test/good/006.png": {
+      "image_sha256": "3c7eee197661c70834dfe93811053f4b00b78fa2efed2002c1e4d4cd97e66655",
+      "mask_sha256": null
+    },
+    "mvtec_ad:cable/test/good/045.png": {
+      "image_sha256": "701d1cb01b0017c44cab01c89589ca1971071ba6e7a29788dfea4da995ab15c0",
+      "mask_sha256": null
+    },
+    "mvtec_ad:cable/train/good/024.png": {
+      "image_sha256": "21cbc75d472e4c7060ec3c5a8fadfed4806ab76fd7e889bbcf251992a9e5cdbc",
+      "mask_sha256": null
+    },
+    "mvtec_ad:cable/train/good/058.png": {
+      "image_sha256": "4e99b255b97e97cfdd80bade1f4cb3f28aa7f12234b8f661269bb37cd96ebdee",
+      "mask_sha256": null
+    },
+    "mvtec_ad:cable/train/good/060.png": {
+      "image_sha256": "671eb336f885f419c242b1243fa940c42f4df7c1dca7cc14bcddfe316d99a5d7",
+      "mask_sha256": null
+    },
+    "mvtec_ad:cable/train/good/066.png": {
+      "image_sha256": "86d7af751bfefa7a97f8f6fa68c000bbc2d0edd01087c67a3d4ac9e4516bc49b",
+      "mask_sha256": null
+    },
+    "mvtec_ad:cable/train/good/104.png": {
+      "image_sha256": "5105f5610f691435a5bc03f99d8d60ad0bddfdf85adba6b7fecd156fd6af80de",
+      "mask_sha256": null
+    },
+    "mvtec_ad:cable/train/good/113.png": {
+      "image_sha256": "afd83e4fd10123bff347e266df0205ac30dbcf78a6b544e840719bdca2a94717",
+      "mask_sha256": null
+    },
+    "mvtec_ad:cable/train/good/141.png": {
+      "image_sha256": "a79117547c6bcedd22beda3bed57c4cb6fb42c232fec0f324457a74fea185eca",
+      "mask_sha256": null
+    },
+    "mvtec_ad:cable/train/good/168.png": {
+      "image_sha256": "ce1563be1712bc32a41ac8b74591b81b373b7a355475665522f0c5fbb432f0de",
+      "mask_sha256": null
+    },
+    "mvtec_ad:cable/train/good/185.png": {
+      "image_sha256": "99c91d1d4fdd08a33d98a6c2287a75f785827eab1573d6055997519dec3527e4",
+      "mask_sha256": null
+    },
+    "mvtec_ad:cable/train/good/187.png": {
+      "image_sha256": "9d2e024770b9632fd33e13a75c89d844a73122f94976ec233d82f9f459af82eb",
+      "mask_sha256": null
+    },
+    "mvtec_ad:cable/train/good/212.png": {
+      "image_sha256": "90ace007f947f94b6cd11a12866df1a857b810f6fd1864c64ab83d8c8802597f",
+      "mask_sha256": null
+    },
+    "mvtec_ad:capsule/test/good/000.png": {
+      "image_sha256": "86366d544a0182b04fdeacb62c9b23af8c72af24d35eaafeb8c210f603174728",
+      "mask_sha256": null
+    },
+    "mvtec_ad:capsule/test/good/005.png": {
+      "image_sha256": "10b27fd42d8fb15049a3c3a1654dfd2a271657cb339643e7b6878d06212338cf",
+      "mask_sha256": null
+    },
+    "mvtec_ad:capsule/test/poke/002.png": {
+      "image_sha256": "03a69b4967602ff7e8070a90c71b872bde0703df4195fbfd1fb675ce04b37f12",
+      "mask_sha256": "8b41d591757fb4621d70ee0dee6ee01155d9150d7a6bee1ea4f3e03e681b87e1"
+    },
+    "mvtec_ad:capsule/test/scratch/014.png": {
+      "image_sha256": "f635566a061fec1d63ebdf07d26f3a685812b274d4ca0101acf284155e4d6704",
+      "mask_sha256": "a55dc6242574e3b5277f0c113eac753ccfad02b2c65469a8d457d37a14168899"
+    },
+    "mvtec_ad:capsule/train/good/027.png": {
+      "image_sha256": "3b47fb5010b4ce6a747394c0c6b5e2b518f248bdd1c626961033ee486a9bb0f6",
+      "mask_sha256": null
+    },
+    "mvtec_ad:capsule/train/good/053.png": {
+      "image_sha256": "42dd6c5ac379b11f7e2c9b244d9e5f7f89197f87ee27df7db5f28254a4201797",
+      "mask_sha256": null
+    },
+    "mvtec_ad:capsule/train/good/080.png": {
+      "image_sha256": "5140f8f43079614be8c3c1c914395125d634cfba5c3b36e14c9628391a95bb4d",
+      "mask_sha256": null
+    },
+    "mvtec_ad:capsule/train/good/210.png": {
+      "image_sha256": "24ac2726ab8c96850b7eaa1d1caed0ef8beade3249113847eec99348e99dd683",
+      "mask_sha256": null
+    },
+    "visa:capsules/Data/Images/Anomaly/005.JPG": {
+      "image_sha256": "346bfc5d4b32ab6a9632da37a7f01b6219fe57380a4044061cf5c90e38e49108",
+      "mask_sha256": "1ca793135ce9301c6c08bb538f4a91f4bfae00623ee73324a6ec43ed71257aa8"
+    },
+    "visa:capsules/Data/Images/Anomaly/051.JPG": {
+      "image_sha256": "4b5bc576fa6609ec503eb65e290426669eb09a5dcf41f0ca24118057b6fda38c",
+      "mask_sha256": "f43507e195a4fbb460f2078e756ee6ab36f2cf493661c0209ca43570fba24a93"
+    },
+    "visa:capsules/Data/Images/Normal/046.JPG": {
+      "image_sha256": "73cb77a20a1be8204e214cf766c7e0a2bb6bb78d88c69fa7ae7555f8ce86b67b",
+      "mask_sha256": null
+    },
+    "visa:capsules/Data/Images/Normal/067.JPG": {
+      "image_sha256": "85cfe72edc7038f0d4e1a4c6efaec3da7d1587910de3c95d77301682b5531bec",
+      "mask_sha256": null
+    },
+    "visa:capsules/Data/Images/Normal/151.JPG": {
+      "image_sha256": "c261b77672c205fa99d705c906409f687b48494676ab9d286164bceadf1dcaba",
+      "mask_sha256": null
+    },
+    "visa:capsules/Data/Images/Normal/157.JPG": {
+      "image_sha256": "7740cc9386f51cd01e90846a0e8931764fd3fde9fd63e63cd35ddf4f7226eeff",
+      "mask_sha256": null
+    },
+    "visa:capsules/Data/Images/Normal/177.JPG": {
+      "image_sha256": "abff7765164fa61a75209e422928574cfcca9c38ee403ddc1b6cebecdaaae87d",
+      "mask_sha256": null
+    },
+    "visa:capsules/Data/Images/Normal/281.JPG": {
+      "image_sha256": "5091772dacf1d6c302cd28cbe60246e7426843deed5588c2643336436d19e754",
+      "mask_sha256": null
+    },
+    "visa:capsules/Data/Images/Normal/308.JPG": {
+      "image_sha256": "eae23f25a939d1b07e8146ba1d0e4d94c20c69e9b8c4c91541038eaf56bc625f",
+      "mask_sha256": null
+    },
+    "visa:capsules/Data/Images/Normal/380.JPG": {
+      "image_sha256": "a8a569fe296ab82a1fa3c3e9e47f0cbb6517082d9b2a4969a906f09a8c82f124",
+      "mask_sha256": null
+    },
+    "visa:capsules/Data/Images/Normal/451.JPG": {
+      "image_sha256": "9317e9857fe65f663241a3fd354a22ff3d550662dc86e3097dba6fb7a14b1192",
+      "mask_sha256": null
+    },
+    "visa:capsules/Data/Images/Normal/501.JPG": {
+      "image_sha256": "157dc047c4bc2b37d087b1cb7b46ec7adfbf1ad4a416599c1b61cfa27d2e027c",
+      "mask_sha256": null
+    },
+    "visa:capsules/Data/Images/Normal/508.JPG": {
+      "image_sha256": "11c8567d7d3abba7c84d9542afee5d8f0f8d1de1ab6148a9dc6f7cf2db79ec9b",
+      "mask_sha256": null
+    },
+    "visa:capsules/Data/Images/Normal/572.JPG": {
+      "image_sha256": "a784a7fa80cdaa4bbf99216c49c965a8389074c68aac39ee1c467cf7494f5721",
+      "mask_sha256": null
+    },
+    "visa:capsules/Data/Images/Normal/576.JPG": {
+      "image_sha256": "b2972ce9c9616620fb725a4d01288a73737cdb8e081137684f8fba72947cacf3",
+      "mask_sha256": null
+    },
+    "visa:fryum/Data/Images/Anomaly/005.JPG": {
+      "image_sha256": "fb25da4288b1d04111a6ed5d35fcbee4d247d8a032d02947061f24cd67cbded2",
+      "mask_sha256": "1f73a8b9d4962ec0388cc756386233a4c62a522343e5ce35df7dbb6396ca54ed"
+    },
+    "visa:fryum/Data/Images/Anomaly/051.JPG": {
+      "image_sha256": "6b6c78513751314419209dffa03c21d693c0791f4e9ec92158addb73c1eca987",
+      "mask_sha256": "053685db77de7b23636d3402153496b27eda4e56f840cf5cbfd22520ae6250d7"
+    },
+    "visa:fryum/Data/Images/Normal/062.JPG": {
+      "image_sha256": "dc0d9a941418a8a45f664494d4638883ab164ac99366f83082292748f00b51a2",
+      "mask_sha256": null
+    },
+    "visa:fryum/Data/Images/Normal/121.JPG": {
+      "image_sha256": "c21dd535cce5d0bffeabe5e526557c6f2e61b6380221c95e090af6290be16a08",
+      "mask_sha256": null
+    },
+    "visa:fryum/Data/Images/Normal/182.JPG": {
+      "image_sha256": "172c4cf284792e930d89c3501416f31897bfa656eb9074b8ac3944df51c07089",
+      "mask_sha256": null
+    },
+    "visa:fryum/Data/Images/Normal/272.JPG": {
+      "image_sha256": "243bed5f1e9dabc291189b5f02ba984902371c44f769513f41ab0490af825dc6",
+      "mask_sha256": null
+    },
+    "visa:fryum/Data/Images/Normal/377.JPG": {
+      "image_sha256": "1fad3113220b049c8113b6be0dd57b17441abee658a1a49a8f04bf48fb8fa06e",
+      "mask_sha256": null
+    },
+    "visa:fryum/Data/Images/Normal/479.JPG": {
+      "image_sha256": "0b8e32e1628a081ae88caf2589085838e41a2e1255fd4ecaab1a9ba6bc96d294",
+      "mask_sha256": null
+    },
+    "visa:macaroni2/Data/Images/Anomaly/005.JPG": {
+      "image_sha256": "ccf66769921a9c189040db9e52008909358b774f978ba4ffc4484c8791a8b21c",
+      "mask_sha256": "60b50718202540be7c87ebd1c45324392af2f41714a8ab20814b279c3107a14b"
+    },
+    "visa:macaroni2/Data/Images/Anomaly/051.JPG": {
+      "image_sha256": "d3e182327459a89be860c0ecff5c3a112d8ff277163c28217a3096a8585f7019",
+      "mask_sha256": "cff2e52201e48b91bbbceffd143d337247cb1f640fc77f77224dbd9edbca328a"
+    },
+    "visa:macaroni2/Data/Images/Normal/0027.JPG": {
+      "image_sha256": "b3eed0b46163dcf4019511202df703c7917e4c009172c5150f017acb89783826",
+      "mask_sha256": null
+    },
+    "visa:macaroni2/Data/Images/Normal/0106.JPG": {
+      "image_sha256": "208848c634173eba21d92a0e7610111cd914262d3250150010a9f2a5d82dfefb",
+      "mask_sha256": null
+    },
+    "visa:macaroni2/Data/Images/Normal/0255.JPG": {
+      "image_sha256": "e94e5f85213e5dde0f89e82a53790d421593c21199f9168a5cbed3e15890df4d",
+      "mask_sha256": null
+    },
+    "visa:macaroni2/Data/Images/Normal/0264.JPG": {
+      "image_sha256": "5516aeecfd757e5a4326b2bc582175349fd5c84b0e8425e1a6b840bd666d9fae",
+      "mask_sha256": null
+    },
+    "visa:macaroni2/Data/Images/Normal/0291.JPG": {
+      "image_sha256": "17458c0b845d8f79ca0642b008849c72ddbd4566e81a7f964c7279349aa64fea",
+      "mask_sha256": null
+    },
+    "visa:macaroni2/Data/Images/Normal/0462.JPG": {
+      "image_sha256": "99bdd37de220c672846cc85c434893ed53030359745caa800e52c1aff70549f3",
+      "mask_sha256": null
+    },
+    "visa:macaroni2/Data/Images/Normal/0503.JPG": {
+      "image_sha256": "5b46db4d5dad6557e73f37f5a2f57c9ae0ab6a51b66e6815fef152079e12f540",
+      "mask_sha256": null
+    },
+    "visa:macaroni2/Data/Images/Normal/0615.JPG": {
+      "image_sha256": "12802b0bea6eacc554b98bf5bcabfbb48d9dde6c1b81d2e55c61499c9cd47016",
+      "mask_sha256": null
+    },
+    "visa:macaroni2/Data/Images/Normal/0626.JPG": {
+      "image_sha256": "e02f767f381bc48a9d9d997ce0b4a130e4ce36720c6df4bd732d7f049ec06571",
+      "mask_sha256": null
+    },
+    "visa:macaroni2/Data/Images/Normal/0750.JPG": {
+      "image_sha256": "29c634bbc6f105f015c10f93f729b14f0e167aff6c9d1403c233277983de01cd",
+      "mask_sha256": null
+    },
+    "visa:macaroni2/Data/Images/Normal/0835.JPG": {
+      "image_sha256": "e8eed719fbe04568d49e796055d58171ca873ec8d3e69cb13f409c3af4d94d87",
+      "mask_sha256": null
+    },
+    "visa:macaroni2/Data/Images/Normal/0848.JPG": {
+      "image_sha256": "857c2393beece39c49637acab12ef6878e82f284e55c9020c265bc4b041ec7d5",
+      "mask_sha256": null
+    },
+    "visa:macaroni2/Data/Images/Normal/0947.JPG": {
+      "image_sha256": "edd94b1eea9e2e99251fbc0d0c9789a0524521c8256262a1d2571a785f264c54",
+      "mask_sha256": null
+    }
+  },
+  "episodes": [
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "capsule",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "capsule",
+          "image": "capsule/test/good/000.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsule",
+          "image": "capsule/test/good/005.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsule",
+          "image": "capsule/test/poke/002.png",
+          "label": "anomaly",
+          "mask": "capsule/ground_truth/poke/002_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "capsule",
+          "image": "capsule/test/scratch/014.png",
+          "label": "anomaly",
+          "mask": "capsule/ground_truth/scratch/014_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "calibration",
+      "seed": 8841,
+      "shots": 1,
+      "support": [
+        {
+          "category": "capsule",
+          "image": "capsule/train/good/210.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "capsule",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "capsule",
+          "image": "capsule/test/good/000.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsule",
+          "image": "capsule/test/good/005.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsule",
+          "image": "capsule/test/poke/002.png",
+          "label": "anomaly",
+          "mask": "capsule/ground_truth/poke/002_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "capsule",
+          "image": "capsule/test/scratch/014.png",
+          "label": "anomaly",
+          "mask": "capsule/ground_truth/scratch/014_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "calibration",
+      "seed": 8841,
+      "shots": 2,
+      "support": [
+        {
+          "category": "capsule",
+          "image": "capsule/train/good/210.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "capsule",
+          "image": "capsule/train/good/053.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "capsule",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "capsule",
+          "image": "capsule/test/good/000.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsule",
+          "image": "capsule/test/good/005.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsule",
+          "image": "capsule/test/poke/002.png",
+          "label": "anomaly",
+          "mask": "capsule/ground_truth/poke/002_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "capsule",
+          "image": "capsule/test/scratch/014.png",
+          "label": "anomaly",
+          "mask": "capsule/ground_truth/scratch/014_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "calibration",
+      "seed": 8841,
+      "shots": 4,
+      "support": [
+        {
+          "category": "capsule",
+          "image": "capsule/train/good/210.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "capsule",
+          "image": "capsule/train/good/053.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "capsule",
+          "image": "capsule/train/good/027.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "capsule",
+          "image": "capsule/train/good/080.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "fryum",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "fryum",
+          "image": "fryum/Data/Images/Normal/377.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "fryum",
+          "image": "fryum/Data/Images/Normal/272.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "fryum",
+          "image": "fryum/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "fryum/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "fryum",
+          "image": "fryum/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "fryum/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "calibration",
+      "seed": 8841,
+      "shots": 1,
+      "support": [
+        {
+          "category": "fryum",
+          "image": "fryum/Data/Images/Normal/479.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "fryum",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "fryum",
+          "image": "fryum/Data/Images/Normal/377.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "fryum",
+          "image": "fryum/Data/Images/Normal/272.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "fryum",
+          "image": "fryum/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "fryum/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "fryum",
+          "image": "fryum/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "fryum/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "calibration",
+      "seed": 8841,
+      "shots": 2,
+      "support": [
+        {
+          "category": "fryum",
+          "image": "fryum/Data/Images/Normal/479.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "fryum",
+          "image": "fryum/Data/Images/Normal/121.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "fryum",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "fryum",
+          "image": "fryum/Data/Images/Normal/377.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "fryum",
+          "image": "fryum/Data/Images/Normal/272.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "fryum",
+          "image": "fryum/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "fryum/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "fryum",
+          "image": "fryum/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "fryum/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "calibration",
+      "seed": 8841,
+      "shots": 4,
+      "support": [
+        {
+          "category": "fryum",
+          "image": "fryum/Data/Images/Normal/479.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "fryum",
+          "image": "fryum/Data/Images/Normal/121.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "fryum",
+          "image": "fryum/Data/Images/Normal/062.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "fryum",
+          "image": "fryum/Data/Images/Normal/182.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "can",
+      "dataset": "mvtec_ad2",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "can",
+          "image": "can/validation/good/001_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "validation"
+        },
+        {
+          "category": "can",
+          "image": "can/validation/good/009_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "validation"
+        },
+        {
+          "category": "can",
+          "image": "can/validation/good/004_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "validation"
+        },
+        {
+          "category": "can",
+          "image": "can/validation/good/011_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "validation"
+        }
+      ],
+      "role": "calibration",
+      "seed": 8841,
+      "shots": 1,
+      "support": [
+        {
+          "category": "can",
+          "image": "can/train/good/396_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "can",
+      "dataset": "mvtec_ad2",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "can",
+          "image": "can/validation/good/001_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "validation"
+        },
+        {
+          "category": "can",
+          "image": "can/validation/good/009_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "validation"
+        },
+        {
+          "category": "can",
+          "image": "can/validation/good/004_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "validation"
+        },
+        {
+          "category": "can",
+          "image": "can/validation/good/011_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "validation"
+        }
+      ],
+      "role": "calibration",
+      "seed": 8841,
+      "shots": 2,
+      "support": [
+        {
+          "category": "can",
+          "image": "can/train/good/396_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "can",
+          "image": "can/train/good/101_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "can",
+      "dataset": "mvtec_ad2",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "can",
+          "image": "can/validation/good/001_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "validation"
+        },
+        {
+          "category": "can",
+          "image": "can/validation/good/009_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "validation"
+        },
+        {
+          "category": "can",
+          "image": "can/validation/good/004_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "validation"
+        },
+        {
+          "category": "can",
+          "image": "can/validation/good/011_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "validation"
+        }
+      ],
+      "role": "calibration",
+      "seed": 8841,
+      "shots": 4,
+      "support": [
+        {
+          "category": "can",
+          "image": "can/train/good/396_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "can",
+          "image": "can/train/good/101_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "can",
+          "image": "can/train/good/052_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "can",
+          "image": "can/train/good/151_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "cable",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "cable",
+          "image": "cable/test/good/045.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/good/006.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/cut_inner_insulation/011.png",
+          "label": "anomaly",
+          "mask": "cable/ground_truth/cut_inner_insulation/011_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/bent_wire/005.png",
+          "label": "anomaly",
+          "mask": "cable/ground_truth/bent_wire/005_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "validation",
+      "seed": 0,
+      "shots": 1,
+      "support": [
+        {
+          "category": "cable",
+          "image": "cable/train/good/060.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "cable",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "cable",
+          "image": "cable/test/good/045.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/good/006.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/cut_inner_insulation/011.png",
+          "label": "anomaly",
+          "mask": "cable/ground_truth/cut_inner_insulation/011_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/bent_wire/005.png",
+          "label": "anomaly",
+          "mask": "cable/ground_truth/bent_wire/005_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "validation",
+      "seed": 0,
+      "shots": 2,
+      "support": [
+        {
+          "category": "cable",
+          "image": "cable/train/good/060.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "cable",
+          "image": "cable/train/good/113.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "cable",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "cable",
+          "image": "cable/test/good/045.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/good/006.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/cut_inner_insulation/011.png",
+          "label": "anomaly",
+          "mask": "cable/ground_truth/cut_inner_insulation/011_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/bent_wire/005.png",
+          "label": "anomaly",
+          "mask": "cable/ground_truth/bent_wire/005_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "validation",
+      "seed": 0,
+      "shots": 4,
+      "support": [
+        {
+          "category": "cable",
+          "image": "cable/train/good/060.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "cable",
+          "image": "cable/train/good/113.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "cable",
+          "image": "cable/train/good/187.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "cable",
+          "image": "cable/train/good/141.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "cable",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "cable",
+          "image": "cable/test/good/045.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/good/006.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/cut_inner_insulation/011.png",
+          "label": "anomaly",
+          "mask": "cable/ground_truth/cut_inner_insulation/011_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/bent_wire/005.png",
+          "label": "anomaly",
+          "mask": "cable/ground_truth/bent_wire/005_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "validation",
+      "seed": 1,
+      "shots": 1,
+      "support": [
+        {
+          "category": "cable",
+          "image": "cable/train/good/168.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "cable",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "cable",
+          "image": "cable/test/good/045.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/good/006.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/cut_inner_insulation/011.png",
+          "label": "anomaly",
+          "mask": "cable/ground_truth/cut_inner_insulation/011_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/bent_wire/005.png",
+          "label": "anomaly",
+          "mask": "cable/ground_truth/bent_wire/005_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "validation",
+      "seed": 1,
+      "shots": 2,
+      "support": [
+        {
+          "category": "cable",
+          "image": "cable/train/good/168.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "cable",
+          "image": "cable/train/good/113.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "cable",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "cable",
+          "image": "cable/test/good/045.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/good/006.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/cut_inner_insulation/011.png",
+          "label": "anomaly",
+          "mask": "cable/ground_truth/cut_inner_insulation/011_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/bent_wire/005.png",
+          "label": "anomaly",
+          "mask": "cable/ground_truth/bent_wire/005_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "validation",
+      "seed": 1,
+      "shots": 4,
+      "support": [
+        {
+          "category": "cable",
+          "image": "cable/train/good/168.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "cable",
+          "image": "cable/train/good/113.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "cable",
+          "image": "cable/train/good/212.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "cable",
+          "image": "cable/train/good/104.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "cable",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "cable",
+          "image": "cable/test/good/045.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/good/006.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/cut_inner_insulation/011.png",
+          "label": "anomaly",
+          "mask": "cable/ground_truth/cut_inner_insulation/011_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/bent_wire/005.png",
+          "label": "anomaly",
+          "mask": "cable/ground_truth/bent_wire/005_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "validation",
+      "seed": 2,
+      "shots": 1,
+      "support": [
+        {
+          "category": "cable",
+          "image": "cable/train/good/066.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "cable",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "cable",
+          "image": "cable/test/good/045.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/good/006.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/cut_inner_insulation/011.png",
+          "label": "anomaly",
+          "mask": "cable/ground_truth/cut_inner_insulation/011_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/bent_wire/005.png",
+          "label": "anomaly",
+          "mask": "cable/ground_truth/bent_wire/005_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "validation",
+      "seed": 2,
+      "shots": 2,
+      "support": [
+        {
+          "category": "cable",
+          "image": "cable/train/good/066.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "cable",
+          "image": "cable/train/good/185.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "cable",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "cable",
+          "image": "cable/test/good/045.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/good/006.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/cut_inner_insulation/011.png",
+          "label": "anomaly",
+          "mask": "cable/ground_truth/cut_inner_insulation/011_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "cable",
+          "image": "cable/test/bent_wire/005.png",
+          "label": "anomaly",
+          "mask": "cable/ground_truth/bent_wire/005_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "validation",
+      "seed": 2,
+      "shots": 4,
+      "support": [
+        {
+          "category": "cable",
+          "image": "cable/train/good/066.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "cable",
+          "image": "cable/train/good/185.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "cable",
+          "image": "cable/train/good/024.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "cable",
+          "image": "cable/train/good/058.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "macaroni2",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0615.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0027.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "macaroni2/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "macaroni2/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "validation",
+      "seed": 0,
+      "shots": 1,
+      "support": [
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0264.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "macaroni2",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0615.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0027.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "macaroni2/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "macaroni2/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "validation",
+      "seed": 0,
+      "shots": 2,
+      "support": [
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0264.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0503.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "macaroni2",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0615.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0027.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "macaroni2/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "macaroni2/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "validation",
+      "seed": 0,
+      "shots": 4,
+      "support": [
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0264.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0503.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0848.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0626.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "macaroni2",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0615.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0027.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "macaroni2/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "macaroni2/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "validation",
+      "seed": 1,
+      "shots": 1,
+      "support": [
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0750.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "macaroni2",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0615.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0027.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "macaroni2/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "macaroni2/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "validation",
+      "seed": 1,
+      "shots": 2,
+      "support": [
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0750.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0503.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "macaroni2",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0615.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0027.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "macaroni2/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "macaroni2/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "validation",
+      "seed": 1,
+      "shots": 4,
+      "support": [
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0750.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0503.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0947.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0462.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "macaroni2",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0615.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0027.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "macaroni2/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "macaroni2/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "validation",
+      "seed": 2,
+      "shots": 1,
+      "support": [
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0291.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "macaroni2",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0615.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0027.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "macaroni2/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "macaroni2/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "validation",
+      "seed": 2,
+      "shots": 2,
+      "support": [
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0291.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0835.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "macaroni2",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0615.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0027.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "macaroni2/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "macaroni2/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "validation",
+      "seed": 2,
+      "shots": 4,
+      "support": [
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0291.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0835.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0106.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "macaroni2",
+          "image": "macaroni2/Data/Images/Normal/0255.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "bottle",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "bottle",
+          "image": "bottle/test/good/015.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/good/006.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/broken_large/006.png",
+          "label": "anomaly",
+          "mask": "bottle/ground_truth/broken_large/006_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/broken_small/002.png",
+          "label": "anomaly",
+          "mask": "bottle/ground_truth/broken_small/002_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "final_test",
+      "seed": 0,
+      "shots": 1,
+      "support": [
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/056.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "bottle",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "bottle",
+          "image": "bottle/test/good/015.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/good/006.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/broken_large/006.png",
+          "label": "anomaly",
+          "mask": "bottle/ground_truth/broken_large/006_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/broken_small/002.png",
+          "label": "anomaly",
+          "mask": "bottle/ground_truth/broken_small/002_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "final_test",
+      "seed": 0,
+      "shots": 2,
+      "support": [
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/056.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/106.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "bottle",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "bottle",
+          "image": "bottle/test/good/015.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/good/006.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/broken_large/006.png",
+          "label": "anomaly",
+          "mask": "bottle/ground_truth/broken_large/006_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/broken_small/002.png",
+          "label": "anomaly",
+          "mask": "bottle/ground_truth/broken_small/002_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "final_test",
+      "seed": 0,
+      "shots": 4,
+      "support": [
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/056.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/106.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/175.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/131.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "bottle",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "bottle",
+          "image": "bottle/test/good/015.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/good/006.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/broken_large/006.png",
+          "label": "anomaly",
+          "mask": "bottle/ground_truth/broken_large/006_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/broken_small/002.png",
+          "label": "anomaly",
+          "mask": "bottle/ground_truth/broken_small/002_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "final_test",
+      "seed": 1,
+      "shots": 1,
+      "support": [
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/157.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "bottle",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "bottle",
+          "image": "bottle/test/good/015.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/good/006.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/broken_large/006.png",
+          "label": "anomaly",
+          "mask": "bottle/ground_truth/broken_large/006_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/broken_small/002.png",
+          "label": "anomaly",
+          "mask": "bottle/ground_truth/broken_small/002_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "final_test",
+      "seed": 1,
+      "shots": 2,
+      "support": [
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/157.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/105.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "bottle",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "bottle",
+          "image": "bottle/test/good/015.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/good/006.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/broken_large/006.png",
+          "label": "anomaly",
+          "mask": "bottle/ground_truth/broken_large/006_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/broken_small/002.png",
+          "label": "anomaly",
+          "mask": "bottle/ground_truth/broken_small/002_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "final_test",
+      "seed": 1,
+      "shots": 4,
+      "support": [
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/157.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/105.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/198.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/097.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "bottle",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "bottle",
+          "image": "bottle/test/good/015.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/good/006.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/broken_large/006.png",
+          "label": "anomaly",
+          "mask": "bottle/ground_truth/broken_large/006_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/broken_small/002.png",
+          "label": "anomaly",
+          "mask": "bottle/ground_truth/broken_small/002_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "final_test",
+      "seed": 2,
+      "shots": 1,
+      "support": [
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/062.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "bottle",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "bottle",
+          "image": "bottle/test/good/015.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/good/006.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/broken_large/006.png",
+          "label": "anomaly",
+          "mask": "bottle/ground_truth/broken_large/006_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/broken_small/002.png",
+          "label": "anomaly",
+          "mask": "bottle/ground_truth/broken_small/002_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "final_test",
+      "seed": 2,
+      "shots": 2,
+      "support": [
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/062.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/172.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "bottle",
+      "dataset": "mvtec_ad",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "bottle",
+          "image": "bottle/test/good/015.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/good/006.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/broken_large/006.png",
+          "label": "anomaly",
+          "mask": "bottle/ground_truth/broken_large/006_mask.png",
+          "split": "test"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/test/broken_small/002.png",
+          "label": "anomaly",
+          "mask": "bottle/ground_truth/broken_small/002_mask.png",
+          "split": "test"
+        }
+      ],
+      "role": "final_test",
+      "seed": 2,
+      "shots": 4,
+      "support": [
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/062.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/172.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/022.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "bottle",
+          "image": "bottle/train/good/054.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "capsules",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/576.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/046.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "capsules/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "capsules/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "final_test",
+      "seed": 0,
+      "shots": 1,
+      "support": [
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/157.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "capsules",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/576.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/046.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "capsules/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "capsules/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "final_test",
+      "seed": 0,
+      "shots": 2,
+      "support": [
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/157.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/308.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "capsules",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/576.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/046.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "capsules/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "capsules/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "final_test",
+      "seed": 0,
+      "shots": 4,
+      "support": [
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/157.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/308.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/508.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/380.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "capsules",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/576.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/046.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "capsules/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "capsules/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "final_test",
+      "seed": 1,
+      "shots": 1,
+      "support": [
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/451.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "capsules",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/576.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/046.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "capsules/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "capsules/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "final_test",
+      "seed": 1,
+      "shots": 2,
+      "support": [
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/451.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/308.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "capsules",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/576.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/046.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "capsules/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "capsules/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "final_test",
+      "seed": 1,
+      "shots": 4,
+      "support": [
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/451.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/308.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/572.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/281.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "capsules",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/576.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/046.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "capsules/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "capsules/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "final_test",
+      "seed": 2,
+      "shots": 1,
+      "support": [
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/177.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "capsules",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/576.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/046.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "capsules/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "capsules/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "final_test",
+      "seed": 2,
+      "shots": 2,
+      "support": [
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/177.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/501.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "capsules",
+      "dataset": "visa",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/576.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/046.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Anomaly/051.JPG",
+          "label": "anomaly",
+          "mask": "capsules/Data/Masks/Anomaly/051.png",
+          "split": "test"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Anomaly/005.JPG",
+          "label": "anomaly",
+          "mask": "capsules/Data/Masks/Anomaly/005.png",
+          "split": "test"
+        }
+      ],
+      "role": "final_test",
+      "seed": 2,
+      "shots": 4,
+      "support": [
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/177.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/501.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/067.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "capsules",
+          "image": "capsules/Data/Images/Normal/151.JPG",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "can",
+      "dataset": "mvtec_ad2",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "can",
+          "image": "can/test_public/good/005_underexposed.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/good/010_shift_1.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/bad/007_underexposed.png",
+          "label": "anomaly",
+          "mask": "can/test_public/ground_truth/bad/007_underexposed_mask.png",
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/bad/000_underexposed.png",
+          "label": "anomaly",
+          "mask": "can/test_public/ground_truth/bad/000_underexposed_mask.png",
+          "split": "test_public"
+        }
+      ],
+      "role": "stress_final_public",
+      "seed": 0,
+      "shots": 1,
+      "support": [
+        {
+          "category": "can",
+          "image": "can/train/good/111_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "can",
+      "dataset": "mvtec_ad2",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "can",
+          "image": "can/test_public/good/005_underexposed.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/good/010_shift_1.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/bad/007_underexposed.png",
+          "label": "anomaly",
+          "mask": "can/test_public/ground_truth/bad/007_underexposed_mask.png",
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/bad/000_underexposed.png",
+          "label": "anomaly",
+          "mask": "can/test_public/ground_truth/bad/000_underexposed_mask.png",
+          "split": "test_public"
+        }
+      ],
+      "role": "stress_final_public",
+      "seed": 0,
+      "shots": 2,
+      "support": [
+        {
+          "category": "can",
+          "image": "can/train/good/111_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "can",
+          "image": "can/train/good/210_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "can",
+      "dataset": "mvtec_ad2",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "can",
+          "image": "can/test_public/good/005_underexposed.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/good/010_shift_1.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/bad/007_underexposed.png",
+          "label": "anomaly",
+          "mask": "can/test_public/ground_truth/bad/007_underexposed_mask.png",
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/bad/000_underexposed.png",
+          "label": "anomaly",
+          "mask": "can/test_public/ground_truth/bad/000_underexposed_mask.png",
+          "split": "test_public"
+        }
+      ],
+      "role": "stress_final_public",
+      "seed": 0,
+      "shots": 4,
+      "support": [
+        {
+          "category": "can",
+          "image": "can/train/good/111_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "can",
+          "image": "can/train/good/210_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "can",
+          "image": "can/train/good/347_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "can",
+          "image": "can/train/good/261_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "can",
+      "dataset": "mvtec_ad2",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "can",
+          "image": "can/test_public/good/005_underexposed.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/good/010_shift_1.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/bad/007_underexposed.png",
+          "label": "anomaly",
+          "mask": "can/test_public/ground_truth/bad/007_underexposed_mask.png",
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/bad/000_underexposed.png",
+          "label": "anomaly",
+          "mask": "can/test_public/ground_truth/bad/000_underexposed_mask.png",
+          "split": "test_public"
+        }
+      ],
+      "role": "stress_final_public",
+      "seed": 1,
+      "shots": 1,
+      "support": [
+        {
+          "category": "can",
+          "image": "can/train/good/310_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "can",
+      "dataset": "mvtec_ad2",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "can",
+          "image": "can/test_public/good/005_underexposed.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/good/010_shift_1.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/bad/007_underexposed.png",
+          "label": "anomaly",
+          "mask": "can/test_public/ground_truth/bad/007_underexposed_mask.png",
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/bad/000_underexposed.png",
+          "label": "anomaly",
+          "mask": "can/test_public/ground_truth/bad/000_underexposed_mask.png",
+          "split": "test_public"
+        }
+      ],
+      "role": "stress_final_public",
+      "seed": 1,
+      "shots": 2,
+      "support": [
+        {
+          "category": "can",
+          "image": "can/train/good/310_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "can",
+          "image": "can/train/good/209_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "can",
+      "dataset": "mvtec_ad2",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "can",
+          "image": "can/test_public/good/005_underexposed.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/good/010_shift_1.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/bad/007_underexposed.png",
+          "label": "anomaly",
+          "mask": "can/test_public/ground_truth/bad/007_underexposed_mask.png",
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/bad/000_underexposed.png",
+          "label": "anomaly",
+          "mask": "can/test_public/ground_truth/bad/000_underexposed_mask.png",
+          "split": "test_public"
+        }
+      ],
+      "role": "stress_final_public",
+      "seed": 1,
+      "shots": 4,
+      "support": [
+        {
+          "category": "can",
+          "image": "can/train/good/310_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "can",
+          "image": "can/train/good/209_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "can",
+          "image": "can/train/good/391_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "can",
+          "image": "can/train/good/193_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "can",
+      "dataset": "mvtec_ad2",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "can",
+          "image": "can/test_public/good/005_underexposed.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/good/010_shift_1.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/bad/007_underexposed.png",
+          "label": "anomaly",
+          "mask": "can/test_public/ground_truth/bad/007_underexposed_mask.png",
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/bad/000_underexposed.png",
+          "label": "anomaly",
+          "mask": "can/test_public/ground_truth/bad/000_underexposed_mask.png",
+          "split": "test_public"
+        }
+      ],
+      "role": "stress_final_public",
+      "seed": 2,
+      "shots": 1,
+      "support": [
+        {
+          "category": "can",
+          "image": "can/train/good/122_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "can",
+      "dataset": "mvtec_ad2",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "can",
+          "image": "can/test_public/good/005_underexposed.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/good/010_shift_1.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/bad/007_underexposed.png",
+          "label": "anomaly",
+          "mask": "can/test_public/ground_truth/bad/007_underexposed_mask.png",
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/bad/000_underexposed.png",
+          "label": "anomaly",
+          "mask": "can/test_public/ground_truth/bad/000_underexposed_mask.png",
+          "split": "test_public"
+        }
+      ],
+      "role": "stress_final_public",
+      "seed": 2,
+      "shots": 2,
+      "support": [
+        {
+          "category": "can",
+          "image": "can/train/good/122_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "can",
+          "image": "can/train/good/342_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "acquisition_budget": 0,
+      "candidate_pool_ids": [],
+      "category": "can",
+      "dataset": "mvtec_ad2",
+      "final_query_labels_used_for_tuning": false,
+      "protocol": "A_strict_fixed_shot",
+      "queries": [
+        {
+          "category": "can",
+          "image": "can/test_public/good/005_underexposed.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/good/010_shift_1.png",
+          "label": "normal",
+          "mask": null,
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/bad/007_underexposed.png",
+          "label": "anomaly",
+          "mask": "can/test_public/ground_truth/bad/007_underexposed_mask.png",
+          "split": "test_public"
+        },
+        {
+          "category": "can",
+          "image": "can/test_public/bad/000_underexposed.png",
+          "label": "anomaly",
+          "mask": "can/test_public/ground_truth/bad/000_underexposed_mask.png",
+          "split": "test_public"
+        }
+      ],
+      "role": "stress_final_public",
+      "seed": 2,
+      "shots": 4,
+      "support": [
+        {
+          "category": "can",
+          "image": "can/train/good/122_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "can",
+          "image": "can/train/good/342_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "can",
+          "image": "can/train/good/044_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        },
+        {
+          "category": "can",
+          "image": "can/train/good/107_regular.png",
+          "label": "normal",
+          "mask": null,
+          "split": "train"
+        }
+      ]
+    }
+  ],
+  "public_test_history": "bottle/capsules had earlier feasibility evaluation; this is not a claim of a newly untouched test set",
+  "queries_by_role": {
+    "calibration": 12,
+    "final_test": 8,
+    "stress_final_public": 4,
+    "validation": 8
+  },
+  "query_sampling": "predeclared stratified native-label subset with fixed query seed; all if queries_per_label=null; no metric-guided selection",
+  "role_config_sha256": "d064c87f102b7d363e2e5a615c2303b83e6289541fea9a340e4bd06dca05b057",
+  "role_manifest_sha256": "3569bcefc5aabac86580d931195b80e82db7984918d38e279bbefe0d2d35a37e"
+}

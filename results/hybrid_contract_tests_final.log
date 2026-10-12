@@ -1,0 +1,53 @@
+test_synthetic_budget_and_repeat_enforced (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_budget_and_repeat_enforced) ... ok
+test_synthetic_calibration_and_test_sources_rejected (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_calibration_and_test_sources_rejected) ... ok
+test_synthetic_candidate_query_overlap_rejected (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_candidate_query_overlap_rejected) ... ok
+test_synthetic_category_roles_overlap_rejected (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_category_roles_overlap_rejected) ... ok
+test_synthetic_diagnostics_preserve_detector_evidence (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_diagnostics_preserve_detector_evidence) ... ok
+test_synthetic_image_loss_uses_actual_image_score (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_image_loss_uses_actual_image_score) ... ok
+test_synthetic_loss_detects_defect_explanation_away (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_loss_detects_defect_explanation_away) ... ok
+test_synthetic_nearest_and_diversity_use_features (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_nearest_and_diversity_use_features) ... ok
+test_synthetic_one_reference_loo_is_missing (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_one_reference_loo_is_missing) ... ok
+test_synthetic_oracle_can_have_negative_best_benefit (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_oracle_can_have_negative_best_benefit) ... ok
+test_synthetic_oracle_rejected_in_deployment (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_oracle_rejected_in_deployment) ... ok
+test_synthetic_policy_input_rejects_query_labels (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_policy_input_rejects_query_labels) ... ok
+test_synthetic_random_is_deterministic (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_random_is_deterministic) ... ok
+test_synthetic_bad_checksum_never_publishes_data (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_bad_checksum_never_publishes_data) ... ok
+test_synthetic_existing_data_is_preserved (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_existing_data_is_preserved) ... ok
+test_synthetic_leakage_causes_nonzero_cli_exit (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_leakage_causes_nonzero_cli_exit) ... ok
+test_synthetic_misaligned_mask_reported (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_misaligned_mask_reported) ... ok
+test_synthetic_missing_mask_reported (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_missing_mask_reported) ... ok
+test_synthetic_path_escape_rejected (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_path_escape_rejected) ... ok
+test_synthetic_unsafe_archive_never_escapes_staging (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_unsafe_archive_never_escapes_staging) ... ok
+test_synthetic_visa_multiclass_mask_allowed (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_visa_multiclass_mask_allowed) ... ok
+test_adequacy_bounded_and_density_sensitive (test_hybrid_pipeline.HybridPipelineTests.test_adequacy_bounded_and_density_sensitive) ... ok
+test_aspect_resize_padding_geometry (test_hybrid_pipeline.HybridPipelineTests.test_aspect_resize_padding_geometry) ... ok
+test_calibration_cannot_accept_final_role (test_hybrid_pipeline.HybridPipelineTests.test_calibration_cannot_accept_final_role) ... ok
+test_degenerate_support_has_no_invented_spectral_diversity (test_hybrid_pipeline.HybridPipelineTests.test_degenerate_support_has_no_invented_spectral_diversity) ... ok
+test_export_rejects_escape_nan_and_float16_overflow (test_hybrid_pipeline.HybridPipelineTests.test_export_rejects_escape_nan_and_float16_overflow) ... ok
+test_immutable_metrics_refuse_overwrite (test_hybrid_pipeline.HybridPipelineTests.test_immutable_metrics_refuse_overwrite) ... ok
+test_low_adequacy_cannot_erase_raw_evidence (test_hybrid_pipeline.HybridPipelineTests.test_low_adequacy_cannot_erase_raw_evidence) ... ok
+test_low_adequacy_review_preserves_high_evidence_flag (test_hybrid_pipeline.HybridPipelineTests.test_low_adequacy_review_preserves_high_evidence_flag) ... ok
+test_native_float16_histogram_auc_ap_f1_matches_sklearn (test_hybrid_pipeline.HybridPipelineTests.test_native_float16_histogram_auc_ap_f1_matches_sklearn) ... ok
+test_native_restore_removes_padding (test_hybrid_pipeline.HybridPipelineTests.test_native_restore_removes_padding) ... ok
+test_official_anomalydino_supported_core_matches_manual_cosine (test_hybrid_pipeline.HybridPipelineTests.test_official_anomalydino_supported_core_matches_manual_cosine) ... <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute
+<frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute
+<frozen importlib._bootstrap>:488: DeprecationWarning: builtin type swigvarlink has no __module__ attribute
+ok
+test_official_subspacead_core_matches_independent_reconstruction (test_hybrid_pipeline.HybridPipelineTests.test_official_subspacead_core_matches_independent_reconstruction) ... PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 6393.76it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 8422.30it/s]
+ok
+test_offline_f1_max_does_not_replace_locked_cutoff (test_hybrid_pipeline.HybridPipelineTests.test_offline_f1_max_does_not_replace_locked_cutoff) ... ok
+test_pca_dual_projector_matches_independent_sklearn (test_hybrid_pipeline.HybridPipelineTests.test_pca_dual_projector_matches_independent_sklearn) ... ok
+test_real_official_export_checker_validates_float16_and_binary (test_hybrid_pipeline.HybridPipelineTests.test_real_official_export_checker_validates_float16_and_binary) ... ok
+test_threshold_requires_calibration_provenance (test_hybrid_pipeline.HybridPipelineTests.test_threshold_requires_calibration_provenance) ... ok
+test_synthetic_cache_invalidates_provenance_changes (test_patch_nn_synthetic.SyntheticPatchNNTests.test_synthetic_cache_invalidates_provenance_changes) ... ok
+test_synthetic_fixed_shot_budget_rejected (test_patch_nn_synthetic.SyntheticPatchNNTests.test_synthetic_fixed_shot_budget_rejected) ... ok
+test_synthetic_grid_restoration_preserves_corners_and_size (test_patch_nn_synthetic.SyntheticPatchNNTests.test_synthetic_grid_restoration_preserves_corners_and_size) ... ok
+test_synthetic_invalid_grid_rejected (test_patch_nn_synthetic.SyntheticPatchNNTests.test_synthetic_invalid_grid_rejected) ... ok
+test_synthetic_normalized_euclidean_distance (test_patch_nn_synthetic.SyntheticPatchNNTests.test_synthetic_normalized_euclidean_distance) ... ok
+test_synthetic_support_query_overlap_rejected (test_patch_nn_synthetic.SyntheticPatchNNTests.test_synthetic_support_query_overlap_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 0.822s
+
+OK

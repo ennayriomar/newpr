@@ -1,0 +1,92 @@
+{
+  "actions": {
+    "defective": 2,
+    "normal": 2
+  },
+  "adequacy_precision": {
+    "curve": [
+      {
+        "accepted": 4,
+        "adequacy_threshold": 0.0,
+        "coverage": 1.0,
+        "precision_correct_decision": 1.0
+      },
+      {
+        "accepted": 4,
+        "adequacy_threshold": 0.6010662913322449,
+        "coverage": 1.0,
+        "precision_correct_decision": 1.0
+      },
+      {
+        "accepted": 3,
+        "adequacy_threshold": 0.6019172668457031,
+        "coverage": 0.75,
+        "precision_correct_decision": 1.0
+      },
+      {
+        "accepted": 2,
+        "adequacy_threshold": 0.6026289463043213,
+        "coverage": 0.5,
+        "precision_correct_decision": 1.0
+      },
+      {
+        "accepted": 1,
+        "adequacy_threshold": 0.6029664874076843,
+        "coverage": 0.25,
+        "precision_correct_decision": 1.0
+      },
+      {
+        "accepted": 0,
+        "adequacy_threshold": 1.0,
+        "coverage": 0.0,
+        "precision_correct_decision": null
+      }
+    ],
+    "event": "image decision correct at locked calibration cutoff; empirical correctness proxy, NOT ground-truth support adequacy"
+  },
+  "calibration_ids": [
+    "visa:fryum/Data/Images/Normal/377.JPG",
+    "visa:fryum/Data/Images/Normal/272.JPG",
+    "visa:fryum/Data/Images/Anomaly/051.JPG",
+    "visa:fryum/Data/Images/Anomaly/005.JPG"
+  ],
+  "category": "capsules",
+  "dataset": "visa",
+  "image": {
+    "ap": 1.0,
+    "auroc": 1.0,
+    "f1_max_offline": 1.0,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 0,
+    "fp": 0,
+    "locked_f1": 1.0,
+    "locked_threshold": 0.908994197845459,
+    "tp": 2
+  },
+  "method": "support_hybrid",
+  "pixel": {
+    "ap": 0.0108456092678848,
+    "auroc": 0.9331897659189095,
+    "f1_max_offline": 0.027197850152023806,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 0,
+    "fp": 3013393,
+    "locked_f1": 0.004969550359706291,
+    "locked_threshold": 0.6322742700576782,
+    "tp": 7525
+  },
+  "queries": 4,
+  "query_repeat_semantics": "same locked queries across methods/k/support draws; draws are not independent query populations",
+  "role": "final_test",
+  "seed": 1,
+  "selective_decision": {
+    "accepted": 4,
+    "accuracy_accepted": 1.0,
+    "adequacy_threshold": 0.5,
+    "correct_accepted": 4,
+    "coverage": 1.0,
+    "semantics": "empirical accepted-decision correctness; no guarantee"
+  },
+  "shots": 2,
+  "unique_query_count": 4
+}

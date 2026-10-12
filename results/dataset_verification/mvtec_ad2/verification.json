@@ -1,0 +1,226 @@
+{
+  "dataset": "mvtec_ad2",
+  "root": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2",
+  "status": "passed",
+  "real_data": true,
+  "pretrained_weights_used": false,
+  "categories": [
+    "can",
+    "fabric",
+    "fruit_jelly",
+    "rice",
+    "sheet_metal",
+    "vial",
+    "wallplugs",
+    "walnuts"
+  ],
+  "total_images": 3914,
+  "counts": [
+    {
+      "category": "can",
+      "split": "test_public",
+      "label": "anomaly",
+      "count": 90
+    },
+    {
+      "category": "can",
+      "split": "test_public",
+      "label": "normal",
+      "count": 72
+    },
+    {
+      "category": "can",
+      "split": "train",
+      "label": "normal",
+      "count": 412
+    },
+    {
+      "category": "can",
+      "split": "validation",
+      "label": "normal",
+      "count": 46
+    },
+    {
+      "category": "fabric",
+      "split": "test_public",
+      "label": "anomaly",
+      "count": 90
+    },
+    {
+      "category": "fabric",
+      "split": "test_public",
+      "label": "normal",
+      "count": 66
+    },
+    {
+      "category": "fabric",
+      "split": "train",
+      "label": "normal",
+      "count": 387
+    },
+    {
+      "category": "fabric",
+      "split": "validation",
+      "label": "normal",
+      "count": 43
+    },
+    {
+      "category": "fruit_jelly",
+      "split": "test_public",
+      "label": "anomaly",
+      "count": 60
+    },
+    {
+      "category": "fruit_jelly",
+      "split": "test_public",
+      "label": "normal",
+      "count": 20
+    },
+    {
+      "category": "fruit_jelly",
+      "split": "train",
+      "label": "normal",
+      "count": 263
+    },
+    {
+      "category": "fruit_jelly",
+      "split": "validation",
+      "label": "normal",
+      "count": 37
+    },
+    {
+      "category": "rice",
+      "split": "test_public",
+      "label": "anomaly",
+      "count": 90
+    },
+    {
+      "category": "rice",
+      "split": "test_public",
+      "label": "normal",
+      "count": 42
+    },
+    {
+      "category": "rice",
+      "split": "train",
+      "label": "normal",
+      "count": 313
+    },
+    {
+      "category": "rice",
+      "split": "validation",
+      "label": "normal",
+      "count": 35
+    },
+    {
+      "category": "sheet_metal",
+      "split": "test_public",
+      "label": "anomaly",
+      "count": 90
+    },
+    {
+      "category": "sheet_metal",
+      "split": "test_public",
+      "label": "normal",
+      "count": 24
+    },
+    {
+      "category": "sheet_metal",
+      "split": "train",
+      "label": "normal",
+      "count": 137
+    },
+    {
+      "category": "sheet_metal",
+      "split": "validation",
+      "label": "normal",
+      "count": 19
+    },
+    {
+      "category": "vial",
+      "split": "test_public",
+      "label": "anomaly",
+      "count": 105
+    },
+    {
+      "category": "vial",
+      "split": "test_public",
+      "label": "normal",
+      "count": 35
+    },
+    {
+      "category": "vial",
+      "split": "train",
+      "label": "normal",
+      "count": 291
+    },
+    {
+      "category": "vial",
+      "split": "validation",
+      "label": "normal",
+      "count": 41
+    },
+    {
+      "category": "wallplugs",
+      "split": "test_public",
+      "label": "anomaly",
+      "count": 90
+    },
+    {
+      "category": "wallplugs",
+      "split": "test_public",
+      "label": "normal",
+      "count": 60
+    },
+    {
+      "category": "wallplugs",
+      "split": "train",
+      "label": "normal",
+      "count": 293
+    },
+    {
+      "category": "wallplugs",
+      "split": "validation",
+      "label": "normal",
+      "count": 33
+    },
+    {
+      "category": "walnuts",
+      "split": "test_public",
+      "label": "anomaly",
+      "count": 90
+    },
+    {
+      "category": "walnuts",
+      "split": "test_public",
+      "label": "normal",
+      "count": 60
+    },
+    {
+      "category": "walnuts",
+      "split": "train",
+      "label": "normal",
+      "count": 432
+    },
+    {
+      "category": "walnuts",
+      "split": "validation",
+      "label": "normal",
+      "count": 48
+    }
+  ],
+  "split_csv": null,
+  "native_splits_checked": [
+    "test_public",
+    "train",
+    "validation"
+  ],
+  "experimental_manifest_status": "not_created; no experimental support/validation/calibration assignment is claimed",
+  "mask_semantics": "VisA native integer class IDs are binarized as >0 for visuals only; MVTec masks must use 0/255.",
+  "private_test_evaluation": "not_performed",
+  "issues": [],
+  "versions": {
+    "numpy": "2.3.5",
+    "pillow": "12.3.0"
+  }
+}

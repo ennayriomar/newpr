@@ -1,0 +1,25 @@
+{
+  "dataset": "visa",
+  "category": "capsules",
+  "seed": 0,
+  "policy": "oracle",
+  "initial_shots": 1,
+  "allowed_acquisition_budget": 1,
+  "candidate_pool_size": 16,
+  "queries": 8,
+  "added_normal_references": 8,
+  "image_auroc": 0.625,
+  "image_ap": 0.6220238095238095,
+  "pixel_auroc": 0.9128629422852393,
+  "pixel_ap": 0.014680772802098636,
+  "mean_offline_benefit": 0.031751188449561596,
+  "harmful_interventions": 0,
+  "beneficial_interventions": 8,
+  "oracle_is_deployable": false,
+  "loss_specification": {
+    "type": "balanced_pixel_margin_mse",
+    "margin": 1.0
+  },
+  "scope": "Locked small feasibility evaluation; no threshold or model selection; no confidence interval.",
+  "budget_unit": "per query inspection; reset to the same initial S for each query; no cumulative bank across queries"
+}

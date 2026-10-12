@@ -1,0 +1,8 @@
+{
+  "ranking_metrics_unchanged_across_calibration_correction": 180,
+  "test_label_tuning": false,
+  "strict_accepted": 165,
+  "strict_correct_accepted": 88,
+  "ad2_accepted": 36,
+  "ad2_correct_accepted": 16
+}

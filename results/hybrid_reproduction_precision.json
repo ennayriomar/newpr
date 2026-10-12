@@ -1,0 +1,42 @@
+{
+  "checks": [
+    {
+      "float32_features_bitwise_equal": true,
+      "image_id": "cable/test/good/045.png",
+      "method": "transparent_nn",
+      "preprocessing_library_versions_in_cache_key": true,
+      "raw_adequacy_mean_exact_equal": true,
+      "raw_image_score_exact_equal": true,
+      "stored_maps_bitwise_equal": true
+    },
+    {
+      "float32_features_bitwise_equal": true,
+      "image_id": "cable/test/good/045.png",
+      "method": "anomalydino",
+      "preprocessing_library_versions_in_cache_key": true,
+      "raw_adequacy_mean_exact_equal": true,
+      "raw_image_score_exact_equal": true,
+      "stored_maps_bitwise_equal": true
+    },
+    {
+      "float32_features_bitwise_equal": true,
+      "image_id": "cable/test/good/045.png",
+      "method": "subspacead",
+      "preprocessing_library_versions_in_cache_key": true,
+      "raw_adequacy_mean_exact_equal": true,
+      "raw_image_score_exact_equal": true,
+      "stored_maps_bitwise_equal": true
+    },
+    {
+      "float32_features_bitwise_equal": true,
+      "image_id": "cable/test/good/045.png",
+      "method": "support_hybrid",
+      "preprocessing_library_versions_in_cache_key": true,
+      "raw_adequacy_mean_exact_equal": true,
+      "raw_image_score_exact_equal": true,
+      "stored_maps_bitwise_equal": true
+    }
+  ],
+  "scope": "one independent real query per method; not a full new rerun of all episodes",
+  "status": "passed"
+}

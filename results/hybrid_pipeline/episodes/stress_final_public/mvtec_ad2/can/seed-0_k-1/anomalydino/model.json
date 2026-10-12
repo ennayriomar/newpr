@@ -1,0 +1,15 @@
+{
+  "acquisition_budget": 0,
+  "augmented_images": 0,
+  "base_normal_images": 1,
+  "candidate_pool_size": 0,
+  "deviations": "ViT-B/14, configured resolution, paired support IDs; not default ViT-S/14 448 agnostic results",
+  "feature_dim": 768,
+  "image_aggregation": "official floor top1% patches, max if <100 patches",
+  "knn_metric": "L2_normalized squared distance / 2 = 1-cosine",
+  "map": "official cv2 bilinear + scipy Gaussian sigma=4",
+  "memory_tokens": 544,
+  "method": "anomalydino",
+  "neighbors": 1,
+  "preprocessing": "official supported force_no_mask_no_rotation"
+}

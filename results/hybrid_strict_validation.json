@@ -1,0 +1,33 @@
+{
+  "actions_across_all_methods": {
+    "defective": 313,
+    "normal": 392,
+    "unresolved/reference-insufficient": 15
+  },
+  "all_decisions_use_locked_calibration_cutoffs": true,
+  "all_native_map_shapes_dtypes_finite": true,
+  "all_prediction_records_including_calibration": 864,
+  "artifact_hashes_checked": 1607,
+  "calibration_evaluation_overlap": 0,
+  "evaluation_prediction_records": 720,
+  "full_paper_reproductions_validated": false,
+  "hybrid_adequacy_bounded_and_local_evidence_preserved": true,
+  "map_storage": "explicit float16; pilot metric computation used float32 native scores",
+  "native_test_defect_labels_used_for_calibration": false,
+  "official_export_file_checks": "passed",
+  "official_real_public_exports": 36,
+  "prediction_roles": {
+    "calibration": 144,
+    "final_test": 288,
+    "stress_final_public": 144,
+    "validation": 288
+  },
+  "private_submission_completeness": "correctly_rejected_incomplete_public_preview: Missing directories: [fabric, fruit_jelly, rice, sheet_metal, ...] + 3 more in /workspace/reports/hybrid_pipeline_strict/episodes/stress_final_public/mvtec_ad2/can/seed-0_k-1/support_hybrid/ad2_local_export/anomaly_images.",
+  "production_ready": false,
+  "status": "passed",
+  "stored_native_maps": 1944,
+  "strict_shots_and_zero_pools_checked": true,
+  "unique_calibration_queries": 12,
+  "unique_evaluation_queries": 20,
+  "verified_real_images": 20089
+}

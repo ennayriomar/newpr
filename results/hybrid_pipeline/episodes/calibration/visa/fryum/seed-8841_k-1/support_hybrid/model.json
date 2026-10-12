@@ -1,0 +1,18 @@
+{
+  "acquisition_budget": 0,
+  "adequacy_semantics": "empirical spectral-diversity/density diagnostic; not probability",
+  "augmented_images": 0,
+  "base_normal_images": 1,
+  "candidate_pool_size": 0,
+  "density_bound": 0.8453747034072876,
+  "density_neighbors": 8,
+  "feature_dim": 3072,
+  "gating": "max(local_L2, global_orthogonal_L2, nearest_delta_orthogonal_L2)",
+  "memory_tokens": 176,
+  "method": "support_hybrid",
+  "normalized_entropy": 0.6354157367298415,
+  "pca_components": 123,
+  "retained_variance": 0.9901076093659467,
+  "spectral_entropy": 3.2817862846725623,
+  "support_patch_dependence": "patches are correlated; token count is not independent-image sample size"
+}

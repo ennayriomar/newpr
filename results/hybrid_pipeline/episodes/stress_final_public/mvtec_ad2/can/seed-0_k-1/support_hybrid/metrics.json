@@ -1,0 +1,91 @@
+{
+  "actions": {
+    "normal": 4
+  },
+  "adequacy_precision": {
+    "curve": [
+      {
+        "accepted": 4,
+        "adequacy_threshold": 0.0,
+        "coverage": 1.0,
+        "precision_correct_decision": 0.5
+      },
+      {
+        "accepted": 4,
+        "adequacy_threshold": 0.6153192520141602,
+        "coverage": 1.0,
+        "precision_correct_decision": 0.5
+      },
+      {
+        "accepted": 3,
+        "adequacy_threshold": 0.6193914413452148,
+        "coverage": 0.75,
+        "precision_correct_decision": 0.3333333333333333
+      },
+      {
+        "accepted": 2,
+        "adequacy_threshold": 0.6290941834449768,
+        "coverage": 0.5,
+        "precision_correct_decision": 0.0
+      },
+      {
+        "accepted": 1,
+        "adequacy_threshold": 0.6662598252296448,
+        "coverage": 0.25,
+        "precision_correct_decision": 0.0
+      },
+      {
+        "accepted": 0,
+        "adequacy_threshold": 1.0,
+        "coverage": 0.0,
+        "precision_correct_decision": null
+      }
+    ],
+    "event": "image decision correct at locked calibration cutoff; empirical correctness proxy, NOT ground-truth support adequacy"
+  },
+  "calibration_ids": [
+    "mvtec_ad2:can/validation/good/001_regular.png",
+    "mvtec_ad2:can/validation/good/009_regular.png",
+    "mvtec_ad2:can/validation/good/004_regular.png",
+    "mvtec_ad2:can/validation/good/011_regular.png"
+  ],
+  "category": "can",
+  "dataset": "mvtec_ad2",
+  "image": {
+    "ap": 0.5,
+    "auroc": 0.25,
+    "f1_max_offline": 0.6666666666666666,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 2,
+    "fp": 0,
+    "locked_f1": 0.0,
+    "locked_threshold": 1.2341286562079121,
+    "tp": 0
+  },
+  "method": "support_hybrid",
+  "pixel": {
+    "ap": 1.0758340427961378e-05,
+    "auroc": 0.25906993074408147,
+    "f1_max_offline": 3.63572081719351e-05,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 156,
+    "fp": 0,
+    "locked_f1": 0.0,
+    "locked_threshold": 1.2872769832611084,
+    "tp": 0
+  },
+  "queries": 4,
+  "query_repeat_semantics": "same locked queries across methods/k/support draws; draws are not independent query populations",
+  "role": "stress_final_public",
+  "seed": 0,
+  "selective_decision": {
+    "accepted": 4,
+    "accuracy_accepted": 0.5,
+    "adequacy_threshold": 0.5,
+    "correct_accepted": 2,
+    "coverage": 1.0,
+    "semantics": "empirical accepted-decision correctness; no guarantee"
+  },
+  "shots": 1,
+  "unique_query_count": 4
+}

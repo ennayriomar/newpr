@@ -1,0 +1,76 @@
+{
+  "dataset": "visa",
+  "category": "capsules",
+  "seed": 1,
+  "shots": 1,
+  "protocol": "A_strict_fixed_shot",
+  "candidate_pool_size": 0,
+  "acquisition_budget": 0,
+  "support_ids": [
+    "capsules/Data/Images/Normal/567.JPG"
+  ],
+  "query_ids": [
+    "capsules/Data/Images/Normal/011.JPG",
+    "capsules/Data/Images/Normal/013.JPG",
+    "capsules/Data/Images/Normal/016.JPG",
+    "capsules/Data/Images/Normal/024.JPG",
+    "capsules/Data/Images/Anomaly/000.JPG",
+    "capsules/Data/Images/Anomaly/001.JPG",
+    "capsules/Data/Images/Anomaly/002.JPG",
+    "capsules/Data/Images/Anomaly/003.JPG"
+  ],
+  "checkpoint_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+  "source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "preprocessing": "rgb-resize224-pillow-bicubic-imagenet-v1",
+  "layer_configuration": "final-x_norm_patchtokens; l2-normalized-for-scoring",
+  "test_labels_used_for_tuning": false,
+  "validation_and_calibration": "not used; no thresholds or calibration fitted",
+  "query_sampling": "first sorted normal/anomaly test images; predeclared feasibility subset, not the full test set",
+  "data_fingerprints": [
+    {
+      "image_id": "capsules/Data/Images/Normal/567.JPG",
+      "image_sha256": "4183bd134f1ebec7f5e768874f0f57e7f9751af7501a8a649fd32043a1addd3f",
+      "mask_sha256": null
+    },
+    {
+      "image_id": "capsules/Data/Images/Normal/011.JPG",
+      "image_sha256": "f5bbabfeef8e263ea8bbb99fef0c3cd9837558022b493f8b7eb4bd28c455123f",
+      "mask_sha256": null
+    },
+    {
+      "image_id": "capsules/Data/Images/Normal/013.JPG",
+      "image_sha256": "155b574c3f51e9a610f393877b3443a8e15e59e54f9cc3efa60dcb014404d3d7",
+      "mask_sha256": null
+    },
+    {
+      "image_id": "capsules/Data/Images/Normal/016.JPG",
+      "image_sha256": "01a4cc23717deebbf1d861ff8e896447cff5a693e26281569c7d7e022dd472fb",
+      "mask_sha256": null
+    },
+    {
+      "image_id": "capsules/Data/Images/Normal/024.JPG",
+      "image_sha256": "1b3651720330967edb1c43c81504162f3bf38d63c2afc8fb0aa3934df1a12652",
+      "mask_sha256": null
+    },
+    {
+      "image_id": "capsules/Data/Images/Anomaly/000.JPG",
+      "image_sha256": "c7e81efefcdb31b22bf6087ad74575446013eb2f3925c0e3265d467a2caaad7c",
+      "mask_sha256": "590f402b2bc39e8d64e01b6cb08aa3a21a897ac920036b26ffb5178e26216d9d"
+    },
+    {
+      "image_id": "capsules/Data/Images/Anomaly/001.JPG",
+      "image_sha256": "76dd4a2f47089db32cc3c386be0efcdeb48c8b1858512a4272d698ccbb6e9d1c",
+      "mask_sha256": "d4119581db0a766d0514a616d845068a5d91a3c009333eb98ebedf47bac1fd13"
+    },
+    {
+      "image_id": "capsules/Data/Images/Anomaly/002.JPG",
+      "image_sha256": "0915d84bc965a23aa6b25ee1ab5c625164a810c8d74d13f21efe30a2fa495247",
+      "mask_sha256": "471639a468a8fbd68bb6d342fd6f21ee43c4e569911bf25a2be3a50fe238a5e3"
+    },
+    {
+      "image_id": "capsules/Data/Images/Anomaly/003.JPG",
+      "image_sha256": "331958377f275154a5399966ecc536fd4304b619a68ee483b9cfb332eab2d6cd",
+      "mask_sha256": "e4f40dabc5b4325babb05f05a158fb9160a7e3388fdf94b4afb0cd6f20a27093"
+    }
+  ]
+}

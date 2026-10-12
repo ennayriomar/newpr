@@ -1,0 +1,21 @@
+{
+  "dataset": "visa",
+  "category": "capsules",
+  "seed": 0,
+  "shots": 1,
+  "queries": 8,
+  "image_auroc": 0.5,
+  "image_ap": 0.5666666666666667,
+  "pixel_auroc": 0.8317542696618667,
+  "pixel_ap": 0.0041004588673184935,
+  "manifest_signature": "d47a6dcec90a6143e7b5d851667717ffb5b3c64c8ce02d12c378c1f7e2d80fa3",
+  "elapsed_seconds": 9.078650412000115,
+  "scope": "small real-data feasibility pilot; one category; no performance/generalization claim",
+  "unrun_metrics": [
+    "AU-PRO",
+    "thresholded F1/IoU",
+    "calibration/reliability",
+    "acquisition",
+    "statistical confidence intervals"
+  ]
+}

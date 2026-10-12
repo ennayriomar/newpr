@@ -1,0 +1,305 @@
+{
+  "partition_seed": 123,
+  "category_roles": {
+    "mvtec_ad": {
+      "meta_training": [
+        "carpet",
+        "grid",
+        "leather",
+        "tile",
+        "wood"
+      ],
+      "validation": [
+        "cable",
+        "hazelnut",
+        "transistor"
+      ],
+      "calibration": [
+        "capsule",
+        "screw",
+        "toothbrush"
+      ],
+      "final_test": [
+        "bottle",
+        "metal_nut",
+        "pill",
+        "zipper"
+      ]
+    },
+    "visa": {
+      "meta_training": [
+        "candle",
+        "cashew",
+        "chewinggum",
+        "macaroni1",
+        "pcb1"
+      ],
+      "validation": [
+        "macaroni2",
+        "pcb2"
+      ],
+      "calibration": [
+        "fryum",
+        "pcb3"
+      ],
+      "final_test": [
+        "capsules",
+        "pcb4",
+        "pipe_fryum"
+      ]
+    }
+  },
+  "counts": {
+    "final_test_support_candidate_pool": 2832,
+    "final_test_query": 1027,
+    "validation_support_candidate_pool": 2629,
+    "validation_query": 760,
+    "calibration_support_candidate_pool": 1954,
+    "calibration_query": 685,
+    "meta_training_reference_normal": 4861,
+    "meta_training_query_normal": 12,
+    "excluded_source_native_test": 1415,
+    "stress_support_candidate_pool": 2528,
+    "stress_validation_normal": 154,
+    "stress_calibration_normal": 148,
+    "stress_final_public_query": 1084
+  },
+  "images_assigned": 20089,
+  "source_episodes": [
+    {
+      "dataset": "mvtec_ad",
+      "category": "carpet",
+      "seed": 0,
+      "root": "/workspace/datasets/mvtec_ad",
+      "support_ids": [
+        "carpet/train/good/071.png"
+      ],
+      "candidate_ids": [
+        "carpet/train/good/248.png",
+        "carpet/train/good/236.png",
+        "carpet/train/good/239.png",
+        "carpet/train/good/180.png",
+        "carpet/train/good/152.png",
+        "carpet/train/good/272.png",
+        "carpet/train/good/274.png",
+        "carpet/train/good/173.png",
+        "carpet/train/good/005.png",
+        "carpet/train/good/179.png",
+        "carpet/train/good/022.png",
+        "carpet/train/good/174.png",
+        "carpet/train/good/215.png",
+        "carpet/train/good/105.png",
+        "carpet/train/good/260.png",
+        "carpet/train/good/064.png"
+      ],
+      "query_source_ids": [
+        "carpet/train/good/170.png",
+        "carpet/train/good/143.png"
+      ],
+      "all_reserved_query_source_ids": [
+        "carpet/train/good/018.png",
+        "carpet/train/good/085.png",
+        "carpet/train/good/132.png",
+        "carpet/train/good/143.png",
+        "carpet/train/good/170.png",
+        "carpet/train/good/237.png"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "carpet",
+      "seed": 1,
+      "root": "/workspace/datasets/mvtec_ad",
+      "support_ids": [
+        "carpet/train/good/191.png"
+      ],
+      "candidate_ids": [
+        "carpet/train/good/266.png",
+        "carpet/train/good/090.png",
+        "carpet/train/good/064.png",
+        "carpet/train/good/054.png",
+        "carpet/train/good/069.png",
+        "carpet/train/good/224.png",
+        "carpet/train/good/267.png",
+        "carpet/train/good/125.png",
+        "carpet/train/good/063.png",
+        "carpet/train/good/275.png",
+        "carpet/train/good/262.png",
+        "carpet/train/good/067.png",
+        "carpet/train/good/250.png",
+        "carpet/train/good/049.png",
+        "carpet/train/good/248.png",
+        "carpet/train/good/104.png"
+      ],
+      "query_source_ids": [
+        "carpet/train/good/018.png",
+        "carpet/train/good/132.png"
+      ],
+      "all_reserved_query_source_ids": [
+        "carpet/train/good/018.png",
+        "carpet/train/good/085.png",
+        "carpet/train/good/132.png",
+        "carpet/train/good/143.png",
+        "carpet/train/good/170.png",
+        "carpet/train/good/237.png"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "carpet",
+      "seed": 2,
+      "root": "/workspace/datasets/mvtec_ad",
+      "support_ids": [
+        "carpet/train/good/041.png"
+      ],
+      "candidate_ids": [
+        "carpet/train/good/164.png",
+        "carpet/train/good/064.png",
+        "carpet/train/good/100.png",
+        "carpet/train/good/114.png",
+        "carpet/train/good/147.png",
+        "carpet/train/good/165.png",
+        "carpet/train/good/251.png",
+        "carpet/train/good/032.png",
+        "carpet/train/good/073.png",
+        "carpet/train/good/056.png",
+        "carpet/train/good/051.png",
+        "carpet/train/good/095.png",
+        "carpet/train/good/238.png",
+        "carpet/train/good/017.png",
+        "carpet/train/good/087.png",
+        "carpet/train/good/134.png"
+      ],
+      "query_source_ids": [
+        "carpet/train/good/085.png",
+        "carpet/train/good/237.png"
+      ],
+      "all_reserved_query_source_ids": [
+        "carpet/train/good/018.png",
+        "carpet/train/good/085.png",
+        "carpet/train/good/132.png",
+        "carpet/train/good/143.png",
+        "carpet/train/good/170.png",
+        "carpet/train/good/237.png"
+      ]
+    },
+    {
+      "dataset": "visa",
+      "category": "candle",
+      "seed": 0,
+      "root": "/workspace/datasets/visa",
+      "support_ids": [
+        "candle/Data/Images/Normal/0663.JPG"
+      ],
+      "candidate_ids": [
+        "candle/Data/Images/Normal/0415.JPG",
+        "candle/Data/Images/Normal/0630.JPG",
+        "candle/Data/Images/Normal/0334.JPG",
+        "candle/Data/Images/Normal/0309.JPG",
+        "candle/Data/Images/Normal/0396.JPG",
+        "candle/Data/Images/Normal/0897.JPG",
+        "candle/Data/Images/Normal/0438.JPG",
+        "candle/Data/Images/Normal/0085.JPG",
+        "candle/Data/Images/Normal/0556.JPG",
+        "candle/Data/Images/Normal/0069.JPG",
+        "candle/Data/Images/Normal/0353.JPG",
+        "candle/Data/Images/Normal/0111.JPG",
+        "candle/Data/Images/Normal/0102.JPG",
+        "candle/Data/Images/Normal/0851.JPG",
+        "candle/Data/Images/Normal/0681.JPG",
+        "candle/Data/Images/Normal/0901.JPG"
+      ],
+      "query_source_ids": [
+        "candle/Data/Images/Normal/0944.JPG",
+        "candle/Data/Images/Normal/0599.JPG"
+      ],
+      "all_reserved_query_source_ids": [
+        "candle/Data/Images/Normal/0098.JPG",
+        "candle/Data/Images/Normal/0122.JPG",
+        "candle/Data/Images/Normal/0599.JPG",
+        "candle/Data/Images/Normal/0679.JPG",
+        "candle/Data/Images/Normal/0746.JPG",
+        "candle/Data/Images/Normal/0944.JPG"
+      ]
+    },
+    {
+      "dataset": "visa",
+      "category": "candle",
+      "seed": 1,
+      "root": "/workspace/datasets/visa",
+      "support_ids": [
+        "candle/Data/Images/Normal/0918.JPG"
+      ],
+      "candidate_ids": [
+        "candle/Data/Images/Normal/0908.JPG",
+        "candle/Data/Images/Normal/0689.JPG",
+        "candle/Data/Images/Normal/0774.JPG",
+        "candle/Data/Images/Normal/0998.JPG",
+        "candle/Data/Images/Normal/0807.JPG",
+        "candle/Data/Images/Normal/0795.JPG",
+        "candle/Data/Images/Normal/0884.JPG",
+        "candle/Data/Images/Normal/0602.JPG",
+        "candle/Data/Images/Normal/0715.JPG",
+        "candle/Data/Images/Normal/0104.JPG",
+        "candle/Data/Images/Normal/0223.JPG",
+        "candle/Data/Images/Normal/0040.JPG",
+        "candle/Data/Images/Normal/0327.JPG",
+        "candle/Data/Images/Normal/0241.JPG",
+        "candle/Data/Images/Normal/0415.JPG",
+        "candle/Data/Images/Normal/0118.JPG"
+      ],
+      "query_source_ids": [
+        "candle/Data/Images/Normal/0098.JPG",
+        "candle/Data/Images/Normal/0746.JPG"
+      ],
+      "all_reserved_query_source_ids": [
+        "candle/Data/Images/Normal/0098.JPG",
+        "candle/Data/Images/Normal/0122.JPG",
+        "candle/Data/Images/Normal/0599.JPG",
+        "candle/Data/Images/Normal/0679.JPG",
+        "candle/Data/Images/Normal/0746.JPG",
+        "candle/Data/Images/Normal/0944.JPG"
+      ]
+    },
+    {
+      "dataset": "visa",
+      "category": "candle",
+      "seed": 2,
+      "root": "/workspace/datasets/visa",
+      "support_ids": [
+        "candle/Data/Images/Normal/0410.JPG"
+      ],
+      "candidate_ids": [
+        "candle/Data/Images/Normal/0374.JPG",
+        "candle/Data/Images/Normal/0903.JPG",
+        "candle/Data/Images/Normal/0549.JPG",
+        "candle/Data/Images/Normal/0703.JPG",
+        "candle/Data/Images/Normal/0820.JPG",
+        "candle/Data/Images/Normal/0593.JPG",
+        "candle/Data/Images/Normal/0477.JPG",
+        "candle/Data/Images/Normal/0112.JPG",
+        "candle/Data/Images/Normal/0642.JPG",
+        "candle/Data/Images/Normal/0807.JPG",
+        "candle/Data/Images/Normal/0409.JPG",
+        "candle/Data/Images/Normal/0087.JPG",
+        "candle/Data/Images/Normal/0527.JPG",
+        "candle/Data/Images/Normal/0778.JPG",
+        "candle/Data/Images/Normal/0613.JPG",
+        "candle/Data/Images/Normal/0034.JPG"
+      ],
+      "query_source_ids": [
+        "candle/Data/Images/Normal/0122.JPG",
+        "candle/Data/Images/Normal/0679.JPG"
+      ],
+      "all_reserved_query_source_ids": [
+        "candle/Data/Images/Normal/0098.JPG",
+        "candle/Data/Images/Normal/0122.JPG",
+        "candle/Data/Images/Normal/0599.JPG",
+        "candle/Data/Images/Normal/0679.JPG",
+        "candle/Data/Images/Normal/0746.JPG",
+        "candle/Data/Images/Normal/0944.JPG"
+      ]
+    }
+  ],
+  "policy": "Native test images of declared validation/calibration categories are reserved for those roles, not final evaluation. Source native-test images are excluded from target construction. AD2 private data is absent. Native AD2 validation is normal-only; no defect-probability calibration is implied."
+}

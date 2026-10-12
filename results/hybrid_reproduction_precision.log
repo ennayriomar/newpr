@@ -1,0 +1,50 @@
+/workspace/.cache/dinov2-source/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/workspace/.cache/dinov2-source/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/workspace/.cache/dinov2-source/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 3077.26it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 317.27it/s]
+{
+  "status": "passed",
+  "scope": "one independent real query per method; not a full new rerun of all episodes",
+  "checks": [
+    {
+      "method": "transparent_nn",
+      "image_id": "cable/test/good/045.png",
+      "float32_features_bitwise_equal": true,
+      "raw_image_score_exact_equal": true,
+      "raw_adequacy_mean_exact_equal": true,
+      "stored_maps_bitwise_equal": true,
+      "preprocessing_library_versions_in_cache_key": true
+    },
+    {
+      "method": "anomalydino",
+      "image_id": "cable/test/good/045.png",
+      "float32_features_bitwise_equal": true,
+      "raw_image_score_exact_equal": true,
+      "raw_adequacy_mean_exact_equal": true,
+      "stored_maps_bitwise_equal": true,
+      "preprocessing_library_versions_in_cache_key": true
+    },
+    {
+      "method": "subspacead",
+      "image_id": "cable/test/good/045.png",
+      "float32_features_bitwise_equal": true,
+      "raw_image_score_exact_equal": true,
+      "raw_adequacy_mean_exact_equal": true,
+      "stored_maps_bitwise_equal": true,
+      "preprocessing_library_versions_in_cache_key": true
+    },
+    {
+      "method": "support_hybrid",
+      "image_id": "cable/test/good/045.png",
+      "float32_features_bitwise_equal": true,
+      "raw_image_score_exact_equal": true,
+      "raw_adequacy_mean_exact_equal": true,
+      "stored_maps_bitwise_equal": true,
+      "preprocessing_library_versions_in_cache_key": true
+    }
+  ]
+}

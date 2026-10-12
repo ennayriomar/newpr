@@ -1,0 +1,91 @@
+{
+  "actions": {
+    "normal": 4
+  },
+  "adequacy_precision": {
+    "curve": [
+      {
+        "accepted": 4,
+        "adequacy_threshold": 0.0,
+        "coverage": 1.0,
+        "precision_correct_decision": 0.5
+      },
+      {
+        "accepted": 4,
+        "adequacy_threshold": 0.5844734907150269,
+        "coverage": 1.0,
+        "precision_correct_decision": 0.5
+      },
+      {
+        "accepted": 3,
+        "adequacy_threshold": 0.5853506922721863,
+        "coverage": 0.75,
+        "precision_correct_decision": 0.6666666666666666
+      },
+      {
+        "accepted": 2,
+        "adequacy_threshold": 0.585550844669342,
+        "coverage": 0.5,
+        "precision_correct_decision": 0.5
+      },
+      {
+        "accepted": 1,
+        "adequacy_threshold": 0.590356707572937,
+        "coverage": 0.25,
+        "precision_correct_decision": 0.0
+      },
+      {
+        "accepted": 0,
+        "adequacy_threshold": 1.0,
+        "coverage": 0.0,
+        "precision_correct_decision": null
+      }
+    ],
+    "event": "image decision correct at locked calibration cutoff; empirical correctness proxy, NOT ground-truth support adequacy"
+  },
+  "calibration_ids": [
+    "mvtec_ad2:can/validation/good/001_regular.png",
+    "mvtec_ad2:can/validation/good/009_regular.png",
+    "mvtec_ad2:can/validation/good/004_regular.png",
+    "mvtec_ad2:can/validation/good/011_regular.png"
+  ],
+  "category": "can",
+  "dataset": "mvtec_ad2",
+  "image": {
+    "ap": 0.75,
+    "auroc": 0.5,
+    "f1_max_offline": 0.6666666666666666,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 2,
+    "fp": 0,
+    "locked_f1": 0.0,
+    "locked_threshold": 0.983094268687631,
+    "tp": 0
+  },
+  "method": "support_hybrid",
+  "pixel": {
+    "ap": 1.563017352117958e-05,
+    "auroc": 0.36987511831828507,
+    "f1_max_offline": 7.115759537982176e-05,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 156,
+    "fp": 0,
+    "locked_f1": 0.0,
+    "locked_threshold": 1.014997959136963,
+    "tp": 0
+  },
+  "queries": 4,
+  "query_repeat_semantics": "same locked queries across methods/k/support draws; draws are not independent query populations",
+  "role": "stress_final_public",
+  "seed": 0,
+  "selective_decision": {
+    "accepted": 4,
+    "accuracy_accepted": 0.5,
+    "adequacy_threshold": 0.5,
+    "correct_accepted": 2,
+    "coverage": 1.0,
+    "semantics": "empirical accepted-decision correctness; no guarantee"
+  },
+  "shots": 4,
+  "unique_query_count": 4
+}

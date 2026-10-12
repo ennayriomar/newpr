@@ -1,0 +1,21 @@
+{
+  "dataset": "mvtec_ad",
+  "category": "bottle",
+  "seed": 2,
+  "shots": 4,
+  "queries": 8,
+  "image_auroc": 1.0,
+  "image_ap": 1.0,
+  "pixel_auroc": 0.9859083496259995,
+  "pixel_ap": 0.8578157920480127,
+  "manifest_signature": "2ca6466d61658b904c691c8d370194fb7113cc6f58bb9428c151c27135aa7310",
+  "elapsed_seconds": 3.999976331000198,
+  "scope": "small real-data feasibility pilot; one category; no performance/generalization claim",
+  "unrun_metrics": [
+    "AU-PRO",
+    "thresholded F1/IoU",
+    "calibration/reliability",
+    "acquisition",
+    "statistical confidence intervals"
+  ]
+}

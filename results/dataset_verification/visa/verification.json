@@ -1,0 +1,253 @@
+{
+  "dataset": "visa",
+  "root": "/workspace/datasets/visa",
+  "status": "passed",
+  "real_data": true,
+  "pretrained_weights_used": false,
+  "categories": [
+    "candle",
+    "capsules",
+    "cashew",
+    "chewinggum",
+    "fryum",
+    "macaroni1",
+    "macaroni2",
+    "pcb1",
+    "pcb2",
+    "pcb3",
+    "pcb4",
+    "pipe_fryum"
+  ],
+  "total_images": 10821,
+  "counts": [
+    {
+      "category": "candle",
+      "split": "test",
+      "label": "anomaly",
+      "count": 100
+    },
+    {
+      "category": "candle",
+      "split": "test",
+      "label": "normal",
+      "count": 100
+    },
+    {
+      "category": "candle",
+      "split": "train",
+      "label": "normal",
+      "count": 900
+    },
+    {
+      "category": "capsules",
+      "split": "test",
+      "label": "anomaly",
+      "count": 100
+    },
+    {
+      "category": "capsules",
+      "split": "test",
+      "label": "normal",
+      "count": 60
+    },
+    {
+      "category": "capsules",
+      "split": "train",
+      "label": "normal",
+      "count": 542
+    },
+    {
+      "category": "cashew",
+      "split": "test",
+      "label": "anomaly",
+      "count": 100
+    },
+    {
+      "category": "cashew",
+      "split": "test",
+      "label": "normal",
+      "count": 50
+    },
+    {
+      "category": "cashew",
+      "split": "train",
+      "label": "normal",
+      "count": 450
+    },
+    {
+      "category": "chewinggum",
+      "split": "test",
+      "label": "anomaly",
+      "count": 100
+    },
+    {
+      "category": "chewinggum",
+      "split": "test",
+      "label": "normal",
+      "count": 50
+    },
+    {
+      "category": "chewinggum",
+      "split": "train",
+      "label": "normal",
+      "count": 453
+    },
+    {
+      "category": "fryum",
+      "split": "test",
+      "label": "anomaly",
+      "count": 100
+    },
+    {
+      "category": "fryum",
+      "split": "test",
+      "label": "normal",
+      "count": 50
+    },
+    {
+      "category": "fryum",
+      "split": "train",
+      "label": "normal",
+      "count": 450
+    },
+    {
+      "category": "macaroni1",
+      "split": "test",
+      "label": "anomaly",
+      "count": 100
+    },
+    {
+      "category": "macaroni1",
+      "split": "test",
+      "label": "normal",
+      "count": 100
+    },
+    {
+      "category": "macaroni1",
+      "split": "train",
+      "label": "normal",
+      "count": 900
+    },
+    {
+      "category": "macaroni2",
+      "split": "test",
+      "label": "anomaly",
+      "count": 100
+    },
+    {
+      "category": "macaroni2",
+      "split": "test",
+      "label": "normal",
+      "count": 100
+    },
+    {
+      "category": "macaroni2",
+      "split": "train",
+      "label": "normal",
+      "count": 900
+    },
+    {
+      "category": "pcb1",
+      "split": "test",
+      "label": "anomaly",
+      "count": 100
+    },
+    {
+      "category": "pcb1",
+      "split": "test",
+      "label": "normal",
+      "count": 100
+    },
+    {
+      "category": "pcb1",
+      "split": "train",
+      "label": "normal",
+      "count": 904
+    },
+    {
+      "category": "pcb2",
+      "split": "test",
+      "label": "anomaly",
+      "count": 100
+    },
+    {
+      "category": "pcb2",
+      "split": "test",
+      "label": "normal",
+      "count": 100
+    },
+    {
+      "category": "pcb2",
+      "split": "train",
+      "label": "normal",
+      "count": 901
+    },
+    {
+      "category": "pcb3",
+      "split": "test",
+      "label": "anomaly",
+      "count": 100
+    },
+    {
+      "category": "pcb3",
+      "split": "test",
+      "label": "normal",
+      "count": 101
+    },
+    {
+      "category": "pcb3",
+      "split": "train",
+      "label": "normal",
+      "count": 905
+    },
+    {
+      "category": "pcb4",
+      "split": "test",
+      "label": "anomaly",
+      "count": 100
+    },
+    {
+      "category": "pcb4",
+      "split": "test",
+      "label": "normal",
+      "count": 101
+    },
+    {
+      "category": "pcb4",
+      "split": "train",
+      "label": "normal",
+      "count": 904
+    },
+    {
+      "category": "pipe_fryum",
+      "split": "test",
+      "label": "anomaly",
+      "count": 100
+    },
+    {
+      "category": "pipe_fryum",
+      "split": "test",
+      "label": "normal",
+      "count": 50
+    },
+    {
+      "category": "pipe_fryum",
+      "split": "train",
+      "label": "normal",
+      "count": 450
+    }
+  ],
+  "split_csv": "/workspace/datasets/visa/split_csv/1cls.csv",
+  "native_splits_checked": [
+    "test",
+    "train"
+  ],
+  "experimental_manifest_status": "not_created; no experimental support/validation/calibration assignment is claimed",
+  "mask_semantics": "VisA native integer class IDs are binarized as >0 for visuals only; MVTec masks must use 0/255.",
+  "private_test_evaluation": "not_performed",
+  "issues": [],
+  "versions": {
+    "numpy": "2.3.5",
+    "pillow": "12.3.0"
+  }
+}

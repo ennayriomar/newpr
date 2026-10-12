@@ -1,0 +1,101 @@
+{"dataset": "mvtec_ad", "checked": 1000, "total": 5354}
+{"dataset": "mvtec_ad", "checked": 2000, "total": 5354}
+{"dataset": "mvtec_ad", "checked": 3000, "total": 5354}
+{"dataset": "mvtec_ad", "checked": 4000, "total": 5354}
+{"dataset": "mvtec_ad", "checked": 5000, "total": 5354}
+{"dataset": "mvtec_ad", "checked": 5354, "total": 5354}
+{"dataset": "mvtec_ad", "status": "passed", "total_images": 5354, "native_splits_checked": ["test", "train"]}
+{"dataset": "visa", "checked": 1000, "total": 10821}
+{"dataset": "visa", "checked": 2000, "total": 10821}
+{"dataset": "visa", "checked": 3000, "total": 10821}
+{"dataset": "visa", "checked": 4000, "total": 10821}
+{"dataset": "visa", "checked": 5000, "total": 10821}
+{"dataset": "visa", "checked": 6000, "total": 10821}
+{"dataset": "visa", "checked": 7000, "total": 10821}
+{"dataset": "visa", "checked": 8000, "total": 10821}
+{"dataset": "visa", "checked": 9000, "total": 10821}
+{"dataset": "visa", "checked": 10000, "total": 10821}
+{"dataset": "visa", "checked": 10821, "total": 10821}
+{"dataset": "visa", "status": "passed", "total_images": 10821, "native_splits_checked": ["test", "train"]}
+{"dataset": "mvtec_ad2", "checked": 1000, "total": 3914}
+{"dataset": "mvtec_ad2", "checked": 2000, "total": 3914}
+{"dataset": "mvtec_ad2", "checked": 3000, "total": 3914}
+{"dataset": "mvtec_ad2", "checked": 3914, "total": 3914}
+{"dataset": "mvtec_ad2", "status": "passed", "total_images": 3914, "native_splits_checked": ["test_public", "train", "validation"]}
+/workspace/.cache/dinov2-source/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/workspace/.cache/dinov2-source/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/workspace/.cache/dinov2-source/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 0, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 0, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 0, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 1, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 1, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 1, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 2, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 2, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "cable", "role": "validation", "seed": 2, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 0, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 0, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 0, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 1, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 1, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 1, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 2, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 2, "shots": 2, "method": "transparent_nn", "queries": 4}
+{"dataset": "visa", "category": "macaroni2", "role": "validation", "seed": 2, "shots": 4, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 0, "shots": 1, "method": "transparent_nn", "queries": 4}
+{"dataset": "mvtec_ad", "category": "bottle", "role": "final_test", "seed": 0, "shots": 2, "method": "transparent_nn", "queries": 4}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/workspace/tools/safe_iad/run_pipeline.py", line 378, in <module>
+    main()
+  File "/workspace/tools/safe_iad/run_pipeline.py", line 355, in main
+    results.append(run_episode(episode, method, extractor, config, output, values))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/tools/safe_iad/run_pipeline.py", line 251, in run_episode
+    pixel=histogram.metrics(thresholds.pixel_defect) if histogram is not None else metrics(py, ps, thresholds.pixel_defect),
+                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/tools/safe_iad/pipeline_metrics.py", line 29, in metrics
+    ap=float(average_precision_score(truth, scores)) if truth.any() else None,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/sklearn/utils/_param_validation.py", line 218, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/sklearn/metrics/_ranking.py", line 270, in average_precision_score
+    return _average_binary_score(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/sklearn/metrics/_base.py", line 69, in _average_binary_score
+    return binary_metric(y_true, y_score, sample_weight=sample_weight)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/sklearn/metrics/_ranking.py", line 231, in _binary_uninterpolated_average_precision
+    precision, recall, _ = precision_recall_curve(
+                           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/sklearn/utils/_param_validation.py", line 191, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/sklearn/metrics/_ranking.py", line 1100, in precision_recall_curve
+    _, fps, _, tps, thresholds = confusion_matrix_at_thresholds(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/sklearn/utils/_param_validation.py", line 191, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/sklearn/metrics/_ranking.py", line 951, in confusion_matrix_at_thresholds
+    desc_score_indices = xp.argsort(y_score, stable=True, descending=True)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/sklearn/externals/array_api_compat/_internal.py", line 34, in wrapped_f
+    return f(*args, xp=xp, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/sklearn/externals/array_api_compat/common/_aliases.py", line 489, in argsort
+    xp.argsort(xp.flip(x, axis=axis), axis=axis, **kwargs),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/venvs/safe_iad/lib/python3.12/site-packages/numpy/_core/fromnumeric.py", line 1243, in argsort
+    return _wrapfunc(
+           ^^^^^^^^^^
+  File "/workspace/venvs/safe_iad/lib/python3.12/site-packages/numpy/_core/fromnumeric.py", line 57, in _wrapfunc
+    return bound(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

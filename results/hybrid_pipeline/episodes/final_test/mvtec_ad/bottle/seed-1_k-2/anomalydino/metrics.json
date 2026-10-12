@@ -1,0 +1,43 @@
+{
+  "actions": {
+    "defective": 3,
+    "normal": 1
+  },
+  "calibration_ids": [
+    "mvtec_ad:capsule/test/good/000.png",
+    "mvtec_ad:capsule/test/good/005.png",
+    "mvtec_ad:capsule/test/poke/002.png",
+    "mvtec_ad:capsule/test/scratch/014.png"
+  ],
+  "category": "bottle",
+  "dataset": "mvtec_ad",
+  "image": {
+    "ap": 1.0,
+    "auroc": 1.0,
+    "f1_max_offline": 1.0,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 0,
+    "fp": 1,
+    "locked_f1": 0.8,
+    "locked_threshold": 0.3352331519126892,
+    "tp": 2
+  },
+  "method": "anomalydino",
+  "pixel": {
+    "ap": 0.8299490056279272,
+    "auroc": 0.9899284391631835,
+    "f1_max_offline": 0.7596670168916189,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 26174,
+    "fp": 57101,
+    "locked_f1": 0.7532292811867516,
+    "locked_threshold": 0.32655632495880127,
+    "tp": 127092
+  },
+  "queries": 4,
+  "query_repeat_semantics": "same locked queries across methods/k/support draws; draws are not independent query populations",
+  "role": "final_test",
+  "seed": 1,
+  "shots": 2,
+  "unique_query_count": 4
+}

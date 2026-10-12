@@ -1,0 +1,43 @@
+{
+  "actions": {
+    "defective": 2,
+    "normal": 2
+  },
+  "calibration_ids": [
+    "visa:fryum/Data/Images/Normal/466.JPG",
+    "visa:fryum/Data/Images/Normal/047.JPG",
+    "visa:fryum/Data/Images/Normal/376.JPG",
+    "visa:fryum/Data/Images/Normal/128.JPG"
+  ],
+  "category": "capsules",
+  "dataset": "visa",
+  "image": {
+    "ap": 1.0,
+    "auroc": 1.0,
+    "f1_max_offline": 1.0,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 0,
+    "fp": 0,
+    "locked_f1": 1.0,
+    "locked_threshold": 39.478353793179764,
+    "tp": 2
+  },
+  "method": "subspacead",
+  "pixel": {
+    "ap": 0.18154311567507078,
+    "auroc": 0.9911078129645959,
+    "f1_max_offline": 0.3095029821073559,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 776,
+    "fp": 252142,
+    "locked_f1": 0.050665125217704644,
+    "locked_threshold": 18.94099235534668,
+    "tp": 6749
+  },
+  "queries": 4,
+  "query_repeat_semantics": "same locked queries across methods/k/support draws; draws are not independent query populations",
+  "role": "final_test",
+  "seed": 2,
+  "shots": 2,
+  "unique_query_count": 4
+}

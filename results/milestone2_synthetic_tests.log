@@ -1,0 +1,18 @@
+test_synthetic_budget_and_repeat_enforced (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_budget_and_repeat_enforced) ... ok
+test_synthetic_calibration_and_test_sources_rejected (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_calibration_and_test_sources_rejected) ... ok
+test_synthetic_candidate_query_overlap_rejected (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_candidate_query_overlap_rejected) ... ok
+test_synthetic_category_roles_overlap_rejected (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_category_roles_overlap_rejected) ... ok
+test_synthetic_diagnostics_preserve_detector_evidence (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_diagnostics_preserve_detector_evidence) ... ok
+test_synthetic_image_loss_uses_actual_image_score (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_image_loss_uses_actual_image_score) ... ok
+test_synthetic_loss_detects_defect_explanation_away (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_loss_detects_defect_explanation_away) ... ok
+test_synthetic_nearest_and_diversity_use_features (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_nearest_and_diversity_use_features) ... ok
+test_synthetic_one_reference_loo_is_missing (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_one_reference_loo_is_missing) ... ok
+test_synthetic_oracle_can_have_negative_best_benefit (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_oracle_can_have_negative_best_benefit) ... ok
+test_synthetic_oracle_rejected_in_deployment (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_oracle_rejected_in_deployment) ... ok
+test_synthetic_policy_input_rejects_query_labels (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_policy_input_rejects_query_labels) ... ok
+test_synthetic_random_is_deterministic (test_acquisition_synthetic.SyntheticAcquisitionTests.test_synthetic_random_is_deterministic) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.010s
+
+OK

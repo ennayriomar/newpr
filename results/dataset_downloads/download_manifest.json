@@ -1,0 +1,320 @@
+{
+  "dataset_files_downloaded": true,
+  "archive_bytes_downloaded": 39934420302,
+  "network_error": null,
+  "datasets": [
+    {
+      "dataset": "mvtec_ad",
+      "url": "https://www.mydrive.ch/shares/150996/b52ecdcbf521176e9db9c731f2304b27/download/420938113-1629960298/mvtec_anomaly_detection.tar.xz",
+      "expected_sha256": "cf4313b13603bec67abb49ca959488f7eedce2a9f7795ec54446c649ac98cd3d",
+      "checksum_source": "https://raw.githubusercontent.com/open-edge-platform/anomalib/main/src/anomalib/data/datamodules/image/mvtecad.py",
+      "checksum_source_content_sha256": "7c6fae68eb588a7d554065a93b3d4ba29fc3ef75d08c2371c81a67ca573f6a42",
+      "status": "verified_and_extracted",
+      "archive_size_bytes": 5264982680,
+      "extracted_size_bytes": 5271247124,
+      "network_access_verified": true,
+      "checksum_verified": true,
+      "actual_sha256": "cf4313b13603bec67abb49ca959488f7eedce2a9f7795ec54446c649ac98cd3d",
+      "root": "/workspace/datasets/mvtec_ad",
+      "archive_retained": false,
+      "file_verification_status": "passed",
+      "images_verified": 5354,
+      "categories_verified": 15
+    },
+    {
+      "dataset": "visa",
+      "url": "https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar",
+      "expected_sha256": "2eb8690c803ab37de0324772964100169ec8ba1fa3f7e94291c9ca673f40f362",
+      "checksum_source": "https://raw.githubusercontent.com/open-edge-platform/anomalib/main/src/anomalib/data/datamodules/image/visa.py",
+      "checksum_source_content_sha256": "fb66dd78e06cbf70cd83e4ba330ec7b745b4f60d34f95574cac1d9bf593034d8",
+      "status": "verified_and_extracted",
+      "archive_size_bytes": 1929840640,
+      "extracted_size_bytes": 1920559633,
+      "network_access_verified": true,
+      "checksum_verified": true,
+      "actual_sha256": "2eb8690c803ab37de0324772964100169ec8ba1fa3f7e94291c9ca673f40f362",
+      "root": "/workspace/datasets/visa",
+      "archive_retained": false,
+      "file_verification_status": "passed",
+      "images_verified": 10821,
+      "categories_verified": 12
+    },
+    {
+      "dataset": "mvtec_ad2",
+      "url": "https://www.mydrive.ch/shares/150997/701c90d3aea6588f404936e32a674602/download/466712769-1743429042/mvtec_ad_2.tar.gz",
+      "expected_sha256": "c0ded99ef32bfc8e352d52beb44515e5b292b8598cb963aadfa91ca0763505e4",
+      "checksum_source": "https://raw.githubusercontent.com/open-edge-platform/anomalib/main/src/anomalib/data/datamodules/image/mvtecad2.py",
+      "checksum_source_content_sha256": "8f38673733a677f67e885128dcca6e08066b45a22f4b2ef0b4a95c6dd10b511b",
+      "status": "verified_public_subset_extracted",
+      "archive_size_bytes": 32739596982,
+      "extracted_size_bytes": 16338191665,
+      "network_access_verified": true,
+      "full_archive_retained": false,
+      "excluded_splits": [
+        "test_private",
+        "test_private_mixed"
+      ],
+      "checksum_verified": true,
+      "actual_sha256": "c0ded99ef32bfc8e352d52beb44515e5b292b8598cb963aadfa91ca0763505e4",
+      "root": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2",
+      "archive_retained": false,
+      "private_splits_retained": false,
+      "skipped_private_files": 4090,
+      "skipped_private_bytes": 16405508792,
+      "retained_archive_files": 4621,
+      "file_verification_status": "passed",
+      "images_verified": 3914,
+      "categories_verified": 8
+    }
+  ],
+  "visa_official_split_metadata": {
+    "source": "https://raw.githubusercontent.com/amazon-science/spot-diff/main/split_csv/1cls.csv",
+    "rows": 10821,
+    "categories": [
+      "candle",
+      "capsules",
+      "cashew",
+      "chewinggum",
+      "fryum",
+      "macaroni1",
+      "macaroni2",
+      "pcb1",
+      "pcb2",
+      "pcb3",
+      "pcb4",
+      "pipe_fryum"
+    ],
+    "counts": [
+      {
+        "category": "candle",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "candle",
+        "split": "test",
+        "label": "normal",
+        "count": 100
+      },
+      {
+        "category": "candle",
+        "split": "train",
+        "label": "normal",
+        "count": 900
+      },
+      {
+        "category": "capsules",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "capsules",
+        "split": "test",
+        "label": "normal",
+        "count": 60
+      },
+      {
+        "category": "capsules",
+        "split": "train",
+        "label": "normal",
+        "count": 542
+      },
+      {
+        "category": "cashew",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "cashew",
+        "split": "test",
+        "label": "normal",
+        "count": 50
+      },
+      {
+        "category": "cashew",
+        "split": "train",
+        "label": "normal",
+        "count": 450
+      },
+      {
+        "category": "chewinggum",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "chewinggum",
+        "split": "test",
+        "label": "normal",
+        "count": 50
+      },
+      {
+        "category": "chewinggum",
+        "split": "train",
+        "label": "normal",
+        "count": 453
+      },
+      {
+        "category": "fryum",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "fryum",
+        "split": "test",
+        "label": "normal",
+        "count": 50
+      },
+      {
+        "category": "fryum",
+        "split": "train",
+        "label": "normal",
+        "count": 450
+      },
+      {
+        "category": "macaroni1",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "macaroni1",
+        "split": "test",
+        "label": "normal",
+        "count": 100
+      },
+      {
+        "category": "macaroni1",
+        "split": "train",
+        "label": "normal",
+        "count": 900
+      },
+      {
+        "category": "macaroni2",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "macaroni2",
+        "split": "test",
+        "label": "normal",
+        "count": 100
+      },
+      {
+        "category": "macaroni2",
+        "split": "train",
+        "label": "normal",
+        "count": 900
+      },
+      {
+        "category": "pcb1",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "pcb1",
+        "split": "test",
+        "label": "normal",
+        "count": 100
+      },
+      {
+        "category": "pcb1",
+        "split": "train",
+        "label": "normal",
+        "count": 904
+      },
+      {
+        "category": "pcb2",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "pcb2",
+        "split": "test",
+        "label": "normal",
+        "count": 100
+      },
+      {
+        "category": "pcb2",
+        "split": "train",
+        "label": "normal",
+        "count": 901
+      },
+      {
+        "category": "pcb3",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "pcb3",
+        "split": "test",
+        "label": "normal",
+        "count": 101
+      },
+      {
+        "category": "pcb3",
+        "split": "train",
+        "label": "normal",
+        "count": 905
+      },
+      {
+        "category": "pcb4",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "pcb4",
+        "split": "test",
+        "label": "normal",
+        "count": 101
+      },
+      {
+        "category": "pcb4",
+        "split": "train",
+        "label": "normal",
+        "count": 904
+      },
+      {
+        "category": "pipe_fryum",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "pipe_fryum",
+        "split": "test",
+        "label": "normal",
+        "count": 50
+      },
+      {
+        "category": "pipe_fryum",
+        "split": "train",
+        "label": "normal",
+        "count": 450
+      }
+    ],
+    "note": "These are CSV metadata counts, not verified downloaded-image counts."
+  },
+  "free_disk_bytes_at_inspection": 32033480704,
+  "user_sources": [
+    "https://www.kaggle.com/datasets/ess1004/visa-anomaly-detection",
+    "https://www.mvtec.com/research-teaching/datasets/mvtec-ad",
+    "https://www.mvtec.com/research-teaching/datasets/mvtec-ad-2"
+  ],
+  "visa_source_choice": "Use the reachable official Amazon archive; the user-supplied Kaggle host remains blocked. No Kaggle authentication is required for the official source.",
+  "licenses": {
+    "mvtec_ad": "CC BY-NC-SA 4.0 (verified on official source page)",
+    "mvtec_ad2": "CC BY-NC-SA 4.0 (verified on official source page)",
+    "visa": "CC BY 4.0 (verified in official dataset README)"
+  },
+  "free_disk_bytes_after_setup": 6413209600
+}

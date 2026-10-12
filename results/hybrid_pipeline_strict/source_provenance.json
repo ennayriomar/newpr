@@ -1,0 +1,33 @@
+{
+  "baselines": {
+    "anomalydino": {
+      "claim": "official scoring core; declared common-backbone variant, not published-table reproduction",
+      "commit": "b9d1c2648e3a5247437d4d953d907a8f3d994457",
+      "license": "Apache-2.0",
+      "source_url": "https://github.com/dammsi/AnomalyDINO"
+    },
+    "subspacead": {
+      "claim": "official scoring core; declared common-backbone variant, not published-table reproduction",
+      "commit": "ef56d5c8ab2f1feb7dda1c93b25cc3f73f0960d7",
+      "license": "Apache-2.0",
+      "source_url": "https://github.com/CLendering/SubspaceAD"
+    }
+  },
+  "safe_iad_code_sha256": {
+    "__init__.py": "538fbf1d50263dac9ca244445d95a3ce138a490db4fcbad743ecd06e617e3392",
+    "acquisition.py": "8ff6269437f239d0ad1e5a8f24e082720c6e52f7f8cc00fc6315c2c74c0efcee",
+    "baselines.py": "2961dda3f3371376700b502e2cc7e41a2f3da886c20b5c66b865a47ba8865f4c",
+    "build_training_targets.py": "387cf3b3f2f294438968f2077f213a21c4a999737da092bb520c43950f844ced",
+    "counterfactual.py": "487b5212b290aae1202e67cb541b55b7641c51ec9637d285080567d5f8028fbb",
+    "dense_features.py": "99bc009a213ae3f733026c7318b695a3bc65d2632dac0a80ac363cf9c19626c2",
+    "hybrid.py": "f98eaf168be330e479e61f378f269f27b2d2684792e3ec7266f5e812a159423a",
+    "official_ad2.py": "34f294a3fb09e784c9355730b63eb7afb9b786cecfb7f8434da11d73491a7652",
+    "patch_nn.py": "14446389f0979ea39e93337e66302c385fb7391a1ae9e0caac2a677744b69d55",
+    "pipeline_metrics.py": "e0e9a369e8cc70db70be684f4786a3fcd4c98c159ca16a60e70fab026f4732de",
+    "run_acquisition_pilot.py": "4ba31cffe9d0e83840e0868a99c29e09a2cea88153dadfcc48e7376e039e63ad",
+    "run_baseline_pilot.py": "7e000c5588a426dc54d05eba37744adf63491ed60ce8bdfb7bd295edca5452db",
+    "run_pipeline.py": "cc1db0b628694dbd8606b009ef9ba805bc679abc90fae7650e41709c20e1dc31",
+    "splits.py": "73462ebd3b1b2b391730d2beff9c0a076f562c298ffa7a33f37f73abb9d5e3a3",
+    "verify_dataset.py": "ab20c9dc946ff1185ab42c329cf75455face25243204dd2e2e67ed3a177663e2"
+  }
+}

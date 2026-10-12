@@ -1,0 +1,38 @@
+/workspace/.cache/dinov2-source/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/workspace/.cache/dinov2-source/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/workspace/.cache/dinov2-source/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/workspace/tools/safe_iad/run_baseline_pilot.py", line 122, in <module>
+    main()
+  File "/workspace/tools/safe_iad/run_baseline_pilot.py", line 46, in main
+    extractor = FrozenDINOv2(config['feature_cache'])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/tools/safe_iad/patch_nn.py", line 70, in __init__
+    self.model = torch.hub.load('/workspace/.cache/dinov2-source', 'dinov2_vitb14', source='local', pretrained=True, weights=str(checkpoint))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/venvs/safe_iad/lib/python3.12/site-packages/torch/hub.py", line 647, in load
+    model = _load_local(repo_or_dir, model, *args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/venvs/safe_iad/lib/python3.12/site-packages/torch/hub.py", line 680, in _load_local
+    model = entry(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.cache/dinov2-source/dinov2/hub/backbones.py", line 91, in dinov2_vitb14
+    return _make_dinov2_model(arch_name="vit_base", pretrained=pretrained, weights=weights, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.cache/dinov2-source/dinov2/hub/backbones.py", line 74, in _make_dinov2_model
+    state_dict = _safe_load_state_dict_from_url(url, map_location="cpu", check_hash=check_hash)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.cache/dinov2-source/dinov2/hub/utils.py", line 23, in _safe_load_state_dict_from_url
+    return torch.hub.load_state_dict_from_url(url, **local_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/venvs/safe_iad/lib/python3.12/site-packages/torch/hub.py", line 858, in load_state_dict_from_url
+    os.makedirs(model_dir, exist_ok=True)
+  File "<frozen os>", line 215, in makedirs
+  File "<frozen os>", line 215, in makedirs
+  File "<frozen os>", line 225, in makedirs
+OSError: [Errno 30] Read-only file system: '/home/agent/.cache/torch'

@@ -1,0 +1,42 @@
+{
+  "actions": {
+    "defective": 4
+  },
+  "calibration_ids": [
+    "mvtec_ad:capsule/test/good/000.png",
+    "mvtec_ad:capsule/test/good/005.png",
+    "mvtec_ad:capsule/test/poke/002.png",
+    "mvtec_ad:capsule/test/scratch/014.png"
+  ],
+  "category": "cable",
+  "dataset": "mvtec_ad",
+  "image": {
+    "ap": 1.0,
+    "auroc": 1.0,
+    "f1_max_offline": 1.0,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 0,
+    "fp": 2,
+    "locked_f1": 0.6666666666666666,
+    "locked_threshold": 41.56117630004883,
+    "tp": 2
+  },
+  "method": "subspacead",
+  "pixel": {
+    "ap": 0.6646658864102412,
+    "auroc": 0.9851304444674226,
+    "f1_max_offline": 0.6524546398378406,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 4461,
+    "fp": 287742,
+    "locked_f1": 0.3801654996277213,
+    "locked_threshold": 52.17622375488281,
+    "tp": 89609
+  },
+  "queries": 4,
+  "query_repeat_semantics": "same locked queries across methods/k/support draws; draws are not independent query populations",
+  "role": "validation",
+  "seed": 2,
+  "shots": 1,
+  "unique_query_count": 4
+}

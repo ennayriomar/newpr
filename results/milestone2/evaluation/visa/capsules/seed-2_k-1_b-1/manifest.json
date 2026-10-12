@@ -1,0 +1,49 @@
+{
+  "dataset": "visa",
+  "category": "capsules",
+  "seed": 2,
+  "protocol": "B_budgeted_reference_acquisition",
+  "initial_support_ids": [
+    "capsules/Data/Images/Normal/056.JPG"
+  ],
+  "candidate_ids": [
+    "capsules/Data/Images/Normal/321.JPG",
+    "capsules/Data/Images/Normal/281.JPG",
+    "capsules/Data/Images/Normal/232.JPG",
+    "capsules/Data/Images/Normal/280.JPG",
+    "capsules/Data/Images/Normal/536.JPG",
+    "capsules/Data/Images/Normal/108.JPG",
+    "capsules/Data/Images/Normal/593.JPG",
+    "capsules/Data/Images/Normal/486.JPG",
+    "capsules/Data/Images/Normal/452.JPG",
+    "capsules/Data/Images/Normal/230.JPG",
+    "capsules/Data/Images/Normal/526.JPG",
+    "capsules/Data/Images/Normal/443.JPG",
+    "capsules/Data/Images/Normal/360.JPG",
+    "capsules/Data/Images/Normal/579.JPG",
+    "capsules/Data/Images/Normal/000.JPG",
+    "capsules/Data/Images/Normal/422.JPG"
+  ],
+  "query_ids": [
+    "capsules/Data/Images/Normal/011.JPG",
+    "capsules/Data/Images/Normal/013.JPG",
+    "capsules/Data/Images/Normal/016.JPG",
+    "capsules/Data/Images/Normal/024.JPG",
+    "capsules/Data/Images/Anomaly/000.JPG",
+    "capsules/Data/Images/Anomaly/001.JPG",
+    "capsules/Data/Images/Anomaly/002.JPG",
+    "capsules/Data/Images/Anomaly/003.JPG"
+  ],
+  "allowed_additional_references": 1,
+  "forced_acquisition_count": 1,
+  "loss_specification": {
+    "type": "balanced_pixel_margin_mse",
+    "margin": 1.0
+  },
+  "loss_choice": "predeclared before acquisition results; not tuned with evaluation labels",
+  "candidate_information": "Verified-normal training IDs, frozen patch features and mean-normalized-patch global descriptors; same pool for every policy. Unselected patches never enter the detector memory.",
+  "oracle_information": "Query masks/labels only for offline counterfactual losses; never for deployed policies or training targets.",
+  "base_detector_checkpoint_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+  "no_acquisition_baseline": "initial k=1 memory; pool scans excluded from detector memory; not a strict-k-shot claim for acquisition policies",
+  "budget_unit": "per query inspection; reset to the same initial S for each query; no cumulative bank across queries"
+}

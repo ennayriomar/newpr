@@ -1,0 +1,26 @@
+{
+  "additional_calibration_normal_images": 4,
+  "adequacy_threshold": 0.5,
+  "calibration_ids": [
+    "visa:fryum/Data/Images/Normal/466.JPG",
+    "visa:fryum/Data/Images/Normal/047.JPG",
+    "visa:fryum/Data/Images/Normal/376.JPG",
+    "visa:fryum/Data/Images/Normal/128.JPG"
+  ],
+  "calibration_native_splits": [
+    "train"
+  ],
+  "calibration_support_ids": [
+    "visa:fryum/Data/Images/Normal/479.JPG",
+    "visa:fryum/Data/Images/Normal/121.JPG"
+  ],
+  "category": "fryum",
+  "dataset": "visa",
+  "final_labels_used": false,
+  "image_threshold": 39.478353793179764,
+  "method": "subspacead",
+  "native_test_defect_labels_used": false,
+  "pixel_threshold": 18.94099235534668,
+  "procedure": "normal-only validation mean+3std; no guaranteed false-alarm rate",
+  "shots": 2
+}

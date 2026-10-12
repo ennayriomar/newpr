@@ -1,0 +1,10 @@
+{
+  "acquisition_budget": 0,
+  "augmented_images": 0,
+  "base_normal_images": 2,
+  "baseline": "internal exact normalized patch NN; not a full PatchCore reproduction",
+  "candidate_pool_size": 0,
+  "feature_dim": 3072,
+  "memory_tokens": 256,
+  "method": "transparent_nn"
+}

@@ -1,0 +1,23 @@
+{
+  "adequacy_threshold": 0.5,
+  "calibration_ids": [
+    "mvtec_ad:capsule/test/good/000.png",
+    "mvtec_ad:capsule/test/good/005.png",
+    "mvtec_ad:capsule/test/poke/002.png",
+    "mvtec_ad:capsule/test/scratch/014.png"
+  ],
+  "calibration_support_ids": [
+    "mvtec_ad:capsule/train/good/210.png",
+    "mvtec_ad:capsule/train/good/053.png",
+    "mvtec_ad:capsule/train/good/027.png",
+    "mvtec_ad:capsule/train/good/080.png"
+  ],
+  "category": "capsule",
+  "dataset": "mvtec_ad",
+  "final_labels_used": false,
+  "image_threshold": 0.7682844996452332,
+  "method": "transparent_nn",
+  "pixel_threshold": 0.7059918642044067,
+  "procedure": "empirical F1 cutoff on reserved calibration-category queries only; not probability calibration",
+  "shots": 4
+}

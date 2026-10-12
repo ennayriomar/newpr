@@ -1,0 +1,34 @@
+{
+  "request_sha256": "65431e990bef816891a73a3424ba3886fa4c10357b1028441ca8f6eab05526c4",
+  "request_matches_previous": true,
+  "milestone_1_complete": false,
+  "research_repository": {
+    "status": "missing",
+    "supplied_checkout": "/workspace/ennayriomar",
+    "tracked_files": [
+      "README.md"
+    ],
+    "public_repositories_checked": [
+      "Face-Recognition-And-Detection",
+      "PM2.5-Prediction-Using-BiRNN",
+      "PM2.5-Prediction-Using-Temporal-Fusion-Transformer-TFT-",
+      "ennayriomar",
+      "online-shopping-app"
+    ],
+    "note": "The public listing supplies no identifiable anomaly-localization repository. Private or unlisted repositories have not been assessed."
+  },
+  "dataset_access": {
+    "status": "runtime_blocked",
+    "rechecked_url": "https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar",
+    "observed_error": "Proxy CONNECT HTTP 403 Forbidden",
+    "saved_draft_revision": 2,
+    "saved_domains": [
+      "www.mvtec.com",
+      "www.mydrive.ch",
+      "amazon-visual-anomaly.s3.us-west-2.amazonaws.com"
+    ],
+    "note": "Draft domain presence does not establish live runtime access; access recheck failed."
+  },
+  "research_tests_run": false,
+  "real_data_pilots_run": false
+}

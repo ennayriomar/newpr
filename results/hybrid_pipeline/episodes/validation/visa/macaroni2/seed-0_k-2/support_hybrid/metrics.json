@@ -1,0 +1,92 @@
+{
+  "actions": {
+    "defective": 1,
+    "normal": 3
+  },
+  "adequacy_precision": {
+    "curve": [
+      {
+        "accepted": 4,
+        "adequacy_threshold": 0.0,
+        "coverage": 1.0,
+        "precision_correct_decision": 0.75
+      },
+      {
+        "accepted": 4,
+        "adequacy_threshold": 0.6032455563545227,
+        "coverage": 1.0,
+        "precision_correct_decision": 0.75
+      },
+      {
+        "accepted": 3,
+        "adequacy_threshold": 0.603256344795227,
+        "coverage": 0.75,
+        "precision_correct_decision": 0.6666666666666666
+      },
+      {
+        "accepted": 2,
+        "adequacy_threshold": 0.6033681631088257,
+        "coverage": 0.5,
+        "precision_correct_decision": 0.5
+      },
+      {
+        "accepted": 1,
+        "adequacy_threshold": 0.6042455434799194,
+        "coverage": 0.25,
+        "precision_correct_decision": 1.0
+      },
+      {
+        "accepted": 0,
+        "adequacy_threshold": 1.0,
+        "coverage": 0.0,
+        "precision_correct_decision": null
+      }
+    ],
+    "event": "image decision correct at locked calibration cutoff; empirical correctness proxy, NOT ground-truth support adequacy"
+  },
+  "calibration_ids": [
+    "visa:fryum/Data/Images/Normal/377.JPG",
+    "visa:fryum/Data/Images/Normal/272.JPG",
+    "visa:fryum/Data/Images/Anomaly/051.JPG",
+    "visa:fryum/Data/Images/Anomaly/005.JPG"
+  ],
+  "category": "macaroni2",
+  "dataset": "visa",
+  "image": {
+    "ap": 0.8333333333333333,
+    "auroc": 0.75,
+    "f1_max_offline": 0.8,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 1,
+    "fp": 0,
+    "locked_f1": 0.6666666666666666,
+    "locked_threshold": 0.908994197845459,
+    "tp": 1
+  },
+  "method": "support_hybrid",
+  "pixel": {
+    "ap": 0.007492653678100348,
+    "auroc": 0.9843852462126044,
+    "f1_max_offline": 0.020361990950226245,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 0,
+    "fp": 1721386,
+    "locked_f1": 0.0014073460446962893,
+    "locked_threshold": 0.6322742700576782,
+    "tp": 1213
+  },
+  "queries": 4,
+  "query_repeat_semantics": "same locked queries across methods/k/support draws; draws are not independent query populations",
+  "role": "validation",
+  "seed": 0,
+  "selective_decision": {
+    "accepted": 4,
+    "accuracy_accepted": 0.75,
+    "adequacy_threshold": 0.5,
+    "correct_accepted": 3,
+    "coverage": 1.0,
+    "semantics": "empirical accepted-decision correctness; no guarantee"
+  },
+  "shots": 2,
+  "unique_query_count": 4
+}

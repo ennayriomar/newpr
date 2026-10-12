@@ -1,0 +1,14 @@
+{
+  "adequacy": "bounded empirical diagnostic; no support-adequacy ground truth, calibrated probability or theoretical reliability guarantee",
+  "baseline_fidelity": "official scoring-core variants at declared common backbone/settings; published full benchmark recipes have not been reproduced",
+  "configured_adequacy_threshold": 0.5,
+  "evaluation_episodes": 180,
+  "full_benchmarks_run": false,
+  "native_test_defect_labels_used_for_calibration": false,
+  "prediction_records": 720,
+  "private_submission": "blocked: private images absent; real public/validation exports use official paths and per-file checks, not a complete server submission",
+  "reproducibility": "deterministic CPU algorithms, pinned sources/weights, fingerprinted data and immutable maps/metrics; repeated completed invocation validates integrity and independently recomputes one real query per method",
+  "scope": "feasibility_pilot_5_categories_3_support_draws_native_metrics",
+  "status": "completed_declared_scope",
+  "verification_images": 20089
+}

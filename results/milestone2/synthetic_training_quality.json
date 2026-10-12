@@ -1,0 +1,67 @@
+{
+  "synthetic_queries": [
+    {
+      "query_id": "visa/candle/0122_seed-2_cutpaste-v1.png",
+      "mean_absolute_pixel_change_0_255": 110.99812316894531,
+      "changed_channel_fraction": 0.9469682371455181
+    },
+    {
+      "query_id": "visa/candle/0679_seed-2_cutpaste-v1.png",
+      "mean_absolute_pixel_change_0_255": 21.8416748046875,
+      "changed_channel_fraction": 0.9530542441468349
+    },
+    {
+      "query_id": "visa/candle/0944_seed-0_cutpaste-v1.png",
+      "mean_absolute_pixel_change_0_255": 78.84636688232422,
+      "changed_channel_fraction": 0.8272232392330667
+    },
+    {
+      "query_id": "visa/candle/0599_seed-0_cutpaste-v1.png",
+      "mean_absolute_pixel_change_0_255": 124.89375305175781,
+      "changed_channel_fraction": 0.9974547965443042
+    },
+    {
+      "query_id": "mvtec_ad/carpet/018_seed-1_cutpaste-v1.png",
+      "mean_absolute_pixel_change_0_255": 52.78150939941406,
+      "changed_channel_fraction": 0.9940945790080739
+    },
+    {
+      "query_id": "mvtec_ad/carpet/132_seed-1_cutpaste-v1.png",
+      "mean_absolute_pixel_change_0_255": 52.32389831542969,
+      "changed_channel_fraction": 0.9941753171856978
+    },
+    {
+      "query_id": "mvtec_ad/carpet/085_seed-2_cutpaste-v1.png",
+      "mean_absolute_pixel_change_0_255": 45.80574417114258,
+      "changed_channel_fraction": 0.9934256055363322
+    },
+    {
+      "query_id": "mvtec_ad/carpet/237_seed-2_cutpaste-v1.png",
+      "mean_absolute_pixel_change_0_255": 49.76739501953125,
+      "changed_channel_fraction": 0.9938292964244522
+    },
+    {
+      "query_id": "visa/candle/0098_seed-1_cutpaste-v1.png",
+      "mean_absolute_pixel_change_0_255": 118.80362701416016,
+      "changed_channel_fraction": 0.9453303144169316
+    },
+    {
+      "query_id": "visa/candle/0746_seed-1_cutpaste-v1.png",
+      "mean_absolute_pixel_change_0_255": 79.02286529541016,
+      "changed_channel_fraction": 0.9849535921893567
+    },
+    {
+      "query_id": "mvtec_ad/carpet/170_seed-0_cutpaste-v1.png",
+      "mean_absolute_pixel_change_0_255": 49.047115325927734,
+      "changed_channel_fraction": 0.993840830449827
+    },
+    {
+      "query_id": "mvtec_ad/carpet/143_seed-0_cutpaste-v1.png",
+      "mean_absolute_pixel_change_0_255": 44.798614501953125,
+      "changed_channel_fraction": 0.9935870818915802
+    }
+  ],
+  "no_op_transformations": 0,
+  "source_query_reference_exact_file_hash_overlap": 0,
+  "scope": "Pixel changes verified; realism as industrial defects is not established."
+}

@@ -1,0 +1,23 @@
+{
+  "adequacy_threshold": 0.5,
+  "calibration_ids": [
+    "visa:fryum/Data/Images/Normal/377.JPG",
+    "visa:fryum/Data/Images/Normal/272.JPG",
+    "visa:fryum/Data/Images/Anomaly/051.JPG",
+    "visa:fryum/Data/Images/Anomaly/005.JPG"
+  ],
+  "calibration_support_ids": [
+    "visa:fryum/Data/Images/Normal/479.JPG",
+    "visa:fryum/Data/Images/Normal/121.JPG",
+    "visa:fryum/Data/Images/Normal/062.JPG",
+    "visa:fryum/Data/Images/Normal/182.JPG"
+  ],
+  "category": "fryum",
+  "dataset": "visa",
+  "final_labels_used": false,
+  "image_threshold": 0.908994197845459,
+  "method": "transparent_nn",
+  "pixel_threshold": 0.6052346229553223,
+  "procedure": "empirical F1 cutoff on reserved calibration-category queries only; not probability calibration",
+  "shots": 4
+}

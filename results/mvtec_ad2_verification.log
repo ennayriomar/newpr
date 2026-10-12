@@ -1,0 +1,5 @@
+{"dataset": "mvtec_ad2", "checked": 1000, "total": 3914}
+{"dataset": "mvtec_ad2", "checked": 2000, "total": 3914}
+{"dataset": "mvtec_ad2", "checked": 3000, "total": 3914}
+{"dataset": "mvtec_ad2", "checked": 3914, "total": 3914}
+{"dataset": "mvtec_ad2", "status": "passed", "total_images": 3914, "native_splits_checked": ["test_public", "train", "validation"]}

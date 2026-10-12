@@ -1,0 +1,91 @@
+{
+  "actions": {
+    "normal": 4
+  },
+  "adequacy_precision": {
+    "curve": [
+      {
+        "accepted": 4,
+        "adequacy_threshold": 0.0,
+        "coverage": 1.0,
+        "precision_correct_decision": 0.5
+      },
+      {
+        "accepted": 4,
+        "adequacy_threshold": 0.6493837833404541,
+        "coverage": 1.0,
+        "precision_correct_decision": 0.5
+      },
+      {
+        "accepted": 3,
+        "adequacy_threshold": 0.6494840979576111,
+        "coverage": 0.75,
+        "precision_correct_decision": 0.3333333333333333
+      },
+      {
+        "accepted": 2,
+        "adequacy_threshold": 0.6498845815658569,
+        "coverage": 0.5,
+        "precision_correct_decision": 0.5
+      },
+      {
+        "accepted": 1,
+        "adequacy_threshold": 0.6499450206756592,
+        "coverage": 0.25,
+        "precision_correct_decision": 1.0
+      },
+      {
+        "accepted": 0,
+        "adequacy_threshold": 1.0,
+        "coverage": 0.0,
+        "precision_correct_decision": null
+      }
+    ],
+    "event": "image decision correct at locked calibration cutoff; empirical correctness proxy, NOT ground-truth support adequacy"
+  },
+  "calibration_ids": [
+    "visa:fryum/Data/Images/Normal/466.JPG",
+    "visa:fryum/Data/Images/Normal/047.JPG",
+    "visa:fryum/Data/Images/Normal/376.JPG",
+    "visa:fryum/Data/Images/Normal/128.JPG"
+  ],
+  "category": "macaroni2",
+  "dataset": "visa",
+  "image": {
+    "ap": 0.8333333333333333,
+    "auroc": 0.75,
+    "f1_max_offline": 0.8,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 2,
+    "fp": 0,
+    "locked_f1": 0.0,
+    "locked_threshold": 0.9583404836753189,
+    "tp": 0
+  },
+  "method": "support_hybrid",
+  "pixel": {
+    "ap": 0.0017541095487430965,
+    "auroc": 0.9076204902656144,
+    "f1_max_offline": 0.007204217300239803,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 549,
+    "fp": 562606,
+    "locked_f1": 0.0023525952065872667,
+    "locked_threshold": 0.7299374341964722,
+    "tp": 664
+  },
+  "queries": 4,
+  "query_repeat_semantics": "same locked queries across methods/k/support draws; draws are not independent query populations",
+  "role": "validation",
+  "seed": 1,
+  "selective_decision": {
+    "accepted": 4,
+    "accuracy_accepted": 0.5,
+    "adequacy_threshold": 0.5,
+    "correct_accepted": 2,
+    "coverage": 1.0,
+    "semantics": "empirical accepted-decision correctness; no guarantee"
+  },
+  "shots": 1,
+  "unique_query_count": 4
+}

@@ -1,0 +1,42 @@
+{
+  "actions": {
+    "normal": 4
+  },
+  "calibration_ids": [
+    "mvtec_ad2:can/validation/good/001_regular.png",
+    "mvtec_ad2:can/validation/good/009_regular.png",
+    "mvtec_ad2:can/validation/good/004_regular.png",
+    "mvtec_ad2:can/validation/good/011_regular.png"
+  ],
+  "category": "can",
+  "dataset": "mvtec_ad2",
+  "image": {
+    "ap": 0.5,
+    "auroc": 0.25,
+    "f1_max_offline": 0.6666666666666666,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 2,
+    "fp": 0,
+    "locked_f1": 0.0,
+    "locked_threshold": 0.5708769161250832,
+    "tp": 0
+  },
+  "method": "anomalydino",
+  "pixel": {
+    "ap": 1.2973195162580233e-05,
+    "auroc": 0.31151210661761075,
+    "f1_max_offline": 5.366440694793077e-05,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 156,
+    "fp": 156057,
+    "locked_f1": 0.0,
+    "locked_threshold": 0.21200856566429138,
+    "tp": 0
+  },
+  "queries": 4,
+  "query_repeat_semantics": "same locked queries across methods/k/support draws; draws are not independent query populations",
+  "role": "stress_final_public",
+  "seed": 0,
+  "shots": 4,
+  "unique_query_count": 4
+}

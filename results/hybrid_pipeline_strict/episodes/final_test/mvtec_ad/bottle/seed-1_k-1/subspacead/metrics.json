@@ -1,0 +1,43 @@
+{
+  "actions": {
+    "defective": 3,
+    "normal": 1
+  },
+  "calibration_ids": [
+    "mvtec_ad:capsule/train/good/158.png",
+    "mvtec_ad:capsule/train/good/117.png",
+    "mvtec_ad:capsule/train/good/086.png",
+    "mvtec_ad:capsule/train/good/017.png"
+  ],
+  "category": "bottle",
+  "dataset": "mvtec_ad",
+  "image": {
+    "ap": 1.0,
+    "auroc": 1.0,
+    "f1_max_offline": 1.0,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 0,
+    "fp": 1,
+    "locked_f1": 0.8,
+    "locked_threshold": 60.78601710500412,
+    "tp": 2
+  },
+  "method": "subspacead",
+  "pixel": {
+    "ap": 0.7452129111288026,
+    "auroc": 0.9795036787449538,
+    "f1_max_offline": 0.7069022070193525,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 0,
+    "fp": 1055192,
+    "locked_f1": 0.22510582173773833,
+    "locked_threshold": 25.93738555908203,
+    "tp": 153266
+  },
+  "queries": 4,
+  "query_repeat_semantics": "same locked queries across methods/k/support draws; draws are not independent query populations",
+  "role": "final_test",
+  "seed": 1,
+  "shots": 1,
+  "unique_query_count": 4
+}

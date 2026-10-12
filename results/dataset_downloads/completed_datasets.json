@@ -1,0 +1,26 @@
+[
+  {
+    "dataset": "mvtec_ad",
+    "root": "/workspace/datasets/mvtec_ad",
+    "categories": 15,
+    "images_checked": 5354,
+    "verification": "passed",
+    "checksum_verified": true
+  },
+  {
+    "dataset": "visa",
+    "root": "/workspace/datasets/visa",
+    "categories": 12,
+    "images_checked": 10821,
+    "verification": "passed",
+    "checksum_verified": true
+  },
+  {
+    "dataset": "mvtec_ad2",
+    "root": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2",
+    "categories": 8,
+    "images_checked": 3914,
+    "verification": "passed",
+    "checksum_verified": true
+  }
+]

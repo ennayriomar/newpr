@@ -1,0 +1,310 @@
+{
+  "dataset": "mvtec_ad",
+  "root": "/workspace/datasets/mvtec_ad",
+  "status": "passed",
+  "real_data": true,
+  "pretrained_weights_used": false,
+  "categories": [
+    "bottle",
+    "cable",
+    "capsule",
+    "carpet",
+    "grid",
+    "hazelnut",
+    "leather",
+    "metal_nut",
+    "pill",
+    "screw",
+    "tile",
+    "toothbrush",
+    "transistor",
+    "wood",
+    "zipper"
+  ],
+  "total_images": 5354,
+  "counts": [
+    {
+      "category": "bottle",
+      "split": "test",
+      "label": "anomaly",
+      "count": 63
+    },
+    {
+      "category": "bottle",
+      "split": "test",
+      "label": "normal",
+      "count": 20
+    },
+    {
+      "category": "bottle",
+      "split": "train",
+      "label": "normal",
+      "count": 209
+    },
+    {
+      "category": "cable",
+      "split": "test",
+      "label": "anomaly",
+      "count": 92
+    },
+    {
+      "category": "cable",
+      "split": "test",
+      "label": "normal",
+      "count": 58
+    },
+    {
+      "category": "cable",
+      "split": "train",
+      "label": "normal",
+      "count": 224
+    },
+    {
+      "category": "capsule",
+      "split": "test",
+      "label": "anomaly",
+      "count": 109
+    },
+    {
+      "category": "capsule",
+      "split": "test",
+      "label": "normal",
+      "count": 23
+    },
+    {
+      "category": "capsule",
+      "split": "train",
+      "label": "normal",
+      "count": 219
+    },
+    {
+      "category": "carpet",
+      "split": "test",
+      "label": "anomaly",
+      "count": 89
+    },
+    {
+      "category": "carpet",
+      "split": "test",
+      "label": "normal",
+      "count": 28
+    },
+    {
+      "category": "carpet",
+      "split": "train",
+      "label": "normal",
+      "count": 280
+    },
+    {
+      "category": "grid",
+      "split": "test",
+      "label": "anomaly",
+      "count": 57
+    },
+    {
+      "category": "grid",
+      "split": "test",
+      "label": "normal",
+      "count": 21
+    },
+    {
+      "category": "grid",
+      "split": "train",
+      "label": "normal",
+      "count": 264
+    },
+    {
+      "category": "hazelnut",
+      "split": "test",
+      "label": "anomaly",
+      "count": 70
+    },
+    {
+      "category": "hazelnut",
+      "split": "test",
+      "label": "normal",
+      "count": 40
+    },
+    {
+      "category": "hazelnut",
+      "split": "train",
+      "label": "normal",
+      "count": 391
+    },
+    {
+      "category": "leather",
+      "split": "test",
+      "label": "anomaly",
+      "count": 92
+    },
+    {
+      "category": "leather",
+      "split": "test",
+      "label": "normal",
+      "count": 32
+    },
+    {
+      "category": "leather",
+      "split": "train",
+      "label": "normal",
+      "count": 245
+    },
+    {
+      "category": "metal_nut",
+      "split": "test",
+      "label": "anomaly",
+      "count": 93
+    },
+    {
+      "category": "metal_nut",
+      "split": "test",
+      "label": "normal",
+      "count": 22
+    },
+    {
+      "category": "metal_nut",
+      "split": "train",
+      "label": "normal",
+      "count": 220
+    },
+    {
+      "category": "pill",
+      "split": "test",
+      "label": "anomaly",
+      "count": 141
+    },
+    {
+      "category": "pill",
+      "split": "test",
+      "label": "normal",
+      "count": 26
+    },
+    {
+      "category": "pill",
+      "split": "train",
+      "label": "normal",
+      "count": 267
+    },
+    {
+      "category": "screw",
+      "split": "test",
+      "label": "anomaly",
+      "count": 119
+    },
+    {
+      "category": "screw",
+      "split": "test",
+      "label": "normal",
+      "count": 41
+    },
+    {
+      "category": "screw",
+      "split": "train",
+      "label": "normal",
+      "count": 320
+    },
+    {
+      "category": "tile",
+      "split": "test",
+      "label": "anomaly",
+      "count": 84
+    },
+    {
+      "category": "tile",
+      "split": "test",
+      "label": "normal",
+      "count": 33
+    },
+    {
+      "category": "tile",
+      "split": "train",
+      "label": "normal",
+      "count": 230
+    },
+    {
+      "category": "toothbrush",
+      "split": "test",
+      "label": "anomaly",
+      "count": 30
+    },
+    {
+      "category": "toothbrush",
+      "split": "test",
+      "label": "normal",
+      "count": 12
+    },
+    {
+      "category": "toothbrush",
+      "split": "train",
+      "label": "normal",
+      "count": 60
+    },
+    {
+      "category": "transistor",
+      "split": "test",
+      "label": "anomaly",
+      "count": 40
+    },
+    {
+      "category": "transistor",
+      "split": "test",
+      "label": "normal",
+      "count": 60
+    },
+    {
+      "category": "transistor",
+      "split": "train",
+      "label": "normal",
+      "count": 213
+    },
+    {
+      "category": "wood",
+      "split": "test",
+      "label": "anomaly",
+      "count": 60
+    },
+    {
+      "category": "wood",
+      "split": "test",
+      "label": "normal",
+      "count": 19
+    },
+    {
+      "category": "wood",
+      "split": "train",
+      "label": "normal",
+      "count": 247
+    },
+    {
+      "category": "zipper",
+      "split": "test",
+      "label": "anomaly",
+      "count": 119
+    },
+    {
+      "category": "zipper",
+      "split": "test",
+      "label": "normal",
+      "count": 32
+    },
+    {
+      "category": "zipper",
+      "split": "train",
+      "label": "normal",
+      "count": 240
+    }
+  ],
+  "split_csv": null,
+  "native_splits_checked": [
+    "test",
+    "train"
+  ],
+  "experimental_manifest_status": "not_created; no experimental support/validation/calibration assignment is claimed",
+  "mask_semantics": "VisA native integer class IDs are binarized as >0 for visuals only; MVTec masks must use 0/255.",
+  "private_test_evaluation": "not_performed",
+  "issues": [],
+  "versions": {
+    "numpy": "2.2.6",
+    "pillow": "12.3.0"
+  }
+}

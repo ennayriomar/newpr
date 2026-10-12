@@ -1,0 +1,49 @@
+{
+  "dataset": "mvtec_ad",
+  "category": "bottle",
+  "seed": 1,
+  "protocol": "B_budgeted_reference_acquisition",
+  "initial_support_ids": [
+    "bottle/train/good/194.png"
+  ],
+  "candidate_ids": [
+    "bottle/train/good/172.png",
+    "bottle/train/good/051.png",
+    "bottle/train/good/111.png",
+    "bottle/train/good/150.png",
+    "bottle/train/good/149.png",
+    "bottle/train/good/001.png",
+    "bottle/train/good/134.png",
+    "bottle/train/good/049.png",
+    "bottle/train/good/141.png",
+    "bottle/train/good/124.png",
+    "bottle/train/good/038.png",
+    "bottle/train/good/200.png",
+    "bottle/train/good/081.png",
+    "bottle/train/good/005.png",
+    "bottle/train/good/206.png",
+    "bottle/train/good/025.png"
+  ],
+  "query_ids": [
+    "bottle/test/good/000.png",
+    "bottle/test/good/001.png",
+    "bottle/test/good/002.png",
+    "bottle/test/good/003.png",
+    "bottle/test/broken_large/000.png",
+    "bottle/test/broken_large/001.png",
+    "bottle/test/broken_large/002.png",
+    "bottle/test/broken_large/003.png"
+  ],
+  "allowed_additional_references": 1,
+  "forced_acquisition_count": 1,
+  "loss_specification": {
+    "type": "balanced_pixel_margin_mse",
+    "margin": 1.0
+  },
+  "loss_choice": "predeclared before acquisition results; not tuned with evaluation labels",
+  "candidate_information": "Verified-normal training IDs, frozen patch features and mean-normalized-patch global descriptors; same pool for every policy. Unselected patches never enter the detector memory.",
+  "oracle_information": "Query masks/labels only for offline counterfactual losses; never for deployed policies or training targets.",
+  "base_detector_checkpoint_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+  "no_acquisition_baseline": "initial k=1 memory; pool scans excluded from detector memory; not a strict-k-shot claim for acquisition policies",
+  "budget_unit": "per query inspection; reset to the same initial S for each query; no cumulative bank across queries"
+}

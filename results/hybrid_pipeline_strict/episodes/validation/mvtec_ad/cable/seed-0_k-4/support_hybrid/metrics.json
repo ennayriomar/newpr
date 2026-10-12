@@ -1,0 +1,91 @@
+{
+  "actions": {
+    "defective": 4
+  },
+  "adequacy_precision": {
+    "curve": [
+      {
+        "accepted": 4,
+        "adequacy_threshold": 0.0,
+        "coverage": 1.0,
+        "precision_correct_decision": 0.5
+      },
+      {
+        "accepted": 4,
+        "adequacy_threshold": 0.548028290271759,
+        "coverage": 1.0,
+        "precision_correct_decision": 0.5
+      },
+      {
+        "accepted": 3,
+        "adequacy_threshold": 0.5499981641769409,
+        "coverage": 0.75,
+        "precision_correct_decision": 0.3333333333333333
+      },
+      {
+        "accepted": 2,
+        "adequacy_threshold": 0.5562765598297119,
+        "coverage": 0.5,
+        "precision_correct_decision": 0.0
+      },
+      {
+        "accepted": 1,
+        "adequacy_threshold": 0.5619111061096191,
+        "coverage": 0.25,
+        "precision_correct_decision": 0.0
+      },
+      {
+        "accepted": 0,
+        "adequacy_threshold": 1.0,
+        "coverage": 0.0,
+        "precision_correct_decision": null
+      }
+    ],
+    "event": "image decision correct at locked calibration cutoff; empirical correctness proxy, NOT ground-truth support adequacy"
+  },
+  "calibration_ids": [
+    "mvtec_ad:capsule/train/good/158.png",
+    "mvtec_ad:capsule/train/good/117.png",
+    "mvtec_ad:capsule/train/good/086.png",
+    "mvtec_ad:capsule/train/good/017.png"
+  ],
+  "category": "cable",
+  "dataset": "mvtec_ad",
+  "image": {
+    "ap": 1.0,
+    "auroc": 1.0,
+    "f1_max_offline": 1.0,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 0,
+    "fp": 2,
+    "locked_f1": 0.6666666666666666,
+    "locked_threshold": 0.761590779004696,
+    "tp": 2
+  },
+  "method": "support_hybrid",
+  "pixel": {
+    "ap": 0.6019877536567844,
+    "auroc": 0.98109149987578,
+    "f1_max_offline": 0.590846670240192,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 0,
+    "fp": 2106939,
+    "locked_f1": 0.08197539169675641,
+    "locked_threshold": 0.5221269726753235,
+    "tp": 94070
+  },
+  "queries": 4,
+  "query_repeat_semantics": "same locked queries across methods/k/support draws; draws are not independent query populations",
+  "role": "validation",
+  "seed": 0,
+  "selective_decision": {
+    "accepted": 4,
+    "accuracy_accepted": 0.5,
+    "adequacy_threshold": 0.5,
+    "correct_accepted": 2,
+    "coverage": 1.0,
+    "semantics": "empirical accepted-decision correctness; no guarantee"
+  },
+  "shots": 4,
+  "unique_query_count": 4
+}

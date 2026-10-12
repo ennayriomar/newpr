@@ -1,0 +1,92 @@
+{
+  "actions": {
+    "defective": 2,
+    "normal": 2
+  },
+  "adequacy_precision": {
+    "curve": [
+      {
+        "accepted": 4,
+        "adequacy_threshold": 0.0,
+        "coverage": 1.0,
+        "precision_correct_decision": 1.0
+      },
+      {
+        "accepted": 4,
+        "adequacy_threshold": 0.5437239408493042,
+        "coverage": 1.0,
+        "precision_correct_decision": 1.0
+      },
+      {
+        "accepted": 3,
+        "adequacy_threshold": 0.5599141716957092,
+        "coverage": 0.75,
+        "precision_correct_decision": 1.0
+      },
+      {
+        "accepted": 2,
+        "adequacy_threshold": 0.5644977688789368,
+        "coverage": 0.5,
+        "precision_correct_decision": 1.0
+      },
+      {
+        "accepted": 1,
+        "adequacy_threshold": 0.5665528774261475,
+        "coverage": 0.25,
+        "precision_correct_decision": 1.0
+      },
+      {
+        "accepted": 0,
+        "adequacy_threshold": 1.0,
+        "coverage": 0.0,
+        "precision_correct_decision": null
+      }
+    ],
+    "event": "image decision correct at locked calibration cutoff; empirical correctness proxy, NOT ground-truth support adequacy"
+  },
+  "calibration_ids": [
+    "mvtec_ad:capsule/test/good/000.png",
+    "mvtec_ad:capsule/test/good/005.png",
+    "mvtec_ad:capsule/test/poke/002.png",
+    "mvtec_ad:capsule/test/scratch/014.png"
+  ],
+  "category": "bottle",
+  "dataset": "mvtec_ad",
+  "image": {
+    "ap": 1.0,
+    "auroc": 1.0,
+    "f1_max_offline": 1.0,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 0,
+    "fp": 0,
+    "locked_f1": 1.0,
+    "locked_threshold": 0.856594443321228,
+    "tp": 2
+  },
+  "method": "support_hybrid",
+  "pixel": {
+    "ap": 0.8515926755970912,
+    "auroc": 0.9914983293789092,
+    "f1_max_offline": 0.805166079564431,
+    "f1_max_semantics": "test-set diagnostic only; maximizing threshold is neither exported nor used for decisions",
+    "fn": 20876,
+    "fp": 44383,
+    "locked_f1": 0.8022688227754902,
+    "locked_threshold": 0.7260071039199829,
+    "tp": 132390
+  },
+  "queries": 4,
+  "query_repeat_semantics": "same locked queries across methods/k/support draws; draws are not independent query populations",
+  "role": "final_test",
+  "seed": 1,
+  "selective_decision": {
+    "accepted": 4,
+    "accuracy_accepted": 1.0,
+    "adequacy_threshold": 0.5,
+    "correct_accepted": 4,
+    "coverage": 1.0,
+    "semantics": "empirical accepted-decision correctness; no guarantee"
+  },
+  "shots": 1,
+  "unique_query_count": 4
+}

@@ -1,0 +1,33 @@
+{"dataset": "mvtec_ad", "checked": 1000, "total": 5354}
+{"dataset": "mvtec_ad", "checked": 2000, "total": 5354}
+{"dataset": "mvtec_ad", "checked": 3000, "total": 5354}
+{"dataset": "mvtec_ad", "checked": 4000, "total": 5354}
+{"dataset": "mvtec_ad", "checked": 5000, "total": 5354}
+{"dataset": "mvtec_ad", "checked": 5354, "total": 5354}
+{"dataset": "mvtec_ad", "status": "passed", "total_images": 5354, "native_splits_checked": ["test", "train"]}
+{"dataset": "visa", "checked": 1000, "total": 10821}
+{"dataset": "visa", "checked": 2000, "total": 10821}
+{"dataset": "visa", "checked": 3000, "total": 10821}
+{"dataset": "visa", "checked": 4000, "total": 10821}
+{"dataset": "visa", "checked": 5000, "total": 10821}
+{"dataset": "visa", "checked": 6000, "total": 10821}
+{"dataset": "visa", "checked": 7000, "total": 10821}
+{"dataset": "visa", "checked": 8000, "total": 10821}
+{"dataset": "visa", "checked": 9000, "total": 10821}
+{"dataset": "visa", "checked": 10000, "total": 10821}
+{"dataset": "visa", "checked": 10821, "total": 10821}
+{"dataset": "visa", "status": "passed", "total_images": 10821, "native_splits_checked": ["test", "train"]}
+{"dataset": "mvtec_ad2", "checked": 1000, "total": 3914}
+{"dataset": "mvtec_ad2", "checked": 2000, "total": 3914}
+{"dataset": "mvtec_ad2", "checked": 3000, "total": 3914}
+{"dataset": "mvtec_ad2", "checked": 3914, "total": 3914}
+{"dataset": "mvtec_ad2", "status": "passed", "total_images": 3914, "native_splits_checked": ["test_public", "train", "validation"]}
+/workspace/.cache/dinov2-source/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/workspace/.cache/dinov2-source/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/workspace/.cache/dinov2-source/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+PCA Pass 1/2 (Mean):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 1/2 (Mean): 100%|██████████| 1/1 [00:00<00:00, 3869.28it/s]
+PCA Pass 2/2 (Cov):   0%|          | 0/1 [00:00<?, ?it/s]PCA Pass 2/2 (Cov): 100%|██████████| 1/1 [00:00<00:00, 341.42it/s]
+{"status": "completed_run_integrity_verified", "artifacts": 1592, "independent_real_image_checks": [{"method": "transparent_nn", "maps_bitwise_equal": true, "image_id": "cable/test/good/045.png", "cache_bypassed": true}, {"method": "anomalydino", "maps_bitwise_equal": true, "image_id": "cable/test/good/045.png", "cache_bypassed": true}, {"method": "subspacead", "maps_bitwise_equal": true, "image_id": "cable/test/good/045.png", "cache_bypassed": true}, {"method": "support_hybrid", "maps_bitwise_equal": true, "image_id": "cable/test/good/045.png", "cache_bypassed": true}]}
