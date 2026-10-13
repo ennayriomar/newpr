@@ -1,0 +1,7 @@
+{
+  "source_dir": "/tmp/safal_portable_assets_v050/dinov2-source",
+  "checkpoint": "/tmp/safal_portable_assets_v050/dinov2_vitb14_pretrain.pth",
+  "source_manifest": "/tmp/safal_portable_assets_v050/dinov2-source/source_manifest.sha256.json",
+  "source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "checkpoint_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73"
+}

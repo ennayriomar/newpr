@@ -1,0 +1,656 @@
+{
+  "schema_version": 1,
+  "scope": "safal_full_model_validation",
+  "source_episodes": [
+    {
+      "dataset": "mvtec_ad",
+      "category": "carpet",
+      "support_ids": [
+        "carpet/train/good/168.png",
+        "carpet/train/good/074.png"
+      ],
+      "calibration_ids": [
+        "carpet/train/good/084.png",
+        "carpet/train/good/248.png",
+        "carpet/train/good/140.png",
+        "carpet/train/good/177.png"
+      ],
+      "fit_parent_ids": [
+        "carpet/train/good/149.png",
+        "carpet/train/good/026.png",
+        "carpet/train/good/244.png",
+        "carpet/train/good/059.png",
+        "carpet/train/good/231.png",
+        "carpet/train/good/090.png"
+      ],
+      "heldout_parent_ids": [
+        "carpet/train/good/104.png",
+        "carpet/train/good/047.png"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "grid",
+      "support_ids": [
+        "grid/train/good/120.png",
+        "grid/train/good/041.png"
+      ],
+      "calibration_ids": [
+        "grid/train/good/245.png",
+        "grid/train/good/038.png",
+        "grid/train/good/126.png",
+        "grid/train/good/097.png"
+      ],
+      "fit_parent_ids": [
+        "grid/train/good/127.png",
+        "grid/train/good/207.png",
+        "grid/train/good/087.png",
+        "grid/train/good/051.png",
+        "grid/train/good/233.png",
+        "grid/train/good/253.png"
+      ],
+      "heldout_parent_ids": [
+        "grid/train/good/230.png",
+        "grid/train/good/147.png"
+      ]
+    },
+    {
+      "dataset": "visa",
+      "category": "candle",
+      "support_ids": [
+        "candle/Data/Images/Normal/0340.JPG",
+        "candle/Data/Images/Normal/0829.JPG"
+      ],
+      "calibration_ids": [
+        "candle/Data/Images/Normal/0839.JPG",
+        "candle/Data/Images/Normal/0876.JPG",
+        "candle/Data/Images/Normal/0118.JPG",
+        "candle/Data/Images/Normal/0133.JPG"
+      ],
+      "fit_parent_ids": [
+        "candle/Data/Images/Normal/0348.JPG",
+        "candle/Data/Images/Normal/0696.JPG",
+        "candle/Data/Images/Normal/0731.JPG",
+        "candle/Data/Images/Normal/0620.JPG",
+        "candle/Data/Images/Normal/0416.JPG",
+        "candle/Data/Images/Normal/0733.JPG"
+      ],
+      "heldout_parent_ids": [
+        "candle/Data/Images/Normal/0229.JPG",
+        "candle/Data/Images/Normal/0341.JPG"
+      ]
+    },
+    {
+      "dataset": "visa",
+      "category": "cashew",
+      "support_ids": [
+        "cashew/Data/Images/Normal/002.JPG",
+        "cashew/Data/Images/Normal/133.JPG"
+      ],
+      "calibration_ids": [
+        "cashew/Data/Images/Normal/267.JPG",
+        "cashew/Data/Images/Normal/128.JPG",
+        "cashew/Data/Images/Normal/169.JPG",
+        "cashew/Data/Images/Normal/275.JPG"
+      ],
+      "fit_parent_ids": [
+        "cashew/Data/Images/Normal/429.JPG",
+        "cashew/Data/Images/Normal/105.JPG",
+        "cashew/Data/Images/Normal/117.JPG",
+        "cashew/Data/Images/Normal/039.JPG",
+        "cashew/Data/Images/Normal/442.JPG",
+        "cashew/Data/Images/Normal/165.JPG"
+      ],
+      "heldout_parent_ids": [
+        "cashew/Data/Images/Normal/092.JPG",
+        "cashew/Data/Images/Normal/249.JPG"
+      ]
+    }
+  ],
+  "episodes": [
+    {
+      "id": "mvtec_ad-hazelnut-k1-seed5",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 5,
+      "shots": 1,
+      "support_ids": [
+        "hazelnut/train/good/309.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/308.png",
+        "hazelnut/train/good/176.png",
+        "hazelnut/train/good/258.png",
+        "hazelnut/train/good/199.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/print/015.png",
+        "hazelnut/test/hole/011.png"
+      ],
+      "k_plus_calibration": 5,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-hazelnut-k2-seed5",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 5,
+      "shots": 2,
+      "support_ids": [
+        "hazelnut/train/good/309.png",
+        "hazelnut/train/good/263.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/308.png",
+        "hazelnut/train/good/176.png",
+        "hazelnut/train/good/258.png",
+        "hazelnut/train/good/199.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/print/015.png",
+        "hazelnut/test/hole/011.png"
+      ],
+      "k_plus_calibration": 6,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-hazelnut-k4-seed5",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 5,
+      "shots": 4,
+      "support_ids": [
+        "hazelnut/train/good/309.png",
+        "hazelnut/train/good/263.png",
+        "hazelnut/train/good/153.png",
+        "hazelnut/train/good/141.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/308.png",
+        "hazelnut/train/good/176.png",
+        "hazelnut/train/good/258.png",
+        "hazelnut/train/good/199.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/print/015.png",
+        "hazelnut/test/hole/011.png"
+      ],
+      "k_plus_calibration": 8,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-hazelnut-k8-seed5",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 5,
+      "shots": 8,
+      "support_ids": [
+        "hazelnut/train/good/309.png",
+        "hazelnut/train/good/263.png",
+        "hazelnut/train/good/153.png",
+        "hazelnut/train/good/141.png",
+        "hazelnut/train/good/355.png",
+        "hazelnut/train/good/284.png",
+        "hazelnut/train/good/110.png",
+        "hazelnut/train/good/193.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/308.png",
+        "hazelnut/train/good/176.png",
+        "hazelnut/train/good/258.png",
+        "hazelnut/train/good/199.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/print/015.png",
+        "hazelnut/test/hole/011.png"
+      ],
+      "k_plus_calibration": 12,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-hazelnut-k1-seed13",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 13,
+      "shots": 1,
+      "support_ids": [
+        "hazelnut/train/good/076.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/308.png",
+        "hazelnut/train/good/176.png",
+        "hazelnut/train/good/258.png",
+        "hazelnut/train/good/199.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/print/015.png",
+        "hazelnut/test/hole/011.png"
+      ],
+      "k_plus_calibration": 5,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-hazelnut-k2-seed13",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 13,
+      "shots": 2,
+      "support_ids": [
+        "hazelnut/train/good/076.png",
+        "hazelnut/train/good/166.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/308.png",
+        "hazelnut/train/good/176.png",
+        "hazelnut/train/good/258.png",
+        "hazelnut/train/good/199.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/print/015.png",
+        "hazelnut/test/hole/011.png"
+      ],
+      "k_plus_calibration": 6,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-hazelnut-k4-seed13",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 13,
+      "shots": 4,
+      "support_ids": [
+        "hazelnut/train/good/076.png",
+        "hazelnut/train/good/166.png",
+        "hazelnut/train/good/254.png",
+        "hazelnut/train/good/271.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/308.png",
+        "hazelnut/train/good/176.png",
+        "hazelnut/train/good/258.png",
+        "hazelnut/train/good/199.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/print/015.png",
+        "hazelnut/test/hole/011.png"
+      ],
+      "k_plus_calibration": 8,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-hazelnut-k8-seed13",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 13,
+      "shots": 8,
+      "support_ids": [
+        "hazelnut/train/good/076.png",
+        "hazelnut/train/good/166.png",
+        "hazelnut/train/good/254.png",
+        "hazelnut/train/good/271.png",
+        "hazelnut/train/good/131.png",
+        "hazelnut/train/good/022.png",
+        "hazelnut/train/good/203.png",
+        "hazelnut/train/good/250.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/308.png",
+        "hazelnut/train/good/176.png",
+        "hazelnut/train/good/258.png",
+        "hazelnut/train/good/199.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/print/015.png",
+        "hazelnut/test/hole/011.png"
+      ],
+      "k_plus_calibration": 12,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k1-seed5",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 5,
+      "shots": 1,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0364.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0509.JPG",
+        "pcb2/Data/Images/Normal/0085.JPG",
+        "pcb2/Data/Images/Normal/0628.JPG",
+        "pcb2/Data/Images/Normal/0953.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0694.JPG",
+        "pcb2/Data/Images/Normal/0648.JPG",
+        "pcb2/Data/Images/Anomaly/068.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG"
+      ],
+      "k_plus_calibration": 5,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k2-seed5",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 5,
+      "shots": 2,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0364.JPG",
+        "pcb2/Data/Images/Normal/0381.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0509.JPG",
+        "pcb2/Data/Images/Normal/0085.JPG",
+        "pcb2/Data/Images/Normal/0628.JPG",
+        "pcb2/Data/Images/Normal/0953.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0694.JPG",
+        "pcb2/Data/Images/Normal/0648.JPG",
+        "pcb2/Data/Images/Anomaly/068.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG"
+      ],
+      "k_plus_calibration": 6,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k4-seed5",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 5,
+      "shots": 4,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0364.JPG",
+        "pcb2/Data/Images/Normal/0381.JPG",
+        "pcb2/Data/Images/Normal/0896.JPG",
+        "pcb2/Data/Images/Normal/0870.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0509.JPG",
+        "pcb2/Data/Images/Normal/0085.JPG",
+        "pcb2/Data/Images/Normal/0628.JPG",
+        "pcb2/Data/Images/Normal/0953.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0694.JPG",
+        "pcb2/Data/Images/Normal/0648.JPG",
+        "pcb2/Data/Images/Anomaly/068.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG"
+      ],
+      "k_plus_calibration": 8,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k8-seed5",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 5,
+      "shots": 8,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0364.JPG",
+        "pcb2/Data/Images/Normal/0381.JPG",
+        "pcb2/Data/Images/Normal/0896.JPG",
+        "pcb2/Data/Images/Normal/0870.JPG",
+        "pcb2/Data/Images/Normal/0726.JPG",
+        "pcb2/Data/Images/Normal/0939.JPG",
+        "pcb2/Data/Images/Normal/0689.JPG",
+        "pcb2/Data/Images/Normal/0287.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0509.JPG",
+        "pcb2/Data/Images/Normal/0085.JPG",
+        "pcb2/Data/Images/Normal/0628.JPG",
+        "pcb2/Data/Images/Normal/0953.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0694.JPG",
+        "pcb2/Data/Images/Normal/0648.JPG",
+        "pcb2/Data/Images/Anomaly/068.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG"
+      ],
+      "k_plus_calibration": 12,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k1-seed13",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 13,
+      "shots": 1,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0113.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0509.JPG",
+        "pcb2/Data/Images/Normal/0085.JPG",
+        "pcb2/Data/Images/Normal/0628.JPG",
+        "pcb2/Data/Images/Normal/0953.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0694.JPG",
+        "pcb2/Data/Images/Normal/0648.JPG",
+        "pcb2/Data/Images/Anomaly/068.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG"
+      ],
+      "k_plus_calibration": 5,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k2-seed13",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 13,
+      "shots": 2,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0113.JPG",
+        "pcb2/Data/Images/Normal/0038.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0509.JPG",
+        "pcb2/Data/Images/Normal/0085.JPG",
+        "pcb2/Data/Images/Normal/0628.JPG",
+        "pcb2/Data/Images/Normal/0953.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0694.JPG",
+        "pcb2/Data/Images/Normal/0648.JPG",
+        "pcb2/Data/Images/Anomaly/068.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG"
+      ],
+      "k_plus_calibration": 6,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k4-seed13",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 13,
+      "shots": 4,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0113.JPG",
+        "pcb2/Data/Images/Normal/0038.JPG",
+        "pcb2/Data/Images/Normal/0442.JPG",
+        "pcb2/Data/Images/Normal/0316.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0509.JPG",
+        "pcb2/Data/Images/Normal/0085.JPG",
+        "pcb2/Data/Images/Normal/0628.JPG",
+        "pcb2/Data/Images/Normal/0953.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0694.JPG",
+        "pcb2/Data/Images/Normal/0648.JPG",
+        "pcb2/Data/Images/Anomaly/068.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG"
+      ],
+      "k_plus_calibration": 8,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k8-seed13",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 13,
+      "shots": 8,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0113.JPG",
+        "pcb2/Data/Images/Normal/0038.JPG",
+        "pcb2/Data/Images/Normal/0442.JPG",
+        "pcb2/Data/Images/Normal/0316.JPG",
+        "pcb2/Data/Images/Normal/0020.JPG",
+        "pcb2/Data/Images/Normal/0064.JPG",
+        "pcb2/Data/Images/Normal/0821.JPG",
+        "pcb2/Data/Images/Normal/0872.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0509.JPG",
+        "pcb2/Data/Images/Normal/0085.JPG",
+        "pcb2/Data/Images/Normal/0628.JPG",
+        "pcb2/Data/Images/Normal/0953.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0694.JPG",
+        "pcb2/Data/Images/Normal/0648.JPG",
+        "pcb2/Data/Images/Anomaly/068.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG"
+      ],
+      "k_plus_calibration": 12,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    }
+  ],
+  "category_roles": {
+    "mvtec_ad": {
+      "meta_training": [
+        "carpet",
+        "grid",
+        "leather",
+        "tile",
+        "wood"
+      ],
+      "validation": [
+        "cable",
+        "hazelnut",
+        "transistor"
+      ],
+      "calibration": [
+        "capsule",
+        "screw",
+        "toothbrush"
+      ],
+      "final_test": [
+        "bottle",
+        "metal_nut",
+        "pill",
+        "zipper"
+      ]
+    },
+    "visa": {
+      "meta_training": [
+        "candle",
+        "cashew",
+        "chewinggum",
+        "macaroni1",
+        "pcb1"
+      ],
+      "validation": [
+        "macaroni2",
+        "pcb2"
+      ],
+      "calibration": [
+        "fryum",
+        "pcb3"
+      ],
+      "final_test": [
+        "capsules",
+        "pcb4",
+        "pipe_fryum"
+      ]
+    }
+  },
+  "metric_geometry": "256x256 bilinear score maps; nearest-neighbor native binary masks",
+  "calibration_domain": "source normal plus CutPaste proxy error; native transfer unverified",
+  "protocol": "support/cutoffs fitted on normal training images; evaluation labels accessed after scoring"
+}

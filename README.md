@@ -1,12 +1,24 @@
-# newpr
+# SAFAL industrial anomaly research
 
-## SAFAL: Phase A foundation audit
+## Full model v0.5.0
+
+[Download the complete model/code ZIP](https://github.com/ennayriomar/newpr/raw/refs/heads/main/safal_full_model_v0.5.0.zip) · [SHA256 checksum](safal_full_model_v0.5.0.zip.sha256) · [Full model guide](framework/docs/full_model.md) · [Measured research report](results/safal_full_model/research_report.md) · [Complete checkpoint/map outputs](results/safal_full_model_archive)
+
+The runnable implementation includes a verified frozen DINOv2 encoder, raw PCA and cosine-search branches, fixed/max/adaptive fusion, support diagnostics, uncertainty, separate source-proxy error calibration, JSON/NPZ checkpoints and train/evaluate/predict commands. The ZIP includes two genuinely fitted k2 examples, all source/configurations/tests, pinned licensed vendor sources and compact measured reports. Pretrained encoder weights and datasets are separate checksum-verified downloads. Read BUNDLE_README.md after extraction.
+
+All **159 unit/contract tests passed**. The actual pretrained pilot completed 16 episodes and 320 method records from **eight unique native images**, with k1/2/4/8, two draws and k+4 normal-information budgets. All20 serialized models were audited;16 query replays reproduced image scores and11 metric-map fields exactly. Two cache-bypassed real-feature probes and separate freshGit/plainvendor checks passed. Train/evaluate/nativepredict/verifiedresume commands passed. These are current-instance checks, not a full published benchmark or a fresh environment restoration.
+
+SAFAL accuracy matched fixed averaging (0.9375) and fell below the PCA branch (0.96875). **Higher accuracy is not established.** Adequacy/uncertainty are bounded compatibility diagnostics. Error estimates are fitted on source normal/CutPaste proxy events; native reliability and calibration are unverified. Evaluation maps are resized256x256; the predict command exports native maps.
+
+The separate result archive retains every fitted source/target bank, query replay probe and metric score-map array, with SHA256-verified8MiB parts and an automatic downloader. Earlier uploads remain preserved below. Real-IAD, full MVTec/VisA/AD2 benchmarks and private AD2 server scoring remain unrun.
+
+## Historical SAFAL Phase A foundation audit
 
 [Read the Phase A report](framework/docs/phase_a_report.md) · [Literature review](framework/docs/literature_review.md) · [Research gap](framework/docs/research_gap.md) · [Staged implementation plan](framework/docs/implementation_plan.md) · [Download the audit documents](https://github.com/ennayriomar/newpr/raw/refs/heads/main/safal_phase_a_docs.zip)
 
-The latest research brief limits this step to Phase A. Official method recipes, source versions, licenses, dataset availability, hardware and prior experimental limits are documented. The existing v0.4.0 source and complete results archives remain preserved. The preliminary variants do not establish a robust accuracy gain or a faithful published SubspaceAD/VisionAD reproduction; no later SAFAL phase is claimed complete.
+The historical Phase A audit documents official recipes, source versions, licenses, dataset availability, hardware and prior experimental limits. It preceded the executable full-model release above. Earlier code and complete result archives remain preserved; preliminary variants did not establish a robust accuracy gain or faithful published-method reproduction.
 
-## Safe IAD research framework v0.4.0
+## Historical Safe IAD research framework v0.4.0
 
 The research repository is `ennayriomar/newpr`. Executable Python source,
 configuration plans, tests and the CPU-runtime installer are under

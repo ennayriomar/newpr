@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "partition_seed": 917,
+  "shots": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "seeds": [
+    5,
+    13
+  ],
+  "normal_calibration_images": 4,
+  "normal_calibration_quantile": 0.95,
+  "queries_per_label": 2,
+  "source_fit_parents": 6,
+  "source_cal_parents": 2,
+  "abstain_error_probability": 0.2,
+  "encoder": {
+    "source_dir": "/workspace/.cache/dinov2-source",
+    "checkpoint": "/workspace/.cache/torch/hub/checkpoints/dinov2_vitb14_pretrain.pth",
+    "cache_root": "/tmp/safal_v050_features",
+    "resolution": 224,
+    "layers": [
+      2,
+      5,
+      8,
+      11
+    ],
+    "threads": 3
+  },
+  "roots": {
+    "mvtec_ad": "/workspace/datasets/mvtec_ad",
+    "visa": "/workspace/datasets/visa"
+  },
+  "source_categories": {
+    "mvtec_ad": [
+      "carpet",
+      "grid"
+    ],
+    "visa": [
+      "candle",
+      "cashew"
+    ]
+  },
+  "validation_categories": {
+    "mvtec_ad": [
+      "hazelnut"
+    ],
+    "visa": [
+      "pcb2"
+    ]
+  },
+  "category_roles": {
+    "mvtec_ad": {
+      "meta_training": [
+        "carpet",
+        "grid",
+        "leather",
+        "tile",
+        "wood"
+      ],
+      "validation": [
+        "cable",
+        "hazelnut",
+        "transistor"
+      ],
+      "calibration": [
+        "capsule",
+        "screw",
+        "toothbrush"
+      ],
+      "final_test": [
+        "bottle",
+        "metal_nut",
+        "pill",
+        "zipper"
+      ]
+    },
+    "visa": {
+      "meta_training": [
+        "candle",
+        "cashew",
+        "chewinggum",
+        "macaroni1",
+        "pcb1"
+      ],
+      "validation": [
+        "macaroni2",
+        "pcb2"
+      ],
+      "calibration": [
+        "fryum",
+        "pcb3"
+      ],
+      "final_test": [
+        "capsules",
+        "pcb4",
+        "pipe_fryum"
+      ]
+    }
+  }
+}

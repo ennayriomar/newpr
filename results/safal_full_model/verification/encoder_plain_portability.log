@@ -1,0 +1,28 @@
+/tmp/safal_vendor_portability_v050/dinov2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/tmp/safal_vendor_portability_v050/dinov2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/tmp/safal_vendor_portability_v050/dinov2/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+{
+  "status": "passed",
+  "test": "Actual frozen pretrained encoder using plain bundled vendor source without Git metadata",
+  "image_id": "hazelnut/test/good/016.png",
+  "image_sha256": "75d4e637105b57120d4da9e6c990f36c69795a6ca2b55f45b14492b804f871c5",
+  "original_episode": "/tmp/safal_full_model_v050/episodes/mvtec_ad-hazelnut-k2-seed5",
+  "probe_file_sha256": "c251bcacfbee618a8908b1e46067dd2eea421586889b2f080ba454b68a5d95b2",
+  "fresh_features_bitwise_equal_original_probe": true,
+  "geometry_equal": true,
+  "max_abs_difference": 0.0,
+  "feature_shape": [
+    256,
+    768
+  ],
+  "feature_dtype": "float32",
+  "cache_reload_bitwise_equal": true,
+  "cache_hit": true,
+  "source_manifest": "/tmp/safal_vendor_portability_v050/dinov2/source_manifest.sha256.json",
+  "source_manifest_file_sha256": "b9afdc4ead431fd2045dec09098cd9a46fd4a3df32b672bde82f5f4ed2e67876",
+  "elapsed_seconds": 2.648592504003318,
+  "scope": "One actual native normal query, feature reproduction only; not a new accuracy experiment or fresh dependency install."
+}

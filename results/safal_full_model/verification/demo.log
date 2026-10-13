@@ -1,0 +1,27 @@
+/workspace/.cache/dinov2-source/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/workspace/.cache/dinov2-source/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/workspace/.cache/dinov2-source/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+{"stage": "source_proxy", "dataset": "mvtec_ad", "category": "carpet", "rows": 16}
+{"stage": "source_proxy", "dataset": "mvtec_ad", "category": "grid", "rows": 32}
+{"stage": "source_proxy", "dataset": "visa", "category": "candle", "rows": 48}
+{"stage": "source_proxy", "dataset": "visa", "category": "cashew", "rows": 64}
+{"stage": "validation", "episode": "mvtec_ad-hazelnut-k1-seed5", "records": 20}
+{"stage": "validation", "episode": "mvtec_ad-hazelnut-k2-seed5", "records": 20}
+{"stage": "validation", "episode": "mvtec_ad-hazelnut-k4-seed5", "records": 20}
+{"stage": "validation", "episode": "mvtec_ad-hazelnut-k8-seed5", "records": 20}
+{"stage": "validation", "episode": "mvtec_ad-hazelnut-k1-seed13", "records": 20}
+{"stage": "validation", "episode": "mvtec_ad-hazelnut-k2-seed13", "records": 20}
+{"stage": "validation", "episode": "mvtec_ad-hazelnut-k4-seed13", "records": 20}
+{"stage": "validation", "episode": "mvtec_ad-hazelnut-k8-seed13", "records": 20}
+{"stage": "validation", "episode": "visa-pcb2-k1-seed5", "records": 20}
+{"stage": "validation", "episode": "visa-pcb2-k2-seed5", "records": 20}
+{"stage": "validation", "episode": "visa-pcb2-k4-seed5", "records": 20}
+{"stage": "validation", "episode": "visa-pcb2-k8-seed5", "records": 20}
+{"stage": "validation", "episode": "visa-pcb2-k1-seed13", "records": 20}
+{"stage": "validation", "episode": "visa-pcb2-k2-seed13", "records": 20}
+{"stage": "validation", "episode": "visa-pcb2-k4-seed13", "records": 20}
+{"stage": "validation", "episode": "visa-pcb2-k8-seed13", "records": 20}
+{"version": "0.5.0", "episodes": 16, "prediction_records": 320, "unique_native_queries": 8, "support_draws": 2, "shots": [1, 2, 4, 8], "mean_episode_metrics": {"search": {"accuracy": 0.875, "image_auroc": 0.96875, "pixel_ap": 0.2816595280105193}, "subspace": {"accuracy": 0.96875, "image_auroc": 1.0, "pixel_ap": 0.3171006430784151}, "fixed_avg": {"accuracy": 0.9375, "image_auroc": 0.984375, "pixel_ap": 0.30724768485777837}, "max": {"accuracy": 0.890625, "image_auroc": 1.0, "pixel_ap": 0.32507967350003697}, "safal": {"accuracy": 0.9375, "image_auroc": 0.96875, "pixel_ap": 0.30143250768260144}}, "paired_safal_minus_fixed_accuracy": {"estimate": 0.0, "interval": [0.0, 0.0], "groups": [{"dataset": "mvtec_ad", "category": "hazelnut", "estimate": 0.0, "interval": [0.0, 0.0], "unique_queries": 4, "support_draws": 2, "paired_rows": 8, "limited_replication": true}, {"dataset": "visa", "category": "pcb2", "estimate": 0.0, "interval": [0.0, 0.0], "unique_queries": 4, "support_draws": 2, "paired_rows": 8, "limited_replication": true}], "n_bootstrap": 1000, "confidence_level": 0.95, "seed": 917, "method": "paired crossed query/support percentile bootstrap", "aggregation": "equal weight across the fixed sampled dataset/category strata", "resampling_units": ["query_id", "seed"], "categories_resampled": false, "scope": "conditional on sampled categories and observed query/support units; descriptive pilot uncertainty, not full-benchmark generalization", "paired_input_semantics": "policy minus comparator per query/support draw; caller must preserve pairing", "pixels_or_candidates_resampled": false}, "paired_shot_aggregation": "average dependent nested-shot differences within each query/seed before crossed bootstrap", "tested_pretrained_encoder": true, "published_recipes_reproduced": false, "strict_k_image_few_shot": false, "full_benchmark_completed": false, "probability_calibration_domain": "source normal/CutPaste proxy only; native transfer unverified", "adequacy_semantics": "bounded query-relative branch-coverage diagnostic, not correctness probability", "claim": "working research implementation and bounded validation; higher accuracy not established"}

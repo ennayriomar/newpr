@@ -1,0 +1,26 @@
+{
+  "dataset": "mvtec_ad",
+  "category": "carpet",
+  "support_ids": [
+    "carpet/train/good/168.png",
+    "carpet/train/good/074.png"
+  ],
+  "calibration_ids": [
+    "carpet/train/good/084.png",
+    "carpet/train/good/248.png",
+    "carpet/train/good/140.png",
+    "carpet/train/good/177.png"
+  ],
+  "fit_parent_ids": [
+    "carpet/train/good/149.png",
+    "carpet/train/good/026.png",
+    "carpet/train/good/244.png",
+    "carpet/train/good/059.png",
+    "carpet/train/good/231.png",
+    "carpet/train/good/090.png"
+  ],
+  "heldout_parent_ids": [
+    "carpet/train/good/104.png",
+    "carpet/train/good/047.png"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "train_cli": true,
+  "evaluate_cli": true,
+  "predict_cli": true,
+  "verified_resume_cli": true,
+  "evaluation_all_metrics_exactly_equal_saved_episode": true,
+  "native_predict_maps_shape": [
+    1024,
+    1024
+  ],
+  "native_predict_map_fields": 7,
+  "native_predict_maps_finite": true,
+  "prediction_image_score_exact_saved_episode": true,
+  "prediction_error_probability_absolute_difference": 5.551115123125783e-17,
+  "prediction_error_probability_tolerance": 1e-14,
+  "portable_install_script_existing_runtime_exit_zero": true,
+  "fresh_virtualenv_install_verified": false,
+  "unit_contract_tests": 151
+}

@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "scope": "Verified code-source portability and actual pretrained feature reproduction on one original native query. Existing Python dependencies and real checkpoint were reused; no fresh dependency installation, dataset download, or accuracy benchmark was performed.",
+  "checkpoint_reused": true,
+  "checkpoint_downloaded": false,
+  "fresh_git_source": {
+    "status": "passed",
+    "source_dir": "/tmp/safal_portable_assets_v050/dinov2-source",
+    "source_pin": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+    "official_https_fetch": true,
+    "checkpoint_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+    "features_bitwise_equal_original_probe": true,
+    "max_abs_difference": 0.0
+  },
+  "bundled_plain_source": {
+    "status": "passed",
+    "source_dir": "/tmp/safal_vendor_portability_v050/dinov2",
+    "source_verification": "pinned-manifest-verified-bundle",
+    "source_manifest": "/tmp/safal_vendor_portability_v050/dinov2/source_manifest.sha256.json",
+    "source_manifest_file_sha256": "b9afdc4ead431fd2045dec09098cd9a46fd4a3df32b672bde82f5f4ed2e67876",
+    "verified_source_entries": 158,
+    "source_manifest_entries_digest": "9ed9679525be8520b45cd087ce2bff1cd684f438ac82bc0d6080e36487adf340",
+    "features_bitwise_equal_original_probe": true,
+    "cache_reload_bitwise_equal": true,
+    "max_abs_difference": 0.0
+  },
+  "image_id": "hazelnut/test/good/016.png",
+  "image_sha256": "75d4e637105b57120d4da9e6c990f36c69795a6ca2b55f45b14492b804f871c5",
+  "probe_file_sha256": "c251bcacfbee618a8908b1e46067dd2eea421586889b2f080ba454b68a5d95b2",
+  "artifacts": {
+    "prepare_encoder.log": "428fb3c1a6dec32d1b495669fffd1d99a19c2a07e085372fff3560e95ecfea9e",
+    "encoder_plain_portability.log": "377e33c28b463c8d754e5398f86d416cb92297e4df5ad8ce1e956a0f9eafd287",
+    "encoder_plain_portability.json": "d7b415d01dba216d9fd02286045a88c022c2adcaf7204fac88a8a268cc24d5d3",
+    "encoder_fresh_git_portability.log": "bf84974e134f789ee0580be1fcaa400af2ee77423bd74ba1b37724e2c99b1695",
+    "encoder_fresh_git_portability.json": "d9b98ba0618513b2d51e63b757d6839474a2c750b8165409471961ed30cda225"
+  }
+}

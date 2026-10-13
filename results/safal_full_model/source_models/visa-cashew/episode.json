@@ -1,0 +1,26 @@
+{
+  "dataset": "visa",
+  "category": "cashew",
+  "support_ids": [
+    "cashew/Data/Images/Normal/002.JPG",
+    "cashew/Data/Images/Normal/133.JPG"
+  ],
+  "calibration_ids": [
+    "cashew/Data/Images/Normal/267.JPG",
+    "cashew/Data/Images/Normal/128.JPG",
+    "cashew/Data/Images/Normal/169.JPG",
+    "cashew/Data/Images/Normal/275.JPG"
+  ],
+  "fit_parent_ids": [
+    "cashew/Data/Images/Normal/429.JPG",
+    "cashew/Data/Images/Normal/105.JPG",
+    "cashew/Data/Images/Normal/117.JPG",
+    "cashew/Data/Images/Normal/039.JPG",
+    "cashew/Data/Images/Normal/442.JPG",
+    "cashew/Data/Images/Normal/165.JPG"
+  ],
+  "heldout_parent_ids": [
+    "cashew/Data/Images/Normal/092.JPG",
+    "cashew/Data/Images/Normal/249.JPG"
+  ]
+}

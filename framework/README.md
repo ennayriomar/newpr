@@ -1,4 +1,49 @@
-# Safe IAD research framework v0.4.0
+# SAFAL research model
+
+**Support-Adequacy-Aware Few-Shot Anomaly Localization for Reliable Industrial
+Inspection** — working method **SAFAL**, research package v0.5.0.
+
+The independent SAFAL model combines a raw-feature PCA reconstruction branch
+with an exact normalized cosine-search branch. It exposes component-only,
+fixed-average, max-control and adequacy-conditioned fusion, with optional
+source-only error calibration kept separate from the bounded adequacy
+diagnostic. See [the full model guide](docs/full_model.md) for model artifacts,
+information budgets, inference/calibration roles and executable command details.
+
+These branches are inspired by verified SubspaceAD and VisionAD ideas; they
+are explicitly modified research implementations. No VisionAD source is
+vendored and no faithful published-recipe or accuracy-gain claim is made.
+Datasets and the actual frozen DINOv2 checkpoint are separate prerequisites.
+The source ZIP includes code/configurations and reports of the checked pilot;
+its fitted SAFAL artifact is distinct from the pretrained encoder weights.
+
+## SAFAL quickstart
+
+Enter `framework/` in the GitHub checkout or `tools/` in the source ZIP. Use
+Linux/Python 3.12, prepare the real pretrained encoder and set actual dataset/
+encoder paths in a copy of `configs/safal_demo.json` before running:
+
+```bash
+bash install_safal.sh
+source .venv/bin/activate
+python -m safe_iad.safal_cli prepare --destination ../safal_assets
+python -m safe_iad.safal_cli demo --config configs/safal_demo.json --output ../reports/my_safal_run
+```
+
+The [full model guide](docs/full_model.md) gives `train`, `evaluate` and `predict`
+commands, the episode JSON schema and fitted model paths. Its adequacy/uncertainty
+fields are diagnostics; optional logistic error estimates are fitted on source
+normal/CutPaste events and are unverified on native industrial/deployment data.
+k references plus four normal calibration images is a k+4 information budget.
+Demo/evaluation pixel metrics use a declared 256×256 grid; single-image
+prediction writes native-resolution maps. No improved-accuracy claim is made.
+
+The executed v0.5.0 pilot passed 159 unit/contract tests and evaluated eight
+unique native queries across two validation categories, with 16 fitted episodes
+and 320 method records. SAFAL's locked accuracy was 0.9375, equal to fixed
+averaging and below the PCA branch's 0.96875; its pixel AP also fell below fixed
+averaging. The small pilot shows a working implementation, not an accuracy gain.
+See [the measured pilot scope and table](docs/full_model.md#executed-v050-validation-pilot).
 
 This package implements frozen DINOv2 feature extraction, transparent patch NN,
 official AnomalyDINO and SubspaceAD scoring-core adapters, source-only signed
@@ -11,7 +56,7 @@ The framework is research software with tested contracts and real-data pilots.
 Full benchmark reproduction, deployment reliability, calibrated probabilities,
 support-adequacy ground truth and production acceptance are not established.
 
-## Current M3 result and verification
+## Historical M3 result and verification
 
 The completed learned-benefit feasibility pilot stopped at the predeclared
 gate: `advance_to_full_experiments=false`. Learned acquisition's mean observed
@@ -49,7 +94,7 @@ benefits, image scores, adequacy maps and stored pre/post maps matched exactly.
 The VisA probe retained an actual detected-to-missed case. These two probes are
 not a complete independent rerun of all episodes or an accuracy guarantee.
 
-## Current startup and M3 commands
+## Historical M3 startup and commands
 
 Use Linux, Python 3.12 and the documented `/workspace` layout. Restore this
 package as `/workspace/tools`; obtain verified native datasets, the real

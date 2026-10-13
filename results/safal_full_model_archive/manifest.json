@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "archive": "safal_full_results_v0.5.0.zip",
+  "bytes": 214195991,
+  "sha256": "462428afc91eee59289dc5a9083647e1782454d455f40564f51a8cee1b4d4c10",
+  "files": 272,
+  "parts": [
+    {
+      "name": "safal_full_results_v0.5.0.zip.part000",
+      "bytes": 8388608,
+      "sha256": "21c0228eccd93136b84787553397f55be6c15affd2b1deb526eb098c5e96e4ff"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part001",
+      "bytes": 8388608,
+      "sha256": "44bba47c87caf383a877254303dec1c331772e7ada548d1ffeb1a93853ab9ebb"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part002",
+      "bytes": 8388608,
+      "sha256": "9bc40ffd24c2e7c907e9cf95fa0526cd08268cf30966ef55175fa422e09139cf"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part003",
+      "bytes": 8388608,
+      "sha256": "64845dbfe7bf575897f386a61614aa6513fa933decd8a1d2f5269690a4aff2f5"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part004",
+      "bytes": 8388608,
+      "sha256": "b4028ebf78ea3bccc10dc74c291e03f231ba89bd99e444de4a5ba56979d690f6"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part005",
+      "bytes": 8388608,
+      "sha256": "533f84ac6fe52195e924e64084e8baa8c6e0a1faed9a91c97ab0d7ae4ee83718"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part006",
+      "bytes": 8388608,
+      "sha256": "e4dd2faa926bdcdd094a0f8a273e6934a0823c1f6fc885ff6e63a21b34ef9e2f"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part007",
+      "bytes": 8388608,
+      "sha256": "34edb6b61358c78a317ec302d8e5fb50046c8540edb23301d7e17ec3bd50cedd"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part008",
+      "bytes": 8388608,
+      "sha256": "6f466129c14a774f605af71dba8cd598fe195cd9b60f6d3fd1843e343d4dbbbe"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part009",
+      "bytes": 8388608,
+      "sha256": "6cf71e08a0542a503e5ee9beaed1bf91212310f117eb8355194b70dc416f9dd6"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part010",
+      "bytes": 8388608,
+      "sha256": "a310a0a222da9a47450fd2e4659704465aa756cc6ac1fe595ba0d03517038603"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part011",
+      "bytes": 8388608,
+      "sha256": "d442d504cb92e533fa8e4e1d65cd694ccaa2246f98af679f173a0a12768b328c"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part012",
+      "bytes": 8388608,
+      "sha256": "abb9ef95c3bcb9f53eb0d93a789f4fb105dd01ef2cc5da52e71058da04cfe4be"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part013",
+      "bytes": 8388608,
+      "sha256": "d2daff5d93ec2e935e4d1130f768b0d4ca8a2895240e4fcc9d67d9dda6063e0e"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part014",
+      "bytes": 8388608,
+      "sha256": "dcdc519cfb4d7776315e8f22b9463f9cbf1c082b8f9a350c692d97568e2a8ce4"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part015",
+      "bytes": 8388608,
+      "sha256": "8707c1724770515792ea55a2f76f98788a29d496d03417544c9be8c1f06a1814"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part016",
+      "bytes": 8388608,
+      "sha256": "c6fea50f6a8ccc61264fd2bc7dc51baee24f2692fcb203225e9c8a1f91ed4887"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part017",
+      "bytes": 8388608,
+      "sha256": "b22839be225bbe47fd147f46d56b402f566bc497c465654a67cc52da077a5839"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part018",
+      "bytes": 8388608,
+      "sha256": "cca3d2234ce8335c45e899f3f5f91c511aa299745c81455069be68c1ebb34834"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part019",
+      "bytes": 8388608,
+      "sha256": "8cb0ab3c639c7bd4ab8067d7df22fa119cad6a8b391848124223f204c9b511a2"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part020",
+      "bytes": 8388608,
+      "sha256": "520d4f8e98f2263bfcac9ac5a66cc45841a4381a4afbce974c0bad0a3ea06298"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part021",
+      "bytes": 8388608,
+      "sha256": "8a32ea4919b03c3c6d974dcadb45e12124b2b7445e8087dfaba83a4c00e11b3d"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part022",
+      "bytes": 8388608,
+      "sha256": "cbef0493cbfb8ae85a1cfab8c42a54df6094f126a54701491cfda02a95d5f353"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part023",
+      "bytes": 8388608,
+      "sha256": "5d7569e0f4cedfa11a0f8706b58d6c3d2c0b7fb44d6db1b756f6a0308c9b0f7a"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part024",
+      "bytes": 8388608,
+      "sha256": "f0d07cc5b91ef4858726578d4a55f4652da0905ca20d475782bf67d50f8d0fdb"
+    },
+    {
+      "name": "safal_full_results_v0.5.0.zip.part025",
+      "bytes": 4480791,
+      "sha256": "aec517289172476ebe7b6917bcd514fe34c8a62f2313b54773bc72f97527cdde"
+    }
+  ],
+  "content": "Complete SAFAL result/checkpoint/probe/metric-map outputs and verification; dataset images, generated CutPaste images, pretrained backbone weights and feature caches excluded",
+  "crc_and_all_internal_file_sha256_verified": true,
+  "all_original_fitted_model_arrays_included": true,
+  "model_npz_files": 20,
+  "query_probes": 16,
+  "score_map_npz_files": 64
+}

@@ -1,0 +1,1562 @@
+[
+  {
+    "category": "carpet",
+    "split": "train",
+    "label": "normal",
+    "image": "carpet/train/good/026.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/carpet/train/good/026.png",
+    "image_sha256": "30ec8d82297dfc9cfa56f02a443d3b3156d175047da32344d8571335cfd8d1a3",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "carpet",
+    "split": "train",
+    "label": "normal",
+    "image": "carpet/train/good/047.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "source_proxy_cal_parent"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/carpet/train/good/047.png",
+    "image_sha256": "a8e578e586dacc41f2e2ab852fa9907a2a7b6896f29e2d4301f3e78d95724848",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "carpet",
+    "split": "train",
+    "label": "normal",
+    "image": "carpet/train/good/059.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/carpet/train/good/059.png",
+    "image_sha256": "cca8bf0ef5173b3068284b3578653a921306591cddd4756e657d59dfba103de2",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "carpet",
+    "split": "train",
+    "label": "normal",
+    "image": "carpet/train/good/074.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/carpet/train/good/074.png",
+    "image_sha256": "9449940739741ad86a307c9791b8f7c737b0601e3eda8f6fef6fde7f49504a88",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "carpet",
+    "split": "train",
+    "label": "normal",
+    "image": "carpet/train/good/084.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/carpet/train/good/084.png",
+    "image_sha256": "7cc8e6a77d2eded214e173eb4daf6352d07939a286624856aace84229b9404f0",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "carpet",
+    "split": "train",
+    "label": "normal",
+    "image": "carpet/train/good/090.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/carpet/train/good/090.png",
+    "image_sha256": "540dd15971b39853e472444a45961cf64b9972522d22408b8b1f744b18d9e9f1",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "carpet",
+    "split": "train",
+    "label": "normal",
+    "image": "carpet/train/good/104.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "source_proxy_cal_parent"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/carpet/train/good/104.png",
+    "image_sha256": "e5c2a8d915f5f677c60bccb0c52cea53210010e2763facf50e5d4680ab9c8672",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "carpet",
+    "split": "train",
+    "label": "normal",
+    "image": "carpet/train/good/140.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/carpet/train/good/140.png",
+    "image_sha256": "d7aae8b5c98fae8a04dc61c52b887b192ab257d4e85e8d388ea90d499f5d65c5",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "carpet",
+    "split": "train",
+    "label": "normal",
+    "image": "carpet/train/good/149.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/carpet/train/good/149.png",
+    "image_sha256": "2dc5ccb57c1808cce43383e1ae5807abf3f63592a815c6840265da790e421f71",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "carpet",
+    "split": "train",
+    "label": "normal",
+    "image": "carpet/train/good/168.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/carpet/train/good/168.png",
+    "image_sha256": "52eabcb1f5bf969f48f23ec24b9e4f62906ccab30bb4cf0d6f6f943c50faece0",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "carpet",
+    "split": "train",
+    "label": "normal",
+    "image": "carpet/train/good/177.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/carpet/train/good/177.png",
+    "image_sha256": "80e863599381e800a9e4a10465f1a1f85dc6a7ea8679e8f95679c9895a11ad51",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "carpet",
+    "split": "train",
+    "label": "normal",
+    "image": "carpet/train/good/231.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/carpet/train/good/231.png",
+    "image_sha256": "89b355f5e5cf369089e95fa569083fc8fe424c46f5c85f7fb457d66f143457e4",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "carpet",
+    "split": "train",
+    "label": "normal",
+    "image": "carpet/train/good/244.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/carpet/train/good/244.png",
+    "image_sha256": "1e38c7c39839cad7131ebaa225f01997bfe47ea3eb0ad467a16f94c587e7f69d",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "carpet",
+    "split": "train",
+    "label": "normal",
+    "image": "carpet/train/good/248.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/carpet/train/good/248.png",
+    "image_sha256": "12698c379dacf1c36b58738ce0de1b1af32e2d4bfcd09e39cab883ec19c36a10",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "grid",
+    "split": "train",
+    "label": "normal",
+    "image": "grid/train/good/038.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/grid/train/good/038.png",
+    "image_sha256": "3672e1ca273b970b9011919ebc777e855a5f56bc7006395750c7713122757d34",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "grid",
+    "split": "train",
+    "label": "normal",
+    "image": "grid/train/good/041.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/grid/train/good/041.png",
+    "image_sha256": "fc7fd9fb7b107201203aa261a7736577ce770f0d4964d341184ab0685a4cc200",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "grid",
+    "split": "train",
+    "label": "normal",
+    "image": "grid/train/good/051.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/grid/train/good/051.png",
+    "image_sha256": "e1362108603c2e471d7a933c43d2f0d5d4fa3c1edbac6bfb7623d1d4fcc277a3",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "grid",
+    "split": "train",
+    "label": "normal",
+    "image": "grid/train/good/087.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/grid/train/good/087.png",
+    "image_sha256": "0abed348949e18491dd5ae68ae1010f70d8505eebb13c09e0f1586def3de727d",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "grid",
+    "split": "train",
+    "label": "normal",
+    "image": "grid/train/good/097.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/grid/train/good/097.png",
+    "image_sha256": "0a48ab1d5dbaf8ba6600c98834e185b5571aed9b3da0c0b53fcb0fbf30a7a9a5",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "grid",
+    "split": "train",
+    "label": "normal",
+    "image": "grid/train/good/120.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/grid/train/good/120.png",
+    "image_sha256": "97255d0fb23a90eeaf8f06631f40028b9aa72ddd3e1ad2e2bc01db7298a6c35a",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "grid",
+    "split": "train",
+    "label": "normal",
+    "image": "grid/train/good/126.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/grid/train/good/126.png",
+    "image_sha256": "42254e269a65de91e2bf5f82e687499790bef5ab5bcb546199450c3ca150bc8e",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "grid",
+    "split": "train",
+    "label": "normal",
+    "image": "grid/train/good/127.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/grid/train/good/127.png",
+    "image_sha256": "80ec4c61bf981bb1106813ad6c2c4399d6aef32da65975aa04a5c26db84e4768",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "grid",
+    "split": "train",
+    "label": "normal",
+    "image": "grid/train/good/147.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "source_proxy_cal_parent"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/grid/train/good/147.png",
+    "image_sha256": "89299f34e4febb8c15ab8ea7445266821269419cb5263007a2e16ce386b300dd",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "grid",
+    "split": "train",
+    "label": "normal",
+    "image": "grid/train/good/207.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/grid/train/good/207.png",
+    "image_sha256": "adbab5221220744ecf7595a470b0d0d42d79aceb485cb8a8cfd62ecd0da9f8fe",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "grid",
+    "split": "train",
+    "label": "normal",
+    "image": "grid/train/good/230.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "source_proxy_cal_parent"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/grid/train/good/230.png",
+    "image_sha256": "a8323585995c0993e6c5e1ce248324e82d476cb68a0a80d716e38cd634e84260",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "grid",
+    "split": "train",
+    "label": "normal",
+    "image": "grid/train/good/233.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/grid/train/good/233.png",
+    "image_sha256": "f80a62d8c25b36fab1ad477d705f271833e5b68f164f42650495a4887dd4b61f",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "grid",
+    "split": "train",
+    "label": "normal",
+    "image": "grid/train/good/245.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/grid/train/good/245.png",
+    "image_sha256": "16314c7998bdace7dff9326491a02eba90bc9ed38e62d68290a0391d09254290",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "grid",
+    "split": "train",
+    "label": "normal",
+    "image": "grid/train/good/253.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/grid/train/good/253.png",
+    "image_sha256": "4432c1f6ca13ea46664643bf98f02c7e99cce95f1baf0d517452be79e453b955",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "test",
+    "label": "normal",
+    "image": "hazelnut/test/good/014.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "native_evaluation"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/test/good/014.png",
+    "image_sha256": "8290043352683dd73d7b041758dec14cd2243a139a11566a4305a80f42ef6e8f",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "test",
+    "label": "normal",
+    "image": "hazelnut/test/good/016.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "native_evaluation"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/test/good/016.png",
+    "image_sha256": "75d4e637105b57120d4da9e6c990f36c69795a6ca2b55f45b14492b804f871c5",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "test",
+    "label": "anomaly",
+    "image": "hazelnut/test/hole/011.png",
+    "mask": "hazelnut/ground_truth/hole/011_mask.png",
+    "dataset": "mvtec_ad",
+    "roles": [
+      "native_evaluation"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/test/hole/011.png",
+    "image_sha256": "cb0185418d152ea6626d41039ad5c78714dcb9e68a2da3726cbac239ebd8029a",
+    "mask_path": "/workspace/datasets/mvtec_ad/hazelnut/ground_truth/hole/011_mask.png",
+    "mask_sha256": "66f4d9934e9a2718c9399b94a8b0e39d37f2b59dcf1e44d462bb75df7072a8c3"
+  },
+  {
+    "category": "hazelnut",
+    "split": "test",
+    "label": "anomaly",
+    "image": "hazelnut/test/print/015.png",
+    "mask": "hazelnut/ground_truth/print/015_mask.png",
+    "dataset": "mvtec_ad",
+    "roles": [
+      "native_evaluation"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/test/print/015.png",
+    "image_sha256": "9ebfb599870e807051d2e30d9077acc164410bcd4c37ef8053c0795c366ed75c",
+    "mask_path": "/workspace/datasets/mvtec_ad/hazelnut/ground_truth/print/015_mask.png",
+    "mask_sha256": "9dd8f75269dde493dd3c85c5936bf204b701c41df6eed9ed223eee3e31b82195"
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/022.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/022.png",
+    "image_sha256": "cd7bad4679b8ae131c2fae3e1444be8a046d4fe4c05c6fe17920acd2a94fcd18",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/076.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/076.png",
+    "image_sha256": "4a80b58814f47f201b8e3a17007cb077ccb05680979488a879ef157644a63175",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/110.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/110.png",
+    "image_sha256": "b891833372527b8048afb189dd39f28a1a4449bd22beb20cea99bf915f859c68",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/131.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/131.png",
+    "image_sha256": "54f6553cf498c74de6584132a90bd49a8b8539c7929117c502a89eec2fb415ad",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/141.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/141.png",
+    "image_sha256": "3e5628a984ccc608f35e63d85f61042b01895f6d1eb6fd8cc0391960e61a5fe3",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/153.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/153.png",
+    "image_sha256": "7ab43810f6b60f96f2f8f626ab1c2a40d997d80628c39d06aa3e1519e69a35b2",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/166.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/166.png",
+    "image_sha256": "1e4d14171751dc13d419ab75cbbd396371d75c73b9666a936086e52f6a254ad7",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/176.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/176.png",
+    "image_sha256": "0bcd54584b9a1792963f2d156483153e56f77c6fc50c48be41b16e432dcfee25",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/193.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/193.png",
+    "image_sha256": "556029fbdbdcf23a7274fda5ef274722883b910325c5ca415516b3991bf12b1e",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/199.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/199.png",
+    "image_sha256": "6203dc155567b8e187255646fa1cbb376ada7b02ce24886418526f551af17ecb",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/203.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/203.png",
+    "image_sha256": "06c781808023e895a494c2bf805b7d81b4250dadb11a03aaa9204635c812d06d",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/250.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/250.png",
+    "image_sha256": "c983212116077d8ad75b95a7c77994c13b00491c4f920075f05dcfed009d6881",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/254.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/254.png",
+    "image_sha256": "eb9ddd453988a92aa8aa4d3a4d160e9989360860026e2d5c1714cc5a86a747dc",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/258.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/258.png",
+    "image_sha256": "4bd09af5b396d353b2142476a65f84aa5695e73e21ed96a1645757b576738623",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/263.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/263.png",
+    "image_sha256": "dd89e45774359df02e2ad0dc635c5fce39799d24ef43bb8f02f7620ae6ffc6ef",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/271.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/271.png",
+    "image_sha256": "45519d90521edc2d2cde140c99a3fdf25a41220a3f98c1d14d0b04d4d909a3bf",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/284.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/284.png",
+    "image_sha256": "4f67175d755e4c4de5e78e709bf6c4c0c8114dfbc10ed06b6e1dd9f26e9c4fb5",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/308.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/308.png",
+    "image_sha256": "2a9d3aff09acb17ada51ac8c3dd357f69e803a7d548c28733bbcceed2fe97494",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/309.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/309.png",
+    "image_sha256": "90b1bf270aedfa897923794813602330ffbce62c052ba7ef6dd51061f7370390",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "hazelnut",
+    "split": "train",
+    "label": "normal",
+    "image": "hazelnut/train/good/355.png",
+    "mask": null,
+    "dataset": "mvtec_ad",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/mvtec_ad/hazelnut/train/good/355.png",
+    "image_sha256": "d831da456e42084916663367d3b2242757c8edc3d4d131bb384f1384c1bc4bbe",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "candle",
+    "split": "train",
+    "label": "normal",
+    "image": "candle/Data/Images/Normal/0118.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/visa/candle/Data/Images/Normal/0118.JPG",
+    "image_sha256": "dcc4d7e43da23d0f9c9d2913c4fa0afd05aea2dee93b62703f6faaaa94c87295",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "candle",
+    "split": "train",
+    "label": "normal",
+    "image": "candle/Data/Images/Normal/0133.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/visa/candle/Data/Images/Normal/0133.JPG",
+    "image_sha256": "351f2e1b3b40f49c77d62611c4dcad126448ab3d4204afecc800db7f6cf5a110",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "candle",
+    "split": "train",
+    "label": "normal",
+    "image": "candle/Data/Images/Normal/0229.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "source_proxy_cal_parent"
+    ],
+    "path": "/workspace/datasets/visa/candle/Data/Images/Normal/0229.JPG",
+    "image_sha256": "396446e72778df4c11555257547c247caaeb3bcc9b891c73294ef7246cc7a5f3",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "candle",
+    "split": "train",
+    "label": "normal",
+    "image": "candle/Data/Images/Normal/0340.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/candle/Data/Images/Normal/0340.JPG",
+    "image_sha256": "110bf42bed4ed09a2e59c75f37a900054e652a50ffddf50fb80594495a9473e7",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "candle",
+    "split": "train",
+    "label": "normal",
+    "image": "candle/Data/Images/Normal/0341.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "source_proxy_cal_parent"
+    ],
+    "path": "/workspace/datasets/visa/candle/Data/Images/Normal/0341.JPG",
+    "image_sha256": "2c325b1d0b18ac2d043a10edc63e72c418979a3645c24a6b3de703ff212dd13c",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "candle",
+    "split": "train",
+    "label": "normal",
+    "image": "candle/Data/Images/Normal/0348.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/visa/candle/Data/Images/Normal/0348.JPG",
+    "image_sha256": "0ff92d335d3c01164cf846b1eced15c1e86ea21d284c970b64866e7e27e5f562",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "candle",
+    "split": "train",
+    "label": "normal",
+    "image": "candle/Data/Images/Normal/0416.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/visa/candle/Data/Images/Normal/0416.JPG",
+    "image_sha256": "fac9f6856d5eb62f5dafa8c3d6d8abd2c032b0ced4562cb22c586bae0cca49d5",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "candle",
+    "split": "train",
+    "label": "normal",
+    "image": "candle/Data/Images/Normal/0620.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/visa/candle/Data/Images/Normal/0620.JPG",
+    "image_sha256": "c5b00b8fc7110c751adfe56f5c8be73189ff3e794c40a545c5848cdccb53282d",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "candle",
+    "split": "train",
+    "label": "normal",
+    "image": "candle/Data/Images/Normal/0696.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/visa/candle/Data/Images/Normal/0696.JPG",
+    "image_sha256": "4305f3335caa4c47c3ebb4ac9ec6744fbdfb1d28f300d33fc654059cb4dac12f",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "candle",
+    "split": "train",
+    "label": "normal",
+    "image": "candle/Data/Images/Normal/0731.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/visa/candle/Data/Images/Normal/0731.JPG",
+    "image_sha256": "fc3e031363ef4f3374c970d585b05da64160359dedf554514dd177e97029aa1b",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "candle",
+    "split": "train",
+    "label": "normal",
+    "image": "candle/Data/Images/Normal/0733.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/visa/candle/Data/Images/Normal/0733.JPG",
+    "image_sha256": "e92cc1fe9f76f0898fcf377a6552821e9cd6c37160bd3739b3272d0c0f19fdd0",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "candle",
+    "split": "train",
+    "label": "normal",
+    "image": "candle/Data/Images/Normal/0829.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/candle/Data/Images/Normal/0829.JPG",
+    "image_sha256": "ca87fd4dc2cffc6347ecdcfa7bda2ee8e05c1499a2d2d5c64926d0bfb25af4e3",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "candle",
+    "split": "train",
+    "label": "normal",
+    "image": "candle/Data/Images/Normal/0839.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/visa/candle/Data/Images/Normal/0839.JPG",
+    "image_sha256": "ab7efc4eed8f7e42e91f289434e1a0d64f73c0b945e6213e51ed0f19bc573d0f",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "candle",
+    "split": "train",
+    "label": "normal",
+    "image": "candle/Data/Images/Normal/0876.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/visa/candle/Data/Images/Normal/0876.JPG",
+    "image_sha256": "3e118e27168e76555ff1c3fc01c6fa30f6a41952df3f9bad8e466257109c5030",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "cashew",
+    "split": "train",
+    "label": "normal",
+    "image": "cashew/Data/Images/Normal/002.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/cashew/Data/Images/Normal/002.JPG",
+    "image_sha256": "538f350d15b89c2e524b47d8c899c86bad560bd8464be4dc7e8cc8153d9867bd",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "cashew",
+    "split": "train",
+    "label": "normal",
+    "image": "cashew/Data/Images/Normal/039.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/visa/cashew/Data/Images/Normal/039.JPG",
+    "image_sha256": "91f57d3162903b9b9a2f8b0dfd7d4edcc16fda85fb5038936386733383f48664",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "cashew",
+    "split": "train",
+    "label": "normal",
+    "image": "cashew/Data/Images/Normal/092.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "source_proxy_cal_parent"
+    ],
+    "path": "/workspace/datasets/visa/cashew/Data/Images/Normal/092.JPG",
+    "image_sha256": "68b5b578f61d9e10767cf35212e5e48f30297cf2818c5bd59486e603b2615483",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "cashew",
+    "split": "train",
+    "label": "normal",
+    "image": "cashew/Data/Images/Normal/105.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/visa/cashew/Data/Images/Normal/105.JPG",
+    "image_sha256": "3cc19a088829902f7496ba4969bb5e01928afe05013fdf1bb4015cbf80f5041a",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "cashew",
+    "split": "train",
+    "label": "normal",
+    "image": "cashew/Data/Images/Normal/117.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/visa/cashew/Data/Images/Normal/117.JPG",
+    "image_sha256": "507155468c5fe312f03975ce3d4d528c40285555bf7eeee0cd5d1d19cfbca18b",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "cashew",
+    "split": "train",
+    "label": "normal",
+    "image": "cashew/Data/Images/Normal/128.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/visa/cashew/Data/Images/Normal/128.JPG",
+    "image_sha256": "d6313fe6068a69d54ec98018332c705d403db9a94a20daeba8f54341e1008e24",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "cashew",
+    "split": "train",
+    "label": "normal",
+    "image": "cashew/Data/Images/Normal/133.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/cashew/Data/Images/Normal/133.JPG",
+    "image_sha256": "1fd2d9f9c5c1222ef982a4e3dc9a11d9d26a5e65a0b8a655cd45591ebdfd27e8",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "cashew",
+    "split": "train",
+    "label": "normal",
+    "image": "cashew/Data/Images/Normal/165.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/visa/cashew/Data/Images/Normal/165.JPG",
+    "image_sha256": "4188991e6a1aa4e55f4d04c95e051bbf256aa5cd483307d8e097df3e4a4d6158",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "cashew",
+    "split": "train",
+    "label": "normal",
+    "image": "cashew/Data/Images/Normal/169.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/visa/cashew/Data/Images/Normal/169.JPG",
+    "image_sha256": "fd35fc25094e965779b51e719b25b86314790b3213c43cea31c7517982ae8f7f",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "cashew",
+    "split": "train",
+    "label": "normal",
+    "image": "cashew/Data/Images/Normal/249.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "source_proxy_cal_parent"
+    ],
+    "path": "/workspace/datasets/visa/cashew/Data/Images/Normal/249.JPG",
+    "image_sha256": "0b383b7582e72a2d050fef643a1a7d129e199955cec7c23e488743cca7967c3c",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "cashew",
+    "split": "train",
+    "label": "normal",
+    "image": "cashew/Data/Images/Normal/267.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/visa/cashew/Data/Images/Normal/267.JPG",
+    "image_sha256": "9f47252890531b4af0d385a6d7a2c1938d62811eff5785ce1364deefddd827fc",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "cashew",
+    "split": "train",
+    "label": "normal",
+    "image": "cashew/Data/Images/Normal/275.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/visa/cashew/Data/Images/Normal/275.JPG",
+    "image_sha256": "068d866c34d5741c90a196b55dda0b10e33cd88c4d0cccc0f387476968f9a9f3",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "cashew",
+    "split": "train",
+    "label": "normal",
+    "image": "cashew/Data/Images/Normal/429.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/visa/cashew/Data/Images/Normal/429.JPG",
+    "image_sha256": "ac8512164e7ebfd91364d00136a0ce469845908a9409151abddc8bf2370e8709",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "cashew",
+    "split": "train",
+    "label": "normal",
+    "image": "cashew/Data/Images/Normal/442.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "source_proxy_fit_parent"
+    ],
+    "path": "/workspace/datasets/visa/cashew/Data/Images/Normal/442.JPG",
+    "image_sha256": "c30da6de5ebde3a9401caf244d5887fee32dcea51f4c910a651b0a971541ecc0",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "test",
+    "label": "anomaly",
+    "image": "pcb2/Data/Images/Anomaly/007.JPG",
+    "mask": "pcb2/Data/Masks/Anomaly/007.png",
+    "dataset": "visa",
+    "roles": [
+      "native_evaluation"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Anomaly/007.JPG",
+    "image_sha256": "8c9c27c464af8dbb8b6ba98ed939295fdaf7bdacbad41a1923078dffc47648ab",
+    "mask_path": "/workspace/datasets/visa/pcb2/Data/Masks/Anomaly/007.png",
+    "mask_sha256": "44ab19fb1da23ce49139daa0197d22ed81664c169bf0bc70cf26f29976fbd087"
+  },
+  {
+    "category": "pcb2",
+    "split": "test",
+    "label": "anomaly",
+    "image": "pcb2/Data/Images/Anomaly/068.JPG",
+    "mask": "pcb2/Data/Masks/Anomaly/068.png",
+    "dataset": "visa",
+    "roles": [
+      "native_evaluation"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Anomaly/068.JPG",
+    "image_sha256": "1eea67f5451ac604fdc0aebc34d8f54889d3101e02234673c6dbf71a94632ff7",
+    "mask_path": "/workspace/datasets/visa/pcb2/Data/Masks/Anomaly/068.png",
+    "mask_sha256": "3d5ba3cd795919056e1518768fe6dd3989920a7745f5f6a6ebd06371259e783b"
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0020.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0020.JPG",
+    "image_sha256": "a91113347175acd1fff751169452b15fd1a7a225436fd75f94b6743e92205847",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0038.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0038.JPG",
+    "image_sha256": "f986b5c25aa0ee0c3b25ed41648b56ae73b5c1ee8ff3a77c0649b15f76370282",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0064.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0064.JPG",
+    "image_sha256": "e1dfac86758f325178f784aeda8ca39565f21a8b9247d6b74413e38986446125",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0085.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0085.JPG",
+    "image_sha256": "679586b2939e707fbc8bef46e9dcc6fae481be3a646823159a250f96f190c6ff",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0113.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0113.JPG",
+    "image_sha256": "2da72a427256f984beab0ba1fce8f4d66de1181f350a1c4b248b700a136ebd93",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0287.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0287.JPG",
+    "image_sha256": "d5e447e7777bc2de6fca9f0a6c03e176ef56684310dcd32d9644e8dde7676eef",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0316.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0316.JPG",
+    "image_sha256": "0ecac0310a0115fb281bc49bb7b0f26b65baad7a903688a4506c6e8207d50303",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0364.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0364.JPG",
+    "image_sha256": "fc107f997222d78726cbf48c914b4233e16e252839d211ee7b12d5e0c07ab419",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0381.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0381.JPG",
+    "image_sha256": "35ccc36d4ee8ba607b8595eebdbd2ceefee0bc732aeb8876958d3995717866bb",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0442.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0442.JPG",
+    "image_sha256": "3a9020de9829dbe592a6277bdb4eca44d2dbaf45e613df8b765a5abd3d4b6518",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0509.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0509.JPG",
+    "image_sha256": "9816d5b9e53a1489f87e28915a5d7719eebad467e6b15d7c97b0f269784ed70b",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0628.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0628.JPG",
+    "image_sha256": "5357a858a49aed5847cb9dec5218e6e07c2189549dc6879e192a334962f03430",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "test",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0648.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "native_evaluation"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0648.JPG",
+    "image_sha256": "e427ab53ab40eec3c3ab4f659bb9e819b56d9dc54f0d8e5c3e7ef4ff95c98e90",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0689.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0689.JPG",
+    "image_sha256": "37d2bad64c905f9c500ac13ae757917193a0a0edb446b6de2252a773b5f61c6d",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "test",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0694.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "native_evaluation"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0694.JPG",
+    "image_sha256": "74b3ac6924c640af451746521e7b976f5971a235d71bcead1a2b204973c1aacc",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0726.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0726.JPG",
+    "image_sha256": "2b7381278fd2ececd87fcc9d7daf0eed749997a135fed3ef9d66bd5676eacf3d",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0821.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0821.JPG",
+    "image_sha256": "f477878e44a2875b48bb313dce43a8d1f60a789f71c578f776dc087b034306d7",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0870.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0870.JPG",
+    "image_sha256": "6f318124aad62c9983a0066adbdf31618dda3b6a8edfef64825cfdf1d81cd176",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0872.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0872.JPG",
+    "image_sha256": "28c9fd7f5059c9ade5276217cc649d822a63dbef34e1b529b05f120eecca6d60",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0896.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0896.JPG",
+    "image_sha256": "29d72a96cac457b4beaa26122682c78b70c106670c13c8771c98492f04459e86",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0939.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "support"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0939.JPG",
+    "image_sha256": "c58cc9ea3746e215cad4571e298dadee5150f79c073131a7f7f49670e7515e80",
+    "mask_path": null,
+    "mask_sha256": null
+  },
+  {
+    "category": "pcb2",
+    "split": "train",
+    "label": "normal",
+    "image": "pcb2/Data/Images/Normal/0953.JPG",
+    "mask": null,
+    "dataset": "visa",
+    "roles": [
+      "normal_calibration"
+    ],
+    "path": "/workspace/datasets/visa/pcb2/Data/Images/Normal/0953.JPG",
+    "image_sha256": "41cf0a3aa6bd7295cf19a7d041e9047850a93f68048ef8545a8260a5aafda25a",
+    "mask_path": null,
+    "mask_sha256": null
+  }
+]

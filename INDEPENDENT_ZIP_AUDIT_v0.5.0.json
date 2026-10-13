@@ -1,0 +1,86 @@
+{
+  "archive": "/tmp/safal_release_v050/safal_full_model_v0.5.0.zip",
+  "archive_bytes": 13518370,
+  "archive_sha256": "09e299eb4d2c0ffc18e9c036233b02a2954f24273626a1316651e04e63e7aff0",
+  "scope": "Independent complete source/compact-reports/two-fitted-bank ZIP audit; no new experiments or fresh-install claim.",
+  "zip_entries": 1189,
+  "crc_bad_entry": null,
+  "manifest_files_checked": 1188,
+  "current_framework_files_byte_identical": 95,
+  "missing_current_framework_files": [],
+  "pinned_dinov2_source_manifest_entries": 158,
+  "pinned_dinov2_source_sha256": "9ed9679525be8520b45cd087ce2bff1cd684f438ac82bc0d6080e36487adf340",
+  "license_and_model_notices_present": [
+    "vendor/anomalydino/LICENSE",
+    "vendor/dinov2/LICENSE",
+    "vendor/dinov2/LICENSE_CELL_DINO_CODE",
+    "vendor/dinov2/LICENSE_CELL_DINO_MODELS",
+    "vendor/dinov2/LICENSE_XRAY_DINO_MODEL",
+    "vendor/dinov2/dinov2/thirdparty/CLIP/LICENSE",
+    "vendor/subspacead/LICENSE",
+    "vendor/mvtec_ad2_official_utils/license.txt",
+    "MODEL_ARTIFACT_NOTICE.md"
+  ],
+  "visionad_source_not_vendored": true,
+  "fitted_examples": [
+    {
+      "path": "safal_full_model/reports/safal_full_model/episodes/mvtec_ad-hazelnut-k2-seed5/model.npz",
+      "npz_sha256": "f8bb1a7ca2d712d2446707cd9d63f0eb77f62065c8055db9afb82cdc037d0e37",
+      "json_sha256": "3dc213fe185af87da73439dad90e30511f24910ffccd23b97086dbef1daa9473",
+      "support_tensors": {
+        "support_000": [
+          256,
+          768
+        ],
+        "support_001": [
+          256,
+          768
+        ]
+      },
+      "support_images": 2,
+      "extra_normal_calibration_images": 4,
+      "feature_and_implementation_hashes_verified": true
+    },
+    {
+      "path": "safal_full_model/reports/safal_full_model/episodes/visa-pcb2-k2-seed5/model.npz",
+      "npz_sha256": "f0ad891913febae0009dd23f725d54293b60dbe09c75c40fbd9d7b7c9542e276",
+      "json_sha256": "83c2d53ba8ac0f2de15fbac9120a52ea91945b49140fab7b85a4ffc298c0673f",
+      "support_tensors": {
+        "support_000": [
+          256,
+          768
+        ],
+        "support_001": [
+          256,
+          768
+        ]
+      },
+      "support_images": 2,
+      "extra_normal_calibration_images": 4,
+      "feature_and_implementation_hashes_verified": true
+    }
+  ],
+  "image_binary_scope": {
+    "report_figures": [
+      "safal_full_model/reports/adequacy_correctness_curves.png",
+      "safal_full_model/reports/hybrid_strict_summary.png",
+      "safal_full_model/reports/milestone3/benefit_summary.png",
+      "safal_full_model/reports/milestone3/benefit_summary_missing_support.png",
+      "safal_full_model/reports/safal_full_model/figures/comparison.png",
+      "safal_full_model/reports/safal_full_model/figures/risk_coverage.png"
+    ],
+    "upstream_repository_illustrations": [
+      "safal_full_model/vendor/anomalydino/media/AnomalyDINO.png",
+      "safal_full_model/vendor/dinov2/docs/Cell-DINO.png",
+      "safal_full_model/vendor/dinov2/docs/ChannelAdaptiveDINO.png",
+      "safal_full_model/vendor/subspacead/assets/mvtec_examples.png",
+      "safal_full_model/vendor/subspacead/assets/subspacead_overview.png",
+      "safal_full_model/vendor/subspacead/assets/visa_examples.png"
+    ],
+    "raw_dataset_images_included": false
+  },
+  "documentation_scope_verified": true,
+  "no_encoder_weight_binaries": true,
+  "failures": [],
+  "status": "passed"
+}

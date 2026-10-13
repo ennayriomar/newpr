@@ -1,0 +1,35 @@
+{
+  "id": "visa-pcb2-k8-seed13",
+  "dataset": "visa",
+  "category": "pcb2",
+  "role": "validation",
+  "seed": 13,
+  "shots": 8,
+  "support_ids": [
+    "pcb2/Data/Images/Normal/0113.JPG",
+    "pcb2/Data/Images/Normal/0038.JPG",
+    "pcb2/Data/Images/Normal/0442.JPG",
+    "pcb2/Data/Images/Normal/0316.JPG",
+    "pcb2/Data/Images/Normal/0020.JPG",
+    "pcb2/Data/Images/Normal/0064.JPG",
+    "pcb2/Data/Images/Normal/0821.JPG",
+    "pcb2/Data/Images/Normal/0872.JPG"
+  ],
+  "calibration_ids": [
+    "pcb2/Data/Images/Normal/0509.JPG",
+    "pcb2/Data/Images/Normal/0085.JPG",
+    "pcb2/Data/Images/Normal/0628.JPG",
+    "pcb2/Data/Images/Normal/0953.JPG"
+  ],
+  "query_ids": [
+    "pcb2/Data/Images/Normal/0694.JPG",
+    "pcb2/Data/Images/Normal/0648.JPG",
+    "pcb2/Data/Images/Anomaly/068.JPG",
+    "pcb2/Data/Images/Anomaly/007.JPG"
+  ],
+  "k_plus_calibration": 12,
+  "strict_k_image_few_shot": false,
+  "support_views": [
+    "identity"
+  ]
+}

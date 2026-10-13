@@ -1,0 +1,26 @@
+{
+  "dataset": "visa",
+  "category": "candle",
+  "support_ids": [
+    "candle/Data/Images/Normal/0340.JPG",
+    "candle/Data/Images/Normal/0829.JPG"
+  ],
+  "calibration_ids": [
+    "candle/Data/Images/Normal/0839.JPG",
+    "candle/Data/Images/Normal/0876.JPG",
+    "candle/Data/Images/Normal/0118.JPG",
+    "candle/Data/Images/Normal/0133.JPG"
+  ],
+  "fit_parent_ids": [
+    "candle/Data/Images/Normal/0348.JPG",
+    "candle/Data/Images/Normal/0696.JPG",
+    "candle/Data/Images/Normal/0731.JPG",
+    "candle/Data/Images/Normal/0620.JPG",
+    "candle/Data/Images/Normal/0416.JPG",
+    "candle/Data/Images/Normal/0733.JPG"
+  ],
+  "heldout_parent_ids": [
+    "candle/Data/Images/Normal/0229.JPG",
+    "candle/Data/Images/Normal/0341.JPG"
+  ]
+}

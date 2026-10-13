@@ -1,0 +1,17 @@
+{
+  "version": "0.5.0",
+  "archive": "safal_full_model_v0.5.0.zip",
+  "bytes": 13518370,
+  "sha256": "09e299eb4d2c0ffc18e9c036233b02a2954f24273626a1316651e04e63e7aff0",
+  "files": 1189,
+  "framework_source_files": 95,
+  "fitted_examples": [
+    "mvtec_ad-hazelnut-k2-seed5",
+    "visa-pcb2-k2-seed5"
+  ],
+  "zip_crc_verified": true,
+  "all_manifest_hashes_verified": true,
+  "current_framework_byte_identical": true,
+  "excluded": "dataset images, pretrained encoder binaries, generated proxy images, feature caches, nonexample bank/probe/map NPZ, virtualenvs",
+  "all_previous_source_report_archive_preservation_required": true
+}

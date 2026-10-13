@@ -1,4 +1,47 @@
-# Current Safe IAD v0.4.0 startup
+# Current SAFAL v0.5.0 startup
+
+The user's latest request authorizes the full executable SAFAL model after the
+historical Phase A audit. Current implementation is documented in
+`docs/full_model.md`. Use the existing isolated checkout; do not create a Git
+worktree unless the user explicitly requests one. Preserve all earlier code,
+datasets, fitted models and measured results.
+
+```bash
+bash /workspace/tools/install_safal.sh /workspace/venvs/safe_iad
+cd /workspace/tools
+source /workspace/venvs/safe_iad/bin/activate
+python -m unittest discover -s tests -v
+python -m safe_iad.safal_cli --help
+```
+
+All 159 unit/contract tests passed. The real full-model validation run is
+`/tmp/safal_full_model_v050_final`: k1/2/4/8, two draws, eight unique native
+queries, 16 episodes and 320 method records. SAFAL accuracy matched fixed
+averaging and fell below the PCA branch. No accuracy gain is established.
+Cutoffs use k+4 normal target images; error probabilities use source
+normal/CutPaste proxy labels with unverified native transfer. Adequacy and
+uncertainty are compatibility diagnostics, not reliability probabilities.
+
+Train/evaluate/predict and verified completed-run resume commands passed with
+the real pretrained encoder. Native prediction maps and resized 256x256
+evaluation maps have distinct geometry. Portable plain-vendor and freshly
+fetched Git sources reproduced actual float32 features exactly. These are
+current-instance checks, not a fresh-environment restoration or full benchmark.
+Compact evidence and genuinely fitted k2 examples are in the v0.5.0 source ZIP
+and `results/safal_full_model/` on GitHub. Download the pretrained checkpoint
+separately with `python -m safe_iad.safal_cli prepare --destination PATH`; keep
+its SHA256 and pinned source verification enabled. Adjust JSON runtime paths
+for local inference. No background service needs restarting.
+
+For an unchanged completed run, use
+`python -m safe_iad.safal_cli demo --config configs/safal_demo.json --output /tmp/safal_full_model_v050_final`.
+The resume verifies output, input and implementation hashes. For fresh
+experiments, use a new output directory and verified datasets; never reuse
+labels from final categories for fitting or tuning. Real-IAD and full/private
+AD2 benchmarks remain unrun. The model runs on the pinned CPU runtime; this
+environment has no CUDA GPU.
+
+## Historical Safe IAD v0.4.0 workflow
 
 The research repository is https://github.com/ennayriomar/newpr. Its executable
 source is under `framework/`; restore that package as `/workspace/tools` for the
