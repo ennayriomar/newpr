@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "repository": "ennayriomar/newpr",
+  "commit": "0582d5ac7092316c45fd25521c70dfbadd2122f7",
+  "anonymous_public_downloads": true,
+  "zip_http_status": 200,
+  "zip_bytes": 13518370,
+  "zip_sha256": "09e299eb4d2c0ffc18e9c036233b02a2954f24273626a1316651e04e63e7aff0",
+  "zip_crc_verified": true,
+  "bundled_files_sha256_verified": 1188,
+  "all_published_github_blob_shas_verified": 301,
+  "complete_result_parts_downloaded_verified": 26,
+  "complete_result_archive_bytes": 214195991,
+  "complete_result_archive_sha256": "462428afc91eee59289dc5a9083647e1782454d455f40564f51a8cee1b4d4c10",
+  "complete_result_crc_verified": true,
+  "complete_result_files_sha256_verified": 271,
+  "distributed_downloader_executed_successfully": true,
+  "prior_archives_preserved": true,
+  "pretrained_weights_and_raw_datasets_embedded": false
+}
