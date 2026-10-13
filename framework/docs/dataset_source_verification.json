@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "audit_scope": "Phase A: public documentation, official source code/config metadata, license text, and official split CSV read-only audit. No image archive, checkpoint, data acquisition, installation, training, or experiment was executed.",
+  "created_at_utc": "2026-10-13T17:16:22.258949+00:00",
+  "sources": [
+    {
+      "url": "https://realiad4ad.github.io/Real-IAD/",
+      "retrieved_at_utc": "2026-10-13T17:12:22.063746+00:00",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "source_id": "source_01"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/amazon-science/spot-diff/main/README.md",
+      "retrieved_at_utc": "2026-10-13T17:12:22.064895+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/amazon-science/spot-diff/main/README.md",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 5470,
+      "sha256": "803d1a86c80fcdebc63dfabd041f78336c433ca635b735668aadb24bfc124917",
+      "source_id": "source_02"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/amazon-science/spot-diff/main/LICENSE",
+      "retrieved_at_utc": "2026-10-13T17:12:22.065548+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/amazon-science/spot-diff/main/LICENSE",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "source_id": "source_03"
+    },
+    {
+      "url": "https://api.github.com/repos/amazon-science/spot-diff/contents",
+      "retrieved_at_utc": "2026-10-13T17:12:22.066027+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/amazon-science/spot-diff/contents",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 7632,
+      "sha256": "5134144beb0bf02a5ada14ee8feb7aa2414ab474add68ef7335f861e52e3ca16",
+      "source_id": "source_04"
+    },
+    {
+      "url": "https://www.mvtec.com/research-teaching/datasets/mvtec-ad",
+      "retrieved_at_utc": "2026-10-13T17:12:22.066367+00:00",
+      "status": 200,
+      "final_url": "https://www.mvtec.com/research-teaching/datasets/mvtec-ad",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 70802,
+      "sha256": "6ebe3365ed9bdd9585a28dc3257932fb2eff689460cd689baae610c22b839288",
+      "source_id": "source_05"
+    },
+    {
+      "url": "https://www.mvtec.com/research-teaching/datasets/mvtec-ad-2",
+      "retrieved_at_utc": "2026-10-13T17:12:22.066821+00:00",
+      "status": 200,
+      "final_url": "https://www.mvtec.com/research-teaching/datasets/mvtec-ad-2",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 72625,
+      "sha256": "c735c4b61c27d267660cba2feb79dbd95df0da26fd629fc62334dcd9db9fca7b",
+      "source_id": "source_06"
+    },
+    {
+      "url": "https://api.github.com/repos/realiad4ad/Real-IAD",
+      "retrieved_at_utc": "2026-10-13T17:12:53.154574+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/realiad4ad/Real-IAD",
+      "bytes": 5143,
+      "sha256": "ced9d3c1efc4cdcdd7e9beb82a0bd28bcdce001e6a821e48c3a0dea4f986a5b5",
+      "source_id": "source_07"
+    },
+    {
+      "url": "https://api.github.com/repos/realiad4ad/Real-IAD/contents",
+      "retrieved_at_utc": "2026-10-13T17:12:53.155493+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/realiad4ad/Real-IAD/contents",
+      "bytes": 2897,
+      "sha256": "aa504e81c695bb39cbae714fa4ab4ce63418909aa86acf4c6e467a6f3469833d",
+      "source_id": "source_08"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/realiad4ad/Real-IAD/main/README.md",
+      "retrieved_at_utc": "2026-10-13T17:12:53.156043+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/realiad4ad/Real-IAD/main/README.md",
+      "bytes": 10,
+      "sha256": "c3931df2f83d1f3e4dbeef24a42e7efa47aa73d9b0df1c11b997201357bb478c",
+      "source_id": "source_09"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/realiad4ad/Real-IAD/main/index.html",
+      "retrieved_at_utc": "2026-10-13T17:12:53.156503+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/realiad4ad/Real-IAD/main/index.html",
+      "bytes": 16593,
+      "sha256": "cab48bc35c5e5e7a86bac0524b11ef20873e12da153819ebdec417e749b8af87",
+      "source_id": "source_10"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/amazon-science/spot-diff/main/LICENSE-DATASET",
+      "retrieved_at_utc": "2026-10-13T17:12:53.156921+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/amazon-science/spot-diff/main/LICENSE-DATASET",
+      "bytes": 18656,
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+      "source_id": "source_11"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/amazon-science/spot-diff/main/split_csv/1cls.csv",
+      "retrieved_at_utc": "2026-10-13T17:12:53.157323+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/amazon-science/spot-diff/main/split_csv/1cls.csv",
+      "bytes": 660329,
+      "sha256": "a48557e6033318cb90556f706196bc9d247a776a23ea51aecee5a80dd0332995",
+      "source_id": "source_12"
+    },
+    {
+      "url": "https://api.github.com/repos/amazon-science/spot-diff/commits/main",
+      "retrieved_at_utc": "2026-10-13T17:12:53.157797+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/amazon-science/spot-diff/commits/main",
+      "bytes": 5574,
+      "sha256": "0052111bef828fad51ef3f14b8d2ef2e6971130d5343f97e0dcc264c223e80e4",
+      "source_id": "source_13"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/TencentYoutuResearch/AnomalyDetection_Real-IAD/main/README.md",
+      "retrieved_at_utc": "2026-10-13T17:13:26.701215+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/TencentYoutuResearch/AnomalyDetection_Real-IAD/main/README.md",
+      "bytes": 172,
+      "sha256": "ef6cb7d77c50fafed5aa7367ea53331c3d2be5e74ed08536933f161c83cc52d7",
+      "source_id": "source_14"
+    },
+    {
+      "url": "https://api.github.com/repos/TencentYoutuResearch/AnomalyDetection_Real-IAD/contents",
+      "retrieved_at_utc": "2026-10-13T17:13:26.701853+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/TencentYoutuResearch/AnomalyDetection_Real-IAD/contents",
+      "bytes": 1851,
+      "sha256": "ce266801376cf0f1d6e22c4726e6465a90201f0ee8e171ab791c959eb1f82504",
+      "source_id": "source_15"
+    },
+    {
+      "url": "https://api.github.com/repos/TencentYoutuResearch/AnomalyDetection_Real-IAD",
+      "retrieved_at_utc": "2026-10-13T17:13:26.703013+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/TencentYoutuResearch/AnomalyDetection_Real-IAD",
+      "bytes": 7744,
+      "sha256": "c4ad476dadbb2a44a8ee5dfbc16f28e9d94069ce559ef56d63e8e3c2262b81df",
+      "source_id": "source_16"
+    },
+    {
+      "url": "https://api.github.com/repos/TencentYoutuResearch/AnomalyDetection_Real-IAD/commits/main",
+      "retrieved_at_utc": "2026-10-13T17:13:26.703949+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/TencentYoutuResearch/AnomalyDetection_Real-IAD/commits/main",
+      "bytes": 4284,
+      "sha256": "c8604fcbdc569c8c158e11e5f0d2e5978b1c43440a081ac2fa804b9f36a46d8c",
+      "source_id": "source_17"
+    },
+    {
+      "url": "https://api.github.com/repos/realiad4ad/Real-IAD/commits/main",
+      "retrieved_at_utc": "2026-10-13T17:13:26.704531+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/realiad4ad/Real-IAD/commits/main",
+      "bytes": 5308,
+      "sha256": "96f04af88af64e7455e46246e9f83f325b78d3e4ea24a1494bdbc1c32ad4c95d",
+      "source_id": "source_18"
+    },
+    {
+      "url": "https://huggingface.co/api/datasets/Real-IAD/Real-IAD",
+      "retrieved_at_utc": "2026-10-13T17:13:26.704942+00:00",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "source_id": "source_19"
+    },
+    {
+      "url": "https://huggingface.co/datasets/Real-IAD/Real-IAD/raw/main/README.md",
+      "retrieved_at_utc": "2026-10-13T17:13:26.705507+00:00",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "source_id": "source_20"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/realiad4ad/Real-IAD/main/format.txt",
+      "retrieved_at_utc": "2026-10-13T17:13:26.710898+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/realiad4ad/Real-IAD/main/format.txt",
+      "bytes": 380,
+      "sha256": "a77aae8142d6db7e18c6ce30e622cbe2ec3af3d4aeb3f9f452bdc5c18942d9ff",
+      "source_id": "source_21"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Tencent/AnomalyDetection_Real-IAD/main/README.md",
+      "retrieved_at_utc": "2026-10-13T17:13:45.606625+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/Tencent/AnomalyDetection_Real-IAD/main/README.md",
+      "bytes": 4822,
+      "sha256": "81aa47312286847979c170e61ca5a22952075cb08958c9ff2ae848395c941472",
+      "source_id": "source_22"
+    },
+    {
+      "url": "https://api.github.com/repos/Tencent/AnomalyDetection_Real-IAD/contents",
+      "retrieved_at_utc": "2026-10-13T17:13:45.607421+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/Tencent/AnomalyDetection_Real-IAD/contents",
+      "bytes": 11948,
+      "sha256": "32f71158dc7af43a863e1e542848b9359b4030c2a4caa7259b01db8c5ba89e65",
+      "source_id": "source_23"
+    },
+    {
+      "url": "https://api.github.com/repos/Tencent/AnomalyDetection_Real-IAD/commits/main",
+      "retrieved_at_utc": "2026-10-13T17:13:45.607810+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/Tencent/AnomalyDetection_Real-IAD/commits/main",
+      "bytes": 4954,
+      "sha256": "61b91be7f4142a9bfa772a5e7375596727aca6ce5ab5133a4f04877c0d1dc6d0",
+      "source_id": "source_24"
+    },
+    {
+      "url": "https://api.github.com/repos/Tencent/AnomalyDetection_Real-IAD/git/trees/main?recursive=1",
+      "retrieved_at_utc": "2026-10-13T17:13:45.608177+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/Tencent/AnomalyDetection_Real-IAD/git/trees/main?recursive=1",
+      "bytes": 41003,
+      "sha256": "cdc36694c2e4d8a9c6b4b7c02d4dabe100f0e0a918b18f36c2810c41203de4ec",
+      "source_id": "source_25"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Tencent/AnomalyDetection_Real-IAD/main/LICENSE",
+      "retrieved_at_utc": "2026-10-13T17:13:45.608590+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/Tencent/AnomalyDetection_Real-IAD/main/LICENSE",
+      "bytes": 19640,
+      "sha256": "e44ce0107aa928cf03fb4f92d9389d447c0db75f8c2faf16eb9553ee53acb933",
+      "source_id": "source_26"
+    },
+    {
+      "url": "https://arxiv.org/html/2403.12580",
+      "retrieved_at_utc": "2026-10-13T17:13:45.609368+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2403.12580",
+      "bytes": 453237,
+      "sha256": "7a9ed844fad30315b62129d4516c2c7814a3e6c6389527c41069d61116d8a727",
+      "source_id": "source_27"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Tencent/AnomalyDetection_Real-IAD/98c28ffbe95b380d17a3777d77219152368c19e9/datasets/explicit_dataset.py",
+      "retrieved_at_utc": "2026-10-13T17:14:29.439750+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/Tencent/AnomalyDetection_Real-IAD/98c28ffbe95b380d17a3777d77219152368c19e9/datasets/explicit_dataset.py",
+      "bytes": 5851,
+      "sha256": "67d9f816d422e86c8dc1a75f1fb70e2c4a013e26bf68d676c0bb6e1fb333a910",
+      "source_id": "source_28"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Tencent/AnomalyDetection_Real-IAD/98c28ffbe95b380d17a3777d77219152368c19e9/experiments/RealIAD-full/config.yaml",
+      "retrieved_at_utc": "2026-10-13T17:14:29.440549+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/Tencent/AnomalyDetection_Real-IAD/98c28ffbe95b380d17a3777d77219152368c19e9/experiments/RealIAD-full/config.yaml",
+      "bytes": 5574,
+      "sha256": "9c17d4ba78210ad65a288fedcdd6ea8a65d0926da05a960d3ed8dd1c3210552f",
+      "source_id": "source_29"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Tencent/AnomalyDetection_Real-IAD/98c28ffbe95b380d17a3777d77219152368c19e9/experiments/RealIAD-C1/config.yaml",
+      "retrieved_at_utc": "2026-10-13T17:14:29.441187+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/Tencent/AnomalyDetection_Real-IAD/98c28ffbe95b380d17a3777d77219152368c19e9/experiments/RealIAD-C1/config.yaml",
+      "bytes": 5754,
+      "sha256": "e14b34a1709da0ab54a471baad0707a7d0d0997c2d52248bd73701d9ff6559ff",
+      "source_id": "source_30"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/amazon-science/spot-diff/main/utils/prepare_data.py",
+      "retrieved_at_utc": "2026-10-13T17:14:29.441585+00:00",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/amazon-science/spot-diff/main/utils/prepare_data.py",
+      "bytes": 5174,
+      "sha256": "bb87854a2cb4713bb47970dec28ebd2e002b2e9e7c2e5b6ff91db700cac89e6f",
+      "source_id": "source_31"
+    }
+  ],
+  "source_revisions": {
+    "visa_official_repo": "2a692ab575001cbde74d402d897a7286086c6199",
+    "realiad_current_official_example_repo": "98c28ffbe95b380d17a3777d77219152368c19e9",
+    "realiad_project_website_repo": "8f774faa776cd01b974d1ed4283473190201a178"
+  },
+  "datasets": {
+    "mvtec_ad": {
+      "official_page_status": 200,
+      "official_page_url": "https://www.mvtec.com/research-teaching/datasets/mvtec-ad",
+      "official_description": {
+        "categories": 15,
+        "image_count_wording": "over 5000",
+        "normal_only_training": true,
+        "mixed_normal_anomalous_test": true,
+        "pixel_precise_anomaly_annotations": true
+      },
+      "data_license": "CC BY-NC-SA 4.0",
+      "license_verified_source": "source_05",
+      "existing_session_retained_images": 5354,
+      "local_inventory_scope": "Reported earlier verified inventory; root Phase A local audit supplies the fresh count.",
+      "download_access_scope": "Current official webpage displays an embedded form; no form submitted and no archive fetched in Phase A.",
+      "readiness": "Existing local data can support predeclared pilot protocols once current manifest and role checks pass; fresh untouched final testing is not established by availability alone."
+    },
+    "visa": {
+      "official_repo_url": "https://github.com/amazon-science/spot-diff",
+      "official_repo_revision": "2a692ab575001cbde74d402d897a7286086c6199",
+      "official_archive_url": "https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar",
+      "archive_fetched": false,
+      "published_counts": {
+        "categories": 12,
+        "images": 10821,
+        "normal": 9621,
+        "anomalous": 1200
+      },
+      "official_1cls_csv_audited": {
+        "rows": 10821,
+        "categories": 12,
+        "train_normal": 8659,
+        "test_normal": 962,
+        "test_anomalous": 1200
+      },
+      "data_license": "CC BY 4.0",
+      "code_license": "Apache-2.0",
+      "license_dataset_source": "source_11",
+      "published_protocol": "Use official split_csv/1cls.csv for one-class setup; original masks are multiclass, while official preparation binarizes anomaly classes as 255 and normal as 0; normal masks are not stored.",
+      "existing_session_retained_images": 10821,
+      "local_inventory_scope": "Reported earlier verified inventory; root Phase A local audit supplies the fresh count.",
+      "readiness": "Existing local data; official split metadata audited successfully; maintain source-image and category role separation."
+    },
+    "mvtec_ad2": {
+      "official_page_status": 200,
+      "official_page_url": "https://www.mvtec.com/research-teaching/datasets/mvtec-ad-2",
+      "official_description": {
+        "categories": 8,
+        "image_count_wording": "more than 8000",
+        "normal_only_training_and_validation": true,
+        "test_public_masks": true,
+        "test_private_ground_truth_non_public": true,
+        "lighting_conditions_can_differ_from_training": true
+      },
+      "data_license": "CC BY-NC-SA 4.0",
+      "license_verified_source": "source_06",
+      "existing_session_retained_images": 3914,
+      "existing_session_excludes": [
+        "test_private",
+        "test_private_mixed"
+      ],
+      "local_inventory_scope": "Reported earlier verified retained train/validation/public-test inventory; root Phase A local audit supplies the fresh count.",
+      "official_private_evaluation": "Official webpage states private test performance is only available through public evaluation server.",
+      "download_access_scope": "Current official webpage displays an embedded form; no form submitted, archive fetched, or server prediction submitted in Phase A.",
+      "readiness": "Public-only local stress arm. Cannot represent complete official dataset or private benchmark."
+    },
+    "real_iad": {
+      "dataset_identity": "Original Real-IAD (CVPR 2024), distinct from linked Real-IAD D3 and Real-IAD Variety.",
+      "official_project_url": "https://realiad4ad.github.io/Real-IAD/",
+      "project_host_retrieval": "Blocked by proxy (HTTP tunnel 403); authoritative GitHub-hosted index.html was retrieved instead.",
+      "project_website_revision": "8f774faa776cd01b974d1ed4283473190201a178",
+      "official_current_example_repo": "https://github.com/Tencent/AnomalyDetection_Real-IAD",
+      "official_example_revision": "98c28ffbe95b380d17a3777d77219152368c19e9",
+      "repository_transfer": "Old TencentYoutuResearch/AnomalyDetection_Real-IAD README points to Tencent/AnomalyDetection_Real-IAD.",
+      "official_data_host": "https://huggingface.co/datasets/Real-IAD/Real-IAD",
+      "data_host_retrieval": "Both public API metadata and dataset README were blocked by proxy (HTTP tunnel 403).",
+      "published_counts_paper_v1": {
+        "source_url": "https://arxiv.org/html/2403.12580",
+        "paper_version": "2403.12580v1, 19 March 2024",
+        "categories": 30,
+        "images": 151050,
+        "normal_images": 99721,
+        "anomalous_images": 51329,
+        "views_per_sample": 5,
+        "locally_verified": false
+      },
+      "advertised_release_variants": [
+        {
+          "name": "realiad_1024",
+          "resolution": "1024 x 1024",
+          "size_wording": "around 53 GB",
+          "exact_archive_bytes_verified": false
+        },
+        {
+          "name": "realiad_raw",
+          "resolution": "original high resolution",
+          "size_wording": "approximately 507 GB",
+          "exact_archive_bytes_verified": false
+        },
+        {
+          "name": "realiad_jsons.zip",
+          "purpose": "official JSON train/test metadata; size and bytes not verified"
+        }
+      ],
+      "access_statement_from_project": "Your access request will be automatically approved.",
+      "access_completed": false,
+      "data_license": null,
+      "data_license_status": "Unverified. Cannot infer dataset rights from website CC BY-SA 4.0 or example-repository Apache-2.0 license.",
+      "website_license": "CC BY-SA 4.0, explicitly website source",
+      "example_code_license": "Apache-2.0 except third-party components named in repository LICENSE",
+      "loader_json_schema_observed": [
+        "meta",
+        "train",
+        "test"
+      ],
+      "loader_sample_fields": [
+        "category",
+        "anomaly_class",
+        "image_path",
+        "mask_path"
+      ],
+      "loader_training_caveat": "Official example assigns training records label 0 unconditionally, including under FUIAD configs; this behavior is not proof that every configured training image is normal.",
+      "published_experiment_arms": [
+        "RealIAD-C1 single-view UIAD",
+        "RealIAD-full multi-view UIAD",
+        "FUIAD with declared noise ratios 0.0, 0.1, 0.2, 0.4"
+      ],
+      "protocol_requirements": [
+        "Group all views of one physical part across fit/support/candidate/calibration/query roles.",
+        "Declare image-level versus physical-part shot budget and number of views charged.",
+        "Use official JSON splitting metadata and its normal_class; do not conflate UIAD and contaminated FUIAD.",
+        "Keep sample-level versus image-level versus pixel-level metrics separate."
+      ],
+      "existing_local_data": false,
+      "readiness": "Not ready: images and splits absent, data license and access unverified, current full-release storage insufficient."
+    }
+  },
+  "resource_assessment": {
+    "snapshot_scope": "Task coordinator reported CPU-only, 5 available CPU cores and no GPU. This auditor inspected df: /workspace overlay 32G with 637M available; /tmp separate 17G with about 13G available. Values are instantaneous, not reserved capacity.",
+    "full_real_iad_1024_fit": false,
+    "full_real_iad_raw_fit": false,
+    "reason": "Advertised release sizes around 53GB and approximately 507GB exceed available storage before feature caches, native maps, runtime and outputs.",
+    "partial_object_download_feasible": null,
+    "partial_object_download_unknowns": [
+      "per-object archive sizes",
+      "current file inventory",
+      "data access and dataset license",
+      "archive hashes",
+      "expanded-size headroom",
+      "sample grouping and exact JSON metadata"
+    ],
+    "recommendation": "Use verified existing MVTec AD and VisA for an approved small protocol; retained AD2 public subset only as explicitly scoped stress evaluation. Keep original Real-IAD planned until access/license/storage checks succeed."
+  },
+  "unknowns": [
+    "Current Real-IAD HF dataset terms and metadata, full exact archive sizes/checksums, split JSON bytes, and actual view-group completeness remain unverified.",
+    "Historical test categories already used in prior pilots cannot automatically become pristine final holdouts.",
+    "No dataset archive or model checkpoint was fetched in this audit."
+  ],
+  "publication_note": "Full retrieved web/source bodies are retained locally and excluded from this metadata export; URL/status/hash observations and factual audit findings remain."
+}

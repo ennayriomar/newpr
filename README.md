@@ -1,5 +1,11 @@
 # newpr
 
+## SAFAL: Phase A foundation audit
+
+[Read the Phase A report](framework/docs/phase_a_report.md) · [Literature review](framework/docs/literature_review.md) · [Research gap](framework/docs/research_gap.md) · [Staged implementation plan](framework/docs/implementation_plan.md) · [Download the audit documents](https://github.com/ennayriomar/newpr/raw/refs/heads/main/safal_phase_a_docs.zip)
+
+The latest research brief limits this step to Phase A. Official method recipes, source versions, licenses, dataset availability, hardware and prior experimental limits are documented. The existing v0.4.0 source and complete results archives remain preserved. The preliminary variants do not establish a robust accuracy gain or a faithful published SubspaceAD/VisionAD reproduction; no later SAFAL phase is claimed complete.
+
 ## Safe IAD research framework v0.4.0
 
 The research repository is `ennayriomar/newpr`. Executable Python source,
