@@ -1,0 +1,24 @@
+Obtaining file:///workspace/tools
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: safe-iad-research
+  Building editable for safe-iad-research (pyproject.toml): started
+  Building editable for safe-iad-research (pyproject.toml): finished with status 'done'
+  Created wheel for safe-iad-research: filename=safe_iad_research-0.4.0-0.editable-py3-none-any.whl size=2843 sha256=5a8d0e1e9f6c2d455bc99d591f4b73322925aeab1d2040066a73f44edce0fa2c
+  Stored in directory: /tmp/pip-ephem-wheel-cache-z4y_zeol/wheels/6e/ed/61/7946a0a7f7bcc717fe8289faa558131ef725e034b159d7f087
+Successfully built safe-iad-research
+Installing collected packages: safe-iad-research
+  Attempting uninstall: safe-iad-research
+    Found existing installation: safe-iad-research 0.3.0
+    Uninstalling safe-iad-research-0.3.0:
+      Successfully uninstalled safe-iad-research-0.3.0
+Successfully installed safe-iad-research-0.4.0
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: python -m pip install --upgrade pip

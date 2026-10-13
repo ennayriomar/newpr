@@ -1,0 +1,1814 @@
+[
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 0,
+    "protocol": "paired_validation",
+    "support_ids": [
+      "cable/train/good/020.png",
+      "cable/train/good/036.png"
+    ],
+    "candidate_ids": [
+      "cable/train/good/060.png",
+      "cable/train/good/008.png",
+      "cable/train/good/114.png",
+      "cable/train/good/094.png",
+      "cable/train/good/181.png",
+      "cable/train/good/108.png",
+      "cable/train/good/147.png",
+      "cable/train/good/144.png"
+    ],
+    "query_ids": [
+      "cable/test/good/000.png",
+      "cable/test/good/001.png",
+      "cable/test/bent_wire/000.png",
+      "cable/test/bent_wire/001.png"
+    ],
+    "query_role": "reserved validation-category native test data; masks used for offline evaluation only",
+    "query_sampling": "first sorted normal/anomalous examples; descriptive feasibility subset",
+    "used_to_select_model_or_threshold": false
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 1,
+    "protocol": "paired_validation",
+    "support_ids": [
+      "cable/train/good/162.png",
+      "cable/train/good/093.png"
+    ],
+    "candidate_ids": [
+      "cable/train/good/047.png",
+      "cable/train/good/055.png",
+      "cable/train/good/090.png",
+      "cable/train/good/095.png",
+      "cable/train/good/205.png",
+      "cable/train/good/179.png",
+      "cable/train/good/193.png",
+      "cable/train/good/054.png"
+    ],
+    "query_ids": [
+      "cable/test/good/000.png",
+      "cable/test/good/001.png",
+      "cable/test/bent_wire/000.png",
+      "cable/test/bent_wire/001.png"
+    ],
+    "query_role": "reserved validation-category native test data; masks used for offline evaluation only",
+    "query_sampling": "first sorted normal/anomalous examples; descriptive feasibility subset",
+    "used_to_select_model_or_threshold": false
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 2,
+    "protocol": "paired_validation",
+    "support_ids": [
+      "cable/train/good/026.png",
+      "cable/train/good/134.png"
+    ],
+    "candidate_ids": [
+      "cable/train/good/140.png",
+      "cable/train/good/219.png",
+      "cable/train/good/095.png",
+      "cable/train/good/223.png",
+      "cable/train/good/151.png",
+      "cable/train/good/184.png",
+      "cable/train/good/149.png",
+      "cable/train/good/202.png"
+    ],
+    "query_ids": [
+      "cable/test/good/000.png",
+      "cable/test/good/001.png",
+      "cable/test/bent_wire/000.png",
+      "cable/test/bent_wire/001.png"
+    ],
+    "query_role": "reserved validation-category native test data; masks used for offline evaluation only",
+    "query_sampling": "first sorted normal/anomalous examples; descriptive feasibility subset",
+    "used_to_select_model_or_threshold": false
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 0,
+    "protocol": "paired_validation",
+    "support_ids": [
+      "macaroni2/Data/Images/Normal/0087.JPG",
+      "macaroni2/Data/Images/Normal/0156.JPG"
+    ],
+    "candidate_ids": [
+      "macaroni2/Data/Images/Normal/0265.JPG",
+      "macaroni2/Data/Images/Normal/0039.JPG",
+      "macaroni2/Data/Images/Normal/0519.JPG",
+      "macaroni2/Data/Images/Normal/0418.JPG",
+      "macaroni2/Data/Images/Normal/0829.JPG",
+      "macaroni2/Data/Images/Normal/0480.JPG",
+      "macaroni2/Data/Images/Normal/0669.JPG",
+      "macaroni2/Data/Images/Normal/0650.JPG"
+    ],
+    "query_ids": [
+      "macaroni2/Data/Images/Normal/0011.JPG",
+      "macaroni2/Data/Images/Normal/0013.JPG",
+      "macaroni2/Data/Images/Anomaly/000.JPG",
+      "macaroni2/Data/Images/Anomaly/001.JPG"
+    ],
+    "query_role": "reserved validation-category native test data; masks used for offline evaluation only",
+    "query_sampling": "first sorted normal/anomalous examples; descriptive feasibility subset",
+    "used_to_select_model_or_threshold": false
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 1,
+    "protocol": "paired_validation",
+    "support_ids": [
+      "macaroni2/Data/Images/Normal/0733.JPG",
+      "macaroni2/Data/Images/Normal/0416.JPG"
+    ],
+    "candidate_ids": [
+      "macaroni2/Data/Images/Normal/0211.JPG",
+      "macaroni2/Data/Images/Normal/0246.JPG",
+      "macaroni2/Data/Images/Normal/0408.JPG",
+      "macaroni2/Data/Images/Normal/0421.JPG",
+      "macaroni2/Data/Images/Normal/0912.JPG",
+      "macaroni2/Data/Images/Normal/0828.JPG",
+      "macaroni2/Data/Images/Normal/0880.JPG",
+      "macaroni2/Data/Images/Normal/0244.JPG"
+    ],
+    "query_ids": [
+      "macaroni2/Data/Images/Normal/0011.JPG",
+      "macaroni2/Data/Images/Normal/0013.JPG",
+      "macaroni2/Data/Images/Anomaly/000.JPG",
+      "macaroni2/Data/Images/Anomaly/001.JPG"
+    ],
+    "query_role": "reserved validation-category native test data; masks used for offline evaluation only",
+    "query_sampling": "first sorted normal/anomalous examples; descriptive feasibility subset",
+    "used_to_select_model_or_threshold": false
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 2,
+    "protocol": "paired_validation",
+    "support_ids": [
+      "macaroni2/Data/Images/Normal/0117.JPG",
+      "macaroni2/Data/Images/Normal/0604.JPG"
+    ],
+    "candidate_ids": [
+      "macaroni2/Data/Images/Normal/0626.JPG",
+      "macaroni2/Data/Images/Normal/0984.JPG",
+      "macaroni2/Data/Images/Normal/0418.JPG",
+      "macaroni2/Data/Images/Normal/0998.JPG",
+      "macaroni2/Data/Images/Normal/0678.JPG",
+      "macaroni2/Data/Images/Normal/0839.JPG",
+      "macaroni2/Data/Images/Normal/0682.JPG",
+      "macaroni2/Data/Images/Normal/0928.JPG"
+    ],
+    "query_ids": [
+      "macaroni2/Data/Images/Normal/0011.JPG",
+      "macaroni2/Data/Images/Normal/0013.JPG",
+      "macaroni2/Data/Images/Anomaly/000.JPG",
+      "macaroni2/Data/Images/Anomaly/001.JPG"
+    ],
+    "query_role": "reserved validation-category native test data; masks used for offline evaluation only",
+    "query_sampling": "first sorted normal/anomalous examples; descriptive feasibility subset",
+    "used_to_select_model_or_threshold": false
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 0,
+    "candidate_ids": [
+      "cable/train/good/104.png",
+      "cable/train/good/195.png",
+      "cable/train/good/220.png",
+      "cable/train/good/088.png",
+      "cable/train/good/108.png",
+      "cable/train/good/130.png",
+      "cable/train/good/089.png",
+      "cable/train/good/122.png"
+    ],
+    "query_ids": [
+      "cable/train/good/113.png",
+      "cable/train/good/061.png"
+    ],
+    "query_role": "held-back normal training images",
+    "grouping": {
+      "initial_support_ids": [
+        "cable/train/good/036.png",
+        "cable/train/good/201.png"
+      ],
+      "candidate_ids": [
+        "cable/train/good/104.png",
+        "cable/train/good/195.png",
+        "cable/train/good/220.png",
+        "cable/train/good/088.png",
+        "cable/train/good/108.png",
+        "cable/train/good/130.png",
+        "cable/train/good/089.png",
+        "cable/train/good/122.png"
+      ],
+      "query_ids": [
+        "cable/train/good/113.png",
+        "cable/train/good/061.png"
+      ],
+      "omitted_group": 0,
+      "cluster_assignments": {
+        "cable/train/good/004.png": 2,
+        "cable/train/good/007.png": 2,
+        "cable/train/good/013.png": 1,
+        "cable/train/good/026.png": 0,
+        "cable/train/good/029.png": 0,
+        "cable/train/good/035.png": 2,
+        "cable/train/good/036.png": 1,
+        "cable/train/good/053.png": 2,
+        "cable/train/good/061.png": 0,
+        "cable/train/good/065.png": 2,
+        "cable/train/good/070.png": 0,
+        "cable/train/good/072.png": 2,
+        "cable/train/good/084.png": 0,
+        "cable/train/good/087.png": 1,
+        "cable/train/good/088.png": 1,
+        "cable/train/good/089.png": 2,
+        "cable/train/good/098.png": 1,
+        "cable/train/good/104.png": 0,
+        "cable/train/good/107.png": 2,
+        "cable/train/good/108.png": 0,
+        "cable/train/good/110.png": 1,
+        "cable/train/good/111.png": 0,
+        "cable/train/good/113.png": 0,
+        "cable/train/good/118.png": 2,
+        "cable/train/good/122.png": 2,
+        "cable/train/good/124.png": 2,
+        "cable/train/good/126.png": 2,
+        "cable/train/good/130.png": 0,
+        "cable/train/good/132.png": 2,
+        "cable/train/good/139.png": 0,
+        "cable/train/good/146.png": 2,
+        "cable/train/good/153.png": 0,
+        "cable/train/good/155.png": 2,
+        "cable/train/good/157.png": 0,
+        "cable/train/good/160.png": 1,
+        "cable/train/good/168.png": 2,
+        "cable/train/good/169.png": 1,
+        "cable/train/good/170.png": 0,
+        "cable/train/good/182.png": 0,
+        "cable/train/good/185.png": 2,
+        "cable/train/good/189.png": 2,
+        "cable/train/good/192.png": 2,
+        "cable/train/good/195.png": 2,
+        "cable/train/good/201.png": 1,
+        "cable/train/good/209.png": 0,
+        "cable/train/good/210.png": 0,
+        "cable/train/good/218.png": 1,
+        "cable/train/good/220.png": 1
+      },
+      "grouping_provenance": {
+        "method": "KMeans on L2-normalized frozen normal-training global descriptors",
+        "seed": 8771,
+        "clusters": 3,
+        "n_init": 10,
+        "algorithm": "lloyd",
+        "sklearn_version": "1.8.0",
+        "global_feature_vectors_scanned": 48,
+        "global_feature_dimension": 768,
+        "normalized_features_and_ids_sha256": "745004c62de605c97ab79968afcdebef244015d52153cd565a0314b7bd87808d",
+        "group_sizes": {
+          "0": 17,
+          "1": 11,
+          "2": 20
+        },
+        "source_eligibility": "caller must enforce verified-normal training membership with the dataset split manifest; recognizable test/label paths rejected",
+        "query_role": "held-out normal training images from the omitted feature group",
+        "query_features_used_for_grouping": true,
+        "query_features_enter_detector_memory": false,
+        "native_test_labels_used": false,
+        "limitation": "Feature clusters are proxy appearance groups; semantic modes and lighting conditions are not annotated or inferred as ground truth.",
+        "matched_coverage_control": {
+          "support_reference_replaced": "cable/train/good/036.png",
+          "covered_group_reference": "cable/train/good/111.png",
+          "changed_support_positions": [
+            0
+          ],
+          "support_count_per_condition": 2,
+          "same_query_ids": true,
+          "same_candidate_pool": true,
+          "pool_excludes_union_of_support_conditions_and_queries": true,
+          "coverage_in_every_nonempty_support_prefix": true,
+          "semantics": "One permitted omitted-group reference replaces an outside-group reference at equal initial support count; proxy coverage control."
+        }
+      },
+      "covered_support_ids": [
+        "cable/train/good/111.png",
+        "cable/train/good/201.png"
+      ]
+    },
+    "used_to_select_model_or_threshold": false,
+    "protocol": "missing_support",
+    "support_ids": [
+      "cable/train/good/036.png",
+      "cable/train/good/201.png"
+    ]
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 0,
+    "candidate_ids": [
+      "cable/train/good/104.png",
+      "cable/train/good/195.png",
+      "cable/train/good/220.png",
+      "cable/train/good/088.png",
+      "cable/train/good/108.png",
+      "cable/train/good/130.png",
+      "cable/train/good/089.png",
+      "cable/train/good/122.png"
+    ],
+    "query_ids": [
+      "cable/train/good/113.png",
+      "cable/train/good/061.png"
+    ],
+    "query_role": "held-back normal training images",
+    "grouping": {
+      "initial_support_ids": [
+        "cable/train/good/036.png",
+        "cable/train/good/201.png"
+      ],
+      "candidate_ids": [
+        "cable/train/good/104.png",
+        "cable/train/good/195.png",
+        "cable/train/good/220.png",
+        "cable/train/good/088.png",
+        "cable/train/good/108.png",
+        "cable/train/good/130.png",
+        "cable/train/good/089.png",
+        "cable/train/good/122.png"
+      ],
+      "query_ids": [
+        "cable/train/good/113.png",
+        "cable/train/good/061.png"
+      ],
+      "omitted_group": 0,
+      "cluster_assignments": {
+        "cable/train/good/004.png": 2,
+        "cable/train/good/007.png": 2,
+        "cable/train/good/013.png": 1,
+        "cable/train/good/026.png": 0,
+        "cable/train/good/029.png": 0,
+        "cable/train/good/035.png": 2,
+        "cable/train/good/036.png": 1,
+        "cable/train/good/053.png": 2,
+        "cable/train/good/061.png": 0,
+        "cable/train/good/065.png": 2,
+        "cable/train/good/070.png": 0,
+        "cable/train/good/072.png": 2,
+        "cable/train/good/084.png": 0,
+        "cable/train/good/087.png": 1,
+        "cable/train/good/088.png": 1,
+        "cable/train/good/089.png": 2,
+        "cable/train/good/098.png": 1,
+        "cable/train/good/104.png": 0,
+        "cable/train/good/107.png": 2,
+        "cable/train/good/108.png": 0,
+        "cable/train/good/110.png": 1,
+        "cable/train/good/111.png": 0,
+        "cable/train/good/113.png": 0,
+        "cable/train/good/118.png": 2,
+        "cable/train/good/122.png": 2,
+        "cable/train/good/124.png": 2,
+        "cable/train/good/126.png": 2,
+        "cable/train/good/130.png": 0,
+        "cable/train/good/132.png": 2,
+        "cable/train/good/139.png": 0,
+        "cable/train/good/146.png": 2,
+        "cable/train/good/153.png": 0,
+        "cable/train/good/155.png": 2,
+        "cable/train/good/157.png": 0,
+        "cable/train/good/160.png": 1,
+        "cable/train/good/168.png": 2,
+        "cable/train/good/169.png": 1,
+        "cable/train/good/170.png": 0,
+        "cable/train/good/182.png": 0,
+        "cable/train/good/185.png": 2,
+        "cable/train/good/189.png": 2,
+        "cable/train/good/192.png": 2,
+        "cable/train/good/195.png": 2,
+        "cable/train/good/201.png": 1,
+        "cable/train/good/209.png": 0,
+        "cable/train/good/210.png": 0,
+        "cable/train/good/218.png": 1,
+        "cable/train/good/220.png": 1
+      },
+      "grouping_provenance": {
+        "method": "KMeans on L2-normalized frozen normal-training global descriptors",
+        "seed": 8771,
+        "clusters": 3,
+        "n_init": 10,
+        "algorithm": "lloyd",
+        "sklearn_version": "1.8.0",
+        "global_feature_vectors_scanned": 48,
+        "global_feature_dimension": 768,
+        "normalized_features_and_ids_sha256": "745004c62de605c97ab79968afcdebef244015d52153cd565a0314b7bd87808d",
+        "group_sizes": {
+          "0": 17,
+          "1": 11,
+          "2": 20
+        },
+        "source_eligibility": "caller must enforce verified-normal training membership with the dataset split manifest; recognizable test/label paths rejected",
+        "query_role": "held-out normal training images from the omitted feature group",
+        "query_features_used_for_grouping": true,
+        "query_features_enter_detector_memory": false,
+        "native_test_labels_used": false,
+        "limitation": "Feature clusters are proxy appearance groups; semantic modes and lighting conditions are not annotated or inferred as ground truth.",
+        "matched_coverage_control": {
+          "support_reference_replaced": "cable/train/good/036.png",
+          "covered_group_reference": "cable/train/good/111.png",
+          "changed_support_positions": [
+            0
+          ],
+          "support_count_per_condition": 2,
+          "same_query_ids": true,
+          "same_candidate_pool": true,
+          "pool_excludes_union_of_support_conditions_and_queries": true,
+          "coverage_in_every_nonempty_support_prefix": true,
+          "semantics": "One permitted omitted-group reference replaces an outside-group reference at equal initial support count; proxy coverage control."
+        }
+      },
+      "covered_support_ids": [
+        "cable/train/good/111.png",
+        "cable/train/good/201.png"
+      ]
+    },
+    "used_to_select_model_or_threshold": false,
+    "protocol": "coverage_control",
+    "support_ids": [
+      "cable/train/good/111.png",
+      "cable/train/good/201.png"
+    ],
+    "support_condition": "one equal-budget initial reference covers the omitted proxy group"
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 1,
+    "candidate_ids": [
+      "cable/train/good/160.png",
+      "cable/train/good/026.png",
+      "cable/train/good/201.png",
+      "cable/train/good/004.png",
+      "cable/train/good/157.png",
+      "cable/train/good/155.png",
+      "cable/train/good/065.png",
+      "cable/train/good/098.png"
+    ],
+    "query_ids": [
+      "cable/train/good/185.png",
+      "cable/train/good/126.png"
+    ],
+    "query_role": "held-back normal training images",
+    "grouping": {
+      "initial_support_ids": [
+        "cable/train/good/153.png",
+        "cable/train/good/108.png"
+      ],
+      "candidate_ids": [
+        "cable/train/good/160.png",
+        "cable/train/good/026.png",
+        "cable/train/good/201.png",
+        "cable/train/good/004.png",
+        "cable/train/good/157.png",
+        "cable/train/good/155.png",
+        "cable/train/good/065.png",
+        "cable/train/good/098.png"
+      ],
+      "query_ids": [
+        "cable/train/good/185.png",
+        "cable/train/good/126.png"
+      ],
+      "omitted_group": 2,
+      "cluster_assignments": {
+        "cable/train/good/004.png": 2,
+        "cable/train/good/007.png": 2,
+        "cable/train/good/013.png": 2,
+        "cable/train/good/026.png": 0,
+        "cable/train/good/029.png": 0,
+        "cable/train/good/035.png": 2,
+        "cable/train/good/036.png": 1,
+        "cable/train/good/053.png": 2,
+        "cable/train/good/061.png": 0,
+        "cable/train/good/065.png": 2,
+        "cable/train/good/070.png": 0,
+        "cable/train/good/072.png": 2,
+        "cable/train/good/084.png": 1,
+        "cable/train/good/087.png": 1,
+        "cable/train/good/088.png": 1,
+        "cable/train/good/089.png": 2,
+        "cable/train/good/098.png": 2,
+        "cable/train/good/104.png": 0,
+        "cable/train/good/107.png": 2,
+        "cable/train/good/108.png": 1,
+        "cable/train/good/110.png": 1,
+        "cable/train/good/111.png": 1,
+        "cable/train/good/113.png": 0,
+        "cable/train/good/118.png": 2,
+        "cable/train/good/122.png": 2,
+        "cable/train/good/124.png": 2,
+        "cable/train/good/126.png": 2,
+        "cable/train/good/130.png": 0,
+        "cable/train/good/132.png": 2,
+        "cable/train/good/139.png": 0,
+        "cable/train/good/146.png": 2,
+        "cable/train/good/153.png": 0,
+        "cable/train/good/155.png": 2,
+        "cable/train/good/157.png": 0,
+        "cable/train/good/160.png": 1,
+        "cable/train/good/168.png": 2,
+        "cable/train/good/169.png": 1,
+        "cable/train/good/170.png": 0,
+        "cable/train/good/182.png": 1,
+        "cable/train/good/185.png": 2,
+        "cable/train/good/189.png": 2,
+        "cable/train/good/192.png": 2,
+        "cable/train/good/195.png": 2,
+        "cable/train/good/201.png": 2,
+        "cable/train/good/209.png": 0,
+        "cable/train/good/210.png": 1,
+        "cable/train/good/218.png": 1,
+        "cable/train/good/220.png": 2
+      },
+      "grouping_provenance": {
+        "method": "KMeans on L2-normalized frozen normal-training global descriptors",
+        "seed": 8772,
+        "clusters": 3,
+        "n_init": 10,
+        "algorithm": "lloyd",
+        "sklearn_version": "1.8.0",
+        "global_feature_vectors_scanned": 48,
+        "global_feature_dimension": 768,
+        "normalized_features_and_ids_sha256": "745004c62de605c97ab79968afcdebef244015d52153cd565a0314b7bd87808d",
+        "group_sizes": {
+          "0": 12,
+          "1": 12,
+          "2": 24
+        },
+        "source_eligibility": "caller must enforce verified-normal training membership with the dataset split manifest; recognizable test/label paths rejected",
+        "query_role": "held-out normal training images from the omitted feature group",
+        "query_features_used_for_grouping": true,
+        "query_features_enter_detector_memory": false,
+        "native_test_labels_used": false,
+        "limitation": "Feature clusters are proxy appearance groups; semantic modes and lighting conditions are not annotated or inferred as ground truth.",
+        "matched_coverage_control": {
+          "support_reference_replaced": "cable/train/good/153.png",
+          "covered_group_reference": "cable/train/good/053.png",
+          "changed_support_positions": [
+            0
+          ],
+          "support_count_per_condition": 2,
+          "same_query_ids": true,
+          "same_candidate_pool": true,
+          "pool_excludes_union_of_support_conditions_and_queries": true,
+          "coverage_in_every_nonempty_support_prefix": true,
+          "semantics": "One permitted omitted-group reference replaces an outside-group reference at equal initial support count; proxy coverage control."
+        }
+      },
+      "covered_support_ids": [
+        "cable/train/good/053.png",
+        "cable/train/good/108.png"
+      ]
+    },
+    "used_to_select_model_or_threshold": false,
+    "protocol": "missing_support",
+    "support_ids": [
+      "cable/train/good/153.png",
+      "cable/train/good/108.png"
+    ]
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 1,
+    "candidate_ids": [
+      "cable/train/good/160.png",
+      "cable/train/good/026.png",
+      "cable/train/good/201.png",
+      "cable/train/good/004.png",
+      "cable/train/good/157.png",
+      "cable/train/good/155.png",
+      "cable/train/good/065.png",
+      "cable/train/good/098.png"
+    ],
+    "query_ids": [
+      "cable/train/good/185.png",
+      "cable/train/good/126.png"
+    ],
+    "query_role": "held-back normal training images",
+    "grouping": {
+      "initial_support_ids": [
+        "cable/train/good/153.png",
+        "cable/train/good/108.png"
+      ],
+      "candidate_ids": [
+        "cable/train/good/160.png",
+        "cable/train/good/026.png",
+        "cable/train/good/201.png",
+        "cable/train/good/004.png",
+        "cable/train/good/157.png",
+        "cable/train/good/155.png",
+        "cable/train/good/065.png",
+        "cable/train/good/098.png"
+      ],
+      "query_ids": [
+        "cable/train/good/185.png",
+        "cable/train/good/126.png"
+      ],
+      "omitted_group": 2,
+      "cluster_assignments": {
+        "cable/train/good/004.png": 2,
+        "cable/train/good/007.png": 2,
+        "cable/train/good/013.png": 2,
+        "cable/train/good/026.png": 0,
+        "cable/train/good/029.png": 0,
+        "cable/train/good/035.png": 2,
+        "cable/train/good/036.png": 1,
+        "cable/train/good/053.png": 2,
+        "cable/train/good/061.png": 0,
+        "cable/train/good/065.png": 2,
+        "cable/train/good/070.png": 0,
+        "cable/train/good/072.png": 2,
+        "cable/train/good/084.png": 1,
+        "cable/train/good/087.png": 1,
+        "cable/train/good/088.png": 1,
+        "cable/train/good/089.png": 2,
+        "cable/train/good/098.png": 2,
+        "cable/train/good/104.png": 0,
+        "cable/train/good/107.png": 2,
+        "cable/train/good/108.png": 1,
+        "cable/train/good/110.png": 1,
+        "cable/train/good/111.png": 1,
+        "cable/train/good/113.png": 0,
+        "cable/train/good/118.png": 2,
+        "cable/train/good/122.png": 2,
+        "cable/train/good/124.png": 2,
+        "cable/train/good/126.png": 2,
+        "cable/train/good/130.png": 0,
+        "cable/train/good/132.png": 2,
+        "cable/train/good/139.png": 0,
+        "cable/train/good/146.png": 2,
+        "cable/train/good/153.png": 0,
+        "cable/train/good/155.png": 2,
+        "cable/train/good/157.png": 0,
+        "cable/train/good/160.png": 1,
+        "cable/train/good/168.png": 2,
+        "cable/train/good/169.png": 1,
+        "cable/train/good/170.png": 0,
+        "cable/train/good/182.png": 1,
+        "cable/train/good/185.png": 2,
+        "cable/train/good/189.png": 2,
+        "cable/train/good/192.png": 2,
+        "cable/train/good/195.png": 2,
+        "cable/train/good/201.png": 2,
+        "cable/train/good/209.png": 0,
+        "cable/train/good/210.png": 1,
+        "cable/train/good/218.png": 1,
+        "cable/train/good/220.png": 2
+      },
+      "grouping_provenance": {
+        "method": "KMeans on L2-normalized frozen normal-training global descriptors",
+        "seed": 8772,
+        "clusters": 3,
+        "n_init": 10,
+        "algorithm": "lloyd",
+        "sklearn_version": "1.8.0",
+        "global_feature_vectors_scanned": 48,
+        "global_feature_dimension": 768,
+        "normalized_features_and_ids_sha256": "745004c62de605c97ab79968afcdebef244015d52153cd565a0314b7bd87808d",
+        "group_sizes": {
+          "0": 12,
+          "1": 12,
+          "2": 24
+        },
+        "source_eligibility": "caller must enforce verified-normal training membership with the dataset split manifest; recognizable test/label paths rejected",
+        "query_role": "held-out normal training images from the omitted feature group",
+        "query_features_used_for_grouping": true,
+        "query_features_enter_detector_memory": false,
+        "native_test_labels_used": false,
+        "limitation": "Feature clusters are proxy appearance groups; semantic modes and lighting conditions are not annotated or inferred as ground truth.",
+        "matched_coverage_control": {
+          "support_reference_replaced": "cable/train/good/153.png",
+          "covered_group_reference": "cable/train/good/053.png",
+          "changed_support_positions": [
+            0
+          ],
+          "support_count_per_condition": 2,
+          "same_query_ids": true,
+          "same_candidate_pool": true,
+          "pool_excludes_union_of_support_conditions_and_queries": true,
+          "coverage_in_every_nonempty_support_prefix": true,
+          "semantics": "One permitted omitted-group reference replaces an outside-group reference at equal initial support count; proxy coverage control."
+        }
+      },
+      "covered_support_ids": [
+        "cable/train/good/053.png",
+        "cable/train/good/108.png"
+      ]
+    },
+    "used_to_select_model_or_threshold": false,
+    "protocol": "coverage_control",
+    "support_ids": [
+      "cable/train/good/053.png",
+      "cable/train/good/108.png"
+    ],
+    "support_condition": "one equal-budget initial reference covers the omitted proxy group"
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 2,
+    "candidate_ids": [
+      "cable/train/good/160.png",
+      "cable/train/good/065.png",
+      "cable/train/good/157.png",
+      "cable/train/good/182.png",
+      "cable/train/good/153.png",
+      "cable/train/good/061.png",
+      "cable/train/good/107.png",
+      "cable/train/good/155.png"
+    ],
+    "query_ids": [
+      "cable/train/good/088.png",
+      "cable/train/good/087.png"
+    ],
+    "query_role": "held-back normal training images",
+    "grouping": {
+      "initial_support_ids": [
+        "cable/train/good/195.png",
+        "cable/train/good/210.png"
+      ],
+      "candidate_ids": [
+        "cable/train/good/160.png",
+        "cable/train/good/065.png",
+        "cable/train/good/157.png",
+        "cable/train/good/182.png",
+        "cable/train/good/153.png",
+        "cable/train/good/061.png",
+        "cable/train/good/107.png",
+        "cable/train/good/155.png"
+      ],
+      "query_ids": [
+        "cable/train/good/088.png",
+        "cable/train/good/087.png"
+      ],
+      "omitted_group": 1,
+      "cluster_assignments": {
+        "cable/train/good/004.png": 2,
+        "cable/train/good/007.png": 2,
+        "cable/train/good/013.png": 1,
+        "cable/train/good/026.png": 0,
+        "cable/train/good/029.png": 0,
+        "cable/train/good/035.png": 2,
+        "cable/train/good/036.png": 1,
+        "cable/train/good/053.png": 2,
+        "cable/train/good/061.png": 0,
+        "cable/train/good/065.png": 2,
+        "cable/train/good/070.png": 0,
+        "cable/train/good/072.png": 2,
+        "cable/train/good/084.png": 1,
+        "cable/train/good/087.png": 1,
+        "cable/train/good/088.png": 1,
+        "cable/train/good/089.png": 2,
+        "cable/train/good/098.png": 0,
+        "cable/train/good/104.png": 0,
+        "cable/train/good/107.png": 2,
+        "cable/train/good/108.png": 0,
+        "cable/train/good/110.png": 1,
+        "cable/train/good/111.png": 0,
+        "cable/train/good/113.png": 0,
+        "cable/train/good/118.png": 2,
+        "cable/train/good/122.png": 2,
+        "cable/train/good/124.png": 2,
+        "cable/train/good/126.png": 2,
+        "cable/train/good/130.png": 0,
+        "cable/train/good/132.png": 2,
+        "cable/train/good/139.png": 0,
+        "cable/train/good/146.png": 2,
+        "cable/train/good/153.png": 0,
+        "cable/train/good/155.png": 2,
+        "cable/train/good/157.png": 0,
+        "cable/train/good/160.png": 1,
+        "cable/train/good/168.png": 2,
+        "cable/train/good/169.png": 1,
+        "cable/train/good/170.png": 0,
+        "cable/train/good/182.png": 1,
+        "cable/train/good/185.png": 2,
+        "cable/train/good/189.png": 2,
+        "cable/train/good/192.png": 2,
+        "cable/train/good/195.png": 2,
+        "cable/train/good/201.png": 2,
+        "cable/train/good/209.png": 0,
+        "cable/train/good/210.png": 0,
+        "cable/train/good/218.png": 1,
+        "cable/train/good/220.png": 2
+      },
+      "grouping_provenance": {
+        "method": "KMeans on L2-normalized frozen normal-training global descriptors",
+        "seed": 8773,
+        "clusters": 3,
+        "n_init": 10,
+        "algorithm": "lloyd",
+        "sklearn_version": "1.8.0",
+        "global_feature_vectors_scanned": 48,
+        "global_feature_dimension": 768,
+        "normalized_features_and_ids_sha256": "745004c62de605c97ab79968afcdebef244015d52153cd565a0314b7bd87808d",
+        "group_sizes": {
+          "0": 16,
+          "1": 10,
+          "2": 22
+        },
+        "source_eligibility": "caller must enforce verified-normal training membership with the dataset split manifest; recognizable test/label paths rejected",
+        "query_role": "held-out normal training images from the omitted feature group",
+        "query_features_used_for_grouping": true,
+        "query_features_enter_detector_memory": false,
+        "native_test_labels_used": false,
+        "limitation": "Feature clusters are proxy appearance groups; semantic modes and lighting conditions are not annotated or inferred as ground truth.",
+        "matched_coverage_control": {
+          "support_reference_replaced": "cable/train/good/195.png",
+          "covered_group_reference": "cable/train/good/110.png",
+          "changed_support_positions": [
+            0
+          ],
+          "support_count_per_condition": 2,
+          "same_query_ids": true,
+          "same_candidate_pool": true,
+          "pool_excludes_union_of_support_conditions_and_queries": true,
+          "coverage_in_every_nonempty_support_prefix": true,
+          "semantics": "One permitted omitted-group reference replaces an outside-group reference at equal initial support count; proxy coverage control."
+        }
+      },
+      "covered_support_ids": [
+        "cable/train/good/110.png",
+        "cable/train/good/210.png"
+      ]
+    },
+    "used_to_select_model_or_threshold": false,
+    "protocol": "missing_support",
+    "support_ids": [
+      "cable/train/good/195.png",
+      "cable/train/good/210.png"
+    ]
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 2,
+    "candidate_ids": [
+      "cable/train/good/160.png",
+      "cable/train/good/065.png",
+      "cable/train/good/157.png",
+      "cable/train/good/182.png",
+      "cable/train/good/153.png",
+      "cable/train/good/061.png",
+      "cable/train/good/107.png",
+      "cable/train/good/155.png"
+    ],
+    "query_ids": [
+      "cable/train/good/088.png",
+      "cable/train/good/087.png"
+    ],
+    "query_role": "held-back normal training images",
+    "grouping": {
+      "initial_support_ids": [
+        "cable/train/good/195.png",
+        "cable/train/good/210.png"
+      ],
+      "candidate_ids": [
+        "cable/train/good/160.png",
+        "cable/train/good/065.png",
+        "cable/train/good/157.png",
+        "cable/train/good/182.png",
+        "cable/train/good/153.png",
+        "cable/train/good/061.png",
+        "cable/train/good/107.png",
+        "cable/train/good/155.png"
+      ],
+      "query_ids": [
+        "cable/train/good/088.png",
+        "cable/train/good/087.png"
+      ],
+      "omitted_group": 1,
+      "cluster_assignments": {
+        "cable/train/good/004.png": 2,
+        "cable/train/good/007.png": 2,
+        "cable/train/good/013.png": 1,
+        "cable/train/good/026.png": 0,
+        "cable/train/good/029.png": 0,
+        "cable/train/good/035.png": 2,
+        "cable/train/good/036.png": 1,
+        "cable/train/good/053.png": 2,
+        "cable/train/good/061.png": 0,
+        "cable/train/good/065.png": 2,
+        "cable/train/good/070.png": 0,
+        "cable/train/good/072.png": 2,
+        "cable/train/good/084.png": 1,
+        "cable/train/good/087.png": 1,
+        "cable/train/good/088.png": 1,
+        "cable/train/good/089.png": 2,
+        "cable/train/good/098.png": 0,
+        "cable/train/good/104.png": 0,
+        "cable/train/good/107.png": 2,
+        "cable/train/good/108.png": 0,
+        "cable/train/good/110.png": 1,
+        "cable/train/good/111.png": 0,
+        "cable/train/good/113.png": 0,
+        "cable/train/good/118.png": 2,
+        "cable/train/good/122.png": 2,
+        "cable/train/good/124.png": 2,
+        "cable/train/good/126.png": 2,
+        "cable/train/good/130.png": 0,
+        "cable/train/good/132.png": 2,
+        "cable/train/good/139.png": 0,
+        "cable/train/good/146.png": 2,
+        "cable/train/good/153.png": 0,
+        "cable/train/good/155.png": 2,
+        "cable/train/good/157.png": 0,
+        "cable/train/good/160.png": 1,
+        "cable/train/good/168.png": 2,
+        "cable/train/good/169.png": 1,
+        "cable/train/good/170.png": 0,
+        "cable/train/good/182.png": 1,
+        "cable/train/good/185.png": 2,
+        "cable/train/good/189.png": 2,
+        "cable/train/good/192.png": 2,
+        "cable/train/good/195.png": 2,
+        "cable/train/good/201.png": 2,
+        "cable/train/good/209.png": 0,
+        "cable/train/good/210.png": 0,
+        "cable/train/good/218.png": 1,
+        "cable/train/good/220.png": 2
+      },
+      "grouping_provenance": {
+        "method": "KMeans on L2-normalized frozen normal-training global descriptors",
+        "seed": 8773,
+        "clusters": 3,
+        "n_init": 10,
+        "algorithm": "lloyd",
+        "sklearn_version": "1.8.0",
+        "global_feature_vectors_scanned": 48,
+        "global_feature_dimension": 768,
+        "normalized_features_and_ids_sha256": "745004c62de605c97ab79968afcdebef244015d52153cd565a0314b7bd87808d",
+        "group_sizes": {
+          "0": 16,
+          "1": 10,
+          "2": 22
+        },
+        "source_eligibility": "caller must enforce verified-normal training membership with the dataset split manifest; recognizable test/label paths rejected",
+        "query_role": "held-out normal training images from the omitted feature group",
+        "query_features_used_for_grouping": true,
+        "query_features_enter_detector_memory": false,
+        "native_test_labels_used": false,
+        "limitation": "Feature clusters are proxy appearance groups; semantic modes and lighting conditions are not annotated or inferred as ground truth.",
+        "matched_coverage_control": {
+          "support_reference_replaced": "cable/train/good/195.png",
+          "covered_group_reference": "cable/train/good/110.png",
+          "changed_support_positions": [
+            0
+          ],
+          "support_count_per_condition": 2,
+          "same_query_ids": true,
+          "same_candidate_pool": true,
+          "pool_excludes_union_of_support_conditions_and_queries": true,
+          "coverage_in_every_nonempty_support_prefix": true,
+          "semantics": "One permitted omitted-group reference replaces an outside-group reference at equal initial support count; proxy coverage control."
+        }
+      },
+      "covered_support_ids": [
+        "cable/train/good/110.png",
+        "cable/train/good/210.png"
+      ]
+    },
+    "used_to_select_model_or_threshold": false,
+    "protocol": "coverage_control",
+    "support_ids": [
+      "cable/train/good/110.png",
+      "cable/train/good/210.png"
+    ],
+    "support_condition": "one equal-budget initial reference covers the omitted proxy group"
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 0,
+    "candidate_ids": [
+      "macaroni2/Data/Images/Normal/0440.JPG",
+      "macaroni2/Data/Images/Normal/0933.JPG",
+      "macaroni2/Data/Images/Normal/0997.JPG",
+      "macaroni2/Data/Images/Normal/0411.JPG",
+      "macaroni2/Data/Images/Normal/0516.JPG",
+      "macaroni2/Data/Images/Normal/0816.JPG",
+      "macaroni2/Data/Images/Normal/0429.JPG",
+      "macaroni2/Data/Images/Normal/0544.JPG"
+    ],
+    "query_ids": [
+      "macaroni2/Data/Images/Normal/0850.JPG",
+      "macaroni2/Data/Images/Normal/0595.JPG"
+    ],
+    "query_role": "held-back normal training images",
+    "grouping": {
+      "initial_support_ids": [
+        "macaroni2/Data/Images/Normal/0143.JPG",
+        "macaroni2/Data/Images/Normal/0867.JPG"
+      ],
+      "candidate_ids": [
+        "macaroni2/Data/Images/Normal/0440.JPG",
+        "macaroni2/Data/Images/Normal/0933.JPG",
+        "macaroni2/Data/Images/Normal/0997.JPG",
+        "macaroni2/Data/Images/Normal/0411.JPG",
+        "macaroni2/Data/Images/Normal/0516.JPG",
+        "macaroni2/Data/Images/Normal/0816.JPG",
+        "macaroni2/Data/Images/Normal/0429.JPG",
+        "macaroni2/Data/Images/Normal/0544.JPG"
+      ],
+      "query_ids": [
+        "macaroni2/Data/Images/Normal/0850.JPG",
+        "macaroni2/Data/Images/Normal/0595.JPG"
+      ],
+      "omitted_group": 0,
+      "cluster_assignments": {
+        "macaroni2/Data/Images/Normal/0023.JPG": 1,
+        "macaroni2/Data/Images/Normal/0039.JPG": 1,
+        "macaroni2/Data/Images/Normal/0070.JPG": 1,
+        "macaroni2/Data/Images/Normal/0119.JPG": 1,
+        "macaroni2/Data/Images/Normal/0143.JPG": 1,
+        "macaroni2/Data/Images/Normal/0161.JPG": 1,
+        "macaroni2/Data/Images/Normal/0179.JPG": 1,
+        "macaroni2/Data/Images/Normal/0256.JPG": 1,
+        "macaroni2/Data/Images/Normal/0285.JPG": 1,
+        "macaroni2/Data/Images/Normal/0313.JPG": 1,
+        "macaroni2/Data/Images/Normal/0327.JPG": 1,
+        "macaroni2/Data/Images/Normal/0334.JPG": 1,
+        "macaroni2/Data/Images/Normal/0370.JPG": 1,
+        "macaroni2/Data/Images/Normal/0411.JPG": 1,
+        "macaroni2/Data/Images/Normal/0429.JPG": 1,
+        "macaroni2/Data/Images/Normal/0437.JPG": 2,
+        "macaroni2/Data/Images/Normal/0440.JPG": 1,
+        "macaroni2/Data/Images/Normal/0498.JPG": 0,
+        "macaroni2/Data/Images/Normal/0516.JPG": 2,
+        "macaroni2/Data/Images/Normal/0519.JPG": 1,
+        "macaroni2/Data/Images/Normal/0538.JPG": 2,
+        "macaroni2/Data/Images/Normal/0544.JPG": 2,
+        "macaroni2/Data/Images/Normal/0561.JPG": 2,
+        "macaroni2/Data/Images/Normal/0581.JPG": 2,
+        "macaroni2/Data/Images/Normal/0595.JPG": 0,
+        "macaroni2/Data/Images/Normal/0600.JPG": 1,
+        "macaroni2/Data/Images/Normal/0639.JPG": 1,
+        "macaroni2/Data/Images/Normal/0645.JPG": 1,
+        "macaroni2/Data/Images/Normal/0682.JPG": 2,
+        "macaroni2/Data/Images/Normal/0686.JPG": 1,
+        "macaroni2/Data/Images/Normal/0697.JPG": 2,
+        "macaroni2/Data/Images/Normal/0701.JPG": 0,
+        "macaroni2/Data/Images/Normal/0711.JPG": 0,
+        "macaroni2/Data/Images/Normal/0733.JPG": 1,
+        "macaroni2/Data/Images/Normal/0744.JPG": 1,
+        "macaroni2/Data/Images/Normal/0789.JPG": 1,
+        "macaroni2/Data/Images/Normal/0792.JPG": 1,
+        "macaroni2/Data/Images/Normal/0816.JPG": 0,
+        "macaroni2/Data/Images/Normal/0817.JPG": 0,
+        "macaroni2/Data/Images/Normal/0850.JPG": 0,
+        "macaroni2/Data/Images/Normal/0856.JPG": 0,
+        "macaroni2/Data/Images/Normal/0867.JPG": 1,
+        "macaroni2/Data/Images/Normal/0894.JPG": 1,
+        "macaroni2/Data/Images/Normal/0933.JPG": 2,
+        "macaroni2/Data/Images/Normal/0937.JPG": 0,
+        "macaroni2/Data/Images/Normal/0943.JPG": 0,
+        "macaroni2/Data/Images/Normal/0980.JPG": 0,
+        "macaroni2/Data/Images/Normal/0997.JPG": 0
+      },
+      "grouping_provenance": {
+        "method": "KMeans on L2-normalized frozen normal-training global descriptors",
+        "seed": 8771,
+        "clusters": 3,
+        "n_init": 10,
+        "algorithm": "lloyd",
+        "sklearn_version": "1.8.0",
+        "global_feature_vectors_scanned": 48,
+        "global_feature_dimension": 768,
+        "normalized_features_and_ids_sha256": "568bfa6435816fb64b6e666786238db833904f9b1204b7af6ddb245963a06721",
+        "group_sizes": {
+          "0": 12,
+          "1": 27,
+          "2": 9
+        },
+        "source_eligibility": "caller must enforce verified-normal training membership with the dataset split manifest; recognizable test/label paths rejected",
+        "query_role": "held-out normal training images from the omitted feature group",
+        "query_features_used_for_grouping": true,
+        "query_features_enter_detector_memory": false,
+        "native_test_labels_used": false,
+        "limitation": "Feature clusters are proxy appearance groups; semantic modes and lighting conditions are not annotated or inferred as ground truth.",
+        "matched_coverage_control": {
+          "support_reference_replaced": "macaroni2/Data/Images/Normal/0143.JPG",
+          "covered_group_reference": "macaroni2/Data/Images/Normal/0817.JPG",
+          "changed_support_positions": [
+            0
+          ],
+          "support_count_per_condition": 2,
+          "same_query_ids": true,
+          "same_candidate_pool": true,
+          "pool_excludes_union_of_support_conditions_and_queries": true,
+          "coverage_in_every_nonempty_support_prefix": true,
+          "semantics": "One permitted omitted-group reference replaces an outside-group reference at equal initial support count; proxy coverage control."
+        }
+      },
+      "covered_support_ids": [
+        "macaroni2/Data/Images/Normal/0817.JPG",
+        "macaroni2/Data/Images/Normal/0867.JPG"
+      ]
+    },
+    "used_to_select_model_or_threshold": false,
+    "protocol": "missing_support",
+    "support_ids": [
+      "macaroni2/Data/Images/Normal/0143.JPG",
+      "macaroni2/Data/Images/Normal/0867.JPG"
+    ]
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 0,
+    "candidate_ids": [
+      "macaroni2/Data/Images/Normal/0440.JPG",
+      "macaroni2/Data/Images/Normal/0933.JPG",
+      "macaroni2/Data/Images/Normal/0997.JPG",
+      "macaroni2/Data/Images/Normal/0411.JPG",
+      "macaroni2/Data/Images/Normal/0516.JPG",
+      "macaroni2/Data/Images/Normal/0816.JPG",
+      "macaroni2/Data/Images/Normal/0429.JPG",
+      "macaroni2/Data/Images/Normal/0544.JPG"
+    ],
+    "query_ids": [
+      "macaroni2/Data/Images/Normal/0850.JPG",
+      "macaroni2/Data/Images/Normal/0595.JPG"
+    ],
+    "query_role": "held-back normal training images",
+    "grouping": {
+      "initial_support_ids": [
+        "macaroni2/Data/Images/Normal/0143.JPG",
+        "macaroni2/Data/Images/Normal/0867.JPG"
+      ],
+      "candidate_ids": [
+        "macaroni2/Data/Images/Normal/0440.JPG",
+        "macaroni2/Data/Images/Normal/0933.JPG",
+        "macaroni2/Data/Images/Normal/0997.JPG",
+        "macaroni2/Data/Images/Normal/0411.JPG",
+        "macaroni2/Data/Images/Normal/0516.JPG",
+        "macaroni2/Data/Images/Normal/0816.JPG",
+        "macaroni2/Data/Images/Normal/0429.JPG",
+        "macaroni2/Data/Images/Normal/0544.JPG"
+      ],
+      "query_ids": [
+        "macaroni2/Data/Images/Normal/0850.JPG",
+        "macaroni2/Data/Images/Normal/0595.JPG"
+      ],
+      "omitted_group": 0,
+      "cluster_assignments": {
+        "macaroni2/Data/Images/Normal/0023.JPG": 1,
+        "macaroni2/Data/Images/Normal/0039.JPG": 1,
+        "macaroni2/Data/Images/Normal/0070.JPG": 1,
+        "macaroni2/Data/Images/Normal/0119.JPG": 1,
+        "macaroni2/Data/Images/Normal/0143.JPG": 1,
+        "macaroni2/Data/Images/Normal/0161.JPG": 1,
+        "macaroni2/Data/Images/Normal/0179.JPG": 1,
+        "macaroni2/Data/Images/Normal/0256.JPG": 1,
+        "macaroni2/Data/Images/Normal/0285.JPG": 1,
+        "macaroni2/Data/Images/Normal/0313.JPG": 1,
+        "macaroni2/Data/Images/Normal/0327.JPG": 1,
+        "macaroni2/Data/Images/Normal/0334.JPG": 1,
+        "macaroni2/Data/Images/Normal/0370.JPG": 1,
+        "macaroni2/Data/Images/Normal/0411.JPG": 1,
+        "macaroni2/Data/Images/Normal/0429.JPG": 1,
+        "macaroni2/Data/Images/Normal/0437.JPG": 2,
+        "macaroni2/Data/Images/Normal/0440.JPG": 1,
+        "macaroni2/Data/Images/Normal/0498.JPG": 0,
+        "macaroni2/Data/Images/Normal/0516.JPG": 2,
+        "macaroni2/Data/Images/Normal/0519.JPG": 1,
+        "macaroni2/Data/Images/Normal/0538.JPG": 2,
+        "macaroni2/Data/Images/Normal/0544.JPG": 2,
+        "macaroni2/Data/Images/Normal/0561.JPG": 2,
+        "macaroni2/Data/Images/Normal/0581.JPG": 2,
+        "macaroni2/Data/Images/Normal/0595.JPG": 0,
+        "macaroni2/Data/Images/Normal/0600.JPG": 1,
+        "macaroni2/Data/Images/Normal/0639.JPG": 1,
+        "macaroni2/Data/Images/Normal/0645.JPG": 1,
+        "macaroni2/Data/Images/Normal/0682.JPG": 2,
+        "macaroni2/Data/Images/Normal/0686.JPG": 1,
+        "macaroni2/Data/Images/Normal/0697.JPG": 2,
+        "macaroni2/Data/Images/Normal/0701.JPG": 0,
+        "macaroni2/Data/Images/Normal/0711.JPG": 0,
+        "macaroni2/Data/Images/Normal/0733.JPG": 1,
+        "macaroni2/Data/Images/Normal/0744.JPG": 1,
+        "macaroni2/Data/Images/Normal/0789.JPG": 1,
+        "macaroni2/Data/Images/Normal/0792.JPG": 1,
+        "macaroni2/Data/Images/Normal/0816.JPG": 0,
+        "macaroni2/Data/Images/Normal/0817.JPG": 0,
+        "macaroni2/Data/Images/Normal/0850.JPG": 0,
+        "macaroni2/Data/Images/Normal/0856.JPG": 0,
+        "macaroni2/Data/Images/Normal/0867.JPG": 1,
+        "macaroni2/Data/Images/Normal/0894.JPG": 1,
+        "macaroni2/Data/Images/Normal/0933.JPG": 2,
+        "macaroni2/Data/Images/Normal/0937.JPG": 0,
+        "macaroni2/Data/Images/Normal/0943.JPG": 0,
+        "macaroni2/Data/Images/Normal/0980.JPG": 0,
+        "macaroni2/Data/Images/Normal/0997.JPG": 0
+      },
+      "grouping_provenance": {
+        "method": "KMeans on L2-normalized frozen normal-training global descriptors",
+        "seed": 8771,
+        "clusters": 3,
+        "n_init": 10,
+        "algorithm": "lloyd",
+        "sklearn_version": "1.8.0",
+        "global_feature_vectors_scanned": 48,
+        "global_feature_dimension": 768,
+        "normalized_features_and_ids_sha256": "568bfa6435816fb64b6e666786238db833904f9b1204b7af6ddb245963a06721",
+        "group_sizes": {
+          "0": 12,
+          "1": 27,
+          "2": 9
+        },
+        "source_eligibility": "caller must enforce verified-normal training membership with the dataset split manifest; recognizable test/label paths rejected",
+        "query_role": "held-out normal training images from the omitted feature group",
+        "query_features_used_for_grouping": true,
+        "query_features_enter_detector_memory": false,
+        "native_test_labels_used": false,
+        "limitation": "Feature clusters are proxy appearance groups; semantic modes and lighting conditions are not annotated or inferred as ground truth.",
+        "matched_coverage_control": {
+          "support_reference_replaced": "macaroni2/Data/Images/Normal/0143.JPG",
+          "covered_group_reference": "macaroni2/Data/Images/Normal/0817.JPG",
+          "changed_support_positions": [
+            0
+          ],
+          "support_count_per_condition": 2,
+          "same_query_ids": true,
+          "same_candidate_pool": true,
+          "pool_excludes_union_of_support_conditions_and_queries": true,
+          "coverage_in_every_nonempty_support_prefix": true,
+          "semantics": "One permitted omitted-group reference replaces an outside-group reference at equal initial support count; proxy coverage control."
+        }
+      },
+      "covered_support_ids": [
+        "macaroni2/Data/Images/Normal/0817.JPG",
+        "macaroni2/Data/Images/Normal/0867.JPG"
+      ]
+    },
+    "used_to_select_model_or_threshold": false,
+    "protocol": "coverage_control",
+    "support_ids": [
+      "macaroni2/Data/Images/Normal/0817.JPG",
+      "macaroni2/Data/Images/Normal/0867.JPG"
+    ],
+    "support_condition": "one equal-budget initial reference covers the omitted proxy group"
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 1,
+    "candidate_ids": [
+      "macaroni2/Data/Images/Normal/0744.JPG",
+      "macaroni2/Data/Images/Normal/0119.JPG",
+      "macaroni2/Data/Images/Normal/0933.JPG",
+      "macaroni2/Data/Images/Normal/0023.JPG",
+      "macaroni2/Data/Images/Normal/0733.JPG",
+      "macaroni2/Data/Images/Normal/0711.JPG",
+      "macaroni2/Data/Images/Normal/0516.JPG",
+      "macaroni2/Data/Images/Normal/0429.JPG"
+    ],
+    "query_ids": [
+      "macaroni2/Data/Images/Normal/0867.JPG",
+      "macaroni2/Data/Images/Normal/0682.JPG"
+    ],
+    "query_role": "held-back normal training images",
+    "grouping": {
+      "initial_support_ids": [
+        "macaroni2/Data/Images/Normal/0701.JPG",
+        "macaroni2/Data/Images/Normal/0440.JPG"
+      ],
+      "candidate_ids": [
+        "macaroni2/Data/Images/Normal/0744.JPG",
+        "macaroni2/Data/Images/Normal/0119.JPG",
+        "macaroni2/Data/Images/Normal/0933.JPG",
+        "macaroni2/Data/Images/Normal/0023.JPG",
+        "macaroni2/Data/Images/Normal/0733.JPG",
+        "macaroni2/Data/Images/Normal/0711.JPG",
+        "macaroni2/Data/Images/Normal/0516.JPG",
+        "macaroni2/Data/Images/Normal/0429.JPG"
+      ],
+      "query_ids": [
+        "macaroni2/Data/Images/Normal/0867.JPG",
+        "macaroni2/Data/Images/Normal/0682.JPG"
+      ],
+      "omitted_group": 2,
+      "cluster_assignments": {
+        "macaroni2/Data/Images/Normal/0023.JPG": 0,
+        "macaroni2/Data/Images/Normal/0039.JPG": 0,
+        "macaroni2/Data/Images/Normal/0070.JPG": 2,
+        "macaroni2/Data/Images/Normal/0119.JPG": 0,
+        "macaroni2/Data/Images/Normal/0143.JPG": 0,
+        "macaroni2/Data/Images/Normal/0161.JPG": 0,
+        "macaroni2/Data/Images/Normal/0179.JPG": 0,
+        "macaroni2/Data/Images/Normal/0256.JPG": 0,
+        "macaroni2/Data/Images/Normal/0285.JPG": 0,
+        "macaroni2/Data/Images/Normal/0313.JPG": 0,
+        "macaroni2/Data/Images/Normal/0327.JPG": 0,
+        "macaroni2/Data/Images/Normal/0334.JPG": 2,
+        "macaroni2/Data/Images/Normal/0370.JPG": 0,
+        "macaroni2/Data/Images/Normal/0411.JPG": 0,
+        "macaroni2/Data/Images/Normal/0429.JPG": 0,
+        "macaroni2/Data/Images/Normal/0437.JPG": 2,
+        "macaroni2/Data/Images/Normal/0440.JPG": 0,
+        "macaroni2/Data/Images/Normal/0498.JPG": 1,
+        "macaroni2/Data/Images/Normal/0516.JPG": 2,
+        "macaroni2/Data/Images/Normal/0519.JPG": 0,
+        "macaroni2/Data/Images/Normal/0538.JPG": 2,
+        "macaroni2/Data/Images/Normal/0544.JPG": 2,
+        "macaroni2/Data/Images/Normal/0561.JPG": 2,
+        "macaroni2/Data/Images/Normal/0581.JPG": 1,
+        "macaroni2/Data/Images/Normal/0595.JPG": 1,
+        "macaroni2/Data/Images/Normal/0600.JPG": 0,
+        "macaroni2/Data/Images/Normal/0639.JPG": 0,
+        "macaroni2/Data/Images/Normal/0645.JPG": 0,
+        "macaroni2/Data/Images/Normal/0682.JPG": 2,
+        "macaroni2/Data/Images/Normal/0686.JPG": 0,
+        "macaroni2/Data/Images/Normal/0697.JPG": 2,
+        "macaroni2/Data/Images/Normal/0701.JPG": 1,
+        "macaroni2/Data/Images/Normal/0711.JPG": 1,
+        "macaroni2/Data/Images/Normal/0733.JPG": 0,
+        "macaroni2/Data/Images/Normal/0744.JPG": 2,
+        "macaroni2/Data/Images/Normal/0789.JPG": 0,
+        "macaroni2/Data/Images/Normal/0792.JPG": 0,
+        "macaroni2/Data/Images/Normal/0816.JPG": 1,
+        "macaroni2/Data/Images/Normal/0817.JPG": 1,
+        "macaroni2/Data/Images/Normal/0850.JPG": 1,
+        "macaroni2/Data/Images/Normal/0856.JPG": 1,
+        "macaroni2/Data/Images/Normal/0867.JPG": 2,
+        "macaroni2/Data/Images/Normal/0894.JPG": 2,
+        "macaroni2/Data/Images/Normal/0933.JPG": 2,
+        "macaroni2/Data/Images/Normal/0937.JPG": 1,
+        "macaroni2/Data/Images/Normal/0943.JPG": 1,
+        "macaroni2/Data/Images/Normal/0980.JPG": 1,
+        "macaroni2/Data/Images/Normal/0997.JPG": 1
+      },
+      "grouping_provenance": {
+        "method": "KMeans on L2-normalized frozen normal-training global descriptors",
+        "seed": 8772,
+        "clusters": 3,
+        "n_init": 10,
+        "algorithm": "lloyd",
+        "sklearn_version": "1.8.0",
+        "global_feature_vectors_scanned": 48,
+        "global_feature_dimension": 768,
+        "normalized_features_and_ids_sha256": "568bfa6435816fb64b6e666786238db833904f9b1204b7af6ddb245963a06721",
+        "group_sizes": {
+          "0": 22,
+          "1": 13,
+          "2": 13
+        },
+        "source_eligibility": "caller must enforce verified-normal training membership with the dataset split manifest; recognizable test/label paths rejected",
+        "query_role": "held-out normal training images from the omitted feature group",
+        "query_features_used_for_grouping": true,
+        "query_features_enter_detector_memory": false,
+        "native_test_labels_used": false,
+        "limitation": "Feature clusters are proxy appearance groups; semantic modes and lighting conditions are not annotated or inferred as ground truth.",
+        "matched_coverage_control": {
+          "support_reference_replaced": "macaroni2/Data/Images/Normal/0701.JPG",
+          "covered_group_reference": "macaroni2/Data/Images/Normal/0437.JPG",
+          "changed_support_positions": [
+            0
+          ],
+          "support_count_per_condition": 2,
+          "same_query_ids": true,
+          "same_candidate_pool": true,
+          "pool_excludes_union_of_support_conditions_and_queries": true,
+          "coverage_in_every_nonempty_support_prefix": true,
+          "semantics": "One permitted omitted-group reference replaces an outside-group reference at equal initial support count; proxy coverage control."
+        }
+      },
+      "covered_support_ids": [
+        "macaroni2/Data/Images/Normal/0437.JPG",
+        "macaroni2/Data/Images/Normal/0440.JPG"
+      ]
+    },
+    "used_to_select_model_or_threshold": false,
+    "protocol": "missing_support",
+    "support_ids": [
+      "macaroni2/Data/Images/Normal/0701.JPG",
+      "macaroni2/Data/Images/Normal/0440.JPG"
+    ]
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 1,
+    "candidate_ids": [
+      "macaroni2/Data/Images/Normal/0744.JPG",
+      "macaroni2/Data/Images/Normal/0119.JPG",
+      "macaroni2/Data/Images/Normal/0933.JPG",
+      "macaroni2/Data/Images/Normal/0023.JPG",
+      "macaroni2/Data/Images/Normal/0733.JPG",
+      "macaroni2/Data/Images/Normal/0711.JPG",
+      "macaroni2/Data/Images/Normal/0516.JPG",
+      "macaroni2/Data/Images/Normal/0429.JPG"
+    ],
+    "query_ids": [
+      "macaroni2/Data/Images/Normal/0867.JPG",
+      "macaroni2/Data/Images/Normal/0682.JPG"
+    ],
+    "query_role": "held-back normal training images",
+    "grouping": {
+      "initial_support_ids": [
+        "macaroni2/Data/Images/Normal/0701.JPG",
+        "macaroni2/Data/Images/Normal/0440.JPG"
+      ],
+      "candidate_ids": [
+        "macaroni2/Data/Images/Normal/0744.JPG",
+        "macaroni2/Data/Images/Normal/0119.JPG",
+        "macaroni2/Data/Images/Normal/0933.JPG",
+        "macaroni2/Data/Images/Normal/0023.JPG",
+        "macaroni2/Data/Images/Normal/0733.JPG",
+        "macaroni2/Data/Images/Normal/0711.JPG",
+        "macaroni2/Data/Images/Normal/0516.JPG",
+        "macaroni2/Data/Images/Normal/0429.JPG"
+      ],
+      "query_ids": [
+        "macaroni2/Data/Images/Normal/0867.JPG",
+        "macaroni2/Data/Images/Normal/0682.JPG"
+      ],
+      "omitted_group": 2,
+      "cluster_assignments": {
+        "macaroni2/Data/Images/Normal/0023.JPG": 0,
+        "macaroni2/Data/Images/Normal/0039.JPG": 0,
+        "macaroni2/Data/Images/Normal/0070.JPG": 2,
+        "macaroni2/Data/Images/Normal/0119.JPG": 0,
+        "macaroni2/Data/Images/Normal/0143.JPG": 0,
+        "macaroni2/Data/Images/Normal/0161.JPG": 0,
+        "macaroni2/Data/Images/Normal/0179.JPG": 0,
+        "macaroni2/Data/Images/Normal/0256.JPG": 0,
+        "macaroni2/Data/Images/Normal/0285.JPG": 0,
+        "macaroni2/Data/Images/Normal/0313.JPG": 0,
+        "macaroni2/Data/Images/Normal/0327.JPG": 0,
+        "macaroni2/Data/Images/Normal/0334.JPG": 2,
+        "macaroni2/Data/Images/Normal/0370.JPG": 0,
+        "macaroni2/Data/Images/Normal/0411.JPG": 0,
+        "macaroni2/Data/Images/Normal/0429.JPG": 0,
+        "macaroni2/Data/Images/Normal/0437.JPG": 2,
+        "macaroni2/Data/Images/Normal/0440.JPG": 0,
+        "macaroni2/Data/Images/Normal/0498.JPG": 1,
+        "macaroni2/Data/Images/Normal/0516.JPG": 2,
+        "macaroni2/Data/Images/Normal/0519.JPG": 0,
+        "macaroni2/Data/Images/Normal/0538.JPG": 2,
+        "macaroni2/Data/Images/Normal/0544.JPG": 2,
+        "macaroni2/Data/Images/Normal/0561.JPG": 2,
+        "macaroni2/Data/Images/Normal/0581.JPG": 1,
+        "macaroni2/Data/Images/Normal/0595.JPG": 1,
+        "macaroni2/Data/Images/Normal/0600.JPG": 0,
+        "macaroni2/Data/Images/Normal/0639.JPG": 0,
+        "macaroni2/Data/Images/Normal/0645.JPG": 0,
+        "macaroni2/Data/Images/Normal/0682.JPG": 2,
+        "macaroni2/Data/Images/Normal/0686.JPG": 0,
+        "macaroni2/Data/Images/Normal/0697.JPG": 2,
+        "macaroni2/Data/Images/Normal/0701.JPG": 1,
+        "macaroni2/Data/Images/Normal/0711.JPG": 1,
+        "macaroni2/Data/Images/Normal/0733.JPG": 0,
+        "macaroni2/Data/Images/Normal/0744.JPG": 2,
+        "macaroni2/Data/Images/Normal/0789.JPG": 0,
+        "macaroni2/Data/Images/Normal/0792.JPG": 0,
+        "macaroni2/Data/Images/Normal/0816.JPG": 1,
+        "macaroni2/Data/Images/Normal/0817.JPG": 1,
+        "macaroni2/Data/Images/Normal/0850.JPG": 1,
+        "macaroni2/Data/Images/Normal/0856.JPG": 1,
+        "macaroni2/Data/Images/Normal/0867.JPG": 2,
+        "macaroni2/Data/Images/Normal/0894.JPG": 2,
+        "macaroni2/Data/Images/Normal/0933.JPG": 2,
+        "macaroni2/Data/Images/Normal/0937.JPG": 1,
+        "macaroni2/Data/Images/Normal/0943.JPG": 1,
+        "macaroni2/Data/Images/Normal/0980.JPG": 1,
+        "macaroni2/Data/Images/Normal/0997.JPG": 1
+      },
+      "grouping_provenance": {
+        "method": "KMeans on L2-normalized frozen normal-training global descriptors",
+        "seed": 8772,
+        "clusters": 3,
+        "n_init": 10,
+        "algorithm": "lloyd",
+        "sklearn_version": "1.8.0",
+        "global_feature_vectors_scanned": 48,
+        "global_feature_dimension": 768,
+        "normalized_features_and_ids_sha256": "568bfa6435816fb64b6e666786238db833904f9b1204b7af6ddb245963a06721",
+        "group_sizes": {
+          "0": 22,
+          "1": 13,
+          "2": 13
+        },
+        "source_eligibility": "caller must enforce verified-normal training membership with the dataset split manifest; recognizable test/label paths rejected",
+        "query_role": "held-out normal training images from the omitted feature group",
+        "query_features_used_for_grouping": true,
+        "query_features_enter_detector_memory": false,
+        "native_test_labels_used": false,
+        "limitation": "Feature clusters are proxy appearance groups; semantic modes and lighting conditions are not annotated or inferred as ground truth.",
+        "matched_coverage_control": {
+          "support_reference_replaced": "macaroni2/Data/Images/Normal/0701.JPG",
+          "covered_group_reference": "macaroni2/Data/Images/Normal/0437.JPG",
+          "changed_support_positions": [
+            0
+          ],
+          "support_count_per_condition": 2,
+          "same_query_ids": true,
+          "same_candidate_pool": true,
+          "pool_excludes_union_of_support_conditions_and_queries": true,
+          "coverage_in_every_nonempty_support_prefix": true,
+          "semantics": "One permitted omitted-group reference replaces an outside-group reference at equal initial support count; proxy coverage control."
+        }
+      },
+      "covered_support_ids": [
+        "macaroni2/Data/Images/Normal/0437.JPG",
+        "macaroni2/Data/Images/Normal/0440.JPG"
+      ]
+    },
+    "used_to_select_model_or_threshold": false,
+    "protocol": "coverage_control",
+    "support_ids": [
+      "macaroni2/Data/Images/Normal/0437.JPG",
+      "macaroni2/Data/Images/Normal/0440.JPG"
+    ],
+    "support_condition": "one equal-budget initial reference covers the omitted proxy group"
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 2,
+    "candidate_ids": [
+      "macaroni2/Data/Images/Normal/0370.JPG",
+      "macaroni2/Data/Images/Normal/0327.JPG",
+      "macaroni2/Data/Images/Normal/0744.JPG",
+      "macaroni2/Data/Images/Normal/0817.JPG",
+      "macaroni2/Data/Images/Normal/0711.JPG",
+      "macaroni2/Data/Images/Normal/0285.JPG",
+      "macaroni2/Data/Images/Normal/0538.JPG",
+      "macaroni2/Data/Images/Normal/0733.JPG"
+    ],
+    "query_ids": [
+      "macaroni2/Data/Images/Normal/0429.JPG",
+      "macaroni2/Data/Images/Normal/0313.JPG"
+    ],
+    "query_role": "held-back normal training images",
+    "grouping": {
+      "initial_support_ids": [
+        "macaroni2/Data/Images/Normal/0943.JPG",
+        "macaroni2/Data/Images/Normal/0980.JPG"
+      ],
+      "candidate_ids": [
+        "macaroni2/Data/Images/Normal/0370.JPG",
+        "macaroni2/Data/Images/Normal/0327.JPG",
+        "macaroni2/Data/Images/Normal/0744.JPG",
+        "macaroni2/Data/Images/Normal/0817.JPG",
+        "macaroni2/Data/Images/Normal/0711.JPG",
+        "macaroni2/Data/Images/Normal/0285.JPG",
+        "macaroni2/Data/Images/Normal/0538.JPG",
+        "macaroni2/Data/Images/Normal/0733.JPG"
+      ],
+      "query_ids": [
+        "macaroni2/Data/Images/Normal/0429.JPG",
+        "macaroni2/Data/Images/Normal/0313.JPG"
+      ],
+      "omitted_group": 1,
+      "cluster_assignments": {
+        "macaroni2/Data/Images/Normal/0023.JPG": 1,
+        "macaroni2/Data/Images/Normal/0039.JPG": 1,
+        "macaroni2/Data/Images/Normal/0070.JPG": 1,
+        "macaroni2/Data/Images/Normal/0119.JPG": 1,
+        "macaroni2/Data/Images/Normal/0143.JPG": 1,
+        "macaroni2/Data/Images/Normal/0161.JPG": 1,
+        "macaroni2/Data/Images/Normal/0179.JPG": 1,
+        "macaroni2/Data/Images/Normal/0256.JPG": 1,
+        "macaroni2/Data/Images/Normal/0285.JPG": 1,
+        "macaroni2/Data/Images/Normal/0313.JPG": 1,
+        "macaroni2/Data/Images/Normal/0327.JPG": 1,
+        "macaroni2/Data/Images/Normal/0334.JPG": 1,
+        "macaroni2/Data/Images/Normal/0370.JPG": 1,
+        "macaroni2/Data/Images/Normal/0411.JPG": 1,
+        "macaroni2/Data/Images/Normal/0429.JPG": 1,
+        "macaroni2/Data/Images/Normal/0437.JPG": 2,
+        "macaroni2/Data/Images/Normal/0440.JPG": 1,
+        "macaroni2/Data/Images/Normal/0498.JPG": 0,
+        "macaroni2/Data/Images/Normal/0516.JPG": 2,
+        "macaroni2/Data/Images/Normal/0519.JPG": 1,
+        "macaroni2/Data/Images/Normal/0538.JPG": 2,
+        "macaroni2/Data/Images/Normal/0544.JPG": 2,
+        "macaroni2/Data/Images/Normal/0561.JPG": 2,
+        "macaroni2/Data/Images/Normal/0581.JPG": 2,
+        "macaroni2/Data/Images/Normal/0595.JPG": 0,
+        "macaroni2/Data/Images/Normal/0600.JPG": 1,
+        "macaroni2/Data/Images/Normal/0639.JPG": 1,
+        "macaroni2/Data/Images/Normal/0645.JPG": 1,
+        "macaroni2/Data/Images/Normal/0682.JPG": 2,
+        "macaroni2/Data/Images/Normal/0686.JPG": 1,
+        "macaroni2/Data/Images/Normal/0697.JPG": 1,
+        "macaroni2/Data/Images/Normal/0701.JPG": 0,
+        "macaroni2/Data/Images/Normal/0711.JPG": 0,
+        "macaroni2/Data/Images/Normal/0733.JPG": 1,
+        "macaroni2/Data/Images/Normal/0744.JPG": 1,
+        "macaroni2/Data/Images/Normal/0789.JPG": 1,
+        "macaroni2/Data/Images/Normal/0792.JPG": 1,
+        "macaroni2/Data/Images/Normal/0816.JPG": 0,
+        "macaroni2/Data/Images/Normal/0817.JPG": 0,
+        "macaroni2/Data/Images/Normal/0850.JPG": 0,
+        "macaroni2/Data/Images/Normal/0856.JPG": 0,
+        "macaroni2/Data/Images/Normal/0867.JPG": 1,
+        "macaroni2/Data/Images/Normal/0894.JPG": 1,
+        "macaroni2/Data/Images/Normal/0933.JPG": 2,
+        "macaroni2/Data/Images/Normal/0937.JPG": 0,
+        "macaroni2/Data/Images/Normal/0943.JPG": 0,
+        "macaroni2/Data/Images/Normal/0980.JPG": 0,
+        "macaroni2/Data/Images/Normal/0997.JPG": 0
+      },
+      "grouping_provenance": {
+        "method": "KMeans on L2-normalized frozen normal-training global descriptors",
+        "seed": 8773,
+        "clusters": 3,
+        "n_init": 10,
+        "algorithm": "lloyd",
+        "sklearn_version": "1.8.0",
+        "global_feature_vectors_scanned": 48,
+        "global_feature_dimension": 768,
+        "normalized_features_and_ids_sha256": "568bfa6435816fb64b6e666786238db833904f9b1204b7af6ddb245963a06721",
+        "group_sizes": {
+          "0": 12,
+          "1": 28,
+          "2": 8
+        },
+        "source_eligibility": "caller must enforce verified-normal training membership with the dataset split manifest; recognizable test/label paths rejected",
+        "query_role": "held-out normal training images from the omitted feature group",
+        "query_features_used_for_grouping": true,
+        "query_features_enter_detector_memory": false,
+        "native_test_labels_used": false,
+        "limitation": "Feature clusters are proxy appearance groups; semantic modes and lighting conditions are not annotated or inferred as ground truth.",
+        "matched_coverage_control": {
+          "support_reference_replaced": "macaroni2/Data/Images/Normal/0943.JPG",
+          "covered_group_reference": "macaroni2/Data/Images/Normal/0334.JPG",
+          "changed_support_positions": [
+            0
+          ],
+          "support_count_per_condition": 2,
+          "same_query_ids": true,
+          "same_candidate_pool": true,
+          "pool_excludes_union_of_support_conditions_and_queries": true,
+          "coverage_in_every_nonempty_support_prefix": true,
+          "semantics": "One permitted omitted-group reference replaces an outside-group reference at equal initial support count; proxy coverage control."
+        }
+      },
+      "covered_support_ids": [
+        "macaroni2/Data/Images/Normal/0334.JPG",
+        "macaroni2/Data/Images/Normal/0980.JPG"
+      ]
+    },
+    "used_to_select_model_or_threshold": false,
+    "protocol": "missing_support",
+    "support_ids": [
+      "macaroni2/Data/Images/Normal/0943.JPG",
+      "macaroni2/Data/Images/Normal/0980.JPG"
+    ]
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 2,
+    "candidate_ids": [
+      "macaroni2/Data/Images/Normal/0370.JPG",
+      "macaroni2/Data/Images/Normal/0327.JPG",
+      "macaroni2/Data/Images/Normal/0744.JPG",
+      "macaroni2/Data/Images/Normal/0817.JPG",
+      "macaroni2/Data/Images/Normal/0711.JPG",
+      "macaroni2/Data/Images/Normal/0285.JPG",
+      "macaroni2/Data/Images/Normal/0538.JPG",
+      "macaroni2/Data/Images/Normal/0733.JPG"
+    ],
+    "query_ids": [
+      "macaroni2/Data/Images/Normal/0429.JPG",
+      "macaroni2/Data/Images/Normal/0313.JPG"
+    ],
+    "query_role": "held-back normal training images",
+    "grouping": {
+      "initial_support_ids": [
+        "macaroni2/Data/Images/Normal/0943.JPG",
+        "macaroni2/Data/Images/Normal/0980.JPG"
+      ],
+      "candidate_ids": [
+        "macaroni2/Data/Images/Normal/0370.JPG",
+        "macaroni2/Data/Images/Normal/0327.JPG",
+        "macaroni2/Data/Images/Normal/0744.JPG",
+        "macaroni2/Data/Images/Normal/0817.JPG",
+        "macaroni2/Data/Images/Normal/0711.JPG",
+        "macaroni2/Data/Images/Normal/0285.JPG",
+        "macaroni2/Data/Images/Normal/0538.JPG",
+        "macaroni2/Data/Images/Normal/0733.JPG"
+      ],
+      "query_ids": [
+        "macaroni2/Data/Images/Normal/0429.JPG",
+        "macaroni2/Data/Images/Normal/0313.JPG"
+      ],
+      "omitted_group": 1,
+      "cluster_assignments": {
+        "macaroni2/Data/Images/Normal/0023.JPG": 1,
+        "macaroni2/Data/Images/Normal/0039.JPG": 1,
+        "macaroni2/Data/Images/Normal/0070.JPG": 1,
+        "macaroni2/Data/Images/Normal/0119.JPG": 1,
+        "macaroni2/Data/Images/Normal/0143.JPG": 1,
+        "macaroni2/Data/Images/Normal/0161.JPG": 1,
+        "macaroni2/Data/Images/Normal/0179.JPG": 1,
+        "macaroni2/Data/Images/Normal/0256.JPG": 1,
+        "macaroni2/Data/Images/Normal/0285.JPG": 1,
+        "macaroni2/Data/Images/Normal/0313.JPG": 1,
+        "macaroni2/Data/Images/Normal/0327.JPG": 1,
+        "macaroni2/Data/Images/Normal/0334.JPG": 1,
+        "macaroni2/Data/Images/Normal/0370.JPG": 1,
+        "macaroni2/Data/Images/Normal/0411.JPG": 1,
+        "macaroni2/Data/Images/Normal/0429.JPG": 1,
+        "macaroni2/Data/Images/Normal/0437.JPG": 2,
+        "macaroni2/Data/Images/Normal/0440.JPG": 1,
+        "macaroni2/Data/Images/Normal/0498.JPG": 0,
+        "macaroni2/Data/Images/Normal/0516.JPG": 2,
+        "macaroni2/Data/Images/Normal/0519.JPG": 1,
+        "macaroni2/Data/Images/Normal/0538.JPG": 2,
+        "macaroni2/Data/Images/Normal/0544.JPG": 2,
+        "macaroni2/Data/Images/Normal/0561.JPG": 2,
+        "macaroni2/Data/Images/Normal/0581.JPG": 2,
+        "macaroni2/Data/Images/Normal/0595.JPG": 0,
+        "macaroni2/Data/Images/Normal/0600.JPG": 1,
+        "macaroni2/Data/Images/Normal/0639.JPG": 1,
+        "macaroni2/Data/Images/Normal/0645.JPG": 1,
+        "macaroni2/Data/Images/Normal/0682.JPG": 2,
+        "macaroni2/Data/Images/Normal/0686.JPG": 1,
+        "macaroni2/Data/Images/Normal/0697.JPG": 1,
+        "macaroni2/Data/Images/Normal/0701.JPG": 0,
+        "macaroni2/Data/Images/Normal/0711.JPG": 0,
+        "macaroni2/Data/Images/Normal/0733.JPG": 1,
+        "macaroni2/Data/Images/Normal/0744.JPG": 1,
+        "macaroni2/Data/Images/Normal/0789.JPG": 1,
+        "macaroni2/Data/Images/Normal/0792.JPG": 1,
+        "macaroni2/Data/Images/Normal/0816.JPG": 0,
+        "macaroni2/Data/Images/Normal/0817.JPG": 0,
+        "macaroni2/Data/Images/Normal/0850.JPG": 0,
+        "macaroni2/Data/Images/Normal/0856.JPG": 0,
+        "macaroni2/Data/Images/Normal/0867.JPG": 1,
+        "macaroni2/Data/Images/Normal/0894.JPG": 1,
+        "macaroni2/Data/Images/Normal/0933.JPG": 2,
+        "macaroni2/Data/Images/Normal/0937.JPG": 0,
+        "macaroni2/Data/Images/Normal/0943.JPG": 0,
+        "macaroni2/Data/Images/Normal/0980.JPG": 0,
+        "macaroni2/Data/Images/Normal/0997.JPG": 0
+      },
+      "grouping_provenance": {
+        "method": "KMeans on L2-normalized frozen normal-training global descriptors",
+        "seed": 8773,
+        "clusters": 3,
+        "n_init": 10,
+        "algorithm": "lloyd",
+        "sklearn_version": "1.8.0",
+        "global_feature_vectors_scanned": 48,
+        "global_feature_dimension": 768,
+        "normalized_features_and_ids_sha256": "568bfa6435816fb64b6e666786238db833904f9b1204b7af6ddb245963a06721",
+        "group_sizes": {
+          "0": 12,
+          "1": 28,
+          "2": 8
+        },
+        "source_eligibility": "caller must enforce verified-normal training membership with the dataset split manifest; recognizable test/label paths rejected",
+        "query_role": "held-out normal training images from the omitted feature group",
+        "query_features_used_for_grouping": true,
+        "query_features_enter_detector_memory": false,
+        "native_test_labels_used": false,
+        "limitation": "Feature clusters are proxy appearance groups; semantic modes and lighting conditions are not annotated or inferred as ground truth.",
+        "matched_coverage_control": {
+          "support_reference_replaced": "macaroni2/Data/Images/Normal/0943.JPG",
+          "covered_group_reference": "macaroni2/Data/Images/Normal/0334.JPG",
+          "changed_support_positions": [
+            0
+          ],
+          "support_count_per_condition": 2,
+          "same_query_ids": true,
+          "same_candidate_pool": true,
+          "pool_excludes_union_of_support_conditions_and_queries": true,
+          "coverage_in_every_nonempty_support_prefix": true,
+          "semantics": "One permitted omitted-group reference replaces an outside-group reference at equal initial support count; proxy coverage control."
+        }
+      },
+      "covered_support_ids": [
+        "macaroni2/Data/Images/Normal/0334.JPG",
+        "macaroni2/Data/Images/Normal/0980.JPG"
+      ]
+    },
+    "used_to_select_model_or_threshold": false,
+    "protocol": "coverage_control",
+    "support_ids": [
+      "macaroni2/Data/Images/Normal/0334.JPG",
+      "macaroni2/Data/Images/Normal/0980.JPG"
+    ],
+    "support_condition": "one equal-budget initial reference covers the omitted proxy group"
+  }
+]

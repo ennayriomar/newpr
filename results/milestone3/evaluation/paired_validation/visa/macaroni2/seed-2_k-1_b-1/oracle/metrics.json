@@ -1,0 +1,493 @@
+{
+  "dataset": "visa",
+  "category": "macaroni2",
+  "seed": 2,
+  "shots": 1,
+  "protocol": "paired_validation",
+  "policy": "oracle",
+  "query_count": 4,
+  "image_metrics": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 1,
+    "tn": 2,
+    "threshold": 0.8836507764233281,
+    "queries": 4,
+    "f1": 0.6666666666666666,
+    "missed_defect_rate": 0.5,
+    "false_alarm_rate": 0.0,
+    "auroc": 1.0,
+    "ap": 1.0,
+    "threshold_origin": "externally selected; never optimized by this metric"
+  },
+  "localization_metrics": {
+    "tp": 1764,
+    "fp": 153631,
+    "fn": 33,
+    "tn": 5844572,
+    "iou": 0.011349306431273645,
+    "pixel_f1": 0.022443890274314215,
+    "pixel_auroc": 0.9958600932457661,
+    "pixel_ap": 0.062398872981000414,
+    "pixel_threshold": 0.6403260112380071,
+    "images": 4,
+    "pixels": 6000000,
+    "overlap_aggregation": "pooled pixel counts; empty union yields null",
+    "threshold_origin": "externally selected; not optimized using evaluation masks",
+    "au_pro_fpr_limit": 0.3,
+    "au_pro_num_regions": 9,
+    "au_pro_connectivity": 8,
+    "au_pro_semantics": "normalized area over pooled normal-pixel FPR; equal weight per connected defect region; sampled thresholds",
+    "au_pro_threshold_sampling": "uniform ranks of distinct native scores, plus +inf/-inf endpoints",
+    "au_pro": 0.9813818276067027,
+    "au_pro_curve": [
+      {
+        "fpr": 0.0,
+        "pro": 0.0,
+        "threshold": null
+      },
+      {
+        "fpr": 1.6671659828785387e-07,
+        "pro": 0.0,
+        "threshold": 1.0987452268600464
+      },
+      {
+        "fpr": 0.0028633575755938902,
+        "pro": 0.6858925094207287,
+        "threshold": 0.7502259016036987
+      },
+      {
+        "fpr": 0.005694705564316513,
+        "pro": 0.7482502852724563,
+        "threshold": 0.7138614058494568
+      },
+      {
+        "fpr": 0.008462701245689751,
+        "pro": 0.8897412236486573,
+        "threshold": 0.6945860385894775
+      },
+      {
+        "fpr": 0.011724011341396749,
+        "pro": 0.9107972022528384,
+        "threshold": 0.6804391145706177
+      },
+      {
+        "fpr": 0.01453518662172654,
+        "pro": 0.9303033886762522,
+        "threshold": 0.6688265800476074
+      },
+      {
+        "fpr": 0.017407546893627977,
+        "pro": 0.9423057482841758,
+        "threshold": 0.6592717170715332
+      },
+      {
+        "fpr": 0.020292577626999285,
+        "pro": 0.9555653609190894,
+        "threshold": 0.651616096496582
+      },
+      {
+        "fpr": 0.023286474299052565,
+        "pro": 0.9577334357449081,
+        "threshold": 0.6450009942054749
+      },
+      {
+        "fpr": 0.026313714290763415,
+        "pro": 0.9611135624519945,
+        "threshold": 0.6389884948730469
+      },
+      {
+        "fpr": 0.02938113298266164,
+        "pro": 0.9629629629629629,
+        "threshold": 0.6335559487342834
+      },
+      {
+        "fpr": 0.032484895892986615,
+        "pro": 0.9672364672364672,
+        "threshold": 0.6285019516944885
+      },
+      {
+        "fpr": 0.035589825819499606,
+        "pro": 0.9715099715099716,
+        "threshold": 0.6238147020339966
+      },
+      {
+        "fpr": 0.03874593774168697,
+        "pro": 0.9715099715099716,
+        "threshold": 0.6193810701370239
+      },
+      {
+        "fpr": 0.04188287725507123,
+        "pro": 0.9743589743589745,
+        "threshold": 0.6152529120445251
+      },
+      {
+        "fpr": 0.04499397569572087,
+        "pro": 0.9743589743589745,
+        "threshold": 0.6115482449531555
+      },
+      {
+        "fpr": 0.04813741715643835,
+        "pro": 0.9786324786324785,
+        "threshold": 0.6082108020782471
+      },
+      {
+        "fpr": 0.05134204360872748,
+        "pro": 0.9786324786324785,
+        "threshold": 0.6050165891647339
+      },
+      {
+        "fpr": 0.05466153779723694,
+        "pro": 0.9800569800569802,
+        "threshold": 0.6019951105117798
+      },
+      {
+        "fpr": 0.05808723045885576,
+        "pro": 0.982905982905983,
+        "threshold": 0.599136471748352
+      },
+      {
+        "fpr": 0.06154943405549962,
+        "pro": 0.982905982905983,
+        "threshold": 0.5964162349700928
+      },
+      {
+        "fpr": 0.06505081605274113,
+        "pro": 0.9857549857549858,
+        "threshold": 0.5938383340835571
+      },
+      {
+        "fpr": 0.06853686012294015,
+        "pro": 0.9886039886039887,
+        "threshold": 0.59129399061203
+      },
+      {
+        "fpr": 0.07201140074785732,
+        "pro": 0.9886039886039887,
+        "threshold": 0.588870644569397
+      },
+      {
+        "fpr": 0.07554445889877352,
+        "pro": 0.9886039886039887,
+        "threshold": 0.5865384340286255
+      },
+      {
+        "fpr": 0.07911719560008222,
+        "pro": 0.9914529914529915,
+        "threshold": 0.5843316912651062
+      },
+      {
+        "fpr": 0.08270910471019403,
+        "pro": 0.9928774928774929,
+        "threshold": 0.5822176337242126
+      },
+      {
+        "fpr": 0.08633419042336513,
+        "pro": 0.9928774928774929,
+        "threshold": 0.5801698565483093
+      },
+      {
+        "fpr": 0.08997678137935645,
+        "pro": 0.9928774928774929,
+        "threshold": 0.5781962871551514
+      },
+      {
+        "fpr": 0.09367622269536392,
+        "pro": 0.9943019943019943,
+        "threshold": 0.5762842297554016
+      },
+      {
+        "fpr": 0.0974128418127896,
+        "pro": 0.9971509971509972,
+        "threshold": 0.5744344592094421
+      },
+      {
+        "fpr": 0.10133768396968225,
+        "pro": 0.9985754985754985,
+        "threshold": 0.5726330876350403
+      },
+      {
+        "fpr": 0.1053270454501123,
+        "pro": 0.9985754985754985,
+        "threshold": 0.5708807110786438
+      },
+      {
+        "fpr": 0.10921454308898848,
+        "pro": 0.9985754985754985,
+        "threshold": 0.5691307783126831
+      },
+      {
+        "fpr": 0.11303218647318206,
+        "pro": 0.9985754985754985,
+        "threshold": 0.5674205422401428
+      },
+      {
+        "fpr": 0.11689384303932361,
+        "pro": 1.0,
+        "threshold": 0.5657141804695129
+      },
+      {
+        "fpr": 0.12077217126529395,
+        "pro": 1.0,
+        "threshold": 0.5640537142753601
+      },
+      {
+        "fpr": 0.12468517654370817,
+        "pro": 1.0,
+        "threshold": 0.5624175667762756
+      },
+      {
+        "fpr": 0.1286818735544629,
+        "pro": 1.0,
+        "threshold": 0.5608295202255249
+      },
+      {
+        "fpr": 0.13268723982832858,
+        "pro": 1.0,
+        "threshold": 0.5592419505119324
+      },
+      {
+        "fpr": 0.13668593743826277,
+        "pro": 1.0,
+        "threshold": 0.557694137096405
+      },
+      {
+        "fpr": 0.1407304821127261,
+        "pro": 1.0,
+        "threshold": 0.5561426877975464
+      },
+      {
+        "fpr": 0.14477769425276205,
+        "pro": 1.0,
+        "threshold": 0.5546156167984009
+      },
+      {
+        "fpr": 0.14889326019809598,
+        "pro": 1.0,
+        "threshold": 0.553107738494873
+      },
+      {
+        "fpr": 0.15306934426860844,
+        "pro": 1.0,
+        "threshold": 0.5516216158866882
+      },
+      {
+        "fpr": 0.15725293058604387,
+        "pro": 1.0,
+        "threshold": 0.5501399636268616
+      },
+      {
+        "fpr": 0.16145452229609436,
+        "pro": 1.0,
+        "threshold": 0.5486786365509033
+      },
+      {
+        "fpr": 0.16567395268216165,
+        "pro": 1.0,
+        "threshold": 0.547250509262085
+      },
+      {
+        "fpr": 0.16993139445263858,
+        "pro": 1.0,
+        "threshold": 0.5458256006240845
+      },
+      {
+        "fpr": 0.17421451057925183,
+        "pro": 1.0,
+        "threshold": 0.5444197654724121
+      },
+      {
+        "fpr": 0.17875453698382665,
+        "pro": 1.0,
+        "threshold": 0.5430238246917725
+      },
+      {
+        "fpr": 0.18314868636489962,
+        "pro": 1.0,
+        "threshold": 0.5416502356529236
+      },
+      {
+        "fpr": 0.18754800396051952,
+        "pro": 1.0,
+        "threshold": 0.5403047800064087
+      },
+      {
+        "fpr": 0.19208953081447894,
+        "pro": 1.0,
+        "threshold": 0.5389899015426636
+      },
+      {
+        "fpr": 0.19665839919055758,
+        "pro": 1.0,
+        "threshold": 0.5377010107040405
+      },
+      {
+        "fpr": 0.20122510025085846,
+        "pro": 1.0,
+        "threshold": 0.5364056825637817
+      },
+      {
+        "fpr": 0.20591533831049066,
+        "pro": 1.0,
+        "threshold": 0.5351202487945557
+      },
+      {
+        "fpr": 0.2105992411393879,
+        "pro": 1.0,
+        "threshold": 0.5338402390480042
+      },
+      {
+        "fpr": 0.21526530529226837,
+        "pro": 1.0,
+        "threshold": 0.5325806140899658
+      },
+      {
+        "fpr": 0.2199427061738324,
+        "pro": 1.0,
+        "threshold": 0.5313078761100769
+      },
+      {
+        "fpr": 0.22468079189717322,
+        "pro": 1.0,
+        "threshold": 0.5300329327583313
+      },
+      {
+        "fpr": 0.22939503714695886,
+        "pro": 1.0,
+        "threshold": 0.5287689566612244
+      },
+      {
+        "fpr": 0.23410694836436846,
+        "pro": 1.0,
+        "threshold": 0.5275049209594727
+      },
+      {
+        "fpr": 0.2388126910676414,
+        "pro": 1.0,
+        "threshold": 0.5262408256530762
+      },
+      {
+        "fpr": 0.24351259868997432,
+        "pro": 1.0,
+        "threshold": 0.5249778032302856
+      },
+      {
+        "fpr": 0.24827769250223775,
+        "pro": 1.0,
+        "threshold": 0.523730456829071
+      },
+      {
+        "fpr": 0.2531019707068934,
+        "pro": 1.0,
+        "threshold": 0.5224881768226624
+      },
+      {
+        "fpr": 0.25785722823985785,
+        "pro": 1.0,
+        "threshold": 0.5212520360946655
+      },
+      {
+        "fpr": 0.2626726704648042,
+        "pro": 1.0,
+        "threshold": 0.5200139880180359
+      },
+      {
+        "fpr": 0.2674671063983663,
+        "pro": 1.0,
+        "threshold": 0.5187840461730957
+      },
+      {
+        "fpr": 0.2723452340642689,
+        "pro": 1.0,
+        "threshold": 0.5175667405128479
+      },
+      {
+        "fpr": 0.27728971493629007,
+        "pro": 1.0,
+        "threshold": 0.5163537859916687
+      },
+      {
+        "fpr": 0.28219201650894443,
+        "pro": 1.0,
+        "threshold": 0.5151413083076477
+      },
+      {
+        "fpr": 0.2870968188305731,
+        "pro": 1.0,
+        "threshold": 0.5139284729957581
+      },
+      {
+        "fpr": 0.2919776139620483,
+        "pro": 1.0,
+        "threshold": 0.5127105116844177
+      },
+      {
+        "fpr": 0.2968904186803948,
+        "pro": 1.0,
+        "threshold": 0.5114862322807312
+      },
+      {
+        "fpr": 0.3,
+        "pro": 1.0,
+        "threshold": null
+      }
+    ],
+    "au_pro_threshold_count": 258,
+    "au_pro_score_representation": "input score-map dtype; no quantization performed"
+  },
+  "risk_coverage": {
+    "aurc": 0.2708333333333333,
+    "error_detection_auroc": 0.33333333333333337,
+    "curve": [
+      {
+        "coverage": 0.0,
+        "accepted": 0,
+        "errors": 0,
+        "risk": null,
+        "confidence_threshold": null
+      },
+      {
+        "coverage": 0.25,
+        "accepted": 1,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.5735629200935364
+      },
+      {
+        "coverage": 0.5,
+        "accepted": 2,
+        "errors": 1,
+        "risk": 0.5,
+        "confidence_threshold": 0.5536754131317139
+      },
+      {
+        "coverage": 0.75,
+        "accepted": 3,
+        "errors": 1,
+        "risk": 0.3333333333333333,
+        "confidence_threshold": 0.5387886762619019
+      },
+      {
+        "coverage": 1.0,
+        "accepted": 4,
+        "errors": 1,
+        "risk": 0.25,
+        "confidence_threshold": 0.5192114114761353
+      }
+    ],
+    "queries": 4,
+    "risk_definition": "mean 0/1 classification error at the caller-locked detector threshold",
+    "confidence_semantics": "ranking input; not assumed to be a calibrated probability",
+    "tie_handling": "accept all equal-confidence queries together",
+    "integration": "right-step risk times each whole-group coverage increment"
+  },
+  "mean_observed_benefit": 0.052621758077293634,
+  "harmful_interventions": 0,
+  "detected_to_missed": 1,
+  "added_reference_events": 4,
+  "coverage": 1.0,
+  "candidate_pool_size": 8,
+  "acquisition_budget": 1,
+  "oracle_is_deployable": false,
+  "probability_calibration_evaluated": false
+}

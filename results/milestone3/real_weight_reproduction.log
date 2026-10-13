@@ -1,0 +1,8 @@
+/workspace/.cache/dinov2-source/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/workspace/.cache/dinov2-source/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/workspace/.cache/dinov2-source/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+{"dataset": "mvtec_ad", "image_id": "cable/test/bent_wire/000.png", "seed": 0, "shots": 1, "backbone_cache_bypassed": true, "float32_features_bitwise_equal": true, "pre_post_float16_maps_bitwise_equal": true, "image_scores_exact_equal": true, "selected_reference_and_benefit_exact_equal": true, "adequacy_map_bitwise_equal": true, "retained_detected_to_missed_case": false}
+{"dataset": "visa", "image_id": "macaroni2/Data/Images/Anomaly/000.JPG", "seed": 0, "shots": 2, "backbone_cache_bypassed": true, "float32_features_bitwise_equal": true, "pre_post_float16_maps_bitwise_equal": true, "image_scores_exact_equal": true, "selected_reference_and_benefit_exact_equal": true, "adequacy_map_bitwise_equal": true, "retained_detected_to_missed_case": true}

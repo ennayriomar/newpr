@@ -1,0 +1,184 @@
+{
+  "dataset": "mvtec_ad",
+  "category": "cable",
+  "seed": 0,
+  "candidate_ids": [
+    "cable/train/good/104.png",
+    "cable/train/good/195.png",
+    "cable/train/good/220.png",
+    "cable/train/good/088.png",
+    "cable/train/good/108.png",
+    "cable/train/good/130.png",
+    "cable/train/good/089.png",
+    "cable/train/good/122.png"
+  ],
+  "query_ids": [
+    "cable/train/good/113.png",
+    "cable/train/good/061.png"
+  ],
+  "query_role": "held-back normal training images",
+  "grouping": {
+    "initial_support_ids": [
+      "cable/train/good/036.png",
+      "cable/train/good/201.png"
+    ],
+    "candidate_ids": [
+      "cable/train/good/104.png",
+      "cable/train/good/195.png",
+      "cable/train/good/220.png",
+      "cable/train/good/088.png",
+      "cable/train/good/108.png",
+      "cable/train/good/130.png",
+      "cable/train/good/089.png",
+      "cable/train/good/122.png"
+    ],
+    "query_ids": [
+      "cable/train/good/113.png",
+      "cable/train/good/061.png"
+    ],
+    "omitted_group": 0,
+    "cluster_assignments": {
+      "cable/train/good/004.png": 2,
+      "cable/train/good/007.png": 2,
+      "cable/train/good/013.png": 1,
+      "cable/train/good/026.png": 0,
+      "cable/train/good/029.png": 0,
+      "cable/train/good/035.png": 2,
+      "cable/train/good/036.png": 1,
+      "cable/train/good/053.png": 2,
+      "cable/train/good/061.png": 0,
+      "cable/train/good/065.png": 2,
+      "cable/train/good/070.png": 0,
+      "cable/train/good/072.png": 2,
+      "cable/train/good/084.png": 0,
+      "cable/train/good/087.png": 1,
+      "cable/train/good/088.png": 1,
+      "cable/train/good/089.png": 2,
+      "cable/train/good/098.png": 1,
+      "cable/train/good/104.png": 0,
+      "cable/train/good/107.png": 2,
+      "cable/train/good/108.png": 0,
+      "cable/train/good/110.png": 1,
+      "cable/train/good/111.png": 0,
+      "cable/train/good/113.png": 0,
+      "cable/train/good/118.png": 2,
+      "cable/train/good/122.png": 2,
+      "cable/train/good/124.png": 2,
+      "cable/train/good/126.png": 2,
+      "cable/train/good/130.png": 0,
+      "cable/train/good/132.png": 2,
+      "cable/train/good/139.png": 0,
+      "cable/train/good/146.png": 2,
+      "cable/train/good/153.png": 0,
+      "cable/train/good/155.png": 2,
+      "cable/train/good/157.png": 0,
+      "cable/train/good/160.png": 1,
+      "cable/train/good/168.png": 2,
+      "cable/train/good/169.png": 1,
+      "cable/train/good/170.png": 0,
+      "cable/train/good/182.png": 0,
+      "cable/train/good/185.png": 2,
+      "cable/train/good/189.png": 2,
+      "cable/train/good/192.png": 2,
+      "cable/train/good/195.png": 2,
+      "cable/train/good/201.png": 1,
+      "cable/train/good/209.png": 0,
+      "cable/train/good/210.png": 0,
+      "cable/train/good/218.png": 1,
+      "cable/train/good/220.png": 1
+    },
+    "grouping_provenance": {
+      "method": "KMeans on L2-normalized frozen normal-training global descriptors",
+      "seed": 8771,
+      "clusters": 3,
+      "n_init": 10,
+      "algorithm": "lloyd",
+      "sklearn_version": "1.8.0",
+      "global_feature_vectors_scanned": 48,
+      "global_feature_dimension": 768,
+      "normalized_features_and_ids_sha256": "745004c62de605c97ab79968afcdebef244015d52153cd565a0314b7bd87808d",
+      "group_sizes": {
+        "0": 17,
+        "1": 11,
+        "2": 20
+      },
+      "source_eligibility": "caller must enforce verified-normal training membership with the dataset split manifest; recognizable test/label paths rejected",
+      "query_role": "held-out normal training images from the omitted feature group",
+      "query_features_used_for_grouping": true,
+      "query_features_enter_detector_memory": false,
+      "native_test_labels_used": false,
+      "limitation": "Feature clusters are proxy appearance groups; semantic modes and lighting conditions are not annotated or inferred as ground truth.",
+      "matched_coverage_control": {
+        "support_reference_replaced": "cable/train/good/036.png",
+        "covered_group_reference": "cable/train/good/111.png",
+        "changed_support_positions": [
+          0
+        ],
+        "support_count_per_condition": 2,
+        "same_query_ids": true,
+        "same_candidate_pool": true,
+        "pool_excludes_union_of_support_conditions_and_queries": true,
+        "coverage_in_every_nonempty_support_prefix": true,
+        "semantics": "One permitted omitted-group reference replaces an outside-group reference at equal initial support count; proxy coverage control."
+      }
+    },
+    "covered_support_ids": [
+      "cable/train/good/111.png",
+      "cable/train/good/201.png"
+    ]
+  },
+  "used_to_select_model_or_threshold": false,
+  "protocol": "missing_support",
+  "support_ids": [
+    "cable/train/good/036.png",
+    "cable/train/good/201.png"
+  ],
+  "shots": 1,
+  "initial_support_ids": [
+    "cable/train/good/036.png"
+  ],
+  "candidate_pool_size": 8,
+  "acquisition_budget": 1,
+  "budget_unit": "per query inspection, reset initial support for each query",
+  "information": "same verified-normal pool for all policies; learned/oracle probe every candidate patch memory",
+  "model": "mlp",
+  "cutoffs": {
+    "image_threshold": 0.9461691107109604,
+    "pixel_threshold": 0.6694432911211494,
+    "dataset": "mvtec_ad",
+    "seed": 0,
+    "shots": 1,
+    "category": "capsule",
+    "support_ids": [
+      "capsule/train/good/119.png"
+    ],
+    "calibration_query_ids": [
+      "capsule/train/good/218.png",
+      "capsule/train/good/002.png",
+      "capsule/train/good/122.png",
+      "capsule/train/good/009.png"
+    ],
+    "native_split": "train",
+    "experiment_role": "calibration_normal",
+    "procedure": "held-out normal calibration mean+3std; fixed for pre/post interventions",
+    "no_test_defect_labels_used": true,
+    "is_probability_calibration": false,
+    "extra_normal_calibration_images": 4,
+    "transfer_scope": "dataset-level category-disjoint calibration; no false-alarm guarantee"
+  },
+  "adequacy": {
+    "kind": "sigmoid",
+    "bias": 1.5,
+    "nearest_distance": -2.0,
+    "mean_five_nearest": -1.0,
+    "distinct_reference_count": 0.5,
+    "dispersion_trace": 0.0,
+    "loo_sensitivity": -2.0,
+    "global_local_disagreement": -0.25,
+    "loo_missing_bias": 0.0,
+    "adequacy_threshold": 0.5,
+    "semantics": "predeclared empirical diagnostic; no support-adequacy ground truth or probability fit"
+  },
+  "defect_evidence": "raw NN before/after, never multiplied by diagnostics",
+  "native_test_labels_for_model_selection": false
+}

@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "run": "/tmp/safe_iad_milestone3",
+  "records": 576,
+  "reference_additions": 480,
+  "oracle_label_access_records": 96,
+  "unresolved_records_retaining_positive_raw_evidence": 40,
+  "paired_query_cases": 96,
+  "offline_candidate_records": 768,
+  "output_hash_checks": 3787,
+  "input_hash_checks": 7467,
+  "implementation_hash_checks": 862,
+  "completed_stage_ledgers_checked": 39,
+  "unique_output_files_hash_verified": 1903,
+  "unique_input_files_hash_verified": 547,
+  "native_map_exports_read": 672,
+  "diagnostic_exports_read": 672,
+  "source_training_rows": 1536,
+  "source_original_image_groups": 48,
+  "source_negative_image_groups": 6,
+  "validation_source_target_rows": 384,
+  "unique_query_images": 20,
+  "unique_queries_by_protocol": {
+    "coverage_control": 12,
+    "missing_support": 12,
+    "paired_validation": 8
+  },
+  "prediction_records_by_protocol": {
+    "paired_validation": 288,
+    "missing_support": 144,
+    "coverage_control": 144
+  },
+  "protocols": [
+    "coverage_control",
+    "missing_support",
+    "paired_validation"
+  ],
+  "support_budgets_verified": true,
+  "six_policy_pairing_verified": true,
+  "source_only_model_selection_verified": true,
+  "normal_only_category_disjoint_cutoffs_verified": true,
+  "oracle_label_isolation_verified": true,
+  "native_fields_float16_finite_verified": true,
+  "loo_missingness_verified": true,
+  "raw_defect_maps_and_evidence_flags_preserved": true,
+  "no_private_results_or_final_category_evaluation": true,
+  "scope": "Completed artifact/provenance/contract audit; no backbone re-extraction, float32 metric rerun, calibrated-probability or reliability guarantee."
+}

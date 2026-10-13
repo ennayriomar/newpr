@@ -1,0 +1,106 @@
+schema_version: 1
+scope: full_reserved_roles_native_public_benchmarks_common_backbone_variants
+output: /workspace/reports/hybrid_pipeline_full_strict
+feature_cache: /workspace/feature_cache/dense_dinov2_vitb14
+resolution: 224
+layers:
+- 2
+- 5
+- 8
+- 11
+shots:
+- 1
+- 2
+- 4
+seeds:
+- 0
+- 1
+- 2
+query_seed: 20261012
+calibration_seed: 8841
+queries_per_label: null
+calibration_mode: normal_training_and_reserved_ad2_validation_only
+calibration_normal_queries: 32
+ad2_calibration_normals: null
+verification_workers: 4
+pixel_metric_representation: native_float16_histogram
+map_storage_dtype: float16
+max_metric_pixels_per_episode: 25000000
+adequacy_threshold: 0.5
+role_config: /workspace/tools/configs/milestone2.json
+role_manifest: /workspace/reports/milestone2/split_manifest.jsonl
+roots:
+  mvtec_ad: /workspace/datasets/mvtec_ad
+  visa: /workspace/datasets/visa
+  mvtec_ad2: /workspace/datasets/mvtec_ad2_public/mvtec_ad_2
+calibration_categories:
+  mvtec_ad: capsule
+  visa: fryum
+  mvtec_ad2: can
+models:
+  subspace_explained_variance: 0.99
+  hybrid:
+    explained_variance: 0.99
+    density_neighbors: 8
+    density_quantile: 0.95
+benchmarks:
+- dataset: mvtec_ad
+  category: cable
+  role: validation
+- dataset: mvtec_ad
+  category: hazelnut
+  role: validation
+- dataset: mvtec_ad
+  category: transistor
+  role: validation
+- dataset: mvtec_ad
+  category: bottle
+  role: final_test
+- dataset: mvtec_ad
+  category: metal_nut
+  role: final_test
+- dataset: mvtec_ad
+  category: pill
+  role: final_test
+- dataset: mvtec_ad
+  category: zipper
+  role: final_test
+- dataset: visa
+  category: macaroni2
+  role: validation
+- dataset: visa
+  category: pcb2
+  role: validation
+- dataset: visa
+  category: capsules
+  role: final_test
+- dataset: visa
+  category: pcb4
+  role: final_test
+- dataset: visa
+  category: pipe_fryum
+  role: final_test
+- dataset: mvtec_ad2
+  category: can
+  role: stress_final_public
+- dataset: mvtec_ad2
+  category: fabric
+  role: stress_final_public
+- dataset: mvtec_ad2
+  category: fruit_jelly
+  role: stress_final_public
+- dataset: mvtec_ad2
+  category: rice
+  role: stress_final_public
+- dataset: mvtec_ad2
+  category: sheet_metal
+  role: stress_final_public
+- dataset: mvtec_ad2
+  category: vial
+  role: stress_final_public
+- dataset: mvtec_ad2
+  category: wallplugs
+  role: stress_final_public
+- dataset: mvtec_ad2
+  category: walnuts
+  role: stress_final_public

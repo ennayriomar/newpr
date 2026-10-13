@@ -1,0 +1,32 @@
+{
+  "files": {
+    "training.jsonl": "b3cde35d20433c8ecf76f44858346a6e1c39cbbed9891be2d84cd53fe49af416",
+    "validation.jsonl": "caed6a63a56b90cdc7ea8777d547dad61c87aa24c436779dbb338b3562173957",
+    "split_manifest.json": "b7f0c579e587bedba52d2a06edb02a4c59edb25c1b45dab9c9ef11ba4551797a",
+    "synthetic_checks.json": "59674584eeec40453e6a5a6ba5657ee5097e085ef092b184d9fd553cef55331b",
+    "summary.json": "9cc2bef0f2ddc944e0fd9c9e7fec38434981d710195d900517e7050c657190c1",
+    "config.json": "6f50c23a6d3a1f02dd5e3418d60e447bc007d13c056d61c9d394ef95444d3626"
+  },
+  "implementation_sha256": {
+    "__init__.py": "538fbf1d50263dac9ca244445d95a3ce138a490db4fcbad743ecd06e617e3392",
+    "acquisition.py": "8ff6269437f239d0ad1e5a8f24e082720c6e52f7f8cc00fc6315c2c74c0efcee",
+    "baselines.py": "2961dda3f3371376700b502e2cc7e41a2f3da886c20b5c66b865a47ba8865f4c",
+    "benefit_model.py": "8ae0f476cc7316d16455616b0d1d671d5fae38b5728aca9441dffd0d2e59abb2",
+    "build_benefit_targets.py": "e30c101809d99d2767c4dd5598497830ad5757fefa9e36e9b1b68bb08f872101",
+    "build_training_targets.py": "387cf3b3f2f294438968f2077f213a21c4a999737da092bb520c43950f844ced",
+    "counterfactual.py": "487b5212b290aae1202e67cb541b55b7641c51ec9637d285080567d5f8028fbb",
+    "dense_features.py": "99bc009a213ae3f733026c7318b695a3bc65d2632dac0a80ac363cf9c19626c2",
+    "experiment_io.py": "940a2fc2826a05373fc04d040ae94b44e095222a8ca19f598546501779a12cd3",
+    "hybrid.py": "f98eaf168be330e479e61f378f269f27b2d2684792e3ec7266f5e812a159423a",
+    "missing_support.py": "ab5da58bc42e28201962054437995acdb3ef58d0e2c1bfa8875ed84998252383",
+    "official_ad2.py": "34f294a3fb09e784c9355730b63eb7afb9b786cecfb7f8434da11d73491a7652",
+    "patch_nn.py": "14446389f0979ea39e93337e66302c385fb7391a1ae9e0caac2a677744b69d55",
+    "pipeline_metrics.py": "e0e9a369e8cc70db70be684f4786a3fcd4c98c159ca16a60e70fab026f4732de",
+    "research_metrics.py": "e8c2a0319b005aa61c831ba044e9757231e46179b482cb68380d859ca14f6314",
+    "run_acquisition_pilot.py": "4ba31cffe9d0e83840e0868a99c29e09a2cea88153dadfcc48e7376e039e63ad",
+    "run_baseline_pilot.py": "7e000c5588a426dc54d05eba37744adf63491ed60ce8bdfb7bd295edca5452db",
+    "run_pipeline.py": "cc1db0b628694dbd8606b009ef9ba805bc679abc90fae7650e41709c20e1dc31",
+    "splits.py": "73462ebd3b1b2b391730d2beff9c0a076f562c298ffa7a33f37f73abb9d5e3a3",
+    "verify_dataset.py": "ab20c9dc946ff1185ab42c329cf75455face25243204dd2e2e67ed3a177663e2"
+  }
+}

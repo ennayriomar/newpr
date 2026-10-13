@@ -1,0 +1,122 @@
+{
+  "request_file": "Pasted text.txt",
+  "existing_tests_executed": 44,
+  "existing_tests_passed": 44,
+  "components": [
+    {
+      "component": "Dataset loaders/physical verification",
+      "file": "safe_iad/verify_dataset.py",
+      "status": "implemented",
+      "integrated": "yes",
+      "synthetic_tested": "yes",
+      "real_data_tested": "historical all 20089 real images",
+      "required_action": "Use verified roots; record new pilot inputs and byte hashes"
+    },
+    {
+      "component": "Real frozen backbone/cache",
+      "file": "safe_iad/patch_nn.py",
+      "status": "implemented",
+      "integrated": "yes",
+      "synthetic_tested": "yes",
+      "real_data_tested": "actual pretrained ViT-B/14 verified",
+      "required_action": "Preserve M2 final-layer square224 contract; verify provenance on loading"
+    },
+    {
+      "component": "Strict fixed-shot baselines",
+      "file": "safe_iad/run_pipeline.py; baselines.py",
+      "status": "implemented scoring cores",
+      "integrated": "yes",
+      "synthetic_tested": "yes",
+      "real_data_tested": "five-category strict pilot",
+      "required_action": "Preserve adapters and fidelity limits; full benchmark remains unrun"
+    },
+    {
+      "component": "Counterfactual training",
+      "file": "safe_iad/build_training_targets.py",
+      "status": "implemented",
+      "integrated": "yes",
+      "synthetic_tested": "yes",
+      "real_data_tested": "384 source-only rows",
+      "required_action": "Broaden categories/support sizes; harmful supervision has one independent group"
+    },
+    {
+      "component": "Reference policies/budgets",
+      "file": "safe_iad/acquisition.py",
+      "status": "implemented b0/1",
+      "integrated": "yes",
+      "synthetic_tested": "yes",
+      "real_data_tested": "M2 paired real pilot",
+      "required_action": "Add label-free learned policy; charge all candidate patch probes"
+    },
+    {
+      "component": "Benefit prediction",
+      "file": "safe_iad/counterfactual.py feature summaries",
+      "status": "disconnected inputs; no learner",
+      "integrated": "no",
+      "synthetic_tested": "no",
+      "real_data_tested": "not evaluated",
+      "required_action": "Fit small signed-benefit model with grouped source selection"
+    },
+    {
+      "component": "Support adequacy/decision",
+      "file": "safe_iad/hybrid.py",
+      "status": "implemented heuristic; separate from acquisition",
+      "integrated": "partial",
+      "synthetic_tested": "yes",
+      "real_data_tested": "negative reliability pilot",
+      "required_action": "Do not equate adequacy or utility with correctness; preserve raw evidence"
+    },
+    {
+      "component": "Defect preservation",
+      "file": "safe_iad/run_acquisition_pilot.py",
+      "status": "score-drop diagnostic only",
+      "integrated": "partial",
+      "synthetic_tested": "yes",
+      "real_data_tested": "real score drops recorded",
+      "required_action": "Add locked-cutoff missed defects/false alarms/IoU and harmful intervention checks"
+    },
+    {
+      "component": "Calibration/reliability/statistics",
+      "file": "safe_iad/pipeline_metrics.py",
+      "status": "cutoffs and ranking metrics; several requested metrics missing",
+      "integrated": "partial",
+      "synthetic_tested": "yes",
+      "real_data_tested": "strict pilot cutoffs",
+      "required_action": "Add bounded AU-PRO/risk coverage and paired dependent statistics; probability calibration stays separate"
+    },
+    {
+      "component": "Missing-support stress",
+      "file": "no integrated command",
+      "status": "absent",
+      "integrated": "no",
+      "synthetic_tested": "no",
+      "real_data_tested": "not evaluated",
+      "required_action": "Build proxy normal-feature groups from allowed training normals only"
+    },
+    {
+      "component": "Official AD2 export",
+      "file": "safe_iad/official_ad2.py",
+      "status": "implemented public preview/checks",
+      "integrated": "yes",
+      "synthetic_tested": "yes",
+      "real_data_tested": "36 public TIFF/PNG pairs",
+      "required_action": "No private results; lighting/full stress deferred until feasibility gate"
+    },
+    {
+      "component": "Test execution",
+      "file": "tests/",
+      "status": "44 existing tests passed freshly",
+      "integrated": "yes",
+      "synthetic_tested": "synthetic/contract",
+      "real_data_tested": "historical real pilots separate",
+      "required_action": "Add focused leakage/grouping/metrics/learner tests; never call synthetic tests real-data evidence"
+    }
+  ],
+  "constraints": {
+    "workspace_free_bytes": 677220352,
+    "pilot_output": "/tmp/safe_iad_milestone3",
+    "tmp_capacity_gb": 17,
+    "device": "cpu"
+  },
+  "prior_results_not_new_runs": true
+}

@@ -1,0 +1,296 @@
+{
+  "mvtec_ad:0:1": {
+    "image_threshold": 0.9461691107109604,
+    "pixel_threshold": 0.6694432911211494,
+    "dataset": "mvtec_ad",
+    "seed": 0,
+    "shots": 1,
+    "category": "capsule",
+    "support_ids": [
+      "capsule/train/good/119.png"
+    ],
+    "calibration_query_ids": [
+      "capsule/train/good/218.png",
+      "capsule/train/good/002.png",
+      "capsule/train/good/122.png",
+      "capsule/train/good/009.png"
+    ],
+    "native_split": "train",
+    "experiment_role": "calibration_normal",
+    "procedure": "held-out normal calibration mean+3std; fixed for pre/post interventions",
+    "no_test_defect_labels_used": true,
+    "is_probability_calibration": false,
+    "extra_normal_calibration_images": 4,
+    "transfer_scope": "dataset-level category-disjoint calibration; no false-alarm guarantee"
+  },
+  "mvtec_ad:0:2": {
+    "image_threshold": 0.8347787379943589,
+    "pixel_threshold": 0.5664703525352779,
+    "dataset": "mvtec_ad",
+    "seed": 0,
+    "shots": 2,
+    "category": "capsule",
+    "support_ids": [
+      "capsule/train/good/119.png",
+      "capsule/train/good/055.png"
+    ],
+    "calibration_query_ids": [
+      "capsule/train/good/218.png",
+      "capsule/train/good/002.png",
+      "capsule/train/good/122.png",
+      "capsule/train/good/009.png"
+    ],
+    "native_split": "train",
+    "experiment_role": "calibration_normal",
+    "procedure": "held-out normal calibration mean+3std; fixed for pre/post interventions",
+    "no_test_defect_labels_used": true,
+    "is_probability_calibration": false,
+    "extra_normal_calibration_images": 4,
+    "transfer_scope": "dataset-level category-disjoint calibration; no false-alarm guarantee"
+  },
+  "mvtec_ad:1:1": {
+    "image_threshold": 1.1470623830029965,
+    "pixel_threshold": 0.699210150896437,
+    "dataset": "mvtec_ad",
+    "seed": 1,
+    "shots": 1,
+    "category": "capsule",
+    "support_ids": [
+      "capsule/train/good/200.png"
+    ],
+    "calibration_query_ids": [
+      "capsule/train/good/151.png",
+      "capsule/train/good/035.png",
+      "capsule/train/good/085.png",
+      "capsule/train/good/068.png"
+    ],
+    "native_split": "train",
+    "experiment_role": "calibration_normal",
+    "procedure": "held-out normal calibration mean+3std; fixed for pre/post interventions",
+    "no_test_defect_labels_used": true,
+    "is_probability_calibration": false,
+    "extra_normal_calibration_images": 4,
+    "transfer_scope": "dataset-level category-disjoint calibration; no false-alarm guarantee"
+  },
+  "mvtec_ad:1:2": {
+    "image_threshold": 0.8516449183532622,
+    "pixel_threshold": 0.6181466903586057,
+    "dataset": "mvtec_ad",
+    "seed": 1,
+    "shots": 2,
+    "category": "capsule",
+    "support_ids": [
+      "capsule/train/good/200.png",
+      "capsule/train/good/171.png"
+    ],
+    "calibration_query_ids": [
+      "capsule/train/good/151.png",
+      "capsule/train/good/035.png",
+      "capsule/train/good/085.png",
+      "capsule/train/good/068.png"
+    ],
+    "native_split": "train",
+    "experiment_role": "calibration_normal",
+    "procedure": "held-out normal calibration mean+3std; fixed for pre/post interventions",
+    "no_test_defect_labels_used": true,
+    "is_probability_calibration": false,
+    "extra_normal_calibration_images": 4,
+    "transfer_scope": "dataset-level category-disjoint calibration; no false-alarm guarantee"
+  },
+  "mvtec_ad:2:1": {
+    "image_threshold": 1.0282728857976546,
+    "pixel_threshold": 0.7120155116578732,
+    "dataset": "mvtec_ad",
+    "seed": 2,
+    "shots": 1,
+    "category": "capsule",
+    "support_ids": [
+      "capsule/train/good/106.png"
+    ],
+    "calibration_query_ids": [
+      "capsule/train/good/156.png",
+      "capsule/train/good/134.png",
+      "capsule/train/good/080.png",
+      "capsule/train/good/149.png"
+    ],
+    "native_split": "train",
+    "experiment_role": "calibration_normal",
+    "procedure": "held-out normal calibration mean+3std; fixed for pre/post interventions",
+    "no_test_defect_labels_used": true,
+    "is_probability_calibration": false,
+    "extra_normal_calibration_images": 4,
+    "transfer_scope": "dataset-level category-disjoint calibration; no false-alarm guarantee"
+  },
+  "mvtec_ad:2:2": {
+    "image_threshold": 1.0106819240022362,
+    "pixel_threshold": 0.6545637729199782,
+    "dataset": "mvtec_ad",
+    "seed": 2,
+    "shots": 2,
+    "category": "capsule",
+    "support_ids": [
+      "capsule/train/good/106.png",
+      "capsule/train/good/019.png"
+    ],
+    "calibration_query_ids": [
+      "capsule/train/good/156.png",
+      "capsule/train/good/134.png",
+      "capsule/train/good/080.png",
+      "capsule/train/good/149.png"
+    ],
+    "native_split": "train",
+    "experiment_role": "calibration_normal",
+    "procedure": "held-out normal calibration mean+3std; fixed for pre/post interventions",
+    "no_test_defect_labels_used": true,
+    "is_probability_calibration": false,
+    "extra_normal_calibration_images": 4,
+    "transfer_scope": "dataset-level category-disjoint calibration; no false-alarm guarantee"
+  },
+  "visa:0:1": {
+    "image_threshold": 1.223365276315679,
+    "pixel_threshold": 0.7286454227690313,
+    "dataset": "visa",
+    "seed": 0,
+    "shots": 1,
+    "category": "fryum",
+    "support_ids": [
+      "fryum/Data/Images/Normal/119.JPG"
+    ],
+    "calibration_query_ids": [
+      "fryum/Data/Images/Normal/490.JPG",
+      "fryum/Data/Images/Normal/386.JPG",
+      "fryum/Data/Images/Normal/078.JPG",
+      "fryum/Data/Images/Normal/376.JPG"
+    ],
+    "native_split": "train",
+    "experiment_role": "calibration_normal",
+    "procedure": "held-out normal calibration mean+3std; fixed for pre/post interventions",
+    "no_test_defect_labels_used": true,
+    "is_probability_calibration": false,
+    "extra_normal_calibration_images": 4,
+    "transfer_scope": "dataset-level category-disjoint calibration; no false-alarm guarantee"
+  },
+  "visa:0:2": {
+    "image_threshold": 0.9429845810934312,
+    "pixel_threshold": 0.6592205698023668,
+    "dataset": "visa",
+    "seed": 0,
+    "shots": 2,
+    "category": "fryum",
+    "support_ids": [
+      "fryum/Data/Images/Normal/119.JPG",
+      "fryum/Data/Images/Normal/120.JPG"
+    ],
+    "calibration_query_ids": [
+      "fryum/Data/Images/Normal/490.JPG",
+      "fryum/Data/Images/Normal/386.JPG",
+      "fryum/Data/Images/Normal/078.JPG",
+      "fryum/Data/Images/Normal/376.JPG"
+    ],
+    "native_split": "train",
+    "experiment_role": "calibration_normal",
+    "procedure": "held-out normal calibration mean+3std; fixed for pre/post interventions",
+    "no_test_defect_labels_used": true,
+    "is_probability_calibration": false,
+    "extra_normal_calibration_images": 4,
+    "transfer_scope": "dataset-level category-disjoint calibration; no false-alarm guarantee"
+  },
+  "visa:1:1": {
+    "image_threshold": 0.9514707124960786,
+    "pixel_threshold": 0.6794046267917133,
+    "dataset": "visa",
+    "seed": 1,
+    "shots": 1,
+    "category": "fryum",
+    "support_ids": [
+      "fryum/Data/Images/Normal/394.JPG"
+    ],
+    "calibration_query_ids": [
+      "fryum/Data/Images/Normal/291.JPG",
+      "fryum/Data/Images/Normal/327.JPG",
+      "fryum/Data/Images/Normal/142.JPG",
+      "fryum/Data/Images/Normal/480.JPG"
+    ],
+    "native_split": "train",
+    "experiment_role": "calibration_normal",
+    "procedure": "held-out normal calibration mean+3std; fixed for pre/post interventions",
+    "no_test_defect_labels_used": true,
+    "is_probability_calibration": false,
+    "extra_normal_calibration_images": 4,
+    "transfer_scope": "dataset-level category-disjoint calibration; no false-alarm guarantee"
+  },
+  "visa:1:2": {
+    "image_threshold": 0.7477652438728345,
+    "pixel_threshold": 0.6127845861658994,
+    "dataset": "visa",
+    "seed": 1,
+    "shots": 2,
+    "category": "fryum",
+    "support_ids": [
+      "fryum/Data/Images/Normal/394.JPG",
+      "fryum/Data/Images/Normal/197.JPG"
+    ],
+    "calibration_query_ids": [
+      "fryum/Data/Images/Normal/291.JPG",
+      "fryum/Data/Images/Normal/327.JPG",
+      "fryum/Data/Images/Normal/142.JPG",
+      "fryum/Data/Images/Normal/480.JPG"
+    ],
+    "native_split": "train",
+    "experiment_role": "calibration_normal",
+    "procedure": "held-out normal calibration mean+3std; fixed for pre/post interventions",
+    "no_test_defect_labels_used": true,
+    "is_probability_calibration": false,
+    "extra_normal_calibration_images": 4,
+    "transfer_scope": "dataset-level category-disjoint calibration; no false-alarm guarantee"
+  },
+  "visa:2:1": {
+    "image_threshold": 0.8836507764233281,
+    "pixel_threshold": 0.6403260112380071,
+    "dataset": "visa",
+    "seed": 2,
+    "shots": 1,
+    "category": "fryum",
+    "support_ids": [
+      "fryum/Data/Images/Normal/202.JPG"
+    ],
+    "calibration_query_ids": [
+      "fryum/Data/Images/Normal/240.JPG",
+      "fryum/Data/Images/Normal/164.JPG",
+      "fryum/Data/Images/Normal/056.JPG",
+      "fryum/Data/Images/Normal/066.JPG"
+    ],
+    "native_split": "train",
+    "experiment_role": "calibration_normal",
+    "procedure": "held-out normal calibration mean+3std; fixed for pre/post interventions",
+    "no_test_defect_labels_used": true,
+    "is_probability_calibration": false,
+    "extra_normal_calibration_images": 4,
+    "transfer_scope": "dataset-level category-disjoint calibration; no false-alarm guarantee"
+  },
+  "visa:2:2": {
+    "image_threshold": 0.8725096899076814,
+    "pixel_threshold": 0.6129941380267533,
+    "dataset": "visa",
+    "seed": 2,
+    "shots": 2,
+    "category": "fryum",
+    "support_ids": [
+      "fryum/Data/Images/Normal/202.JPG",
+      "fryum/Data/Images/Normal/054.JPG"
+    ],
+    "calibration_query_ids": [
+      "fryum/Data/Images/Normal/240.JPG",
+      "fryum/Data/Images/Normal/164.JPG",
+      "fryum/Data/Images/Normal/056.JPG",
+      "fryum/Data/Images/Normal/066.JPG"
+    ],
+    "native_split": "train",
+    "experiment_role": "calibration_normal",
+    "procedure": "held-out normal calibration mean+3std; fixed for pre/post interventions",
+    "no_test_defect_labels_used": true,
+    "is_probability_calibration": false,
+    "extra_normal_calibration_images": 4,
+    "transfer_scope": "dataset-level category-disjoint calibration; no false-alarm guarantee"
+  }
+}

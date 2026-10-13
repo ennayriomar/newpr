@@ -1,0 +1,187 @@
+{
+  "dataset": "visa",
+  "category": "macaroni2",
+  "seed": 0,
+  "candidate_ids": [
+    "macaroni2/Data/Images/Normal/0440.JPG",
+    "macaroni2/Data/Images/Normal/0933.JPG",
+    "macaroni2/Data/Images/Normal/0997.JPG",
+    "macaroni2/Data/Images/Normal/0411.JPG",
+    "macaroni2/Data/Images/Normal/0516.JPG",
+    "macaroni2/Data/Images/Normal/0816.JPG",
+    "macaroni2/Data/Images/Normal/0429.JPG",
+    "macaroni2/Data/Images/Normal/0544.JPG"
+  ],
+  "query_ids": [
+    "macaroni2/Data/Images/Normal/0850.JPG",
+    "macaroni2/Data/Images/Normal/0595.JPG"
+  ],
+  "query_role": "held-back normal training images",
+  "grouping": {
+    "initial_support_ids": [
+      "macaroni2/Data/Images/Normal/0143.JPG",
+      "macaroni2/Data/Images/Normal/0867.JPG"
+    ],
+    "candidate_ids": [
+      "macaroni2/Data/Images/Normal/0440.JPG",
+      "macaroni2/Data/Images/Normal/0933.JPG",
+      "macaroni2/Data/Images/Normal/0997.JPG",
+      "macaroni2/Data/Images/Normal/0411.JPG",
+      "macaroni2/Data/Images/Normal/0516.JPG",
+      "macaroni2/Data/Images/Normal/0816.JPG",
+      "macaroni2/Data/Images/Normal/0429.JPG",
+      "macaroni2/Data/Images/Normal/0544.JPG"
+    ],
+    "query_ids": [
+      "macaroni2/Data/Images/Normal/0850.JPG",
+      "macaroni2/Data/Images/Normal/0595.JPG"
+    ],
+    "omitted_group": 0,
+    "cluster_assignments": {
+      "macaroni2/Data/Images/Normal/0023.JPG": 1,
+      "macaroni2/Data/Images/Normal/0039.JPG": 1,
+      "macaroni2/Data/Images/Normal/0070.JPG": 1,
+      "macaroni2/Data/Images/Normal/0119.JPG": 1,
+      "macaroni2/Data/Images/Normal/0143.JPG": 1,
+      "macaroni2/Data/Images/Normal/0161.JPG": 1,
+      "macaroni2/Data/Images/Normal/0179.JPG": 1,
+      "macaroni2/Data/Images/Normal/0256.JPG": 1,
+      "macaroni2/Data/Images/Normal/0285.JPG": 1,
+      "macaroni2/Data/Images/Normal/0313.JPG": 1,
+      "macaroni2/Data/Images/Normal/0327.JPG": 1,
+      "macaroni2/Data/Images/Normal/0334.JPG": 1,
+      "macaroni2/Data/Images/Normal/0370.JPG": 1,
+      "macaroni2/Data/Images/Normal/0411.JPG": 1,
+      "macaroni2/Data/Images/Normal/0429.JPG": 1,
+      "macaroni2/Data/Images/Normal/0437.JPG": 2,
+      "macaroni2/Data/Images/Normal/0440.JPG": 1,
+      "macaroni2/Data/Images/Normal/0498.JPG": 0,
+      "macaroni2/Data/Images/Normal/0516.JPG": 2,
+      "macaroni2/Data/Images/Normal/0519.JPG": 1,
+      "macaroni2/Data/Images/Normal/0538.JPG": 2,
+      "macaroni2/Data/Images/Normal/0544.JPG": 2,
+      "macaroni2/Data/Images/Normal/0561.JPG": 2,
+      "macaroni2/Data/Images/Normal/0581.JPG": 2,
+      "macaroni2/Data/Images/Normal/0595.JPG": 0,
+      "macaroni2/Data/Images/Normal/0600.JPG": 1,
+      "macaroni2/Data/Images/Normal/0639.JPG": 1,
+      "macaroni2/Data/Images/Normal/0645.JPG": 1,
+      "macaroni2/Data/Images/Normal/0682.JPG": 2,
+      "macaroni2/Data/Images/Normal/0686.JPG": 1,
+      "macaroni2/Data/Images/Normal/0697.JPG": 2,
+      "macaroni2/Data/Images/Normal/0701.JPG": 0,
+      "macaroni2/Data/Images/Normal/0711.JPG": 0,
+      "macaroni2/Data/Images/Normal/0733.JPG": 1,
+      "macaroni2/Data/Images/Normal/0744.JPG": 1,
+      "macaroni2/Data/Images/Normal/0789.JPG": 1,
+      "macaroni2/Data/Images/Normal/0792.JPG": 1,
+      "macaroni2/Data/Images/Normal/0816.JPG": 0,
+      "macaroni2/Data/Images/Normal/0817.JPG": 0,
+      "macaroni2/Data/Images/Normal/0850.JPG": 0,
+      "macaroni2/Data/Images/Normal/0856.JPG": 0,
+      "macaroni2/Data/Images/Normal/0867.JPG": 1,
+      "macaroni2/Data/Images/Normal/0894.JPG": 1,
+      "macaroni2/Data/Images/Normal/0933.JPG": 2,
+      "macaroni2/Data/Images/Normal/0937.JPG": 0,
+      "macaroni2/Data/Images/Normal/0943.JPG": 0,
+      "macaroni2/Data/Images/Normal/0980.JPG": 0,
+      "macaroni2/Data/Images/Normal/0997.JPG": 0
+    },
+    "grouping_provenance": {
+      "method": "KMeans on L2-normalized frozen normal-training global descriptors",
+      "seed": 8771,
+      "clusters": 3,
+      "n_init": 10,
+      "algorithm": "lloyd",
+      "sklearn_version": "1.8.0",
+      "global_feature_vectors_scanned": 48,
+      "global_feature_dimension": 768,
+      "normalized_features_and_ids_sha256": "568bfa6435816fb64b6e666786238db833904f9b1204b7af6ddb245963a06721",
+      "group_sizes": {
+        "0": 12,
+        "1": 27,
+        "2": 9
+      },
+      "source_eligibility": "caller must enforce verified-normal training membership with the dataset split manifest; recognizable test/label paths rejected",
+      "query_role": "held-out normal training images from the omitted feature group",
+      "query_features_used_for_grouping": true,
+      "query_features_enter_detector_memory": false,
+      "native_test_labels_used": false,
+      "limitation": "Feature clusters are proxy appearance groups; semantic modes and lighting conditions are not annotated or inferred as ground truth.",
+      "matched_coverage_control": {
+        "support_reference_replaced": "macaroni2/Data/Images/Normal/0143.JPG",
+        "covered_group_reference": "macaroni2/Data/Images/Normal/0817.JPG",
+        "changed_support_positions": [
+          0
+        ],
+        "support_count_per_condition": 2,
+        "same_query_ids": true,
+        "same_candidate_pool": true,
+        "pool_excludes_union_of_support_conditions_and_queries": true,
+        "coverage_in_every_nonempty_support_prefix": true,
+        "semantics": "One permitted omitted-group reference replaces an outside-group reference at equal initial support count; proxy coverage control."
+      }
+    },
+    "covered_support_ids": [
+      "macaroni2/Data/Images/Normal/0817.JPG",
+      "macaroni2/Data/Images/Normal/0867.JPG"
+    ]
+  },
+  "used_to_select_model_or_threshold": false,
+  "protocol": "coverage_control",
+  "support_ids": [
+    "macaroni2/Data/Images/Normal/0817.JPG",
+    "macaroni2/Data/Images/Normal/0867.JPG"
+  ],
+  "support_condition": "one equal-budget initial reference covers the omitted proxy group",
+  "shots": 2,
+  "initial_support_ids": [
+    "macaroni2/Data/Images/Normal/0817.JPG",
+    "macaroni2/Data/Images/Normal/0867.JPG"
+  ],
+  "candidate_pool_size": 8,
+  "acquisition_budget": 1,
+  "budget_unit": "per query inspection, reset initial support for each query",
+  "information": "same verified-normal pool for all policies; learned/oracle probe every candidate patch memory",
+  "model": "mlp",
+  "cutoffs": {
+    "image_threshold": 0.9429845810934312,
+    "pixel_threshold": 0.6592205698023668,
+    "dataset": "visa",
+    "seed": 0,
+    "shots": 2,
+    "category": "fryum",
+    "support_ids": [
+      "fryum/Data/Images/Normal/119.JPG",
+      "fryum/Data/Images/Normal/120.JPG"
+    ],
+    "calibration_query_ids": [
+      "fryum/Data/Images/Normal/490.JPG",
+      "fryum/Data/Images/Normal/386.JPG",
+      "fryum/Data/Images/Normal/078.JPG",
+      "fryum/Data/Images/Normal/376.JPG"
+    ],
+    "native_split": "train",
+    "experiment_role": "calibration_normal",
+    "procedure": "held-out normal calibration mean+3std; fixed for pre/post interventions",
+    "no_test_defect_labels_used": true,
+    "is_probability_calibration": false,
+    "extra_normal_calibration_images": 4,
+    "transfer_scope": "dataset-level category-disjoint calibration; no false-alarm guarantee"
+  },
+  "adequacy": {
+    "kind": "sigmoid",
+    "bias": 1.5,
+    "nearest_distance": -2.0,
+    "mean_five_nearest": -1.0,
+    "distinct_reference_count": 0.5,
+    "dispersion_trace": 0.0,
+    "loo_sensitivity": -2.0,
+    "global_local_disagreement": -0.25,
+    "loo_missing_bias": 0.0,
+    "adequacy_threshold": 0.5,
+    "semantics": "predeclared empirical diagnostic; no support-adequacy ground truth or probability fit"
+  },
+  "defect_evidence": "raw NN before/after, never multiplied by diagnostics",
+  "native_test_labels_for_model_selection": false
+}

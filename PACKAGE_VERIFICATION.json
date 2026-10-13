@@ -1,0 +1,12 @@
+{
+  "version": "0.4.0",
+  "archive": "safe_iad_full_code_v0.4.0.zip",
+  "bytes": 8878083,
+  "sha256": "b098d95e25a7fb6d2c31f8c18cedb48faf031c7436f7319d5a6587c5cd459428",
+  "files": 975,
+  "framework_source_files": 55,
+  "sha256_file_manifest_verified": true,
+  "zip_crc_verified": true,
+  "current_framework_sources_byte_identical": true,
+  "scope": "Full current source, pinned official vendor sources and licenses, historical summaries, all M3 text/JSON records, fitted source-only models, figures, and validation. Separate data/checkpoints/caches/native NPZ arrays are excluded."
+}

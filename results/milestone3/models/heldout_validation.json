@@ -1,0 +1,32 @@
+{
+  "ridge": {
+    "rows": 384,
+    "query_support_candidate_groups": 48,
+    "rmse": 0.009514463641773866,
+    "mean_candidate_rank_spearman": 0.9007936507936508,
+    "mean_selected_observed_benefit": {
+      "learned": 0.03809895181348111,
+      "random": 0.021106269865110033,
+      "nearest_global": 0.034999287480786734,
+      "diversity": 0.021724709718000668,
+      "oracle": 0.03818485319031121
+    },
+    "model_selected_using_this_validation": false,
+    "scope": "normal-training and explicitly synthetic queries in disjoint validation categories; no native test masks"
+  },
+  "mlp": {
+    "rows": 384,
+    "query_support_candidate_groups": 48,
+    "rmse": 0.007717803664258256,
+    "mean_candidate_rank_spearman": 0.9126984126984127,
+    "mean_selected_observed_benefit": {
+      "learned": 0.03789619632122291,
+      "random": 0.021106269865110033,
+      "nearest_global": 0.034999287480786734,
+      "diversity": 0.021724709718000668,
+      "oracle": 0.03818485319031121
+    },
+    "model_selected_using_this_validation": false,
+    "scope": "normal-training and explicitly synthetic queries in disjoint validation categories; no native test masks"
+  }
+}

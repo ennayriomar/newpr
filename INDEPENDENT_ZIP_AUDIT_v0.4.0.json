@@ -1,0 +1,43 @@
+{
+  "zip_sha256": "b098d95e25a7fb6d2c31f8c18cedb48faf031c7436f7319d5a6587c5cd459428",
+  "sha256_expected_matches": true,
+  "crc_failure": null,
+  "files": 975,
+  "manifest_entries": 974,
+  "current_framework_source_files": 55,
+  "issues": [],
+  "excluded_content_hits": [],
+  "milestone3_gate_advance": false,
+  "milestone3_new_missed_inspections": 4,
+  "milestone3_stop_reasons": [
+    "The locked-cutoff image/pixel sensitivity, overlap, or nonzero-baseline-detection preservation gate failed",
+    "Matched missing-support slices did not all show both increased false alarms from omission and reduction from learned acquisition"
+  ],
+  "bundled_test_evidence": [
+    "Ran 97 tests in 1.228s"
+  ],
+  "model_json_names": [
+    "ridge",
+    "mlp"
+  ],
+  "vendor_licenses_checked": [
+    "dinov2/LICENSE",
+    "dinov2/dinov2/thirdparty/CLIP/LICENSE",
+    "anomalydino/LICENSE",
+    "subspacead/LICENSE",
+    "mvtec_ad2_official_utils/license.txt"
+  ],
+  "omitted_arrays_datasets_weights_documented": true,
+  "status": "passed",
+  "safe_paths_unique": true,
+  "vendor_license_and_notice_files_checked": [
+    "anomalydino/LICENSE",
+    "dinov2/LICENSE",
+    "dinov2/LICENSE_CELL_DINO_CODE",
+    "dinov2/LICENSE_CELL_DINO_MODELS",
+    "dinov2/LICENSE_XRAY_DINO_MODEL",
+    "dinov2/dinov2/thirdparty/CLIP/LICENSE",
+    "mvtec_ad2_official_utils/license.txt",
+    "subspacead/LICENSE"
+  ]
+}

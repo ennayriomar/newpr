@@ -1,0 +1,113 @@
+{
+  "roots": {
+    "mvtec_ad": "/workspace/datasets/mvtec_ad",
+    "visa": "/workspace/datasets/visa",
+    "mvtec_ad2": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2"
+  },
+  "category_roles": {
+    "mvtec_ad": {
+      "meta_training": [
+        "carpet",
+        "grid",
+        "leather",
+        "tile",
+        "wood"
+      ],
+      "validation": [
+        "cable",
+        "hazelnut",
+        "transistor"
+      ],
+      "calibration": [
+        "capsule",
+        "screw",
+        "toothbrush"
+      ],
+      "final_test": [
+        "bottle",
+        "metal_nut",
+        "pill",
+        "zipper"
+      ]
+    },
+    "visa": {
+      "meta_training": [
+        "candle",
+        "cashew",
+        "chewinggum",
+        "macaroni1",
+        "pcb1"
+      ],
+      "validation": [
+        "macaroni2",
+        "pcb2"
+      ],
+      "calibration": [
+        "fryum",
+        "pcb3"
+      ],
+      "final_test": [
+        "capsules",
+        "pcb4",
+        "pipe_fryum"
+      ]
+    }
+  },
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "partition_seed": 123,
+  "loss": {
+    "type": "balanced_pixel_margin_mse",
+    "margin": 1.0
+  },
+  "output": "/tmp/safe_iad_milestone3",
+  "feature_cache": "/tmp/safe_iad_milestone3/feature_cache",
+  "generated_root": "/tmp/safe_iad_milestone3/generated_queries",
+  "source_categories": {
+    "mvtec_ad": [
+      "carpet",
+      "grid"
+    ],
+    "visa": [
+      "candle",
+      "cashew"
+    ]
+  },
+  "validation_categories": {
+    "mvtec_ad": "cable",
+    "visa": "macaroni2"
+  },
+  "calibration_categories": {
+    "mvtec_ad": "capsule",
+    "visa": "fryum"
+  },
+  "source_queries_per_seed": 4,
+  "validation_queries_per_seed": 2,
+  "target_shots": [
+    1,
+    2
+  ],
+  "evaluation_shots": [
+    1,
+    2
+  ],
+  "candidate_pool_size": 8,
+  "queries_per_label": 2,
+  "acquisition_budget": 1,
+  "normal_calibration_queries": 4,
+  "model_seed": 0,
+  "pixel_fpr_limit": 0.3,
+  "missing_support_normals": 48,
+  "missing_support_queries": 2,
+  "bootstrap_samples": 2000,
+  "gate": {
+    "utility_margin": 0.0,
+    "allow_increased_harm": false,
+    "allow_new_missed_defects": false
+  },
+  "protocol": "M3 one-step paired feasibility; model selected using source-image grouped CV only; native validation masks are offline evaluation only",
+  "full_run_policy": "Stop after a negative learned-versus-simple feasibility or preservation gate. Full benchmark is separate and unrun."
+}

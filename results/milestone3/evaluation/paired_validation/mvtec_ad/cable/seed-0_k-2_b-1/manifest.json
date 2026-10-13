@@ -1,0 +1,79 @@
+{
+  "dataset": "mvtec_ad",
+  "category": "cable",
+  "seed": 0,
+  "protocol": "paired_validation",
+  "support_ids": [
+    "cable/train/good/020.png",
+    "cable/train/good/036.png"
+  ],
+  "candidate_ids": [
+    "cable/train/good/060.png",
+    "cable/train/good/008.png",
+    "cable/train/good/114.png",
+    "cable/train/good/094.png",
+    "cable/train/good/181.png",
+    "cable/train/good/108.png",
+    "cable/train/good/147.png",
+    "cable/train/good/144.png"
+  ],
+  "query_ids": [
+    "cable/test/good/000.png",
+    "cable/test/good/001.png",
+    "cable/test/bent_wire/000.png",
+    "cable/test/bent_wire/001.png"
+  ],
+  "query_role": "reserved validation-category native test data; masks used for offline evaluation only",
+  "query_sampling": "first sorted normal/anomalous examples; descriptive feasibility subset",
+  "used_to_select_model_or_threshold": false,
+  "shots": 2,
+  "initial_support_ids": [
+    "cable/train/good/020.png",
+    "cable/train/good/036.png"
+  ],
+  "candidate_pool_size": 8,
+  "acquisition_budget": 1,
+  "budget_unit": "per query inspection, reset initial support for each query",
+  "information": "same verified-normal pool for all policies; learned/oracle probe every candidate patch memory",
+  "model": "mlp",
+  "cutoffs": {
+    "image_threshold": 0.8347787379943589,
+    "pixel_threshold": 0.5664703525352779,
+    "dataset": "mvtec_ad",
+    "seed": 0,
+    "shots": 2,
+    "category": "capsule",
+    "support_ids": [
+      "capsule/train/good/119.png",
+      "capsule/train/good/055.png"
+    ],
+    "calibration_query_ids": [
+      "capsule/train/good/218.png",
+      "capsule/train/good/002.png",
+      "capsule/train/good/122.png",
+      "capsule/train/good/009.png"
+    ],
+    "native_split": "train",
+    "experiment_role": "calibration_normal",
+    "procedure": "held-out normal calibration mean+3std; fixed for pre/post interventions",
+    "no_test_defect_labels_used": true,
+    "is_probability_calibration": false,
+    "extra_normal_calibration_images": 4,
+    "transfer_scope": "dataset-level category-disjoint calibration; no false-alarm guarantee"
+  },
+  "adequacy": {
+    "kind": "sigmoid",
+    "bias": 1.5,
+    "nearest_distance": -2.0,
+    "mean_five_nearest": -1.0,
+    "distinct_reference_count": 0.5,
+    "dispersion_trace": 0.0,
+    "loo_sensitivity": -2.0,
+    "global_local_disagreement": -0.25,
+    "loo_missing_bias": 0.0,
+    "adequacy_threshold": 0.5,
+    "semantics": "predeclared empirical diagnostic; no support-adequacy ground truth or probability fit"
+  },
+  "defect_evidence": "raw NN before/after, never multiplied by diagnostics",
+  "native_test_labels_for_model_selection": false
+}

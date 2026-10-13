@@ -1,0 +1,88 @@
+{
+  "dataset": "mvtec_ad",
+  "category": "cable",
+  "seed": 2,
+  "shots": 2,
+  "protocol": "coverage_control",
+  "policy": "nearest_global",
+  "query_count": 2,
+  "image_metrics": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 2,
+    "threshold": 1.0106819240022362,
+    "queries": 2,
+    "f1": null,
+    "missed_defect_rate": null,
+    "false_alarm_rate": 0.0,
+    "auroc": null,
+    "ap": null,
+    "threshold_origin": "externally selected; never optimized by this metric"
+  },
+  "localization_metrics": {
+    "tp": 0,
+    "fp": 25887,
+    "fn": 0,
+    "tn": 2071265,
+    "iou": 0.0,
+    "pixel_f1": 0.0,
+    "pixel_auroc": null,
+    "pixel_ap": null,
+    "pixel_threshold": 0.6545637729199782,
+    "images": 2,
+    "pixels": 2097152,
+    "overlap_aggregation": "pooled pixel counts; empty union yields null",
+    "threshold_origin": "externally selected; not optimized using evaluation masks",
+    "au_pro_fpr_limit": 0.3,
+    "au_pro_num_regions": 0,
+    "au_pro_connectivity": 8,
+    "au_pro_semantics": "normalized area over pooled normal-pixel FPR; equal weight per connected defect region; sampled thresholds",
+    "au_pro_threshold_sampling": "uniform ranks of distinct native scores, plus +inf/-inf endpoints",
+    "au_pro": null,
+    "au_pro_curve": [],
+    "au_pro_threshold_count": 0,
+    "au_pro_unavailable_reason": "Requires a defect component and at least one normal pixel."
+  },
+  "risk_coverage": {
+    "aurc": 0.0,
+    "error_detection_auroc": null,
+    "curve": [
+      {
+        "coverage": 0.0,
+        "accepted": 0,
+        "errors": 0,
+        "risk": null,
+        "confidence_threshold": null
+      },
+      {
+        "coverage": 0.5,
+        "accepted": 1,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.6405077576637268
+      },
+      {
+        "coverage": 1.0,
+        "accepted": 2,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.6101967692375183
+      }
+    ],
+    "queries": 2,
+    "risk_definition": "mean 0/1 classification error at the caller-locked detector threshold",
+    "confidence_semantics": "ranking input; not assumed to be a calibrated probability",
+    "tie_handling": "accept all equal-confidence queries together",
+    "integration": "right-step risk times each whole-group coverage increment"
+  },
+  "mean_observed_benefit": 0.006538957357406616,
+  "harmful_interventions": 0,
+  "detected_to_missed": 0,
+  "added_reference_events": 2,
+  "coverage": 1.0,
+  "candidate_pool_size": 8,
+  "acquisition_budget": 1,
+  "oracle_is_deployable": false,
+  "probability_calibration_evaluated": false
+}

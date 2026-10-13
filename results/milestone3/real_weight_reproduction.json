@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "checkpoint_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+  "source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "model": "mlp",
+  "real_query_probes": [
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "cable/test/bent_wire/000.png",
+      "seed": 0,
+      "shots": 1,
+      "backbone_cache_bypassed": true,
+      "float32_features_bitwise_equal": true,
+      "pre_post_float16_maps_bitwise_equal": true,
+      "image_scores_exact_equal": true,
+      "selected_reference_and_benefit_exact_equal": true,
+      "adequacy_map_bitwise_equal": true,
+      "retained_detected_to_missed_case": false
+    },
+    {
+      "dataset": "visa",
+      "image_id": "macaroni2/Data/Images/Anomaly/000.JPG",
+      "seed": 0,
+      "shots": 2,
+      "backbone_cache_bypassed": true,
+      "float32_features_bitwise_equal": true,
+      "pre_post_float16_maps_bitwise_equal": true,
+      "image_scores_exact_equal": true,
+      "selected_reference_and_benefit_exact_equal": true,
+      "adequacy_map_bitwise_equal": true,
+      "retained_detected_to_missed_case": true
+    }
+  ],
+  "scope": "one actual anomalous query per main dataset with newly recomputed features; not a full independent episode rerun"
+}

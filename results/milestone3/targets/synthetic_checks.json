@@ -1,0 +1,362 @@
+[
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "carpet/train/good/074.png",
+    "synthetic_id": "mvtec_ad/carpet/074_seed-0_cutpaste-v1.png",
+    "changed_pixels": 28900
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "carpet/train/good/124.png",
+    "synthetic_id": "mvtec_ad/carpet/124_seed-0_cutpaste-v1.png",
+    "changed_pixels": 28900
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "carpet/train/good/034.png",
+    "synthetic_id": "mvtec_ad/carpet/034_seed-0_cutpaste-v1.png",
+    "changed_pixels": 28900
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "carpet/train/good/139.png",
+    "synthetic_id": "mvtec_ad/carpet/139_seed-0_cutpaste-v1.png",
+    "changed_pixels": 28900
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "carpet/train/good/024.png",
+    "synthetic_id": "mvtec_ad/carpet/024_seed-1_cutpaste-v1.png",
+    "changed_pixels": 28900
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "carpet/train/good/131.png",
+    "synthetic_id": "mvtec_ad/carpet/131_seed-1_cutpaste-v1.png",
+    "changed_pixels": 28899
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "carpet/train/good/205.png",
+    "synthetic_id": "mvtec_ad/carpet/205_seed-1_cutpaste-v1.png",
+    "changed_pixels": 28900
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "carpet/train/good/108.png",
+    "synthetic_id": "mvtec_ad/carpet/108_seed-1_cutpaste-v1.png",
+    "changed_pixels": 28900
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "carpet/train/good/279.png",
+    "synthetic_id": "mvtec_ad/carpet/279_seed-2_cutpaste-v1.png",
+    "changed_pixels": 28900
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "carpet/train/good/221.png",
+    "synthetic_id": "mvtec_ad/carpet/221_seed-2_cutpaste-v1.png",
+    "changed_pixels": 28900
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "carpet/train/good/255.png",
+    "synthetic_id": "mvtec_ad/carpet/255_seed-2_cutpaste-v1.png",
+    "changed_pixels": 28900
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "carpet/train/good/179.png",
+    "synthetic_id": "mvtec_ad/carpet/179_seed-2_cutpaste-v1.png",
+    "changed_pixels": 28900
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "grid/train/good/262.png",
+    "synthetic_id": "mvtec_ad/grid/262_seed-0_cutpaste-v1.png",
+    "changed_pixels": 28780
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "grid/train/good/116.png",
+    "synthetic_id": "mvtec_ad/grid/116_seed-0_cutpaste-v1.png",
+    "changed_pixels": 28799
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "grid/train/good/049.png",
+    "synthetic_id": "mvtec_ad/grid/049_seed-0_cutpaste-v1.png",
+    "changed_pixels": 28779
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "grid/train/good/031.png",
+    "synthetic_id": "mvtec_ad/grid/031_seed-0_cutpaste-v1.png",
+    "changed_pixels": 28792
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "grid/train/good/032.png",
+    "synthetic_id": "mvtec_ad/grid/032_seed-1_cutpaste-v1.png",
+    "changed_pixels": 28830
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "grid/train/good/024.png",
+    "synthetic_id": "mvtec_ad/grid/024_seed-1_cutpaste-v1.png",
+    "changed_pixels": 28687
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "grid/train/good/216.png",
+    "synthetic_id": "mvtec_ad/grid/216_seed-1_cutpaste-v1.png",
+    "changed_pixels": 28780
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "grid/train/good/136.png",
+    "synthetic_id": "mvtec_ad/grid/136_seed-1_cutpaste-v1.png",
+    "changed_pixels": 28514
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "grid/train/good/192.png",
+    "synthetic_id": "mvtec_ad/grid/192_seed-2_cutpaste-v1.png",
+    "changed_pixels": 28800
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "grid/train/good/044.png",
+    "synthetic_id": "mvtec_ad/grid/044_seed-2_cutpaste-v1.png",
+    "changed_pixels": 28767
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "grid/train/good/234.png",
+    "synthetic_id": "mvtec_ad/grid/234_seed-2_cutpaste-v1.png",
+    "changed_pixels": 28704
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "grid/train/good/063.png",
+    "synthetic_id": "mvtec_ad/grid/063_seed-2_cutpaste-v1.png",
+    "changed_pixels": 28769
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "cable/train/good/173.png",
+    "synthetic_id": "mvtec_ad/cable/173_seed-0_cutpaste-v1.png",
+    "changed_pixels": 28899
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "cable/train/good/171.png",
+    "synthetic_id": "mvtec_ad/cable/171_seed-0_cutpaste-v1.png",
+    "changed_pixels": 28900
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "cable/train/good/076.png",
+    "synthetic_id": "mvtec_ad/cable/076_seed-1_cutpaste-v1.png",
+    "changed_pixels": 28900
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "cable/train/good/200.png",
+    "synthetic_id": "mvtec_ad/cable/200_seed-1_cutpaste-v1.png",
+    "changed_pixels": 28900
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "cable/train/good/130.png",
+    "synthetic_id": "mvtec_ad/cable/130_seed-2_cutpaste-v1.png",
+    "changed_pixels": 28900
+  },
+  {
+    "dataset": "mvtec_ad",
+    "source_id": "cable/train/good/203.png",
+    "synthetic_id": "mvtec_ad/cable/203_seed-2_cutpaste-v1.png",
+    "changed_pixels": 28900
+  },
+  {
+    "dataset": "visa",
+    "source_id": "candle/Data/Images/Normal/0580.JPG",
+    "synthetic_id": "visa/candle/0580_seed-0_cutpaste-v1.png",
+    "changed_pixels": 41516
+  },
+  {
+    "dataset": "visa",
+    "source_id": "candle/Data/Images/Normal/0549.JPG",
+    "synthetic_id": "visa/candle/0549_seed-0_cutpaste-v1.png",
+    "changed_pixels": 41516
+  },
+  {
+    "dataset": "visa",
+    "source_id": "candle/Data/Images/Normal/0251.JPG",
+    "synthetic_id": "visa/candle/0251_seed-0_cutpaste-v1.png",
+    "changed_pixels": 41516
+  },
+  {
+    "dataset": "visa",
+    "source_id": "candle/Data/Images/Normal/0233.JPG",
+    "synthetic_id": "visa/candle/0233_seed-0_cutpaste-v1.png",
+    "changed_pixels": 41516
+  },
+  {
+    "dataset": "visa",
+    "source_id": "candle/Data/Images/Normal/0822.JPG",
+    "synthetic_id": "visa/candle/0822_seed-1_cutpaste-v1.png",
+    "changed_pixels": 41516
+  },
+  {
+    "dataset": "visa",
+    "source_id": "candle/Data/Images/Normal/0809.JPG",
+    "synthetic_id": "visa/candle/0809_seed-1_cutpaste-v1.png",
+    "changed_pixels": 41516
+  },
+  {
+    "dataset": "visa",
+    "source_id": "candle/Data/Images/Normal/0695.JPG",
+    "synthetic_id": "visa/candle/0695_seed-1_cutpaste-v1.png",
+    "changed_pixels": 41516
+  },
+  {
+    "dataset": "visa",
+    "source_id": "candle/Data/Images/Normal/0389.JPG",
+    "synthetic_id": "visa/candle/0389_seed-1_cutpaste-v1.png",
+    "changed_pixels": 41516
+  },
+  {
+    "dataset": "visa",
+    "source_id": "candle/Data/Images/Normal/0461.JPG",
+    "synthetic_id": "visa/candle/0461_seed-2_cutpaste-v1.png",
+    "changed_pixels": 41516
+  },
+  {
+    "dataset": "visa",
+    "source_id": "candle/Data/Images/Normal/0169.JPG",
+    "synthetic_id": "visa/candle/0169_seed-2_cutpaste-v1.png",
+    "changed_pixels": 41516
+  },
+  {
+    "dataset": "visa",
+    "source_id": "candle/Data/Images/Normal/0340.JPG",
+    "synthetic_id": "visa/candle/0340_seed-2_cutpaste-v1.png",
+    "changed_pixels": 41516
+  },
+  {
+    "dataset": "visa",
+    "source_id": "candle/Data/Images/Normal/0782.JPG",
+    "synthetic_id": "visa/candle/0782_seed-2_cutpaste-v1.png",
+    "changed_pixels": 41516
+  },
+  {
+    "dataset": "visa",
+    "source_id": "cashew/Data/Images/Normal/083.JPG",
+    "synthetic_id": "visa/cashew/083_seed-0_cutpaste-v1.png",
+    "changed_pixels": 41552
+  },
+  {
+    "dataset": "visa",
+    "source_id": "cashew/Data/Images/Normal/204.JPG",
+    "synthetic_id": "visa/cashew/204_seed-0_cutpaste-v1.png",
+    "changed_pixels": 41549
+  },
+  {
+    "dataset": "visa",
+    "source_id": "cashew/Data/Images/Normal/364.JPG",
+    "synthetic_id": "visa/cashew/364_seed-0_cutpaste-v1.png",
+    "changed_pixels": 41551
+  },
+  {
+    "dataset": "visa",
+    "source_id": "cashew/Data/Images/Normal/058.JPG",
+    "synthetic_id": "visa/cashew/058_seed-0_cutpaste-v1.png",
+    "changed_pixels": 41552
+  },
+  {
+    "dataset": "visa",
+    "source_id": "cashew/Data/Images/Normal/299.JPG",
+    "synthetic_id": "visa/cashew/299_seed-1_cutpaste-v1.png",
+    "changed_pixels": 41550
+  },
+  {
+    "dataset": "visa",
+    "source_id": "cashew/Data/Images/Normal/267.JPG",
+    "synthetic_id": "visa/cashew/267_seed-1_cutpaste-v1.png",
+    "changed_pixels": 41547
+  },
+  {
+    "dataset": "visa",
+    "source_id": "cashew/Data/Images/Normal/026.JPG",
+    "synthetic_id": "visa/cashew/026_seed-1_cutpaste-v1.png",
+    "changed_pixels": 41552
+  },
+  {
+    "dataset": "visa",
+    "source_id": "cashew/Data/Images/Normal/165.JPG",
+    "synthetic_id": "visa/cashew/165_seed-1_cutpaste-v1.png",
+    "changed_pixels": 41549
+  },
+  {
+    "dataset": "visa",
+    "source_id": "cashew/Data/Images/Normal/041.JPG",
+    "synthetic_id": "visa/cashew/041_seed-2_cutpaste-v1.png",
+    "changed_pixels": 41552
+  },
+  {
+    "dataset": "visa",
+    "source_id": "cashew/Data/Images/Normal/190.JPG",
+    "synthetic_id": "visa/cashew/190_seed-2_cutpaste-v1.png",
+    "changed_pixels": 41552
+  },
+  {
+    "dataset": "visa",
+    "source_id": "cashew/Data/Images/Normal/048.JPG",
+    "synthetic_id": "visa/cashew/048_seed-2_cutpaste-v1.png",
+    "changed_pixels": 41550
+  },
+  {
+    "dataset": "visa",
+    "source_id": "cashew/Data/Images/Normal/264.JPG",
+    "synthetic_id": "visa/cashew/264_seed-2_cutpaste-v1.png",
+    "changed_pixels": 41549
+  },
+  {
+    "dataset": "visa",
+    "source_id": "macaroni2/Data/Images/Normal/0283.JPG",
+    "synthetic_id": "visa/macaroni2/0283_seed-0_cutpaste-v1.png",
+    "changed_pixels": 41500
+  },
+  {
+    "dataset": "visa",
+    "source_id": "macaroni2/Data/Images/Normal/0082.JPG",
+    "synthetic_id": "visa/macaroni2/0082_seed-0_cutpaste-v1.png",
+    "changed_pixels": 41500
+  },
+  {
+    "dataset": "visa",
+    "source_id": "macaroni2/Data/Images/Normal/0426.JPG",
+    "synthetic_id": "visa/macaroni2/0426_seed-1_cutpaste-v1.png",
+    "changed_pixels": 41500
+  },
+  {
+    "dataset": "visa",
+    "source_id": "macaroni2/Data/Images/Normal/0489.JPG",
+    "synthetic_id": "visa/macaroni2/0489_seed-1_cutpaste-v1.png",
+    "changed_pixels": 41500
+  },
+  {
+    "dataset": "visa",
+    "source_id": "macaroni2/Data/Images/Normal/0939.JPG",
+    "synthetic_id": "visa/macaroni2/0939_seed-2_cutpaste-v1.png",
+    "changed_pixels": 41500
+  },
+  {
+    "dataset": "visa",
+    "source_id": "macaroni2/Data/Images/Normal/0858.JPG",
+    "synthetic_id": "visa/macaroni2/0858_seed-2_cutpaste-v1.png",
+    "changed_pixels": 41500
+  }
+]

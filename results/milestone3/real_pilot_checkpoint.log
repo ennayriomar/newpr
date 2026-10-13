@@ -1,0 +1,12 @@
+/workspace/.cache/dinov2-source/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/workspace/.cache/dinov2-source/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/workspace/.cache/dinov2-source/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+{"scored_protocol": "paired_validation", "dataset": "mvtec_ad", "seed": 0, "shots": 1, "query_index": 0, "query_count": 4}
+{"scored_protocol": "paired_validation", "dataset": "mvtec_ad", "seed": 0, "shots": 1, "query_index": 1, "query_count": 4}
+{"scored_protocol": "paired_validation", "dataset": "mvtec_ad", "seed": 0, "shots": 1, "query_index": 2, "query_count": 4}
+{"scored_protocol": "paired_validation", "dataset": "mvtec_ad", "seed": 0, "shots": 1, "query_index": 3, "query_count": 4}
+{"completed_dataset": "mvtec_ad", "protocol": "paired_validation", "seed": 0, "shots": 1, "policy_episodes": 6}
+{"checkpoint_stop": true, "completed_verified_episodes": 1, "continue": "rerun without --max-episodes; completed episodes are hash/input/code verified"}

@@ -1,0 +1,79 @@
+{
+  "dataset": "visa",
+  "category": "macaroni2",
+  "seed": 0,
+  "protocol": "paired_validation",
+  "support_ids": [
+    "macaroni2/Data/Images/Normal/0087.JPG",
+    "macaroni2/Data/Images/Normal/0156.JPG"
+  ],
+  "candidate_ids": [
+    "macaroni2/Data/Images/Normal/0265.JPG",
+    "macaroni2/Data/Images/Normal/0039.JPG",
+    "macaroni2/Data/Images/Normal/0519.JPG",
+    "macaroni2/Data/Images/Normal/0418.JPG",
+    "macaroni2/Data/Images/Normal/0829.JPG",
+    "macaroni2/Data/Images/Normal/0480.JPG",
+    "macaroni2/Data/Images/Normal/0669.JPG",
+    "macaroni2/Data/Images/Normal/0650.JPG"
+  ],
+  "query_ids": [
+    "macaroni2/Data/Images/Normal/0011.JPG",
+    "macaroni2/Data/Images/Normal/0013.JPG",
+    "macaroni2/Data/Images/Anomaly/000.JPG",
+    "macaroni2/Data/Images/Anomaly/001.JPG"
+  ],
+  "query_role": "reserved validation-category native test data; masks used for offline evaluation only",
+  "query_sampling": "first sorted normal/anomalous examples; descriptive feasibility subset",
+  "used_to_select_model_or_threshold": false,
+  "shots": 2,
+  "initial_support_ids": [
+    "macaroni2/Data/Images/Normal/0087.JPG",
+    "macaroni2/Data/Images/Normal/0156.JPG"
+  ],
+  "candidate_pool_size": 8,
+  "acquisition_budget": 1,
+  "budget_unit": "per query inspection, reset initial support for each query",
+  "information": "same verified-normal pool for all policies; learned/oracle probe every candidate patch memory",
+  "model": "mlp",
+  "cutoffs": {
+    "image_threshold": 0.9429845810934312,
+    "pixel_threshold": 0.6592205698023668,
+    "dataset": "visa",
+    "seed": 0,
+    "shots": 2,
+    "category": "fryum",
+    "support_ids": [
+      "fryum/Data/Images/Normal/119.JPG",
+      "fryum/Data/Images/Normal/120.JPG"
+    ],
+    "calibration_query_ids": [
+      "fryum/Data/Images/Normal/490.JPG",
+      "fryum/Data/Images/Normal/386.JPG",
+      "fryum/Data/Images/Normal/078.JPG",
+      "fryum/Data/Images/Normal/376.JPG"
+    ],
+    "native_split": "train",
+    "experiment_role": "calibration_normal",
+    "procedure": "held-out normal calibration mean+3std; fixed for pre/post interventions",
+    "no_test_defect_labels_used": true,
+    "is_probability_calibration": false,
+    "extra_normal_calibration_images": 4,
+    "transfer_scope": "dataset-level category-disjoint calibration; no false-alarm guarantee"
+  },
+  "adequacy": {
+    "kind": "sigmoid",
+    "bias": 1.5,
+    "nearest_distance": -2.0,
+    "mean_five_nearest": -1.0,
+    "distinct_reference_count": 0.5,
+    "dispersion_trace": 0.0,
+    "loo_sensitivity": -2.0,
+    "global_local_disagreement": -0.25,
+    "loo_missing_bias": 0.0,
+    "adequacy_threshold": 0.5,
+    "semantics": "predeclared empirical diagnostic; no support-adequacy ground truth or probability fit"
+  },
+  "defect_evidence": "raw NN before/after, never multiplied by diagnostics",
+  "native_test_labels_for_model_selection": false
+}

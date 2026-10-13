@@ -1,0 +1,42 @@
+{
+  "training": {
+    "rows": 1536,
+    "unique_source_images": 48,
+    "negative_rows": 9,
+    "negative_source_images": 6,
+    "normal_query_benefit_is_monotone_nn_loss_property": true
+  },
+  "validation": {
+    "rows": 384,
+    "unique_source_images": 12,
+    "negative_rows": 0,
+    "negative_source_images": 0,
+    "normal_query_benefit_is_monotone_nn_loss_property": true
+  },
+  "checkpoint_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+  "source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "feature_names": [
+    "nn_mean",
+    "nn_std",
+    "nn_max",
+    "top_one_percent",
+    "knn_mean",
+    "knn_std",
+    "distinct_reference_mean",
+    "dispersion_mean",
+    "dispersion_std",
+    "loo_sensitivity_imputed",
+    "loo_missing",
+    "global_support_distance",
+    "candidate_query_global_distance",
+    "candidate_support_global_distance",
+    "candidate_nn_mean",
+    "candidate_nn_std",
+    "candidate_nn_max",
+    "score_drop_mean",
+    "score_drop_max"
+  ],
+  "preprocessing_version": "rgb-resize224-pillow-bicubic-imagenet-v1",
+  "synthetic_edits_are_not_real_defect_evidence": true,
+  "final_test_labels_used": false
+}

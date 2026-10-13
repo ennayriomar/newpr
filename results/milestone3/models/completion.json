@@ -1,0 +1,21 @@
+{
+  "files": {
+    "training_report.json": "2fd1bddc4f3f54d05eed9b86280df13a910d880ae7b48f43422135b2eb984fb5",
+    "heldout_validation.json": "0ef2672b0613ea5ac79563dd5d58b72b90096d88bbdb24ff2338694ae8968b30",
+    "ridge.json": "96f6a49a1f5f0be2f2f87890e45defa3c4115c84e6eac01fce4aafa8e08a5118",
+    "mlp.json": "0199c8b3a1a834d6e07775e6bf39b6d1817d84e0984108a0eee848c95d692731",
+    "ridge_validation_groups.jsonl": "b80ded4a1382b1640faa3e2dbd3befae7d229c1963003d7cc88ba450811040e3",
+    "mlp_validation_groups.jsonl": "d862be9e36e42db5ecf98456312ac777d5785201ffa89cf3432e04a8bf1457fa"
+  },
+  "input_sha256": {
+    "/tmp/safe_iad_milestone3/targets/training.jsonl": "b3cde35d20433c8ecf76f44858346a6e1c39cbbed9891be2d84cd53fe49af416",
+    "/tmp/safe_iad_milestone3/targets/validation.jsonl": "caed6a63a56b90cdc7ea8777d547dad61c87aa24c436779dbb338b3562173957",
+    "/tmp/safe_iad_milestone3/targets/completion.json": "a40ddc46c67d55cbd2b064c4dae5586d845c7bdf3e4b1bb8aeed1cfb2de49532"
+  },
+  "input_verification_version": 1,
+  "implementation_sha256": {
+    "benefit_model.py": "8ae0f476cc7316d16455616b0d1d671d5fae38b5728aca9441dffd0d2e59abb2",
+    "train_benefit.py": "28533b48cdb3637ab3a8518840d522385f92056261d97e71e873844fd5dc6d5c",
+    "experiment_io.py": "b8293802be43ed3e1dfbe4ff999892f146498bea73953d34f44e8e9bf2faaa8e"
+  }
+}
