@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "commit": "3ed53e49c956dae1808c77844ab102d5eef2d27b",
+  "zip_url": "https://github.com/ennayriomar/newpr/raw/3ed53e49c956dae1808c77844ab102d5eef2d27b/safal_tuned_20261014.zip",
+  "report_url": "https://github.com/ennayriomar/newpr/blob/3ed53e49c956dae1808c77844ab102d5eef2d27b/results/safal_tuning_20261014/report.md",
+  "verified_tree_blobs": 383,
+  "public_zip_bytes": 24860064,
+  "public_zip_sha256": "641b89b40c5ffb78c0f9a0551c876fba3746f781965c6e0516ec789954848879",
+  "zip_crc_and_internal_manifest": true,
+  "public_archive_parts": 44,
+  "public_archive_bytes": 365702061,
+  "public_archive_sha256": "d34212fd98d98fb036208f22e63619b6814105567412580cc932de439c1141a2",
+  "archive_assembled_hash_verified_without_duplicate_disk_copy": true
+}

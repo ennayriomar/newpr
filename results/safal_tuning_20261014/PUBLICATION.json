@@ -1,0 +1,27 @@
+{
+  "status": "published",
+  "repository": "ennayriomar/newpr",
+  "commit": "3ed53e49c956dae1808c77844ab102d5eef2d27b",
+  "initial_parent": "452de23acb6c268bf4c5052eb1092a9c05988dc9",
+  "push_commits": [
+    "3ed53e49c956dae1808c77844ab102d5eef2d27b"
+  ],
+  "uploaded_files": 383,
+  "prior_artifacts_preserved": true,
+  "prior_tree_hashes": {
+    "results_archive": "f3e902028a491ac5e020bb2853e5da63819691f7",
+    "results/safal_full_model_archive": "287773654ca6d06460ae9c0aaa120359bcc3027c",
+    "results/safal_training_20261014_archive": "3939d82171a2b6990a61fb7466b33db0d48a7091",
+    "results/safal_training_20261014": "7c17c0fde1839882e98100819e0767b46e60264c",
+    "trained_models/safal_20261014": "fc897701f2e149f3e863ed8c3e42ca9a571e04eb",
+    "safal_trained_20261014.zip": "e3e1ee24e2080b85922b04851bc593200fef8bbb",
+    "safal_full_model_v0.5.0.zip": "647013efcca3272983343cc2ab968b48c9b03ca1",
+    "safe_iad_full_code_v0.4.0.zip": "38866e9333749a599a3a41d3d7033d5a9cd48cb4",
+    "results/safal_full_model": "a5be16dc57510a75a0a5dbd6e40c9f338c9a696e",
+    "results/milestone3": "14af474c116238001139ed371c32332e8a322b72"
+  },
+  "force_push": false,
+  "zip_url": "https://github.com/ennayriomar/newpr/raw/3ed53e49c956dae1808c77844ab102d5eef2d27b/safal_tuned_20261014.zip",
+  "report_url": "https://github.com/ennayriomar/newpr/blob/3ed53e49c956dae1808c77844ab102d5eef2d27b/results/safal_tuning_20261014/report.md",
+  "archive_url": "https://github.com/ennayriomar/newpr/tree/3ed53e49c956dae1808c77844ab102d5eef2d27b/results/safal_tuning_20261014_archive"
+}
