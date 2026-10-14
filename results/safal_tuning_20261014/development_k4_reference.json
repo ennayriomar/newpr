@@ -1,0 +1,70 @@
+{
+  "run": "/tmp/safal_training_20261014",
+  "shots": 4,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "query_support_cases_per_method": 300,
+  "native_unique_queries": 100,
+  "methods": {
+    "fixed_avg": {
+      "records": 300,
+      "unique_native_queries": 100,
+      "support_draws": 3,
+      "correct": 240,
+      "accuracy": 0.8,
+      "anomalous_query_support_cases": 150,
+      "misses": 33,
+      "normal_query_support_cases": 150,
+      "false_positives": 27
+    },
+    "max": {
+      "records": 300,
+      "unique_native_queries": 100,
+      "support_draws": 3,
+      "correct": 230,
+      "accuracy": 0.7666666666666667,
+      "anomalous_query_support_cases": 150,
+      "misses": 26,
+      "normal_query_support_cases": 150,
+      "false_positives": 44
+    },
+    "safal": {
+      "records": 300,
+      "unique_native_queries": 100,
+      "support_draws": 3,
+      "correct": 243,
+      "accuracy": 0.81,
+      "anomalous_query_support_cases": 150,
+      "misses": 37,
+      "normal_query_support_cases": 150,
+      "false_positives": 20
+    },
+    "search": {
+      "records": 300,
+      "unique_native_queries": 100,
+      "support_draws": 3,
+      "correct": 231,
+      "accuracy": 0.77,
+      "anomalous_query_support_cases": 150,
+      "misses": 39,
+      "normal_query_support_cases": 150,
+      "false_positives": 30
+    },
+    "subspace": {
+      "records": 300,
+      "unique_native_queries": 100,
+      "support_draws": 3,
+      "correct": 230,
+      "accuracy": 0.7666666666666667,
+      "anomalous_query_support_cases": 150,
+      "misses": 43,
+      "normal_query_support_cases": 150,
+      "false_positives": 27
+    }
+  },
+  "hybrid_dev_miss_ceiling": 33,
+  "native_parameter_selection_scope": "Previously observed development labels permitted; fresh verification IDs excluded."
+}

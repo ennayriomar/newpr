@@ -1,0 +1,13 @@
+/workspace/.cache/dinov2-source/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/workspace/.cache/dinov2-source/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/workspace/.cache/dinov2-source/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+{
+  "decision": "normal",
+  "image_score": 0.7129419708265692,
+  "image_threshold": 1.0,
+  "parameters_id": "845e969b4eba153a57b0a1c0c1b4f295f46b040c82c921bdf40d53dea5c87c57",
+  "maps": "/tmp/safal_tuning_20261014/fresh_inference_probe/prediction_maps.npz"
+}

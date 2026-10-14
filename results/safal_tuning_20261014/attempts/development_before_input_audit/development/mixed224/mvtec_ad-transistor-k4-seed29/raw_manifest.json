@@ -1,0 +1,386 @@
+[
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-000.npz",
+    "sha256": "a1d27cd81612d6860bca773b2d30aa613d7ee05c3ed35d636c2fd83f46c6818c",
+    "feature_key": "e0f2801d90625380bc3af3dd9d9f48cb5f4977fe47bc5232526bffaa152c3266",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/train/good/108.png",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-001.npz",
+    "sha256": "9ef35a0869261dd5ee45de7c648940a2152d6778a26654b0a558bcaa5b50089f",
+    "feature_key": "487be9ad133c94e9892c5e1ca019ade4abcdeec90d944bcab8c3021722ffc9ea",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/train/good/065.png",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-002.npz",
+    "sha256": "175456962164574c5e94f16360aa9fbd9b20b5eb754f9a64f1c3e6e8c3ab3569",
+    "feature_key": "4c66d6ae59348ad675d5ba17dff19b55961c3fe9ccc55559e30335b206253c78",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/train/good/030.png",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-003.npz",
+    "sha256": "2fce3bb444d10df7db0d7f7a699f5b3b1d2f75d1b3e41a9bef17abb2b8c8faaa",
+    "feature_key": "74f5124f47f4247f5e21cc170ea492f55f72dc0e9e8ecc1d4a1fe1e014cda479",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/train/good/054.png",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-004.npz",
+    "sha256": "f6adda96c11583dfb70c84c175f49b1ef465aeda3ebea0185851ffcbb88e2cc5",
+    "feature_key": "57cd13f8e3753f70afe4b4988c5ef46720ac42eb3fa80cad295bf13c561cdc6c",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/good/054.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-005.npz",
+    "sha256": "dfc64ee14b5173363af923fc0caca5578809e7bc96a3d95f75ea39d59fb1d3af",
+    "feature_key": "a13a0d80cccbce1288f686f330f93ff81988f98217748ee91d8ea42e2a8aae86",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/good/015.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-006.npz",
+    "sha256": "2bc0752d95719aada2b3578714a9bf53fbe525386ded4f59c824c334fbaef204",
+    "feature_key": "9316dcb16d46f42b8a8d27656b58564a095bbc7e5d1cf85356940f5892f3ffcc",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/good/058.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-007.npz",
+    "sha256": "4cdf49fc1ba3a2c8b6de27d556b5fc152de8f1be6a05ad40f88b9ad3bd238908",
+    "feature_key": "bc7aecaef90fb97ed73738694449e541e72d751c84e3690b94923e765e6384f0",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/good/037.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-008.npz",
+    "sha256": "56e774ca1a316fee628a80df44e08c1084691d154d1daa5e9f3a6784698a1041",
+    "feature_key": "87e09f7d5501f00ba131d6188828c9a647ad67f4b80d8844e780a2da88764a56",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/good/004.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-009.npz",
+    "sha256": "f1389e244dbb0e45a32386f96527e0281be18dc91732c672fc12e15bf082b1c1",
+    "feature_key": "8daf75d0bbc444b60ac9a51d8cc741da9dfb2ba7f698c2edfbb7e04f04532e6a",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/good/018.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-010.npz",
+    "sha256": "592fbdce394c0ddec2d5c53bacda366a3efaeb8430598c9c3f6be594e9073bbb",
+    "feature_key": "0fd0bd06aeff0ecb4c41fa11ae622da347933dfb20a2d0694e90201e92be6c64",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/good/025.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-011.npz",
+    "sha256": "a2b1498cb02f0f98efb14e31b375763c42b9a1bc3d2ea6e9113056d93353d4f2",
+    "feature_key": "49a7cf538573c72bc60e21079b3a234f0dd1ca003e1e473fd499412245001838",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/good/040.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-012.npz",
+    "sha256": "0e057ab6e1bde0cd485cf0feb5449377cd2e69046982e053e03a5368cfc77073",
+    "feature_key": "424fcb5f45595857062e29904f4cc8b99a160820fb7a57ebe87304439fc4dd1a",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/good/051.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-013.npz",
+    "sha256": "f7827478001be4e673ce0399b558fba90873c434d4ad4fd137d438a1de56fb75",
+    "feature_key": "590a534eaa70acdf17bd865cce8819345614e10bb77a983fb2c7b4c59d66f04a",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/good/048.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-014.npz",
+    "sha256": "5d0a17e84db2fce2bf7a44201e2d62f7f8cbe2fe469b0365f38e15a8f2148317",
+    "feature_key": "173227faea10a98f1d959739ec7b4155b7e4fafdf88bec3e3ecb7d6255c4b1d5",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/cut_lead/007.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-015.npz",
+    "sha256": "a99d232a719879efd6132e086104ae0389a0c4397d907371e67fe93d11b863e7",
+    "feature_key": "65e29614bf0c726dfadd8307c0e69bb5ab72c10b2a3ac1490778ff366f1f1988",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/damaged_case/008.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-016.npz",
+    "sha256": "41c8126262c445f6a207092b05af52e4aeaf93b75927af21a8a78bc54df046a1",
+    "feature_key": "0e4ff96257a13817b16486dab4989e31e2cd871027c4c660fd376eca30dde380",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/bent_lead/009.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-017.npz",
+    "sha256": "3ffac824599fee3e1080bef45622d68c56fada056a230a999e059cfa48de572e",
+    "feature_key": "f095505f10a51742d7e2512acedbc28b0f35388556b8a7c48fa91c000ed7c14f",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/misplaced/003.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-018.npz",
+    "sha256": "08fbfd708caceff3a4fe30fef1b0929974058013691461a9d68babd6474644db",
+    "feature_key": "40322a92619f8554212a8d9f5c36f54a41f06a615440d27f454da74d2369e3da",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/damaged_case/003.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-019.npz",
+    "sha256": "19756aa5c6a35db7edb9373b5fe271bb3eb14a4a6cd47d02a11a23883e3bbd38",
+    "feature_key": "84aedb7942d33a8d4447074b6eb6f8369318aacfe668b468b88cadfe6d2ab44d",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/cut_lead/005.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-020.npz",
+    "sha256": "15c5ecb193af0694d5f9f03b43eaadabcf97d2878f9ad6131e357357015f572c",
+    "feature_key": "b3782393ffa7b18389f5dcb0ec127e3e5f2373ebf45c9bb84341c38ab9013108",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/misplaced/005.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-021.npz",
+    "sha256": "57e00f44bdaf5d9a7df0f243aeb594a4301f63d41422595d1fab5d88b2237911",
+    "feature_key": "6799e0ea8ecfb2fe811b681a0f849ebca55dd4f1938d6ec2c7e0e498bc50f904",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/bent_lead/001.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-022.npz",
+    "sha256": "7f4330e6b1db079ed70c2eaa11a0c0068d6c4af16806961e0635f577a630a1ca",
+    "feature_key": "a1d37ed230c0f18060332bde7413d874d361535faa5837fa5688eff65103927b",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/cut_lead/006.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-transistor-k4-seed29/raw-023.npz",
+    "sha256": "d25d469e7f01264b87c22fecc8a7b8d3f1e3b0c873c6984d04cbb665a3093662",
+    "feature_key": "27df9f1c6d3cc0b4157a8d9c247963a749e5f2306fac8b7de4f02fe5f345523f",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "transistor/test/cut_lead/002.png",
+    "role": "development_query"
+  }
+]

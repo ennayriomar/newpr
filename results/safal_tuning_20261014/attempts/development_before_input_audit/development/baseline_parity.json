@@ -1,0 +1,12 @@
+{
+  "max_abs_score_delta": {
+    "original": 0.0,
+    "fixed_avg": 0.0
+  },
+  "correct": {
+    "original": 243,
+    "fixed_avg": 240
+  },
+  "matched_shots": 4,
+  "total_cases": 300
+}

@@ -1,0 +1,386 @@
+[
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-000.npz",
+    "sha256": "da2ce1beee13c6e84946ce98aaba564cc50b4e03b8f3a5b3a7bd1800da4be19d",
+    "feature_key": "4c4aa73d1957cc685a93302d18d87afb6ed40b4384e8d651620262277cdc88a2",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/train/good/187.png",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-001.npz",
+    "sha256": "b1db80ca643628ef80ba84fa507d3ed3e45f5d4682e11e69fb92d5f8ebfc8651",
+    "feature_key": "fdab34edc2ea936d93bc91405bc549260916f67d366f20cb70be96c32e84ead3",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/train/good/073.png",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-002.npz",
+    "sha256": "a5ca1a64a495132169122ba4b1a8456c85ae8eab2714edcaf645ada1a978f011",
+    "feature_key": "d72e0fe2db84297d35239cdfa471614ce3ae6ec0f8a2b0002588bf56000a0228",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/train/good/197.png",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-003.npz",
+    "sha256": "ab645dedba1043ff48d3619c9a5aa6ba5273ac62bbe6ed4de2149b5a1e5ab158",
+    "feature_key": "284d5c2b3b32cbe512e93aab757d876ee091cbdf59f6638d674de7524bb1ff73",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/train/good/030.png",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-004.npz",
+    "sha256": "382e3774e032075931b58fbba0c2cac8b4d0ecb394b29d2473c0d2b11ac78115",
+    "feature_key": "3a4c10f52bae29ec494d882975a61649afc0f912ea4d2e2dcbd06d47972ec9ed",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/good/053.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-005.npz",
+    "sha256": "130c0749631f4a726db758eb42f66fda435722794a2e1ed833bd15d38fa942de",
+    "feature_key": "ea2b20699a0f8145e2a38c51810dd3ee083a46050b8ff5b30965920e8dd35f61",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/good/039.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-006.npz",
+    "sha256": "f2b3ab75a339f3fbf23f90b3513aae15b8b3006ce524bb1e4d65082201719868",
+    "feature_key": "63c7d147554f0f95e52e89a44ff70688aa031b10b321b10cdf68f1cd1393b7a1",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/good/043.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-007.npz",
+    "sha256": "b64da261c8d61f2e3c793000096244fff4b82b9fb9b3c21ebd7b8458d63ae22a",
+    "feature_key": "a3625a4d43e6a656a01cde3fbe427dea35b69344da96deac148806cc15826c19",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/good/004.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-008.npz",
+    "sha256": "bacf80aeaa70701eb34637d3c44916201f3c5d9fec2806be3b43f7da52f04831",
+    "feature_key": "6c0b68aa0fb46908f8b9dfc4d5d1aa5c40c4a33a40aed8a17b792f384e3eef14",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/good/035.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-009.npz",
+    "sha256": "53c36cff59d82de4798dbe2dc8149f95186ee4385689bc8ed85eb3884189676a",
+    "feature_key": "1bf4d14f12c65ec11cce0ff2b356ab1c7861c2a67098a2084428f5e5a68c0539",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/good/021.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-010.npz",
+    "sha256": "0c2ac554c62497db52cd7790613f81d0a8e7e7a22717b432a22ac3fbce823705",
+    "feature_key": "b12dfcb062711891be8476f849b299c91d50b2c13ad4870b5b7cb65cc2a59361",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/good/038.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-011.npz",
+    "sha256": "3385c22bdd20e0c9502a1269b919905895faeb66055b2fcbc9a025b223f9a56a",
+    "feature_key": "52093105e49fec4a1a3df972b90dd5c7f1bbf77ed93f6478950c54646638aa8b",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/good/000.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-012.npz",
+    "sha256": "072b1faeb120cb9f37f4afa1ac0357a6eca7f7e8cc857082744660189de55652",
+    "feature_key": "962e95641edd2e0eb7d73753dbc8d3af44c8942c04a6a97c6afa5f68e0917a9b",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/good/023.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-013.npz",
+    "sha256": "caf4559d2e5960be4b795dade697cdc6f4c434e55ba24be815cda92539c5f1c2",
+    "feature_key": "7289d04bad783a22ed37d885d5b6e09f49e1ee291b0af05932d572021c46b840",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/good/013.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-014.npz",
+    "sha256": "6bb367233a82859644823879da54e7a8bfe08728b604acfafe53b8d2e19a0c47",
+    "feature_key": "7fde01a6f54e6a9331538acf717074ba9d10a314575648cb5498aa131e83da03",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/cut_inner_insulation/005.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-015.npz",
+    "sha256": "06e9819049d5667b343401ac1c9b26ec8ec68709f9005222e47437a748c2bf05",
+    "feature_key": "752f29562d22976a3dec09e231429da7ff7010cdee04276dfdddbe68d13ae0f0",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/cut_inner_insulation/002.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-016.npz",
+    "sha256": "a8f63785699b5247c1e9f859f61b2b1d75e4d1aa1238b3a761bbb8c10db952bb",
+    "feature_key": "5bc8fd25c2d790ec218a93964e706ca14fc4819e077c109e1f465f6846d080cb",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/cut_inner_insulation/001.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-017.npz",
+    "sha256": "5d066fcf7bef979ff4cbb1ddc34bf321955e505522c47c30e9422f2020959b64",
+    "feature_key": "c1cc6314bf31a14093c60dbafbaa11a362bf4fadb67ce0468a2006b2d4a9ea61",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/missing_wire/002.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-018.npz",
+    "sha256": "0a90588060010333ac382201b644dfc29175c579810c54cde866d4fdcd11fe34",
+    "feature_key": "2197e347499865bf32c463c4aeef8cd2ce452b29193a376340b849167282aa6e",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/bent_wire/006.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-019.npz",
+    "sha256": "3e58b143f2076acc6a0137b3b003388493b6caf6ded9e41335cb5c84a5c2dfb0",
+    "feature_key": "771f2da51ecfd9f189a38a6f3c608391a89c6b31cd4fd4e235daeb592b49c126",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/missing_cable/009.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-020.npz",
+    "sha256": "2f909fb0f3a5a1466c664a155403395e68f53cd5bff191e6b7df3aad6c7c04b4",
+    "feature_key": "ef50e631c9bf067943d254512a3c57cb930c02e8876acc45edb7f10e132862c3",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/combined/008.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-021.npz",
+    "sha256": "efea9b606904e0fe90481457eed30ae2c56a9df0cce7c1d67813b7b34e90b110",
+    "feature_key": "6ffe53ffb4cb7f9f8af430f916c0f535610012896dc28e3dfcbfd535845fb716",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/cut_inner_insulation/000.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-022.npz",
+    "sha256": "2f538ae930194f22156389f0ffc313b28cb59c24adef114989a8a54b5a997e80",
+    "feature_key": "1532649cdc1306bae8b9f10f683a500d4a95af9a7c856464dad7c19228d7bdb7",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/cable_swap/006.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed336/mvtec_ad-cable-k4-seed29/raw-023.npz",
+    "sha256": "5747dcd6532783d7338702b89d8c9e50a280dec4f273fabbbe448a48b0e32330",
+    "feature_key": "5ab85d1398232e1a896c305f84798bd45989b35ebd34b1fa223831ca14ab8076",
+    "grid": [
+      24,
+      24
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "cable/test/cable_swap/007.png",
+    "role": "development_query"
+  }
+]

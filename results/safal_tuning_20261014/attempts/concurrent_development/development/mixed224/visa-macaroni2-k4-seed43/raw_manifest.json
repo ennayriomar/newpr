@@ -1,0 +1,386 @@
+[
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-000.npz",
+    "sha256": "5c54ec5cd6a049fb7d2c2813aed2ffdb71024916ae9d30254a58a266d577f565",
+    "feature_key": "ecde96d332c7cfb4ccbcc90ab69fe33e15b5fa664841e38431ee9674e332e26d",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Normal/0131.JPG",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-001.npz",
+    "sha256": "627f25a751993ecf9156ddb93dce1b8d3868b7829d2970c49b0505272add6ae9",
+    "feature_key": "f888fdcf6ab8e4f9a87a1e4f8c476b085940cf88beb41fd23be28b8b4c04e50b",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Normal/0957.JPG",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-002.npz",
+    "sha256": "12262b51c41bc745b46f404e7b5eceb458ba548ba3e36219670c25d3a954df7b",
+    "feature_key": "9bfec2bcd690249c80ecebc0b6ac650f0a1f70122b9e92705235f8c02d2cb9c7",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Normal/0647.JPG",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-003.npz",
+    "sha256": "2526320dfb5c2b5dce19a1593d35c89e9fbc1ba64c7171cd8c3235c3f40a47d3",
+    "feature_key": "b7307ed5967380bbbf32eec76911c60e33a6c2740ce498ca7b907a7fce4174b6",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Normal/0096.JPG",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-004.npz",
+    "sha256": "3b4245f170ada1fff5f54f6749be12752fe5fa52b354ced6217f527f58ed9cf3",
+    "feature_key": "b7c674d27aba51e572f3ea60a4adb87eb03ce4008fc510c1b2902a513e6cba3e",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Normal/0100.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-005.npz",
+    "sha256": "a365daaf4a91161e441243b8c91c56c0dec8746cd2115252217dd5b6a7d84b03",
+    "feature_key": "f7937a069fec64336eff252ce0f5652c663fa39f5f21c0286f31a54133af1c19",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Normal/0552.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-006.npz",
+    "sha256": "1c85d997158dc5e8569cde11da934e0c484e813fb16c7524b4183b7e46b0bfd2",
+    "feature_key": "32a696f8e73c8a959a6ce0b63ec660271f91dcb1b5947915b9de166103a265a2",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Normal/0525.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-007.npz",
+    "sha256": "bc4b24563451931e06965d851f827169d49959e82e05753dbe3c518dad3a68f4",
+    "feature_key": "bb2c3d8cfc061a7d4c53b9fcae4bb9837d2fc1562dddbaa983c55744a05531ee",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Normal/0953.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-008.npz",
+    "sha256": "2f1b6fd471aebcb4eb0259e3a37464a0b6f620c2f11cebb4fc225c70dd6e9a83",
+    "feature_key": "21f854c9bbf08f10d273a6d7103a5d115938ce24e201b848c977633a7b0f54e1",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Normal/0751.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-009.npz",
+    "sha256": "bb5625eebe0c63ecb4de364e4f6affad3c3dfb2819b745dbf878829a15b1baa2",
+    "feature_key": "5afc01291f789ab51f903e1953831a1bd62ef3e0e94ee5e8f06cb8e6c9e74b8e",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Normal/0011.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-010.npz",
+    "sha256": "b182cd6b639b0a984aad44891920fa59ac5c572ff3da4d936c70d90b6b7de238",
+    "feature_key": "e83f6ef8bfd4ccf50f0c50006edbd9ee4379a6161c2e755ed750efd8bbd74c5e",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Normal/0363.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-011.npz",
+    "sha256": "65b2ac59fceb85de5f978eb5460788aaa6a51b91681135271e6c9353d4e54819",
+    "feature_key": "97ff630e24b18401243eb402f5b89e81cf261fe9c52055fb4505fbe7559a575e",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Normal/0488.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-012.npz",
+    "sha256": "b3b8d86226a3fc0b83dc5afd532feb0d11f3ab3d99f7f0e6a94225048c5c650b",
+    "feature_key": "035b0597795a77ea0c1d9e9b74944910e3caac2fe441990af5e1bc1b6846e929",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Normal/0520.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-013.npz",
+    "sha256": "8cb0993d29986d39b395b97c3da0255be07709033a1d480dfc655f0c021c304b",
+    "feature_key": "3058aee8780a448fe6d5d2c557ac17827c2fb36a8b805e7786502ae6557a5c8b",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Normal/0427.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-014.npz",
+    "sha256": "0379bd3d244f7e2f11dfa5979b1cd0221e095b28934ddd6572093322441b52a8",
+    "feature_key": "c1d2dc623e9cf0e8176186b09a7e7527ac1ef963ea094afb6e54eff02652b165",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Anomaly/073.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-015.npz",
+    "sha256": "b79b813ec19d83117f4793789bc269a0c3f1e7b7bad91606c15ca6743fded731",
+    "feature_key": "76b452229ae0fb81e3445dd8ef8a0f38a1b0e0e51b4aa8a60646eab0a71132a0",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Anomaly/057.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-016.npz",
+    "sha256": "84d8f52f89e4ee12e3ba9e39d067a7a00d8147129658a355b5ce9a382455dfbf",
+    "feature_key": "1a8b82337079b033d1f3e8d6a65f7d06cf4de4fb283307c926444c7ba350b561",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Anomaly/034.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-017.npz",
+    "sha256": "83b8028ccb5ed77068454dec6ed61546b68ac6937c8fc53f3529418ca752256f",
+    "feature_key": "122e8cebf816e2f1023d657166705d28ec75bd93192555eeaf808c003a05631c",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Anomaly/052.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-018.npz",
+    "sha256": "6eb54ccc6930cbeb9c98c9b93754eab9c2bbf7154c9d60b18b8b22b6d33fbebf",
+    "feature_key": "d02108b2a482ef7d9c464da2f99202f1c19b489318f2c6cefe9de9499f70761f",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Anomaly/028.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-019.npz",
+    "sha256": "26544a29720a21abdf0de41e50121bd792f07120905a4054a228f52cb30bc5d8",
+    "feature_key": "7aca25d4f64ef4fee3f502617dddb88b1f8bece6c66b41c30cbada018e4331be",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Anomaly/087.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-020.npz",
+    "sha256": "e2b57dbbb6f28caf44ae29e42f44c7c3a0802552165a5c2c49d97ab5d17cf8f5",
+    "feature_key": "69b49661dfc7316a496c7763a9e55bfab317a04886798a28bb0c77ddcf96408a",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Anomaly/018.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-021.npz",
+    "sha256": "a7c435926696d4254ff967317e6ba3dddedf34edf0944ce4970de9627e98a9fb",
+    "feature_key": "e80cec32d7cdf42e72ebdbd1c8e4a932d96d8057229c1f1c8846355a3718321c",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Anomaly/089.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-022.npz",
+    "sha256": "515fcf72c8857652804f705d5f12e308d2b1f7d66303ce3539814db59bca3341",
+    "feature_key": "9855132fd695264986880f1940778b069f88f1196036e4d3ce357afb66356985",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Anomaly/038.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/visa-macaroni2-k4-seed43/raw-023.npz",
+    "sha256": "d0b654e19291906fe89a50af2530b32c4273f19c46a22660c6c463a445ed0eb1",
+    "feature_key": "196ded4f2f20b5a642c0cee1592af9d18f448f3757f759adf98bc6ada4cb485f",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1500,
+      1000
+    ],
+    "raw_dtype": "float64",
+    "image_id": "macaroni2/Data/Images/Anomaly/024.JPG",
+    "role": "development_query"
+  }
+]

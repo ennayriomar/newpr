@@ -1,0 +1,301 @@
+{
+  "archive": "safal_tuning_full_results_20261014.zip",
+  "archive_files": 3673,
+  "bytes": 365702061,
+  "fitted_model_bank_scope": "primary completed run only; superseded attempts counted separately",
+  "fitted_model_banks": 15,
+  "metric_map_files": 300,
+  "native_dataset_images_or_pretrained_weights": false,
+  "part_size": 8388608,
+  "parts": [
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part000",
+      "offset": 0,
+      "sha256": "1c35edffa858d51ea77a27fe81ca97614dc265c1d7c40b44258e5c9c248836ff"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part001",
+      "offset": 8388608,
+      "sha256": "e561badaf052b31e638e29fc6fe6e5ffdc7b9e4f8ff0fa0223bed96f75a9c2c8"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part002",
+      "offset": 16777216,
+      "sha256": "c907ef993d51f54783f018a0c0735ac922b61769bb555ba231a4421a96c95a73"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part003",
+      "offset": 25165824,
+      "sha256": "0444dbbf506294227f842d884e071520d060662af588608c2e1ea0b589702273"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part004",
+      "offset": 33554432,
+      "sha256": "b504cd70e9efd996a13fb0354f6b25c0a1f84a5449504700cac9498c3c574d0f"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part005",
+      "offset": 41943040,
+      "sha256": "5171ce8dcb9280795143b39ef557d3c4c4e22d0db88ddf83109beb9dbde3d6f5"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part006",
+      "offset": 50331648,
+      "sha256": "8db0209dc946fddafb80a28b7b0f64aae0cd4227feb99a8fb2d429d279c22713"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part007",
+      "offset": 58720256,
+      "sha256": "8ee148dc35e3116a3fd23d0861560b7c557b0816548015f16500bc4a0f026ecd"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part008",
+      "offset": 67108864,
+      "sha256": "7ee223027c75bff98967d0556bd261762578c0f3f9bca8de6001ed2af030de5b"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part009",
+      "offset": 75497472,
+      "sha256": "b5a02a2b63dd6ab5fb828f6daac37c3dda9abfd9b290a5c4495932e3ff72bae6"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part010",
+      "offset": 83886080,
+      "sha256": "daf311ebcaf805fc50e0d59427b83decc279f19ee4b705ee74b7ba9db649f780"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part011",
+      "offset": 92274688,
+      "sha256": "7dafde16ec74c47e6565e10dd99cea484d480a63a6bf814f2d9e62bfeb9c339d"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part012",
+      "offset": 100663296,
+      "sha256": "44321fa902a404e075ef404544acf479b5e9da261a94adad24a23ba5ab041d2d"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part013",
+      "offset": 109051904,
+      "sha256": "8aa42e7767c368ec155ed5416d8b2eaa9db821abf52720dbe513f468e6ee0f2d"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part014",
+      "offset": 117440512,
+      "sha256": "f0d627002769cb6f6d275fde2d567673d1a3f75e45c84e40be3a1b7f50b086ef"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part015",
+      "offset": 125829120,
+      "sha256": "ec16af5182cd228071037614983d57e764ef713879151ebca7570ecc7ec8c063"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part016",
+      "offset": 134217728,
+      "sha256": "2096cedcb041f529a4b2e987ada1591709e98d61ac0696baad0032e7cfa728b8"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part017",
+      "offset": 142606336,
+      "sha256": "2b46de31e0257830b421ccc5091707363b2709d044d8bdeda81c0feba10bba13"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part018",
+      "offset": 150994944,
+      "sha256": "31e7b89b5a1189fe15d12ae89461dfe0dfdeeb0fdaf605092eb23eed99cfc545"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part019",
+      "offset": 159383552,
+      "sha256": "f93d63e3c18387e2233f2035cbbe004576934996de6073cd1aa04c7afe9595ad"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part020",
+      "offset": 167772160,
+      "sha256": "29d952b80d18ac00df0095a0273abc79ce4d6fdeb9c45d017950eddfc3549422"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part021",
+      "offset": 176160768,
+      "sha256": "95447afbf10e5fe1d677c0cd012e49bed65922d5a59e371ae35e2857cd8cd286"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part022",
+      "offset": 184549376,
+      "sha256": "6f6d044bbc1097a8670dd5de511ce2cb7311cae7c25de91c679182352e805602"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part023",
+      "offset": 192937984,
+      "sha256": "a3bc143a171788fdb9d612c31ffbbdbe8bfa4d278feeaf5d80611ab60715d7f8"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part024",
+      "offset": 201326592,
+      "sha256": "a77f83bcc5a5d98205527528ac7d5cd9c5d828b38597d5942f0a1e5188878551"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part025",
+      "offset": 209715200,
+      "sha256": "d506649851c66c02d866f82682dba0bc6ee900ca48ce0a95a8e00c6177a33174"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part026",
+      "offset": 218103808,
+      "sha256": "02e6fb1c5007c1650897bdc8fc1f1b91572d5ad9d103ef46511f456a1972bf22"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part027",
+      "offset": 226492416,
+      "sha256": "fa42c02b9912cf9680d8b6f661ec8b5154123f8de37765ab716f036cc8effecb"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part028",
+      "offset": 234881024,
+      "sha256": "3d9d33679f09aa2a9fecf7a5538d2bc7032a18afbd55f5a1a664ebd9e467b95b"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part029",
+      "offset": 243269632,
+      "sha256": "9bbf8632d61fb3decb71e9e40ba50a5be9c3b23b39537a82b146a911f14e6f5c"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part030",
+      "offset": 251658240,
+      "sha256": "5a31fd02bdec51118fd0077789591953ceb6b602c21af76bb62974a5a1c589c7"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part031",
+      "offset": 260046848,
+      "sha256": "80d78831c6696e433538cea2f5f2cf0087a488c0ad747d973c81c5ee30eb2948"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part032",
+      "offset": 268435456,
+      "sha256": "8a679275db738903492e90907a9323a8cbba2b4c4916f460f26257b23dc9680e"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part033",
+      "offset": 276824064,
+      "sha256": "2ba0057f6ba31bbfcd280d66eec73d27585393e17a3e10e3ae7860d8c2e3ac0c"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part034",
+      "offset": 285212672,
+      "sha256": "92f3161f4e17da358eef2934e0ee808b8fdbe57daa823c0bdb541c8d6df10ca4"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part035",
+      "offset": 293601280,
+      "sha256": "784ec14ee004ddb8f399cfbbe6e1af90244c96dffb410b28e1d71e54b1e2f204"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part036",
+      "offset": 301989888,
+      "sha256": "2fa76b8302fce2c550db43b4c2fdc962481385c300d87d5fae4d81138f8ebda5"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part037",
+      "offset": 310378496,
+      "sha256": "7703c66bd8d7c56929f85536e8a9f8fffea879e89643a98e14f71d20f35bf33f"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part038",
+      "offset": 318767104,
+      "sha256": "f57af78e307415c7edab5d70ad48f637654f5bc51366df88da877c1cd2a6a0d3"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part039",
+      "offset": 327155712,
+      "sha256": "3ccd21766dc25145b1c17f2193d860caf86b81ff911b7778f195e6601ece0e59"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part040",
+      "offset": 335544320,
+      "sha256": "1266da7607798f4e74c4006d344b46d611fa853355ff25f014fcbd3b5df04999"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part041",
+      "offset": 343932928,
+      "sha256": "ca3e5f09e1e2c810cd74905d919ecf6727664ca382fb5690466b38659f68d62e"
+    },
+    {
+      "bytes": 8388608,
+      "name": "safal_tuning_full_results_20261014.zip.part042",
+      "offset": 352321536,
+      "sha256": "5906d7b608b5eeca9c0c0234ae8631aac4cab0015e20ad89f3bf09db0d14000a"
+    },
+    {
+      "bytes": 4991917,
+      "name": "safal_tuning_full_results_20261014.zip.part043",
+      "offset": 360710144,
+      "sha256": "6affbcf6bcc66506a7cdef0f35a58f5693b75860f86d1ead6d418edd596b283d"
+    }
+  ],
+  "parts_stored_locally": false,
+  "primary_fitted_model_banks": 15,
+  "publication_note": "Stream each listed offset/length from the retained ZIP; physical parts are not duplicated locally.",
+  "replay_probes": 15,
+  "schema_version": 1,
+  "sha256": "d34212fd98d98fb036208f22e63619b6814105567412580cc932de439c1141a2",
+  "superseded_model_banks": 15,
+  "superseded_model_paths": [
+    "attempts/concurrent_development/models/mvtec_ad-cable-k4-seed17/model.npz",
+    "attempts/concurrent_development/models/mvtec_ad-cable-k4-seed29/model.npz",
+    "attempts/concurrent_development/models/mvtec_ad-cable-k4-seed43/model.npz",
+    "attempts/concurrent_development/models/mvtec_ad-hazelnut-k4-seed17/model.npz",
+    "attempts/concurrent_development/models/mvtec_ad-hazelnut-k4-seed29/model.npz",
+    "attempts/concurrent_development/models/mvtec_ad-hazelnut-k4-seed43/model.npz",
+    "attempts/concurrent_development/models/mvtec_ad-transistor-k4-seed17/model.npz",
+    "attempts/concurrent_development/models/mvtec_ad-transistor-k4-seed29/model.npz",
+    "attempts/concurrent_development/models/mvtec_ad-transistor-k4-seed43/model.npz",
+    "attempts/concurrent_development/models/visa-macaroni2-k4-seed17/model.npz",
+    "attempts/concurrent_development/models/visa-macaroni2-k4-seed29/model.npz",
+    "attempts/concurrent_development/models/visa-macaroni2-k4-seed43/model.npz",
+    "attempts/concurrent_development/models/visa-pcb2-k4-seed17/model.npz",
+    "attempts/concurrent_development/models/visa-pcb2-k4-seed29/model.npz",
+    "attempts/concurrent_development/models/visa-pcb2-k4-seed43/model.npz"
+  ],
+  "total_model_npz_files": 30
+}

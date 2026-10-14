@@ -1,0 +1,11 @@
+{
+  "additional_files_checked": 6192,
+  "native_measured_query_strings_not_in_locked_ledger": {},
+  "unresolved_count": 0,
+  "complete_download_inventory_only_native_IDs": 582,
+  "train_or_non_native_strings_ignored": 1801,
+  "known_exposure_ledger_unchanged": true,
+  "verification_query_lock_unchanged": true,
+  "prelocked_IDs_with_measurement_evidence_outside_ledger": [],
+  "evidence_classification": "VisA paths alone do not identify split: native metadata was consulted. Archive extraction listings and dataset online inventory manifests are availability evidence, not image measurement exposure. All remaining native test query strings in additional reports/logs were checked for missing measurement histories."
+}

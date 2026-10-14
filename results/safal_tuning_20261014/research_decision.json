@@ -1,0 +1,190 @@
+{
+  "status": "completed_research_candidate",
+  "supported_accuracy_improvement": false,
+  "production_upgrade_supported": false,
+  "reason": "Both conditional paired accuracy intervals include zero; selected accuracy is lower than fixed averaging, loses three fixed detections, and localization is lower than both controls. No further tuning uses verification labels.",
+  "accuracy": {
+    "fixed_avg": 0.7766666666666666,
+    "original": 0.7633333333333333,
+    "selected": 0.7733333333333333
+  },
+  "paired_accuracy_comparisons": {
+    "fixed_avg": {
+      "aggregation": "equal weight across the fixed sampled dataset/category strata",
+      "categories_resampled": false,
+      "confidence_level": 0.95,
+      "estimate": -0.003333333333333335,
+      "groups": [
+        {
+          "category": "cable",
+          "dataset": "mvtec_ad",
+          "estimate": 0.03333333333333333,
+          "interval": [
+            0.0,
+            0.13333333333333333
+          ],
+          "limited_replication": true,
+          "paired_rows": 60,
+          "support_draws": 3,
+          "unique_queries": 20
+        },
+        {
+          "category": "hazelnut",
+          "dataset": "mvtec_ad",
+          "estimate": -0.016666666666666666,
+          "interval": [
+            -0.06666666666666667,
+            0.0
+          ],
+          "limited_replication": true,
+          "paired_rows": 60,
+          "support_draws": 3,
+          "unique_queries": 20
+        },
+        {
+          "category": "transistor",
+          "dataset": "mvtec_ad",
+          "estimate": 0.0,
+          "interval": [
+            -0.08333333333333333,
+            0.08333333333333333
+          ],
+          "limited_replication": true,
+          "paired_rows": 60,
+          "support_draws": 3,
+          "unique_queries": 20
+        },
+        {
+          "category": "macaroni2",
+          "dataset": "visa",
+          "estimate": -0.05,
+          "interval": [
+            -0.15,
+            0.0
+          ],
+          "limited_replication": true,
+          "paired_rows": 60,
+          "support_draws": 3,
+          "unique_queries": 20
+        },
+        {
+          "category": "pcb2",
+          "dataset": "visa",
+          "estimate": 0.016666666666666666,
+          "interval": [
+            0.0,
+            0.1
+          ],
+          "limited_replication": true,
+          "paired_rows": 60,
+          "support_draws": 3,
+          "unique_queries": 20
+        }
+      ],
+      "interval": [
+        -0.03333333333333334,
+        0.030000000000000006
+      ],
+      "method": "paired crossed query/support percentile bootstrap",
+      "n_bootstrap": 2000,
+      "paired_input_semantics": "policy minus comparator per query/support draw; caller must preserve pairing",
+      "pixels_or_candidates_resampled": false,
+      "resampling_units": [
+        "query_id",
+        "seed"
+      ],
+      "scope": "conditional on sampled categories and observed query/support units; descriptive pilot uncertainty, not full-benchmark generalization",
+      "seed": 20261015
+    },
+    "original": {
+      "aggregation": "equal weight across the fixed sampled dataset/category strata",
+      "categories_resampled": false,
+      "confidence_level": 0.95,
+      "estimate": 0.01,
+      "groups": [
+        {
+          "category": "cable",
+          "dataset": "mvtec_ad",
+          "estimate": 0.03333333333333333,
+          "interval": [
+            0.0,
+            0.13333333333333333
+          ],
+          "limited_replication": true,
+          "paired_rows": 60,
+          "support_draws": 3,
+          "unique_queries": 20
+        },
+        {
+          "category": "hazelnut",
+          "dataset": "mvtec_ad",
+          "estimate": 0.0,
+          "interval": [
+            -0.1,
+            0.1
+          ],
+          "limited_replication": true,
+          "paired_rows": 60,
+          "support_draws": 3,
+          "unique_queries": 20
+        },
+        {
+          "category": "transistor",
+          "dataset": "mvtec_ad",
+          "estimate": -0.016666666666666666,
+          "interval": [
+            -0.1,
+            0.05
+          ],
+          "limited_replication": true,
+          "paired_rows": 60,
+          "support_draws": 3,
+          "unique_queries": 20
+        },
+        {
+          "category": "macaroni2",
+          "dataset": "visa",
+          "estimate": 0.0,
+          "interval": [
+            -0.06666666666666667,
+            0.06666666666666667
+          ],
+          "limited_replication": true,
+          "paired_rows": 60,
+          "support_draws": 3,
+          "unique_queries": 20
+        },
+        {
+          "category": "pcb2",
+          "dataset": "visa",
+          "estimate": 0.03333333333333333,
+          "interval": [
+            0.0,
+            0.11666666666666667
+          ],
+          "limited_replication": true,
+          "paired_rows": 60,
+          "support_draws": 3,
+          "unique_queries": 20
+        }
+      ],
+      "interval": [
+        -0.023333333333333334,
+        0.043333333333333335
+      ],
+      "method": "paired crossed query/support percentile bootstrap",
+      "n_bootstrap": 2000,
+      "paired_input_semantics": "policy minus comparator per query/support draw; caller must preserve pairing",
+      "pixels_or_candidates_resampled": false,
+      "resampling_units": [
+        "query_id",
+        "seed"
+      ],
+      "scope": "conditional on sampled categories and observed query/support units; descriptive pilot uncertainty, not full-benchmark generalization",
+      "seed": 20261014
+    }
+  },
+  "verification_used_for_parameter_selection": false,
+  "old_error_head_used": false,
+  "scope": "100 images within five development-exposed categories, repeated across three support draws"
+}

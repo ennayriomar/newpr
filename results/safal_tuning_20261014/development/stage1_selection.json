@@ -1,0 +1,75 @@
+{
+  "winner": {
+    "id": "845e969b4eba153a57b0a1c0c1b4f295f46b040c82c921bdf40d53dea5c87c57",
+    "params": {
+      "explained_variance": 0.99,
+      "normal_quantile": 0.9,
+      "aggregation": "top1",
+      "fusion": "fixed",
+      "search_weight": 0.75,
+      "image_threshold": 1.0
+    },
+    "eligible": true,
+    "feasible": true,
+    "accuracy": 0.8133333333333334,
+    "correct": 244,
+    "cases": 300,
+    "misses": 29,
+    "false_positives": 27,
+    "losses_vs_original": 0,
+    "losses_vs_fixed": 0,
+    "mean_image_auroc": 0.8966666666666666,
+    "changed_parameters": 3,
+    "feature_id": "mixed224",
+    "feature_changes": 0
+  },
+  "unconstrained_best": {
+    "id": "48072ed055e01e35639d4c81f85e6a0e44b0a90c91a483cf226fe671a32025fd",
+    "params": {
+      "explained_variance": 0.995,
+      "normal_quantile": 0.9,
+      "aggregation": "top1",
+      "fusion": "adaptive_original",
+      "search_weight": 0.5,
+      "image_threshold": 1.0
+    },
+    "eligible": true,
+    "feasible": false,
+    "accuracy": 0.8166666666666667,
+    "correct": 245,
+    "cases": 300,
+    "misses": 34,
+    "false_positives": 21,
+    "losses_vs_original": 0,
+    "losses_vs_fixed": 4,
+    "mean_image_auroc": 0.9013333333333333,
+    "changed_parameters": 2,
+    "feature_id": "mixed224",
+    "feature_changes": 0
+  },
+  "best_endpoint_control": {
+    "id": "0facf350acc71a6296e2faedd75929c02a727f14cfeb17d8e69d0eecb4f65472",
+    "params": {
+      "explained_variance": 0.995,
+      "normal_quantile": 0.9,
+      "aggregation": "top1",
+      "fusion": "fixed",
+      "search_weight": 0.0,
+      "image_threshold": 1.25
+    },
+    "eligible": false,
+    "feasible": false,
+    "accuracy": 0.7866666666666666,
+    "correct": 236,
+    "cases": 300,
+    "misses": 59,
+    "false_positives": 5,
+    "losses_vs_original": 24,
+    "losses_vs_fixed": 26,
+    "mean_image_auroc": 0.856,
+    "changed_parameters": 5,
+    "feature_id": "mixed224",
+    "feature_changes": 0
+  },
+  "feasible_hybrids": 294
+}

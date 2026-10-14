@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "previous_run": "/tmp/safal_training_20261014",
+  "development_manifest": "/tmp/safal_training_20261014/manifest.json",
+  "verification_query_lock": "/tmp/safal_tuning_20261014/verification_query_lock.json",
+  "verification_query_lock_sha256": "52a908c1c5d30bba2e4c07e84b07c359fb579b97bc79fe1d5b38d4eaa36389b8",
+  "known_exposure": "/tmp/safal_tuning_20261014/known_exposure.json",
+  "roots": {"mvtec_ad": "/workspace/datasets/mvtec_ad", "visa": "/workspace/datasets/visa"},
+  "encoder": {
+    "source_dir": "/workspace/.cache/dinov2-source",
+    "checkpoint": "/workspace/.cache/torch/hub/checkpoints/dinov2_vitb14_pretrain.pth",
+    "threads": 3
+  },
+  "feature_configs": [
+    {"id": "mixed224", "resolution": 224, "layers": [2, 5, 8, 11], "cache_root": "/tmp/safal_training_20261014_feature_cache"},
+    {"id": "late224", "resolution": 224, "layers": [8, 9, 10, 11], "cache_root": "/tmp/safal_tuning_feature_cache"},
+    {"id": "mixed336", "resolution": 336, "layers": [2, 5, 8, 11], "cache_root": "/tmp/safal_tuning_feature_cache"}
+  ],
+  "grid": {
+    "explained_variance": [0.9, 0.95, 0.99, 0.995],
+    "aggregation": ["top1", "max"],
+    "normal_quantiles": [0.9, 0.95, 0.99],
+    "fixed_search_weights": [0.0, 0.25, 0.5, 0.75, 1.0],
+    "other_fusions": ["adaptive_original", "adaptive_reversed", "max"],
+    "image_thresholds": [0.5, 0.75, 1.0, 1.25]
+  },
+  "selection": "One global hybrid; maximize development accuracy subject to zero detected-to-missed cases vs both matched baselines",
+  "paper_basis": {
+    "SubspaceAD": "https://openaccess.thecvf.com/content/CVPR2026/html/Lendering_SubspaceAD_Training-Free_Few-Shot_Anomaly_Detection_via_Subspace_Modeling_CVPR_2026_paper.html",
+    "VisionAD": "https://arxiv.org/abs/2504.11895",
+    "recipe": "Independent modified common DINOv2 ViT-B/14 backbone; not faithful reproduction of either paper's larger model/augmentation recipe"
+  },
+  "old_error_head": null,
+  "pixel_threshold": 1.0,
+  "smoothing": "not run; localization only in cited recipes",
+  "claim_scope": "100 image holdout within five development-exposed categories; not a full benchmark"
+}

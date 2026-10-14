@@ -1,0 +1,93 @@
+{
+  "actual_relocated_inference": {
+    "absolute_score_difference": 0.0,
+    "bundled_manifest_verified_source_used": true,
+    "cwd": "/tmp/safal_tuning_release_20261014/safal_tuned/tools",
+    "decision": "normal",
+    "exact_score_claim": false,
+    "exit_code": 0,
+    "fresh_frozen_tokens_bitwise_equal": true,
+    "image": "cable/test/good/026.png",
+    "image_score": 0.7129419708265693,
+    "native_finite_float32_fields": 9,
+    "native_shape": [
+      1024,
+      1024
+    ],
+    "old_probability_head_attached": false,
+    "output": "/tmp/safal_tuning_release_20261014/bundle_inference_probe",
+    "score_atol": 1e-12,
+    "verification_score": 0.7129419708265693
+  },
+  "archives": {
+    "safal_tuned_20261014.zip": {
+      "actual_reporting_scope": {
+        "accuracy": {
+          "fixed_avg": 0.7766666666666666,
+          "original": 0.7633333333333333,
+          "selected": 0.7733333333333333
+        },
+        "accuracy_gain_established": false,
+        "both_comparison_intervals_include_zero": true,
+        "development_exposed_categories": 5,
+        "loss_gain_vs_fixed": [
+          3,
+          3
+        ],
+        "loss_gain_vs_original": [
+          0,
+          7
+        ],
+        "verification_unique_images": 100
+      },
+      "all_member_crcs_verified_by_complete_reads": true,
+      "bytes": 24860064,
+      "compact_banks": {
+        "categories": [
+          "mvtec_ad-cable-k4-seed17",
+          "mvtec_ad-hazelnut-k4-seed17",
+          "mvtec_ad-transistor-k4-seed17",
+          "visa-macaroni2-k4-seed17",
+          "visa-pcb2-k4-seed17"
+        ],
+        "fixed_choice": "k4/seed17",
+        "model_blob_feature_current_source_and_parameter_hashes_verified": true,
+        "old_error_head_omitted": true,
+        "support_plus_calibration": 8
+      },
+      "current_framework_files_byte_identical": 107,
+      "entries": 574,
+      "images": "Report/upstream documentation illustrations; no raw dataset images or backbone weights.",
+      "license_notices_present": [
+        "vendor/anomalydino/LICENSE",
+        "vendor/dinov2/LICENSE",
+        "vendor/dinov2/LICENSE_CELL_DINO_CODE",
+        "vendor/dinov2/LICENSE_CELL_DINO_MODELS",
+        "vendor/dinov2/LICENSE_XRAY_DINO_MODEL",
+        "vendor/dinov2/dinov2/thirdparty/CLIP/LICENSE",
+        "vendor/subspacead/LICENSE",
+        "MODEL_ARTIFACT_NOTICE.md"
+      ],
+      "manifest_files_checked": 573,
+      "sha256": "641b89b40c5ffb78c0f9a0551c876fba3746f781965c6e0516ec789954848879",
+      "trusted_vendor_entries": 158
+    },
+    "safal_tuning_full_results_20261014.zip": {
+      "all_member_crcs_verified_by_complete_reads": true,
+      "bytes": 365702061,
+      "counts": {
+        "metric_map_files": 300,
+        "primary_banks": 15,
+        "replay_probes": 15,
+        "superseded_banks": 15,
+        "total_banks": 30
+      },
+      "entries": 3673,
+      "manifest_files_checked": 3672,
+      "sha256": "d34212fd98d98fb036208f22e63619b6814105567412580cc932de439c1141a2"
+    }
+  },
+  "failures": [],
+  "scope": "Compact/full ZIP integrity, five locked category banks, full15primary/30total bank scope and one real relocated-package inference; no further model-selection or benchmark testing.",
+  "status": "passed"
+}

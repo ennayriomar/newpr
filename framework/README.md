@@ -1,7 +1,26 @@
 # SAFAL research model
 
 **Support-Adequacy-Aware Few-Shot Anomaly Localization for Reliable Industrial
-Inspection** — working method **SAFAL**, research package v0.5.0.
+Inspection** — working method **SAFAL**, research package v0.6.0.
+
+The new [paper-informed parameter tuning guide](docs/parameter_tuning.md)
+documents a finite development-label search and an independent image check.
+The tunable model and portable inference command live in separate modules;
+legacy v0.5 checkpoints and source hashes remain compatible. The old error
+probability head is omitted when detector parameters change.
+
+```bash
+python -m safe_iad.safal_tune tune --config configs/safal_tuning_20261014.json --output /tmp/safal_tuning_20261014
+python -m safe_iad.safal_tune verify --config configs/safal_tuning_20261014.json --output /tmp/safal_tuning_20261014
+python -m safe_iad.safal_tuning_report --run-dir /tmp/safal_tuning_20261014
+```
+
+That experiment configuration records the executed environment's paths. To
+repeat the search, provide the original development manifests/predictions,
+prelocked check IDs, official datasets and verified encoder assets, then edit
+the paths in a copy before starting a fresh output directory. To predict with
+a released selected bank, use `python -m safe_iad.safal_tuned_predict --help`;
+its explicit path overrides support relocating the bundle and encoder assets.
 
 The independent SAFAL model combines a raw-feature PCA reconstruction branch
 with an exact normalized cosine-search branch. It exposes component-only,

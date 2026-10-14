@@ -1,0 +1,45 @@
+{
+  "audits": [
+    {
+      "path": "/tmp/safal_tuning_20261014/artifact_audit.json",
+      "sha256": "cacbd27afb65ed84e2d9791215fb173f4f63c43dd076bf0786ebac764e74d574",
+      "status": "passed"
+    }
+  ],
+  "compact_archive": "safal_tuned_20261014.zip",
+  "compact_bytes": 24860064,
+  "compact_files": 574,
+  "compact_model_choice": "fixed k4/seed17 per category, not performance",
+  "compact_models": [
+    "mvtec_ad-cable-k4-seed17",
+    "mvtec_ad-hazelnut-k4-seed17",
+    "mvtec_ad-transistor-k4-seed17",
+    "visa-macaroni2-k4-seed17",
+    "visa-pcb2-k4-seed17"
+  ],
+  "compact_sha256": "641b89b40c5ffb78c0f9a0551c876fba3746f781965c6e0516ec789954848879",
+  "fitted_model_bank_scope": "primary completed run only; superseded attempts counted separately",
+  "fitted_model_banks": 15,
+  "full_archive": "safal_tuning_full_results_20261014.zip",
+  "full_bytes": 365702061,
+  "full_files": 3673,
+  "full_parts": 44,
+  "full_sha256": "d34212fd98d98fb036208f22e63619b6814105567412580cc932de439c1141a2",
+  "metric_map_files": 300,
+  "omitted_from_compact": [
+    "raw datasets",
+    "backbone binary",
+    "external caches",
+    "development raw NPZ",
+    "verification raw/maps/probes",
+    "other10 fitted banks"
+  ],
+  "part_files_duplicated": false,
+  "primary_fitted_model_banks": 15,
+  "replay_probes": 15,
+  "source_bytes_identical": true,
+  "status": "passed",
+  "superseded_model_banks": 15,
+  "total_model_npz_files": 30,
+  "zip_crc_path_and_all_internal_file_hashes_verified": true
+}

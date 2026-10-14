@@ -1,0 +1,386 @@
+[
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-000.npz",
+    "sha256": "4e4a0bee9c93dc48eb637a3d51b6e76dcd5dda73e93ce6937593ff4b490131f7",
+    "feature_key": "37a8fe47769a3a05b55f76b3c486911d3cda0e80c42c109bc3794944a854d309",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/train/good/349.png",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-001.npz",
+    "sha256": "329869f8761262463473ed52bb91b806533a9ea3e276f02a9d93b2b4f060303b",
+    "feature_key": "d393eaf81dad0cd9f13c3d72a9ffc682d23f543132af9c99f52ad0b8a8a2f2ec",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/train/good/251.png",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-002.npz",
+    "sha256": "4a1c499779a2d5a3d890dd0bed23e036643669033babc72248978bd4c1297346",
+    "feature_key": "b4d6c1c9482b04095ce5ad448d71b8cce845bbfe6b35cdb3421a2f3e02b6e2d0",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/train/good/174.png",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-003.npz",
+    "sha256": "8c6e1cc2710d027daec9c2c9194e3db5cf2e2552c942034990daf48231c70bf4",
+    "feature_key": "52dadc75278419c5c262a1d924d067dab72c73e8e887918890917de0e0b59d92",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/train/good/263.png",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-004.npz",
+    "sha256": "e0fd7aa58bcb8badcd7e66d404a30880f379e1632c092011b476129cab366765",
+    "feature_key": "4b59df473ae296318ff80ac950086239568f9173a5a1921ff82fb44772492d00",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/good/026.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-005.npz",
+    "sha256": "98a15c2505102205576a21fd55d4128265ef1eb8a6fb480e0f72923fdb1793e6",
+    "feature_key": "312310e93494d38bee1a897d9497eb076ef71e996da4dbd0449f421d9498f8db",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/good/037.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-006.npz",
+    "sha256": "d2586ccd429ea6e71059e19797fcc19f61329e99f9d0e5092dbc7b6a99489fce",
+    "feature_key": "cc2a64ac6ed9bb3f27b3bda0a83ded40ef2971da365788f3fe3d524fc4cab2fa",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/good/038.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-007.npz",
+    "sha256": "2028f9e192cef095a142d19e8a6936d097fbd917830ff519428aeaa793361b56",
+    "feature_key": "9c6b1516a75ca9d2045138f57e7ce999eff1278372d6064099c81f497d734ecf",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/good/005.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-008.npz",
+    "sha256": "5ee560ba9f9a7affd80cea8a43431529147fd9165820906c63ae87fe497500b1",
+    "feature_key": "800fb1a850b96a29591a260f17375e9a3b4b21d37254a843c4b5eee5636fbaf7",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/good/016.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-009.npz",
+    "sha256": "86f604a7e0be7c1cb098544ea12c6ffdbde48b021de0788229930e32c5ab4ef1",
+    "feature_key": "676abd84c4fde582be561cde75ad99b3574ccd539c1b4a585f0b24e35dd08229",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/good/022.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-010.npz",
+    "sha256": "f412cc4a899192a4f837e1d96458f708f72ec2614e03f4d6f25a654ac0ef5348",
+    "feature_key": "3a62fad6a19bf5693df4db912d003f069ab3607fc2b20fc4d7ce3331462650d6",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/good/014.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-011.npz",
+    "sha256": "e01c71a7b70af3a12b7de34cf956f14fe7bb4785f35436922255058af9dfaf88",
+    "feature_key": "b18da112e1dc81814d240fe5c5ba313e04ee3c6770942c4fd863a8c8fa5f7005",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/good/036.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-012.npz",
+    "sha256": "4332a81e8365da9ba346098fb3856dcbdc30cedc797b71de22728bed14a9a396",
+    "feature_key": "0898caf9829f22e48e03c1edbdd8307049346ba1fbd15f3cd815dbbdcf652656",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/good/031.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-013.npz",
+    "sha256": "b46557e4aa658ec9b3cd8e8055278a5adecaa47ce0777dab87f12219cbe058e1",
+    "feature_key": "2d4d100f4021f5b3dc2c480e87d8f19844996c3aeb2b1706337e21be94b5efd5",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/good/024.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-014.npz",
+    "sha256": "dede8601e94e4478936ab823ae94d1ba7fb7fcba56e19da37e269275e31a5369",
+    "feature_key": "91f0ced1b2ac48a072af0b537394c9807915da9074ecbe8891381d339be64df3",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/hole/014.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-015.npz",
+    "sha256": "f02d687d459168b4205f0e8cb9b91167e019487b4c50fd81a038efdac8695106",
+    "feature_key": "cdda93223c5a66cb51d11efc58422be56180ce2ec194a08004dd46115c6c09c4",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/hole/015.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-016.npz",
+    "sha256": "20aaa8d39f8689a2581461674c8d8cd457d3a75d6c818f4415a80e52dc3821f6",
+    "feature_key": "fb051da6ce725be4df71b9278a5decc1dd0c6ff8e181c2cde4c8e025629d9552",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/print/012.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-017.npz",
+    "sha256": "9bfaefb2d4ad2187085fcc05687e4f265cbd3d964b3ff7035a5bc74d7ad31972",
+    "feature_key": "e30d643764b1666fd8632697ad954e5b2ee87e2ff01e633c5284221921e966b3",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/hole/013.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-018.npz",
+    "sha256": "5fef927d03a9bf9dbdfd45926c38322dd5dc745eb3fdc4fbb4073cd5b82b4f45",
+    "feature_key": "79a923965527cb1e265ee32b4c77838973dd2664162ba22c212f5281e1f082d8",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/hole/007.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-019.npz",
+    "sha256": "37efaae2143653625de1ff200c4c2cbe39cc7e51cab21841067967a71ecf1464",
+    "feature_key": "8e5b261b955f8bbce78efd0db3f01e34c5a14ff22990f390652711b2b39907a2",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/crack/008.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-020.npz",
+    "sha256": "e0011239c6353de98542d786129e7179273287ebee995ec8942503796455d88a",
+    "feature_key": "9cc9bfe806116070fbd7de33e8b134325077283ed7458448ffffb4c551fda204",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/crack/000.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-021.npz",
+    "sha256": "37b96d23c202f5b81a9af86d1c831824d36244526ba81688ea1ce7b0148c00cd",
+    "feature_key": "5053fbca95b18eb790213f4582c7510eda0e514652bbd731a89cda8b825741f0",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/print/009.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-022.npz",
+    "sha256": "87652ee0764fd5cf71c1c47e67775696087ce5b38ea41290846e32adc9cf6540",
+    "feature_key": "c23621d000ff868944b3bc1ce796978ed99ed90c8ad90c414691f25865a83246",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/crack/005.png",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/mixed224/mvtec_ad-hazelnut-k4-seed17/raw-023.npz",
+    "sha256": "58fdb16b914aab483311f3f01f969750e97b5752ca4e59cfb0ae00a67004313c",
+    "feature_key": "62b44d834a1e51a80f36fd97c8d1aa0f408d195e3a90767bba61db96f5148eb5",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1024,
+      1024
+    ],
+    "raw_dtype": "float64",
+    "image_id": "hazelnut/test/hole/012.png",
+    "role": "development_query"
+  }
+]

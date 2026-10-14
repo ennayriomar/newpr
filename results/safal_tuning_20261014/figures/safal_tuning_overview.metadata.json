@@ -1,0 +1,161 @@
+{
+  "comparisons": {
+    "fixed_avg": {
+      "detected_to_missed": {
+        "query_ids": [
+          "mvtec_ad:transistor:transistor/test/bent_lead/002.png",
+          "visa:macaroni2:macaroni2/Data/Images/Anomaly/019.JPG",
+          "visa:macaroni2:macaroni2/Data/Images/Anomaly/049.JPG"
+        ],
+        "records": 3,
+        "unique_queries": 3
+      },
+      "estimate": -0.003333333333333335,
+      "interval": [
+        -0.03333333333333334,
+        0.030000000000000006
+      ],
+      "missed_to_detected": {
+        "query_ids": [
+          "mvtec_ad:cable:cable/test/poke_insulation/000.png",
+          "mvtec_ad:cable:cable/test/poke_insulation/002.png",
+          "mvtec_ad:transistor:transistor/test/bent_lead/004.png"
+        ],
+        "records": 3,
+        "unique_queries": 3
+      }
+    },
+    "original": {
+      "detected_to_missed": {
+        "query_ids": [],
+        "records": 0,
+        "unique_queries": 0
+      },
+      "estimate": 0.01,
+      "interval": [
+        -0.023333333333333334,
+        0.043333333333333335
+      ],
+      "missed_to_detected": {
+        "query_ids": [
+          "mvtec_ad:cable:cable/test/poke_insulation/000.png",
+          "mvtec_ad:cable:cable/test/poke_insulation/002.png",
+          "mvtec_ad:hazelnut:hazelnut/test/cut/000.png",
+          "mvtec_ad:transistor:transistor/test/bent_lead/004.png",
+          "visa:macaroni2:macaroni2/Data/Images/Anomaly/019.JPG",
+          "visa:pcb2:pcb2/Data/Images/Anomaly/083.JPG",
+          "visa:pcb2:pcb2/Data/Images/Anomaly/091.JPG"
+        ],
+        "records": 7,
+        "unique_queries": 7
+      }
+    }
+  },
+  "development_stage1_winner": {
+    "accuracy": 0.8133333333333334,
+    "cases": 300,
+    "changed_parameters": 3,
+    "correct": 244,
+    "eligible": true,
+    "false_positives": 27,
+    "feasible": true,
+    "feature_changes": 0,
+    "feature_id": "mixed224",
+    "id": "845e969b4eba153a57b0a1c0c1b4f295f46b040c82c921bdf40d53dea5c87c57",
+    "losses_vs_fixed": 0,
+    "losses_vs_original": 0,
+    "mean_image_auroc": 0.8966666666666666,
+    "misses": 29,
+    "params": {
+      "aggregation": "top1",
+      "explained_variance": 0.99,
+      "fusion": "fixed",
+      "image_threshold": 1.0,
+      "normal_quantile": 0.9,
+      "search_weight": 0.75
+    }
+  },
+  "figure_pdf": "/tmp/safal_tuning_20261014/figures/safal_tuning_overview.pdf",
+  "figure_png": "/tmp/safal_tuning_20261014/figures/safal_tuning_overview.png",
+  "global_locked_winner": {
+    "accuracy": 0.8133333333333334,
+    "cases": 300,
+    "changed_parameters": 3,
+    "correct": 244,
+    "eligible": true,
+    "false_positives": 27,
+    "feasible": true,
+    "feature_changes": 0,
+    "feature_id": "mixed224",
+    "id": "845e969b4eba153a57b0a1c0c1b4f295f46b040c82c921bdf40d53dea5c87c57",
+    "losses_vs_fixed": 0,
+    "losses_vs_original": 0,
+    "mean_image_auroc": 0.8966666666666666,
+    "misses": 29,
+    "params": {
+      "aggregation": "top1",
+      "explained_variance": 0.99,
+      "fusion": "fixed",
+      "image_threshold": 1.0,
+      "normal_quantile": 0.9,
+      "search_weight": 0.75
+    }
+  },
+  "grid_cells": 768,
+  "helper_sha256": "7c45d0c5eee151bc7034f4ea8696204e964fdd2293cd3c996b9ab4ae75e26b2e",
+  "input_sha256": {
+    "/tmp/safal_tuning_20261014/development/cases.json": "d895da531f56dad102dc221c0bd792d623057a0008efded0e17693f9333e60f9",
+    "/tmp/safal_tuning_20261014/development/grid.json": "dae8615bc902d822258534924c42ae5cb4ed19444400c8196261e2102de1ff63",
+    "/tmp/safal_tuning_20261014/selection.lock.json": "61a9d7c2dc0441a7080bfa65b4843b90c0738164f46285c403b7b9f7bd7f7e48",
+    "/tmp/safal_tuning_20261014/summary.json": "62ed73bdc2cc5cdab7ffa01f2fb3a07064db8ebe83b6ba9734a615ba943b0d4d",
+    "/tmp/safal_tuning_20261014/verification/completion.json": "8b9d46aef68eda94778b956e0c3ccadb889d9ac34b199fa2fcf55c696c820903"
+  },
+  "parameters_fitted_or_selected_by_plotter": false,
+  "scope": "Recorded development search and conditional held-out-image comparison; no full-benchmark, SOTA or production claim.",
+  "verification_counts": {
+    "anomaly_cases": 150,
+    "method_records": 900,
+    "normal_cases": 150,
+    "paired_cases": 300,
+    "strata": [
+      {
+        "category": "cable",
+        "dataset": "mvtec_ad",
+        "paired_cases": 60,
+        "support_draws": 3,
+        "unique_queries": 20
+      },
+      {
+        "category": "hazelnut",
+        "dataset": "mvtec_ad",
+        "paired_cases": 60,
+        "support_draws": 3,
+        "unique_queries": 20
+      },
+      {
+        "category": "transistor",
+        "dataset": "mvtec_ad",
+        "paired_cases": 60,
+        "support_draws": 3,
+        "unique_queries": 20
+      },
+      {
+        "category": "macaroni2",
+        "dataset": "visa",
+        "paired_cases": 60,
+        "support_draws": 3,
+        "unique_queries": 20
+      },
+      {
+        "category": "pcb2",
+        "dataset": "visa",
+        "paired_cases": 60,
+        "support_draws": 3,
+        "unique_queries": 20
+      }
+    ],
+    "unique_anomalies": 50,
+    "unique_normals": 50,
+    "unique_queries": 100
+  }
+}

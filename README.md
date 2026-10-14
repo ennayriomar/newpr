@@ -1,3 +1,15 @@
+# SAFAL: measured parameter tuning and trained vision models
+
+## Paper-informed tuning — 14 October 2026
+
+[Download updated code and five example banks](https://github.com/ennayriomar/newpr/raw/refs/heads/main/safal_tuned_20261014.zip) · [Measured report](results/safal_tuning_20261014/report.md) · [Parameter guide](framework/docs/parameter_tuning.md) · [All 15 primary model banks](trained_models/safal_tuned_20261014) · [Complete archive](results/safal_tuning_20261014_archive)
+
+The new independent module evaluated 768 scoring configurations, selected one global hybrid using 100 development images and a zero detected-to-missed constraint against both k4 controls, then compared two isolated feature changes. One hundred separate, prelocked image IDs were checked after the configuration was frozen. Both cohorts use five previously studied categories, three support draws, four original normal references plus four extra normal calibration images. The encoder is real frozen DINOv2 ViT-B/14 on CPU; this is computer-vision parameter selection, not LLM or backbone fine-tuning.
+
+The selected configuration retains 99% PCA variance, uses a 90th-percentile normal cutoff, top1% image aggregation and fixed 75% cosine-search /25% raw-PCA fusion at image threshold 1. The 224-pixel mixed-layer representation remained selected; the late-layer and 336-pixel variants lost previously detected development cases and were rejected. Adequacy/uncertainty remain diagnostics, and the old probability head is omitted.
+
+Development accuracy is 81.33% versus 81.00% original SAFAL and 80.00% fixed averaging. Verification accuracy is 77.33% for the tuned hybrid, 76.33% for original SAFAL and 77.67% for fixed averaging. The paired 95% accuracy intervals include zero: improvement is not established. The tuned model recovers seven previously missed original-SAFAL anomaly cases with zero original-SAFAL detection losses, but adds four false alarms; versus fixed averaging it loses 3 detections and recovers 3. Class counts, localization and conditional intervals are in the measured report. These are 100 unique images repeated across support draws, not 300 independent images. This conditional image check within development-exposed categories does not establish a full benchmark, production reliability or SOTA. The compact ZIP containsfixed k4/seed17 example banks, while all 15 primary banks and full raw-score/map audit outputs are retained separately. Superseded development-only attempts are preserved with notices in the complete archive. Dataset images and pretrained backbone binaries are separate.
+
 # SAFAL research: trained models and measured results
 
 ## Training and evaluation — 14 October 2026

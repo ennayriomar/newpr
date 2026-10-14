@@ -1,0 +1,10 @@
+{
+  "operation": "remove redundant temporary packaging ZIP; original outputs, weights, data and Git blobs preserved",
+  "local_archive": "/tmp/safal_training_release_20261014/safal_training_full_results_20261014.zip",
+  "bytes_reclaimed": 2943487673,
+  "sha256": "2fae764f6c6e041e2cbd2f4e8d33dea4a007aec1ac1d5db2c79201c0571806cb",
+  "recoverable_public_commit": "4f1ca90fab0214d21322cc8d294224c8db30598a",
+  "public_parts_verified": 351,
+  "retained_git_part_blobs_independently_verified": true,
+  "source_run": "/tmp/safal_training_20261014"
+}

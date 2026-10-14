@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "feature_cache_used": false,
+  "fresh_pretrained_features_bitwise_match": true,
+  "image_score_abs_difference": 1.1102230246251565e-16,
+  "declared_score_atol": 1e-12,
+  "decision_match": true,
+  "expected_score": 0.7129419708265693,
+  "probability_head_used": false,
+  "selection_lock_sha256": "61a9d7c2dc0441a7080bfa65b4843b90c0738164f46285c403b7b9f7bd7f7e48",
+  "note": "Portable CLI reconstructs support SVD before encoder thread initialization; float64 rounding differs by one ULP, within declared tolerance. Fresh feature tokens agree bitwise."
+}

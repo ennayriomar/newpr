@@ -1,0 +1,65 @@
+/workspace/.cache/dinov2-source/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/workspace/.cache/dinov2-source/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/workspace/.cache/dinov2-source/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+development mixed224 mvtec_ad-cable-k4-seed17
+development mixed224 mvtec_ad-cable-k4-seed29
+development mixed224 mvtec_ad-cable-k4-seed43
+development mixed224 mvtec_ad-hazelnut-k4-seed17
+development mixed224 mvtec_ad-hazelnut-k4-seed29
+development mixed224 mvtec_ad-hazelnut-k4-seed43
+development mixed224 mvtec_ad-transistor-k4-seed17
+development mixed224 mvtec_ad-transistor-k4-seed29
+development mixed224 mvtec_ad-transistor-k4-seed43
+development mixed224 visa-macaroni2-k4-seed17
+development mixed224 visa-macaroni2-k4-seed29
+development mixed224 visa-macaroni2-k4-seed43
+development mixed224 visa-pcb2-k4-seed17
+development mixed224 visa-pcb2-k4-seed29
+development mixed224 visa-pcb2-k4-seed43
+grid 64 / 768
+grid 128 / 768
+grid 192 / 768
+grid 256 / 768
+grid 320 / 768
+grid 384 / 768
+grid 448 / 768
+grid 512 / 768
+grid 576 / 768
+grid 640 / 768
+grid 704 / 768
+grid 768 / 768
+stage1 winner {"id": "845e969b4eba153a57b0a1c0c1b4f295f46b040c82c921bdf40d53dea5c87c57", "params": {"explained_variance": 0.99, "normal_quantile": 0.9, "aggregation": "top1", "fusion": "fixed", "search_weight": 0.75, "image_threshold": 1.0}, "eligible": true, "feasible": true, "accuracy": 0.8133333333333334, "correct": 244, "cases": 300, "misses": 29, "false_positives": 27, "losses_vs_original": 0, "losses_vs_fixed": 0, "mean_image_auroc": 0.8966666666666666, "changed_parameters": 3, "feature_id": "mixed224", "feature_changes": 0}
+development late224 mvtec_ad-cable-k4-seed17
+development late224 mvtec_ad-cable-k4-seed29
+development late224 mvtec_ad-cable-k4-seed43
+development late224 mvtec_ad-hazelnut-k4-seed17
+development late224 mvtec_ad-hazelnut-k4-seed29
+development late224 mvtec_ad-hazelnut-k4-seed43
+development late224 mvtec_ad-transistor-k4-seed17
+development late224 mvtec_ad-transistor-k4-seed29
+development late224 mvtec_ad-transistor-k4-seed43
+development late224 visa-macaroni2-k4-seed17
+development late224 visa-macaroni2-k4-seed29
+development late224 visa-macaroni2-k4-seed43
+development late224 visa-pcb2-k4-seed17
+development late224 visa-pcb2-k4-seed29
+development late224 visa-pcb2-k4-seed43
+development mixed336 mvtec_ad-cable-k4-seed17
+development mixed336 mvtec_ad-cable-k4-seed29
+development mixed336 mvtec_ad-cable-k4-seed43
+development mixed336 mvtec_ad-hazelnut-k4-seed17
+development mixed336 mvtec_ad-hazelnut-k4-seed29
+development mixed336 mvtec_ad-hazelnut-k4-seed43
+development mixed336 mvtec_ad-transistor-k4-seed17
+development mixed336 mvtec_ad-transistor-k4-seed29
+development mixed336 mvtec_ad-transistor-k4-seed43
+development mixed336 visa-macaroni2-k4-seed17
+development mixed336 visa-macaroni2-k4-seed29
+development mixed336 visa-macaroni2-k4-seed43
+development mixed336 visa-pcb2-k4-seed17
+development mixed336 visa-pcb2-k4-seed29
+development mixed336 visa-pcb2-k4-seed43
+LOCKED {"id": "845e969b4eba153a57b0a1c0c1b4f295f46b040c82c921bdf40d53dea5c87c57", "params": {"explained_variance": 0.99, "normal_quantile": 0.9, "aggregation": "top1", "fusion": "fixed", "search_weight": 0.75, "image_threshold": 1.0}, "eligible": true, "feasible": true, "accuracy": 0.8133333333333334, "correct": 244, "cases": 300, "misses": 29, "false_positives": 27, "losses_vs_original": 0, "losses_vs_fixed": 0, "mean_image_auroc": 0.8966666666666666, "changed_parameters": 3, "feature_id": "mixed224", "feature_changes": 0}

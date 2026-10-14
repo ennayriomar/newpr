@@ -1,0 +1,386 @@
+[
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-000.npz",
+    "sha256": "21a00bcc0d819e6cbd6aef252cc302e0788a326bbc62f69c6e9da6ca95756058",
+    "feature_key": "c9245277ab5b1da90c27e1c4164ef5686875fd08982ee1c72606a64e75085e2b",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Normal/0896.JPG",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-001.npz",
+    "sha256": "e2a56ba1a57954b7ab520376862eb5466e0e748d124046b504d4f7009875820d",
+    "feature_key": "4d0c13bd6443e466322782063ab5ead8803e6260a64b1bb5f9ba387297d55185",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Normal/0760.JPG",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-002.npz",
+    "sha256": "75b07f04986469c303eb02ccec02041342520f87e173cc63e6d42e141fe40930",
+    "feature_key": "936b174a785a23cba892b8366d2b01476dda0e6af659547b8dc1df283aefb74d",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Normal/0758.JPG",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-003.npz",
+    "sha256": "2f897677fc378fb97035277419cabda73e11c363dda46aa487a0e7d3964c19ce",
+    "feature_key": "9a594d3776e79c5f17a04ef9f43c3b6fba88f5dfd4a28e47553c6bbbe3aa13b5",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Normal/0957.JPG",
+    "role": "normal_calibration"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-004.npz",
+    "sha256": "e682c4dff219177a8628c1784fdb71eba4009a72d58abc9ba889629be9e9da0c",
+    "feature_key": "c0f56b8f95fc4ee8d106e628c7dfcbeac16bd36dd856bfabbe6ae33a6fb4ca93",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Normal/0552.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-005.npz",
+    "sha256": "dc9a34b59be10b423e0308d27368bbe30adb05c427467eb1654c8bf4d4b4ce68",
+    "feature_key": "59300e501a112812e57383ec6180484e3a9ebbd14bc6788cbb372fcaf56a51fb",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Normal/0569.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-006.npz",
+    "sha256": "c79c0d800091b977fe129a8b352017ab15f64e5160a7dd960890ff40c712217a",
+    "feature_key": "2a8eae384a2c0994b42c1ba7916d5905a50f8754921f4f9aed6764ca28f97365",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Normal/0674.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-007.npz",
+    "sha256": "7146b9ed5d34bb8058f241b1ffefa76446c9a1a2a8a06ba5e71534b34354c9c2",
+    "feature_key": "14cf501d135d87ce00544276dcf80086f286a7bb7c9cf8bde43d159e88aaa261",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Normal/0797.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-008.npz",
+    "sha256": "e4046b81cd2fdddce5a760d41db773c7beb69a879ef849e17f74526d80b3e7a9",
+    "feature_key": "15e57e6a71d6e1d7ce0e967761254f484d776aba2cf46865a98fbd98c27aa88e",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Normal/0920.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-009.npz",
+    "sha256": "149d1ce775cbda5bfdd1efc1350cce495834ecf38c356c517fee6bc060b06b93",
+    "feature_key": "497183fa5f8f9543690fdf1515a5f58821c58fae3f3ed4d86f73d2dc73af5069",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Normal/0779.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-010.npz",
+    "sha256": "7c7649eaba993127e5c9a1b3be0f2fdfa10cbbbdb5c5229951ee4bfe480c65dc",
+    "feature_key": "09aa0d1188655b7ebfaf6d972bfb1edfe490f8e2d342f0818bcee2fb67c86064",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Normal/0174.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-011.npz",
+    "sha256": "a4151ba8703a6a37867bff63810b6ce744f8a6ad94415fb18c9f7d70420638ea",
+    "feature_key": "91c88ed502134f2e1fae98e2d2e395866b1fc58f051731caa0125d089bb34e79",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Normal/0261.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-012.npz",
+    "sha256": "391cbca9d1144fb381712fedc2944eefb511e5681404beb407e98a5c12102fa2",
+    "feature_key": "5f40ebf3c7ca3209ac7fb9bbbe824597091b79a7f2801d45aaceb14649bb183f",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Normal/0320.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-013.npz",
+    "sha256": "cad4a806a73f7d5f372e2187cf16e5c7d4282f53f2c2a3a4c37f47a9f21a8e92",
+    "feature_key": "13d6ddbe04f3a24dd12970068767c43f5e6a1ae2ba3de84d82a70caafd088c43",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Normal/0871.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-014.npz",
+    "sha256": "f24876b8ac872a9b0ce64674a1d1ac172a9b702be78ea5a78417c890bfafebec",
+    "feature_key": "fa183ce852791ba0b5bb85a66107ae4adfae53f99ecb5a2be4802c3d09060139",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Anomaly/062.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-015.npz",
+    "sha256": "f5ab547b36ad9537eda10074101b2554a9e6b8bdc59acb393e18ba322012b918",
+    "feature_key": "ac7bf954cfa108f4f9790863bda45e8af63cf955c5531072fc9ea3727a7e365b",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Anomaly/013.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-016.npz",
+    "sha256": "0eb2bad6d67044fa2c121c31a19e37a67578c666fe44c78868495878e112ae50",
+    "feature_key": "e2d2aa2d37041f3b8b25144b7571ee67218b45543e699900ac9110b54628fc92",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Anomaly/012.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-017.npz",
+    "sha256": "142f848cd5d2e039ee42ab96982e4ec6032dac630ed977505e741dcb3dc76bdf",
+    "feature_key": "9a98487a3ea64bfedc8e155286b08bb9ad90fe0b220b488942610677c1c4212d",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Anomaly/082.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-018.npz",
+    "sha256": "a29555a92f0434f425a573553cf84d6572c5873a0d46ec1483cf9eed243ee4a8",
+    "feature_key": "66a72154722aa540002c1ca30e3e70e8f9c2747f66375752f00ad470c1a29eb5",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Anomaly/075.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-019.npz",
+    "sha256": "3b954292f17503f1a4dd7187ac34003f0866509da36c6d1bf9812468f161775f",
+    "feature_key": "f37195f91e7bbd1b80091acdd41299845db5ec4bee8f24c729b360bb50a16a1e",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Anomaly/029.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-020.npz",
+    "sha256": "e75c71cb56d9b133385c28df9fe38bddfba274b3bd02e05bc2479fa4850f879b",
+    "feature_key": "dbe55d92c4c9a4479fdd438636fd2dbea107d973d69ce6a45b916600b8e4e5b8",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Anomaly/084.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-021.npz",
+    "sha256": "7b14dc2b0a2aa2f8f4c14ad59f07a628a51f64b75676146bc43b7ca8b9d7e75a",
+    "feature_key": "303a917c00d0c17f9d9ec60ac31476ff68c4e4854fe7c9fcd989c1f39967653c",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Anomaly/007.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-022.npz",
+    "sha256": "c4b795394c6d500ba9b67d7d4211c030bca6b3f61e49553c4c6df8bdbcd853d0",
+    "feature_key": "8ea27869bd4b396e639b1cba36fb4e0ef2e7ccfb638356878996117c7eaa4496",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Anomaly/086.JPG",
+    "role": "development_query"
+  },
+  {
+    "path": "/tmp/safal_tuning_20261014/development/late224/visa-pcb2-k4-seed43/raw-023.npz",
+    "sha256": "415de6af6012dc3e2c77e1b9ec89efaba391679b199181f725530dfb0a582c55",
+    "feature_key": "00476d4c2d3988d8a1636826fb9420931d3f85dd9ca2fb2d93073945138a3e47",
+    "grid": [
+      16,
+      16
+    ],
+    "original_size": [
+      1404,
+      1070
+    ],
+    "raw_dtype": "float64",
+    "image_id": "pcb2/Data/Images/Anomaly/035.JPG",
+    "role": "development_query"
+  }
+]

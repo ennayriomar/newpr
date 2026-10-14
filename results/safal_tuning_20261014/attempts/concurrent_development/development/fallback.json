@@ -1,0 +1,24 @@
+{
+  "id": "62b5a6a430089f15d08569344853bea46c990d296fa558493963bd7b612e1b84",
+  "params": {
+    "explained_variance": 0.99,
+    "normal_quantile": 0.95,
+    "aggregation": "top1",
+    "fusion": "max",
+    "search_weight": 0.5,
+    "image_threshold": 0.5
+  },
+  "eligible": true,
+  "feasible": true,
+  "accuracy": 0.5033333333333333,
+  "correct": 151,
+  "cases": 300,
+  "misses": 0,
+  "false_positives": 149,
+  "losses_vs_original": 0,
+  "losses_vs_fixed": 0,
+  "mean_image_auroc": 0.8953333333333333,
+  "changed_parameters": 2,
+  "feature_id": "mixed224",
+  "feature_changes": 0
+}

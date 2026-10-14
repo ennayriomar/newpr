@@ -1,0 +1,94 @@
+{
+  "scope": "known local native query exposure before SAFAL development parameter selection",
+  "known_exposure_file": "/tmp/safal_tuning_20261014/known_exposure.json",
+  "known_exposure_sha256": "deeaecdf9f55508db0302a5aa678a016ee0af9678504d6d7572f753c542858bb",
+  "preflight": [
+    {
+      "dataset": "mvtec_ad",
+      "category": "cable",
+      "labels": {
+        "normal": {
+          "total": 58,
+          "known_exposed": 26,
+          "remaining": 32
+        },
+        "anomaly": {
+          "total": 92,
+          "known_exposed": 28,
+          "remaining": 64
+        }
+      },
+      "ten_per_label_available": true
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "labels": {
+        "normal": {
+          "total": 40,
+          "known_exposed": 10,
+          "remaining": 30
+        },
+        "anomaly": {
+          "total": 70,
+          "known_exposed": 12,
+          "remaining": 58
+        }
+      },
+      "ten_per_label_available": true
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "transistor",
+      "labels": {
+        "normal": {
+          "total": 60,
+          "known_exposed": 10,
+          "remaining": 50
+        },
+        "anomaly": {
+          "total": 40,
+          "known_exposed": 10,
+          "remaining": 30
+        }
+      },
+      "ten_per_label_available": true
+    },
+    {
+      "dataset": "visa",
+      "category": "macaroni2",
+      "labels": {
+        "normal": {
+          "total": 100,
+          "known_exposed": 27,
+          "remaining": 73
+        },
+        "anomaly": {
+          "total": 100,
+          "known_exposed": 32,
+          "remaining": 68
+        }
+      },
+      "ten_per_label_available": true
+    },
+    {
+      "dataset": "visa",
+      "category": "pcb2",
+      "labels": {
+        "normal": {
+          "total": 100,
+          "known_exposed": 12,
+          "remaining": 88
+        },
+        "anomaly": {
+          "total": 100,
+          "known_exposed": 11,
+          "remaining": 89
+        }
+      },
+      "ten_per_label_available": true
+    }
+  ],
+  "all_categories_support_10_normal_plus_10_anomaly": true,
+  "remaining_ids_not_selected": true
+}

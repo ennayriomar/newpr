@@ -1,0 +1,2402 @@
+[
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/good/053.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/good/039.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/good/043.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/good/004.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/good/035.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/good/021.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/good/038.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/good/000.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/good/023.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/good/013.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/cut_inner_insulation/005.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/cut_inner_insulation/002.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/cut_inner_insulation/001.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/missing_wire/002.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/bent_wire/006.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/missing_cable/009.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/combined/008.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/cut_inner_insulation/000.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/cable_swap/006.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 17,
+    "episode_id": "mvtec_ad-cable-k4-seed17",
+    "query_id": "cable/test/cable_swap/007.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/good/053.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/good/039.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/good/043.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/good/004.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/good/035.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/good/021.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/good/038.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/good/000.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/good/023.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/good/013.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/cut_inner_insulation/005.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/cut_inner_insulation/002.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/cut_inner_insulation/001.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/missing_wire/002.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/bent_wire/006.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/missing_cable/009.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/combined/008.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/cut_inner_insulation/000.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/cable_swap/006.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "episode_id": "mvtec_ad-cable-k4-seed29",
+    "query_id": "cable/test/cable_swap/007.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/good/053.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/good/039.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/good/043.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/good/004.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/good/035.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/good/021.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/good/038.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/good/000.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/good/023.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/good/013.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/cut_inner_insulation/005.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/cut_inner_insulation/002.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/cut_inner_insulation/001.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/missing_wire/002.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/bent_wire/006.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/missing_cable/009.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/combined/008.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/cut_inner_insulation/000.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/cable_swap/006.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 43,
+    "episode_id": "mvtec_ad-cable-k4-seed43",
+    "query_id": "cable/test/cable_swap/007.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/good/026.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/good/037.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/good/038.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/good/005.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/good/016.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/good/022.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/good/014.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/good/036.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/good/031.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/good/024.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/hole/014.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/hole/015.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/print/012.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/hole/013.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/hole/007.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/crack/008.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/crack/000.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/print/009.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/crack/005.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed17",
+    "query_id": "hazelnut/test/hole/012.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/good/026.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/good/037.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/good/038.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/good/005.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/good/016.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/good/022.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/good/014.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/good/036.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/good/031.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/good/024.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/hole/014.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/hole/015.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/print/012.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/hole/013.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/hole/007.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/crack/008.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/crack/000.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/print/009.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/crack/005.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 29,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed29",
+    "query_id": "hazelnut/test/hole/012.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/good/026.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/good/037.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/good/038.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/good/005.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/good/016.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/good/022.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/good/014.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/good/036.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/good/031.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/good/024.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/hole/014.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/hole/015.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/print/012.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/hole/013.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/hole/007.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/crack/008.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/crack/000.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/print/009.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/crack/005.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 43,
+    "episode_id": "mvtec_ad-hazelnut-k4-seed43",
+    "query_id": "hazelnut/test/hole/012.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/good/054.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/good/015.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/good/058.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/good/037.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/good/004.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/good/018.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/good/025.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/good/040.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/good/051.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/good/048.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/cut_lead/007.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/damaged_case/008.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/bent_lead/009.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/misplaced/003.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/damaged_case/003.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/cut_lead/005.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/misplaced/005.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/bent_lead/001.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/cut_lead/006.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 17,
+    "episode_id": "mvtec_ad-transistor-k4-seed17",
+    "query_id": "transistor/test/cut_lead/002.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/good/054.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/good/015.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/good/058.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/good/037.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/good/004.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/good/018.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/good/025.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/good/040.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/good/051.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/good/048.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/cut_lead/007.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/damaged_case/008.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/bent_lead/009.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/misplaced/003.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/damaged_case/003.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/cut_lead/005.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/misplaced/005.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/bent_lead/001.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/cut_lead/006.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 29,
+    "episode_id": "mvtec_ad-transistor-k4-seed29",
+    "query_id": "transistor/test/cut_lead/002.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/good/054.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/good/015.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/good/058.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/good/037.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/good/004.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/good/018.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/good/025.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/good/040.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/good/051.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/good/048.png",
+    "label": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/cut_lead/007.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/damaged_case/008.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/bent_lead/009.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/misplaced/003.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/damaged_case/003.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/cut_lead/005.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/misplaced/005.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/bent_lead/001.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/cut_lead/006.png",
+    "label": 1
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "transistor",
+    "seed": 43,
+    "episode_id": "mvtec_ad-transistor-k4-seed43",
+    "query_id": "transistor/test/cut_lead/002.png",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Normal/0100.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Normal/0552.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Normal/0525.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Normal/0953.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Normal/0751.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Normal/0011.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Normal/0363.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Normal/0488.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Normal/0520.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Normal/0427.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Anomaly/073.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Anomaly/057.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Anomaly/034.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Anomaly/052.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Anomaly/028.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Anomaly/087.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Anomaly/018.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Anomaly/089.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Anomaly/038.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "episode_id": "visa-macaroni2-k4-seed17",
+    "query_id": "macaroni2/Data/Images/Anomaly/024.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Normal/0100.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Normal/0552.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Normal/0525.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Normal/0953.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Normal/0751.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Normal/0011.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Normal/0363.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Normal/0488.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Normal/0520.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Normal/0427.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Anomaly/073.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Anomaly/057.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Anomaly/034.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Anomaly/052.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Anomaly/028.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Anomaly/087.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Anomaly/018.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Anomaly/089.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Anomaly/038.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "episode_id": "visa-macaroni2-k4-seed29",
+    "query_id": "macaroni2/Data/Images/Anomaly/024.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Normal/0100.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Normal/0552.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Normal/0525.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Normal/0953.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Normal/0751.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Normal/0011.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Normal/0363.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Normal/0488.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Normal/0520.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Normal/0427.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Anomaly/073.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Anomaly/057.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Anomaly/034.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Anomaly/052.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Anomaly/028.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Anomaly/087.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Anomaly/018.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Anomaly/089.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Anomaly/038.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "episode_id": "visa-macaroni2-k4-seed43",
+    "query_id": "macaroni2/Data/Images/Anomaly/024.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Normal/0552.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Normal/0569.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Normal/0674.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Normal/0797.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Normal/0920.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Normal/0779.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Normal/0174.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Normal/0261.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Normal/0320.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Normal/0871.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Anomaly/062.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Anomaly/013.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Anomaly/012.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Anomaly/082.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Anomaly/075.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Anomaly/029.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Anomaly/084.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Anomaly/007.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Anomaly/086.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "episode_id": "visa-pcb2-k4-seed17",
+    "query_id": "pcb2/Data/Images/Anomaly/035.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Normal/0552.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Normal/0569.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Normal/0674.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Normal/0797.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Normal/0920.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Normal/0779.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Normal/0174.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Normal/0261.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Normal/0320.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Normal/0871.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Anomaly/062.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Anomaly/013.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Anomaly/012.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Anomaly/082.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Anomaly/075.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Anomaly/029.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Anomaly/084.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Anomaly/007.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Anomaly/086.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "episode_id": "visa-pcb2-k4-seed29",
+    "query_id": "pcb2/Data/Images/Anomaly/035.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Normal/0552.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Normal/0569.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Normal/0674.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Normal/0797.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Normal/0920.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Normal/0779.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Normal/0174.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Normal/0261.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Normal/0320.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Normal/0871.JPG",
+    "label": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Anomaly/062.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Anomaly/013.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Anomaly/012.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Anomaly/082.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Anomaly/075.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Anomaly/029.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Anomaly/084.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Anomaly/007.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Anomaly/086.JPG",
+    "label": 1
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "episode_id": "visa-pcb2-k4-seed43",
+    "query_id": "pcb2/Data/Images/Anomaly/035.JPG",
+    "label": 1
+  }
+]
