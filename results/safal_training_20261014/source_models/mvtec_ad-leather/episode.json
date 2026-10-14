@@ -1,0 +1,38 @@
+{
+  "dataset": "mvtec_ad",
+  "category": "leather",
+  "support_ids": [
+    "leather/train/good/211.png",
+    "leather/train/good/085.png"
+  ],
+  "calibration_ids": [
+    "leather/train/good/012.png",
+    "leather/train/good/238.png",
+    "leather/train/good/068.png",
+    "leather/train/good/151.png"
+  ],
+  "fit_parent_ids": [
+    "leather/train/good/139.png",
+    "leather/train/good/146.png",
+    "leather/train/good/103.png",
+    "leather/train/good/186.png",
+    "leather/train/good/222.png",
+    "leather/train/good/191.png",
+    "leather/train/good/128.png",
+    "leather/train/good/075.png",
+    "leather/train/good/095.png",
+    "leather/train/good/016.png",
+    "leather/train/good/070.png",
+    "leather/train/good/108.png",
+    "leather/train/good/065.png",
+    "leather/train/good/060.png",
+    "leather/train/good/094.png",
+    "leather/train/good/002.png"
+  ],
+  "heldout_parent_ids": [
+    "leather/train/good/145.png",
+    "leather/train/good/125.png",
+    "leather/train/good/119.png",
+    "leather/train/good/136.png"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "mvtec_ad-hazelnut-k8-seed29",
+  "dataset": "mvtec_ad",
+  "category": "hazelnut",
+  "role": "validation",
+  "seed": 29,
+  "shots": 8,
+  "support_ids": [
+    "hazelnut/train/good/062.png",
+    "hazelnut/train/good/296.png",
+    "hazelnut/train/good/194.png",
+    "hazelnut/train/good/083.png",
+    "hazelnut/train/good/208.png",
+    "hazelnut/train/good/090.png",
+    "hazelnut/train/good/171.png",
+    "hazelnut/train/good/034.png"
+  ],
+  "calibration_ids": [
+    "hazelnut/train/good/349.png",
+    "hazelnut/train/good/251.png",
+    "hazelnut/train/good/174.png",
+    "hazelnut/train/good/263.png"
+  ],
+  "query_ids": [
+    "hazelnut/test/good/026.png",
+    "hazelnut/test/good/037.png",
+    "hazelnut/test/good/038.png",
+    "hazelnut/test/good/005.png",
+    "hazelnut/test/good/016.png",
+    "hazelnut/test/good/022.png",
+    "hazelnut/test/good/014.png",
+    "hazelnut/test/good/036.png",
+    "hazelnut/test/good/031.png",
+    "hazelnut/test/good/024.png",
+    "hazelnut/test/hole/014.png",
+    "hazelnut/test/hole/015.png",
+    "hazelnut/test/print/012.png",
+    "hazelnut/test/hole/013.png",
+    "hazelnut/test/hole/007.png",
+    "hazelnut/test/crack/008.png",
+    "hazelnut/test/crack/000.png",
+    "hazelnut/test/print/009.png",
+    "hazelnut/test/crack/005.png",
+    "hazelnut/test/hole/012.png"
+  ],
+  "k_plus_calibration": 12,
+  "strict_k_image_few_shot": false,
+  "support_views": [
+    "identity"
+  ]
+}

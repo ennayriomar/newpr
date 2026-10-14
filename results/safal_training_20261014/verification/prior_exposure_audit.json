@@ -1,0 +1,795 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-14T08:09:20.209531+00:00",
+  "audit_scope": "Read-only current expanded SAFAL manifest versus actual available records from five specified prior runs. One new derived JSON written; no source, config, raw dataset, checkpoint, or prior-run artifact changed.",
+  "current_inputs": [
+    {
+      "path": "/workspace/tools/configs/safal_training_20261014.json",
+      "sha256": "6e706a1a68d3b574d30d725313a7d5734a6f4611f4fb62555ef31a773fbead3c"
+    },
+    {
+      "path": "/tmp/safal_training_20261014_verification/preflight_manifest.json",
+      "sha256": "222f0fd541e7f437e6e5f544af6c0cadf28317d807730828e07d5c68e4b34899"
+    }
+  ],
+  "required_description": "Broader development validation on five reserved validation categories; not a pristine unseen final benchmark.",
+  "current_protocol": {
+    "unique_native_validation_queries": 100,
+    "query_labels": {
+      "anomaly": 50,
+      "normal": 50
+    },
+    "episode_configurations": 60,
+    "shots": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "source_categories": 10,
+    "source_fit_parents": 160,
+    "source_heldout_parents": 40,
+    "unique_source_parents": 200,
+    "unique_validation_support_images_across_draws": 116,
+    "unique_validation_calibration_images": 20,
+    "normal_information_budget": "Each target-category episode uses k support images plus four disjoint extra normal calibration images; not strict k-image few-shot.",
+    "datasets_in_roots": [
+      "mvtec_ad",
+      "visa"
+    ],
+    "datasets_in_manifest": [
+      "mvtec_ad",
+      "visa"
+    ],
+    "no_real_iad_or_mvtec_ad2_in_current_run": true
+  },
+  "overlap_summary": {
+    "prior_measured_validation_query_ids_reused": 18,
+    "reused_query_label_counts": {
+      "normal": 13,
+      "anomaly": 5
+    },
+    "query_ids_not_identified_in_these_five_runs": 82,
+    "current_source_parents_used_as_prior_source_queries": 5,
+    "current_fit_parent_reuse": 4,
+    "current_heldout_parent_reuse": 1,
+    "current_source_parents_used_as_prior_references_or_calibration_or_pool": 4,
+    "current_source_parents_with_any_of_these_prior_source_or_reference_exposures": 9
+  },
+  "validation_by_category": [
+    {
+      "dataset": "mvtec_ad",
+      "category": "cable",
+      "unique_current_queries": 20,
+      "previously_measured_unique_queries": 10,
+      "not_identified_in_audited_run_predictions": 10,
+      "prior_runs_using_category": [
+        "adaptive_subspace_search_v050",
+        "category_subspace_search_v050",
+        "safe_iad_milestone3",
+        "subspace_search_v050"
+      ],
+      "overlap_ids": [
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/cable_swap/007.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/cut_inner_insulation/001.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/cut_inner_insulation/002.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/good/000.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/good/004.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/good/023.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/good/039.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/good/043.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/good/053.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/missing_wire/002.png"
+        }
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "unique_current_queries": 20,
+      "previously_measured_unique_queries": 2,
+      "not_identified_in_audited_run_predictions": 18,
+      "prior_runs_using_category": [
+        "safal_full_model_v050_final"
+      ],
+      "overlap_ids": [
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "hazelnut/test/good/014.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "hazelnut/test/good/016.png"
+        }
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "transistor",
+      "unique_current_queries": 20,
+      "previously_measured_unique_queries": 0,
+      "not_identified_in_audited_run_predictions": 20,
+      "prior_runs_using_category": [],
+      "overlap_ids": []
+    },
+    {
+      "dataset": "visa",
+      "category": "macaroni2",
+      "unique_current_queries": 20,
+      "previously_measured_unique_queries": 5,
+      "not_identified_in_audited_run_predictions": 15,
+      "prior_runs_using_category": [
+        "adaptive_subspace_search_v050",
+        "category_subspace_search_v050",
+        "safe_iad_milestone3",
+        "subspace_search_v050"
+      ],
+      "overlap_ids": [
+        {
+          "dataset": "visa",
+          "image_id": "macaroni2/Data/Images/Normal/0011.JPG"
+        },
+        {
+          "dataset": "visa",
+          "image_id": "macaroni2/Data/Images/Normal/0100.JPG"
+        },
+        {
+          "dataset": "visa",
+          "image_id": "macaroni2/Data/Images/Normal/0363.JPG"
+        },
+        {
+          "dataset": "visa",
+          "image_id": "macaroni2/Data/Images/Normal/0427.JPG"
+        },
+        {
+          "dataset": "visa",
+          "image_id": "macaroni2/Data/Images/Normal/0525.JPG"
+        }
+      ]
+    },
+    {
+      "dataset": "visa",
+      "category": "pcb2",
+      "unique_current_queries": 20,
+      "previously_measured_unique_queries": 1,
+      "not_identified_in_audited_run_predictions": 19,
+      "prior_runs_using_category": [
+        "safal_full_model_v050_final"
+      ],
+      "overlap_ids": [
+        {
+          "dataset": "visa",
+          "image_id": "pcb2/Data/Images/Anomaly/007.JPG"
+        }
+      ]
+    }
+  ],
+  "reused_queries": [
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "cable/test/cable_swap/007.png",
+      "label_kind": "anomaly",
+      "prior_runs": [
+        "category_subspace_search_v050"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "cable/test/cut_inner_insulation/001.png",
+      "label_kind": "anomaly",
+      "prior_runs": [
+        "adaptive_subspace_search_v050"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "cable/test/cut_inner_insulation/002.png",
+      "label_kind": "anomaly",
+      "prior_runs": [
+        "adaptive_subspace_search_v050"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "cable/test/good/000.png",
+      "label_kind": "normal",
+      "prior_runs": [
+        "safe_iad_milestone3"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "cable/test/good/004.png",
+      "label_kind": "normal",
+      "prior_runs": [
+        "category_subspace_search_v050"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "cable/test/good/023.png",
+      "label_kind": "normal",
+      "prior_runs": [
+        "subspace_search_v050"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "cable/test/good/039.png",
+      "label_kind": "normal",
+      "prior_runs": [
+        "adaptive_subspace_search_v050"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "cable/test/good/043.png",
+      "label_kind": "normal",
+      "prior_runs": [
+        "subspace_search_v050"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "cable/test/good/053.png",
+      "label_kind": "normal",
+      "prior_runs": [
+        "subspace_search_v050"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "cable/test/missing_wire/002.png",
+      "label_kind": "anomaly",
+      "prior_runs": [
+        "subspace_search_v050"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "hazelnut/test/good/014.png",
+      "label_kind": "normal",
+      "prior_runs": [
+        "safal_full_model_v050_final"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "hazelnut/test/good/016.png",
+      "label_kind": "normal",
+      "prior_runs": [
+        "safal_full_model_v050_final"
+      ]
+    },
+    {
+      "dataset": "visa",
+      "image_id": "macaroni2/Data/Images/Normal/0011.JPG",
+      "label_kind": "normal",
+      "prior_runs": [
+        "safe_iad_milestone3"
+      ]
+    },
+    {
+      "dataset": "visa",
+      "image_id": "macaroni2/Data/Images/Normal/0100.JPG",
+      "label_kind": "normal",
+      "prior_runs": [
+        "category_subspace_search_v050"
+      ]
+    },
+    {
+      "dataset": "visa",
+      "image_id": "macaroni2/Data/Images/Normal/0363.JPG",
+      "label_kind": "normal",
+      "prior_runs": [
+        "adaptive_subspace_search_v050"
+      ]
+    },
+    {
+      "dataset": "visa",
+      "image_id": "macaroni2/Data/Images/Normal/0427.JPG",
+      "label_kind": "normal",
+      "prior_runs": [
+        "subspace_search_v050"
+      ]
+    },
+    {
+      "dataset": "visa",
+      "image_id": "macaroni2/Data/Images/Normal/0525.JPG",
+      "label_kind": "normal",
+      "prior_runs": [
+        "adaptive_subspace_search_v050"
+      ]
+    },
+    {
+      "dataset": "visa",
+      "image_id": "pcb2/Data/Images/Anomaly/007.JPG",
+      "label_kind": "anomaly",
+      "prior_runs": [
+        "safal_full_model_v050_final"
+      ]
+    }
+  ],
+  "reused_source_query_parents": [
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "carpet/train/good/047.png",
+      "current_role": "fit_parent",
+      "prior_runs": [
+        "safal_full_model_v050_final"
+      ],
+      "prior_source_role_mapping": [
+        {
+          "run": "safal_full_model_v050_final",
+          "role": "heldout_parent_ids",
+          "actual_source_query_record_found": true
+        }
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "grid/train/good/192.png",
+      "current_role": "heldout_parent",
+      "prior_runs": [
+        "safe_iad_milestone3"
+      ],
+      "prior_source_role_mapping": []
+    },
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "grid/train/good/262.png",
+      "current_role": "fit_parent",
+      "prior_runs": [
+        "safe_iad_milestone3"
+      ],
+      "prior_source_role_mapping": []
+    },
+    {
+      "dataset": "visa",
+      "image_id": "cashew/Data/Images/Normal/083.JPG",
+      "current_role": "fit_parent",
+      "prior_runs": [
+        "safe_iad_milestone3"
+      ],
+      "prior_source_role_mapping": []
+    },
+    {
+      "dataset": "visa",
+      "image_id": "cashew/Data/Images/Normal/165.JPG",
+      "current_role": "fit_parent",
+      "prior_runs": [
+        "safal_full_model_v050_final",
+        "safe_iad_milestone3"
+      ],
+      "prior_source_role_mapping": [
+        {
+          "run": "safal_full_model_v050_final",
+          "role": "fit_parent_ids",
+          "actual_source_query_record_found": true
+        }
+      ]
+    }
+  ],
+  "source_parents_previously_used_as_references": [
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "carpet/train/good/093.png",
+      "current_role": "fit_parent",
+      "prior_runs": [
+        "safe_iad_milestone3"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "carpet/train/good/248.png",
+      "current_role": "fit_parent",
+      "prior_runs": [
+        "safal_full_model_v050_final"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "carpet/train/good/269.png",
+      "current_role": "fit_parent",
+      "prior_runs": [
+        "safe_iad_milestone3"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "image_id": "grid/train/good/038.png",
+      "current_role": "fit_parent",
+      "prior_runs": [
+        "safal_full_model_v050_final"
+      ]
+    }
+  ],
+  "prior_runs": [
+    {
+      "run_name": "safal_full_model_v050_final",
+      "root": "/tmp/safal_full_model_v050_final",
+      "available": true,
+      "evidence_files": [
+        {
+          "path": "/tmp/safal_full_model_v050_final/predictions.jsonl",
+          "sha256": "14bce1f8f94ee47b976e5eb669e46cfaa025982b8e2886d30061c7c98bc785b7",
+          "role": "actual_prediction_records"
+        },
+        {
+          "path": "/tmp/safal_full_model_v050_final/source_calibration.jsonl",
+          "sha256": "642e717a27727673e8690f845c676fb96b56e17e95721a26742c07b897e9b8fc",
+          "role": "actual_source_normal_or_synthetic_records"
+        },
+        {
+          "path": "/tmp/safal_full_model_v050_final/manifest.json",
+          "sha256": "a52f7efbfb7ba486e5fe9f5e67ca760885e537498d5d7d308e0f41c37d6b0331",
+          "role": "prior_source_role_mapping_not_prediction_count"
+        }
+      ],
+      "prediction_extraction": "Use single authoritative aggregate if available; otherwise per-episode files. Deduplicate query IDs across methods, seeds and k.",
+      "actual_prediction_records_scanned": 320,
+      "unique_measured_query_ids": 8,
+      "unique_native_test_query_ids": 6,
+      "source_record_count_scanned": 64,
+      "unique_source_query_parents": 32,
+      "current_query_overlap_count": 3,
+      "current_query_overlaps": [
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "hazelnut/test/good/014.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "hazelnut/test/good/016.png"
+        },
+        {
+          "dataset": "visa",
+          "image_id": "pcb2/Data/Images/Anomaly/007.JPG"
+        }
+      ],
+      "current_query_overlap_by_category": [
+        {
+          "dataset": "mvtec_ad",
+          "category": "hazelnut",
+          "unique_images": 2
+        },
+        {
+          "dataset": "visa",
+          "category": "pcb2",
+          "unique_images": 1
+        }
+      ],
+      "current_parent_overlap_count": 2,
+      "current_fit_parent_overlap_count": 2,
+      "current_heldout_parent_overlap_count": 0,
+      "current_parent_overlaps": [
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "carpet/train/good/047.png"
+        },
+        {
+          "dataset": "visa",
+          "image_id": "cashew/Data/Images/Normal/165.JPG"
+        }
+      ],
+      "current_parent_prior_reference_role_overlap_count": 2,
+      "current_parent_prior_reference_role_overlaps": [
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "carpet/train/good/248.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "grid/train/good/038.png"
+        }
+      ]
+    },
+    {
+      "run_name": "subspace_search_v050",
+      "root": "/tmp/subspace_search_v050",
+      "available": true,
+      "evidence_files": [
+        {
+          "path": "/tmp/subspace_search_v050/predictions.jsonl",
+          "sha256": "1d8c4cca34cab14bef49c88b396d1fd1e270eb795c3234cadd69e3acea5ac08e",
+          "role": "actual_prediction_records"
+        }
+      ],
+      "prediction_extraction": "Use single authoritative aggregate if available; otherwise per-episode files. Deduplicate query IDs across methods, seeds and k.",
+      "actual_prediction_records_scanned": 648,
+      "unique_measured_query_ids": 24,
+      "unique_native_test_query_ids": 18,
+      "source_record_count_scanned": 0,
+      "unique_source_query_parents": 0,
+      "current_query_overlap_count": 5,
+      "current_query_overlaps": [
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/good/023.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/good/043.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/good/053.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/missing_wire/002.png"
+        },
+        {
+          "dataset": "visa",
+          "image_id": "macaroni2/Data/Images/Normal/0427.JPG"
+        }
+      ],
+      "current_query_overlap_by_category": [
+        {
+          "dataset": "mvtec_ad",
+          "category": "cable",
+          "unique_images": 4
+        },
+        {
+          "dataset": "visa",
+          "category": "macaroni2",
+          "unique_images": 1
+        }
+      ],
+      "current_parent_overlap_count": 0,
+      "current_fit_parent_overlap_count": 0,
+      "current_heldout_parent_overlap_count": 0,
+      "current_parent_overlaps": [],
+      "current_parent_prior_reference_role_overlap_count": 0,
+      "current_parent_prior_reference_role_overlaps": []
+    },
+    {
+      "run_name": "adaptive_subspace_search_v050",
+      "root": "/tmp/adaptive_subspace_search_v050",
+      "available": true,
+      "evidence_files": [
+        {
+          "path": "/tmp/adaptive_subspace_search_v050/predictions.jsonl",
+          "sha256": "b4b2bdfc900f8cecc161d2f8636f70deeebb4312a94682bcdb37b3b8a6417ffe",
+          "role": "actual_prediction_records"
+        }
+      ],
+      "prediction_extraction": "Use single authoritative aggregate if available; otherwise per-episode files. Deduplicate query IDs across methods, seeds and k.",
+      "actual_prediction_records_scanned": 648,
+      "unique_measured_query_ids": 24,
+      "unique_native_test_query_ids": 18,
+      "source_record_count_scanned": 0,
+      "unique_source_query_parents": 0,
+      "current_query_overlap_count": 5,
+      "current_query_overlaps": [
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/cut_inner_insulation/001.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/cut_inner_insulation/002.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/good/039.png"
+        },
+        {
+          "dataset": "visa",
+          "image_id": "macaroni2/Data/Images/Normal/0363.JPG"
+        },
+        {
+          "dataset": "visa",
+          "image_id": "macaroni2/Data/Images/Normal/0525.JPG"
+        }
+      ],
+      "current_query_overlap_by_category": [
+        {
+          "dataset": "mvtec_ad",
+          "category": "cable",
+          "unique_images": 3
+        },
+        {
+          "dataset": "visa",
+          "category": "macaroni2",
+          "unique_images": 2
+        }
+      ],
+      "current_parent_overlap_count": 0,
+      "current_fit_parent_overlap_count": 0,
+      "current_heldout_parent_overlap_count": 0,
+      "current_parent_overlaps": [],
+      "current_parent_prior_reference_role_overlap_count": 0,
+      "current_parent_prior_reference_role_overlaps": []
+    },
+    {
+      "run_name": "category_subspace_search_v050",
+      "root": "/tmp/category_subspace_search_v050",
+      "available": true,
+      "evidence_files": [
+        {
+          "path": "/tmp/category_subspace_search_v050/predictions.jsonl",
+          "sha256": "3991b0686bc89db36cddf7d36f2289215da0bd302f50cb48798ba9eae5ec1960",
+          "role": "actual_prediction_records"
+        }
+      ],
+      "prediction_extraction": "Use single authoritative aggregate if available; otherwise per-episode files. Deduplicate query IDs across methods, seeds and k.",
+      "actual_prediction_records_scanned": 648,
+      "unique_measured_query_ids": 24,
+      "unique_native_test_query_ids": 18,
+      "source_record_count_scanned": 0,
+      "unique_source_query_parents": 0,
+      "current_query_overlap_count": 3,
+      "current_query_overlaps": [
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/cable_swap/007.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/good/004.png"
+        },
+        {
+          "dataset": "visa",
+          "image_id": "macaroni2/Data/Images/Normal/0100.JPG"
+        }
+      ],
+      "current_query_overlap_by_category": [
+        {
+          "dataset": "mvtec_ad",
+          "category": "cable",
+          "unique_images": 2
+        },
+        {
+          "dataset": "visa",
+          "category": "macaroni2",
+          "unique_images": 1
+        }
+      ],
+      "current_parent_overlap_count": 0,
+      "current_fit_parent_overlap_count": 0,
+      "current_heldout_parent_overlap_count": 0,
+      "current_parent_overlaps": [],
+      "current_parent_prior_reference_role_overlap_count": 0,
+      "current_parent_prior_reference_role_overlaps": []
+    },
+    {
+      "run_name": "safe_iad_milestone3",
+      "root": "/tmp/safe_iad_milestone3",
+      "available": true,
+      "evidence_files": [
+        {
+          "path": "/tmp/safe_iad_milestone3/evaluation/predictions.jsonl",
+          "sha256": "2fc36834e1f3e4af99315d9e51845e8ea55d52d5204ecd96240f6e2d0a77811a",
+          "role": "actual_prediction_records"
+        },
+        {
+          "path": "/tmp/safe_iad_milestone3/targets/training.jsonl",
+          "sha256": "b3cde35d20433c8ecf76f44858346a6e1c39cbbed9891be2d84cd53fe49af416",
+          "role": "actual_source_normal_or_synthetic_records"
+        },
+        {
+          "path": "/tmp/safe_iad_milestone3/targets/validation.jsonl",
+          "sha256": "caed6a63a56b90cdc7ea8777d547dad61c87aa24c436779dbb338b3562173957",
+          "role": "actual_source_normal_or_synthetic_records"
+        }
+      ],
+      "prediction_extraction": "Use single authoritative aggregate if available; otherwise per-episode files. Deduplicate query IDs across methods, seeds and k.",
+      "actual_prediction_records_scanned": 576,
+      "unique_measured_query_ids": 20,
+      "unique_native_test_query_ids": 6,
+      "source_record_count_scanned": 1920,
+      "unique_source_query_parents": 60,
+      "current_query_overlap_count": 2,
+      "current_query_overlaps": [
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "cable/test/good/000.png"
+        },
+        {
+          "dataset": "visa",
+          "image_id": "macaroni2/Data/Images/Normal/0011.JPG"
+        }
+      ],
+      "current_query_overlap_by_category": [
+        {
+          "dataset": "mvtec_ad",
+          "category": "cable",
+          "unique_images": 1
+        },
+        {
+          "dataset": "visa",
+          "category": "macaroni2",
+          "unique_images": 1
+        }
+      ],
+      "current_parent_overlap_count": 4,
+      "current_fit_parent_overlap_count": 3,
+      "current_heldout_parent_overlap_count": 1,
+      "current_parent_overlaps": [
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "grid/train/good/192.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "grid/train/good/262.png"
+        },
+        {
+          "dataset": "visa",
+          "image_id": "cashew/Data/Images/Normal/083.JPG"
+        },
+        {
+          "dataset": "visa",
+          "image_id": "cashew/Data/Images/Normal/165.JPG"
+        }
+      ],
+      "current_parent_prior_reference_role_overlap_count": 2,
+      "current_parent_prior_reference_role_overlaps": [
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "carpet/train/good/093.png"
+        },
+        {
+          "dataset": "mvtec_ad",
+          "image_id": "carpet/train/good/269.png"
+        }
+      ]
+    }
+  ],
+  "current_internal_identity_checks": {
+    "fit_heldout_parent_overlap": 0,
+    "native_query_support_overlap": 0,
+    "native_query_calibration_overlap": 0,
+    "validation_support_calibration_overlap": 0
+  },
+  "license_scope": {
+    "mvtec_ad_data": "CC BY-NC-SA 4.0",
+    "visa_data": "CC BY 4.0",
+    "authority": "Previous Phase A official online dataset license audit at /workspace/tools/docs/dataset_readiness.md and /tmp/safal_phase_a/dataset_online_verification.json; licenses were not re-fetched during this derived identity-overlap audit.",
+    "current_run_inputs": "Existing MVTec AD and VisA roots only. No Real-IAD or MVTec AD2 images in configured run or manifest; no new data acquisition performed by this audit."
+  },
+  "interpretation": [
+    "Repeated supports, shots and methods do not increase unique native query count beyond 100.",
+    "Eighteen of these 100 query IDs were directly measured by at least one audited prior run. Historical exposure disqualifies a claim that the whole run is unseen final evaluation.",
+    "Five current source parents appeared in actual previous source-query or synthetic-parent records, including one current heldout parent. Current model fit/heldout separation can still be valid, but this is not a historically untouched heldout claim.",
+    "No identity overlap was found between current source fit and heldout parents, or between native validation queries and current validation supports/calibration images.",
+    "The 82 IDs not found in these five runs are not certified globally unseen: earlier runs outside this audit, viewed predictions, category-level model choices, or other prior development exposure may exist.",
+    "No final_test category episode is present in the current manifest. Names reserved as final_test in config are a protocol role, not proof that all corresponding images/categories are historically untouched.",
+    "This audit measures exact dataset-namespaced image-ID overlap, not perceptual duplicate content or cross-dataset identity. It does not certify absence of all leakage."
+  ]
+}

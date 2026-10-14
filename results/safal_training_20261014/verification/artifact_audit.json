@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "run": "/tmp/safal_training_20261014",
+  "stage_ledgers_checked": 61,
+  "output_hash_checks": 3588,
+  "input_hash_checks": 55266,
+  "serialized_models_checked": 70,
+  "query_support_cases": 1200,
+  "serialized_query_replays": 60,
+  "prediction_records": 6000,
+  "unique_native_queries": 100,
+  "original_input_images": 496,
+  "unique_output_files_hash_verified": 1848,
+  "unique_input_files_hash_verified": 906,
+  "source_proxy_fit_rows": 320,
+  "source_proxy_fit_parent_groups": 160,
+  "source_proxy_heldout_rows": 80,
+  "source_proxy_heldout_parent_groups": 40,
+  "original_support_and_calibration_budgets_verified": true,
+  "source_parent_and_evaluation_isolation_verified": true,
+  "resized_metric_maps_shape": [
+    256,
+    256
+  ],
+  "native_resolution_localization_replayed": false,
+  "source_proxy_error_probability_transfer_verified": false,
+  "nested_shots_counted_as_independent_draws": false,
+  "real_feature_probes": [
+    {
+      "dataset": "mvtec_ad",
+      "query_id": "cable/test/good/053.png",
+      "checkpoint_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+      "source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "cached_features_used": false,
+      "float32_features_bitwise_equal": true
+    },
+    {
+      "dataset": "visa",
+      "query_id": "macaroni2/Data/Images/Normal/0100.JPG",
+      "checkpoint_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+      "source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "cached_features_used": false,
+      "float32_features_bitwise_equal": true
+    }
+  ],
+  "limitations": [
+    "A/U and weighting are empirical diagnostics, not identified support adequacy or reliability guarantees.",
+    "Weighted SAFAL may suppress branch alerts; raw branches and maximum comparator remain exposed.",
+    "Error probabilities are source-normal/CutPaste estimates; native transfer remains unverified.",
+    "Replayed one query per serialized target model; the metric maps are resized256x256, not native resolution.",
+    "A completed audit does not establish greater accuracy, full-benchmark reproduction or novelty."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "dataset": "visa",
+  "category": "chewinggum",
+  "support_ids": [
+    "chewinggum/Data/Images/Normal/227.JPG",
+    "chewinggum/Data/Images/Normal/223.JPG"
+  ],
+  "calibration_ids": [
+    "chewinggum/Data/Images/Normal/255.JPG",
+    "chewinggum/Data/Images/Normal/123.JPG",
+    "chewinggum/Data/Images/Normal/170.JPG",
+    "chewinggum/Data/Images/Normal/045.JPG"
+  ],
+  "fit_parent_ids": [
+    "chewinggum/Data/Images/Normal/370.JPG",
+    "chewinggum/Data/Images/Normal/048.JPG",
+    "chewinggum/Data/Images/Normal/410.JPG",
+    "chewinggum/Data/Images/Normal/283.JPG",
+    "chewinggum/Data/Images/Normal/240.JPG",
+    "chewinggum/Data/Images/Normal/206.JPG",
+    "chewinggum/Data/Images/Normal/150.JPG",
+    "chewinggum/Data/Images/Normal/198.JPG",
+    "chewinggum/Data/Images/Normal/192.JPG",
+    "chewinggum/Data/Images/Normal/221.JPG",
+    "chewinggum/Data/Images/Normal/019.JPG",
+    "chewinggum/Data/Images/Normal/135.JPG",
+    "chewinggum/Data/Images/Normal/161.JPG",
+    "chewinggum/Data/Images/Normal/288.JPG",
+    "chewinggum/Data/Images/Normal/364.JPG",
+    "chewinggum/Data/Images/Normal/074.JPG"
+  ],
+  "heldout_parent_ids": [
+    "chewinggum/Data/Images/Normal/121.JPG",
+    "chewinggum/Data/Images/Normal/017.JPG",
+    "chewinggum/Data/Images/Normal/409.JPG",
+    "chewinggum/Data/Images/Normal/371.JPG"
+  ]
+}

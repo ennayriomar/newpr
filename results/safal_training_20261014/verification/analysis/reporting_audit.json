@@ -1,0 +1,29 @@
+{
+  "detection_metric_checks": 2700,
+  "inputs": {
+    "calibration_report.json": "4026037bc0d6c962de83a0afea8d3846b3ab3d347acccb6fa2e5b4088f742069",
+    "completion.json": "31f4c3a2af93579b5ffeb87350e6519c460d5fe8e81cb7b58a42ff5f3ee8ae4d",
+    "config.json": "6e706a1a68d3b574d30d725313a7d5734a6f4611f4fb62555ef31a773fbead3c",
+    "manifest.json": "222f0fd541e7f437e6e5f544af6c0cadf28317d807730828e07d5c68e4b34899",
+    "predictions.jsonl": "be8df83e169d590c5a894b7c92d0b2fc6408c356a76ebf308fa41cd0a4b3a030",
+    "source_calibration.jsonl": "6f4f2978b99eb5c21ae63939ccd1d84d9049a3b820fb674491a0d63157d0517d"
+  },
+  "localization_metrics": "Recorded pixel metrics retained; not a fresh pixel-map recomputation.",
+  "methods": [
+    "search",
+    "subspace",
+    "fixed_avg",
+    "max",
+    "safal"
+  ],
+  "native_json_head_probability_replay_checks": 1200,
+  "paired_cases": 1200,
+  "parameters_tuned": false,
+  "prediction_records": 6000,
+  "reference_fit_episodes": 60,
+  "scientific_code_changed": false,
+  "score_flag_and_complete_method_pairing_verified": true,
+  "source_fit_heldout_parent_overlap": 0,
+  "status": "passed",
+  "unique_query_images": 100
+}

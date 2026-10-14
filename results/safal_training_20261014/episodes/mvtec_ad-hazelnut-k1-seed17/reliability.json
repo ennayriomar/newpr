@@ -1,0 +1,565 @@
+{
+  "diagnostic": {
+    "aurc": 0.0334385701587714,
+    "error_detection_auroc": 0.5263157894736843,
+    "curve": [
+      {
+        "coverage": 0.0,
+        "accepted": 0,
+        "errors": 0,
+        "risk": null,
+        "confidence_threshold": null
+      },
+      {
+        "coverage": 0.05,
+        "accepted": 1,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.8027535825222296
+      },
+      {
+        "coverage": 0.1,
+        "accepted": 2,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.7844843821310302
+      },
+      {
+        "coverage": 0.15,
+        "accepted": 3,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.782594161276356
+      },
+      {
+        "coverage": 0.2,
+        "accepted": 4,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.7787821284928054
+      },
+      {
+        "coverage": 0.25,
+        "accepted": 5,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.7781065552095917
+      },
+      {
+        "coverage": 0.3,
+        "accepted": 6,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.7778986468783106
+      },
+      {
+        "coverage": 0.35,
+        "accepted": 7,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.7755569994900866
+      },
+      {
+        "coverage": 0.4,
+        "accepted": 8,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.7740432533280498
+      },
+      {
+        "coverage": 0.45,
+        "accepted": 9,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.7703067741750738
+      },
+      {
+        "coverage": 0.5,
+        "accepted": 10,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.7694542542112566
+      },
+      {
+        "coverage": 0.55,
+        "accepted": 11,
+        "errors": 1,
+        "risk": 0.09090909090909091,
+        "confidence_threshold": 0.7687410590606347
+      },
+      {
+        "coverage": 0.6,
+        "accepted": 12,
+        "errors": 1,
+        "risk": 0.08333333333333333,
+        "confidence_threshold": 0.7648500757573682
+      },
+      {
+        "coverage": 0.65,
+        "accepted": 13,
+        "errors": 1,
+        "risk": 0.07692307692307693,
+        "confidence_threshold": 0.7635742511427207
+      },
+      {
+        "coverage": 0.7,
+        "accepted": 14,
+        "errors": 1,
+        "risk": 0.07142857142857142,
+        "confidence_threshold": 0.7603249374764609
+      },
+      {
+        "coverage": 0.75,
+        "accepted": 15,
+        "errors": 1,
+        "risk": 0.06666666666666667,
+        "confidence_threshold": 0.7572437054185499
+      },
+      {
+        "coverage": 0.8,
+        "accepted": 16,
+        "errors": 1,
+        "risk": 0.0625,
+        "confidence_threshold": 0.7562951888278951
+      },
+      {
+        "coverage": 0.85,
+        "accepted": 17,
+        "errors": 1,
+        "risk": 0.058823529411764705,
+        "confidence_threshold": 0.7546599093416828
+      },
+      {
+        "coverage": 0.9,
+        "accepted": 18,
+        "errors": 1,
+        "risk": 0.05555555555555555,
+        "confidence_threshold": 0.7510469525054313
+      },
+      {
+        "coverage": 0.95,
+        "accepted": 19,
+        "errors": 1,
+        "risk": 0.05263157894736842,
+        "confidence_threshold": 0.7441354592059093
+      },
+      {
+        "coverage": 1.0,
+        "accepted": 20,
+        "errors": 1,
+        "risk": 0.05,
+        "confidence_threshold": 0.7359055857637238
+      }
+    ],
+    "queries": 20,
+    "risk_definition": "mean 0/1 classification error at the caller-locked detector threshold",
+    "confidence_semantics": "ranking input; not assumed to be a calibrated probability",
+    "tie_handling": "accept all equal-confidence queries together",
+    "integration": "right-step risk times each whole-group coverage increment"
+  },
+  "probability_event": "binary SAFAL image-decision error at locked threshold 1",
+  "native_probability_calibration_claim": false,
+  "probability": {
+    "event": "prediction_error",
+    "samples": 20,
+    "observed_error_rate": 0.05,
+    "brier": 0.05891324018234032,
+    "nll": 0.23358084196088685,
+    "nll_probability_clip": 1e-15,
+    "ece": 0.12290906796600228,
+    "ece_bins": 10,
+    "ece_bin_rule": "equal width; [lower,upper), with probability=1 included in last bin",
+    "reliability_diagram": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "count": 7,
+        "mean_error_probability": 0.04822556715338009,
+        "observed_error_rate": 0.0
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "count": 4,
+        "mean_error_probability": 0.14125743720069606,
+        "observed_error_rate": 0.0
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "count": 6,
+        "mean_error_probability": 0.2533206299643849,
+        "observed_error_rate": 0.0
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "count": 3,
+        "mean_error_probability": 0.3452162868857637,
+        "observed_error_rate": 0.3333333333333333
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "count": 0,
+        "mean_error_probability": null,
+        "observed_error_rate": null
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "count": 0,
+        "mean_error_probability": null,
+        "observed_error_rate": null
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "count": 0,
+        "mean_error_probability": null,
+        "observed_error_rate": null
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "count": 0,
+        "mean_error_probability": null,
+        "observed_error_rate": null
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "count": 0,
+        "mean_error_probability": null,
+        "observed_error_rate": null
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 0,
+        "mean_error_probability": null,
+        "observed_error_rate": null
+      }
+    ],
+    "risk_coverage": {
+      "aurc": 0.0079093567251462,
+      "error_detection_auroc": 0.8947368421052632,
+      "curve": [
+        {
+          "coverage": 0.0,
+          "accepted": 0,
+          "errors": 0,
+          "risk": null,
+          "confidence_threshold": null
+        },
+        {
+          "coverage": 0.05,
+          "accepted": 1,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9743229612625451
+        },
+        {
+          "coverage": 0.1,
+          "accepted": 2,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9614762320694954
+        },
+        {
+          "coverage": 0.15,
+          "accepted": 3,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9591707304587113
+        },
+        {
+          "coverage": 0.2,
+          "accepted": 4,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9558419738460114
+        },
+        {
+          "coverage": 0.25,
+          "accepted": 5,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.953369769440637
+        },
+        {
+          "coverage": 0.3,
+          "accepted": 6,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9516416510963464
+        },
+        {
+          "coverage": 0.35,
+          "accepted": 7,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9065977117525928
+        },
+        {
+          "coverage": 0.4,
+          "accepted": 8,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.8906098863071885
+        },
+        {
+          "coverage": 0.45,
+          "accepted": 9,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.8717491235371909
+        },
+        {
+          "coverage": 0.5,
+          "accepted": 10,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.8557486875317846
+        },
+        {
+          "coverage": 0.55,
+          "accepted": 11,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.8168625538210518
+        },
+        {
+          "coverage": 0.6,
+          "accepted": 12,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.7716516668875466
+        },
+        {
+          "coverage": 0.65,
+          "accepted": 13,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.7659024361187853
+        },
+        {
+          "coverage": 0.7,
+          "accepted": 14,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.7616897351487286
+        },
+        {
+          "coverage": 0.75,
+          "accepted": 15,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.7485031644864303
+        },
+        {
+          "coverage": 0.8,
+          "accepted": 16,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.7228939134000002
+        },
+        {
+          "coverage": 0.85,
+          "accepted": 17,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.7094353041721995
+        },
+        {
+          "coverage": 0.9,
+          "accepted": 18,
+          "errors": 1,
+          "risk": 0.05555555555555555,
+          "confidence_threshold": 0.6651908713083818
+        },
+        {
+          "coverage": 0.95,
+          "accepted": 19,
+          "errors": 1,
+          "risk": 0.05263157894736842,
+          "confidence_threshold": 0.660432542643921
+        },
+        {
+          "coverage": 1.0,
+          "accepted": 20,
+          "errors": 1,
+          "risk": 0.05,
+          "confidence_threshold": 0.638727725390406
+        }
+      ],
+      "queries": 20,
+      "risk_definition": "mean 0/1 classification error at the caller-locked detector threshold",
+      "confidence_semantics": "ranking input; not assumed to be a calibrated probability",
+      "tie_handling": "accept all equal-confidence queries together",
+      "integration": "right-step risk times each whole-group coverage increment"
+    },
+    "semantics": "empirical binary prediction-error metrics; no calibration guarantee"
+  },
+  "selective": {
+    "aurc": 0.0079093567251462,
+    "error_detection_auroc": 0.8947368421052632,
+    "curve": [
+      {
+        "coverage": 0.0,
+        "accepted": 0,
+        "errors": 0,
+        "risk": null,
+        "confidence_threshold": null
+      },
+      {
+        "coverage": 0.05,
+        "accepted": 1,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.9743229612625451
+      },
+      {
+        "coverage": 0.1,
+        "accepted": 2,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.9614762320694954
+      },
+      {
+        "coverage": 0.15,
+        "accepted": 3,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.9591707304587113
+      },
+      {
+        "coverage": 0.2,
+        "accepted": 4,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.9558419738460114
+      },
+      {
+        "coverage": 0.25,
+        "accepted": 5,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.953369769440637
+      },
+      {
+        "coverage": 0.3,
+        "accepted": 6,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.9516416510963464
+      },
+      {
+        "coverage": 0.35,
+        "accepted": 7,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.9065977117525928
+      },
+      {
+        "coverage": 0.4,
+        "accepted": 8,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.8906098863071885
+      },
+      {
+        "coverage": 0.45,
+        "accepted": 9,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.8717491235371909
+      },
+      {
+        "coverage": 0.5,
+        "accepted": 10,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.8557486875317846
+      },
+      {
+        "coverage": 0.55,
+        "accepted": 11,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.8168625538210518
+      },
+      {
+        "coverage": 0.6,
+        "accepted": 12,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.7716516668875466
+      },
+      {
+        "coverage": 0.65,
+        "accepted": 13,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.7659024361187853
+      },
+      {
+        "coverage": 0.7,
+        "accepted": 14,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.7616897351487286
+      },
+      {
+        "coverage": 0.75,
+        "accepted": 15,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.7485031644864303
+      },
+      {
+        "coverage": 0.8,
+        "accepted": 16,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.7228939134000002
+      },
+      {
+        "coverage": 0.85,
+        "accepted": 17,
+        "errors": 0,
+        "risk": 0.0,
+        "confidence_threshold": 0.7094353041721995
+      },
+      {
+        "coverage": 0.9,
+        "accepted": 18,
+        "errors": 1,
+        "risk": 0.05555555555555555,
+        "confidence_threshold": 0.6651908713083818
+      },
+      {
+        "coverage": 0.95,
+        "accepted": 19,
+        "errors": 1,
+        "risk": 0.05263157894736842,
+        "confidence_threshold": 0.660432542643921
+      },
+      {
+        "coverage": 1.0,
+        "accepted": 20,
+        "errors": 1,
+        "risk": 0.05,
+        "confidence_threshold": 0.638727725390406
+      }
+    ],
+    "queries": 20,
+    "risk_definition": "mean 0/1 classification error at the caller-locked detector threshold",
+    "confidence_semantics": "ranking input; not assumed to be a calibrated probability",
+    "tie_handling": "accept all equal-confidence queries together",
+    "integration": "right-step risk times each whole-group coverage increment"
+  },
+  "abstention_cutoff": 0.2,
+  "coverage": 0.55,
+  "accepted_error_rate": 0.0
+}

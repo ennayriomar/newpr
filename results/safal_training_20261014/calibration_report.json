@@ -1,0 +1,1700 @@
+{
+  "fit_rows": 320,
+  "fit_groups": 160,
+  "calibration_rows": 80,
+  "calibration_groups": 40,
+  "fit_group_ids": [
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/028.png"
+    ],
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/030.png"
+    ],
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/047.png"
+    ],
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/093.png"
+    ],
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/146.png"
+    ],
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/162.png"
+    ],
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/169.png"
+    ],
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/192.png"
+    ],
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/207.png"
+    ],
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/230.png"
+    ],
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/238.png"
+    ],
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/248.png"
+    ],
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/254.png"
+    ],
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/258.png"
+    ],
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/269.png"
+    ],
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/273.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/012.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/019.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/038.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/045.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/058.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/061.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/069.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/073.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/086.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/106.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/175.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/195.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/222.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/244.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/254.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/262.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/002.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/016.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/060.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/065.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/070.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/075.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/094.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/095.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/103.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/108.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/128.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/139.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/146.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/186.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/191.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/222.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/000.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/001.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/003.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/041.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/059.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/064.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/078.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/098.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/119.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/120.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/126.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/133.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/142.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/155.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/160.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/175.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/018.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/063.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/099.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/109.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/114.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/119.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/132.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/152.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/163.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/173.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/192.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/205.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/212.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/229.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/233.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/235.png"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0075.JPG"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0082.JPG"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0158.JPG"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0386.JPG"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0450.JPG"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0481.JPG"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0512.JPG"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0526.JPG"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0577.JPG"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0587.JPG"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0732.JPG"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0736.JPG"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0874.JPG"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0899.JPG"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0909.JPG"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0966.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/030.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/034.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/045.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/077.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/083.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/090.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/120.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/152.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/165.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/198.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/232.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/330.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/347.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/349.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/410.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/415.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/019.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/048.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/074.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/135.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/150.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/161.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/192.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/198.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/206.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/221.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/240.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/283.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/288.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/364.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/370.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/410.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0025.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0085.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0144.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0202.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0217.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0272.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0316.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0472.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0492.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0548.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0608.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0748.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0766.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0930.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0973.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0990.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0005.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0023.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0067.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0137.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0221.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0332.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0341.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0380.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0572.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0620.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0653.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0692.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0808.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0922.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0943.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0990.JPG"
+    ]
+  ],
+  "calibration_group_ids": [
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/073.png"
+    ],
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/091.png"
+    ],
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/197.png"
+    ],
+    [
+      "mvtec_ad",
+      "carpet",
+      "carpet/train/good/234.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/018.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/125.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/184.png"
+    ],
+    [
+      "mvtec_ad",
+      "grid",
+      "grid/train/good/192.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/119.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/125.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/136.png"
+    ],
+    [
+      "mvtec_ad",
+      "leather",
+      "leather/train/good/145.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/002.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/030.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/036.png"
+    ],
+    [
+      "mvtec_ad",
+      "tile",
+      "tile/train/good/044.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/053.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/056.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/083.png"
+    ],
+    [
+      "mvtec_ad",
+      "wood",
+      "wood/train/good/164.png"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0438.JPG"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0857.JPG"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0908.JPG"
+    ],
+    [
+      "visa",
+      "candle",
+      "candle/Data/Images/Normal/0965.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/021.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/274.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/303.JPG"
+    ],
+    [
+      "visa",
+      "cashew",
+      "cashew/Data/Images/Normal/339.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/017.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/121.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/371.JPG"
+    ],
+    [
+      "visa",
+      "chewinggum",
+      "chewinggum/Data/Images/Normal/409.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0317.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0449.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0480.JPG"
+    ],
+    [
+      "visa",
+      "macaroni1",
+      "macaroni1/Data/Images/Normal/0511.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0128.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0556.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0945.JPG"
+    ],
+    [
+      "visa",
+      "pcb1",
+      "pcb1/Data/Images/Normal/0963.JPG"
+    ]
+  ],
+  "group_overlap": 0,
+  "feature_names": [
+    "absolute_score_margin",
+    "support_adequacy",
+    "branch_disagreement",
+    "uncertainty"
+  ],
+  "source_domain": "source_normal_plus_cutpaste",
+  "target": "prediction_error",
+  "fit_class_counts": {
+    "0": 277,
+    "1": 43
+  },
+  "calibration_class_counts": {
+    "0": 72,
+    "1": 8
+  },
+  "heldout_metrics": {
+    "event": "prediction_error",
+    "samples": 80,
+    "observed_error_rate": 0.1,
+    "brier": 0.0807910811378307,
+    "nll": 0.26977288724663495,
+    "nll_probability_clip": 1e-15,
+    "ece": 0.03562568373015549,
+    "ece_bins": 10,
+    "ece_bin_rule": "equal width; [lower,upper), with probability=1 included in last bin",
+    "reliability_diagram": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "count": 36,
+        "mean_error_probability": 0.02912598142657785,
+        "observed_error_rate": 0.027777777777777776
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "count": 24,
+        "mean_error_probability": 0.15843918038662486,
+        "observed_error_rate": 0.08333333333333333
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "count": 15,
+        "mean_error_probability": 0.24800052012771634,
+        "observed_error_rate": 0.2
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "count": 5,
+        "mean_error_probability": 0.34420575282782107,
+        "observed_error_rate": 0.4
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "count": 0,
+        "mean_error_probability": null,
+        "observed_error_rate": null
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "count": 0,
+        "mean_error_probability": null,
+        "observed_error_rate": null
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "count": 0,
+        "mean_error_probability": null,
+        "observed_error_rate": null
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "count": 0,
+        "mean_error_probability": null,
+        "observed_error_rate": null
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "count": 0,
+        "mean_error_probability": null,
+        "observed_error_rate": null
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 0,
+        "mean_error_probability": null,
+        "observed_error_rate": null
+      }
+    ],
+    "risk_coverage": {
+      "aurc": 0.028350157631908093,
+      "error_detection_auroc": 0.8125,
+      "curve": [
+        {
+          "coverage": 0.0,
+          "accepted": 0,
+          "errors": 0,
+          "risk": null,
+          "confidence_threshold": null
+        },
+        {
+          "coverage": 0.0125,
+          "accepted": 1,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9999158796630739
+        },
+        {
+          "coverage": 0.025,
+          "accepted": 2,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9998463048251438
+        },
+        {
+          "coverage": 0.0375,
+          "accepted": 3,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9997968961447047
+        },
+        {
+          "coverage": 0.05,
+          "accepted": 4,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.99963816578732
+        },
+        {
+          "coverage": 0.0625,
+          "accepted": 5,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9996061720825468
+        },
+        {
+          "coverage": 0.075,
+          "accepted": 6,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9993041630880789
+        },
+        {
+          "coverage": 0.0875,
+          "accepted": 7,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9992238875553671
+        },
+        {
+          "coverage": 0.1,
+          "accepted": 8,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9991182800763223
+        },
+        {
+          "coverage": 0.1125,
+          "accepted": 9,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9985023760544548
+        },
+        {
+          "coverage": 0.125,
+          "accepted": 10,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9981391126395445
+        },
+        {
+          "coverage": 0.1375,
+          "accepted": 11,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9977128514008677
+        },
+        {
+          "coverage": 0.15,
+          "accepted": 12,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9976378304626126
+        },
+        {
+          "coverage": 0.1625,
+          "accepted": 13,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9975792628331687
+        },
+        {
+          "coverage": 0.175,
+          "accepted": 14,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.997102423116748
+        },
+        {
+          "coverage": 0.1875,
+          "accepted": 15,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9967084341846021
+        },
+        {
+          "coverage": 0.2,
+          "accepted": 16,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.996580076957298
+        },
+        {
+          "coverage": 0.2125,
+          "accepted": 17,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9963312864816207
+        },
+        {
+          "coverage": 0.225,
+          "accepted": 18,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9955908778489999
+        },
+        {
+          "coverage": 0.2375,
+          "accepted": 19,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9931041457354931
+        },
+        {
+          "coverage": 0.25,
+          "accepted": 20,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9919149779892055
+        },
+        {
+          "coverage": 0.2625,
+          "accepted": 21,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9912508021927041
+        },
+        {
+          "coverage": 0.275,
+          "accepted": 22,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.986695521285734
+        },
+        {
+          "coverage": 0.2875,
+          "accepted": 23,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9775701578721613
+        },
+        {
+          "coverage": 0.3,
+          "accepted": 24,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9758830660772814
+        },
+        {
+          "coverage": 0.3125,
+          "accepted": 25,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9488042803064405
+        },
+        {
+          "coverage": 0.325,
+          "accepted": 26,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9476268664810527
+        },
+        {
+          "coverage": 0.3375,
+          "accepted": 27,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.94067777016997
+        },
+        {
+          "coverage": 0.35,
+          "accepted": 28,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9339874009140126
+        },
+        {
+          "coverage": 0.3625,
+          "accepted": 29,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9241740300231766
+        },
+        {
+          "coverage": 0.375,
+          "accepted": 30,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9213871988909593
+        },
+        {
+          "coverage": 0.3875,
+          "accepted": 31,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.9173777040583135
+        },
+        {
+          "coverage": 0.4,
+          "accepted": 32,
+          "errors": 0,
+          "risk": 0.0,
+          "confidence_threshold": 0.911403984201741
+        },
+        {
+          "coverage": 0.4125,
+          "accepted": 33,
+          "errors": 1,
+          "risk": 0.030303030303030304,
+          "confidence_threshold": 0.9098662166616063
+        },
+        {
+          "coverage": 0.425,
+          "accepted": 34,
+          "errors": 1,
+          "risk": 0.029411764705882353,
+          "confidence_threshold": 0.905592319541341
+        },
+        {
+          "coverage": 0.4375,
+          "accepted": 35,
+          "errors": 1,
+          "risk": 0.02857142857142857,
+          "confidence_threshold": 0.9053877242692003
+        },
+        {
+          "coverage": 0.45,
+          "accepted": 36,
+          "errors": 1,
+          "risk": 0.027777777777777776,
+          "confidence_threshold": 0.9004262207703304
+        },
+        {
+          "coverage": 0.4625,
+          "accepted": 37,
+          "errors": 1,
+          "risk": 0.02702702702702703,
+          "confidence_threshold": 0.899911906278654
+        },
+        {
+          "coverage": 0.475,
+          "accepted": 38,
+          "errors": 1,
+          "risk": 0.02631578947368421,
+          "confidence_threshold": 0.8995179449959557
+        },
+        {
+          "coverage": 0.4875,
+          "accepted": 39,
+          "errors": 1,
+          "risk": 0.02564102564102564,
+          "confidence_threshold": 0.8971863811006381
+        },
+        {
+          "coverage": 0.5,
+          "accepted": 40,
+          "errors": 1,
+          "risk": 0.025,
+          "confidence_threshold": 0.8713888062779674
+        },
+        {
+          "coverage": 0.5125,
+          "accepted": 41,
+          "errors": 1,
+          "risk": 0.024390243902439025,
+          "confidence_threshold": 0.868004038834954
+        },
+        {
+          "coverage": 0.525,
+          "accepted": 42,
+          "errors": 1,
+          "risk": 0.023809523809523808,
+          "confidence_threshold": 0.8670724668892831
+        },
+        {
+          "coverage": 0.5375,
+          "accepted": 43,
+          "errors": 1,
+          "risk": 0.023255813953488372,
+          "confidence_threshold": 0.8580245213801074
+        },
+        {
+          "coverage": 0.55,
+          "accepted": 44,
+          "errors": 1,
+          "risk": 0.022727272727272728,
+          "confidence_threshold": 0.8565188055268778
+        },
+        {
+          "coverage": 0.5625,
+          "accepted": 45,
+          "errors": 1,
+          "risk": 0.022222222222222223,
+          "confidence_threshold": 0.8503109133479113
+        },
+        {
+          "coverage": 0.575,
+          "accepted": 46,
+          "errors": 1,
+          "risk": 0.021739130434782608,
+          "confidence_threshold": 0.8450760860722542
+        },
+        {
+          "coverage": 0.5875,
+          "accepted": 47,
+          "errors": 1,
+          "risk": 0.02127659574468085,
+          "confidence_threshold": 0.8450312054183707
+        },
+        {
+          "coverage": 0.6,
+          "accepted": 48,
+          "errors": 1,
+          "risk": 0.020833333333333332,
+          "confidence_threshold": 0.8403677489831165
+        },
+        {
+          "coverage": 0.6125,
+          "accepted": 49,
+          "errors": 1,
+          "risk": 0.02040816326530612,
+          "confidence_threshold": 0.8398643371651742
+        },
+        {
+          "coverage": 0.625,
+          "accepted": 50,
+          "errors": 1,
+          "risk": 0.02,
+          "confidence_threshold": 0.8342341406705299
+        },
+        {
+          "coverage": 0.6375,
+          "accepted": 51,
+          "errors": 1,
+          "risk": 0.0196078431372549,
+          "confidence_threshold": 0.831983694280889
+        },
+        {
+          "coverage": 0.65,
+          "accepted": 52,
+          "errors": 1,
+          "risk": 0.019230769230769232,
+          "confidence_threshold": 0.8293227066284006
+        },
+        {
+          "coverage": 0.6625,
+          "accepted": 53,
+          "errors": 1,
+          "risk": 0.018867924528301886,
+          "confidence_threshold": 0.820379532058738
+        },
+        {
+          "coverage": 0.675,
+          "accepted": 54,
+          "errors": 2,
+          "risk": 0.037037037037037035,
+          "confidence_threshold": 0.8189609342162657
+        },
+        {
+          "coverage": 0.6875,
+          "accepted": 55,
+          "errors": 2,
+          "risk": 0.03636363636363636,
+          "confidence_threshold": 0.8054675386091297
+        },
+        {
+          "coverage": 0.7,
+          "accepted": 56,
+          "errors": 2,
+          "risk": 0.03571428571428571,
+          "confidence_threshold": 0.8053991379341998
+        },
+        {
+          "coverage": 0.7125,
+          "accepted": 57,
+          "errors": 2,
+          "risk": 0.03508771929824561,
+          "confidence_threshold": 0.8053383631068509
+        },
+        {
+          "coverage": 0.725,
+          "accepted": 58,
+          "errors": 2,
+          "risk": 0.034482758620689655,
+          "confidence_threshold": 0.8034958795886278
+        },
+        {
+          "coverage": 0.7375,
+          "accepted": 59,
+          "errors": 2,
+          "risk": 0.03389830508474576,
+          "confidence_threshold": 0.8023119387246489
+        },
+        {
+          "coverage": 0.75,
+          "accepted": 60,
+          "errors": 3,
+          "risk": 0.05,
+          "confidence_threshold": 0.8022906426314589
+        },
+        {
+          "coverage": 0.7625,
+          "accepted": 61,
+          "errors": 3,
+          "risk": 0.04918032786885246,
+          "confidence_threshold": 0.797912131187672
+        },
+        {
+          "coverage": 0.775,
+          "accepted": 62,
+          "errors": 3,
+          "risk": 0.04838709677419355,
+          "confidence_threshold": 0.7955542728531864
+        },
+        {
+          "coverage": 0.7875,
+          "accepted": 63,
+          "errors": 3,
+          "risk": 0.047619047619047616,
+          "confidence_threshold": 0.785632245190157
+        },
+        {
+          "coverage": 0.8,
+          "accepted": 64,
+          "errors": 3,
+          "risk": 0.046875,
+          "confidence_threshold": 0.7765620536707412
+        },
+        {
+          "coverage": 0.8125,
+          "accepted": 65,
+          "errors": 4,
+          "risk": 0.06153846153846154,
+          "confidence_threshold": 0.7711363194606846
+        },
+        {
+          "coverage": 0.825,
+          "accepted": 66,
+          "errors": 4,
+          "risk": 0.06060606060606061,
+          "confidence_threshold": 0.7676165647883161
+        },
+        {
+          "coverage": 0.8375,
+          "accepted": 67,
+          "errors": 5,
+          "risk": 0.07462686567164178,
+          "confidence_threshold": 0.7648619849100825
+        },
+        {
+          "coverage": 0.85,
+          "accepted": 68,
+          "errors": 5,
+          "risk": 0.07352941176470588,
+          "confidence_threshold": 0.7638700298496712
+        },
+        {
+          "coverage": 0.8625,
+          "accepted": 69,
+          "errors": 6,
+          "risk": 0.08695652173913043,
+          "confidence_threshold": 0.7403246200619654
+        },
+        {
+          "coverage": 0.875,
+          "accepted": 70,
+          "errors": 6,
+          "risk": 0.08571428571428572,
+          "confidence_threshold": 0.7350199927083062
+        },
+        {
+          "coverage": 0.8875,
+          "accepted": 71,
+          "errors": 6,
+          "risk": 0.08450704225352113,
+          "confidence_threshold": 0.7313846627352938
+        },
+        {
+          "coverage": 0.9,
+          "accepted": 72,
+          "errors": 6,
+          "risk": 0.08333333333333333,
+          "confidence_threshold": 0.7255149160460893
+        },
+        {
+          "coverage": 0.9125,
+          "accepted": 73,
+          "errors": 6,
+          "risk": 0.0821917808219178,
+          "confidence_threshold": 0.7201072730947874
+        },
+        {
+          "coverage": 0.925,
+          "accepted": 74,
+          "errors": 6,
+          "risk": 0.08108108108108109,
+          "confidence_threshold": 0.7035778248864322
+        },
+        {
+          "coverage": 0.9375,
+          "accepted": 75,
+          "errors": 6,
+          "risk": 0.08,
+          "confidence_threshold": 0.70091730664087
+        },
+        {
+          "coverage": 0.95,
+          "accepted": 76,
+          "errors": 6,
+          "risk": 0.07894736842105263,
+          "confidence_threshold": 0.6733111889234351
+        },
+        {
+          "coverage": 0.9625,
+          "accepted": 77,
+          "errors": 7,
+          "risk": 0.09090909090909091,
+          "confidence_threshold": 0.6660355875406894
+        },
+        {
+          "coverage": 0.975,
+          "accepted": 78,
+          "errors": 7,
+          "risk": 0.08974358974358974,
+          "confidence_threshold": 0.664748841728798
+        },
+        {
+          "coverage": 0.9875,
+          "accepted": 79,
+          "errors": 8,
+          "risk": 0.10126582278481013,
+          "confidence_threshold": 0.641915561840218
+        },
+        {
+          "coverage": 1.0,
+          "accepted": 80,
+          "errors": 8,
+          "risk": 0.1,
+          "confidence_threshold": 0.6329600558277542
+        }
+      ],
+      "queries": 80,
+      "risk_definition": "mean 0/1 classification error at the caller-locked detector threshold",
+      "confidence_semantics": "ranking input; not assumed to be a calibrated probability",
+      "tie_handling": "accept all equal-confidence queries together",
+      "integration": "right-step risk times each whole-group coverage increment"
+    },
+    "semantics": "empirical binary prediction-error metrics; no calibration guarantee"
+  },
+  "heldout_has_both_error_classes": true,
+  "standardization_fit_scope": "fit_rows_only",
+  "heldout_used_for_fitting": false,
+  "category_role": "meta_training only; held-out rows have source_calibration experiment role",
+  "event": "1=wrong locked-threshold image decision; 0=correct",
+  "sibling_group_isolation": "dataset/category/original image; normal and synthetic siblings stay together",
+  "domain_transfer_verified": false,
+  "probability_calibration_claim": false,
+  "row_dependence": "siblings and repeated support draws may be correlated; no independent-row confidence interval",
+  "regularization_c": 1.0,
+  "seed": 20261014
+}

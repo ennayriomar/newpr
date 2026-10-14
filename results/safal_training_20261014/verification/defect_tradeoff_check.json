@@ -1,0 +1,11 @@
+{
+  "paired_inspections": 1200,
+  "safal_vs_fixed_detected_to_missed": 24,
+  "safal_vs_fixed_missed_to_detected": 2,
+  "safal_vs_fixed_false_alarm_removed": 29,
+  "safal_vs_fixed_false_alarm_added": 1,
+  "unique_anomaly_images_with_any_detection_loss": 14,
+  "unique_anomaly_images_with_any_detection_gain": 2,
+  "records_are_repeated_across_draws_and_shots": true,
+  "no_production_or_superiority_claim": true
+}

@@ -1,0 +1,45 @@
+{
+  "id": "visa-pcb2-k2-seed43",
+  "dataset": "visa",
+  "category": "pcb2",
+  "role": "validation",
+  "seed": 43,
+  "shots": 2,
+  "support_ids": [
+    "pcb2/Data/Images/Normal/0522.JPG",
+    "pcb2/Data/Images/Normal/0854.JPG"
+  ],
+  "calibration_ids": [
+    "pcb2/Data/Images/Normal/0896.JPG",
+    "pcb2/Data/Images/Normal/0760.JPG",
+    "pcb2/Data/Images/Normal/0758.JPG",
+    "pcb2/Data/Images/Normal/0957.JPG"
+  ],
+  "query_ids": [
+    "pcb2/Data/Images/Normal/0552.JPG",
+    "pcb2/Data/Images/Normal/0569.JPG",
+    "pcb2/Data/Images/Normal/0674.JPG",
+    "pcb2/Data/Images/Normal/0797.JPG",
+    "pcb2/Data/Images/Normal/0920.JPG",
+    "pcb2/Data/Images/Normal/0779.JPG",
+    "pcb2/Data/Images/Normal/0174.JPG",
+    "pcb2/Data/Images/Normal/0261.JPG",
+    "pcb2/Data/Images/Normal/0320.JPG",
+    "pcb2/Data/Images/Normal/0871.JPG",
+    "pcb2/Data/Images/Anomaly/062.JPG",
+    "pcb2/Data/Images/Anomaly/013.JPG",
+    "pcb2/Data/Images/Anomaly/012.JPG",
+    "pcb2/Data/Images/Anomaly/082.JPG",
+    "pcb2/Data/Images/Anomaly/075.JPG",
+    "pcb2/Data/Images/Anomaly/029.JPG",
+    "pcb2/Data/Images/Anomaly/084.JPG",
+    "pcb2/Data/Images/Anomaly/007.JPG",
+    "pcb2/Data/Images/Anomaly/086.JPG",
+    "pcb2/Data/Images/Anomaly/035.JPG"
+  ],
+  "k_plus_calibration": 6,
+  "strict_k_image_few_shot": false,
+  "support_views": [
+    "identity"
+  ]
+}

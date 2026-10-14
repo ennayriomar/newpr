@@ -1,0 +1,2119 @@
+{
+  "schema_version": 1,
+  "archive": "safal_training_full_results_20261014.zip",
+  "bytes": 2943487673,
+  "sha256": "2fae764f6c6e041e2cbd2f4e8d33dea4a007aec1ac1d5db2c79201c0571806cb",
+  "parts": [
+    {
+      "name": "safal_training_full_results_20261014.zip.part000",
+      "bytes": 8388608,
+      "sha256": "04fa312f032c87b5777aec77316b5c7f663b45ee8912eb1c16ca50db1d47a511",
+      "offset": 0
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part001",
+      "bytes": 8388608,
+      "sha256": "785aaa384fcd5a80a9d60981397348f7dcb076f3baa7471540c121a9fc31a80c",
+      "offset": 8388608
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part002",
+      "bytes": 8388608,
+      "sha256": "e4525541e4228ac40543d158194612f24458013381c8345b0b82a55b62765841",
+      "offset": 16777216
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part003",
+      "bytes": 8388608,
+      "sha256": "06af472d96c9a731e910d5e35149c0a4a6f926038385cbe4658fb525adc77411",
+      "offset": 25165824
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part004",
+      "bytes": 8388608,
+      "sha256": "118140edb6d5ea3d400f82b0821ef7d44dd46ede1f830014ab9d4b74048bff25",
+      "offset": 33554432
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part005",
+      "bytes": 8388608,
+      "sha256": "b6bddca5f0de27207b44f67e7f157a13018533fe9559c6af4aaf7b4ca3fb114b",
+      "offset": 41943040
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part006",
+      "bytes": 8388608,
+      "sha256": "a6c50f4d0db7648e9c1a511a5cf40a71304f83f7de48e1f93821b5639018e5df",
+      "offset": 50331648
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part007",
+      "bytes": 8388608,
+      "sha256": "868f4d645c43066e9c065383016a7e208158f10de2098fa2c9f7c32086d74a72",
+      "offset": 58720256
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part008",
+      "bytes": 8388608,
+      "sha256": "6bc35cea22389b3546c6696f1c840383ad7226516b890732c3fa60dabf1d69be",
+      "offset": 67108864
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part009",
+      "bytes": 8388608,
+      "sha256": "ecbe94b1ea5686289c659252ae6526c07772b51fa9e18c491b5b4fd543f8668a",
+      "offset": 75497472
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part010",
+      "bytes": 8388608,
+      "sha256": "1ed1e43783f068aa99471130bbad870ba99823a0d8cbcb853d6175a574494bc2",
+      "offset": 83886080
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part011",
+      "bytes": 8388608,
+      "sha256": "ba7501a0bbe9f375da4ddbf8dcae898cd7aa4442af9571e6387faf28915c14dc",
+      "offset": 92274688
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part012",
+      "bytes": 8388608,
+      "sha256": "38f57537034ba4e019762679b4a6a813676b5cec635fce450d51410def9f5bb3",
+      "offset": 100663296
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part013",
+      "bytes": 8388608,
+      "sha256": "7efa2aedba8206406120f75859789ee21054fcaf5110a45a240958587867d804",
+      "offset": 109051904
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part014",
+      "bytes": 8388608,
+      "sha256": "13f2b8ad835c4d0d60c7a887e21410d3dd6d4d6d1a4bc710bf51ec10accd079d",
+      "offset": 117440512
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part015",
+      "bytes": 8388608,
+      "sha256": "443893c0978b9e2a2044af9e6ac98820b314de9446af8ecc4151c3680e9d8c1b",
+      "offset": 125829120
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part016",
+      "bytes": 8388608,
+      "sha256": "5d1b3277e3a0d0608ae6a190de5a8a53d8f878e675eb0aa9fdb280823f0e2961",
+      "offset": 134217728
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part017",
+      "bytes": 8388608,
+      "sha256": "c82cd9a86bb1869aec29ace59837338abf2b1f2c8389791620ac03671e48c2e8",
+      "offset": 142606336
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part018",
+      "bytes": 8388608,
+      "sha256": "9d93248463ed39c1019a04b5c60f0eb85579cb375dedcc3c9817f7cdc03acc10",
+      "offset": 150994944
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part019",
+      "bytes": 8388608,
+      "sha256": "94aca2c68289c0d107a331dc84548fbc6270e421747891d97d85a60f01d9bd70",
+      "offset": 159383552
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part020",
+      "bytes": 8388608,
+      "sha256": "d9d11dcf580ba3b664736a495e1ea78821ea957d206c00a81466b368fcfb7b48",
+      "offset": 167772160
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part021",
+      "bytes": 8388608,
+      "sha256": "d918f89717aff63275be98b0b8038fd5c8acae84463dafc03ef856f5bf1cec0f",
+      "offset": 176160768
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part022",
+      "bytes": 8388608,
+      "sha256": "f291b7341234235ccaea6a9ab8e552e2535d33e5e789cf98f2502f9a1ecbdf4b",
+      "offset": 184549376
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part023",
+      "bytes": 8388608,
+      "sha256": "2f6bafbc18ff77505c8107a7b3b73fadc810d1f53e4882d2a91e7c492cd0b9d6",
+      "offset": 192937984
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part024",
+      "bytes": 8388608,
+      "sha256": "9c8abac31892349cc136f80db917c347c43f2db51c4800ce8d559c6d8277d0f6",
+      "offset": 201326592
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part025",
+      "bytes": 8388608,
+      "sha256": "cb7ae9b41ff445dfcc2511dbb425978c05596b0520323d558301bf69105df853",
+      "offset": 209715200
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part026",
+      "bytes": 8388608,
+      "sha256": "78c475c066e9e588414ca9d460bc644e0599cfb0aabfddf78377c079358c7cd9",
+      "offset": 218103808
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part027",
+      "bytes": 8388608,
+      "sha256": "c3dd52188164114baf8ad7f61d80a8a9dbb80d135f89ff93b6b6df16952d5dad",
+      "offset": 226492416
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part028",
+      "bytes": 8388608,
+      "sha256": "f3d6616299f0c03c2689579fe0981826c14624406c8e32da8a890825e2d2ff45",
+      "offset": 234881024
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part029",
+      "bytes": 8388608,
+      "sha256": "edd4645698967f044eeb7acafab235e535ce2b6fcb565c1e22e71f8c0a551a48",
+      "offset": 243269632
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part030",
+      "bytes": 8388608,
+      "sha256": "6c0833e60e39b0b545d0e7e78a219bf98f5aafcf03d41f0feee206a63daa3f98",
+      "offset": 251658240
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part031",
+      "bytes": 8388608,
+      "sha256": "928c5782d3162b4e974a64098487f998c65f21572d291d2b23496d4a6f06f98a",
+      "offset": 260046848
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part032",
+      "bytes": 8388608,
+      "sha256": "c2f5a2c77e03d2606fb87beb0e9023ed347a01406e6410fc6d36666955141249",
+      "offset": 268435456
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part033",
+      "bytes": 8388608,
+      "sha256": "bb985858b4e5ecb50708b8fbf83876bdd0000161429fcb5a3d450886f41cb076",
+      "offset": 276824064
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part034",
+      "bytes": 8388608,
+      "sha256": "795d4d7b6dd50bd439aa2978ea81c57382f06f337288e613e18543b29af01dc3",
+      "offset": 285212672
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part035",
+      "bytes": 8388608,
+      "sha256": "f9ae0f2e5a35364733569f3af5989d8c5f8b39e0b72f8349fef8d68311f0aa07",
+      "offset": 293601280
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part036",
+      "bytes": 8388608,
+      "sha256": "f860d30195cdefc6dedb0aa9cf30257978df8876b06aa33b2be2951299212cfd",
+      "offset": 301989888
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part037",
+      "bytes": 8388608,
+      "sha256": "340beba04d59b48f925ddef9ca68319b96bf4d1a077df9ed51769fec7ddbf246",
+      "offset": 310378496
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part038",
+      "bytes": 8388608,
+      "sha256": "66af0440c89b140fb119abacc0fa3214e0b1c52747030c9faa46aefc88ed19b2",
+      "offset": 318767104
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part039",
+      "bytes": 8388608,
+      "sha256": "0ffeea38a9153a45d767a3a2fca03d78846e5b5b1c141497c5dab5470311bd6f",
+      "offset": 327155712
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part040",
+      "bytes": 8388608,
+      "sha256": "1c873d1a2dc3900e2c4de54f3bffed95128660cbb91ad8c3e6f40d49c366e7e4",
+      "offset": 335544320
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part041",
+      "bytes": 8388608,
+      "sha256": "f39ea967312cb5da42389048a3edb339106e6fffa194333b6a2ac3360f676b61",
+      "offset": 343932928
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part042",
+      "bytes": 8388608,
+      "sha256": "d3326494392865b3b6788c0bfa72ccce8a1a9d262cfc506fb0c8f51364a34726",
+      "offset": 352321536
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part043",
+      "bytes": 8388608,
+      "sha256": "7340924b6fc2418cbbfcd885de22dad366f816cb0879a8d9def2ffb526ef91af",
+      "offset": 360710144
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part044",
+      "bytes": 8388608,
+      "sha256": "8decdb4d29d34534a0f490d3dd5b7b1ca7e604ce13b8942642737a82fea541e6",
+      "offset": 369098752
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part045",
+      "bytes": 8388608,
+      "sha256": "beeb8a353c1dca85f8092f355ea6737c59ee6eff21ed8e05e094a34ef9e45e54",
+      "offset": 377487360
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part046",
+      "bytes": 8388608,
+      "sha256": "d02b3dd7a4c29aa9614af2e99e7cd70192982dd605089724923f81780c19de53",
+      "offset": 385875968
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part047",
+      "bytes": 8388608,
+      "sha256": "7930b8ec8c2994e848a05a0c68f098b1d8f74ec55ba232a284e880e280e9d0ee",
+      "offset": 394264576
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part048",
+      "bytes": 8388608,
+      "sha256": "25693d3e773a1cb84b56e91b27e8dc46c62700c5dcb5711e2483311fb70912e5",
+      "offset": 402653184
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part049",
+      "bytes": 8388608,
+      "sha256": "eaeaff0ee1f1b4c4b1843857a6768e04cfd7f9886104881ba720caba0ab4178f",
+      "offset": 411041792
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part050",
+      "bytes": 8388608,
+      "sha256": "62d918b8b8065ae1072cbca9b0a30ba9c9e44e9687b467ace4863052d566bbfa",
+      "offset": 419430400
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part051",
+      "bytes": 8388608,
+      "sha256": "9ca6ab2eff4ce9d94b61454467510b69588a1f5ec8f4bf2beafaa56406d1d7b8",
+      "offset": 427819008
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part052",
+      "bytes": 8388608,
+      "sha256": "7ffb21fb34dbbe4ab204ce9dfbf4d23f1308d984c7273f3876e35c6977704bc7",
+      "offset": 436207616
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part053",
+      "bytes": 8388608,
+      "sha256": "0c7e91631bcc7564b45b021eb2e0a16e897183c256671dde569029bb674d52eb",
+      "offset": 444596224
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part054",
+      "bytes": 8388608,
+      "sha256": "129fe2a77c02026e0cff57a693e1db24949fce188d7170c8622d3ecc6995e856",
+      "offset": 452984832
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part055",
+      "bytes": 8388608,
+      "sha256": "639c9904f285af528fa0eda79a4b065421311103a24aa33ecfb40eff0625b692",
+      "offset": 461373440
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part056",
+      "bytes": 8388608,
+      "sha256": "bde35a5d1649f04f0088b8a1e85d3ce701ea8523a1e36db2ee506fcedc754748",
+      "offset": 469762048
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part057",
+      "bytes": 8388608,
+      "sha256": "ba948e657dd95e0206cb70e8957453e7ae43b060150d29d097bec0d609cb5644",
+      "offset": 478150656
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part058",
+      "bytes": 8388608,
+      "sha256": "effcdc7e70f8b43b6dc32f5c3f08d57f12fa36c4e53db0dc6d9a5aff25294402",
+      "offset": 486539264
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part059",
+      "bytes": 8388608,
+      "sha256": "e70f05f715260184b0a5ad4736020126335afc8fd0e67db14d07e44909a1ab38",
+      "offset": 494927872
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part060",
+      "bytes": 8388608,
+      "sha256": "4333d31d47ff191bb5f27d3a0880f2cf5217ad7b0056b850768860dc1d182962",
+      "offset": 503316480
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part061",
+      "bytes": 8388608,
+      "sha256": "a2f2aac0e4560a6c30616657611a7d2b90fdfe5cf87977a94c350deddcce6fe6",
+      "offset": 511705088
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part062",
+      "bytes": 8388608,
+      "sha256": "17e7c9f611da69ede0bed7de595478d4c8bb214270b90ddec9c127f8eb9ffb96",
+      "offset": 520093696
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part063",
+      "bytes": 8388608,
+      "sha256": "d0c814ff247cbb1a416004f05482cf21c910c24a5931761e0ba9b69dad8128ab",
+      "offset": 528482304
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part064",
+      "bytes": 8388608,
+      "sha256": "5e33c1e4e2f4a40e1fc7a829cbf07b643133b2ec85274a9d122a92d21e1e639b",
+      "offset": 536870912
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part065",
+      "bytes": 8388608,
+      "sha256": "ff1df3131badd73ffe327e4d774134fc2ceee40549e8fda0bb823821b86d0241",
+      "offset": 545259520
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part066",
+      "bytes": 8388608,
+      "sha256": "46276cace37b43c3cd9aea1d26cffede5c6f9068a9fe45c4758d2c8fcbf26ddf",
+      "offset": 553648128
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part067",
+      "bytes": 8388608,
+      "sha256": "ba7a0359f2952eb07cb8673a9fdccd93131387940e8f477e048e128ae7ba1e1c",
+      "offset": 562036736
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part068",
+      "bytes": 8388608,
+      "sha256": "4e5d964146adfc3ff6541c2f852657618bd0581e6d103621e47daf5f095d7f53",
+      "offset": 570425344
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part069",
+      "bytes": 8388608,
+      "sha256": "bba97b1b8578309a8cacc4bf64ec7493b91e1b2e26921810ec1b170cc1d415a9",
+      "offset": 578813952
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part070",
+      "bytes": 8388608,
+      "sha256": "9f8e61f96adfc3df0c488ab5b76a3f5b9badd3da0619311d3f201808b1e37243",
+      "offset": 587202560
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part071",
+      "bytes": 8388608,
+      "sha256": "66685217def1bc1277c179b0c540d89c0ca347444ed3dfc83485bb724bdce6c7",
+      "offset": 595591168
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part072",
+      "bytes": 8388608,
+      "sha256": "c253a3964b6a3b2322fb48d136f95e78cca76a24aa9133c4faa0523e575e2d01",
+      "offset": 603979776
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part073",
+      "bytes": 8388608,
+      "sha256": "d91d5caeb20f7bda8d0fbb6b011b5769938f96b95a08408aff7d12128ee8b114",
+      "offset": 612368384
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part074",
+      "bytes": 8388608,
+      "sha256": "89790248b1656d6d4e4f2706377cd22401bb5a7e94f833d25e712400e5a9b49c",
+      "offset": 620756992
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part075",
+      "bytes": 8388608,
+      "sha256": "1a333a07b304ac5956a4f6cd3ba477e74a4baa96bd3b7c02387506ec1bdeacc4",
+      "offset": 629145600
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part076",
+      "bytes": 8388608,
+      "sha256": "bc64ba5f29ee14787470f1c6b5d73d85cd8ee6e8b9e2a7b7558f8bb7a8991b94",
+      "offset": 637534208
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part077",
+      "bytes": 8388608,
+      "sha256": "2bfb9681df56fe929ffbde4594f83c6a77c89abc1e597a1323abac3e2a0d0c00",
+      "offset": 645922816
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part078",
+      "bytes": 8388608,
+      "sha256": "a8e3fe34a1766d058a6c6f45404cf7933bb6edcf08b433bebbc1b573b3d9a2f8",
+      "offset": 654311424
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part079",
+      "bytes": 8388608,
+      "sha256": "7ec9b40247a7e2b1c852472358c36b214163dd515ae65ce063169b906ec7948e",
+      "offset": 662700032
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part080",
+      "bytes": 8388608,
+      "sha256": "1cc6122c756f72a56d52ce134c623e74fe7041e75afee1068441a240b2db6eec",
+      "offset": 671088640
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part081",
+      "bytes": 8388608,
+      "sha256": "20724b9844041cdaf95102ca5aa95de3cd19bf314a98611f73546a474d81cccd",
+      "offset": 679477248
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part082",
+      "bytes": 8388608,
+      "sha256": "ea7b550fbbc6fb610077d3ca195d653e64daac11071a6dc4f79af36cc7c4a200",
+      "offset": 687865856
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part083",
+      "bytes": 8388608,
+      "sha256": "8611339cd50f1a96114122ba131b909c9f294cf4661704e10ef24f3bae6088a0",
+      "offset": 696254464
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part084",
+      "bytes": 8388608,
+      "sha256": "659b8850f263b776bc07739093ed99bba0375954496f9da25146e5c5d49f5e43",
+      "offset": 704643072
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part085",
+      "bytes": 8388608,
+      "sha256": "215113365d36055da326d8a692614aa12fd9df3d09959088d0f0bf445e680d32",
+      "offset": 713031680
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part086",
+      "bytes": 8388608,
+      "sha256": "2dc4a2a13c7a7aa9d966b8b1436baab0b7fbe7f7975b79b620504605b0546942",
+      "offset": 721420288
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part087",
+      "bytes": 8388608,
+      "sha256": "4def1582c888057204627886232613a8b17e7a3b7dbfd0afda10d3e8c6f317e4",
+      "offset": 729808896
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part088",
+      "bytes": 8388608,
+      "sha256": "5885c52e426860fe8127448a463463044eb6d9bc434be485322806d7112ec61f",
+      "offset": 738197504
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part089",
+      "bytes": 8388608,
+      "sha256": "c5979fc107539a238cd02a51d8adccf30f76e5ce556af752404fe5a29b341e23",
+      "offset": 746586112
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part090",
+      "bytes": 8388608,
+      "sha256": "167c5372a530b7832706d71e27c37327fce8c44d6f6f8d639bca3674dbf4ba37",
+      "offset": 754974720
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part091",
+      "bytes": 8388608,
+      "sha256": "f7378945eb31af5e2865ea0b88683bd1779bd3b381583ab5376688039da97a81",
+      "offset": 763363328
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part092",
+      "bytes": 8388608,
+      "sha256": "245df25421b49e4ce7896d5ee0ca7a74f02c492284f3c661283719525eae57c5",
+      "offset": 771751936
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part093",
+      "bytes": 8388608,
+      "sha256": "b0b5bbaa3fad96bc86c0243ac5c14f0961d4bbf872be9919007dc0e8b9be0f75",
+      "offset": 780140544
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part094",
+      "bytes": 8388608,
+      "sha256": "f1e0e97c9fb575993ada444fc154cd62ba6fdd4139333838055cbb01a3eb03b0",
+      "offset": 788529152
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part095",
+      "bytes": 8388608,
+      "sha256": "09de38c3eeea1aff43b6c7aa84e0ac830a0a6d05c7832b7bb825d3f3c4a87626",
+      "offset": 796917760
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part096",
+      "bytes": 8388608,
+      "sha256": "21c748e86d834ce6408d3bf2cc640cccc2b451b8dfad03b60005f270fa228c5f",
+      "offset": 805306368
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part097",
+      "bytes": 8388608,
+      "sha256": "27dfb2abdf1806d550e02e23e5f2519d9d34457ba27f03723e7b36ad495e6903",
+      "offset": 813694976
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part098",
+      "bytes": 8388608,
+      "sha256": "358e2d11e7570de92d439a9906a63e5f5bdfd45037b428c04c336e658e60eea4",
+      "offset": 822083584
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part099",
+      "bytes": 8388608,
+      "sha256": "5e3a76e80e8a1eb6c29b72891e3e4066fd10e65196fcf0592062a33c08c528c6",
+      "offset": 830472192
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part100",
+      "bytes": 8388608,
+      "sha256": "84a83740b98569f62c28c5ecd8b43a6b8dc57c7a0685a3a44a7561c25d8e3e40",
+      "offset": 838860800
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part101",
+      "bytes": 8388608,
+      "sha256": "e9185738e0bfbe0be16b830927b1cb667ed8179203c7a379d5fc60bcd933a895",
+      "offset": 847249408
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part102",
+      "bytes": 8388608,
+      "sha256": "f1f504f8e5b0a3c6dbaca52c80b8fb6badf333be4f765c6dfcc413c271bea1a9",
+      "offset": 855638016
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part103",
+      "bytes": 8388608,
+      "sha256": "7e83b392a0b47cbebbabe506f79878a1569cdde5dab0f95d20b8ea8a38f87029",
+      "offset": 864026624
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part104",
+      "bytes": 8388608,
+      "sha256": "acb6b78feb62d0a602b5d456d5c03bb49dad9aba9701c826a4dbce67fbec0a4b",
+      "offset": 872415232
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part105",
+      "bytes": 8388608,
+      "sha256": "f73663b0ebbdfad0bdaadb12eb4308b6c773135e1b0cd2233ae28404f7e698fb",
+      "offset": 880803840
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part106",
+      "bytes": 8388608,
+      "sha256": "6ad5e198f269ac628a406bf872521b5689214ead31dce75891b14e88d7bba98f",
+      "offset": 889192448
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part107",
+      "bytes": 8388608,
+      "sha256": "ad22fa9d9d2a0baecc2b906e31bd707b4cd00138d80ad1a887bb0c63f6f2e71b",
+      "offset": 897581056
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part108",
+      "bytes": 8388608,
+      "sha256": "c65bf88fd92680c63f5f63709865dfd71041843d6f04601e2b2a66c50a285946",
+      "offset": 905969664
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part109",
+      "bytes": 8388608,
+      "sha256": "e63ab39accee7f3a4022a2ee424ef07f71d721d7b8d04666e4879bfe2c92ab94",
+      "offset": 914358272
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part110",
+      "bytes": 8388608,
+      "sha256": "f90e33ea4ac7e1f180aec9c27962516d6c74562213dddcb8a29c948d8b0a8216",
+      "offset": 922746880
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part111",
+      "bytes": 8388608,
+      "sha256": "f6f19a22969d20862ba15db0b8dedbd3fa036904a48a5252d7b0a7cb827937da",
+      "offset": 931135488
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part112",
+      "bytes": 8388608,
+      "sha256": "f7bc6760587ba9874fdde602222902ea72873392db3cfea057317758e4c04fe4",
+      "offset": 939524096
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part113",
+      "bytes": 8388608,
+      "sha256": "7d7cee4401411396ebbd8ad81f1b932bd1e8c00d3128b773be3794b7fc8a0f1e",
+      "offset": 947912704
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part114",
+      "bytes": 8388608,
+      "sha256": "1e5d79c86d13b97735e85839fb52329011b7b7e4d84ae6058d04975f41faafc7",
+      "offset": 956301312
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part115",
+      "bytes": 8388608,
+      "sha256": "514faa3dc481351fd49cfaf6310c47e6ceb0d04f73d6e1d7bfdc323c166d8711",
+      "offset": 964689920
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part116",
+      "bytes": 8388608,
+      "sha256": "24c88e2b28777a00a199573ec3cf7505c1d60d95f816f36f5f3a966640ad4535",
+      "offset": 973078528
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part117",
+      "bytes": 8388608,
+      "sha256": "7058d11c83ebcd9eda7805d42f1b2c252acc70e4915ee5c01de66c7cc16656c7",
+      "offset": 981467136
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part118",
+      "bytes": 8388608,
+      "sha256": "012c3b719dd4f3873b0f72fdfd9d1830bdef16058bf3ce86b208294a1fdeeace",
+      "offset": 989855744
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part119",
+      "bytes": 8388608,
+      "sha256": "3cdd19ddae6ffeb3d2be218bf1996a9980ae2e5c1613bc4cad4480f67c7c70b6",
+      "offset": 998244352
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part120",
+      "bytes": 8388608,
+      "sha256": "510b2f70c171d70e7cbbb497eab1b73bfab8928715599111debe2fe63cd82804",
+      "offset": 1006632960
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part121",
+      "bytes": 8388608,
+      "sha256": "933a2ec406a63c50962f4b782fbff1f3edd9cdca2b78baad058199b1f251b06e",
+      "offset": 1015021568
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part122",
+      "bytes": 8388608,
+      "sha256": "1dcb631b1d9e835858339bba23ebc7e8aa44089fe1f357610d959219c7b6eb68",
+      "offset": 1023410176
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part123",
+      "bytes": 8388608,
+      "sha256": "5e34283a69766a7756f3e61ecf7a5466611da38102b0bcb5cb45ea9fce1f265a",
+      "offset": 1031798784
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part124",
+      "bytes": 8388608,
+      "sha256": "4a422296d1ec0f7ebb347efc6b192695b720e292d1bc2012809f7973b6f15589",
+      "offset": 1040187392
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part125",
+      "bytes": 8388608,
+      "sha256": "01ca283619323481ca12ea1cd291f20e4e77e59e868267f7c7dc8033ad847976",
+      "offset": 1048576000
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part126",
+      "bytes": 8388608,
+      "sha256": "f0803c94e5801dce8b71b77f52d6a445d42393eba6c97589db484eddc9dbde64",
+      "offset": 1056964608
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part127",
+      "bytes": 8388608,
+      "sha256": "ed09287ddfd12125cfd5a6ffeef3641d830974fdc2b2d0bee4b5bb69a260c7af",
+      "offset": 1065353216
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part128",
+      "bytes": 8388608,
+      "sha256": "21d88b9616cf007eb3b84e4131d03007a553c30e110468e2ad3f08089784a834",
+      "offset": 1073741824
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part129",
+      "bytes": 8388608,
+      "sha256": "27bdefbb9056a91e846897d30ef3cd96d5d577138b74ff056872cf29ded28d86",
+      "offset": 1082130432
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part130",
+      "bytes": 8388608,
+      "sha256": "86c38d454cdb15767106e08399a6fd5afeae3f37530dfb0ccf1e8fe187124ce4",
+      "offset": 1090519040
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part131",
+      "bytes": 8388608,
+      "sha256": "cd5a1798d415dcb07de3533caf3460104d1575a52e04a3974efef82d371d19eb",
+      "offset": 1098907648
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part132",
+      "bytes": 8388608,
+      "sha256": "a84ca785c8f6aff26111abd78ba5f5d1f94b07ce6e5f6696420c7bfa9fbf3b4c",
+      "offset": 1107296256
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part133",
+      "bytes": 8388608,
+      "sha256": "18c20ecbb378a72e37513c04bd5bf104a6591badf173679515daa922776d730d",
+      "offset": 1115684864
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part134",
+      "bytes": 8388608,
+      "sha256": "6d02e519ec2172c8d6872fc9df37fde479c212c7fde5500f964f27c199c63b72",
+      "offset": 1124073472
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part135",
+      "bytes": 8388608,
+      "sha256": "2d5aaf5af2bbdae189c40aeb6965578e514c8ecb9b928d0a0a48a4a714c2b1e1",
+      "offset": 1132462080
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part136",
+      "bytes": 8388608,
+      "sha256": "239e54aa9c788b0a749f68d1c7ec52f1b2f79a40c5f1cf17b76401955346da8b",
+      "offset": 1140850688
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part137",
+      "bytes": 8388608,
+      "sha256": "8a787ef5e92b95c09d27fccad69b8a90fa062e0c0bae1b5f72a6a1138f3151d7",
+      "offset": 1149239296
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part138",
+      "bytes": 8388608,
+      "sha256": "d4cd5a07cd77309342d92e34af69b0454e579c1b0c6b8dac07a2db45933f48f8",
+      "offset": 1157627904
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part139",
+      "bytes": 8388608,
+      "sha256": "131954b5fab75274440773f77dfc1c49a0aa5b74ccf0d5fd0485e0be3d2c9309",
+      "offset": 1166016512
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part140",
+      "bytes": 8388608,
+      "sha256": "d1bd5168b91c404141e10510d1dcc8de7a205ace1ec3249077aec345ed29cbf6",
+      "offset": 1174405120
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part141",
+      "bytes": 8388608,
+      "sha256": "37c9e5006e6a44f65d92ec53ce6111672b04e9ee2174ac2a3fd9adaa7d21015c",
+      "offset": 1182793728
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part142",
+      "bytes": 8388608,
+      "sha256": "203198e7e599f54dcd1a8fe259231d3d910d524b49a4d0e4249c87d54d37a07e",
+      "offset": 1191182336
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part143",
+      "bytes": 8388608,
+      "sha256": "430577d71d670abaf3c9961244601ae0c042fd2f90925677911cbe7c994fe1ae",
+      "offset": 1199570944
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part144",
+      "bytes": 8388608,
+      "sha256": "6f35ba66f65f17a96dd377558a3939721c4a4cb670e0c49176c269e9e0cda9b7",
+      "offset": 1207959552
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part145",
+      "bytes": 8388608,
+      "sha256": "82891640484b49eb5cd0801f3485b380b0e4e4f96a9429ba638a427cb72c53e0",
+      "offset": 1216348160
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part146",
+      "bytes": 8388608,
+      "sha256": "b05c5bf9c729d7df261e047c4f3bc4886350fac1de23392c58e095f4f55fc5d3",
+      "offset": 1224736768
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part147",
+      "bytes": 8388608,
+      "sha256": "b03b7fc556a292813bb26fe1c2ee4786fd737bfe0745b3d65426ddca865ca574",
+      "offset": 1233125376
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part148",
+      "bytes": 8388608,
+      "sha256": "022d9c9004cac146c78b29b8fdf85f330dfc96a589b40710cf2648f2b13b852c",
+      "offset": 1241513984
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part149",
+      "bytes": 8388608,
+      "sha256": "0d18f3c86640459a8fe3a8a52293a6d20860f18d6372969893b018b762e6d807",
+      "offset": 1249902592
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part150",
+      "bytes": 8388608,
+      "sha256": "40b5ed1ebd6379f30dc76c5c60d4b82964f1e178c5f3255a33767a01c581073d",
+      "offset": 1258291200
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part151",
+      "bytes": 8388608,
+      "sha256": "b665db672a2007af49e6848c28f249f91c6564d2e3f9eb6343fa00def4c62833",
+      "offset": 1266679808
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part152",
+      "bytes": 8388608,
+      "sha256": "e63a052d885498c0dd8ff0831f7bc5ee8322a490d8c1a7fcc3116e3691b81c2e",
+      "offset": 1275068416
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part153",
+      "bytes": 8388608,
+      "sha256": "c728c5667c7e1c10f076a7b31f4230e1fac1f7a6a8a33185ade74b2fe07518d2",
+      "offset": 1283457024
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part154",
+      "bytes": 8388608,
+      "sha256": "102f0bb23673a13ee26af2240b32c60d1e7d0edc1107e8f0b4754372d7d35308",
+      "offset": 1291845632
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part155",
+      "bytes": 8388608,
+      "sha256": "eb2584b70a421a91858f5e8937a235f9809e9b5aba2522495afd529fad571e04",
+      "offset": 1300234240
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part156",
+      "bytes": 8388608,
+      "sha256": "0e0d7b3fb39e310bd92f34726776e915528d7618afc1260322b09a994e9e9f12",
+      "offset": 1308622848
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part157",
+      "bytes": 8388608,
+      "sha256": "c0648dd3cf3b03d886b0c28dee07935ae38a55b1115421aa58ad82570f822768",
+      "offset": 1317011456
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part158",
+      "bytes": 8388608,
+      "sha256": "df62d88c43e8a2de7e8ad3d04330455db105e1de2e1d6043b749c05d3dda29ff",
+      "offset": 1325400064
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part159",
+      "bytes": 8388608,
+      "sha256": "c140f94af7b0823d4ebe3c4c8e2639c2a08d379160075f5afcd71b42d2c83d4b",
+      "offset": 1333788672
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part160",
+      "bytes": 8388608,
+      "sha256": "992d5a6d4f7d7d0484094a8c4c98e097cbbbef4b360e973e6543e8a1bebe252f",
+      "offset": 1342177280
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part161",
+      "bytes": 8388608,
+      "sha256": "8f9a6a6ced9090ff76180cd551e0ada90b34a483317090e8bb86e5160bffd753",
+      "offset": 1350565888
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part162",
+      "bytes": 8388608,
+      "sha256": "b7b614765e54cb8d10374dc0f85480bb2e745544dc6d12a37a89d51a4ef2e6db",
+      "offset": 1358954496
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part163",
+      "bytes": 8388608,
+      "sha256": "be4ebeeaab15f46d0a7dd3c3996b1d10acd13737fefec4cb398766d7bf4f5bd6",
+      "offset": 1367343104
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part164",
+      "bytes": 8388608,
+      "sha256": "39773147f9193c71af67d077c5da8ed5d37a57d86fb74c2aad5c6340fd066e37",
+      "offset": 1375731712
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part165",
+      "bytes": 8388608,
+      "sha256": "39ebd02a07badaf3cbd11e04db752ab42c884c3dd2a9f3b81f15bfcf6ae535ad",
+      "offset": 1384120320
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part166",
+      "bytes": 8388608,
+      "sha256": "e82a194cb0cd0de2aabcdb884075d1c74132c28e1fdfe9ddcf602185a585623a",
+      "offset": 1392508928
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part167",
+      "bytes": 8388608,
+      "sha256": "f7a0627e7662deb285c5a6bf17ab052d24e7285635f74fad69268e80f6446be7",
+      "offset": 1400897536
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part168",
+      "bytes": 8388608,
+      "sha256": "1a110a65b7d11a59470964725d283cc385e05750572b91a79334a27cc93c04e6",
+      "offset": 1409286144
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part169",
+      "bytes": 8388608,
+      "sha256": "f3b994a9d0361da1bf73fd773f73326a79627d3d623698820da6afea82f74b39",
+      "offset": 1417674752
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part170",
+      "bytes": 8388608,
+      "sha256": "6d62e0e809fe3836fff848c12465097250c69bf230fa13e63efa375464e088d8",
+      "offset": 1426063360
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part171",
+      "bytes": 8388608,
+      "sha256": "c788aeaff725d2b9b0c22a5246665b94e3c46a4b0c0a09c31de23de64839a81a",
+      "offset": 1434451968
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part172",
+      "bytes": 8388608,
+      "sha256": "b087a659180a941c9ff961568f5bcd0aa90fee0a85e583e468eb31b38a47a3a6",
+      "offset": 1442840576
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part173",
+      "bytes": 8388608,
+      "sha256": "81bcdad283e5abc68255e493b39bede6390eb5a717c1ab108c5ed0c6532de059",
+      "offset": 1451229184
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part174",
+      "bytes": 8388608,
+      "sha256": "18074ace239da4195cbf3e4a1fb59c81d046e27124b6878a3228574eff13fbe7",
+      "offset": 1459617792
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part175",
+      "bytes": 8388608,
+      "sha256": "1329c313dd51f6b1da3d7ce600657c4fe106921f55137682e8287460ee70ff1c",
+      "offset": 1468006400
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part176",
+      "bytes": 8388608,
+      "sha256": "dde035a9e40e72e7f25af152d1738a059553d4432bc3b82f66898ac9b0009e74",
+      "offset": 1476395008
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part177",
+      "bytes": 8388608,
+      "sha256": "38a0a4d080cfb41f067b871e4778b2baf70cd22ded65f67b0a960b906feb4228",
+      "offset": 1484783616
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part178",
+      "bytes": 8388608,
+      "sha256": "c6215431ef5ec6f6c8e04b2b42ffdda1f10e14b6746880b888a87fa6aea63194",
+      "offset": 1493172224
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part179",
+      "bytes": 8388608,
+      "sha256": "d76b7a5025be9256682eb9fd08327009cd530b381ce9745f45306211374d2b03",
+      "offset": 1501560832
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part180",
+      "bytes": 8388608,
+      "sha256": "7d84069b63ecd463db57dca8512bcc03d8174257fd556e264fdabc689b54097c",
+      "offset": 1509949440
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part181",
+      "bytes": 8388608,
+      "sha256": "a288f973aa3578795d44f541de49acef288b2faa6bdc1cf2966a641d41c61bff",
+      "offset": 1518338048
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part182",
+      "bytes": 8388608,
+      "sha256": "823ce108b029792e815f6d7442af59635f9d544c0302bd79f248a6e8f35bfd54",
+      "offset": 1526726656
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part183",
+      "bytes": 8388608,
+      "sha256": "ca478f236125f73c437e3c54391e159a707ec780614d0bdf4d891104db40dad2",
+      "offset": 1535115264
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part184",
+      "bytes": 8388608,
+      "sha256": "44517d0ee1e685bb701cef0d028a61a1b2b9f441b851e3a1969b099752fad021",
+      "offset": 1543503872
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part185",
+      "bytes": 8388608,
+      "sha256": "463c8545d9c99c7b1ca1983ed23b7ee11e54c8b7e149d728bd33be4a23e8014b",
+      "offset": 1551892480
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part186",
+      "bytes": 8388608,
+      "sha256": "b1dd5cfa573d06992b3569416de9ef76405cee413d6d150a42b37a63f9023a78",
+      "offset": 1560281088
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part187",
+      "bytes": 8388608,
+      "sha256": "9859d227456c7ae8d1fe75f8fc26ab4cc264a32af55f032ac066b1c217e50098",
+      "offset": 1568669696
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part188",
+      "bytes": 8388608,
+      "sha256": "a4c849e3021ff0a10cceb1b123c7c4cd44b4a8e9efc8381cf278e658cb779933",
+      "offset": 1577058304
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part189",
+      "bytes": 8388608,
+      "sha256": "4362ef3d7cb87bc5022f580532283ffef0c491ccfc97d362ab8da88e87631147",
+      "offset": 1585446912
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part190",
+      "bytes": 8388608,
+      "sha256": "d92b455180d6de0bbb8527314ebac629ee099d6bab1ab15550e9585a2ca55d92",
+      "offset": 1593835520
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part191",
+      "bytes": 8388608,
+      "sha256": "e10a81b2422d95ea914f30d07bb10ba3c063665a8452a7dbe161f7fdd2623ef4",
+      "offset": 1602224128
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part192",
+      "bytes": 8388608,
+      "sha256": "cf1db2906a6fd92cde6403e57818d035c49847e176d46fa78c47f0c1a1c50613",
+      "offset": 1610612736
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part193",
+      "bytes": 8388608,
+      "sha256": "a85e7da013483d6724da7fb919b1580106d72c4ccce8f83daf61496c66bfec35",
+      "offset": 1619001344
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part194",
+      "bytes": 8388608,
+      "sha256": "4d104e31168f997f501d62ef9f956081e0cc6384ef55f8b668ad1d835ec8efe7",
+      "offset": 1627389952
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part195",
+      "bytes": 8388608,
+      "sha256": "ffcc942a89b16bad47f7efcb34277264d1220a342ae8a8608149ff43c6f5f816",
+      "offset": 1635778560
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part196",
+      "bytes": 8388608,
+      "sha256": "b8e61333e9e44e771d820af452b0198ac1039b6aa277464c635cc90f30b034a0",
+      "offset": 1644167168
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part197",
+      "bytes": 8388608,
+      "sha256": "094b3e0a374d58edfff83886f0cd8de609842919cea0fc735c884fa6380ad909",
+      "offset": 1652555776
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part198",
+      "bytes": 8388608,
+      "sha256": "cca23077ce6a2e28284b3d6744d6022fa2914abbbb4b18912f1254efb2c3d559",
+      "offset": 1660944384
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part199",
+      "bytes": 8388608,
+      "sha256": "ea7cfe7154df540ed157b8693f823184b01c9546cc54268024864d16dc48b996",
+      "offset": 1669332992
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part200",
+      "bytes": 8388608,
+      "sha256": "060b8318ee9c6b269c308190bb4a6dbff5ad1f14deca486fd2ea4ef69a959192",
+      "offset": 1677721600
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part201",
+      "bytes": 8388608,
+      "sha256": "7af237e0eadd4f3cb334478bc02aa386266d400eaa2efc3aa627ef92787b0af7",
+      "offset": 1686110208
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part202",
+      "bytes": 8388608,
+      "sha256": "7ecf1b8ce689ca412e721102e40ff4e08967d5fb57d60ccce3d23b0cae0139c0",
+      "offset": 1694498816
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part203",
+      "bytes": 8388608,
+      "sha256": "6daea15951c10aed6fa98a305819a25a79456b5f9ababb745505436bdcb19cb3",
+      "offset": 1702887424
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part204",
+      "bytes": 8388608,
+      "sha256": "ee3e6531dabd45dd7624c22d46c852bfe00ce5bdb9204ef0089e1244eb0fedec",
+      "offset": 1711276032
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part205",
+      "bytes": 8388608,
+      "sha256": "073b1ed45829351aa0a5755a3b4debbd55fa5c73b22769ffceca62ecff43e8a2",
+      "offset": 1719664640
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part206",
+      "bytes": 8388608,
+      "sha256": "2afa1e682adc3c7c07d5e9850786c98650e8936129e35cc60663b5f30bb10c88",
+      "offset": 1728053248
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part207",
+      "bytes": 8388608,
+      "sha256": "f745c60bc4fd3495911b006695fa25ed8328ab09d50fe4964e3a31c1101c1e87",
+      "offset": 1736441856
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part208",
+      "bytes": 8388608,
+      "sha256": "6e40f9ef399dd4dc88668cc702209699ab4115839f1681d8aed9c5c70b1d27aa",
+      "offset": 1744830464
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part209",
+      "bytes": 8388608,
+      "sha256": "7a4112259a37808acc026c3189a3834c2944d57404a5ebea4254ab16b00c3569",
+      "offset": 1753219072
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part210",
+      "bytes": 8388608,
+      "sha256": "a33abff7ffc58fdc470a24251fdc1b47dd0a1bcb3b0502eb0db471ee575e1f22",
+      "offset": 1761607680
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part211",
+      "bytes": 8388608,
+      "sha256": "0c08e7f9a3a00fb6d5ebc391ba5240e42247cd2b555254af85ad6d51a5d4cfb4",
+      "offset": 1769996288
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part212",
+      "bytes": 8388608,
+      "sha256": "8e4321fb7e7120afe3211c4d8634610ad16e5ebca1ca98359a22d4fad09ae95e",
+      "offset": 1778384896
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part213",
+      "bytes": 8388608,
+      "sha256": "29105cef0d11f36f47f58b42cc6e29d60ec2dc9ff571e76ced7a9c456ab2b577",
+      "offset": 1786773504
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part214",
+      "bytes": 8388608,
+      "sha256": "2cb987ccafe5f0e56474aa97a03c38637c96fc17cca5201a260cb28e0d3118fa",
+      "offset": 1795162112
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part215",
+      "bytes": 8388608,
+      "sha256": "479f75658ee28b367a14bad589dd66e74f2d6699dcb0c1eeade29ae4cf25e6c3",
+      "offset": 1803550720
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part216",
+      "bytes": 8388608,
+      "sha256": "752fd9889d80534aaa7c07e8726f49638d6d12838280fd0e64a40374a4ed8058",
+      "offset": 1811939328
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part217",
+      "bytes": 8388608,
+      "sha256": "cb171adee90ecd904af92317296e00e65e10cd2c81ac3cb04c11ba292d43b57f",
+      "offset": 1820327936
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part218",
+      "bytes": 8388608,
+      "sha256": "32114e9c5a6ddc7fae9eed590c2624a3f1c9937c42ce6beef389e60d98d77aea",
+      "offset": 1828716544
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part219",
+      "bytes": 8388608,
+      "sha256": "0f08ed6412edc3b6969e5172819d9f04ad863198d12a4d4c176aeb3fb2ce6886",
+      "offset": 1837105152
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part220",
+      "bytes": 8388608,
+      "sha256": "8ecd8be1042de5d0470ca749dbc94ab5211febf7fe2601ee0c0f05c0cb197182",
+      "offset": 1845493760
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part221",
+      "bytes": 8388608,
+      "sha256": "eeaa14bc37bd73f3268d5c4b281c062f0cb0ad7871da1aab6d477c55d46c57fc",
+      "offset": 1853882368
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part222",
+      "bytes": 8388608,
+      "sha256": "8d2589615d9f223f08a52c0b58b8aab2e7123183bb7a16908bf5f7d126c231c8",
+      "offset": 1862270976
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part223",
+      "bytes": 8388608,
+      "sha256": "bde80faf5029eae0b01813150150333911efa6b1181e17f477b1571bbdc2a9c8",
+      "offset": 1870659584
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part224",
+      "bytes": 8388608,
+      "sha256": "0935cfbd0508aebbed339560604127ac9cfc712fd04ac55d8dcef3de2b9d84aa",
+      "offset": 1879048192
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part225",
+      "bytes": 8388608,
+      "sha256": "c4ac8908b1723606edb828ce2c13a9db6eec8b3687c7f1be7836848898e579e4",
+      "offset": 1887436800
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part226",
+      "bytes": 8388608,
+      "sha256": "13094e6d75b2414e97aae329747b65ff1d780c4c8cc092249284d9dda535eb05",
+      "offset": 1895825408
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part227",
+      "bytes": 8388608,
+      "sha256": "87731cc3c0b9043cd019ac2b5d823ba264d7c1c69531b7a69fdfe88493e01e1f",
+      "offset": 1904214016
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part228",
+      "bytes": 8388608,
+      "sha256": "edcdb82ca4f2e00218e6f6182f1e9ebdcfcfe54b2caed975293d326a03c143f9",
+      "offset": 1912602624
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part229",
+      "bytes": 8388608,
+      "sha256": "c4a65c960f93c7cf25fed3ec922e2b96b70c670308971d2f1b23b0a9fb55e86b",
+      "offset": 1920991232
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part230",
+      "bytes": 8388608,
+      "sha256": "2e5ea84d34d0d325b55fb26333cad5da374d91df1a6c28de00c0075f3cb16212",
+      "offset": 1929379840
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part231",
+      "bytes": 8388608,
+      "sha256": "b8243fe8141154b774ec7a741312581a63d1d72e8dd04f01e32d5d0ba7a4a4f3",
+      "offset": 1937768448
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part232",
+      "bytes": 8388608,
+      "sha256": "a2fbb42145907f81f2397cc6f306dfd4a967abcc06de29cabbc6aa2f203f9d4b",
+      "offset": 1946157056
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part233",
+      "bytes": 8388608,
+      "sha256": "951b151da600dfe1cd091f6cdb63b1d18cc4c0d38d4b4d8439faa7c2ac174c9e",
+      "offset": 1954545664
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part234",
+      "bytes": 8388608,
+      "sha256": "6e6f1daac8a443bd64eb36a5c88af60d38b0c2d4271859dd2dc82e087a80cd26",
+      "offset": 1962934272
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part235",
+      "bytes": 8388608,
+      "sha256": "eea52850e25b4335a09797886909be329999f29cd0d4c011f6366270e4a25a14",
+      "offset": 1971322880
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part236",
+      "bytes": 8388608,
+      "sha256": "708cc653be7f904c3581c1de3580dc35e811ed0f4325774c119d599e77c321bc",
+      "offset": 1979711488
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part237",
+      "bytes": 8388608,
+      "sha256": "0410f2fb9bef038e7a45baa65e15db5e9a0d4c693043a6cda69f37bcfc6c2642",
+      "offset": 1988100096
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part238",
+      "bytes": 8388608,
+      "sha256": "bbef06ada20e30b606c939c86a9c6ad46670430043ffeec242c626b0f4282af7",
+      "offset": 1996488704
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part239",
+      "bytes": 8388608,
+      "sha256": "80c5a8d9be70c4c737784f16d57eae1f44614cd8ad768e80c40e8bc718155a58",
+      "offset": 2004877312
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part240",
+      "bytes": 8388608,
+      "sha256": "c3e6f245629c492fe615573c2826ad24328d876577753d81ec4ff9ff6070538a",
+      "offset": 2013265920
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part241",
+      "bytes": 8388608,
+      "sha256": "7a191daa301c54b71eeec2c09ac0e397903421d49b5fb939e710fb0f17532a21",
+      "offset": 2021654528
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part242",
+      "bytes": 8388608,
+      "sha256": "26a26e5b712c9e2f3b40af7973ea0b003c2f8a4ad2465a92d955ddb8a3880b09",
+      "offset": 2030043136
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part243",
+      "bytes": 8388608,
+      "sha256": "5d94f3693e392ca00aaf0f082a8b9a10d3620fc315baf4d9e7dde8bdc13750c6",
+      "offset": 2038431744
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part244",
+      "bytes": 8388608,
+      "sha256": "2dd7717cad28a1ec789c1fa3bd785962451534282b7204104919d6862697e7b0",
+      "offset": 2046820352
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part245",
+      "bytes": 8388608,
+      "sha256": "01eaa31bbe4dc9e92e02ec6315ab3c9ec83e2351cb1d3f8e6e41eb68383d05e3",
+      "offset": 2055208960
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part246",
+      "bytes": 8388608,
+      "sha256": "6d7c5e971b2cbaf0788a99ad826caeebd254821e3ba0cdd19fac195ffb79fab6",
+      "offset": 2063597568
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part247",
+      "bytes": 8388608,
+      "sha256": "92407b8aa903965e5828dfd3f6d0d18b06d9dcfc54d654f40343f9ecba7c7316",
+      "offset": 2071986176
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part248",
+      "bytes": 8388608,
+      "sha256": "b6cef099d07ade4afa9243e53a501616410cd5b07cf5f922eb1533b1aa213424",
+      "offset": 2080374784
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part249",
+      "bytes": 8388608,
+      "sha256": "b60656399f3b1912ea35f3e69fa1caf363ebbc296f64798ea64fb9f3a05d42da",
+      "offset": 2088763392
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part250",
+      "bytes": 8388608,
+      "sha256": "09086ff0d9a2082ea206b9a0bba9d7a2e952f9c1800fb7e7fb4e8302a39f55d2",
+      "offset": 2097152000
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part251",
+      "bytes": 8388608,
+      "sha256": "967b5ba73c6f6dbd3acad71925ca766e49828033d2266ed2242906d8bf80defb",
+      "offset": 2105540608
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part252",
+      "bytes": 8388608,
+      "sha256": "0f3847314f027ad11e38bb94db44683eb9c6a4f74521a5146be0b65c60941091",
+      "offset": 2113929216
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part253",
+      "bytes": 8388608,
+      "sha256": "9d1d40149cda95508cda1e6779f3c55bf0e368e64700678a705a4f9fd9e7addf",
+      "offset": 2122317824
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part254",
+      "bytes": 8388608,
+      "sha256": "7fb3c3f107f4b3f9ad4a2bf49d872cc01662475020747a327ea87f5bf25f90a7",
+      "offset": 2130706432
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part255",
+      "bytes": 8388608,
+      "sha256": "7cb3a189d8081a3a9a59cbb9cc430e4e880d6267b8cb130b671ba0101f016a79",
+      "offset": 2139095040
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part256",
+      "bytes": 8388608,
+      "sha256": "dfefbe1b96a5ac2553928895d8f7175dc77b47c78adb3edb5ce9b7cabc8ad7bf",
+      "offset": 2147483648
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part257",
+      "bytes": 8388608,
+      "sha256": "116066749f2e10cea5883ec331d2a1e1abe60b20aa1d9ed5867f00da4227b877",
+      "offset": 2155872256
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part258",
+      "bytes": 8388608,
+      "sha256": "08a4fe65be8755b2f741ea8a336f24f96e59b3047928b4d7d0f257055eaa45f7",
+      "offset": 2164260864
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part259",
+      "bytes": 8388608,
+      "sha256": "730f613b9fb468393ae7b2ed2ba1bf282f4299cb13e3f1a1d10d71ded3226713",
+      "offset": 2172649472
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part260",
+      "bytes": 8388608,
+      "sha256": "c8fd501a51ce26af681d00d5482679e2961c78c234fed310feac7748f75f0e2a",
+      "offset": 2181038080
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part261",
+      "bytes": 8388608,
+      "sha256": "40ecd0cebab090e999c8579d1a8a3377dfe967322e8afdf1209b6846d4bb8aac",
+      "offset": 2189426688
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part262",
+      "bytes": 8388608,
+      "sha256": "0e74a70617b20068de4ed91e4c0b50e05328eaac3ce3206b22a5e701ae0733a9",
+      "offset": 2197815296
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part263",
+      "bytes": 8388608,
+      "sha256": "6d161bc6affcd50eada22384f4925b8363b07b6a46c82b020e8ff03132a84519",
+      "offset": 2206203904
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part264",
+      "bytes": 8388608,
+      "sha256": "5034fde547c4f7e56870dbc5e0b9d759975b8b86457ae93ab03b6cab5b0eb0b9",
+      "offset": 2214592512
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part265",
+      "bytes": 8388608,
+      "sha256": "6f87c059f573959dcea721b2f564c3c45bd2d5ad782076122cf90b143463e786",
+      "offset": 2222981120
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part266",
+      "bytes": 8388608,
+      "sha256": "def48af3d449ecab033623452747424c560bad7b5de56f010155dd9f358d7542",
+      "offset": 2231369728
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part267",
+      "bytes": 8388608,
+      "sha256": "2834594cd9475e363f1369f9ca69130934b35cc19cf13059a34a29505ae53e93",
+      "offset": 2239758336
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part268",
+      "bytes": 8388608,
+      "sha256": "b5b4c4bbd825db8f5d0b94f5796f741c903d972d7599e22a8b51c8b21ede3f09",
+      "offset": 2248146944
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part269",
+      "bytes": 8388608,
+      "sha256": "3d0afbac164361bdda76bfbf863a8687b255c004498dc8f2563134707e9f3612",
+      "offset": 2256535552
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part270",
+      "bytes": 8388608,
+      "sha256": "5a4bae85ee398bcd593092e1e5fdf45009a4f52d41b0f4e0bf71a9b3a01f8776",
+      "offset": 2264924160
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part271",
+      "bytes": 8388608,
+      "sha256": "e6fa399e5ad2b2d6e116ca2cfdc7c905642dc8ab17b6a115d52a551892c36326",
+      "offset": 2273312768
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part272",
+      "bytes": 8388608,
+      "sha256": "60a697d90aa9f567ec4ccb2064279a77d88ec84c831481c96d0001746c1d2347",
+      "offset": 2281701376
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part273",
+      "bytes": 8388608,
+      "sha256": "851870ce15080449113524b8c0291ce387c6782094d6a0e93a0ff24b4da661cb",
+      "offset": 2290089984
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part274",
+      "bytes": 8388608,
+      "sha256": "5b516faf88994fd4c15e5f8ab2384d4dce251b2e6f0dc4c4cd72b7d2a167a341",
+      "offset": 2298478592
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part275",
+      "bytes": 8388608,
+      "sha256": "8e2b2437f3af035f054a88ee347ac287e0bef6caefcc47473f513a73d6d67a27",
+      "offset": 2306867200
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part276",
+      "bytes": 8388608,
+      "sha256": "b2d8c92efbe36b04aae79fd2200ffc6f951847778093ca770d8404b1fa54b214",
+      "offset": 2315255808
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part277",
+      "bytes": 8388608,
+      "sha256": "c5928c901be6a98e7047e4699d33966bbfa5eeecc224ecee5b0a83462b03fd31",
+      "offset": 2323644416
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part278",
+      "bytes": 8388608,
+      "sha256": "567f2f08707f7767a00b3adac528ad574102950a82c3c5b52de3ab558b480281",
+      "offset": 2332033024
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part279",
+      "bytes": 8388608,
+      "sha256": "aa8430a0421dec0476c24db6811dd0295e8910c260e0b4b3d08b1660aeea77ce",
+      "offset": 2340421632
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part280",
+      "bytes": 8388608,
+      "sha256": "ba28ffdc47a053a8e65b2672cfd891fe2a59d672f33de9f8058d969da7762b23",
+      "offset": 2348810240
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part281",
+      "bytes": 8388608,
+      "sha256": "a633d41bda0e59c8a69ccb883a2589e1b0a293dc990ee8bb8dc97ce557d8957a",
+      "offset": 2357198848
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part282",
+      "bytes": 8388608,
+      "sha256": "514cb1be23667100ecb3fc92ddd1f7fa5fc6a39fa956e059501c9bff7e059618",
+      "offset": 2365587456
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part283",
+      "bytes": 8388608,
+      "sha256": "122b0f410f4e6a76cc0a6716e6a26fc42c583595ddcd73f3ca241a7bd05e5ce0",
+      "offset": 2373976064
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part284",
+      "bytes": 8388608,
+      "sha256": "58363865aeaee2e9ac8048e704f5e64229b1242fe0da5c9b23bd36c976ffd223",
+      "offset": 2382364672
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part285",
+      "bytes": 8388608,
+      "sha256": "bf705de040a022fd6a012021df1c71c8e9362fd6ba86ae236dbeb3c7cd1606dd",
+      "offset": 2390753280
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part286",
+      "bytes": 8388608,
+      "sha256": "785624aec8925b4dd41baa2a2ea0afd921e8fe10873a9c84a4b7bbcff130a0d4",
+      "offset": 2399141888
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part287",
+      "bytes": 8388608,
+      "sha256": "771b6ffc577ff9d9027c41423996e7a3ba895c2a8612d49c6962bb46c5a92179",
+      "offset": 2407530496
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part288",
+      "bytes": 8388608,
+      "sha256": "b8eb6183cb240d2676225a74bfa40ecf6404465c5bebc9754edbb36a571f98a8",
+      "offset": 2415919104
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part289",
+      "bytes": 8388608,
+      "sha256": "224d07b5f5409c2517ad6f7edaaea263a5bc6a855ce0204c08f30581c77523cd",
+      "offset": 2424307712
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part290",
+      "bytes": 8388608,
+      "sha256": "c1b22a713135f9b24ee3e467de580d8a6a18350c4d287ffcd6dc38553e8922f3",
+      "offset": 2432696320
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part291",
+      "bytes": 8388608,
+      "sha256": "5ad285c57e17542a0afce51fe305bd7d4119fb5b0050ec3d1ceeb60f45bb7d6a",
+      "offset": 2441084928
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part292",
+      "bytes": 8388608,
+      "sha256": "ee6fe35dc5951c8530b8a49b93f464bd2268127c3a9f88c52ad96ce312131cf4",
+      "offset": 2449473536
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part293",
+      "bytes": 8388608,
+      "sha256": "2f1d8c7393a6da326cd166975187e81f4450b002534ccf1c52c02b1ca76178b7",
+      "offset": 2457862144
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part294",
+      "bytes": 8388608,
+      "sha256": "277d9bffd3dade398fc2f4bd31af6d3e39e6f21761302607c90b52bb28e109c1",
+      "offset": 2466250752
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part295",
+      "bytes": 8388608,
+      "sha256": "b76c9b7b0261283d57bcfff18008b016857bf0a71edebfded63a7e3635aa9b76",
+      "offset": 2474639360
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part296",
+      "bytes": 8388608,
+      "sha256": "49ce71384ff6d9c8037463821184178b8284ab8693a3cd173867876a68896a05",
+      "offset": 2483027968
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part297",
+      "bytes": 8388608,
+      "sha256": "ec7ef12e4273f7717686dd7e3b18acda5e341f938c942d6d41e676498160f81a",
+      "offset": 2491416576
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part298",
+      "bytes": 8388608,
+      "sha256": "d9a0fa483f754360c86f08ad4bb6452975ce75fc80a016f7c4cba1feeeb31a4d",
+      "offset": 2499805184
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part299",
+      "bytes": 8388608,
+      "sha256": "434cdc9699fe7614e17954f6de4b75265c21691fcb4b5be3de1ba40694ebeab1",
+      "offset": 2508193792
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part300",
+      "bytes": 8388608,
+      "sha256": "e295dec74a2a5730826ab2a90db1ef3b026fd915037c5d4e12ac23b9fac5bc40",
+      "offset": 2516582400
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part301",
+      "bytes": 8388608,
+      "sha256": "3416f245f0804c3290205a4c0d6a9b64e239e19e75b1c4c2400f1766cf9f3b4a",
+      "offset": 2524971008
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part302",
+      "bytes": 8388608,
+      "sha256": "eaa070469c61887e623f747b08df2a633b6e7990f11259529f93264fc7e58963",
+      "offset": 2533359616
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part303",
+      "bytes": 8388608,
+      "sha256": "610dd0e75830ef2bce84a9b7f2335ce2eb02f771323ec41661dfdc13506b466b",
+      "offset": 2541748224
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part304",
+      "bytes": 8388608,
+      "sha256": "bac2e1fab5e3dd3a948d94599c29ffa7642541ce4df4e4a1fb49a9e5190a70a0",
+      "offset": 2550136832
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part305",
+      "bytes": 8388608,
+      "sha256": "b378fe7e059455273a654c9d100732c71e1f2e271a4345ff27b602c63a4d3dd5",
+      "offset": 2558525440
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part306",
+      "bytes": 8388608,
+      "sha256": "0335cd3c6d42d5dedf1863cb8e3257d33d29c7c45ab183cb72d889ea3f2bdc73",
+      "offset": 2566914048
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part307",
+      "bytes": 8388608,
+      "sha256": "e325aeb4b5e74336d14250a495340a76fb0ef1499218bf4cff006fc7e6a09176",
+      "offset": 2575302656
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part308",
+      "bytes": 8388608,
+      "sha256": "12bbe477857096b38b5e279f3364980fac7e80df41d8b72eb415e7926d5e10f4",
+      "offset": 2583691264
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part309",
+      "bytes": 8388608,
+      "sha256": "4f4052687fc17c5b7d9ddf0fe21b093ead30b5863b2fb1aed48f622903e00022",
+      "offset": 2592079872
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part310",
+      "bytes": 8388608,
+      "sha256": "a97140d28530758c1df0fe1709c22eee8d2cce1caaba9e03fb0ba2971ffd5512",
+      "offset": 2600468480
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part311",
+      "bytes": 8388608,
+      "sha256": "ca5267ec3c7437edeb996a1c8344bafa71c3867de40c144a7307e890772bc391",
+      "offset": 2608857088
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part312",
+      "bytes": 8388608,
+      "sha256": "9968e2a63b5a5851ea8c828e662ba40ebdcd8190682fdf75837e999750c82650",
+      "offset": 2617245696
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part313",
+      "bytes": 8388608,
+      "sha256": "60da2adbe5f9dd54f89c319026e7a9f93c1ad69856e81cfee7e9bef3d29179b5",
+      "offset": 2625634304
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part314",
+      "bytes": 8388608,
+      "sha256": "ece51fa4d330bfd385e613228fdf486b32e2077345c22a54b6038096c9ed00b8",
+      "offset": 2634022912
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part315",
+      "bytes": 8388608,
+      "sha256": "e9eca71bda20ab593c9a95723bd339902f018f8348a5fce091c1b983238a6a6e",
+      "offset": 2642411520
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part316",
+      "bytes": 8388608,
+      "sha256": "10f94f8e1c48588097d4f157fddfbf5cf4227070e641862ebe6f894da6bb26be",
+      "offset": 2650800128
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part317",
+      "bytes": 8388608,
+      "sha256": "c6d79655499bb9400edc91fbe6bde1f4ef3d1fbf41c24e532c8e8cdad5a07dff",
+      "offset": 2659188736
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part318",
+      "bytes": 8388608,
+      "sha256": "f9e74bdc79a7818a77296de2fbe0c39ca573925531b42c4667740f9fdd3f9c6c",
+      "offset": 2667577344
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part319",
+      "bytes": 8388608,
+      "sha256": "ade12539d90e6e257b448717d5fb22553e134cfee4a43e65aa4ec2ab79091f85",
+      "offset": 2675965952
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part320",
+      "bytes": 8388608,
+      "sha256": "c83c11f12853dce48a6a35f9f53dee20e1b419758b469e465ee6fc0bc815c288",
+      "offset": 2684354560
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part321",
+      "bytes": 8388608,
+      "sha256": "947b2c8117d01048ebefa6d211e972d161d84a6493510035c097ae47839de3d5",
+      "offset": 2692743168
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part322",
+      "bytes": 8388608,
+      "sha256": "1cba3746aeb8f55a54adfc86f1f3d480c89bd0e5bad4b376d2833b6814631284",
+      "offset": 2701131776
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part323",
+      "bytes": 8388608,
+      "sha256": "acef99b5931ea1fa6b9bb3d8fb225d76819b7a83c3fcd96da7c311a9f3506205",
+      "offset": 2709520384
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part324",
+      "bytes": 8388608,
+      "sha256": "6cea1402bd92ac443d983d37d4704d085a64518efff4b2c3cc99152fec448779",
+      "offset": 2717908992
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part325",
+      "bytes": 8388608,
+      "sha256": "5eedb90cd11c0366c35ada4ca3213438adb8456dc32755ff32901d75f30f0815",
+      "offset": 2726297600
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part326",
+      "bytes": 8388608,
+      "sha256": "47b5294f811dff3b5c3791cf8c22feecc491d1ed2c2f4a38577924707bebbbee",
+      "offset": 2734686208
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part327",
+      "bytes": 8388608,
+      "sha256": "5b058c13a1ec539cd88bc9617b7d3447f221c01fc30ae20762bd26a912ee1e65",
+      "offset": 2743074816
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part328",
+      "bytes": 8388608,
+      "sha256": "0cda789a29f9bcd67368a68ea0fbdeb6844b2f12ab71abbeefd1318fbb611860",
+      "offset": 2751463424
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part329",
+      "bytes": 8388608,
+      "sha256": "8ba9081bb53ef09c5f0693adabb68475d74090510212ecda94333d9b36433e2f",
+      "offset": 2759852032
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part330",
+      "bytes": 8388608,
+      "sha256": "f71ef698a5f74d1e04301d0d8c00ac9fd3388215ae506b7bc2f050ac0763fd42",
+      "offset": 2768240640
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part331",
+      "bytes": 8388608,
+      "sha256": "fb6176eefcc1bf1b9b006e0189b02edc32f8dd63a042bc2d3547a83c60082fcf",
+      "offset": 2776629248
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part332",
+      "bytes": 8388608,
+      "sha256": "88eb46107f88f28e96915c23a0838b6f3b18c840a3ad1c86e1415075121440fd",
+      "offset": 2785017856
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part333",
+      "bytes": 8388608,
+      "sha256": "ab96874cfa771b49a24ed7138d563925e4d54b735fff2b8a4c9bb2bb06bc9748",
+      "offset": 2793406464
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part334",
+      "bytes": 8388608,
+      "sha256": "abe9efe9f2b59c6883b5dca1fe266203bf12c823ae10d7bf537f8dd0b3ebf30e",
+      "offset": 2801795072
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part335",
+      "bytes": 8388608,
+      "sha256": "c375e998d1136921aa76d95a7686f8d2d7e98919104a74c0aa8a3ab3d32f4328",
+      "offset": 2810183680
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part336",
+      "bytes": 8388608,
+      "sha256": "3159c1e353487767ec3db1fc5f01be6925828ba71fbcf8ef45c31cc93503755b",
+      "offset": 2818572288
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part337",
+      "bytes": 8388608,
+      "sha256": "3f0e2dd93fd8d141c41d43d747c38013cee55066e2c2fd23783a999b9d5506dd",
+      "offset": 2826960896
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part338",
+      "bytes": 8388608,
+      "sha256": "9cc9e5a072b2ac58962de1a57eb1a5ff8f8586409f9c6c7bacb4942754e0e427",
+      "offset": 2835349504
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part339",
+      "bytes": 8388608,
+      "sha256": "566fa30cf81176e6479d0d7f93d3e43e70a8b514cc583b2c32feee56c21aa552",
+      "offset": 2843738112
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part340",
+      "bytes": 8388608,
+      "sha256": "6b08396f241b1b042c2d8557c27ffb11d09b216669b40ee5530db02636c2f5c5",
+      "offset": 2852126720
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part341",
+      "bytes": 8388608,
+      "sha256": "212b98524f3b76d4e121c59a592b84060ae5750c0c3405f39f857f1b9e66fc13",
+      "offset": 2860515328
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part342",
+      "bytes": 8388608,
+      "sha256": "6929b9137f6bb0385a0cc7b25abf40f9d530cd6c718d0d3640e2ec104313c51b",
+      "offset": 2868903936
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part343",
+      "bytes": 8388608,
+      "sha256": "d30722128507d68e2e108ef49ed29f1d4513e22b990a79dc98ad9133a9858f44",
+      "offset": 2877292544
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part344",
+      "bytes": 8388608,
+      "sha256": "ba04fcff8f4e352750b7024cf6e0995701099fe70392915c8e0f45a58ba534e9",
+      "offset": 2885681152
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part345",
+      "bytes": 8388608,
+      "sha256": "dc73b598bfd17fead448f254a22a358c3bf58a7b21d960adc56e5a9e0bef808a",
+      "offset": 2894069760
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part346",
+      "bytes": 8388608,
+      "sha256": "a75475ab2e1a48776e823f2ebe3c94e276b9aed5bd574fada11272168da78a86",
+      "offset": 2902458368
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part347",
+      "bytes": 8388608,
+      "sha256": "f9890374c2cebb6288e79c899c98fdc3dae1ec9fe036b006370bff638438b937",
+      "offset": 2910846976
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part348",
+      "bytes": 8388608,
+      "sha256": "d3d6bc2727ac6854565b3bf85d326cad3685278b31bdaae98d8e9d48476d567b",
+      "offset": 2919235584
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part349",
+      "bytes": 8388608,
+      "sha256": "06bdd731de791a08b3e2b83c9c645336c1a76f8d0c308850777bb3ed184290a6",
+      "offset": 2927624192
+    },
+    {
+      "name": "safal_training_full_results_20261014.zip.part350",
+      "bytes": 7474873,
+      "sha256": "46754129fb749146c42dd1ec312aeeab67c11c4e785019df2cf3900a005a0fe7",
+      "offset": 2936012800
+    }
+  ],
+  "files": 1878,
+  "all_fitted_banks": 70,
+  "query_probes": 60,
+  "metric_score_maps": 1200,
+  "raw_images_or_backbone_weights_included": false
+}

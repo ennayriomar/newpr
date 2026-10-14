@@ -1,0 +1,38 @@
+{
+  "dataset": "mvtec_ad",
+  "category": "grid",
+  "support_ids": [
+    "grid/train/good/001.png",
+    "grid/train/good/172.png"
+  ],
+  "calibration_ids": [
+    "grid/train/good/162.png",
+    "grid/train/good/105.png",
+    "grid/train/good/238.png",
+    "grid/train/good/043.png"
+  ],
+  "fit_parent_ids": [
+    "grid/train/good/058.png",
+    "grid/train/good/061.png",
+    "grid/train/good/019.png",
+    "grid/train/good/262.png",
+    "grid/train/good/073.png",
+    "grid/train/good/045.png",
+    "grid/train/good/038.png",
+    "grid/train/good/106.png",
+    "grid/train/good/244.png",
+    "grid/train/good/254.png",
+    "grid/train/good/195.png",
+    "grid/train/good/175.png",
+    "grid/train/good/222.png",
+    "grid/train/good/086.png",
+    "grid/train/good/069.png",
+    "grid/train/good/012.png"
+  ],
+  "heldout_parent_ids": [
+    "grid/train/good/184.png",
+    "grid/train/good/192.png",
+    "grid/train/good/125.png",
+    "grid/train/good/018.png"
+  ]
+}

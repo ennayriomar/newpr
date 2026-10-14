@@ -1,0 +1,38 @@
+{
+  "dataset": "visa",
+  "category": "pcb1",
+  "support_ids": [
+    "pcb1/Data/Images/Normal/0898.JPG",
+    "pcb1/Data/Images/Normal/0929.JPG"
+  ],
+  "calibration_ids": [
+    "pcb1/Data/Images/Normal/0042.JPG",
+    "pcb1/Data/Images/Normal/0860.JPG",
+    "pcb1/Data/Images/Normal/0537.JPG",
+    "pcb1/Data/Images/Normal/0166.JPG"
+  ],
+  "fit_parent_ids": [
+    "pcb1/Data/Images/Normal/0922.JPG",
+    "pcb1/Data/Images/Normal/0005.JPG",
+    "pcb1/Data/Images/Normal/0332.JPG",
+    "pcb1/Data/Images/Normal/0380.JPG",
+    "pcb1/Data/Images/Normal/0990.JPG",
+    "pcb1/Data/Images/Normal/0692.JPG",
+    "pcb1/Data/Images/Normal/0067.JPG",
+    "pcb1/Data/Images/Normal/0808.JPG",
+    "pcb1/Data/Images/Normal/0943.JPG",
+    "pcb1/Data/Images/Normal/0572.JPG",
+    "pcb1/Data/Images/Normal/0023.JPG",
+    "pcb1/Data/Images/Normal/0620.JPG",
+    "pcb1/Data/Images/Normal/0137.JPG",
+    "pcb1/Data/Images/Normal/0221.JPG",
+    "pcb1/Data/Images/Normal/0653.JPG",
+    "pcb1/Data/Images/Normal/0341.JPG"
+  ],
+  "heldout_parent_ids": [
+    "pcb1/Data/Images/Normal/0963.JPG",
+    "pcb1/Data/Images/Normal/0128.JPG",
+    "pcb1/Data/Images/Normal/0945.JPG",
+    "pcb1/Data/Images/Normal/0556.JPG"
+  ]
+}

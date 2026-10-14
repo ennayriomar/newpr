@@ -1,3 +1,15 @@
+# SAFAL research: trained models and measured results
+
+## Training and evaluation — 14 October 2026
+
+[Download trained model ZIP](https://github.com/ennayriomar/newpr/raw/refs/heads/main/safal_trained_20261014.zip) · [Checksum](safal_trained_20261014.zip.sha256) · [Measured report](results/safal_training_20261014/verification/analysis/report.md) · [Trained example banks](trained_models/safal_20261014) · [All fitted banks and maps](results/safal_training_20261014_archive)
+
+The actual run fitted 60 target-reference/PCA configurations plus 10 source configurations and learned a logistic error-estimation head on 320 source normal/CutPaste rows from 160 original parents. Another 80 rows from 40 separate parents were held out from fitting. The real DINOv2 encoder stayed frozen; this was SAFAL computer-vision training, not LLM fine-tuning.
+
+Development validation used 100 unique real MVTec AD/VisA images across five categories, k1/2/4/8 and three draws. These produce 1,200 correlated inspections and 6,000 five-method records. Native labels did not fit model parameters or cutoffs. Eighteen query IDs appeared in the audited earlier runs; no pristine final-test claim is made. Per-category/shot metrics, uncertainty intervals, calibration limits and actual trained-artifact audits are linked above. This is not a full dataset benchmark or production reliability guarantee.
+
+Mean episode image accuracy: SAFAL 0.766667, fixed average 0.761667, subspace 0.740000. Read the full report for paired comparisons, localization and coverage. Five compact k4/seed17 models were selected by a predeclared support count/draw, not by validation performance. The complete result archive retains all 70 fitted banks, 60 probes and 1,200 metric-map arrays. Raw images, feature caches and pretrained backbone binaries are separate.
+
 # SAFAL industrial anomaly research
 
 ## Full model v0.5.0

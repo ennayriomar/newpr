@@ -1,0 +1,10 @@
+{
+  "stage_fit_seconds_sum": 136.66161774887587,
+  "stage_fit_seconds_mean": 2.2776936291479313,
+  "inspection_seconds_mean": 0.18261862853825733,
+  "inspection_seconds_median": 0.14767209949786775,
+  "query_feature_cache_hits": 1100,
+  "query_feature_cache_misses": 100,
+  "paired_inspections": 1200,
+  "scope": "Recorded query timing includes feature extraction/cache read, all branch/LOO scoring, error estimation and exported metric maps; excludes offline masks/metric computation and repeated provenance hashing. Cached and uncached timings are mixed; not a GPU or pure-backbone benchmark."
+}

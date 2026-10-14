@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "compact_archive": "safal_trained_20261014.zip",
+  "compact_bytes": 28796451,
+  "compact_sha256": "7d722a48a4c17d255b441be23a38a8a9e1812ef55913859f6eb4ef59fb7f37c6",
+  "compact_files": 935,
+  "compact_fitted_models": [
+    "mvtec_ad-cable-k4-seed17",
+    "mvtec_ad-hazelnut-k4-seed17",
+    "mvtec_ad-transistor-k4-seed17",
+    "visa-macaroni2-k4-seed17",
+    "visa-pcb2-k4-seed17"
+  ],
+  "selection": "predeclared k4/seed17 per category, not selected by validation performance",
+  "current_source_byte_identical": true,
+  "full_archive": "safal_training_full_results_20261014.zip",
+  "full_bytes": 2943487673,
+  "full_sha256": "2fae764f6c6e041e2cbd2f4e8d33dea4a007aec1ac1d5db2c79201c0571806cb",
+  "full_files": 1878,
+  "full_parts": 351,
+  "all_archive_crc_and_internal_file_hashes_verified": true,
+  "all_fitted_banks": 70,
+  "all_query_probes": 60,
+  "all_metric_maps": 1200
+}

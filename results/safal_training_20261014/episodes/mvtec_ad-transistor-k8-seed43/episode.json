@@ -1,0 +1,51 @@
+{
+  "id": "mvtec_ad-transistor-k8-seed43",
+  "dataset": "mvtec_ad",
+  "category": "transistor",
+  "role": "validation",
+  "seed": 43,
+  "shots": 8,
+  "support_ids": [
+    "transistor/train/good/145.png",
+    "transistor/train/good/028.png",
+    "transistor/train/good/055.png",
+    "transistor/train/good/044.png",
+    "transistor/train/good/085.png",
+    "transistor/train/good/068.png",
+    "transistor/train/good/181.png",
+    "transistor/train/good/097.png"
+  ],
+  "calibration_ids": [
+    "transistor/train/good/108.png",
+    "transistor/train/good/065.png",
+    "transistor/train/good/030.png",
+    "transistor/train/good/054.png"
+  ],
+  "query_ids": [
+    "transistor/test/good/054.png",
+    "transistor/test/good/015.png",
+    "transistor/test/good/058.png",
+    "transistor/test/good/037.png",
+    "transistor/test/good/004.png",
+    "transistor/test/good/018.png",
+    "transistor/test/good/025.png",
+    "transistor/test/good/040.png",
+    "transistor/test/good/051.png",
+    "transistor/test/good/048.png",
+    "transistor/test/cut_lead/007.png",
+    "transistor/test/damaged_case/008.png",
+    "transistor/test/bent_lead/009.png",
+    "transistor/test/misplaced/003.png",
+    "transistor/test/damaged_case/003.png",
+    "transistor/test/cut_lead/005.png",
+    "transistor/test/misplaced/005.png",
+    "transistor/test/bent_lead/001.png",
+    "transistor/test/cut_lead/006.png",
+    "transistor/test/cut_lead/002.png"
+  ],
+  "k_plus_calibration": 12,
+  "strict_k_image_few_shot": false,
+  "support_views": [
+    "identity"
+  ]
+}

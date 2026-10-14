@@ -1,0 +1,38 @@
+{
+  "dataset": "visa",
+  "category": "macaroni1",
+  "support_ids": [
+    "macaroni1/Data/Images/Normal/0592.JPG",
+    "macaroni1/Data/Images/Normal/0131.JPG"
+  ],
+  "calibration_ids": [
+    "macaroni1/Data/Images/Normal/0623.JPG",
+    "macaroni1/Data/Images/Normal/0358.JPG",
+    "macaroni1/Data/Images/Normal/0909.JPG",
+    "macaroni1/Data/Images/Normal/0850.JPG"
+  ],
+  "fit_parent_ids": [
+    "macaroni1/Data/Images/Normal/0990.JPG",
+    "macaroni1/Data/Images/Normal/0472.JPG",
+    "macaroni1/Data/Images/Normal/0085.JPG",
+    "macaroni1/Data/Images/Normal/0492.JPG",
+    "macaroni1/Data/Images/Normal/0930.JPG",
+    "macaroni1/Data/Images/Normal/0548.JPG",
+    "macaroni1/Data/Images/Normal/0217.JPG",
+    "macaroni1/Data/Images/Normal/0025.JPG",
+    "macaroni1/Data/Images/Normal/0202.JPG",
+    "macaroni1/Data/Images/Normal/0144.JPG",
+    "macaroni1/Data/Images/Normal/0766.JPG",
+    "macaroni1/Data/Images/Normal/0316.JPG",
+    "macaroni1/Data/Images/Normal/0973.JPG",
+    "macaroni1/Data/Images/Normal/0272.JPG",
+    "macaroni1/Data/Images/Normal/0748.JPG",
+    "macaroni1/Data/Images/Normal/0608.JPG"
+  ],
+  "heldout_parent_ids": [
+    "macaroni1/Data/Images/Normal/0317.JPG",
+    "macaroni1/Data/Images/Normal/0511.JPG",
+    "macaroni1/Data/Images/Normal/0480.JPG",
+    "macaroni1/Data/Images/Normal/0449.JPG"
+  ]
+}

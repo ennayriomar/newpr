@@ -1,0 +1,44 @@
+{
+  "id": "visa-macaroni2-k1-seed17",
+  "dataset": "visa",
+  "category": "macaroni2",
+  "role": "validation",
+  "seed": 17,
+  "shots": 1,
+  "support_ids": [
+    "macaroni2/Data/Images/Normal/0412.JPG"
+  ],
+  "calibration_ids": [
+    "macaroni2/Data/Images/Normal/0131.JPG",
+    "macaroni2/Data/Images/Normal/0957.JPG",
+    "macaroni2/Data/Images/Normal/0647.JPG",
+    "macaroni2/Data/Images/Normal/0096.JPG"
+  ],
+  "query_ids": [
+    "macaroni2/Data/Images/Normal/0100.JPG",
+    "macaroni2/Data/Images/Normal/0552.JPG",
+    "macaroni2/Data/Images/Normal/0525.JPG",
+    "macaroni2/Data/Images/Normal/0953.JPG",
+    "macaroni2/Data/Images/Normal/0751.JPG",
+    "macaroni2/Data/Images/Normal/0011.JPG",
+    "macaroni2/Data/Images/Normal/0363.JPG",
+    "macaroni2/Data/Images/Normal/0488.JPG",
+    "macaroni2/Data/Images/Normal/0520.JPG",
+    "macaroni2/Data/Images/Normal/0427.JPG",
+    "macaroni2/Data/Images/Anomaly/073.JPG",
+    "macaroni2/Data/Images/Anomaly/057.JPG",
+    "macaroni2/Data/Images/Anomaly/034.JPG",
+    "macaroni2/Data/Images/Anomaly/052.JPG",
+    "macaroni2/Data/Images/Anomaly/028.JPG",
+    "macaroni2/Data/Images/Anomaly/087.JPG",
+    "macaroni2/Data/Images/Anomaly/018.JPG",
+    "macaroni2/Data/Images/Anomaly/089.JPG",
+    "macaroni2/Data/Images/Anomaly/038.JPG",
+    "macaroni2/Data/Images/Anomaly/024.JPG"
+  ],
+  "k_plus_calibration": 5,
+  "strict_k_image_few_shot": false,
+  "support_views": [
+    "identity"
+  ]
+}

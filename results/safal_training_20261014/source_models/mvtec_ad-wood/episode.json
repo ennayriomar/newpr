@@ -1,0 +1,38 @@
+{
+  "dataset": "mvtec_ad",
+  "category": "wood",
+  "support_ids": [
+    "wood/train/good/051.png",
+    "wood/train/good/182.png"
+  ],
+  "calibration_ids": [
+    "wood/train/good/086.png",
+    "wood/train/good/166.png",
+    "wood/train/good/187.png",
+    "wood/train/good/191.png"
+  ],
+  "fit_parent_ids": [
+    "wood/train/good/229.png",
+    "wood/train/good/233.png",
+    "wood/train/good/099.png",
+    "wood/train/good/114.png",
+    "wood/train/good/235.png",
+    "wood/train/good/192.png",
+    "wood/train/good/173.png",
+    "wood/train/good/119.png",
+    "wood/train/good/212.png",
+    "wood/train/good/163.png",
+    "wood/train/good/132.png",
+    "wood/train/good/018.png",
+    "wood/train/good/063.png",
+    "wood/train/good/109.png",
+    "wood/train/good/205.png",
+    "wood/train/good/152.png"
+  ],
+  "heldout_parent_ids": [
+    "wood/train/good/056.png",
+    "wood/train/good/164.png",
+    "wood/train/good/083.png",
+    "wood/train/good/053.png"
+  ]
+}

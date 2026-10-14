@@ -1,0 +1,11 @@
+{
+  "source_parent_images": 200,
+  "source_fit_rows": 320,
+  "source_heldout_rows": 80,
+  "validation_unique_images": 100,
+  "episodes": 60,
+  "paired_inspections": 1200,
+  "method_records": 6000,
+  "backbone_finetuned": false,
+  "native_final_categories_used_for_fitting": false
+}
