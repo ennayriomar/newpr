@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "repository": "ennayriomar/newpr",
+  "commit": "4f1ca90fab0214d21322cc8d294224c8db30598a",
+  "anonymous_download": true,
+  "exact_trained_zip_url": "https://github.com/ennayriomar/newpr/raw/4f1ca90fab0214d21322cc8d294224c8db30598a/safal_trained_20261014.zip",
+  "trained_zip_http_status": 200,
+  "trained_zip_bytes": 28796451,
+  "trained_zip_sha256": "7d722a48a4c17d255b441be23a38a8a9e1812ef55913859f6eb4ef59fb7f37c6",
+  "trained_zip_crc_verified": true,
+  "trained_zip_internal_file_hashes_verified": 934,
+  "all_published_github_blob_shas_verified": 1025,
+  "full_result_parts_streamed_verified": 351,
+  "full_result_public_bytes": 2943487673,
+  "full_result_public_sha256": "2fae764f6c6e041e2cbd2f4e8d33dea4a007aec1ac1d5db2c79201c0571806cb",
+  "full_result_public_sha_equals_locally_crc_and_file_hash_verified_archive": true,
+  "full_result_copy_retained": false,
+  "prior_artifacts_preserved": true,
+  "backbone_or_raw_images_embedded": false
+}
