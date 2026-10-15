@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "commit": "0d0b1db6c0133d3876bd18cc9920f930dfeb2519",
+  "zip_url": "https://github.com/ennayriomar/newpr/raw/0d0b1db6c0133d3876bd18cc9920f930dfeb2519/vision_hybrid_20261015.zip",
+  "report_url": "https://github.com/ennayriomar/newpr/blob/0d0b1db6c0133d3876bd18cc9920f930dfeb2519/results/vision_hybrid_20261015/report.md",
+  "verified_tree_blobs": 733,
+  "public_zip_bytes": 49653598,
+  "public_zip_sha256": "0d03614914e7e4799927734276f707dff16004eb4622b2080d1952c48a3440af",
+  "zip_crc_and_internal_manifest": true,
+  "public_archive_parts": 125,
+  "public_archive_bytes": 1047822528,
+  "public_archive_sha256": "5f76fed20878f0eabadbb3b629c55f3d799f179e37d0b4be5273cdb161d85eb3",
+  "archive_assembled_hash_verified_without_duplicate_disk_copy": true,
+  "public_report_exact_bytes": true
+}

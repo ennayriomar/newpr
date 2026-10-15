@@ -1,0 +1,40 @@
+{
+  "status": "published",
+  "repository": "ennayriomar/newpr",
+  "commit": "0d0b1db6c0133d3876bd18cc9920f930dfeb2519",
+  "initial_parent": "6bd15433367ac27721f945a755eb4d4d65999af3",
+  "push_commits": [
+    "36899d7e18d32a6cedcb7000817fc5bba5b24847",
+    "226ea1c9e28f326efd151e991fa937d65be2c00f",
+    "f43cd092887633cf6b666f3b14102876433007b9",
+    "e0a95b72c9a41826db817449743e9ed668cfc022",
+    "4e8ccd8bedcee2c45db977344aaca1ef573a17f1",
+    "c544ad6eada0fcb5eb9df7747836407097e0e19e",
+    "1dcd04493f14bf7b6d414caf50c4c6e9699bac38",
+    "93dd7647ceb3b31b34ed4be08464cf7e87b72152",
+    "0d0b1db6c0133d3876bd18cc9920f930dfeb2519"
+  ],
+  "uploaded_files": 733,
+  "prior_artifacts_preserved": true,
+  "prior_tree_hashes": {
+    "results_archive": "f3e902028a491ac5e020bb2853e5da63819691f7",
+    "results/safal_full_model_archive": "287773654ca6d06460ae9c0aaa120359bcc3027c",
+    "results/safal_training_20261014_archive": "3939d82171a2b6990a61fb7466b33db0d48a7091",
+    "results/safal_training_20261014": "7c17c0fde1839882e98100819e0767b46e60264c",
+    "trained_models/safal_20261014": "fc897701f2e149f3e863ed8c3e42ca9a571e04eb",
+    "safal_trained_20261014.zip": "e3e1ee24e2080b85922b04851bc593200fef8bbb",
+    "safal_full_model_v0.5.0.zip": "647013efcca3272983343cc2ab968b48c9b03ca1",
+    "safe_iad_full_code_v0.4.0.zip": "38866e9333749a599a3a41d3d7033d5a9cd48cb4",
+    "results/safal_full_model": "a5be16dc57510a75a0a5dbd6e40c9f338c9a696e",
+    "results/milestone3": "14af474c116238001139ed371c32332e8a322b72",
+    "results/safal_tuning_20261014_archive": "89a55c7c0777c66ec59499766de4e5c249aff6ba",
+    "results/safal_tuning_20261014": "c11c221c81da7fd2150c49ad9443f005039c3773",
+    "trained_models/safal_tuned_20261014": "c1e3a258bdcbbe40e1b9eae073c70560b3925a00",
+    "safal_tuned_20261014.zip": "07495aa8507e76939d37688c095b84382fcd4dfa"
+  },
+  "force_push": false,
+  "zip_url": "https://github.com/ennayriomar/newpr/raw/0d0b1db6c0133d3876bd18cc9920f930dfeb2519/vision_hybrid_20261015.zip",
+  "report_url": "https://github.com/ennayriomar/newpr/blob/0d0b1db6c0133d3876bd18cc9920f930dfeb2519/results/vision_hybrid_20261015/report.md",
+  "archive_url": "https://github.com/ennayriomar/newpr/tree/0d0b1db6c0133d3876bd18cc9920f930dfeb2519/results/vision_hybrid_20261015_archive",
+  "full_archive_download_command": "python framework/download_vision_hybrid_results.py --ref 0d0b1db6c0133d3876bd18cc9920f930dfeb2519 --extract"
+}

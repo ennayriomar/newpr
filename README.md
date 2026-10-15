@@ -48,6 +48,23 @@ the ZIP README for setup and portable inference. Complete archive downloads
 use `framework/download_vision_hybrid_results.py --ref PAYLOAD_COMMIT --extract`;
 the immutable payload commit is recorded in the publication record.
 
+### Verified immutable downloads
+
+- [Full code and example-model ZIP](https://github.com/ennayriomar/newpr/raw/0d0b1db6c0133d3876bd18cc9920f930dfeb2519/vision_hybrid_20261015.zip)
+- [Measured study report](https://github.com/ennayriomar/newpr/blob/0d0b1db6c0133d3876bd18cc9920f930dfeb2519/results/vision_hybrid_20261015/report.md)
+- [All banks, maps and audit outputs](https://github.com/ennayriomar/newpr/tree/0d0b1db6c0133d3876bd18cc9920f930dfeb2519/results/vision_hybrid_20261015_archive)
+
+The public ZIP and every complete-archive part were downloaded and SHA256
+verified. Download all banks without cloning the repository:
+
+```bash
+python framework/download_vision_hybrid_results.py --ref 0d0b1db6c0133d3876bd18cc9920f930dfeb2519 --extract
+```
+
+The ZIP contains the same downloader at `tools/download_vision_hybrid_results.py`.
+Run it from the ZIP's `tools` directory without the `framework/` prefix.
+See `results/vision_hybrid_20261015/PUBLIC_VERIFICATION.json` for byte hashes.
+
 All historical results and fitted-model artifact trees below are preserved.
 
 # SAFAL: measured parameter tuning and trained vision models
