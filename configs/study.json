@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "run_name": "vision_hybrid_20261015",
+  "encoder": {
+    "source_dir": "../checkpoints/dinov2-source",
+    "checkpoint": "../checkpoints/dinov2_vitl14_reg4_pretrain.pth",
+    "device": "cpu",
+    "threads": 3,
+    "resize": 448,
+    "crop": 392,
+    "layers": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  "roots": {
+    "mvtec_ad": "../data/mvtec_ad",
+    "visa": "../data/visa"
+  },
+  "development_manifest": "protocol/development_manifest.json",
+  "known_exposure": "protocol/known_exposure.json",
+  "previous_verification_lock": "protocol/previous_verification_lock.json",
+  "verification_categories": {
+    "mvtec_ad": [
+      "bottle",
+      "metal_nut",
+      "pill"
+    ],
+    "visa": [
+      "capsules",
+      "pcb4"
+    ]
+  },
+  "shots": 1,
+  "seeds": [
+    17,
+    29
+  ],
+  "queries_per_label": 10,
+  "query_sampling_seed": 20261015,
+  "selection": {
+    "primary": "mean within-category/support-draw image AUROC",
+    "guard": "mean within-category/support-draw development pixel AP must not decline at 256x256 cropped ROI",
+    "tie_break": [
+      "higher pixel AP",
+      "smaller correction strength",
+      "fewer subspaces",
+      "parameter SHA256"
+    ],
+    "threshold": "Image95th percentile and pixel99.5th percentile of baseline development-normal scores; separate fixed global cutoffs shared by all candidates",
+    "verification_labels_used_for_selection": false
+  },
+  "recipe_reference": "Qiqigeww/VisionAD@2d5e36f357409125ccd9646ba016824005599df4; independent reconstruction, not imported code",
+  "claim_scope": "Reproduction of the bounded 2026-10-15 one-shot study; these cohorts are already known, not a new independent benchmark.",
+  "full_paper_benchmark_completed": false,
+  "old_error_head": null
+}

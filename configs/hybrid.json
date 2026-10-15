@@ -1,0 +1,15 @@
+{
+  "encoder": {
+    "source_dir": "../checkpoints/dinov2-source",
+    "checkpoint": "../checkpoints/dinov2_vitl14_reg4_pretrain.pth",
+    "device": "cpu",
+    "threads": 3,
+    "resize": 448,
+    "crop": 392,
+    "layers": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  },
+  "selection": {
+    "file": "protocol/selection.lock.json",
+    "sha256": "ce680154c657d1896d05772f12c37d0815269800a63d62f37186c228bacefcaf"
+  }
+}

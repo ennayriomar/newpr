@@ -1,0 +1,3245 @@
+{
+  "schema_version": 1,
+  "scope": "safal_full_model_validation",
+  "source_episodes": [
+    {
+      "dataset": "mvtec_ad",
+      "category": "carpet",
+      "support_ids": [
+        "carpet/train/good/214.png",
+        "carpet/train/good/005.png"
+      ],
+      "calibration_ids": [
+        "carpet/train/good/054.png",
+        "carpet/train/good/204.png",
+        "carpet/train/good/043.png",
+        "carpet/train/good/132.png"
+      ],
+      "fit_parent_ids": [
+        "carpet/train/good/028.png",
+        "carpet/train/good/030.png",
+        "carpet/train/good/192.png",
+        "carpet/train/good/230.png",
+        "carpet/train/good/169.png",
+        "carpet/train/good/273.png",
+        "carpet/train/good/207.png",
+        "carpet/train/good/093.png",
+        "carpet/train/good/248.png",
+        "carpet/train/good/047.png",
+        "carpet/train/good/269.png",
+        "carpet/train/good/162.png",
+        "carpet/train/good/238.png",
+        "carpet/train/good/254.png",
+        "carpet/train/good/146.png",
+        "carpet/train/good/258.png"
+      ],
+      "heldout_parent_ids": [
+        "carpet/train/good/197.png",
+        "carpet/train/good/091.png",
+        "carpet/train/good/234.png",
+        "carpet/train/good/073.png"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "grid",
+      "support_ids": [
+        "grid/train/good/001.png",
+        "grid/train/good/172.png"
+      ],
+      "calibration_ids": [
+        "grid/train/good/162.png",
+        "grid/train/good/105.png",
+        "grid/train/good/238.png",
+        "grid/train/good/043.png"
+      ],
+      "fit_parent_ids": [
+        "grid/train/good/058.png",
+        "grid/train/good/061.png",
+        "grid/train/good/019.png",
+        "grid/train/good/262.png",
+        "grid/train/good/073.png",
+        "grid/train/good/045.png",
+        "grid/train/good/038.png",
+        "grid/train/good/106.png",
+        "grid/train/good/244.png",
+        "grid/train/good/254.png",
+        "grid/train/good/195.png",
+        "grid/train/good/175.png",
+        "grid/train/good/222.png",
+        "grid/train/good/086.png",
+        "grid/train/good/069.png",
+        "grid/train/good/012.png"
+      ],
+      "heldout_parent_ids": [
+        "grid/train/good/184.png",
+        "grid/train/good/192.png",
+        "grid/train/good/125.png",
+        "grid/train/good/018.png"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "leather",
+      "support_ids": [
+        "leather/train/good/211.png",
+        "leather/train/good/085.png"
+      ],
+      "calibration_ids": [
+        "leather/train/good/012.png",
+        "leather/train/good/238.png",
+        "leather/train/good/068.png",
+        "leather/train/good/151.png"
+      ],
+      "fit_parent_ids": [
+        "leather/train/good/139.png",
+        "leather/train/good/146.png",
+        "leather/train/good/103.png",
+        "leather/train/good/186.png",
+        "leather/train/good/222.png",
+        "leather/train/good/191.png",
+        "leather/train/good/128.png",
+        "leather/train/good/075.png",
+        "leather/train/good/095.png",
+        "leather/train/good/016.png",
+        "leather/train/good/070.png",
+        "leather/train/good/108.png",
+        "leather/train/good/065.png",
+        "leather/train/good/060.png",
+        "leather/train/good/094.png",
+        "leather/train/good/002.png"
+      ],
+      "heldout_parent_ids": [
+        "leather/train/good/145.png",
+        "leather/train/good/125.png",
+        "leather/train/good/119.png",
+        "leather/train/good/136.png"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "tile",
+      "support_ids": [
+        "tile/train/good/195.png",
+        "tile/train/good/074.png"
+      ],
+      "calibration_ids": [
+        "tile/train/good/027.png",
+        "tile/train/good/137.png",
+        "tile/train/good/108.png",
+        "tile/train/good/026.png"
+      ],
+      "fit_parent_ids": [
+        "tile/train/good/000.png",
+        "tile/train/good/142.png",
+        "tile/train/good/155.png",
+        "tile/train/good/098.png",
+        "tile/train/good/078.png",
+        "tile/train/good/059.png",
+        "tile/train/good/064.png",
+        "tile/train/good/133.png",
+        "tile/train/good/001.png",
+        "tile/train/good/119.png",
+        "tile/train/good/120.png",
+        "tile/train/good/041.png",
+        "tile/train/good/126.png",
+        "tile/train/good/003.png",
+        "tile/train/good/160.png",
+        "tile/train/good/175.png"
+      ],
+      "heldout_parent_ids": [
+        "tile/train/good/036.png",
+        "tile/train/good/030.png",
+        "tile/train/good/002.png",
+        "tile/train/good/044.png"
+      ]
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "wood",
+      "support_ids": [
+        "wood/train/good/051.png",
+        "wood/train/good/182.png"
+      ],
+      "calibration_ids": [
+        "wood/train/good/086.png",
+        "wood/train/good/166.png",
+        "wood/train/good/187.png",
+        "wood/train/good/191.png"
+      ],
+      "fit_parent_ids": [
+        "wood/train/good/229.png",
+        "wood/train/good/233.png",
+        "wood/train/good/099.png",
+        "wood/train/good/114.png",
+        "wood/train/good/235.png",
+        "wood/train/good/192.png",
+        "wood/train/good/173.png",
+        "wood/train/good/119.png",
+        "wood/train/good/212.png",
+        "wood/train/good/163.png",
+        "wood/train/good/132.png",
+        "wood/train/good/018.png",
+        "wood/train/good/063.png",
+        "wood/train/good/109.png",
+        "wood/train/good/205.png",
+        "wood/train/good/152.png"
+      ],
+      "heldout_parent_ids": [
+        "wood/train/good/056.png",
+        "wood/train/good/164.png",
+        "wood/train/good/083.png",
+        "wood/train/good/053.png"
+      ]
+    },
+    {
+      "dataset": "visa",
+      "category": "candle",
+      "support_ids": [
+        "candle/Data/Images/Normal/0336.JPG",
+        "candle/Data/Images/Normal/0271.JPG"
+      ],
+      "calibration_ids": [
+        "candle/Data/Images/Normal/0482.JPG",
+        "candle/Data/Images/Normal/0919.JPG",
+        "candle/Data/Images/Normal/0020.JPG",
+        "candle/Data/Images/Normal/0477.JPG"
+      ],
+      "fit_parent_ids": [
+        "candle/Data/Images/Normal/0075.JPG",
+        "candle/Data/Images/Normal/0512.JPG",
+        "candle/Data/Images/Normal/0158.JPG",
+        "candle/Data/Images/Normal/0587.JPG",
+        "candle/Data/Images/Normal/0874.JPG",
+        "candle/Data/Images/Normal/0909.JPG",
+        "candle/Data/Images/Normal/0577.JPG",
+        "candle/Data/Images/Normal/0732.JPG",
+        "candle/Data/Images/Normal/0082.JPG",
+        "candle/Data/Images/Normal/0386.JPG",
+        "candle/Data/Images/Normal/0450.JPG",
+        "candle/Data/Images/Normal/0526.JPG",
+        "candle/Data/Images/Normal/0899.JPG",
+        "candle/Data/Images/Normal/0481.JPG",
+        "candle/Data/Images/Normal/0736.JPG",
+        "candle/Data/Images/Normal/0966.JPG"
+      ],
+      "heldout_parent_ids": [
+        "candle/Data/Images/Normal/0965.JPG",
+        "candle/Data/Images/Normal/0908.JPG",
+        "candle/Data/Images/Normal/0438.JPG",
+        "candle/Data/Images/Normal/0857.JPG"
+      ]
+    },
+    {
+      "dataset": "visa",
+      "category": "cashew",
+      "support_ids": [
+        "cashew/Data/Images/Normal/312.JPG",
+        "cashew/Data/Images/Normal/262.JPG"
+      ],
+      "calibration_ids": [
+        "cashew/Data/Images/Normal/311.JPG",
+        "cashew/Data/Images/Normal/060.JPG",
+        "cashew/Data/Images/Normal/036.JPG",
+        "cashew/Data/Images/Normal/186.JPG"
+      ],
+      "fit_parent_ids": [
+        "cashew/Data/Images/Normal/045.JPG",
+        "cashew/Data/Images/Normal/349.JPG",
+        "cashew/Data/Images/Normal/034.JPG",
+        "cashew/Data/Images/Normal/077.JPG",
+        "cashew/Data/Images/Normal/330.JPG",
+        "cashew/Data/Images/Normal/090.JPG",
+        "cashew/Data/Images/Normal/232.JPG",
+        "cashew/Data/Images/Normal/410.JPG",
+        "cashew/Data/Images/Normal/083.JPG",
+        "cashew/Data/Images/Normal/165.JPG",
+        "cashew/Data/Images/Normal/030.JPG",
+        "cashew/Data/Images/Normal/120.JPG",
+        "cashew/Data/Images/Normal/415.JPG",
+        "cashew/Data/Images/Normal/198.JPG",
+        "cashew/Data/Images/Normal/152.JPG",
+        "cashew/Data/Images/Normal/347.JPG"
+      ],
+      "heldout_parent_ids": [
+        "cashew/Data/Images/Normal/274.JPG",
+        "cashew/Data/Images/Normal/021.JPG",
+        "cashew/Data/Images/Normal/339.JPG",
+        "cashew/Data/Images/Normal/303.JPG"
+      ]
+    },
+    {
+      "dataset": "visa",
+      "category": "chewinggum",
+      "support_ids": [
+        "chewinggum/Data/Images/Normal/227.JPG",
+        "chewinggum/Data/Images/Normal/223.JPG"
+      ],
+      "calibration_ids": [
+        "chewinggum/Data/Images/Normal/255.JPG",
+        "chewinggum/Data/Images/Normal/123.JPG",
+        "chewinggum/Data/Images/Normal/170.JPG",
+        "chewinggum/Data/Images/Normal/045.JPG"
+      ],
+      "fit_parent_ids": [
+        "chewinggum/Data/Images/Normal/370.JPG",
+        "chewinggum/Data/Images/Normal/048.JPG",
+        "chewinggum/Data/Images/Normal/410.JPG",
+        "chewinggum/Data/Images/Normal/283.JPG",
+        "chewinggum/Data/Images/Normal/240.JPG",
+        "chewinggum/Data/Images/Normal/206.JPG",
+        "chewinggum/Data/Images/Normal/150.JPG",
+        "chewinggum/Data/Images/Normal/198.JPG",
+        "chewinggum/Data/Images/Normal/192.JPG",
+        "chewinggum/Data/Images/Normal/221.JPG",
+        "chewinggum/Data/Images/Normal/019.JPG",
+        "chewinggum/Data/Images/Normal/135.JPG",
+        "chewinggum/Data/Images/Normal/161.JPG",
+        "chewinggum/Data/Images/Normal/288.JPG",
+        "chewinggum/Data/Images/Normal/364.JPG",
+        "chewinggum/Data/Images/Normal/074.JPG"
+      ],
+      "heldout_parent_ids": [
+        "chewinggum/Data/Images/Normal/121.JPG",
+        "chewinggum/Data/Images/Normal/017.JPG",
+        "chewinggum/Data/Images/Normal/409.JPG",
+        "chewinggum/Data/Images/Normal/371.JPG"
+      ]
+    },
+    {
+      "dataset": "visa",
+      "category": "macaroni1",
+      "support_ids": [
+        "macaroni1/Data/Images/Normal/0592.JPG",
+        "macaroni1/Data/Images/Normal/0131.JPG"
+      ],
+      "calibration_ids": [
+        "macaroni1/Data/Images/Normal/0623.JPG",
+        "macaroni1/Data/Images/Normal/0358.JPG",
+        "macaroni1/Data/Images/Normal/0909.JPG",
+        "macaroni1/Data/Images/Normal/0850.JPG"
+      ],
+      "fit_parent_ids": [
+        "macaroni1/Data/Images/Normal/0990.JPG",
+        "macaroni1/Data/Images/Normal/0472.JPG",
+        "macaroni1/Data/Images/Normal/0085.JPG",
+        "macaroni1/Data/Images/Normal/0492.JPG",
+        "macaroni1/Data/Images/Normal/0930.JPG",
+        "macaroni1/Data/Images/Normal/0548.JPG",
+        "macaroni1/Data/Images/Normal/0217.JPG",
+        "macaroni1/Data/Images/Normal/0025.JPG",
+        "macaroni1/Data/Images/Normal/0202.JPG",
+        "macaroni1/Data/Images/Normal/0144.JPG",
+        "macaroni1/Data/Images/Normal/0766.JPG",
+        "macaroni1/Data/Images/Normal/0316.JPG",
+        "macaroni1/Data/Images/Normal/0973.JPG",
+        "macaroni1/Data/Images/Normal/0272.JPG",
+        "macaroni1/Data/Images/Normal/0748.JPG",
+        "macaroni1/Data/Images/Normal/0608.JPG"
+      ],
+      "heldout_parent_ids": [
+        "macaroni1/Data/Images/Normal/0317.JPG",
+        "macaroni1/Data/Images/Normal/0511.JPG",
+        "macaroni1/Data/Images/Normal/0480.JPG",
+        "macaroni1/Data/Images/Normal/0449.JPG"
+      ]
+    },
+    {
+      "dataset": "visa",
+      "category": "pcb1",
+      "support_ids": [
+        "pcb1/Data/Images/Normal/0898.JPG",
+        "pcb1/Data/Images/Normal/0929.JPG"
+      ],
+      "calibration_ids": [
+        "pcb1/Data/Images/Normal/0042.JPG",
+        "pcb1/Data/Images/Normal/0860.JPG",
+        "pcb1/Data/Images/Normal/0537.JPG",
+        "pcb1/Data/Images/Normal/0166.JPG"
+      ],
+      "fit_parent_ids": [
+        "pcb1/Data/Images/Normal/0922.JPG",
+        "pcb1/Data/Images/Normal/0005.JPG",
+        "pcb1/Data/Images/Normal/0332.JPG",
+        "pcb1/Data/Images/Normal/0380.JPG",
+        "pcb1/Data/Images/Normal/0990.JPG",
+        "pcb1/Data/Images/Normal/0692.JPG",
+        "pcb1/Data/Images/Normal/0067.JPG",
+        "pcb1/Data/Images/Normal/0808.JPG",
+        "pcb1/Data/Images/Normal/0943.JPG",
+        "pcb1/Data/Images/Normal/0572.JPG",
+        "pcb1/Data/Images/Normal/0023.JPG",
+        "pcb1/Data/Images/Normal/0620.JPG",
+        "pcb1/Data/Images/Normal/0137.JPG",
+        "pcb1/Data/Images/Normal/0221.JPG",
+        "pcb1/Data/Images/Normal/0653.JPG",
+        "pcb1/Data/Images/Normal/0341.JPG"
+      ],
+      "heldout_parent_ids": [
+        "pcb1/Data/Images/Normal/0963.JPG",
+        "pcb1/Data/Images/Normal/0128.JPG",
+        "pcb1/Data/Images/Normal/0945.JPG",
+        "pcb1/Data/Images/Normal/0556.JPG"
+      ]
+    }
+  ],
+  "episodes": [
+    {
+      "id": "mvtec_ad-cable-k1-seed17",
+      "dataset": "mvtec_ad",
+      "category": "cable",
+      "role": "validation",
+      "seed": 17,
+      "shots": 1,
+      "support_ids": [
+        "cable/train/good/158.png"
+      ],
+      "calibration_ids": [
+        "cable/train/good/187.png",
+        "cable/train/good/073.png",
+        "cable/train/good/197.png",
+        "cable/train/good/030.png"
+      ],
+      "query_ids": [
+        "cable/test/good/053.png",
+        "cable/test/good/039.png",
+        "cable/test/good/043.png",
+        "cable/test/good/004.png",
+        "cable/test/good/035.png",
+        "cable/test/good/021.png",
+        "cable/test/good/038.png",
+        "cable/test/good/000.png",
+        "cable/test/good/023.png",
+        "cable/test/good/013.png",
+        "cable/test/cut_inner_insulation/005.png",
+        "cable/test/cut_inner_insulation/002.png",
+        "cable/test/cut_inner_insulation/001.png",
+        "cable/test/missing_wire/002.png",
+        "cable/test/bent_wire/006.png",
+        "cable/test/missing_cable/009.png",
+        "cable/test/combined/008.png",
+        "cable/test/cut_inner_insulation/000.png",
+        "cable/test/cable_swap/006.png",
+        "cable/test/cable_swap/007.png"
+      ],
+      "k_plus_calibration": 5,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-cable-k2-seed17",
+      "dataset": "mvtec_ad",
+      "category": "cable",
+      "role": "validation",
+      "seed": 17,
+      "shots": 2,
+      "support_ids": [
+        "cable/train/good/158.png",
+        "cable/train/good/032.png"
+      ],
+      "calibration_ids": [
+        "cable/train/good/187.png",
+        "cable/train/good/073.png",
+        "cable/train/good/197.png",
+        "cable/train/good/030.png"
+      ],
+      "query_ids": [
+        "cable/test/good/053.png",
+        "cable/test/good/039.png",
+        "cable/test/good/043.png",
+        "cable/test/good/004.png",
+        "cable/test/good/035.png",
+        "cable/test/good/021.png",
+        "cable/test/good/038.png",
+        "cable/test/good/000.png",
+        "cable/test/good/023.png",
+        "cable/test/good/013.png",
+        "cable/test/cut_inner_insulation/005.png",
+        "cable/test/cut_inner_insulation/002.png",
+        "cable/test/cut_inner_insulation/001.png",
+        "cable/test/missing_wire/002.png",
+        "cable/test/bent_wire/006.png",
+        "cable/test/missing_cable/009.png",
+        "cable/test/combined/008.png",
+        "cable/test/cut_inner_insulation/000.png",
+        "cable/test/cable_swap/006.png",
+        "cable/test/cable_swap/007.png"
+      ],
+      "k_plus_calibration": 6,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-cable-k4-seed17",
+      "dataset": "mvtec_ad",
+      "category": "cable",
+      "role": "validation",
+      "seed": 17,
+      "shots": 4,
+      "support_ids": [
+        "cable/train/good/158.png",
+        "cable/train/good/032.png",
+        "cable/train/good/027.png",
+        "cable/train/good/094.png"
+      ],
+      "calibration_ids": [
+        "cable/train/good/187.png",
+        "cable/train/good/073.png",
+        "cable/train/good/197.png",
+        "cable/train/good/030.png"
+      ],
+      "query_ids": [
+        "cable/test/good/053.png",
+        "cable/test/good/039.png",
+        "cable/test/good/043.png",
+        "cable/test/good/004.png",
+        "cable/test/good/035.png",
+        "cable/test/good/021.png",
+        "cable/test/good/038.png",
+        "cable/test/good/000.png",
+        "cable/test/good/023.png",
+        "cable/test/good/013.png",
+        "cable/test/cut_inner_insulation/005.png",
+        "cable/test/cut_inner_insulation/002.png",
+        "cable/test/cut_inner_insulation/001.png",
+        "cable/test/missing_wire/002.png",
+        "cable/test/bent_wire/006.png",
+        "cable/test/missing_cable/009.png",
+        "cable/test/combined/008.png",
+        "cable/test/cut_inner_insulation/000.png",
+        "cable/test/cable_swap/006.png",
+        "cable/test/cable_swap/007.png"
+      ],
+      "k_plus_calibration": 8,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-cable-k8-seed17",
+      "dataset": "mvtec_ad",
+      "category": "cable",
+      "role": "validation",
+      "seed": 17,
+      "shots": 8,
+      "support_ids": [
+        "cable/train/good/158.png",
+        "cable/train/good/032.png",
+        "cable/train/good/027.png",
+        "cable/train/good/094.png",
+        "cable/train/good/055.png",
+        "cable/train/good/139.png",
+        "cable/train/good/167.png",
+        "cable/train/good/014.png"
+      ],
+      "calibration_ids": [
+        "cable/train/good/187.png",
+        "cable/train/good/073.png",
+        "cable/train/good/197.png",
+        "cable/train/good/030.png"
+      ],
+      "query_ids": [
+        "cable/test/good/053.png",
+        "cable/test/good/039.png",
+        "cable/test/good/043.png",
+        "cable/test/good/004.png",
+        "cable/test/good/035.png",
+        "cable/test/good/021.png",
+        "cable/test/good/038.png",
+        "cable/test/good/000.png",
+        "cable/test/good/023.png",
+        "cable/test/good/013.png",
+        "cable/test/cut_inner_insulation/005.png",
+        "cable/test/cut_inner_insulation/002.png",
+        "cable/test/cut_inner_insulation/001.png",
+        "cable/test/missing_wire/002.png",
+        "cable/test/bent_wire/006.png",
+        "cable/test/missing_cable/009.png",
+        "cable/test/combined/008.png",
+        "cable/test/cut_inner_insulation/000.png",
+        "cable/test/cable_swap/006.png",
+        "cable/test/cable_swap/007.png"
+      ],
+      "k_plus_calibration": 12,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-cable-k1-seed29",
+      "dataset": "mvtec_ad",
+      "category": "cable",
+      "role": "validation",
+      "seed": 29,
+      "shots": 1,
+      "support_ids": [
+        "cable/train/good/186.png"
+      ],
+      "calibration_ids": [
+        "cable/train/good/187.png",
+        "cable/train/good/073.png",
+        "cable/train/good/197.png",
+        "cable/train/good/030.png"
+      ],
+      "query_ids": [
+        "cable/test/good/053.png",
+        "cable/test/good/039.png",
+        "cable/test/good/043.png",
+        "cable/test/good/004.png",
+        "cable/test/good/035.png",
+        "cable/test/good/021.png",
+        "cable/test/good/038.png",
+        "cable/test/good/000.png",
+        "cable/test/good/023.png",
+        "cable/test/good/013.png",
+        "cable/test/cut_inner_insulation/005.png",
+        "cable/test/cut_inner_insulation/002.png",
+        "cable/test/cut_inner_insulation/001.png",
+        "cable/test/missing_wire/002.png",
+        "cable/test/bent_wire/006.png",
+        "cable/test/missing_cable/009.png",
+        "cable/test/combined/008.png",
+        "cable/test/cut_inner_insulation/000.png",
+        "cable/test/cable_swap/006.png",
+        "cable/test/cable_swap/007.png"
+      ],
+      "k_plus_calibration": 5,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-cable-k2-seed29",
+      "dataset": "mvtec_ad",
+      "category": "cable",
+      "role": "validation",
+      "seed": 29,
+      "shots": 2,
+      "support_ids": [
+        "cable/train/good/186.png",
+        "cable/train/good/169.png"
+      ],
+      "calibration_ids": [
+        "cable/train/good/187.png",
+        "cable/train/good/073.png",
+        "cable/train/good/197.png",
+        "cable/train/good/030.png"
+      ],
+      "query_ids": [
+        "cable/test/good/053.png",
+        "cable/test/good/039.png",
+        "cable/test/good/043.png",
+        "cable/test/good/004.png",
+        "cable/test/good/035.png",
+        "cable/test/good/021.png",
+        "cable/test/good/038.png",
+        "cable/test/good/000.png",
+        "cable/test/good/023.png",
+        "cable/test/good/013.png",
+        "cable/test/cut_inner_insulation/005.png",
+        "cable/test/cut_inner_insulation/002.png",
+        "cable/test/cut_inner_insulation/001.png",
+        "cable/test/missing_wire/002.png",
+        "cable/test/bent_wire/006.png",
+        "cable/test/missing_cable/009.png",
+        "cable/test/combined/008.png",
+        "cable/test/cut_inner_insulation/000.png",
+        "cable/test/cable_swap/006.png",
+        "cable/test/cable_swap/007.png"
+      ],
+      "k_plus_calibration": 6,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-cable-k4-seed29",
+      "dataset": "mvtec_ad",
+      "category": "cable",
+      "role": "validation",
+      "seed": 29,
+      "shots": 4,
+      "support_ids": [
+        "cable/train/good/186.png",
+        "cable/train/good/169.png",
+        "cable/train/good/045.png",
+        "cable/train/good/069.png"
+      ],
+      "calibration_ids": [
+        "cable/train/good/187.png",
+        "cable/train/good/073.png",
+        "cable/train/good/197.png",
+        "cable/train/good/030.png"
+      ],
+      "query_ids": [
+        "cable/test/good/053.png",
+        "cable/test/good/039.png",
+        "cable/test/good/043.png",
+        "cable/test/good/004.png",
+        "cable/test/good/035.png",
+        "cable/test/good/021.png",
+        "cable/test/good/038.png",
+        "cable/test/good/000.png",
+        "cable/test/good/023.png",
+        "cable/test/good/013.png",
+        "cable/test/cut_inner_insulation/005.png",
+        "cable/test/cut_inner_insulation/002.png",
+        "cable/test/cut_inner_insulation/001.png",
+        "cable/test/missing_wire/002.png",
+        "cable/test/bent_wire/006.png",
+        "cable/test/missing_cable/009.png",
+        "cable/test/combined/008.png",
+        "cable/test/cut_inner_insulation/000.png",
+        "cable/test/cable_swap/006.png",
+        "cable/test/cable_swap/007.png"
+      ],
+      "k_plus_calibration": 8,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-cable-k8-seed29",
+      "dataset": "mvtec_ad",
+      "category": "cable",
+      "role": "validation",
+      "seed": 29,
+      "shots": 8,
+      "support_ids": [
+        "cable/train/good/186.png",
+        "cable/train/good/169.png",
+        "cable/train/good/045.png",
+        "cable/train/good/069.png",
+        "cable/train/good/183.png",
+        "cable/train/good/101.png",
+        "cable/train/good/024.png",
+        "cable/train/good/080.png"
+      ],
+      "calibration_ids": [
+        "cable/train/good/187.png",
+        "cable/train/good/073.png",
+        "cable/train/good/197.png",
+        "cable/train/good/030.png"
+      ],
+      "query_ids": [
+        "cable/test/good/053.png",
+        "cable/test/good/039.png",
+        "cable/test/good/043.png",
+        "cable/test/good/004.png",
+        "cable/test/good/035.png",
+        "cable/test/good/021.png",
+        "cable/test/good/038.png",
+        "cable/test/good/000.png",
+        "cable/test/good/023.png",
+        "cable/test/good/013.png",
+        "cable/test/cut_inner_insulation/005.png",
+        "cable/test/cut_inner_insulation/002.png",
+        "cable/test/cut_inner_insulation/001.png",
+        "cable/test/missing_wire/002.png",
+        "cable/test/bent_wire/006.png",
+        "cable/test/missing_cable/009.png",
+        "cable/test/combined/008.png",
+        "cable/test/cut_inner_insulation/000.png",
+        "cable/test/cable_swap/006.png",
+        "cable/test/cable_swap/007.png"
+      ],
+      "k_plus_calibration": 12,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-cable-k1-seed43",
+      "dataset": "mvtec_ad",
+      "category": "cable",
+      "role": "validation",
+      "seed": 43,
+      "shots": 1,
+      "support_ids": [
+        "cable/train/good/090.png"
+      ],
+      "calibration_ids": [
+        "cable/train/good/187.png",
+        "cable/train/good/073.png",
+        "cable/train/good/197.png",
+        "cable/train/good/030.png"
+      ],
+      "query_ids": [
+        "cable/test/good/053.png",
+        "cable/test/good/039.png",
+        "cable/test/good/043.png",
+        "cable/test/good/004.png",
+        "cable/test/good/035.png",
+        "cable/test/good/021.png",
+        "cable/test/good/038.png",
+        "cable/test/good/000.png",
+        "cable/test/good/023.png",
+        "cable/test/good/013.png",
+        "cable/test/cut_inner_insulation/005.png",
+        "cable/test/cut_inner_insulation/002.png",
+        "cable/test/cut_inner_insulation/001.png",
+        "cable/test/missing_wire/002.png",
+        "cable/test/bent_wire/006.png",
+        "cable/test/missing_cable/009.png",
+        "cable/test/combined/008.png",
+        "cable/test/cut_inner_insulation/000.png",
+        "cable/test/cable_swap/006.png",
+        "cable/test/cable_swap/007.png"
+      ],
+      "k_plus_calibration": 5,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-cable-k2-seed43",
+      "dataset": "mvtec_ad",
+      "category": "cable",
+      "role": "validation",
+      "seed": 43,
+      "shots": 2,
+      "support_ids": [
+        "cable/train/good/090.png",
+        "cable/train/good/081.png"
+      ],
+      "calibration_ids": [
+        "cable/train/good/187.png",
+        "cable/train/good/073.png",
+        "cable/train/good/197.png",
+        "cable/train/good/030.png"
+      ],
+      "query_ids": [
+        "cable/test/good/053.png",
+        "cable/test/good/039.png",
+        "cable/test/good/043.png",
+        "cable/test/good/004.png",
+        "cable/test/good/035.png",
+        "cable/test/good/021.png",
+        "cable/test/good/038.png",
+        "cable/test/good/000.png",
+        "cable/test/good/023.png",
+        "cable/test/good/013.png",
+        "cable/test/cut_inner_insulation/005.png",
+        "cable/test/cut_inner_insulation/002.png",
+        "cable/test/cut_inner_insulation/001.png",
+        "cable/test/missing_wire/002.png",
+        "cable/test/bent_wire/006.png",
+        "cable/test/missing_cable/009.png",
+        "cable/test/combined/008.png",
+        "cable/test/cut_inner_insulation/000.png",
+        "cable/test/cable_swap/006.png",
+        "cable/test/cable_swap/007.png"
+      ],
+      "k_plus_calibration": 6,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-cable-k4-seed43",
+      "dataset": "mvtec_ad",
+      "category": "cable",
+      "role": "validation",
+      "seed": 43,
+      "shots": 4,
+      "support_ids": [
+        "cable/train/good/090.png",
+        "cable/train/good/081.png",
+        "cable/train/good/178.png",
+        "cable/train/good/058.png"
+      ],
+      "calibration_ids": [
+        "cable/train/good/187.png",
+        "cable/train/good/073.png",
+        "cable/train/good/197.png",
+        "cable/train/good/030.png"
+      ],
+      "query_ids": [
+        "cable/test/good/053.png",
+        "cable/test/good/039.png",
+        "cable/test/good/043.png",
+        "cable/test/good/004.png",
+        "cable/test/good/035.png",
+        "cable/test/good/021.png",
+        "cable/test/good/038.png",
+        "cable/test/good/000.png",
+        "cable/test/good/023.png",
+        "cable/test/good/013.png",
+        "cable/test/cut_inner_insulation/005.png",
+        "cable/test/cut_inner_insulation/002.png",
+        "cable/test/cut_inner_insulation/001.png",
+        "cable/test/missing_wire/002.png",
+        "cable/test/bent_wire/006.png",
+        "cable/test/missing_cable/009.png",
+        "cable/test/combined/008.png",
+        "cable/test/cut_inner_insulation/000.png",
+        "cable/test/cable_swap/006.png",
+        "cable/test/cable_swap/007.png"
+      ],
+      "k_plus_calibration": 8,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-cable-k8-seed43",
+      "dataset": "mvtec_ad",
+      "category": "cable",
+      "role": "validation",
+      "seed": 43,
+      "shots": 8,
+      "support_ids": [
+        "cable/train/good/090.png",
+        "cable/train/good/081.png",
+        "cable/train/good/178.png",
+        "cable/train/good/058.png",
+        "cable/train/good/019.png",
+        "cable/train/good/117.png",
+        "cable/train/good/077.png",
+        "cable/train/good/021.png"
+      ],
+      "calibration_ids": [
+        "cable/train/good/187.png",
+        "cable/train/good/073.png",
+        "cable/train/good/197.png",
+        "cable/train/good/030.png"
+      ],
+      "query_ids": [
+        "cable/test/good/053.png",
+        "cable/test/good/039.png",
+        "cable/test/good/043.png",
+        "cable/test/good/004.png",
+        "cable/test/good/035.png",
+        "cable/test/good/021.png",
+        "cable/test/good/038.png",
+        "cable/test/good/000.png",
+        "cable/test/good/023.png",
+        "cable/test/good/013.png",
+        "cable/test/cut_inner_insulation/005.png",
+        "cable/test/cut_inner_insulation/002.png",
+        "cable/test/cut_inner_insulation/001.png",
+        "cable/test/missing_wire/002.png",
+        "cable/test/bent_wire/006.png",
+        "cable/test/missing_cable/009.png",
+        "cable/test/combined/008.png",
+        "cable/test/cut_inner_insulation/000.png",
+        "cable/test/cable_swap/006.png",
+        "cable/test/cable_swap/007.png"
+      ],
+      "k_plus_calibration": 12,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-hazelnut-k1-seed17",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 17,
+      "shots": 1,
+      "support_ids": [
+        "hazelnut/train/good/337.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/349.png",
+        "hazelnut/train/good/251.png",
+        "hazelnut/train/good/174.png",
+        "hazelnut/train/good/263.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/026.png",
+        "hazelnut/test/good/037.png",
+        "hazelnut/test/good/038.png",
+        "hazelnut/test/good/005.png",
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/022.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/good/036.png",
+        "hazelnut/test/good/031.png",
+        "hazelnut/test/good/024.png",
+        "hazelnut/test/hole/014.png",
+        "hazelnut/test/hole/015.png",
+        "hazelnut/test/print/012.png",
+        "hazelnut/test/hole/013.png",
+        "hazelnut/test/hole/007.png",
+        "hazelnut/test/crack/008.png",
+        "hazelnut/test/crack/000.png",
+        "hazelnut/test/print/009.png",
+        "hazelnut/test/crack/005.png",
+        "hazelnut/test/hole/012.png"
+      ],
+      "k_plus_calibration": 5,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-hazelnut-k2-seed17",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 17,
+      "shots": 2,
+      "support_ids": [
+        "hazelnut/train/good/337.png",
+        "hazelnut/train/good/179.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/349.png",
+        "hazelnut/train/good/251.png",
+        "hazelnut/train/good/174.png",
+        "hazelnut/train/good/263.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/026.png",
+        "hazelnut/test/good/037.png",
+        "hazelnut/test/good/038.png",
+        "hazelnut/test/good/005.png",
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/022.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/good/036.png",
+        "hazelnut/test/good/031.png",
+        "hazelnut/test/good/024.png",
+        "hazelnut/test/hole/014.png",
+        "hazelnut/test/hole/015.png",
+        "hazelnut/test/print/012.png",
+        "hazelnut/test/hole/013.png",
+        "hazelnut/test/hole/007.png",
+        "hazelnut/test/crack/008.png",
+        "hazelnut/test/crack/000.png",
+        "hazelnut/test/print/009.png",
+        "hazelnut/test/crack/005.png",
+        "hazelnut/test/hole/012.png"
+      ],
+      "k_plus_calibration": 6,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-hazelnut-k4-seed17",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 17,
+      "shots": 4,
+      "support_ids": [
+        "hazelnut/train/good/337.png",
+        "hazelnut/train/good/179.png",
+        "hazelnut/train/good/180.png",
+        "hazelnut/train/good/025.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/349.png",
+        "hazelnut/train/good/251.png",
+        "hazelnut/train/good/174.png",
+        "hazelnut/train/good/263.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/026.png",
+        "hazelnut/test/good/037.png",
+        "hazelnut/test/good/038.png",
+        "hazelnut/test/good/005.png",
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/022.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/good/036.png",
+        "hazelnut/test/good/031.png",
+        "hazelnut/test/good/024.png",
+        "hazelnut/test/hole/014.png",
+        "hazelnut/test/hole/015.png",
+        "hazelnut/test/print/012.png",
+        "hazelnut/test/hole/013.png",
+        "hazelnut/test/hole/007.png",
+        "hazelnut/test/crack/008.png",
+        "hazelnut/test/crack/000.png",
+        "hazelnut/test/print/009.png",
+        "hazelnut/test/crack/005.png",
+        "hazelnut/test/hole/012.png"
+      ],
+      "k_plus_calibration": 8,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-hazelnut-k8-seed17",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 17,
+      "shots": 8,
+      "support_ids": [
+        "hazelnut/train/good/337.png",
+        "hazelnut/train/good/179.png",
+        "hazelnut/train/good/180.png",
+        "hazelnut/train/good/025.png",
+        "hazelnut/train/good/009.png",
+        "hazelnut/train/good/314.png",
+        "hazelnut/train/good/198.png",
+        "hazelnut/train/good/344.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/349.png",
+        "hazelnut/train/good/251.png",
+        "hazelnut/train/good/174.png",
+        "hazelnut/train/good/263.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/026.png",
+        "hazelnut/test/good/037.png",
+        "hazelnut/test/good/038.png",
+        "hazelnut/test/good/005.png",
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/022.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/good/036.png",
+        "hazelnut/test/good/031.png",
+        "hazelnut/test/good/024.png",
+        "hazelnut/test/hole/014.png",
+        "hazelnut/test/hole/015.png",
+        "hazelnut/test/print/012.png",
+        "hazelnut/test/hole/013.png",
+        "hazelnut/test/hole/007.png",
+        "hazelnut/test/crack/008.png",
+        "hazelnut/test/crack/000.png",
+        "hazelnut/test/print/009.png",
+        "hazelnut/test/crack/005.png",
+        "hazelnut/test/hole/012.png"
+      ],
+      "k_plus_calibration": 12,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-hazelnut-k1-seed29",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 29,
+      "shots": 1,
+      "support_ids": [
+        "hazelnut/train/good/062.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/349.png",
+        "hazelnut/train/good/251.png",
+        "hazelnut/train/good/174.png",
+        "hazelnut/train/good/263.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/026.png",
+        "hazelnut/test/good/037.png",
+        "hazelnut/test/good/038.png",
+        "hazelnut/test/good/005.png",
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/022.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/good/036.png",
+        "hazelnut/test/good/031.png",
+        "hazelnut/test/good/024.png",
+        "hazelnut/test/hole/014.png",
+        "hazelnut/test/hole/015.png",
+        "hazelnut/test/print/012.png",
+        "hazelnut/test/hole/013.png",
+        "hazelnut/test/hole/007.png",
+        "hazelnut/test/crack/008.png",
+        "hazelnut/test/crack/000.png",
+        "hazelnut/test/print/009.png",
+        "hazelnut/test/crack/005.png",
+        "hazelnut/test/hole/012.png"
+      ],
+      "k_plus_calibration": 5,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-hazelnut-k2-seed29",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 29,
+      "shots": 2,
+      "support_ids": [
+        "hazelnut/train/good/062.png",
+        "hazelnut/train/good/296.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/349.png",
+        "hazelnut/train/good/251.png",
+        "hazelnut/train/good/174.png",
+        "hazelnut/train/good/263.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/026.png",
+        "hazelnut/test/good/037.png",
+        "hazelnut/test/good/038.png",
+        "hazelnut/test/good/005.png",
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/022.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/good/036.png",
+        "hazelnut/test/good/031.png",
+        "hazelnut/test/good/024.png",
+        "hazelnut/test/hole/014.png",
+        "hazelnut/test/hole/015.png",
+        "hazelnut/test/print/012.png",
+        "hazelnut/test/hole/013.png",
+        "hazelnut/test/hole/007.png",
+        "hazelnut/test/crack/008.png",
+        "hazelnut/test/crack/000.png",
+        "hazelnut/test/print/009.png",
+        "hazelnut/test/crack/005.png",
+        "hazelnut/test/hole/012.png"
+      ],
+      "k_plus_calibration": 6,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-hazelnut-k4-seed29",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 29,
+      "shots": 4,
+      "support_ids": [
+        "hazelnut/train/good/062.png",
+        "hazelnut/train/good/296.png",
+        "hazelnut/train/good/194.png",
+        "hazelnut/train/good/083.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/349.png",
+        "hazelnut/train/good/251.png",
+        "hazelnut/train/good/174.png",
+        "hazelnut/train/good/263.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/026.png",
+        "hazelnut/test/good/037.png",
+        "hazelnut/test/good/038.png",
+        "hazelnut/test/good/005.png",
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/022.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/good/036.png",
+        "hazelnut/test/good/031.png",
+        "hazelnut/test/good/024.png",
+        "hazelnut/test/hole/014.png",
+        "hazelnut/test/hole/015.png",
+        "hazelnut/test/print/012.png",
+        "hazelnut/test/hole/013.png",
+        "hazelnut/test/hole/007.png",
+        "hazelnut/test/crack/008.png",
+        "hazelnut/test/crack/000.png",
+        "hazelnut/test/print/009.png",
+        "hazelnut/test/crack/005.png",
+        "hazelnut/test/hole/012.png"
+      ],
+      "k_plus_calibration": 8,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-hazelnut-k8-seed29",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 29,
+      "shots": 8,
+      "support_ids": [
+        "hazelnut/train/good/062.png",
+        "hazelnut/train/good/296.png",
+        "hazelnut/train/good/194.png",
+        "hazelnut/train/good/083.png",
+        "hazelnut/train/good/208.png",
+        "hazelnut/train/good/090.png",
+        "hazelnut/train/good/171.png",
+        "hazelnut/train/good/034.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/349.png",
+        "hazelnut/train/good/251.png",
+        "hazelnut/train/good/174.png",
+        "hazelnut/train/good/263.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/026.png",
+        "hazelnut/test/good/037.png",
+        "hazelnut/test/good/038.png",
+        "hazelnut/test/good/005.png",
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/022.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/good/036.png",
+        "hazelnut/test/good/031.png",
+        "hazelnut/test/good/024.png",
+        "hazelnut/test/hole/014.png",
+        "hazelnut/test/hole/015.png",
+        "hazelnut/test/print/012.png",
+        "hazelnut/test/hole/013.png",
+        "hazelnut/test/hole/007.png",
+        "hazelnut/test/crack/008.png",
+        "hazelnut/test/crack/000.png",
+        "hazelnut/test/print/009.png",
+        "hazelnut/test/crack/005.png",
+        "hazelnut/test/hole/012.png"
+      ],
+      "k_plus_calibration": 12,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-hazelnut-k1-seed43",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 43,
+      "shots": 1,
+      "support_ids": [
+        "hazelnut/train/good/193.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/349.png",
+        "hazelnut/train/good/251.png",
+        "hazelnut/train/good/174.png",
+        "hazelnut/train/good/263.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/026.png",
+        "hazelnut/test/good/037.png",
+        "hazelnut/test/good/038.png",
+        "hazelnut/test/good/005.png",
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/022.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/good/036.png",
+        "hazelnut/test/good/031.png",
+        "hazelnut/test/good/024.png",
+        "hazelnut/test/hole/014.png",
+        "hazelnut/test/hole/015.png",
+        "hazelnut/test/print/012.png",
+        "hazelnut/test/hole/013.png",
+        "hazelnut/test/hole/007.png",
+        "hazelnut/test/crack/008.png",
+        "hazelnut/test/crack/000.png",
+        "hazelnut/test/print/009.png",
+        "hazelnut/test/crack/005.png",
+        "hazelnut/test/hole/012.png"
+      ],
+      "k_plus_calibration": 5,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-hazelnut-k2-seed43",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 43,
+      "shots": 2,
+      "support_ids": [
+        "hazelnut/train/good/193.png",
+        "hazelnut/train/good/244.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/349.png",
+        "hazelnut/train/good/251.png",
+        "hazelnut/train/good/174.png",
+        "hazelnut/train/good/263.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/026.png",
+        "hazelnut/test/good/037.png",
+        "hazelnut/test/good/038.png",
+        "hazelnut/test/good/005.png",
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/022.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/good/036.png",
+        "hazelnut/test/good/031.png",
+        "hazelnut/test/good/024.png",
+        "hazelnut/test/hole/014.png",
+        "hazelnut/test/hole/015.png",
+        "hazelnut/test/print/012.png",
+        "hazelnut/test/hole/013.png",
+        "hazelnut/test/hole/007.png",
+        "hazelnut/test/crack/008.png",
+        "hazelnut/test/crack/000.png",
+        "hazelnut/test/print/009.png",
+        "hazelnut/test/crack/005.png",
+        "hazelnut/test/hole/012.png"
+      ],
+      "k_plus_calibration": 6,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-hazelnut-k4-seed43",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 43,
+      "shots": 4,
+      "support_ids": [
+        "hazelnut/train/good/193.png",
+        "hazelnut/train/good/244.png",
+        "hazelnut/train/good/094.png",
+        "hazelnut/train/good/215.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/349.png",
+        "hazelnut/train/good/251.png",
+        "hazelnut/train/good/174.png",
+        "hazelnut/train/good/263.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/026.png",
+        "hazelnut/test/good/037.png",
+        "hazelnut/test/good/038.png",
+        "hazelnut/test/good/005.png",
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/022.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/good/036.png",
+        "hazelnut/test/good/031.png",
+        "hazelnut/test/good/024.png",
+        "hazelnut/test/hole/014.png",
+        "hazelnut/test/hole/015.png",
+        "hazelnut/test/print/012.png",
+        "hazelnut/test/hole/013.png",
+        "hazelnut/test/hole/007.png",
+        "hazelnut/test/crack/008.png",
+        "hazelnut/test/crack/000.png",
+        "hazelnut/test/print/009.png",
+        "hazelnut/test/crack/005.png",
+        "hazelnut/test/hole/012.png"
+      ],
+      "k_plus_calibration": 8,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-hazelnut-k8-seed43",
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "role": "validation",
+      "seed": 43,
+      "shots": 8,
+      "support_ids": [
+        "hazelnut/train/good/193.png",
+        "hazelnut/train/good/244.png",
+        "hazelnut/train/good/094.png",
+        "hazelnut/train/good/215.png",
+        "hazelnut/train/good/058.png",
+        "hazelnut/train/good/305.png",
+        "hazelnut/train/good/254.png",
+        "hazelnut/train/good/198.png"
+      ],
+      "calibration_ids": [
+        "hazelnut/train/good/349.png",
+        "hazelnut/train/good/251.png",
+        "hazelnut/train/good/174.png",
+        "hazelnut/train/good/263.png"
+      ],
+      "query_ids": [
+        "hazelnut/test/good/026.png",
+        "hazelnut/test/good/037.png",
+        "hazelnut/test/good/038.png",
+        "hazelnut/test/good/005.png",
+        "hazelnut/test/good/016.png",
+        "hazelnut/test/good/022.png",
+        "hazelnut/test/good/014.png",
+        "hazelnut/test/good/036.png",
+        "hazelnut/test/good/031.png",
+        "hazelnut/test/good/024.png",
+        "hazelnut/test/hole/014.png",
+        "hazelnut/test/hole/015.png",
+        "hazelnut/test/print/012.png",
+        "hazelnut/test/hole/013.png",
+        "hazelnut/test/hole/007.png",
+        "hazelnut/test/crack/008.png",
+        "hazelnut/test/crack/000.png",
+        "hazelnut/test/print/009.png",
+        "hazelnut/test/crack/005.png",
+        "hazelnut/test/hole/012.png"
+      ],
+      "k_plus_calibration": 12,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-transistor-k1-seed17",
+      "dataset": "mvtec_ad",
+      "category": "transistor",
+      "role": "validation",
+      "seed": 17,
+      "shots": 1,
+      "support_ids": [
+        "transistor/train/good/071.png"
+      ],
+      "calibration_ids": [
+        "transistor/train/good/108.png",
+        "transistor/train/good/065.png",
+        "transistor/train/good/030.png",
+        "transistor/train/good/054.png"
+      ],
+      "query_ids": [
+        "transistor/test/good/054.png",
+        "transistor/test/good/015.png",
+        "transistor/test/good/058.png",
+        "transistor/test/good/037.png",
+        "transistor/test/good/004.png",
+        "transistor/test/good/018.png",
+        "transistor/test/good/025.png",
+        "transistor/test/good/040.png",
+        "transistor/test/good/051.png",
+        "transistor/test/good/048.png",
+        "transistor/test/cut_lead/007.png",
+        "transistor/test/damaged_case/008.png",
+        "transistor/test/bent_lead/009.png",
+        "transistor/test/misplaced/003.png",
+        "transistor/test/damaged_case/003.png",
+        "transistor/test/cut_lead/005.png",
+        "transistor/test/misplaced/005.png",
+        "transistor/test/bent_lead/001.png",
+        "transistor/test/cut_lead/006.png",
+        "transistor/test/cut_lead/002.png"
+      ],
+      "k_plus_calibration": 5,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-transistor-k2-seed17",
+      "dataset": "mvtec_ad",
+      "category": "transistor",
+      "role": "validation",
+      "seed": 17,
+      "shots": 2,
+      "support_ids": [
+        "transistor/train/good/071.png",
+        "transistor/train/good/161.png"
+      ],
+      "calibration_ids": [
+        "transistor/train/good/108.png",
+        "transistor/train/good/065.png",
+        "transistor/train/good/030.png",
+        "transistor/train/good/054.png"
+      ],
+      "query_ids": [
+        "transistor/test/good/054.png",
+        "transistor/test/good/015.png",
+        "transistor/test/good/058.png",
+        "transistor/test/good/037.png",
+        "transistor/test/good/004.png",
+        "transistor/test/good/018.png",
+        "transistor/test/good/025.png",
+        "transistor/test/good/040.png",
+        "transistor/test/good/051.png",
+        "transistor/test/good/048.png",
+        "transistor/test/cut_lead/007.png",
+        "transistor/test/damaged_case/008.png",
+        "transistor/test/bent_lead/009.png",
+        "transistor/test/misplaced/003.png",
+        "transistor/test/damaged_case/003.png",
+        "transistor/test/cut_lead/005.png",
+        "transistor/test/misplaced/005.png",
+        "transistor/test/bent_lead/001.png",
+        "transistor/test/cut_lead/006.png",
+        "transistor/test/cut_lead/002.png"
+      ],
+      "k_plus_calibration": 6,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-transistor-k4-seed17",
+      "dataset": "mvtec_ad",
+      "category": "transistor",
+      "role": "validation",
+      "seed": 17,
+      "shots": 4,
+      "support_ids": [
+        "transistor/train/good/071.png",
+        "transistor/train/good/161.png",
+        "transistor/train/good/062.png",
+        "transistor/train/good/165.png"
+      ],
+      "calibration_ids": [
+        "transistor/train/good/108.png",
+        "transistor/train/good/065.png",
+        "transistor/train/good/030.png",
+        "transistor/train/good/054.png"
+      ],
+      "query_ids": [
+        "transistor/test/good/054.png",
+        "transistor/test/good/015.png",
+        "transistor/test/good/058.png",
+        "transistor/test/good/037.png",
+        "transistor/test/good/004.png",
+        "transistor/test/good/018.png",
+        "transistor/test/good/025.png",
+        "transistor/test/good/040.png",
+        "transistor/test/good/051.png",
+        "transistor/test/good/048.png",
+        "transistor/test/cut_lead/007.png",
+        "transistor/test/damaged_case/008.png",
+        "transistor/test/bent_lead/009.png",
+        "transistor/test/misplaced/003.png",
+        "transistor/test/damaged_case/003.png",
+        "transistor/test/cut_lead/005.png",
+        "transistor/test/misplaced/005.png",
+        "transistor/test/bent_lead/001.png",
+        "transistor/test/cut_lead/006.png",
+        "transistor/test/cut_lead/002.png"
+      ],
+      "k_plus_calibration": 8,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-transistor-k8-seed17",
+      "dataset": "mvtec_ad",
+      "category": "transistor",
+      "role": "validation",
+      "seed": 17,
+      "shots": 8,
+      "support_ids": [
+        "transistor/train/good/071.png",
+        "transistor/train/good/161.png",
+        "transistor/train/good/062.png",
+        "transistor/train/good/165.png",
+        "transistor/train/good/137.png",
+        "transistor/train/good/119.png",
+        "transistor/train/good/073.png",
+        "transistor/train/good/163.png"
+      ],
+      "calibration_ids": [
+        "transistor/train/good/108.png",
+        "transistor/train/good/065.png",
+        "transistor/train/good/030.png",
+        "transistor/train/good/054.png"
+      ],
+      "query_ids": [
+        "transistor/test/good/054.png",
+        "transistor/test/good/015.png",
+        "transistor/test/good/058.png",
+        "transistor/test/good/037.png",
+        "transistor/test/good/004.png",
+        "transistor/test/good/018.png",
+        "transistor/test/good/025.png",
+        "transistor/test/good/040.png",
+        "transistor/test/good/051.png",
+        "transistor/test/good/048.png",
+        "transistor/test/cut_lead/007.png",
+        "transistor/test/damaged_case/008.png",
+        "transistor/test/bent_lead/009.png",
+        "transistor/test/misplaced/003.png",
+        "transistor/test/damaged_case/003.png",
+        "transistor/test/cut_lead/005.png",
+        "transistor/test/misplaced/005.png",
+        "transistor/test/bent_lead/001.png",
+        "transistor/test/cut_lead/006.png",
+        "transistor/test/cut_lead/002.png"
+      ],
+      "k_plus_calibration": 12,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-transistor-k1-seed29",
+      "dataset": "mvtec_ad",
+      "category": "transistor",
+      "role": "validation",
+      "seed": 29,
+      "shots": 1,
+      "support_ids": [
+        "transistor/train/good/203.png"
+      ],
+      "calibration_ids": [
+        "transistor/train/good/108.png",
+        "transistor/train/good/065.png",
+        "transistor/train/good/030.png",
+        "transistor/train/good/054.png"
+      ],
+      "query_ids": [
+        "transistor/test/good/054.png",
+        "transistor/test/good/015.png",
+        "transistor/test/good/058.png",
+        "transistor/test/good/037.png",
+        "transistor/test/good/004.png",
+        "transistor/test/good/018.png",
+        "transistor/test/good/025.png",
+        "transistor/test/good/040.png",
+        "transistor/test/good/051.png",
+        "transistor/test/good/048.png",
+        "transistor/test/cut_lead/007.png",
+        "transistor/test/damaged_case/008.png",
+        "transistor/test/bent_lead/009.png",
+        "transistor/test/misplaced/003.png",
+        "transistor/test/damaged_case/003.png",
+        "transistor/test/cut_lead/005.png",
+        "transistor/test/misplaced/005.png",
+        "transistor/test/bent_lead/001.png",
+        "transistor/test/cut_lead/006.png",
+        "transistor/test/cut_lead/002.png"
+      ],
+      "k_plus_calibration": 5,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-transistor-k2-seed29",
+      "dataset": "mvtec_ad",
+      "category": "transistor",
+      "role": "validation",
+      "seed": 29,
+      "shots": 2,
+      "support_ids": [
+        "transistor/train/good/203.png",
+        "transistor/train/good/177.png"
+      ],
+      "calibration_ids": [
+        "transistor/train/good/108.png",
+        "transistor/train/good/065.png",
+        "transistor/train/good/030.png",
+        "transistor/train/good/054.png"
+      ],
+      "query_ids": [
+        "transistor/test/good/054.png",
+        "transistor/test/good/015.png",
+        "transistor/test/good/058.png",
+        "transistor/test/good/037.png",
+        "transistor/test/good/004.png",
+        "transistor/test/good/018.png",
+        "transistor/test/good/025.png",
+        "transistor/test/good/040.png",
+        "transistor/test/good/051.png",
+        "transistor/test/good/048.png",
+        "transistor/test/cut_lead/007.png",
+        "transistor/test/damaged_case/008.png",
+        "transistor/test/bent_lead/009.png",
+        "transistor/test/misplaced/003.png",
+        "transistor/test/damaged_case/003.png",
+        "transistor/test/cut_lead/005.png",
+        "transistor/test/misplaced/005.png",
+        "transistor/test/bent_lead/001.png",
+        "transistor/test/cut_lead/006.png",
+        "transistor/test/cut_lead/002.png"
+      ],
+      "k_plus_calibration": 6,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-transistor-k4-seed29",
+      "dataset": "mvtec_ad",
+      "category": "transistor",
+      "role": "validation",
+      "seed": 29,
+      "shots": 4,
+      "support_ids": [
+        "transistor/train/good/203.png",
+        "transistor/train/good/177.png",
+        "transistor/train/good/163.png",
+        "transistor/train/good/178.png"
+      ],
+      "calibration_ids": [
+        "transistor/train/good/108.png",
+        "transistor/train/good/065.png",
+        "transistor/train/good/030.png",
+        "transistor/train/good/054.png"
+      ],
+      "query_ids": [
+        "transistor/test/good/054.png",
+        "transistor/test/good/015.png",
+        "transistor/test/good/058.png",
+        "transistor/test/good/037.png",
+        "transistor/test/good/004.png",
+        "transistor/test/good/018.png",
+        "transistor/test/good/025.png",
+        "transistor/test/good/040.png",
+        "transistor/test/good/051.png",
+        "transistor/test/good/048.png",
+        "transistor/test/cut_lead/007.png",
+        "transistor/test/damaged_case/008.png",
+        "transistor/test/bent_lead/009.png",
+        "transistor/test/misplaced/003.png",
+        "transistor/test/damaged_case/003.png",
+        "transistor/test/cut_lead/005.png",
+        "transistor/test/misplaced/005.png",
+        "transistor/test/bent_lead/001.png",
+        "transistor/test/cut_lead/006.png",
+        "transistor/test/cut_lead/002.png"
+      ],
+      "k_plus_calibration": 8,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-transistor-k8-seed29",
+      "dataset": "mvtec_ad",
+      "category": "transistor",
+      "role": "validation",
+      "seed": 29,
+      "shots": 8,
+      "support_ids": [
+        "transistor/train/good/203.png",
+        "transistor/train/good/177.png",
+        "transistor/train/good/163.png",
+        "transistor/train/good/178.png",
+        "transistor/train/good/190.png",
+        "transistor/train/good/092.png",
+        "transistor/train/good/089.png",
+        "transistor/train/good/126.png"
+      ],
+      "calibration_ids": [
+        "transistor/train/good/108.png",
+        "transistor/train/good/065.png",
+        "transistor/train/good/030.png",
+        "transistor/train/good/054.png"
+      ],
+      "query_ids": [
+        "transistor/test/good/054.png",
+        "transistor/test/good/015.png",
+        "transistor/test/good/058.png",
+        "transistor/test/good/037.png",
+        "transistor/test/good/004.png",
+        "transistor/test/good/018.png",
+        "transistor/test/good/025.png",
+        "transistor/test/good/040.png",
+        "transistor/test/good/051.png",
+        "transistor/test/good/048.png",
+        "transistor/test/cut_lead/007.png",
+        "transistor/test/damaged_case/008.png",
+        "transistor/test/bent_lead/009.png",
+        "transistor/test/misplaced/003.png",
+        "transistor/test/damaged_case/003.png",
+        "transistor/test/cut_lead/005.png",
+        "transistor/test/misplaced/005.png",
+        "transistor/test/bent_lead/001.png",
+        "transistor/test/cut_lead/006.png",
+        "transistor/test/cut_lead/002.png"
+      ],
+      "k_plus_calibration": 12,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-transistor-k1-seed43",
+      "dataset": "mvtec_ad",
+      "category": "transistor",
+      "role": "validation",
+      "seed": 43,
+      "shots": 1,
+      "support_ids": [
+        "transistor/train/good/145.png"
+      ],
+      "calibration_ids": [
+        "transistor/train/good/108.png",
+        "transistor/train/good/065.png",
+        "transistor/train/good/030.png",
+        "transistor/train/good/054.png"
+      ],
+      "query_ids": [
+        "transistor/test/good/054.png",
+        "transistor/test/good/015.png",
+        "transistor/test/good/058.png",
+        "transistor/test/good/037.png",
+        "transistor/test/good/004.png",
+        "transistor/test/good/018.png",
+        "transistor/test/good/025.png",
+        "transistor/test/good/040.png",
+        "transistor/test/good/051.png",
+        "transistor/test/good/048.png",
+        "transistor/test/cut_lead/007.png",
+        "transistor/test/damaged_case/008.png",
+        "transistor/test/bent_lead/009.png",
+        "transistor/test/misplaced/003.png",
+        "transistor/test/damaged_case/003.png",
+        "transistor/test/cut_lead/005.png",
+        "transistor/test/misplaced/005.png",
+        "transistor/test/bent_lead/001.png",
+        "transistor/test/cut_lead/006.png",
+        "transistor/test/cut_lead/002.png"
+      ],
+      "k_plus_calibration": 5,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-transistor-k2-seed43",
+      "dataset": "mvtec_ad",
+      "category": "transistor",
+      "role": "validation",
+      "seed": 43,
+      "shots": 2,
+      "support_ids": [
+        "transistor/train/good/145.png",
+        "transistor/train/good/028.png"
+      ],
+      "calibration_ids": [
+        "transistor/train/good/108.png",
+        "transistor/train/good/065.png",
+        "transistor/train/good/030.png",
+        "transistor/train/good/054.png"
+      ],
+      "query_ids": [
+        "transistor/test/good/054.png",
+        "transistor/test/good/015.png",
+        "transistor/test/good/058.png",
+        "transistor/test/good/037.png",
+        "transistor/test/good/004.png",
+        "transistor/test/good/018.png",
+        "transistor/test/good/025.png",
+        "transistor/test/good/040.png",
+        "transistor/test/good/051.png",
+        "transistor/test/good/048.png",
+        "transistor/test/cut_lead/007.png",
+        "transistor/test/damaged_case/008.png",
+        "transistor/test/bent_lead/009.png",
+        "transistor/test/misplaced/003.png",
+        "transistor/test/damaged_case/003.png",
+        "transistor/test/cut_lead/005.png",
+        "transistor/test/misplaced/005.png",
+        "transistor/test/bent_lead/001.png",
+        "transistor/test/cut_lead/006.png",
+        "transistor/test/cut_lead/002.png"
+      ],
+      "k_plus_calibration": 6,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-transistor-k4-seed43",
+      "dataset": "mvtec_ad",
+      "category": "transistor",
+      "role": "validation",
+      "seed": 43,
+      "shots": 4,
+      "support_ids": [
+        "transistor/train/good/145.png",
+        "transistor/train/good/028.png",
+        "transistor/train/good/055.png",
+        "transistor/train/good/044.png"
+      ],
+      "calibration_ids": [
+        "transistor/train/good/108.png",
+        "transistor/train/good/065.png",
+        "transistor/train/good/030.png",
+        "transistor/train/good/054.png"
+      ],
+      "query_ids": [
+        "transistor/test/good/054.png",
+        "transistor/test/good/015.png",
+        "transistor/test/good/058.png",
+        "transistor/test/good/037.png",
+        "transistor/test/good/004.png",
+        "transistor/test/good/018.png",
+        "transistor/test/good/025.png",
+        "transistor/test/good/040.png",
+        "transistor/test/good/051.png",
+        "transistor/test/good/048.png",
+        "transistor/test/cut_lead/007.png",
+        "transistor/test/damaged_case/008.png",
+        "transistor/test/bent_lead/009.png",
+        "transistor/test/misplaced/003.png",
+        "transistor/test/damaged_case/003.png",
+        "transistor/test/cut_lead/005.png",
+        "transistor/test/misplaced/005.png",
+        "transistor/test/bent_lead/001.png",
+        "transistor/test/cut_lead/006.png",
+        "transistor/test/cut_lead/002.png"
+      ],
+      "k_plus_calibration": 8,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "mvtec_ad-transistor-k8-seed43",
+      "dataset": "mvtec_ad",
+      "category": "transistor",
+      "role": "validation",
+      "seed": 43,
+      "shots": 8,
+      "support_ids": [
+        "transistor/train/good/145.png",
+        "transistor/train/good/028.png",
+        "transistor/train/good/055.png",
+        "transistor/train/good/044.png",
+        "transistor/train/good/085.png",
+        "transistor/train/good/068.png",
+        "transistor/train/good/181.png",
+        "transistor/train/good/097.png"
+      ],
+      "calibration_ids": [
+        "transistor/train/good/108.png",
+        "transistor/train/good/065.png",
+        "transistor/train/good/030.png",
+        "transistor/train/good/054.png"
+      ],
+      "query_ids": [
+        "transistor/test/good/054.png",
+        "transistor/test/good/015.png",
+        "transistor/test/good/058.png",
+        "transistor/test/good/037.png",
+        "transistor/test/good/004.png",
+        "transistor/test/good/018.png",
+        "transistor/test/good/025.png",
+        "transistor/test/good/040.png",
+        "transistor/test/good/051.png",
+        "transistor/test/good/048.png",
+        "transistor/test/cut_lead/007.png",
+        "transistor/test/damaged_case/008.png",
+        "transistor/test/bent_lead/009.png",
+        "transistor/test/misplaced/003.png",
+        "transistor/test/damaged_case/003.png",
+        "transistor/test/cut_lead/005.png",
+        "transistor/test/misplaced/005.png",
+        "transistor/test/bent_lead/001.png",
+        "transistor/test/cut_lead/006.png",
+        "transistor/test/cut_lead/002.png"
+      ],
+      "k_plus_calibration": 12,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-macaroni2-k1-seed17",
+      "dataset": "visa",
+      "category": "macaroni2",
+      "role": "validation",
+      "seed": 17,
+      "shots": 1,
+      "support_ids": [
+        "macaroni2/Data/Images/Normal/0412.JPG"
+      ],
+      "calibration_ids": [
+        "macaroni2/Data/Images/Normal/0131.JPG",
+        "macaroni2/Data/Images/Normal/0957.JPG",
+        "macaroni2/Data/Images/Normal/0647.JPG",
+        "macaroni2/Data/Images/Normal/0096.JPG"
+      ],
+      "query_ids": [
+        "macaroni2/Data/Images/Normal/0100.JPG",
+        "macaroni2/Data/Images/Normal/0552.JPG",
+        "macaroni2/Data/Images/Normal/0525.JPG",
+        "macaroni2/Data/Images/Normal/0953.JPG",
+        "macaroni2/Data/Images/Normal/0751.JPG",
+        "macaroni2/Data/Images/Normal/0011.JPG",
+        "macaroni2/Data/Images/Normal/0363.JPG",
+        "macaroni2/Data/Images/Normal/0488.JPG",
+        "macaroni2/Data/Images/Normal/0520.JPG",
+        "macaroni2/Data/Images/Normal/0427.JPG",
+        "macaroni2/Data/Images/Anomaly/073.JPG",
+        "macaroni2/Data/Images/Anomaly/057.JPG",
+        "macaroni2/Data/Images/Anomaly/034.JPG",
+        "macaroni2/Data/Images/Anomaly/052.JPG",
+        "macaroni2/Data/Images/Anomaly/028.JPG",
+        "macaroni2/Data/Images/Anomaly/087.JPG",
+        "macaroni2/Data/Images/Anomaly/018.JPG",
+        "macaroni2/Data/Images/Anomaly/089.JPG",
+        "macaroni2/Data/Images/Anomaly/038.JPG",
+        "macaroni2/Data/Images/Anomaly/024.JPG"
+      ],
+      "k_plus_calibration": 5,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-macaroni2-k2-seed17",
+      "dataset": "visa",
+      "category": "macaroni2",
+      "role": "validation",
+      "seed": 17,
+      "shots": 2,
+      "support_ids": [
+        "macaroni2/Data/Images/Normal/0412.JPG",
+        "macaroni2/Data/Images/Normal/0840.JPG"
+      ],
+      "calibration_ids": [
+        "macaroni2/Data/Images/Normal/0131.JPG",
+        "macaroni2/Data/Images/Normal/0957.JPG",
+        "macaroni2/Data/Images/Normal/0647.JPG",
+        "macaroni2/Data/Images/Normal/0096.JPG"
+      ],
+      "query_ids": [
+        "macaroni2/Data/Images/Normal/0100.JPG",
+        "macaroni2/Data/Images/Normal/0552.JPG",
+        "macaroni2/Data/Images/Normal/0525.JPG",
+        "macaroni2/Data/Images/Normal/0953.JPG",
+        "macaroni2/Data/Images/Normal/0751.JPG",
+        "macaroni2/Data/Images/Normal/0011.JPG",
+        "macaroni2/Data/Images/Normal/0363.JPG",
+        "macaroni2/Data/Images/Normal/0488.JPG",
+        "macaroni2/Data/Images/Normal/0520.JPG",
+        "macaroni2/Data/Images/Normal/0427.JPG",
+        "macaroni2/Data/Images/Anomaly/073.JPG",
+        "macaroni2/Data/Images/Anomaly/057.JPG",
+        "macaroni2/Data/Images/Anomaly/034.JPG",
+        "macaroni2/Data/Images/Anomaly/052.JPG",
+        "macaroni2/Data/Images/Anomaly/028.JPG",
+        "macaroni2/Data/Images/Anomaly/087.JPG",
+        "macaroni2/Data/Images/Anomaly/018.JPG",
+        "macaroni2/Data/Images/Anomaly/089.JPG",
+        "macaroni2/Data/Images/Anomaly/038.JPG",
+        "macaroni2/Data/Images/Anomaly/024.JPG"
+      ],
+      "k_plus_calibration": 6,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-macaroni2-k4-seed17",
+      "dataset": "visa",
+      "category": "macaroni2",
+      "role": "validation",
+      "seed": 17,
+      "shots": 4,
+      "support_ids": [
+        "macaroni2/Data/Images/Normal/0412.JPG",
+        "macaroni2/Data/Images/Normal/0840.JPG",
+        "macaroni2/Data/Images/Normal/0458.JPG",
+        "macaroni2/Data/Images/Normal/0114.JPG"
+      ],
+      "calibration_ids": [
+        "macaroni2/Data/Images/Normal/0131.JPG",
+        "macaroni2/Data/Images/Normal/0957.JPG",
+        "macaroni2/Data/Images/Normal/0647.JPG",
+        "macaroni2/Data/Images/Normal/0096.JPG"
+      ],
+      "query_ids": [
+        "macaroni2/Data/Images/Normal/0100.JPG",
+        "macaroni2/Data/Images/Normal/0552.JPG",
+        "macaroni2/Data/Images/Normal/0525.JPG",
+        "macaroni2/Data/Images/Normal/0953.JPG",
+        "macaroni2/Data/Images/Normal/0751.JPG",
+        "macaroni2/Data/Images/Normal/0011.JPG",
+        "macaroni2/Data/Images/Normal/0363.JPG",
+        "macaroni2/Data/Images/Normal/0488.JPG",
+        "macaroni2/Data/Images/Normal/0520.JPG",
+        "macaroni2/Data/Images/Normal/0427.JPG",
+        "macaroni2/Data/Images/Anomaly/073.JPG",
+        "macaroni2/Data/Images/Anomaly/057.JPG",
+        "macaroni2/Data/Images/Anomaly/034.JPG",
+        "macaroni2/Data/Images/Anomaly/052.JPG",
+        "macaroni2/Data/Images/Anomaly/028.JPG",
+        "macaroni2/Data/Images/Anomaly/087.JPG",
+        "macaroni2/Data/Images/Anomaly/018.JPG",
+        "macaroni2/Data/Images/Anomaly/089.JPG",
+        "macaroni2/Data/Images/Anomaly/038.JPG",
+        "macaroni2/Data/Images/Anomaly/024.JPG"
+      ],
+      "k_plus_calibration": 8,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-macaroni2-k8-seed17",
+      "dataset": "visa",
+      "category": "macaroni2",
+      "role": "validation",
+      "seed": 17,
+      "shots": 8,
+      "support_ids": [
+        "macaroni2/Data/Images/Normal/0412.JPG",
+        "macaroni2/Data/Images/Normal/0840.JPG",
+        "macaroni2/Data/Images/Normal/0458.JPG",
+        "macaroni2/Data/Images/Normal/0114.JPG",
+        "macaroni2/Data/Images/Normal/0419.JPG",
+        "macaroni2/Data/Images/Normal/0381.JPG",
+        "macaroni2/Data/Images/Normal/0337.JPG",
+        "macaroni2/Data/Images/Normal/0431.JPG"
+      ],
+      "calibration_ids": [
+        "macaroni2/Data/Images/Normal/0131.JPG",
+        "macaroni2/Data/Images/Normal/0957.JPG",
+        "macaroni2/Data/Images/Normal/0647.JPG",
+        "macaroni2/Data/Images/Normal/0096.JPG"
+      ],
+      "query_ids": [
+        "macaroni2/Data/Images/Normal/0100.JPG",
+        "macaroni2/Data/Images/Normal/0552.JPG",
+        "macaroni2/Data/Images/Normal/0525.JPG",
+        "macaroni2/Data/Images/Normal/0953.JPG",
+        "macaroni2/Data/Images/Normal/0751.JPG",
+        "macaroni2/Data/Images/Normal/0011.JPG",
+        "macaroni2/Data/Images/Normal/0363.JPG",
+        "macaroni2/Data/Images/Normal/0488.JPG",
+        "macaroni2/Data/Images/Normal/0520.JPG",
+        "macaroni2/Data/Images/Normal/0427.JPG",
+        "macaroni2/Data/Images/Anomaly/073.JPG",
+        "macaroni2/Data/Images/Anomaly/057.JPG",
+        "macaroni2/Data/Images/Anomaly/034.JPG",
+        "macaroni2/Data/Images/Anomaly/052.JPG",
+        "macaroni2/Data/Images/Anomaly/028.JPG",
+        "macaroni2/Data/Images/Anomaly/087.JPG",
+        "macaroni2/Data/Images/Anomaly/018.JPG",
+        "macaroni2/Data/Images/Anomaly/089.JPG",
+        "macaroni2/Data/Images/Anomaly/038.JPG",
+        "macaroni2/Data/Images/Anomaly/024.JPG"
+      ],
+      "k_plus_calibration": 12,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-macaroni2-k1-seed29",
+      "dataset": "visa",
+      "category": "macaroni2",
+      "role": "validation",
+      "seed": 29,
+      "shots": 1,
+      "support_ids": [
+        "macaroni2/Data/Images/Normal/0381.JPG"
+      ],
+      "calibration_ids": [
+        "macaroni2/Data/Images/Normal/0131.JPG",
+        "macaroni2/Data/Images/Normal/0957.JPG",
+        "macaroni2/Data/Images/Normal/0647.JPG",
+        "macaroni2/Data/Images/Normal/0096.JPG"
+      ],
+      "query_ids": [
+        "macaroni2/Data/Images/Normal/0100.JPG",
+        "macaroni2/Data/Images/Normal/0552.JPG",
+        "macaroni2/Data/Images/Normal/0525.JPG",
+        "macaroni2/Data/Images/Normal/0953.JPG",
+        "macaroni2/Data/Images/Normal/0751.JPG",
+        "macaroni2/Data/Images/Normal/0011.JPG",
+        "macaroni2/Data/Images/Normal/0363.JPG",
+        "macaroni2/Data/Images/Normal/0488.JPG",
+        "macaroni2/Data/Images/Normal/0520.JPG",
+        "macaroni2/Data/Images/Normal/0427.JPG",
+        "macaroni2/Data/Images/Anomaly/073.JPG",
+        "macaroni2/Data/Images/Anomaly/057.JPG",
+        "macaroni2/Data/Images/Anomaly/034.JPG",
+        "macaroni2/Data/Images/Anomaly/052.JPG",
+        "macaroni2/Data/Images/Anomaly/028.JPG",
+        "macaroni2/Data/Images/Anomaly/087.JPG",
+        "macaroni2/Data/Images/Anomaly/018.JPG",
+        "macaroni2/Data/Images/Anomaly/089.JPG",
+        "macaroni2/Data/Images/Anomaly/038.JPG",
+        "macaroni2/Data/Images/Anomaly/024.JPG"
+      ],
+      "k_plus_calibration": 5,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-macaroni2-k2-seed29",
+      "dataset": "visa",
+      "category": "macaroni2",
+      "role": "validation",
+      "seed": 29,
+      "shots": 2,
+      "support_ids": [
+        "macaroni2/Data/Images/Normal/0381.JPG",
+        "macaroni2/Data/Images/Normal/0749.JPG"
+      ],
+      "calibration_ids": [
+        "macaroni2/Data/Images/Normal/0131.JPG",
+        "macaroni2/Data/Images/Normal/0957.JPG",
+        "macaroni2/Data/Images/Normal/0647.JPG",
+        "macaroni2/Data/Images/Normal/0096.JPG"
+      ],
+      "query_ids": [
+        "macaroni2/Data/Images/Normal/0100.JPG",
+        "macaroni2/Data/Images/Normal/0552.JPG",
+        "macaroni2/Data/Images/Normal/0525.JPG",
+        "macaroni2/Data/Images/Normal/0953.JPG",
+        "macaroni2/Data/Images/Normal/0751.JPG",
+        "macaroni2/Data/Images/Normal/0011.JPG",
+        "macaroni2/Data/Images/Normal/0363.JPG",
+        "macaroni2/Data/Images/Normal/0488.JPG",
+        "macaroni2/Data/Images/Normal/0520.JPG",
+        "macaroni2/Data/Images/Normal/0427.JPG",
+        "macaroni2/Data/Images/Anomaly/073.JPG",
+        "macaroni2/Data/Images/Anomaly/057.JPG",
+        "macaroni2/Data/Images/Anomaly/034.JPG",
+        "macaroni2/Data/Images/Anomaly/052.JPG",
+        "macaroni2/Data/Images/Anomaly/028.JPG",
+        "macaroni2/Data/Images/Anomaly/087.JPG",
+        "macaroni2/Data/Images/Anomaly/018.JPG",
+        "macaroni2/Data/Images/Anomaly/089.JPG",
+        "macaroni2/Data/Images/Anomaly/038.JPG",
+        "macaroni2/Data/Images/Anomaly/024.JPG"
+      ],
+      "k_plus_calibration": 6,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-macaroni2-k4-seed29",
+      "dataset": "visa",
+      "category": "macaroni2",
+      "role": "validation",
+      "seed": 29,
+      "shots": 4,
+      "support_ids": [
+        "macaroni2/Data/Images/Normal/0381.JPG",
+        "macaroni2/Data/Images/Normal/0749.JPG",
+        "macaroni2/Data/Images/Normal/0401.JPG",
+        "macaroni2/Data/Images/Normal/0339.JPG"
+      ],
+      "calibration_ids": [
+        "macaroni2/Data/Images/Normal/0131.JPG",
+        "macaroni2/Data/Images/Normal/0957.JPG",
+        "macaroni2/Data/Images/Normal/0647.JPG",
+        "macaroni2/Data/Images/Normal/0096.JPG"
+      ],
+      "query_ids": [
+        "macaroni2/Data/Images/Normal/0100.JPG",
+        "macaroni2/Data/Images/Normal/0552.JPG",
+        "macaroni2/Data/Images/Normal/0525.JPG",
+        "macaroni2/Data/Images/Normal/0953.JPG",
+        "macaroni2/Data/Images/Normal/0751.JPG",
+        "macaroni2/Data/Images/Normal/0011.JPG",
+        "macaroni2/Data/Images/Normal/0363.JPG",
+        "macaroni2/Data/Images/Normal/0488.JPG",
+        "macaroni2/Data/Images/Normal/0520.JPG",
+        "macaroni2/Data/Images/Normal/0427.JPG",
+        "macaroni2/Data/Images/Anomaly/073.JPG",
+        "macaroni2/Data/Images/Anomaly/057.JPG",
+        "macaroni2/Data/Images/Anomaly/034.JPG",
+        "macaroni2/Data/Images/Anomaly/052.JPG",
+        "macaroni2/Data/Images/Anomaly/028.JPG",
+        "macaroni2/Data/Images/Anomaly/087.JPG",
+        "macaroni2/Data/Images/Anomaly/018.JPG",
+        "macaroni2/Data/Images/Anomaly/089.JPG",
+        "macaroni2/Data/Images/Anomaly/038.JPG",
+        "macaroni2/Data/Images/Anomaly/024.JPG"
+      ],
+      "k_plus_calibration": 8,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-macaroni2-k8-seed29",
+      "dataset": "visa",
+      "category": "macaroni2",
+      "role": "validation",
+      "seed": 29,
+      "shots": 8,
+      "support_ids": [
+        "macaroni2/Data/Images/Normal/0381.JPG",
+        "macaroni2/Data/Images/Normal/0749.JPG",
+        "macaroni2/Data/Images/Normal/0401.JPG",
+        "macaroni2/Data/Images/Normal/0339.JPG",
+        "macaroni2/Data/Images/Normal/0959.JPG",
+        "macaroni2/Data/Images/Normal/0542.JPG",
+        "macaroni2/Data/Images/Normal/0753.JPG",
+        "macaroni2/Data/Images/Normal/0086.JPG"
+      ],
+      "calibration_ids": [
+        "macaroni2/Data/Images/Normal/0131.JPG",
+        "macaroni2/Data/Images/Normal/0957.JPG",
+        "macaroni2/Data/Images/Normal/0647.JPG",
+        "macaroni2/Data/Images/Normal/0096.JPG"
+      ],
+      "query_ids": [
+        "macaroni2/Data/Images/Normal/0100.JPG",
+        "macaroni2/Data/Images/Normal/0552.JPG",
+        "macaroni2/Data/Images/Normal/0525.JPG",
+        "macaroni2/Data/Images/Normal/0953.JPG",
+        "macaroni2/Data/Images/Normal/0751.JPG",
+        "macaroni2/Data/Images/Normal/0011.JPG",
+        "macaroni2/Data/Images/Normal/0363.JPG",
+        "macaroni2/Data/Images/Normal/0488.JPG",
+        "macaroni2/Data/Images/Normal/0520.JPG",
+        "macaroni2/Data/Images/Normal/0427.JPG",
+        "macaroni2/Data/Images/Anomaly/073.JPG",
+        "macaroni2/Data/Images/Anomaly/057.JPG",
+        "macaroni2/Data/Images/Anomaly/034.JPG",
+        "macaroni2/Data/Images/Anomaly/052.JPG",
+        "macaroni2/Data/Images/Anomaly/028.JPG",
+        "macaroni2/Data/Images/Anomaly/087.JPG",
+        "macaroni2/Data/Images/Anomaly/018.JPG",
+        "macaroni2/Data/Images/Anomaly/089.JPG",
+        "macaroni2/Data/Images/Anomaly/038.JPG",
+        "macaroni2/Data/Images/Anomaly/024.JPG"
+      ],
+      "k_plus_calibration": 12,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-macaroni2-k1-seed43",
+      "dataset": "visa",
+      "category": "macaroni2",
+      "role": "validation",
+      "seed": 43,
+      "shots": 1,
+      "support_ids": [
+        "macaroni2/Data/Images/Normal/0889.JPG"
+      ],
+      "calibration_ids": [
+        "macaroni2/Data/Images/Normal/0131.JPG",
+        "macaroni2/Data/Images/Normal/0957.JPG",
+        "macaroni2/Data/Images/Normal/0647.JPG",
+        "macaroni2/Data/Images/Normal/0096.JPG"
+      ],
+      "query_ids": [
+        "macaroni2/Data/Images/Normal/0100.JPG",
+        "macaroni2/Data/Images/Normal/0552.JPG",
+        "macaroni2/Data/Images/Normal/0525.JPG",
+        "macaroni2/Data/Images/Normal/0953.JPG",
+        "macaroni2/Data/Images/Normal/0751.JPG",
+        "macaroni2/Data/Images/Normal/0011.JPG",
+        "macaroni2/Data/Images/Normal/0363.JPG",
+        "macaroni2/Data/Images/Normal/0488.JPG",
+        "macaroni2/Data/Images/Normal/0520.JPG",
+        "macaroni2/Data/Images/Normal/0427.JPG",
+        "macaroni2/Data/Images/Anomaly/073.JPG",
+        "macaroni2/Data/Images/Anomaly/057.JPG",
+        "macaroni2/Data/Images/Anomaly/034.JPG",
+        "macaroni2/Data/Images/Anomaly/052.JPG",
+        "macaroni2/Data/Images/Anomaly/028.JPG",
+        "macaroni2/Data/Images/Anomaly/087.JPG",
+        "macaroni2/Data/Images/Anomaly/018.JPG",
+        "macaroni2/Data/Images/Anomaly/089.JPG",
+        "macaroni2/Data/Images/Anomaly/038.JPG",
+        "macaroni2/Data/Images/Anomaly/024.JPG"
+      ],
+      "k_plus_calibration": 5,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-macaroni2-k2-seed43",
+      "dataset": "visa",
+      "category": "macaroni2",
+      "role": "validation",
+      "seed": 43,
+      "shots": 2,
+      "support_ids": [
+        "macaroni2/Data/Images/Normal/0889.JPG",
+        "macaroni2/Data/Images/Normal/0220.JPG"
+      ],
+      "calibration_ids": [
+        "macaroni2/Data/Images/Normal/0131.JPG",
+        "macaroni2/Data/Images/Normal/0957.JPG",
+        "macaroni2/Data/Images/Normal/0647.JPG",
+        "macaroni2/Data/Images/Normal/0096.JPG"
+      ],
+      "query_ids": [
+        "macaroni2/Data/Images/Normal/0100.JPG",
+        "macaroni2/Data/Images/Normal/0552.JPG",
+        "macaroni2/Data/Images/Normal/0525.JPG",
+        "macaroni2/Data/Images/Normal/0953.JPG",
+        "macaroni2/Data/Images/Normal/0751.JPG",
+        "macaroni2/Data/Images/Normal/0011.JPG",
+        "macaroni2/Data/Images/Normal/0363.JPG",
+        "macaroni2/Data/Images/Normal/0488.JPG",
+        "macaroni2/Data/Images/Normal/0520.JPG",
+        "macaroni2/Data/Images/Normal/0427.JPG",
+        "macaroni2/Data/Images/Anomaly/073.JPG",
+        "macaroni2/Data/Images/Anomaly/057.JPG",
+        "macaroni2/Data/Images/Anomaly/034.JPG",
+        "macaroni2/Data/Images/Anomaly/052.JPG",
+        "macaroni2/Data/Images/Anomaly/028.JPG",
+        "macaroni2/Data/Images/Anomaly/087.JPG",
+        "macaroni2/Data/Images/Anomaly/018.JPG",
+        "macaroni2/Data/Images/Anomaly/089.JPG",
+        "macaroni2/Data/Images/Anomaly/038.JPG",
+        "macaroni2/Data/Images/Anomaly/024.JPG"
+      ],
+      "k_plus_calibration": 6,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-macaroni2-k4-seed43",
+      "dataset": "visa",
+      "category": "macaroni2",
+      "role": "validation",
+      "seed": 43,
+      "shots": 4,
+      "support_ids": [
+        "macaroni2/Data/Images/Normal/0889.JPG",
+        "macaroni2/Data/Images/Normal/0220.JPG",
+        "macaroni2/Data/Images/Normal/0671.JPG",
+        "macaroni2/Data/Images/Normal/0711.JPG"
+      ],
+      "calibration_ids": [
+        "macaroni2/Data/Images/Normal/0131.JPG",
+        "macaroni2/Data/Images/Normal/0957.JPG",
+        "macaroni2/Data/Images/Normal/0647.JPG",
+        "macaroni2/Data/Images/Normal/0096.JPG"
+      ],
+      "query_ids": [
+        "macaroni2/Data/Images/Normal/0100.JPG",
+        "macaroni2/Data/Images/Normal/0552.JPG",
+        "macaroni2/Data/Images/Normal/0525.JPG",
+        "macaroni2/Data/Images/Normal/0953.JPG",
+        "macaroni2/Data/Images/Normal/0751.JPG",
+        "macaroni2/Data/Images/Normal/0011.JPG",
+        "macaroni2/Data/Images/Normal/0363.JPG",
+        "macaroni2/Data/Images/Normal/0488.JPG",
+        "macaroni2/Data/Images/Normal/0520.JPG",
+        "macaroni2/Data/Images/Normal/0427.JPG",
+        "macaroni2/Data/Images/Anomaly/073.JPG",
+        "macaroni2/Data/Images/Anomaly/057.JPG",
+        "macaroni2/Data/Images/Anomaly/034.JPG",
+        "macaroni2/Data/Images/Anomaly/052.JPG",
+        "macaroni2/Data/Images/Anomaly/028.JPG",
+        "macaroni2/Data/Images/Anomaly/087.JPG",
+        "macaroni2/Data/Images/Anomaly/018.JPG",
+        "macaroni2/Data/Images/Anomaly/089.JPG",
+        "macaroni2/Data/Images/Anomaly/038.JPG",
+        "macaroni2/Data/Images/Anomaly/024.JPG"
+      ],
+      "k_plus_calibration": 8,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-macaroni2-k8-seed43",
+      "dataset": "visa",
+      "category": "macaroni2",
+      "role": "validation",
+      "seed": 43,
+      "shots": 8,
+      "support_ids": [
+        "macaroni2/Data/Images/Normal/0889.JPG",
+        "macaroni2/Data/Images/Normal/0220.JPG",
+        "macaroni2/Data/Images/Normal/0671.JPG",
+        "macaroni2/Data/Images/Normal/0711.JPG",
+        "macaroni2/Data/Images/Normal/0299.JPG",
+        "macaroni2/Data/Images/Normal/0029.JPG",
+        "macaroni2/Data/Images/Normal/0086.JPG",
+        "macaroni2/Data/Images/Normal/0044.JPG"
+      ],
+      "calibration_ids": [
+        "macaroni2/Data/Images/Normal/0131.JPG",
+        "macaroni2/Data/Images/Normal/0957.JPG",
+        "macaroni2/Data/Images/Normal/0647.JPG",
+        "macaroni2/Data/Images/Normal/0096.JPG"
+      ],
+      "query_ids": [
+        "macaroni2/Data/Images/Normal/0100.JPG",
+        "macaroni2/Data/Images/Normal/0552.JPG",
+        "macaroni2/Data/Images/Normal/0525.JPG",
+        "macaroni2/Data/Images/Normal/0953.JPG",
+        "macaroni2/Data/Images/Normal/0751.JPG",
+        "macaroni2/Data/Images/Normal/0011.JPG",
+        "macaroni2/Data/Images/Normal/0363.JPG",
+        "macaroni2/Data/Images/Normal/0488.JPG",
+        "macaroni2/Data/Images/Normal/0520.JPG",
+        "macaroni2/Data/Images/Normal/0427.JPG",
+        "macaroni2/Data/Images/Anomaly/073.JPG",
+        "macaroni2/Data/Images/Anomaly/057.JPG",
+        "macaroni2/Data/Images/Anomaly/034.JPG",
+        "macaroni2/Data/Images/Anomaly/052.JPG",
+        "macaroni2/Data/Images/Anomaly/028.JPG",
+        "macaroni2/Data/Images/Anomaly/087.JPG",
+        "macaroni2/Data/Images/Anomaly/018.JPG",
+        "macaroni2/Data/Images/Anomaly/089.JPG",
+        "macaroni2/Data/Images/Anomaly/038.JPG",
+        "macaroni2/Data/Images/Anomaly/024.JPG"
+      ],
+      "k_plus_calibration": 12,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k1-seed17",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 17,
+      "shots": 1,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0818.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0896.JPG",
+        "pcb2/Data/Images/Normal/0760.JPG",
+        "pcb2/Data/Images/Normal/0758.JPG",
+        "pcb2/Data/Images/Normal/0957.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0552.JPG",
+        "pcb2/Data/Images/Normal/0569.JPG",
+        "pcb2/Data/Images/Normal/0674.JPG",
+        "pcb2/Data/Images/Normal/0797.JPG",
+        "pcb2/Data/Images/Normal/0920.JPG",
+        "pcb2/Data/Images/Normal/0779.JPG",
+        "pcb2/Data/Images/Normal/0174.JPG",
+        "pcb2/Data/Images/Normal/0261.JPG",
+        "pcb2/Data/Images/Normal/0320.JPG",
+        "pcb2/Data/Images/Normal/0871.JPG",
+        "pcb2/Data/Images/Anomaly/062.JPG",
+        "pcb2/Data/Images/Anomaly/013.JPG",
+        "pcb2/Data/Images/Anomaly/012.JPG",
+        "pcb2/Data/Images/Anomaly/082.JPG",
+        "pcb2/Data/Images/Anomaly/075.JPG",
+        "pcb2/Data/Images/Anomaly/029.JPG",
+        "pcb2/Data/Images/Anomaly/084.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG",
+        "pcb2/Data/Images/Anomaly/086.JPG",
+        "pcb2/Data/Images/Anomaly/035.JPG"
+      ],
+      "k_plus_calibration": 5,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k2-seed17",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 17,
+      "shots": 2,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0818.JPG",
+        "pcb2/Data/Images/Normal/0806.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0896.JPG",
+        "pcb2/Data/Images/Normal/0760.JPG",
+        "pcb2/Data/Images/Normal/0758.JPG",
+        "pcb2/Data/Images/Normal/0957.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0552.JPG",
+        "pcb2/Data/Images/Normal/0569.JPG",
+        "pcb2/Data/Images/Normal/0674.JPG",
+        "pcb2/Data/Images/Normal/0797.JPG",
+        "pcb2/Data/Images/Normal/0920.JPG",
+        "pcb2/Data/Images/Normal/0779.JPG",
+        "pcb2/Data/Images/Normal/0174.JPG",
+        "pcb2/Data/Images/Normal/0261.JPG",
+        "pcb2/Data/Images/Normal/0320.JPG",
+        "pcb2/Data/Images/Normal/0871.JPG",
+        "pcb2/Data/Images/Anomaly/062.JPG",
+        "pcb2/Data/Images/Anomaly/013.JPG",
+        "pcb2/Data/Images/Anomaly/012.JPG",
+        "pcb2/Data/Images/Anomaly/082.JPG",
+        "pcb2/Data/Images/Anomaly/075.JPG",
+        "pcb2/Data/Images/Anomaly/029.JPG",
+        "pcb2/Data/Images/Anomaly/084.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG",
+        "pcb2/Data/Images/Anomaly/086.JPG",
+        "pcb2/Data/Images/Anomaly/035.JPG"
+      ],
+      "k_plus_calibration": 6,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k4-seed17",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 17,
+      "shots": 4,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0818.JPG",
+        "pcb2/Data/Images/Normal/0806.JPG",
+        "pcb2/Data/Images/Normal/0601.JPG",
+        "pcb2/Data/Images/Normal/0236.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0896.JPG",
+        "pcb2/Data/Images/Normal/0760.JPG",
+        "pcb2/Data/Images/Normal/0758.JPG",
+        "pcb2/Data/Images/Normal/0957.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0552.JPG",
+        "pcb2/Data/Images/Normal/0569.JPG",
+        "pcb2/Data/Images/Normal/0674.JPG",
+        "pcb2/Data/Images/Normal/0797.JPG",
+        "pcb2/Data/Images/Normal/0920.JPG",
+        "pcb2/Data/Images/Normal/0779.JPG",
+        "pcb2/Data/Images/Normal/0174.JPG",
+        "pcb2/Data/Images/Normal/0261.JPG",
+        "pcb2/Data/Images/Normal/0320.JPG",
+        "pcb2/Data/Images/Normal/0871.JPG",
+        "pcb2/Data/Images/Anomaly/062.JPG",
+        "pcb2/Data/Images/Anomaly/013.JPG",
+        "pcb2/Data/Images/Anomaly/012.JPG",
+        "pcb2/Data/Images/Anomaly/082.JPG",
+        "pcb2/Data/Images/Anomaly/075.JPG",
+        "pcb2/Data/Images/Anomaly/029.JPG",
+        "pcb2/Data/Images/Anomaly/084.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG",
+        "pcb2/Data/Images/Anomaly/086.JPG",
+        "pcb2/Data/Images/Anomaly/035.JPG"
+      ],
+      "k_plus_calibration": 8,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k8-seed17",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 17,
+      "shots": 8,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0818.JPG",
+        "pcb2/Data/Images/Normal/0806.JPG",
+        "pcb2/Data/Images/Normal/0601.JPG",
+        "pcb2/Data/Images/Normal/0236.JPG",
+        "pcb2/Data/Images/Normal/0433.JPG",
+        "pcb2/Data/Images/Normal/0079.JPG",
+        "pcb2/Data/Images/Normal/0600.JPG",
+        "pcb2/Data/Images/Normal/0199.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0896.JPG",
+        "pcb2/Data/Images/Normal/0760.JPG",
+        "pcb2/Data/Images/Normal/0758.JPG",
+        "pcb2/Data/Images/Normal/0957.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0552.JPG",
+        "pcb2/Data/Images/Normal/0569.JPG",
+        "pcb2/Data/Images/Normal/0674.JPG",
+        "pcb2/Data/Images/Normal/0797.JPG",
+        "pcb2/Data/Images/Normal/0920.JPG",
+        "pcb2/Data/Images/Normal/0779.JPG",
+        "pcb2/Data/Images/Normal/0174.JPG",
+        "pcb2/Data/Images/Normal/0261.JPG",
+        "pcb2/Data/Images/Normal/0320.JPG",
+        "pcb2/Data/Images/Normal/0871.JPG",
+        "pcb2/Data/Images/Anomaly/062.JPG",
+        "pcb2/Data/Images/Anomaly/013.JPG",
+        "pcb2/Data/Images/Anomaly/012.JPG",
+        "pcb2/Data/Images/Anomaly/082.JPG",
+        "pcb2/Data/Images/Anomaly/075.JPG",
+        "pcb2/Data/Images/Anomaly/029.JPG",
+        "pcb2/Data/Images/Anomaly/084.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG",
+        "pcb2/Data/Images/Anomaly/086.JPG",
+        "pcb2/Data/Images/Anomaly/035.JPG"
+      ],
+      "k_plus_calibration": 12,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k1-seed29",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 29,
+      "shots": 1,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0093.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0896.JPG",
+        "pcb2/Data/Images/Normal/0760.JPG",
+        "pcb2/Data/Images/Normal/0758.JPG",
+        "pcb2/Data/Images/Normal/0957.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0552.JPG",
+        "pcb2/Data/Images/Normal/0569.JPG",
+        "pcb2/Data/Images/Normal/0674.JPG",
+        "pcb2/Data/Images/Normal/0797.JPG",
+        "pcb2/Data/Images/Normal/0920.JPG",
+        "pcb2/Data/Images/Normal/0779.JPG",
+        "pcb2/Data/Images/Normal/0174.JPG",
+        "pcb2/Data/Images/Normal/0261.JPG",
+        "pcb2/Data/Images/Normal/0320.JPG",
+        "pcb2/Data/Images/Normal/0871.JPG",
+        "pcb2/Data/Images/Anomaly/062.JPG",
+        "pcb2/Data/Images/Anomaly/013.JPG",
+        "pcb2/Data/Images/Anomaly/012.JPG",
+        "pcb2/Data/Images/Anomaly/082.JPG",
+        "pcb2/Data/Images/Anomaly/075.JPG",
+        "pcb2/Data/Images/Anomaly/029.JPG",
+        "pcb2/Data/Images/Anomaly/084.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG",
+        "pcb2/Data/Images/Anomaly/086.JPG",
+        "pcb2/Data/Images/Anomaly/035.JPG"
+      ],
+      "k_plus_calibration": 5,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k2-seed29",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 29,
+      "shots": 2,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0093.JPG",
+        "pcb2/Data/Images/Normal/0737.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0896.JPG",
+        "pcb2/Data/Images/Normal/0760.JPG",
+        "pcb2/Data/Images/Normal/0758.JPG",
+        "pcb2/Data/Images/Normal/0957.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0552.JPG",
+        "pcb2/Data/Images/Normal/0569.JPG",
+        "pcb2/Data/Images/Normal/0674.JPG",
+        "pcb2/Data/Images/Normal/0797.JPG",
+        "pcb2/Data/Images/Normal/0920.JPG",
+        "pcb2/Data/Images/Normal/0779.JPG",
+        "pcb2/Data/Images/Normal/0174.JPG",
+        "pcb2/Data/Images/Normal/0261.JPG",
+        "pcb2/Data/Images/Normal/0320.JPG",
+        "pcb2/Data/Images/Normal/0871.JPG",
+        "pcb2/Data/Images/Anomaly/062.JPG",
+        "pcb2/Data/Images/Anomaly/013.JPG",
+        "pcb2/Data/Images/Anomaly/012.JPG",
+        "pcb2/Data/Images/Anomaly/082.JPG",
+        "pcb2/Data/Images/Anomaly/075.JPG",
+        "pcb2/Data/Images/Anomaly/029.JPG",
+        "pcb2/Data/Images/Anomaly/084.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG",
+        "pcb2/Data/Images/Anomaly/086.JPG",
+        "pcb2/Data/Images/Anomaly/035.JPG"
+      ],
+      "k_plus_calibration": 6,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k4-seed29",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 29,
+      "shots": 4,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0093.JPG",
+        "pcb2/Data/Images/Normal/0737.JPG",
+        "pcb2/Data/Images/Normal/0197.JPG",
+        "pcb2/Data/Images/Normal/0309.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0896.JPG",
+        "pcb2/Data/Images/Normal/0760.JPG",
+        "pcb2/Data/Images/Normal/0758.JPG",
+        "pcb2/Data/Images/Normal/0957.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0552.JPG",
+        "pcb2/Data/Images/Normal/0569.JPG",
+        "pcb2/Data/Images/Normal/0674.JPG",
+        "pcb2/Data/Images/Normal/0797.JPG",
+        "pcb2/Data/Images/Normal/0920.JPG",
+        "pcb2/Data/Images/Normal/0779.JPG",
+        "pcb2/Data/Images/Normal/0174.JPG",
+        "pcb2/Data/Images/Normal/0261.JPG",
+        "pcb2/Data/Images/Normal/0320.JPG",
+        "pcb2/Data/Images/Normal/0871.JPG",
+        "pcb2/Data/Images/Anomaly/062.JPG",
+        "pcb2/Data/Images/Anomaly/013.JPG",
+        "pcb2/Data/Images/Anomaly/012.JPG",
+        "pcb2/Data/Images/Anomaly/082.JPG",
+        "pcb2/Data/Images/Anomaly/075.JPG",
+        "pcb2/Data/Images/Anomaly/029.JPG",
+        "pcb2/Data/Images/Anomaly/084.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG",
+        "pcb2/Data/Images/Anomaly/086.JPG",
+        "pcb2/Data/Images/Anomaly/035.JPG"
+      ],
+      "k_plus_calibration": 8,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k8-seed29",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 29,
+      "shots": 8,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0093.JPG",
+        "pcb2/Data/Images/Normal/0737.JPG",
+        "pcb2/Data/Images/Normal/0197.JPG",
+        "pcb2/Data/Images/Normal/0309.JPG",
+        "pcb2/Data/Images/Normal/0218.JPG",
+        "pcb2/Data/Images/Normal/0466.JPG",
+        "pcb2/Data/Images/Normal/0131.JPG",
+        "pcb2/Data/Images/Normal/0361.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0896.JPG",
+        "pcb2/Data/Images/Normal/0760.JPG",
+        "pcb2/Data/Images/Normal/0758.JPG",
+        "pcb2/Data/Images/Normal/0957.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0552.JPG",
+        "pcb2/Data/Images/Normal/0569.JPG",
+        "pcb2/Data/Images/Normal/0674.JPG",
+        "pcb2/Data/Images/Normal/0797.JPG",
+        "pcb2/Data/Images/Normal/0920.JPG",
+        "pcb2/Data/Images/Normal/0779.JPG",
+        "pcb2/Data/Images/Normal/0174.JPG",
+        "pcb2/Data/Images/Normal/0261.JPG",
+        "pcb2/Data/Images/Normal/0320.JPG",
+        "pcb2/Data/Images/Normal/0871.JPG",
+        "pcb2/Data/Images/Anomaly/062.JPG",
+        "pcb2/Data/Images/Anomaly/013.JPG",
+        "pcb2/Data/Images/Anomaly/012.JPG",
+        "pcb2/Data/Images/Anomaly/082.JPG",
+        "pcb2/Data/Images/Anomaly/075.JPG",
+        "pcb2/Data/Images/Anomaly/029.JPG",
+        "pcb2/Data/Images/Anomaly/084.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG",
+        "pcb2/Data/Images/Anomaly/086.JPG",
+        "pcb2/Data/Images/Anomaly/035.JPG"
+      ],
+      "k_plus_calibration": 12,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k1-seed43",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 43,
+      "shots": 1,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0522.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0896.JPG",
+        "pcb2/Data/Images/Normal/0760.JPG",
+        "pcb2/Data/Images/Normal/0758.JPG",
+        "pcb2/Data/Images/Normal/0957.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0552.JPG",
+        "pcb2/Data/Images/Normal/0569.JPG",
+        "pcb2/Data/Images/Normal/0674.JPG",
+        "pcb2/Data/Images/Normal/0797.JPG",
+        "pcb2/Data/Images/Normal/0920.JPG",
+        "pcb2/Data/Images/Normal/0779.JPG",
+        "pcb2/Data/Images/Normal/0174.JPG",
+        "pcb2/Data/Images/Normal/0261.JPG",
+        "pcb2/Data/Images/Normal/0320.JPG",
+        "pcb2/Data/Images/Normal/0871.JPG",
+        "pcb2/Data/Images/Anomaly/062.JPG",
+        "pcb2/Data/Images/Anomaly/013.JPG",
+        "pcb2/Data/Images/Anomaly/012.JPG",
+        "pcb2/Data/Images/Anomaly/082.JPG",
+        "pcb2/Data/Images/Anomaly/075.JPG",
+        "pcb2/Data/Images/Anomaly/029.JPG",
+        "pcb2/Data/Images/Anomaly/084.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG",
+        "pcb2/Data/Images/Anomaly/086.JPG",
+        "pcb2/Data/Images/Anomaly/035.JPG"
+      ],
+      "k_plus_calibration": 5,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k2-seed43",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 43,
+      "shots": 2,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0522.JPG",
+        "pcb2/Data/Images/Normal/0854.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0896.JPG",
+        "pcb2/Data/Images/Normal/0760.JPG",
+        "pcb2/Data/Images/Normal/0758.JPG",
+        "pcb2/Data/Images/Normal/0957.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0552.JPG",
+        "pcb2/Data/Images/Normal/0569.JPG",
+        "pcb2/Data/Images/Normal/0674.JPG",
+        "pcb2/Data/Images/Normal/0797.JPG",
+        "pcb2/Data/Images/Normal/0920.JPG",
+        "pcb2/Data/Images/Normal/0779.JPG",
+        "pcb2/Data/Images/Normal/0174.JPG",
+        "pcb2/Data/Images/Normal/0261.JPG",
+        "pcb2/Data/Images/Normal/0320.JPG",
+        "pcb2/Data/Images/Normal/0871.JPG",
+        "pcb2/Data/Images/Anomaly/062.JPG",
+        "pcb2/Data/Images/Anomaly/013.JPG",
+        "pcb2/Data/Images/Anomaly/012.JPG",
+        "pcb2/Data/Images/Anomaly/082.JPG",
+        "pcb2/Data/Images/Anomaly/075.JPG",
+        "pcb2/Data/Images/Anomaly/029.JPG",
+        "pcb2/Data/Images/Anomaly/084.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG",
+        "pcb2/Data/Images/Anomaly/086.JPG",
+        "pcb2/Data/Images/Anomaly/035.JPG"
+      ],
+      "k_plus_calibration": 6,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k4-seed43",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 43,
+      "shots": 4,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0522.JPG",
+        "pcb2/Data/Images/Normal/0854.JPG",
+        "pcb2/Data/Images/Normal/0726.JPG",
+        "pcb2/Data/Images/Normal/0851.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0896.JPG",
+        "pcb2/Data/Images/Normal/0760.JPG",
+        "pcb2/Data/Images/Normal/0758.JPG",
+        "pcb2/Data/Images/Normal/0957.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0552.JPG",
+        "pcb2/Data/Images/Normal/0569.JPG",
+        "pcb2/Data/Images/Normal/0674.JPG",
+        "pcb2/Data/Images/Normal/0797.JPG",
+        "pcb2/Data/Images/Normal/0920.JPG",
+        "pcb2/Data/Images/Normal/0779.JPG",
+        "pcb2/Data/Images/Normal/0174.JPG",
+        "pcb2/Data/Images/Normal/0261.JPG",
+        "pcb2/Data/Images/Normal/0320.JPG",
+        "pcb2/Data/Images/Normal/0871.JPG",
+        "pcb2/Data/Images/Anomaly/062.JPG",
+        "pcb2/Data/Images/Anomaly/013.JPG",
+        "pcb2/Data/Images/Anomaly/012.JPG",
+        "pcb2/Data/Images/Anomaly/082.JPG",
+        "pcb2/Data/Images/Anomaly/075.JPG",
+        "pcb2/Data/Images/Anomaly/029.JPG",
+        "pcb2/Data/Images/Anomaly/084.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG",
+        "pcb2/Data/Images/Anomaly/086.JPG",
+        "pcb2/Data/Images/Anomaly/035.JPG"
+      ],
+      "k_plus_calibration": 8,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    },
+    {
+      "id": "visa-pcb2-k8-seed43",
+      "dataset": "visa",
+      "category": "pcb2",
+      "role": "validation",
+      "seed": 43,
+      "shots": 8,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0522.JPG",
+        "pcb2/Data/Images/Normal/0854.JPG",
+        "pcb2/Data/Images/Normal/0726.JPG",
+        "pcb2/Data/Images/Normal/0851.JPG",
+        "pcb2/Data/Images/Normal/0801.JPG",
+        "pcb2/Data/Images/Normal/0441.JPG",
+        "pcb2/Data/Images/Normal/0152.JPG",
+        "pcb2/Data/Images/Normal/0537.JPG"
+      ],
+      "calibration_ids": [
+        "pcb2/Data/Images/Normal/0896.JPG",
+        "pcb2/Data/Images/Normal/0760.JPG",
+        "pcb2/Data/Images/Normal/0758.JPG",
+        "pcb2/Data/Images/Normal/0957.JPG"
+      ],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0552.JPG",
+        "pcb2/Data/Images/Normal/0569.JPG",
+        "pcb2/Data/Images/Normal/0674.JPG",
+        "pcb2/Data/Images/Normal/0797.JPG",
+        "pcb2/Data/Images/Normal/0920.JPG",
+        "pcb2/Data/Images/Normal/0779.JPG",
+        "pcb2/Data/Images/Normal/0174.JPG",
+        "pcb2/Data/Images/Normal/0261.JPG",
+        "pcb2/Data/Images/Normal/0320.JPG",
+        "pcb2/Data/Images/Normal/0871.JPG",
+        "pcb2/Data/Images/Anomaly/062.JPG",
+        "pcb2/Data/Images/Anomaly/013.JPG",
+        "pcb2/Data/Images/Anomaly/012.JPG",
+        "pcb2/Data/Images/Anomaly/082.JPG",
+        "pcb2/Data/Images/Anomaly/075.JPG",
+        "pcb2/Data/Images/Anomaly/029.JPG",
+        "pcb2/Data/Images/Anomaly/084.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG",
+        "pcb2/Data/Images/Anomaly/086.JPG",
+        "pcb2/Data/Images/Anomaly/035.JPG"
+      ],
+      "k_plus_calibration": 12,
+      "strict_k_image_few_shot": false,
+      "support_views": [
+        "identity"
+      ]
+    }
+  ],
+  "category_roles": {
+    "mvtec_ad": {
+      "meta_training": [
+        "carpet",
+        "grid",
+        "leather",
+        "tile",
+        "wood"
+      ],
+      "validation": [
+        "cable",
+        "hazelnut",
+        "transistor"
+      ],
+      "calibration": [
+        "capsule",
+        "screw",
+        "toothbrush"
+      ],
+      "final_test": [
+        "bottle",
+        "metal_nut",
+        "pill",
+        "zipper"
+      ]
+    },
+    "visa": {
+      "meta_training": [
+        "candle",
+        "cashew",
+        "chewinggum",
+        "macaroni1",
+        "pcb1"
+      ],
+      "validation": [
+        "macaroni2",
+        "pcb2"
+      ],
+      "calibration": [
+        "fryum",
+        "pcb3"
+      ],
+      "final_test": [
+        "capsules",
+        "pcb4",
+        "pipe_fryum"
+      ]
+    }
+  },
+  "metric_geometry": "256x256 bilinear score maps; nearest-neighbor native binary masks",
+  "calibration_domain": "source normal plus CutPaste proxy error; native transfer unverified",
+  "protocol": "support/cutoffs fitted on normal training images; evaluation labels accessed after scoring"
+}

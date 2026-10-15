@@ -1,162 +1,175 @@
-# SAFAL research: register-DINO search with a measured PCA correction
+# SAFAL: Register-DINO Search with PCA Correction
 
-## New completed hybrid study — 15 October 2026
+Few-shot industrial image anomaly detection and localization on **MVTec AD**
+and **VisA**. This repository follows the experiment-oriented organization
+of [VisionAD](https://github.com/Qiqigeww/VisionAD): public model modules,
+native dataset classes, simple fitting/testing scripts and dataset-specific
+entry points. Existing SAFAL fitted banks remain compatible.
 
-[Download code and fixed example model](https://github.com/ennayriomar/newpr/raw/refs/heads/main/vision_hybrid_20261015.zip) · [Measured report](results/vision_hybrid_20261015/report.md) · [Method and commands](framework/docs/vision_hybrid.md) · [All banks and raw outputs](results/vision_hybrid_20261015_archive)
+[Download source ZIP](https://github.com/ennayriomar/newpr/raw/refs/heads/main/safal_visionad_style_code.zip)
+· [Training guide](docs/TRAINING.md)
+· [Measured study](https://github.com/ennayriomar/newpr/blob/0d0b1db6c0133d3876bd18cc9920f930dfeb2519/results/vision_hybrid_20261015/report.md)
+· [Previous model download](https://github.com/ennayriomar/newpr/raw/0d0b1db6c0133d3876bd18cc9920f930dfeb2519/vision_hybrid_20261015.zip)
 
-This independent implementation uses real frozen DINOv2 ViT-L/14 with four
-registers, 392-pixel crops, the raw mean of blocks 4–18, six normal support
-augmentations and three search slots. Each target bank uses **one original
-normal image and zero extra target calibration images**. The finite 25-cell
-development search considered global/local PCA and uniform/residual gates;
-the winner is **one global PCA, 95% retained variance, strength 0.5, uniform
-gate**. Search and normalized PCA residual are added. The foundation model is
-frozen; this is not LLM training.
-Parameter selection uses 50 normal and 50 anomalous source-category development
-images and masks; target-bank fitting uses only the single target normal.
+## 1. Method
 
-The parameters were frozen before evaluation on 100 available-history-excluded
-image IDs from five categories outside this study's selection categories,
-repeated across two support draws (200 paired cases). Some categories have
-historical prototype exposure. Mean within-category/draw image AUROC is
-**97.80% search → 98.70% hybrid**;
-the paired conditional 95% difference interval is
-[-0.50, +3.00] percentage points.
-Accuracy at the same source-category cutoff is 78.50% →
-75.50%; pixel AP is 0.4705 →
-0.5020. There are
-0 lost baseline anomaly alerts,
-42 recovered anomaly cases and
-48 added false alarms.
-**The accuracy-improvement goal was not met.** A higher ranking score does not
-resolve the large false-alarm increase at the shared cutoff; the AUROC interval
-includes zero. This candidate is a research result, not an accuracy upgrade.
-Maps and localization metrics cover only the center crop. Scores are not
-probabilities, and the source-normal cutoff carries no target FPR guarantee.
+The frozen DINOv2 ViT-L/14 register encoder averages raw blocks 4–18. Normal
+references receive six support augmentations in three scoring slots. The
+search branch uses exact cosine patch matching; the PCA branch adds a
+normalized residual. The source-selected preset uses one global PCA,
+95% retained variance, strength 0.5 and a uniform gate. Its operational
+cutoff comes from separate source-category normal images.
 
-This bounded CPU study does **not** establish superiority over the paper's
-full-dataset AUROC. The full 27-category, five-seed, 1/2/4-shot benchmark was
-not run. A standalone reference benchmark driver is provided for that work.
-The selected stronger feature pipeline must not be numerically compared to
-older SAFAL pilots as if their images and support budgets matched.
-
-The ZIP contains complete code, tests, licensed Meta source and the fixed
-bottle/seed17 example bank. The complete archive contains all 20 fitted banks,
-raw branches, feature probes, 200 maps, frozen manifests and audit/reproduction
-code. Dataset images and the external 1.22 GB checkpoint are separate. Follow
-the ZIP README for setup and portable inference. Complete archive downloads
-use `framework/download_vision_hybrid_results.py --ref PAYLOAD_COMMIT --extract`;
-the immutable payload commit is recorded in the publication record.
-
-### Verified immutable downloads
-
-- [Full code and example-model ZIP](https://github.com/ennayriomar/newpr/raw/0d0b1db6c0133d3876bd18cc9920f930dfeb2519/vision_hybrid_20261015.zip)
-- [Measured study report](https://github.com/ennayriomar/newpr/blob/0d0b1db6c0133d3876bd18cc9920f930dfeb2519/results/vision_hybrid_20261015/report.md)
-- [All banks, maps and audit outputs](https://github.com/ennayriomar/newpr/tree/0d0b1db6c0133d3876bd18cc9920f930dfeb2519/results/vision_hybrid_20261015_archive)
-
-The public ZIP and every complete-archive part were downloaded and SHA256
-verified. Download all banks without cloning the repository:
-
-```bash
-python framework/download_vision_hybrid_results.py --ref 0d0b1db6c0133d3876bd18cc9920f930dfeb2519 --extract
+```mermaid
+flowchart LR
+    S[Normal reference images] --> A[Support augmentation]
+    A --> E[Frozen register DINOv2]
+    Q[Query image] --> E
+    E --> N[Cosine patch search]
+    E --> P[PCA residual]
+    N --> F[Aligned additive map]
+    P --> F
+    F --> I[Top 1% image score]
+    F --> M[Cropped ROI anomaly map]
 ```
 
-The ZIP contains the same downloader at `tools/download_vision_hybrid_results.py`.
-Run it from the ZIP's `tools` directory without the `framework/` prefix.
-See `results/vision_hybrid_20261015/PUBLIC_VERIFICATION.json` for byte hashes.
+Target-bank fitting uses only normal references. The preset selection used
+50 normal and 50 anomalous source-category development images plus masks.
+This independent research hybrid is not a claimed new state of the art or a
+reproduction of the full VisionAD benchmark.
 
-All historical results and fitted-model artifact trees below are preserved.
+## 2. Repository structure
 
-# SAFAL: measured parameter tuning and trained vision models
-
-## Paper-informed tuning — 14 October 2026
-
-[Download updated code and five example banks](https://github.com/ennayriomar/newpr/raw/refs/heads/main/safal_tuned_20261014.zip) · [Measured report](results/safal_tuning_20261014/report.md) · [Parameter guide](framework/docs/parameter_tuning.md) · [All 15 primary model banks](trained_models/safal_tuned_20261014) · [Complete archive](results/safal_tuning_20261014_archive)
-
-The new independent module evaluated 768 scoring configurations, selected one global hybrid using 100 development images and a zero detected-to-missed constraint against both k4 controls, then compared two isolated feature changes. One hundred separate, prelocked image IDs were checked after the configuration was frozen. Both cohorts use five previously studied categories, three support draws, four original normal references plus four extra normal calibration images. The encoder is real frozen DINOv2 ViT-B/14 on CPU; this is computer-vision parameter selection, not LLM or backbone fine-tuning.
-
-The selected configuration retains 99% PCA variance, uses a 90th-percentile normal cutoff, top1% image aggregation and fixed 75% cosine-search /25% raw-PCA fusion at image threshold 1. The 224-pixel mixed-layer representation remained selected; the late-layer and 336-pixel variants lost previously detected development cases and were rejected. Adequacy/uncertainty remain diagnostics, and the old probability head is omitted.
-
-Development accuracy is 81.33% versus 81.00% original SAFAL and 80.00% fixed averaging. Verification accuracy is 77.33% for the tuned hybrid, 76.33% for original SAFAL and 77.67% for fixed averaging. The paired 95% accuracy intervals include zero: improvement is not established. The tuned model recovers seven previously missed original-SAFAL anomaly cases with zero original-SAFAL detection losses, but adds four false alarms; versus fixed averaging it loses 3 detections and recovers 3. Class counts, localization and conditional intervals are in the measured report. These are 100 unique images repeated across support draws, not 300 independent images. This conditional image check within development-exposed categories does not establish a full benchmark, production reliability or SOTA. The compact ZIP containsfixed k4/seed17 example banks, while all 15 primary banks and full raw-score/map audit outputs are retained separately. Superseded development-only attempts are preserved with notices in the complete archive. Dataset images and pretrained backbone binaries are separate.
-
-# SAFAL research: trained models and measured results
-
-## Training and evaluation — 14 October 2026
-
-[Download trained model ZIP](https://github.com/ennayriomar/newpr/raw/refs/heads/main/safal_trained_20261014.zip) · [Checksum](safal_trained_20261014.zip.sha256) · [Measured report](results/safal_training_20261014/verification/analysis/report.md) · [Trained example banks](trained_models/safal_20261014) · [All fitted banks and maps](results/safal_training_20261014_archive)
-
-The actual run fitted 60 target-reference/PCA configurations plus 10 source configurations and learned a logistic error-estimation head on 320 source normal/CutPaste rows from 160 original parents. Another 80 rows from 40 separate parents were held out from fitting. The real DINOv2 encoder stayed frozen; this was SAFAL computer-vision training, not LLM fine-tuning.
-
-Development validation used 100 unique real MVTec AD/VisA images across five categories, k1/2/4/8 and three draws. These produce 1,200 correlated inspections and 6,000 five-method records. Native labels did not fit model parameters or cutoffs. Eighteen query IDs appeared in the audited earlier runs; no pristine final-test claim is made. Per-category/shot metrics, uncertainty intervals, calibration limits and actual trained-artifact audits are linked above. This is not a full dataset benchmark or production reliability guarantee.
-
-Mean episode image accuracy: SAFAL 0.766667, fixed average 0.761667, subspace 0.740000. Read the full report for paired comparisons, localization and coverage. Five compact k4/seed17 models were selected by a predeclared support count/draw, not by validation performance. The complete result archive retains all 70 fitted banks, 60 probes and 1,200 metric-map arrays. Raw images, feature caches and pretrained backbone binaries are separate.
-
-# SAFAL industrial anomaly research
-
-## Full model v0.5.0
-
-[Download the complete model/code ZIP](https://github.com/ennayriomar/newpr/raw/refs/heads/main/safal_full_model_v0.5.0.zip) · [SHA256 checksum](safal_full_model_v0.5.0.zip.sha256) · [Full model guide](framework/docs/full_model.md) · [Measured research report](results/safal_full_model/research_report.md) · [Complete checkpoint/map outputs](results/safal_full_model_archive)
-
-The runnable implementation includes a verified frozen DINOv2 encoder, raw PCA and cosine-search branches, fixed/max/adaptive fusion, support diagnostics, uncertainty, separate source-proxy error calibration, JSON/NPZ checkpoints and train/evaluate/predict commands. The ZIP includes two genuinely fitted k2 examples, all source/configurations/tests, pinned licensed vendor sources and compact measured reports. Pretrained encoder weights and datasets are separate checksum-verified downloads. Read BUNDLE_README.md after extraction.
-
-All **159 unit/contract tests passed**. The actual pretrained pilot completed 16 episodes and 320 method records from **eight unique native images**, with k1/2/4/8, two draws and k+4 normal-information budgets. All 20 serialized models were audited; 16 query replays reproduced image scores and 11 metric-map fields exactly. Two cache-bypassed real-feature probes and separate fresh Git and plain vendor checks passed. Train/evaluate/nativepredict/verifiedresume commands passed. These are current-instance checks, not a full published benchmark or a fresh environment restoration.
-
-SAFAL accuracy matched fixed averaging (0.9375) and fell below the PCA branch (0.96875). **Higher accuracy is not established.** Adequacy/uncertainty are bounded compatibility diagnostics. Error estimates are fitted on source normal/CutPaste proxy events; native reliability and calibration are unverified. Evaluation maps are resized 256x256; the predict command exports native maps.
-
-The separate result archive retains every fitted source/target bank, query replay probe and metric score-map array, with SHA256-verified 8 MiB parts and an automatic downloader. Earlier uploads remain preserved below. Real-IAD, full MVTec/VisA/AD2 benchmarks and private AD2 server scoring remain unrun.
-
-## Historical SAFAL Phase A foundation audit
-
-[Read the Phase A report](framework/docs/phase_a_report.md) · [Literature review](framework/docs/literature_review.md) · [Research gap](framework/docs/research_gap.md) · [Staged implementation plan](framework/docs/implementation_plan.md) · [Download the audit documents](https://github.com/ennayriomar/newpr/raw/refs/heads/main/safal_phase_a_docs.zip)
-
-The historical Phase A audit documents official recipes, source versions, licenses, dataset availability, hardware and prior experimental limits. It preceded the executable full-model release above. Earlier code and complete result archives remain preserved; preliminary variants did not establish a robust accuracy gain or faithful published-method reproduction.
-
-## Historical Safe IAD research framework v0.4.0
-
-The research repository is `ennayriomar/newpr`. Executable Python source,
-configuration plans, tests and the CPU-runtime installer are under
-[`framework/`](framework/). The existing code bundle and complete result archive
-remain available; this framework addition preserves those earlier artifacts.
-
-[Download the full v0.4.0 source ZIP](https://github.com/ennayriomar/newpr/raw/refs/heads/main/safe_iad_full_code_v0.4.0.zip). This bundle
-includes the M1 fixed-shot baseline, M2 source-only counterfactual/acquisition
-tools, M3 learned-benefit feasibility tools, the strict normal-calibration hybrid
-pipeline, pinned official source snapshots, licenses and research documentation.
-
-Use Linux and Python 3.12 with the documented `/workspace` layout. Restore
-`framework/` as `/workspace/tools`, obtain the separate datasets and actual
-pretrained checkpoint, then run `bash /workspace/tools/install_runtime.sh`.
-Read the bundled installation guide before running an experiment. Copied reports
-are inspection artifacts; a fresh run needs verified inputs and a new output
-directory.
-
-This is research software. The M3 feasibility gate failed: improved mean utility
-was accompanied by four correlated newly missed defect inspections and reduced
-defect-pixel recall; matched omission controls did not establish the proposed
-false-alarm effect. Full experiments were stopped. All 97 unit/contract tests
-passed; actual artifact audit and two real-query reproduction probes are
-reported separately. No private AD 2 score, full benchmark
-completion or reliable production-inspection claim is implied by this upload.
-
-## Earlier Safe IAD code bundle
-
-[Download the full code ZIP](https://github.com/ennayriomar/newpr/raw/refs/heads/main/safe_iad_full_code.zip)
-
-The ZIP contains the framework, configs, tests, setup scripts, documentation, measured reports, and pinned dependency sources with their licenses. Datasets and pretrained weights are separate downloads. The included pilot results do not establish production reliability.
-
-Verify the download and extract it:
-
-```bash
-sha256sum -c safe_iad_full_code.zip.sha256
-unzip safe_iad_full_code.zip
+```text
+models/
+  uad.py                  # SAFAL search + PCA model
+  vit_encoder.py          # Frozen register-DINO encoder
+dataset.py                # Native MVTec AD / VisA Dataset classes
+utils.py                  # Paths, frozen configuration and integrity checks
+train.py                  # Fit one category's normal-reference bank
+test.py                   # Evaluate search baseline and hybrid
+predict.py                # Predict a single image
+hybrid_mvtec_test.py       # MVTec AD evaluation entry point
+hybrid_visa_test.py        # VisA evaluation entry point
+train_study.py            # Reproduce source selection and reserved study
+prepare.py                # Fetch verified official encoder assets
+prepare_data/             # Native dataset-layout instructions
+configs/                  # Encoder settings and frozen source-selection files
+tests/                    # New dataset / interface contract tests
+framework/                # Shared numerical implementation and legacy tests
+docs/                     # Training, compatibility and archived documentation
 ```
 
-Download the [SHA256 checksum](safe_iad_full_code.zip.sha256) into the same directory before running the verification command. Start with `safe_iad_full_code/BUNDLE_README.md` after extraction.
+Historical reports, ZIPs, archive parts and fitted banks retain their existing
+paths. They are excluded from the lightweight source ZIP.
 
-## Full results
+## 3. Environment
 
-[Browse reports and plots](results/README.md) · [Download reports and figures ZIP](https://github.com/ennayriomar/newpr/raw/refs/heads/main/safe_iad_reports.zip) · [Download the complete results archive](https://github.com/ennayriomar/newpr/tree/main/results_archive)
+Extract the **source ZIP**, or use a source-only Git checkout:
 
-The complete archive contains 4,580 result files (4.91 GB before compression), including raw anomaly maps and public prediction TIFFs. Use the automatic downloader, or download all numbered parts and verify the checksum file. Follow [the extraction instructions](results/RESULTS_README.md).
+```bash
+git clone --filter=blob:none --no-checkout https://github.com/ennayriomar/newpr.git SAFAL
+cd SAFAL
+git sparse-checkout set --no-cone '/*.py' '/*.sh' '/README.md' '/requirements.txt' '/.gitignore' '/models/' '/configs/' '/tests/' '/docs/' '/prepare_data/' '/framework/'
+git checkout main
+```
 
-The earlier strict hybrid run is a five-category pilot with 20 unique evaluation queries. The full 20-category and private AD 2 evaluations have not been run.
+Linux/WSL and Python 3.12:
+
+```bash
+bash setup_environment.sh
+source .venv/bin/activate
+python prepare.py --destination checkpoints
+```
+
+The default runtime is CPU. The separate official encoder weight file is
+1.22 GB and checksum-verified. CUDA requires a suitable GPU Torch build and
+freshly fitted banks; CPU verification does not establish GPU results.
+
+## 4. Prepare datasets
+
+Keep MVTec AD's original category/train/good, test and ground_truth folders.
+For VisA, retain the native Data folders, image_anno.csv and split_csv/1cls.csv.
+See [dataset instructions](prepare_data/README.md) for the exact layout and
+original download links. Set `--data_path` to your extracted dataset root.
+
+## 5. Train and evaluate
+
+Training fits the normal reference memory and PCA subspaces. The foundation
+encoder stays frozen; this method has no training epochs or optimizer.
+
+MVTec AD:
+
+```bash
+python train.py --dataset mvtec_ad --data_path data/mvtec_ad \
+  --category bottle --shots 1 --seed 17 --output runs/bottle
+python hybrid_mvtec_test.py --run-dir runs/bottle --localization --save-maps
+```
+
+VisA:
+
+```bash
+python train.py --dataset visa --data_path data/visa \
+  --category capsules --shots 1 --seed 17 --output runs/capsules
+python hybrid_visa_test.py --run-dir runs/capsules --localization
+```
+
+Use a new output directory per category/draw. `test.py --run-dir runs/bottle`
+is the generic evaluation command. `--max-images 2` performs an explicitly
+marked smoke subset. Training saves `model.json`, `model.npz` and
+`training.json`; evaluation writes metrics and per-image predictions.
+
+Commands for reproducing development selection are in the
+[training guide](docs/TRAINING.md). That known-cohort reproduction is separate
+from fitting a new category bank and is not a new independent validation.
+
+## 6. Predict
+
+```bash
+python predict.py --model runs/bottle/model --image /path/to/bottle.png \
+  --output runs/my_prediction
+```
+
+Prediction accepts no labels or masks. Maps cover the center-cropped ROI;
+outer borders are unscored. Scores are not calibrated probabilities.
+
+## 7. Actual measured results
+
+The earlier locked CPU study used 100 reserved image IDs across five
+categories and two support draws: 200 correlated query/draw cases.
+
+| Metric | Search baseline | Selected hybrid |
+|---|---:|---:|
+| Mean image AUROC | 97.80% | 98.70% |
+| Accuracy at shared source cutoff | 78.50% | 75.50% |
+| Mean cropped-ROI pixel AP | 0.4705 | 0.5020 |
+| Missed anomaly cases / 100 | 43 | 1 |
+| False alarms / 100 normal cases | 0 | 48 |
+
+**The accuracy-improvement goal was not met.** The conditional AUROC difference
+interval is −0.50 to +3.00 percentage points and includes zero. Additional
+false alarms offset recovered anomalies at the shared cutoff. This repository
+reorganization changes the interface, not those scientific results. The full
+27-category/five-draw/1–2–4-shot benchmark has not been run.
+
+[All 20 fitted banks and raw study outputs](https://github.com/ennayriomar/newpr/tree/0d0b1db6c0133d3876bd18cc9920f930dfeb2519/results/vision_hybrid_20261015_archive)
+are retained separately. The archive downloader is
+`framework/download_vision_hybrid_results.py`. MVTec-derived banks retain
+noncommercial CC BY-NC-SA 4.0 conditions; VisA-derived banks retain CC BY 4.0.
+
+## 8. Validation and references
+
+```bash
+python -m unittest discover -s tests -v
+PYTHONPATH=framework python -m unittest discover -s framework/tests -v
+```
+
+See [layout and compatibility](docs/REPOSITORY_LAYOUT.md) for the mapping to
+the reference structure. The previous root README is preserved under
+`docs/archive` and in Git history. Source organization is inspired by VisionAD;
+its repository code is not redistributed here.
+
+- [VisionAD: Search is All You Need for Few-shot Anomaly Detection](https://arxiv.org/abs/2504.11895)
+- [DINOv2](https://arxiv.org/abs/2304.07193)
+- [MVTec AD](https://www.mvtec.com/research-teaching/datasets/mvtec-ad)
+- [VisA / SPot-the-Difference](https://github.com/amazon-science/spot-diff)

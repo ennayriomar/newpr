@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "interface_tests": 8,
+  "legacy_tests": 198,
+  "total_tests": 206,
+  "real_normal_reference_fit": true,
+  "fixed_reference_id": "bottle/train/good/038.png",
+  "support_bank_byte_identical_to_previous": true,
+  "support_bank_sha256": "78eceb8a82304b328d7dd2ed5e724dff4d7e1ae4501f58cba92326d47c689e17",
+  "real_prediction_query_id": "bottle/test/good/008.png",
+  "real_prediction_score": 1.2173429727554321,
+  "prediction_score_abs_error": 0.0,
+  "prediction_map_max_abs_error": 0.0,
+  "dataset_entry_point_smoke_queries": 2,
+  "smoke_subset_marked": true,
+  "interface_hashes": {
+    "utils.py": "0d593637366abcb4028b2119ca4f4d427bfd6ddce1f535531f9b0affcbd386e9",
+    "dataset.py": "772b7537b0c8262c98da37d5470ed0d68440695656243ede1884ebf958e8ba3d",
+    "models/uad.py": "6ab81313f56663c50443a82e1d876b914f5a8c6f79421ae6959ac4002340abcd",
+    "models/vit_encoder.py": "8fcb9b474dee49c1b15dfc919c277a27b3f20dba4dd5b087756940edd39dfa44",
+    "train.py": "ad3aa0724373d80334fa53e90bc43f1eb429011915756770b60398932d254ac5",
+    "test.py": "f2ffb1583c9c18d052a5d8211a5f80cbeac9d08ece9414cf19ed2c9eb86c27d7",
+    "predict.py": "9d1da240f94e54db1dcd327d2f81b4033e9b3e934c43772173dc5c832966bcff"
+  },
+  "old_fitted_banks_and_scientific_results_changed": false,
+  "reference_layout_repository": "Qiqigeww/VisionAD",
+  "reference_layout_commit": "2d5e36f357409125ccd9646ba016824005599df4",
+  "reference_source_copied": false,
+  "full_benchmark_run_for_reorganization": false,
+  "scope": "Interface and checkpoint compatibility verification on known images, not a new accuracy experiment.",
+  "study_plan_entry_point_checked": true,
+  "original_study_support_and_query_ids_preserved": true
+}
