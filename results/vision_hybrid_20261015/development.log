@@ -1,0 +1,137 @@
+/workspace/.cache/dinov2-source/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/workspace/.cache/dinov2-source/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/workspace/.cache/dinov2-source/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+FEATURES development mvtec_ad cable 1/20
+FEATURES development mvtec_ad cable 2/20
+FEATURES development mvtec_ad cable 3/20
+FEATURES development mvtec_ad cable 4/20
+FEATURES development mvtec_ad cable 5/20
+FEATURES development mvtec_ad cable 6/20
+FEATURES development mvtec_ad cable 7/20
+FEATURES development mvtec_ad cable 8/20
+FEATURES development mvtec_ad cable 9/20
+FEATURES development mvtec_ad cable 10/20
+FEATURES development mvtec_ad cable 11/20
+FEATURES development mvtec_ad cable 12/20
+FEATURES development mvtec_ad cable 13/20
+FEATURES development mvtec_ad cable 14/20
+FEATURES development mvtec_ad cable 15/20
+FEATURES development mvtec_ad cable 16/20
+FEATURES development mvtec_ad cable 17/20
+FEATURES development mvtec_ad cable 18/20
+FEATURES development mvtec_ad cable 19/20
+FEATURES development mvtec_ad cable 20/20
+SUPPORT development mvtec_ad-cable-k1-seed17
+FITTED mvtec_ad-cable-k1-seed17 seconds 1.7920576239703223
+SUPPORT development mvtec_ad-cable-k1-seed29
+FITTED mvtec_ad-cable-k1-seed29 seconds 1.7295773759833537
+FEATURES development mvtec_ad hazelnut 1/20
+FEATURES development mvtec_ad hazelnut 2/20
+FEATURES development mvtec_ad hazelnut 3/20
+FEATURES development mvtec_ad hazelnut 4/20
+FEATURES development mvtec_ad hazelnut 5/20
+FEATURES development mvtec_ad hazelnut 6/20
+FEATURES development mvtec_ad hazelnut 7/20
+FEATURES development mvtec_ad hazelnut 8/20
+FEATURES development mvtec_ad hazelnut 9/20
+FEATURES development mvtec_ad hazelnut 10/20
+FEATURES development mvtec_ad hazelnut 11/20
+FEATURES development mvtec_ad hazelnut 12/20
+FEATURES development mvtec_ad hazelnut 13/20
+FEATURES development mvtec_ad hazelnut 14/20
+FEATURES development mvtec_ad hazelnut 15/20
+FEATURES development mvtec_ad hazelnut 16/20
+FEATURES development mvtec_ad hazelnut 17/20
+FEATURES development mvtec_ad hazelnut 18/20
+FEATURES development mvtec_ad hazelnut 19/20
+FEATURES development mvtec_ad hazelnut 20/20
+SUPPORT development mvtec_ad-hazelnut-k1-seed17
+FITTED mvtec_ad-hazelnut-k1-seed17 seconds 1.7102777280379087
+SUPPORT development mvtec_ad-hazelnut-k1-seed29
+FITTED mvtec_ad-hazelnut-k1-seed29 seconds 1.730015708017163
+FEATURES development mvtec_ad transistor 1/20
+FEATURES development mvtec_ad transistor 2/20
+FEATURES development mvtec_ad transistor 3/20
+FEATURES development mvtec_ad transistor 4/20
+FEATURES development mvtec_ad transistor 5/20
+FEATURES development mvtec_ad transistor 6/20
+FEATURES development mvtec_ad transistor 7/20
+FEATURES development mvtec_ad transistor 8/20
+FEATURES development mvtec_ad transistor 9/20
+FEATURES development mvtec_ad transistor 10/20
+FEATURES development mvtec_ad transistor 11/20
+FEATURES development mvtec_ad transistor 12/20
+FEATURES development mvtec_ad transistor 13/20
+FEATURES development mvtec_ad transistor 14/20
+FEATURES development mvtec_ad transistor 15/20
+FEATURES development mvtec_ad transistor 16/20
+FEATURES development mvtec_ad transistor 17/20
+FEATURES development mvtec_ad transistor 18/20
+FEATURES development mvtec_ad transistor 19/20
+FEATURES development mvtec_ad transistor 20/20
+SUPPORT development mvtec_ad-transistor-k1-seed17
+FITTED mvtec_ad-transistor-k1-seed17 seconds 1.6444126419955865
+SUPPORT development mvtec_ad-transistor-k1-seed29
+FITTED mvtec_ad-transistor-k1-seed29 seconds 1.6807535690022632
+FEATURES development visa macaroni2 1/20
+FEATURES development visa macaroni2 2/20
+FEATURES development visa macaroni2 3/20
+FEATURES development visa macaroni2 4/20
+FEATURES development visa macaroni2 5/20
+FEATURES development visa macaroni2 6/20
+FEATURES development visa macaroni2 7/20
+FEATURES development visa macaroni2 8/20
+FEATURES development visa macaroni2 9/20
+FEATURES development visa macaroni2 10/20
+FEATURES development visa macaroni2 11/20
+FEATURES development visa macaroni2 12/20
+FEATURES development visa macaroni2 13/20
+FEATURES development visa macaroni2 14/20
+FEATURES development visa macaroni2 15/20
+FEATURES development visa macaroni2 16/20
+FEATURES development visa macaroni2 17/20
+FEATURES development visa macaroni2 18/20
+FEATURES development visa macaroni2 19/20
+FEATURES development visa macaroni2 20/20
+SUPPORT development visa-macaroni2-k1-seed17
+FITTED visa-macaroni2-k1-seed17 seconds 1.6666722849477082
+SUPPORT development visa-macaroni2-k1-seed29
+FITTED visa-macaroni2-k1-seed29 seconds 1.5005373380263336
+FEATURES development visa pcb2 1/20
+FEATURES development visa pcb2 2/20
+FEATURES development visa pcb2 3/20
+FEATURES development visa pcb2 4/20
+FEATURES development visa pcb2 5/20
+FEATURES development visa pcb2 6/20
+FEATURES development visa pcb2 7/20
+FEATURES development visa pcb2 8/20
+FEATURES development visa pcb2 9/20
+FEATURES development visa pcb2 10/20
+FEATURES development visa pcb2 11/20
+FEATURES development visa pcb2 12/20
+FEATURES development visa pcb2 13/20
+FEATURES development visa pcb2 14/20
+FEATURES development visa pcb2 15/20
+FEATURES development visa pcb2 16/20
+FEATURES development visa pcb2 17/20
+FEATURES development visa pcb2 18/20
+FEATURES development visa pcb2 19/20
+FEATURES development visa pcb2 20/20
+SUPPORT development visa-pcb2-k1-seed17
+FITTED visa-pcb2-k1-seed17 seconds 1.624163024011068
+SUPPORT development visa-pcb2-k1-seed29
+FITTED visa-pcb2-k1-seed29 seconds 1.96136001101695
+DEVELOPMENT METRICS ('mvtec_ad', 'cable', 17)
+DEVELOPMENT METRICS ('mvtec_ad', 'cable', 29)
+DEVELOPMENT METRICS ('mvtec_ad', 'hazelnut', 17)
+DEVELOPMENT METRICS ('mvtec_ad', 'hazelnut', 29)
+DEVELOPMENT METRICS ('mvtec_ad', 'transistor', 17)
+DEVELOPMENT METRICS ('mvtec_ad', 'transistor', 29)
+DEVELOPMENT METRICS ('visa', 'macaroni2', 17)
+DEVELOPMENT METRICS ('visa', 'macaroni2', 29)
+DEVELOPMENT METRICS ('visa', 'pcb2', 17)
+DEVELOPMENT METRICS ('visa', 'pcb2', 29)
+SELECTION LOCKED {"winner": {"id": "d74241e7ae1e21219e147a3c2056127955b941fac996f2367acaace9e7c2a9f2", "params": {"clusters": 1, "variance": 0.95, "strength": 0.5, "gate": "uniform"}, "mean_image_auroc": 0.9329999999999998, "mean_image_ap": 0.946521828146054, "mean_pixel_ap": 0.45645910801777506, "cases": 200, "source_development_only": true, "pixel_ap_guard_passed": true}, "baseline": {"id": "0f0f78e9662b721c81a9704801f3d8d990c58f06960f7eee67fc2362ba7666e4", "params": {"clusters": 1, "variance": 0.99, "strength": 0.0, "gate": "uniform"}, "mean_image_auroc": 0.9299999999999999, "mean_image_ap": 0.937688256188256, "mean_pixel_ap": 0.4416109967567342, "cases": 200, "source_development_only": true, "pixel_ap_guard_passed": true}, "params": {"clusters": 1, "variance": 0.95, "strength": 0.5, "gate": "uniform"}, "parameters_id": "d74241e7ae1e21219e147a3c2056127955b941fac996f2367acaace9e7c2a9f2", "image_threshold": 1.266317319869995, "pixel_threshold": 1.1265572309494019, "threshold_fit": "Image95th percentile and pixel99.5th percentile of baseline development-normal scores; separate fixed source-derived cutoffs shared by both methods", "normal_calibration_unique_images": 50, "threshold_target_extra_normal_images": 0, "verification_inference_seen": false, "verification_masks_seen": false, "primary": "Mean within-category/support-draw image AUROC", "pixel_guard": "Mean within-category/support-draw cropped256x256 pixel AP >= baseline", "tie_break": "Higher pixel AP, smaller correction strength, fewer subspaces, parameter SHA256"}

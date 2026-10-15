@@ -1,0 +1,6 @@
+torch==2.7.1+cpu
+filelock==3.32.3
+fsspec==2026.7.0
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+networkx==3.6.1

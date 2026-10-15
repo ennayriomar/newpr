@@ -1,0 +1,8 @@
+{
+  "status": "draft_saved_and_read_back",
+  "requires_publish": true,
+  "applied_or_published": false,
+  "existing_install_script_preserved": true,
+  "startup_workflow_added": "register-DINO/PCA hybrid; pinned weights; strict one-shot stages; portable prediction; no automatic study rerun",
+  "note": "Review and save changes in environment settings, then publish the environment to activate them."
+}

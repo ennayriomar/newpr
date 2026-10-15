@@ -1,0 +1,34 @@
+{
+  "reference_repository": "https://github.com/Qiqigeww/VisionAD",
+  "commit": "2d5e36f357409125ccd9646ba016824005599df4",
+  "inspection_only_no_upstream_code_distributed": true,
+  "inspected_files": {
+    "models/uad.py": {
+      "sha256": "e355943a57602f1341713c653df9d3ea21ba1bb9da5d863bd00ca6927f046a1d",
+      "url": "https://raw.githubusercontent.com/Qiqigeww/VisionAD/2d5e36f357409125ccd9646ba016824005599df4/models/uad.py"
+    },
+    "models/vit_encoder.py": {
+      "sha256": "214f204dd24bd5a5b9fcdada878601a3402838e72b2d064a7619a5815e56efdf",
+      "url": "https://raw.githubusercontent.com/Qiqigeww/VisionAD/2d5e36f357409125ccd9646ba016824005599df4/models/vit_encoder.py"
+    },
+    "dataset.py": {
+      "sha256": "5bb7bf0c1a10b4dbe7ebe1b27e8b39e3d6531bcfe70aa58c72af12b504373ef8",
+      "url": "https://raw.githubusercontent.com/Qiqigeww/VisionAD/2d5e36f357409125ccd9646ba016824005599df4/dataset.py"
+    },
+    "utils.py": {
+      "sha256": "563d7ebd262d8021b0feba735301f25a6f206bb77c8a7997cd5da8b5f168c0e5",
+      "url": "https://raw.githubusercontent.com/Qiqigeww/VisionAD/2d5e36f357409125ccd9646ba016824005599df4/utils.py"
+    },
+    "dade_mvtec_test.py": {
+      "sha256": "b6c473a23e6a31cb79a6e83e72454a4981caf136465f8dadd6ff10ee26ed66d7",
+      "url": "https://raw.githubusercontent.com/Qiqigeww/VisionAD/2d5e36f357409125ccd9646ba016824005599df4/dade_mvtec_test.py"
+    }
+  },
+  "numerical_evaluation": "Independent real metrics replace inspected visualization-only numerical placeholders.",
+  "declared_deviations": [
+    "Pinned licensed official Meta source instead of unlicensed repository fork.",
+    "Negative roundoff cosine distances clamped to0; sums accumulatefloat64 before float32 metric interpolation.",
+    "Binary masks use nearest interpolation in matching croppedROI instead of inspected default bilinear.",
+    "Fixed sorted support draws17/29 and bounded category/query cohorts, not authors full5-seed benchmark."
+  ]
+}

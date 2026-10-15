@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "version": "0.7.0",
+  "scope": "Bounded one-shot paired study; new verification image IDs and categories held out from this study parameter selection; some categories may have earlier prototype exposure. Not the full paper benchmark.",
+  "unique_verification_images": 100,
+  "paired_cases": 200,
+  "method_rows": 400,
+  "shots": 1,
+  "extra_target_calibration_images": 0,
+  "verification_support_draws": 2,
+  "methods": {
+    "baseline": {
+      "accuracy": 0.785,
+      "misses": 43,
+      "false_positives": 0,
+      "mean_image_auroc": 0.9780000000000001,
+      "mean_image_ap": 0.9819167499167498,
+      "localization": {
+        "pixel_auroc": 0.9272246216683563,
+        "pixel_ap": 0.4704513904162422,
+        "au_pro": 0.8841114852052636,
+        "iou": 0.268648708916654,
+        "pixel_f1": 0.41571355149111994
+      }
+    },
+    "hybrid": {
+      "accuracy": 0.755,
+      "misses": 1,
+      "false_positives": 48,
+      "mean_image_auroc": 0.9869999999999999,
+      "mean_image_ap": 0.9885205905205904,
+      "localization": {
+        "pixel_auroc": 0.9400675633358526,
+        "pixel_ap": 0.5019506570347986,
+        "au_pro": 0.9079597410146336,
+        "iou": 0.25603073419844974,
+        "pixel_f1": 0.40142391024697355
+      }
+    }
+  },
+  "selected": {
+    "winner": {
+      "id": "d74241e7ae1e21219e147a3c2056127955b941fac996f2367acaace9e7c2a9f2",
+      "params": {
+        "clusters": 1,
+        "variance": 0.95,
+        "strength": 0.5,
+        "gate": "uniform"
+      },
+      "mean_image_auroc": 0.9329999999999998,
+      "mean_image_ap": 0.946521828146054,
+      "mean_pixel_ap": 0.45645910801777506,
+      "cases": 200,
+      "source_development_only": true,
+      "pixel_ap_guard_passed": true
+    },
+    "baseline": {
+      "id": "0f0f78e9662b721c81a9704801f3d8d990c58f06960f7eee67fc2362ba7666e4",
+      "params": {
+        "clusters": 1,
+        "variance": 0.99,
+        "strength": 0.0,
+        "gate": "uniform"
+      },
+      "mean_image_auroc": 0.9299999999999999,
+      "mean_image_ap": 0.937688256188256,
+      "mean_pixel_ap": 0.4416109967567342,
+      "cases": 200,
+      "source_development_only": true,
+      "pixel_ap_guard_passed": true
+    },
+    "params": {
+      "clusters": 1,
+      "variance": 0.95,
+      "strength": 0.5,
+      "gate": "uniform"
+    },
+    "parameters_id": "d74241e7ae1e21219e147a3c2056127955b941fac996f2367acaace9e7c2a9f2",
+    "image_threshold": 1.266317319869995,
+    "pixel_threshold": 1.1265572309494019,
+    "threshold_fit": "Image95th percentile and pixel99.5th percentile of baseline development-normal scores; separate fixed source-derived cutoffs shared by both methods",
+    "normal_calibration_unique_images": 50,
+    "threshold_target_extra_normal_images": 0,
+    "verification_inference_seen": false,
+    "verification_masks_seen": false,
+    "primary": "Mean within-category/support-draw image AUROC",
+    "pixel_guard": "Mean within-category/support-draw cropped256x256 pixel AP >= baseline",
+    "tie_break": "Higher pixel AP, smaller correction strength, fewer subspaces, parameter SHA256"
+  },
+  "paired_image_auroc": {
+    "estimate": 0.009000000000000001,
+    "interval": [
+      -0.004999999999999999,
+      0.030024999999999868
+    ],
+    "n_bootstrap": 2000,
+    "seed": 20261015,
+    "scope": "Conditional paired query/support bootstrap; positive and negative queries resampled separately; categories fixed; two support draws limit replication."
+  },
+  "paired_accuracy": {
+    "estimate": -0.030000000000000006,
+    "interval": [
+      -0.16,
+      0.10012499999999934
+    ],
+    "groups": [
+      {
+        "dataset": "mvtec_ad",
+        "category": "bottle",
+        "estimate": 0.0,
+        "interval": [
+          -0.3512499999999978,
+          0.3
+        ],
+        "unique_queries": 20,
+        "support_draws": 2,
+        "paired_rows": 40,
+        "limited_replication": true
+      },
+      {
+        "dataset": "mvtec_ad",
+        "category": "metal_nut",
+        "estimate": -0.3,
+        "interval": [
+          -0.55,
+          0.0
+        ],
+        "unique_queries": 20,
+        "support_draws": 2,
+        "paired_rows": 40,
+        "limited_replication": true
+      },
+      {
+        "dataset": "mvtec_ad",
+        "category": "pill",
+        "estimate": -0.125,
+        "interval": [
+          -0.4,
+          0.15
+        ],
+        "unique_queries": 20,
+        "support_draws": 2,
+        "paired_rows": 40,
+        "limited_replication": true
+      },
+      {
+        "dataset": "visa",
+        "category": "capsules",
+        "estimate": 0.15,
+        "interval": [
+          -0.05,
+          0.35
+        ],
+        "unique_queries": 20,
+        "support_draws": 2,
+        "paired_rows": 40,
+        "limited_replication": true
+      },
+      {
+        "dataset": "visa",
+        "category": "pcb4",
+        "estimate": 0.125,
+        "interval": [
+          -0.25,
+          0.45
+        ],
+        "unique_queries": 20,
+        "support_draws": 2,
+        "paired_rows": 40,
+        "limited_replication": true
+      }
+    ],
+    "n_bootstrap": 2000,
+    "confidence_level": 0.95,
+    "seed": 20261015,
+    "method": "paired crossed query/support percentile bootstrap",
+    "aggregation": "equal weight across the fixed sampled dataset/category strata",
+    "resampling_units": [
+      "query_id",
+      "seed"
+    ],
+    "categories_resampled": false,
+    "scope": "conditional on sampled categories and observed query/support units; descriptive pilot uncertainty, not full-benchmark generalization",
+    "paired_input_semantics": "policy minus comparator per query/support draw; caller must preserve pairing",
+    "pixels_or_candidates_resampled": false
+  },
+  "transitions": {
+    "detected_to_missed": [],
+    "missed_to_detected": [
+      "mvtec_ad:bottle:17:bottle/test/contamination/016.png",
+      "mvtec_ad:bottle:17:bottle/test/contamination/004.png",
+      "mvtec_ad:bottle:17:bottle/test/contamination/020.png",
+      "mvtec_ad:bottle:17:bottle/test/contamination/012.png",
+      "mvtec_ad:bottle:29:bottle/test/contamination/016.png",
+      "mvtec_ad:bottle:29:bottle/test/contamination/004.png",
+      "mvtec_ad:bottle:29:bottle/test/contamination/020.png",
+      "mvtec_ad:bottle:29:bottle/test/contamination/012.png",
+      "mvtec_ad:metal_nut:17:metal_nut/test/color/005.png",
+      "mvtec_ad:metal_nut:17:metal_nut/test/bent/022.png",
+      "mvtec_ad:metal_nut:29:metal_nut/test/color/005.png",
+      "mvtec_ad:metal_nut:29:metal_nut/test/bent/022.png",
+      "mvtec_ad:pill:17:pill/test/color/017.png",
+      "mvtec_ad:pill:17:pill/test/color/009.png",
+      "mvtec_ad:pill:17:pill/test/pill_type/004.png",
+      "mvtec_ad:pill:17:pill/test/color/004.png",
+      "mvtec_ad:pill:29:pill/test/color/017.png",
+      "mvtec_ad:pill:29:pill/test/color/009.png",
+      "mvtec_ad:pill:29:pill/test/color/004.png",
+      "visa:capsules:17:capsules/Data/Images/Anomaly/017.JPG",
+      "visa:capsules:17:capsules/Data/Images/Anomaly/044.JPG",
+      "visa:capsules:17:capsules/Data/Images/Anomaly/035.JPG",
+      "visa:capsules:17:capsules/Data/Images/Anomaly/095.JPG",
+      "visa:capsules:29:capsules/Data/Images/Anomaly/017.JPG",
+      "visa:capsules:29:capsules/Data/Images/Anomaly/044.JPG",
+      "visa:capsules:29:capsules/Data/Images/Anomaly/009.JPG",
+      "visa:capsules:29:capsules/Data/Images/Anomaly/035.JPG",
+      "visa:pcb4:17:pcb4/Data/Images/Anomaly/031.JPG",
+      "visa:pcb4:17:pcb4/Data/Images/Anomaly/060.JPG",
+      "visa:pcb4:17:pcb4/Data/Images/Anomaly/080.JPG",
+      "visa:pcb4:17:pcb4/Data/Images/Anomaly/056.JPG",
+      "visa:pcb4:17:pcb4/Data/Images/Anomaly/050.JPG",
+      "visa:pcb4:17:pcb4/Data/Images/Anomaly/097.JPG",
+      "visa:pcb4:17:pcb4/Data/Images/Anomaly/095.JPG",
+      "visa:pcb4:29:pcb4/Data/Images/Anomaly/031.JPG",
+      "visa:pcb4:29:pcb4/Data/Images/Anomaly/060.JPG",
+      "visa:pcb4:29:pcb4/Data/Images/Anomaly/080.JPG",
+      "visa:pcb4:29:pcb4/Data/Images/Anomaly/056.JPG",
+      "visa:pcb4:29:pcb4/Data/Images/Anomaly/065.JPG",
+      "visa:pcb4:29:pcb4/Data/Images/Anomaly/050.JPG",
+      "visa:pcb4:29:pcb4/Data/Images/Anomaly/097.JPG",
+      "visa:pcb4:29:pcb4/Data/Images/Anomaly/095.JPG"
+    ],
+    "false_positives_added": [
+      "mvtec_ad:bottle:17:bottle/test/good/012.png",
+      "mvtec_ad:bottle:29:bottle/test/good/008.png",
+      "mvtec_ad:bottle:29:bottle/test/good/019.png",
+      "mvtec_ad:bottle:29:bottle/test/good/012.png",
+      "mvtec_ad:bottle:29:bottle/test/good/017.png",
+      "mvtec_ad:bottle:29:bottle/test/good/014.png",
+      "mvtec_ad:bottle:29:bottle/test/good/013.png",
+      "mvtec_ad:bottle:29:bottle/test/good/005.png",
+      "mvtec_ad:metal_nut:17:metal_nut/test/good/012.png",
+      "mvtec_ad:metal_nut:17:metal_nut/test/good/007.png",
+      "mvtec_ad:metal_nut:17:metal_nut/test/good/015.png",
+      "mvtec_ad:metal_nut:17:metal_nut/test/good/001.png",
+      "mvtec_ad:metal_nut:17:metal_nut/test/good/005.png",
+      "mvtec_ad:metal_nut:17:metal_nut/test/good/018.png",
+      "mvtec_ad:metal_nut:17:metal_nut/test/good/010.png",
+      "mvtec_ad:metal_nut:17:metal_nut/test/good/019.png",
+      "mvtec_ad:metal_nut:29:metal_nut/test/good/012.png",
+      "mvtec_ad:metal_nut:29:metal_nut/test/good/007.png",
+      "mvtec_ad:metal_nut:29:metal_nut/test/good/015.png",
+      "mvtec_ad:metal_nut:29:metal_nut/test/good/001.png",
+      "mvtec_ad:metal_nut:29:metal_nut/test/good/005.png",
+      "mvtec_ad:metal_nut:29:metal_nut/test/good/018.png",
+      "mvtec_ad:metal_nut:29:metal_nut/test/good/010.png",
+      "mvtec_ad:metal_nut:29:metal_nut/test/good/019.png",
+      "mvtec_ad:pill:17:pill/test/good/000.png",
+      "mvtec_ad:pill:17:pill/test/good/014.png",
+      "mvtec_ad:pill:17:pill/test/good/005.png",
+      "mvtec_ad:pill:17:pill/test/good/024.png",
+      "mvtec_ad:pill:17:pill/test/good/022.png",
+      "mvtec_ad:pill:17:pill/test/good/015.png",
+      "mvtec_ad:pill:17:pill/test/good/001.png",
+      "mvtec_ad:pill:29:pill/test/good/000.png",
+      "mvtec_ad:pill:29:pill/test/good/014.png",
+      "mvtec_ad:pill:29:pill/test/good/005.png",
+      "mvtec_ad:pill:29:pill/test/good/024.png",
+      "mvtec_ad:pill:29:pill/test/good/001.png",
+      "visa:capsules:17:capsules/Data/Images/Normal/427.JPG",
+      "visa:capsules:17:capsules/Data/Images/Normal/518.JPG",
+      "visa:pcb4:17:pcb4/Data/Images/Normal/0952.JPG",
+      "visa:pcb4:17:pcb4/Data/Images/Normal/0013.JPG",
+      "visa:pcb4:29:pcb4/Data/Images/Normal/0654.JPG",
+      "visa:pcb4:29:pcb4/Data/Images/Normal/0657.JPG",
+      "visa:pcb4:29:pcb4/Data/Images/Normal/0457.JPG",
+      "visa:pcb4:29:pcb4/Data/Images/Normal/0306.JPG",
+      "visa:pcb4:29:pcb4/Data/Images/Normal/0027.JPG",
+      "visa:pcb4:29:pcb4/Data/Images/Normal/0764.JPG",
+      "visa:pcb4:29:pcb4/Data/Images/Normal/0469.JPG",
+      "visa:pcb4:29:pcb4/Data/Images/Normal/0208.JPG"
+    ],
+    "false_positives_removed": []
+  },
+  "headline_paper_superiority_established": false,
+  "matched_pilot_auc_gain_interval_above_zero": false,
+  "native_anomalies_with_empty_cropped_mask": [],
+  "full_benchmark_completed": false,
+  "old_error_head_used": false,
+  "selection_lock_sha256": "ce680154c657d1896d05772f12c37d0815269800a63d62f37186c228bacefcaf",
+  "caveats": [
+    "Independent reconstruction of inspected class-separated scoring recipe, not a reproduced full paper benchmark.",
+    "Five verification categories differ from the five categories used for this study selection; historical category exposure may exist.",
+    "Verification IDs exclude the available prior local query history; no universal pristine-history claim.",
+    "Image metrics are averaged within category/reference draw; raw scores from differently fitted categories are not pooled.",
+    "All target banks use one original normal image with correlated augmented views; no extra target calibration images.",
+    "A global operational cutoff comes from separate development-category normals, and the same cutoff is retained for both methods.",
+    "Image labels remain native; segmentation metrics evaluate only the center-cropped ROI with nearest-resized masks.",
+    "Pixel IoU/F1 cutoff is the baseline development-normal pixel99.5th percentile; it carries no target false-alarm guarantee.",
+    "Correction is nonnegative, so fixed-cutoff search alerts are preserved; additional false positives remain possible.",
+    "Frozen foundation weights, no LLM or backbone fine-tuning; gates are heuristics and no probability head is attached."
+  ]
+}

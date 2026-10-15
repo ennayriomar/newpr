@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "run_name": "vision_hybrid_20261015",
+  "encoder": {
+    "source_dir": "/workspace/.cache/dinov2-source",
+    "checkpoint": "/tmp/vision_hybrid_assets_20261015/dinov2_vitl14_reg4_pretrain.pth",
+    "device": "cpu",
+    "threads": 3,
+    "resize": 448,
+    "crop": 392,
+    "layers": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  "roots": {
+    "mvtec_ad": "/workspace/datasets/mvtec_ad",
+    "visa": "/workspace/datasets/visa"
+  },
+  "development_manifest": "/tmp/safal_training_20261014/manifest.json",
+  "known_exposure": "/tmp/safal_tuning_20261014/known_exposure.json",
+  "previous_verification_lock": "/tmp/safal_tuning_20261014/verification_query_lock.json",
+  "verification_categories": {
+    "mvtec_ad": [
+      "bottle",
+      "metal_nut",
+      "pill"
+    ],
+    "visa": [
+      "capsules",
+      "pcb4"
+    ]
+  },
+  "shots": 1,
+  "seeds": [
+    17,
+    29
+  ],
+  "queries_per_label": 10,
+  "query_sampling_seed": 20261015,
+  "selection": {
+    "primary": "mean within-category/support-draw image AUROC",
+    "guard": "mean within-category/support-draw development pixel AP must not decline at 256x256 cropped ROI",
+    "tie_break": [
+      "higher pixel AP",
+      "smaller correction strength",
+      "fewer subspaces",
+      "parameter SHA256"
+    ],
+    "threshold": "Image95th percentile and pixel99.5th percentile of baseline development-normal scores; separate fixed global cutoffs shared by all candidates",
+    "verification_labels_used_for_selection": false
+  },
+  "recipe_reference": "Qiqigeww/VisionAD@2d5e36f357409125ccd9646ba016824005599df4; independent reconstruction, not imported code",
+  "claim_scope": "Bounded one-shot paired study; new verification image IDs and categories held out from this study parameter selection; some categories may have earlier prototype exposure. Not the full paper benchmark.",
+  "full_paper_benchmark_completed": false,
+  "old_error_head": null
+}

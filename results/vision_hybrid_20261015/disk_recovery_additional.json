@@ -1,0 +1,9 @@
+{
+  "status": "verified_redundant_download_copy_reclaimed",
+  "removed_directory": "/tmp/safal_release_v050/public_download/complete_outputs",
+  "bytes": 428391982,
+  "retained_full_archive": "/tmp/safal_release_v050/safal_full_results_v0.5.0.zip",
+  "retained_archive_sha256": "462428afc91eee59289dc5a9083647e1782454d455f40564f51a8cee1b4d4c10",
+  "checked_files": 27,
+  "preserved": "Original scientific run, fitted banks, retained full archive, independent local parts and verified public Git artifacts."
+}

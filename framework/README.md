@@ -1,7 +1,15 @@
 # SAFAL research model
 
 **Support-Adequacy-Aware Few-Shot Anomaly Localization for Reliable Industrial
-Inspection** — working method **SAFAL**, research package v0.6.0.
+Inspection** — working method **SAFAL**, research package v0.7.0.
+
+The new [register-DINO/PCA hybrid guide](docs/vision_hybrid.md) documents an
+independent stronger feature/search pipeline and a strict one-original-normal
+support budget. It uses real frozen DINOv2 ViT-L/14 register weights and tests
+an additive PCA correction against the same search baseline. The guide covers
+portable inference, frozen parameter selection and the full reference
+benchmark driver. Measured outcomes belong in the completed study report;
+the provided full benchmark driver has not established paper superiority.
 
 The new [paper-informed parameter tuning guide](docs/parameter_tuning.md)
 documents a finite development-label search and an independent image check.

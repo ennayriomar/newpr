@@ -1,0 +1,342 @@
+[
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/good/053.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-000.npz",
+    "baseline_score": 1.0786175727844238,
+    "query_feature_hashes": {
+      "identity": "f7c7dc7ac14f7676c25b83bc6eaaec41693352fa61116c82d959d157d41b1d9d",
+      "vflip": "48c938db9ad4540a9ae079424c83ef3b51689f15588e105e260ef5baa8b15a84",
+      "clamp": "6ffae9f251cb165dbc21960005eb34514e46f8cc80937f439943de5c453c1246"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/good/039.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-001.npz",
+    "baseline_score": 1.1981241703033447,
+    "query_feature_hashes": {
+      "identity": "47ed888a99945480f07a575b504206650d692871a9b88ce1521c2a275d27d7db",
+      "vflip": "f1ae4c07ba556938de6d18857463ab9a6e4d1ed0b87dde40e23f53c8572854eb",
+      "clamp": "a56e5562f3bd9740e24f40605e28ddb77a0bc17f660581bb1816ebf59fc5a1e1"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/good/043.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-002.npz",
+    "baseline_score": 1.1640026569366455,
+    "query_feature_hashes": {
+      "identity": "3236e0045f1663f22a275db1a3455b2d60a23e51f406f911a1b8a72bcba7ba39",
+      "vflip": "6f5d18c328912b0292a66b45709a34c04df44cd7fe01cc452bd16a7de02a85f2",
+      "clamp": "a16046035c822ca6d54d2edecde745c48f557d1a3257a03780c310958e4ac03f"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/good/004.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-003.npz",
+    "baseline_score": 1.1392813920974731,
+    "query_feature_hashes": {
+      "identity": "fd9fee0582bc21deb2c0183b5b71ca16a5d4abc88a12c14ad964ae6de3d6209c",
+      "vflip": "7b6bf8d205d81a7d805c9c6952748d9b695f6aae0069f125977c37b53095b49a",
+      "clamp": "1ff3d3ef0e95c4028e172d12da799d081a2e66b2647822dba3a46df9524b9ea6"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/good/035.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-004.npz",
+    "baseline_score": 1.0876487493515015,
+    "query_feature_hashes": {
+      "identity": "cafe5853e7a5f43d4c17181f9aec74c4cef8ea1bab6fb2ded2bf6490d891d7e7",
+      "vflip": "d2e6b330a02254266547acb2e672793cb39a1edec2a1cc2bf250d2431b3848c0",
+      "clamp": "9e45e0d07d626a6c6b9a1ec8d59e52acd723a67e5cad17d9a6f140e7258a2432"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/good/021.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-005.npz",
+    "baseline_score": 1.1498090028762817,
+    "query_feature_hashes": {
+      "identity": "d7d0b847b5a89e6305b652518c72151e183b683727a6768f6a91f2ca86f3f4d0",
+      "vflip": "179446cb3cd3dbfa0d192f948045c62fc95b326b504947cf03cfd1dc2219f1a8",
+      "clamp": "de33f2a4cdf862c985e817efa9c08daf5f090dde9f4338b86aec9c7b8cca452c"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/good/038.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-006.npz",
+    "baseline_score": 1.1847838163375854,
+    "query_feature_hashes": {
+      "identity": "87fce85213a962dc8f1fcfa6b4bb84973a631b6586b6526f2e7465ba98530253",
+      "vflip": "ed238e54dfce942b3fdb56480144bea3bf4cbae5455a4705cbe63cb6b9211660",
+      "clamp": "ab0704c855fd01077d39aa00dd9c0c28776716dca26c85a1ce6ef9070a5f11e4"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/good/000.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-007.npz",
+    "baseline_score": 1.135357141494751,
+    "query_feature_hashes": {
+      "identity": "efbe4852f54d736501415ec3b0f0afc1421c30d6da1670139866cd864975cf02",
+      "vflip": "728ff870f25ec62b269f752cc4099a9ca32eaad687f98f0f81fb47093906eeb3",
+      "clamp": "b70152dcf473f18b6ee558b2fec55d440bfe669b97caa4e3d18e2c3640497832"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/good/023.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-008.npz",
+    "baseline_score": 1.189203143119812,
+    "query_feature_hashes": {
+      "identity": "d9f355a53b674a77d2ed2eb2d4c7e9f27e3eaea13759f92d4974f866e4bff292",
+      "vflip": "b35508632f65b061f473269f713bcdc1cf09a5ebd429d737e7333a477c6f91dd",
+      "clamp": "ae662a6468fadad697c719aa4fe7b675de579275474c795fdff0a049af4baa57"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/good/013.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-009.npz",
+    "baseline_score": 1.108128547668457,
+    "query_feature_hashes": {
+      "identity": "dab918d6f337157037ff974d400588b7df0e9305457703036d5f8e32be5364c3",
+      "vflip": "64b385d1c78ccb1b3ccc6701f4817f27cb7c58c6f8fc268149a9d36b234fc2e0",
+      "clamp": "280469d54c16a6a1e260ed52427fd3763828882ca42fc76fd0600820692fb570"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/cut_inner_insulation/005.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-010.npz",
+    "baseline_score": 1.4045896530151367,
+    "query_feature_hashes": {
+      "identity": "299f3d5deee2bed31a2bc24b0059649d33ddb3291e32f680b32bf1fa27323d49",
+      "vflip": "2a3709f9ef88bc3dc16f5223dce28aaa8ce7553cbffdf86e3664526b5e01d8c7",
+      "clamp": "10b723fabf407198ee0bac62a1bc2a5332e710cb5e64638063e6db8aa90fd0a5"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/cut_inner_insulation/002.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-011.npz",
+    "baseline_score": 1.6160728931427002,
+    "query_feature_hashes": {
+      "identity": "a84569f471e26b35270d631847087e68ab5a6e4796690d2fd20119efadda39b3",
+      "vflip": "acbc2fa2474a2a275362557ec620422abf6672a9fcd073fc6095c363983a53bf",
+      "clamp": "25950dc6f568e142b9108213d218140a7da8a6ac00ea622204342812d43766a7"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/cut_inner_insulation/001.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-012.npz",
+    "baseline_score": 1.5773714780807495,
+    "query_feature_hashes": {
+      "identity": "acbe1446c55e8e85fc60947937c2e5f30cd7607212f3f389d33ee7a188eb5ec6",
+      "vflip": "d853944e51f8bb76872a324cda2b05e4e076127394366c8812b63542b7c28690",
+      "clamp": "af58b4cc279ef86793afcd3e8ac66135f518b3da4fc5f22ddee19c1ba6ff3eb6"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/missing_wire/002.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-013.npz",
+    "baseline_score": 1.2826697826385498,
+    "query_feature_hashes": {
+      "identity": "7f49d9bd785547b3a31fc85568e620acf01fb29a20445380f0e439927547f7ae",
+      "vflip": "2e2795fa9838548d904a5b47561e7f06bc5f5a8fa75684dfbeb92dae1192b8f1",
+      "clamp": "92278b0cb1bea35361388bba0e2ae4428833e87062c9af8ec0feea45e8ae1e7f"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/bent_wire/006.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-014.npz",
+    "baseline_score": 1.59677255153656,
+    "query_feature_hashes": {
+      "identity": "f88ba50050685d248cb238681f81eaab85f40dbc4e87394aa12a24d072413a84",
+      "vflip": "03e32a6e786945a95218f782971aec4ed1d4048c4e2263d8a288ff95e57d7566",
+      "clamp": "9eaa035f2358463c02b0c6348256cc689ecfe78b39f7f81209d72d0e1560c8b2"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/missing_cable/009.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-015.npz",
+    "baseline_score": 1.5027647018432617,
+    "query_feature_hashes": {
+      "identity": "55c48b5201facd5ac79fb8923823d6df10c2ca466650961c3f319a76230bc79a",
+      "vflip": "e3133dd0213677ddbbbb75b2c4e4d0efea4fceb2d4f5aa931b2f3df076016152",
+      "clamp": "fa47c9c6ebdfc808e399e393a3758a1be3fc4b7eb45cf9cf2c36ad2c60db5c6e"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/combined/008.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-016.npz",
+    "baseline_score": 1.746071219444275,
+    "query_feature_hashes": {
+      "identity": "694bec1cbf19a4e8dfac9b60701e140e402477ffa4edab891de1f13589908f11",
+      "vflip": "5845e77ad2c9b8b85c1b8d05deeb94f1f1f049fb795fc0710a64e121cadc9406",
+      "clamp": "861eddd9194c9048b6ff10932cefc5275a76a1303b3337d0ddfb26ae396d4a1e"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/cut_inner_insulation/000.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-017.npz",
+    "baseline_score": 1.4194560050964355,
+    "query_feature_hashes": {
+      "identity": "794a0856e2a05d38085d6568d76db89bb3a1900e340636321975af8ce7c30311",
+      "vflip": "e1532f63efab611df623fd7ccdb2f8de45c1e73023bc2e749218a45c5165ba3e",
+      "clamp": "b86c3396b5d61cee61b799dc9a2e94187be52f7a509a5e70209876ced76869ad"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/cable_swap/006.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-018.npz",
+    "baseline_score": 1.1389853954315186,
+    "query_feature_hashes": {
+      "identity": "e3b48b889fa3c485015771d2c44d3aade4648d1f80cc3f24cd41fc43d565cb2b",
+      "vflip": "1f1054ece49dbb19cce558da4b006e788168f8c657e2d5241960d9be4f03d67e",
+      "clamp": "375c6d8279c4cfca9d6a47a61be9c7385b100c0f80055b3514483c365f00e975"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "cable",
+    "seed": 29,
+    "query_id": "cable/test/cable_swap/007.png",
+    "episode_id": "mvtec_ad-cable-k1-seed29",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-cable/mvtec_ad-cable-k1-seed29/raw-019.npz",
+    "baseline_score": 1.15821373462677,
+    "query_feature_hashes": {
+      "identity": "3c078b065f4724c66e84c34e5c91166de2eef1930e60cd273890c0e4304f96d6",
+      "vflip": "f5b7f8fe42f090bf37a30c6b446eeef73638a05605660eb337595013f985ed7c",
+      "clamp": "4196c3ba23a791b118d98472010a2496e9df467cd0354e02adaebaf09a460453"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  }
+]

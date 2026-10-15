@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "kind": "VisionHybrid",
+  "params": {
+    "clusters": 1,
+    "variance": 0.95,
+    "strength": 0.5,
+    "gate": "uniform"
+  },
+  "parameters_id": "d74241e7ae1e21219e147a3c2056127955b941fac996f2367acaace9e7c2a9f2",
+  "threshold": 1.266317319869995,
+  "pixel_threshold": 1.1265572309494019,
+  "support_ids": [
+    "capsules/Data/Images/Normal/387.JPG"
+  ],
+  "slot_indices": {
+    "identity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "vflip": [
+      4,
+      6,
+      5,
+      7,
+      0,
+      2
+    ],
+    "clamp": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "clusters": [
+    1,
+    4
+  ],
+  "variances": [
+    0.95,
+    0.99
+  ],
+  "threads": 3,
+  "array_hashes": {
+    "view_000": "01414e201d9b37db1b269db830e42727a8d7f3845a59e7a3df307dcaa543331b",
+    "view_001": "99490a1bad71e1565a7cda7c6a920cac756fb5b18d1668cb4ca7a21e55bb4255",
+    "view_002": "c7f552e07000e6103f594ff6483cec68b4ba8471f9bd6c9b36c0ebd717b4382d",
+    "view_003": "321ec9e56f739f31dd570c8678ff409bfeb66bbf10c0e763c2cf5a227fae0b84",
+    "view_004": "f1441b3f146100cf68d47635222d62a47516b9a2d9e5d79dc474112621bbd7f5",
+    "view_005": "8008cd1eea3dd05ab1a560b15cb9b0449731ec16f547f122fab43e4b6f859bf8",
+    "view_006": "262af367b027c517560556344400ad636e15c8b25be3b87c0acf72b490d88f0e",
+    "view_007": "1a6739deb9352ede693e922d2d6d258e064b2473fe0888ecc931288e9fbbe1ac",
+    "view_008": "4043b1d3ecbf9ef1a6e5ed7976cdb0cac88079bca7e07c6e7071a2df223dbb1e",
+    "view_009": "8b3ed03595b723a5602fa6f97e6beb26560f708ef6201c02e201d4131d8433d2",
+    "view_010": "d71866e4aebda46459e092fd3bc20c312cc7b306bf81a49d05d3cfafe3adf848",
+    "view_011": "ac50860d6e6cb52e668d0b0d8f36ac6889c84c1985bd50a954a7dcc35c6671aa",
+    "view_012": "86cea54897ee50efcfa2443d8d0747b19fba5ad064c45d1c571a5181301e2912",
+    "view_013": "13e9f05b75b26bcbad22eb1eac099eebbecf1f9294ffd1a3435998cd7334f59f"
+  },
+  "npz_sha256": "41ecd309331bd90ef232210b54afa754ae1ef6a30b57421a5300c1bbb8aaeaf7",
+  "source_hashes": {
+    "vision_hybrid_model.py": "de20f42fbee7a31f04ba51758424077b3ea5f02e2ee42e95dda44941145314f8",
+    "vision_hybrid_features.py": "da83b69a7d7de10c0fb2dcfd5ce1330b987ebece744f97bd272fe26d97f85e1b",
+    "safal_features.py": "497e67e474f502da8205c304efae676ff3c1f4eb38c17e52a461c6609fd51e39"
+  },
+  "provenance": {
+    "encoder": {
+      "backbone": "dinov2_vitl14_reg",
+      "feature_dimension": 1024,
+      "registers": 4,
+      "resize": 448,
+      "crop": 392,
+      "grid": 28,
+      "layers": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "norm": false,
+      "aggregation": "raw arithmetic block mean, then branch-specific normalization",
+      "interpolation": "PIL bilinear square resize, center crop",
+      "position_interpolation": {
+        "antialias": false,
+        "offset": 0.1
+      },
+      "checkpoint_sha256": "36e4deffbaef061a2576705b0c36f93621e2ae20bf6274694821b0b492551b51",
+      "reference_commit": "2d5e36f357409125ccd9646ba016824005599df4",
+      "source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "source_manifest_sha256": "9ed9679525be8520b45cd087ce2bff1cd684f438ac82bc0d6080e36487adf340",
+      "device": "cpu",
+      "dtype": "float32",
+      "frozen": true,
+      "evaluation_mode": true,
+      "torch_version": "2.7.1+cpu",
+      "numpy_version": "2.2.6",
+      "pillow_version": "12.3.0",
+      "python_version": "3.12.14",
+      "implementation_sha256": "da83b69a7d7de10c0fb2dcfd5ce1330b987ebece744f97bd272fe26d97f85e1b",
+      "runtime": {
+        "source_dir": "/workspace/.cache/dinov2-source",
+        "checkpoint": "/tmp/vision_hybrid_assets_20261015/dinov2_vitl14_reg4_pretrain.pth",
+        "threads": 3
+      }
+    },
+    "episode": {
+      "id": "visa-capsules-k1-seed29",
+      "dataset": "visa",
+      "category": "capsules",
+      "seed": 29,
+      "shots": 1,
+      "support_ids": [
+        "capsules/Data/Images/Normal/387.JPG"
+      ],
+      "calibration_ids": [],
+      "query_ids": [
+        "capsules/Data/Images/Normal/417.JPG",
+        "capsules/Data/Images/Normal/178.JPG",
+        "capsules/Data/Images/Normal/427.JPG",
+        "capsules/Data/Images/Normal/215.JPG",
+        "capsules/Data/Images/Normal/514.JPG",
+        "capsules/Data/Images/Normal/208.JPG",
+        "capsules/Data/Images/Normal/297.JPG",
+        "capsules/Data/Images/Normal/170.JPG",
+        "capsules/Data/Images/Normal/545.JPG",
+        "capsules/Data/Images/Normal/518.JPG",
+        "capsules/Data/Images/Anomaly/017.JPG",
+        "capsules/Data/Images/Anomaly/044.JPG",
+        "capsules/Data/Images/Anomaly/009.JPG",
+        "capsules/Data/Images/Anomaly/055.JPG",
+        "capsules/Data/Images/Anomaly/071.JPG",
+        "capsules/Data/Images/Anomaly/050.JPG",
+        "capsules/Data/Images/Anomaly/035.JPG",
+        "capsules/Data/Images/Anomaly/058.JPG",
+        "capsules/Data/Images/Anomaly/084.JPG",
+        "capsules/Data/Images/Anomaly/095.JPG"
+      ],
+      "role": "verification"
+    },
+    "status": "globally selected research candidate",
+    "extra_target_calibration_images": 0,
+    "decision_sha256": "fcc30a051f4fc87e316595091fb776cc13dd312b439b1b2b50e376de80f5d63f"
+  },
+  "model_metadata": {
+    "support_ids": [
+      "capsules/Data/Images/Normal/387.JPG"
+    ],
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0,
+    "grid": 28,
+    "dimension": 1024,
+    "unique_support_feature_inputs": 14,
+    "slot_indices": {
+      "identity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vflip": [
+        4,
+        6,
+        5,
+        7,
+        0,
+        2
+      ],
+      "clamp": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "subspaces": {
+      "1": {
+        "clusters": 1,
+        "variances": [
+          0.95,
+          0.99
+        ],
+        "group_counts": [
+          10976
+        ],
+        "numerical_ranks": [
+          1024
+        ],
+        "retained_ranks": [
+          {
+            "0.95": 318,
+            "0.99": 685
+          }
+        ],
+        "energy_scales": [
+          184.24787031636023
+        ],
+        "normalization": "Residual squared norm / mean total centered normal feature energy in assigned cluster",
+        "independent_original_images_not_patch_count": true
+      },
+      "4": {
+        "clusters": 4,
+        "variances": [
+          0.95,
+          0.99
+        ],
+        "group_counts": [
+          2921,
+          3279,
+          2432,
+          2344
+        ],
+        "numerical_ranks": [
+          1024,
+          1024,
+          1024,
+          1024
+        ],
+        "retained_ranks": [
+          {
+            "0.95": 231,
+            "0.99": 549
+          },
+          {
+            "0.95": 257,
+            "0.99": 584
+          },
+          {
+            "0.95": 253,
+            "0.99": 565
+          },
+          {
+            "0.95": 154,
+            "0.99": 425
+          }
+        ],
+        "energy_scales": [
+          168.53728544168368,
+          146.76992571726217,
+          145.85868248492477,
+          115.01794103632447
+        ],
+        "normalization": "Residual squared norm / mean total centered normal feature energy in assigned cluster",
+        "independent_original_images_not_patch_count": true
+      }
+    },
+    "correction": "Nonnegative additive residual; unchanged baseline when strength=0",
+    "gate_semantics": "Heuristic residual/(residual+cosine-distance), not calibrated reliability",
+    "strict_target_support_budget": true,
+    "probabilities": false
+  },
+  "software_versions": {
+    "numpy": "2.2.6",
+    "torch": "2.7.1+cpu",
+    "sklearn": "1.8.0"
+  }
+}

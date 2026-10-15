@@ -1,0 +1,34 @@
+{
+  "id": "mvtec_ad-transistor-k1-seed29",
+  "dataset": "mvtec_ad",
+  "category": "transistor",
+  "seed": 29,
+  "shots": 1,
+  "support_ids": [
+    "transistor/train/good/203.png"
+  ],
+  "calibration_ids": [],
+  "query_ids": [
+    "transistor/test/good/054.png",
+    "transistor/test/good/015.png",
+    "transistor/test/good/058.png",
+    "transistor/test/good/037.png",
+    "transistor/test/good/004.png",
+    "transistor/test/good/018.png",
+    "transistor/test/good/025.png",
+    "transistor/test/good/040.png",
+    "transistor/test/good/051.png",
+    "transistor/test/good/048.png",
+    "transistor/test/cut_lead/007.png",
+    "transistor/test/damaged_case/008.png",
+    "transistor/test/bent_lead/009.png",
+    "transistor/test/misplaced/003.png",
+    "transistor/test/damaged_case/003.png",
+    "transistor/test/cut_lead/005.png",
+    "transistor/test/misplaced/005.png",
+    "transistor/test/bent_lead/001.png",
+    "transistor/test/cut_lead/006.png",
+    "transistor/test/cut_lead/002.png"
+  ],
+  "role": "development"
+}

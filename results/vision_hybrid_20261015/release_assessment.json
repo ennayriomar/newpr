@@ -1,0 +1,22 @@
+{
+  "status": "completed_research_candidate; overall accuracy improvement not established",
+  "selected_parameters": {
+    "clusters": 1,
+    "variance": 0.95,
+    "strength": 0.5,
+    "gate": "uniform"
+  },
+  "image_auroc_change": 0.008999999999999786,
+  "paired_auroc_interval": [
+    -0.004999999999999999,
+    0.030024999999999868
+  ],
+  "accuracy_change": -0.030000000000000027,
+  "accuracy_improvement_goal_met": false,
+  "false_alarm_rate_baseline": 0.0,
+  "false_alarm_rate_hybrid": 0.48,
+  "same_fixed_source_cutoff": true,
+  "reserved_results_used_to_retune": false,
+  "paper_superiority_established": false,
+  "next_research_change": "Fit a separate hybrid score cutoff using source-category normals, then validate on additional reserved images; this post-evaluation proposal is not a result of the locked study."
+}

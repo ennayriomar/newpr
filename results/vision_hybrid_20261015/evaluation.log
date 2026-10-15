@@ -1,0 +1,136 @@
+/workspace/.cache/dinov2-source/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/workspace/.cache/dinov2-source/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/workspace/.cache/dinov2-source/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+FEATURES verification mvtec_ad bottle 1/20
+FEATURES verification mvtec_ad bottle 2/20
+FEATURES verification mvtec_ad bottle 3/20
+FEATURES verification mvtec_ad bottle 4/20
+FEATURES verification mvtec_ad bottle 5/20
+FEATURES verification mvtec_ad bottle 6/20
+FEATURES verification mvtec_ad bottle 7/20
+FEATURES verification mvtec_ad bottle 8/20
+FEATURES verification mvtec_ad bottle 9/20
+FEATURES verification mvtec_ad bottle 10/20
+FEATURES verification mvtec_ad bottle 11/20
+FEATURES verification mvtec_ad bottle 12/20
+FEATURES verification mvtec_ad bottle 13/20
+FEATURES verification mvtec_ad bottle 14/20
+FEATURES verification mvtec_ad bottle 15/20
+FEATURES verification mvtec_ad bottle 16/20
+FEATURES verification mvtec_ad bottle 17/20
+FEATURES verification mvtec_ad bottle 18/20
+FEATURES verification mvtec_ad bottle 19/20
+FEATURES verification mvtec_ad bottle 20/20
+SUPPORT verification mvtec_ad-bottle-k1-seed17
+FITTED mvtec_ad-bottle-k1-seed17 seconds 1.8083980709780008
+SUPPORT verification mvtec_ad-bottle-k1-seed29
+FITTED mvtec_ad-bottle-k1-seed29 seconds 1.7333003249950707
+FEATURES verification mvtec_ad metal_nut 1/20
+FEATURES verification mvtec_ad metal_nut 2/20
+FEATURES verification mvtec_ad metal_nut 3/20
+FEATURES verification mvtec_ad metal_nut 4/20
+FEATURES verification mvtec_ad metal_nut 5/20
+FEATURES verification mvtec_ad metal_nut 6/20
+FEATURES verification mvtec_ad metal_nut 7/20
+FEATURES verification mvtec_ad metal_nut 8/20
+FEATURES verification mvtec_ad metal_nut 9/20
+FEATURES verification mvtec_ad metal_nut 10/20
+FEATURES verification mvtec_ad metal_nut 11/20
+FEATURES verification mvtec_ad metal_nut 12/20
+FEATURES verification mvtec_ad metal_nut 13/20
+FEATURES verification mvtec_ad metal_nut 14/20
+FEATURES verification mvtec_ad metal_nut 15/20
+FEATURES verification mvtec_ad metal_nut 16/20
+FEATURES verification mvtec_ad metal_nut 17/20
+FEATURES verification mvtec_ad metal_nut 18/20
+FEATURES verification mvtec_ad metal_nut 19/20
+FEATURES verification mvtec_ad metal_nut 20/20
+SUPPORT verification mvtec_ad-metal_nut-k1-seed17
+FITTED mvtec_ad-metal_nut-k1-seed17 seconds 1.8290480360155925
+SUPPORT verification mvtec_ad-metal_nut-k1-seed29
+FITTED mvtec_ad-metal_nut-k1-seed29 seconds 1.6916737189749256
+FEATURES verification mvtec_ad pill 1/20
+FEATURES verification mvtec_ad pill 2/20
+FEATURES verification mvtec_ad pill 3/20
+FEATURES verification mvtec_ad pill 4/20
+FEATURES verification mvtec_ad pill 5/20
+FEATURES verification mvtec_ad pill 6/20
+FEATURES verification mvtec_ad pill 7/20
+FEATURES verification mvtec_ad pill 8/20
+FEATURES verification mvtec_ad pill 9/20
+FEATURES verification mvtec_ad pill 10/20
+FEATURES verification mvtec_ad pill 11/20
+FEATURES verification mvtec_ad pill 12/20
+FEATURES verification mvtec_ad pill 13/20
+FEATURES verification mvtec_ad pill 14/20
+FEATURES verification mvtec_ad pill 15/20
+FEATURES verification mvtec_ad pill 16/20
+FEATURES verification mvtec_ad pill 17/20
+FEATURES verification mvtec_ad pill 18/20
+FEATURES verification mvtec_ad pill 19/20
+FEATURES verification mvtec_ad pill 20/20
+SUPPORT verification mvtec_ad-pill-k1-seed17
+FITTED mvtec_ad-pill-k1-seed17 seconds 1.8784387889900245
+SUPPORT verification mvtec_ad-pill-k1-seed29
+FITTED mvtec_ad-pill-k1-seed29 seconds 2.22459231299581
+FEATURES verification visa capsules 1/20
+FEATURES verification visa capsules 2/20
+FEATURES verification visa capsules 3/20
+FEATURES verification visa capsules 4/20
+FEATURES verification visa capsules 5/20
+FEATURES verification visa capsules 6/20
+FEATURES verification visa capsules 7/20
+FEATURES verification visa capsules 8/20
+FEATURES verification visa capsules 9/20
+FEATURES verification visa capsules 10/20
+FEATURES verification visa capsules 11/20
+FEATURES verification visa capsules 12/20
+FEATURES verification visa capsules 13/20
+FEATURES verification visa capsules 14/20
+FEATURES verification visa capsules 15/20
+FEATURES verification visa capsules 16/20
+FEATURES verification visa capsules 17/20
+FEATURES verification visa capsules 18/20
+FEATURES verification visa capsules 19/20
+FEATURES verification visa capsules 20/20
+SUPPORT verification visa-capsules-k1-seed17
+FITTED visa-capsules-k1-seed17 seconds 2.0021499400027096
+SUPPORT verification visa-capsules-k1-seed29
+FITTED visa-capsules-k1-seed29 seconds 2.116436609008815
+FEATURES verification visa pcb4 1/20
+FEATURES verification visa pcb4 2/20
+FEATURES verification visa pcb4 3/20
+FEATURES verification visa pcb4 4/20
+FEATURES verification visa pcb4 5/20
+FEATURES verification visa pcb4 6/20
+FEATURES verification visa pcb4 7/20
+FEATURES verification visa pcb4 8/20
+FEATURES verification visa pcb4 9/20
+FEATURES verification visa pcb4 10/20
+FEATURES verification visa pcb4 11/20
+FEATURES verification visa pcb4 12/20
+FEATURES verification visa pcb4 13/20
+FEATURES verification visa pcb4 14/20
+FEATURES verification visa pcb4 15/20
+FEATURES verification visa pcb4 16/20
+FEATURES verification visa pcb4 17/20
+FEATURES verification visa pcb4 18/20
+FEATURES verification visa pcb4 19/20
+FEATURES verification visa pcb4 20/20
+SUPPORT verification visa-pcb4-k1-seed17
+FITTED visa-pcb4-k1-seed17 seconds 1.692041592032183
+SUPPORT verification visa-pcb4-k1-seed29
+FITTED visa-pcb4-k1-seed29 seconds 1.574617444013711
+VERIFICATION METRICS ('mvtec_ad', 'bottle', 17)
+VERIFICATION METRICS ('mvtec_ad', 'bottle', 29)
+VERIFICATION METRICS ('mvtec_ad', 'metal_nut', 17)
+VERIFICATION METRICS ('mvtec_ad', 'metal_nut', 29)
+VERIFICATION METRICS ('mvtec_ad', 'pill', 17)
+VERIFICATION METRICS ('mvtec_ad', 'pill', 29)
+VERIFICATION METRICS ('visa', 'capsules', 17)
+VERIFICATION METRICS ('visa', 'capsules', 29)
+VERIFICATION METRICS ('visa', 'pcb4', 17)
+VERIFICATION METRICS ('visa', 'pcb4', 29)

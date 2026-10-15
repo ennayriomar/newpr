@@ -1,0 +1,10 @@
+{
+  "status": "verified",
+  "url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_reg4_pretrain.pth",
+  "bytes": 1217607321,
+  "sha256": "36e4deffbaef061a2576705b0c36f93621e2ae20bf6274694821b0b492551b51",
+  "s3_multipart_etag": "b6cbe2bf3ce2f370d5a67bcd465144b0-146",
+  "etag_part_size": 8388608,
+  "parts": 146,
+  "verification": "Official HTTPS origin, pinned response length and independently recomputed publisher S3 multipart ETag; local SHA256 recorded for subsequent loads."
+}

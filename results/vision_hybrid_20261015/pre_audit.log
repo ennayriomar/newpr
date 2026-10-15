@@ -1,0 +1,43 @@
+AUDIT DEVELOPMENT ('mvtec_ad', 'cable', 17)
+AUDIT DEVELOPMENT ('mvtec_ad', 'cable', 29)
+AUDIT DEVELOPMENT ('mvtec_ad', 'hazelnut', 17)
+AUDIT DEVELOPMENT ('mvtec_ad', 'hazelnut', 29)
+AUDIT DEVELOPMENT ('mvtec_ad', 'transistor', 17)
+AUDIT DEVELOPMENT ('mvtec_ad', 'transistor', 29)
+AUDIT DEVELOPMENT ('visa', 'macaroni2', 17)
+AUDIT DEVELOPMENT ('visa', 'macaroni2', 29)
+AUDIT DEVELOPMENT ('visa', 'pcb2', 17)
+AUDIT DEVELOPMENT ('visa', 'pcb2', 29)
+{
+  "status": "passed",
+  "mode": "pre-verification",
+  "selection_lock_sha256": "ce680154c657d1896d05772f12c37d0815269800a63d62f37186c228bacefcaf",
+  "development_cases_checked": 200,
+  "grid_cells_recomputed": 25,
+  "serialized_models_checked": 10,
+  "feature_probe_replays": 10,
+  "strict_original_target_normal_budget": 1,
+  "extra_target_calibration_images": 0,
+  "different_verification_categories": true,
+  "verification_unique_ids": 100,
+  "known_exposure_overlap": 0,
+  "verification_masks_loaded": false,
+  "verification_inference_performed": false,
+  "winner": {
+    "id": "d74241e7ae1e21219e147a3c2056127955b941fac996f2367acaace9e7c2a9f2",
+    "params": {
+      "clusters": 1,
+      "variance": 0.95,
+      "strength": 0.5,
+      "gate": "uniform"
+    },
+    "mean_image_auroc": 0.9329999999999998,
+    "mean_image_ap": 0.946521828146054,
+    "mean_pixel_ap": 0.45645910801777506,
+    "cases": 200,
+    "source_development_only": true,
+    "pixel_ap_guard_passed": true
+  },
+  "normal_source_cutoffs_recomputed": true,
+  "input_hashes_checked": 446
+}

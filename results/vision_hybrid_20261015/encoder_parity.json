@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "comparison": "Independent early-stop raw-block extraction versus pinned official get_intermediate_layers(norm=False) with same declared interpolation and layers",
+  "max_abs_descriptor_delta": 0.0,
+  "atol": 1e-06,
+  "bitwise_equal": true,
+  "shape": [
+    784,
+    1024
+  ],
+  "encoder": {
+    "backbone": "dinov2_vitl14_reg",
+    "feature_dimension": 1024,
+    "registers": 4,
+    "resize": 448,
+    "crop": 392,
+    "grid": 28,
+    "layers": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "norm": false,
+    "aggregation": "raw arithmetic block mean, then branch-specific normalization",
+    "interpolation": "PIL bilinear square resize, center crop",
+    "position_interpolation": {
+      "antialias": false,
+      "offset": 0.1
+    },
+    "checkpoint_sha256": "36e4deffbaef061a2576705b0c36f93621e2ae20bf6274694821b0b492551b51",
+    "reference_commit": "2d5e36f357409125ccd9646ba016824005599df4",
+    "source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+    "source_manifest_sha256": "9ed9679525be8520b45cd087ce2bff1cd684f438ac82bc0d6080e36487adf340",
+    "device": "cpu",
+    "dtype": "float32",
+    "frozen": true,
+    "evaluation_mode": true,
+    "torch_version": "2.7.1+cpu",
+    "numpy_version": "2.2.6",
+    "pillow_version": "12.3.0",
+    "python_version": "3.12.14",
+    "implementation_sha256": "da83b69a7d7de10c0fb2dcfd5ce1330b987ebece744f97bd272fe26d97f85e1b",
+    "runtime": {
+      "source_dir": "/workspace/.cache/dinov2-source",
+      "checkpoint": "/tmp/vision_hybrid_assets_20261015/dinov2_vitl14_reg4_pretrain.pth",
+      "threads": 3
+    }
+  }
+}

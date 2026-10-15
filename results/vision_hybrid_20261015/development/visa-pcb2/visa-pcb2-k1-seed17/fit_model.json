@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "kind": "VisionHybrid",
+  "params": {
+    "clusters": 1,
+    "variance": 0.99,
+    "strength": 0.0,
+    "gate": "uniform"
+  },
+  "parameters_id": "0f0f78e9662b721c81a9704801f3d8d990c58f06960f7eee67fc2362ba7666e4",
+  "threshold": 0.0,
+  "pixel_threshold": null,
+  "support_ids": [
+    "pcb2/Data/Images/Normal/0818.JPG"
+  ],
+  "slot_indices": {
+    "identity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "vflip": [
+      4,
+      6,
+      5,
+      7,
+      0,
+      2
+    ],
+    "clamp": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "clusters": [
+    1,
+    4
+  ],
+  "variances": [
+    0.95,
+    0.99
+  ],
+  "threads": 3,
+  "array_hashes": {
+    "view_000": "5f14759a937b6bdfebe0217c808c5432e5011392b352f4eb64a98a7b3382e2fb",
+    "view_001": "b7565ea5e7e725146fa4e5bd90c4f3eafb4cd6bfdbd7ad65eea9b23ee7ebc931",
+    "view_002": "63c861a8a17e0b611583d71fd91b15c9230208cf89f7d4f9ad35e33426e58258",
+    "view_003": "2880a6e9ae868c8445d8a0e473cedfaba5c0310c4f89c68736f1b1522e304aa3",
+    "view_004": "6bb5c3dd04e2839d78d6c0c24d667385b6490878097a5e647ef73d56d280dacd",
+    "view_005": "3f439a4c3072d30cac2369a1a21c8f36b650aa896d18adae201cb7440698e27c",
+    "view_006": "442b7cb699e651596f96ccdcd26ae91f051fe86db20b836fe21624a4fe511abc",
+    "view_007": "6b5ae863382a3dc833bdc8f99b8cd65530dd313fff441f8c09e809c3b67e4726",
+    "view_008": "21f2263f2e45777eec076b52941108415b486a02020590d5a61775e0b64e9a9b",
+    "view_009": "b5fd4bbea30443d9804978583dc7bc318cf7f4f1aa1343daa235896207afcd71",
+    "view_010": "d090d7990fcf0ee346d4a6d974a2cf396720974ae61d4a1eba4c166cdd5423a3",
+    "view_011": "f89d58e6ca77fd4e143585c211050e8a387b5db9a4b01fd260c2c12957d43736",
+    "view_012": "098bd36dfa155c66f95f68ad344394097f4e5478ef5267b29a4f79a377a3f2c5",
+    "view_013": "0ed54a7b84ddc9e3f29c958b7116bc32614b1b928e1e443315b3c6b2f1f4a9df"
+  },
+  "npz_sha256": "a40a1c8f2e017e6e286d36ac889c0c169539e25b860aaab6eb307144eb249e5d",
+  "source_hashes": {
+    "vision_hybrid_model.py": "de20f42fbee7a31f04ba51758424077b3ea5f02e2ee42e95dda44941145314f8",
+    "vision_hybrid_features.py": "da83b69a7d7de10c0fb2dcfd5ce1330b987ebece744f97bd272fe26d97f85e1b",
+    "safal_features.py": "497e67e474f502da8205c304efae676ff3c1f4eb38c17e52a461c6609fd51e39"
+  },
+  "provenance": {
+    "encoder": {
+      "backbone": "dinov2_vitl14_reg",
+      "feature_dimension": 1024,
+      "registers": 4,
+      "resize": 448,
+      "crop": 392,
+      "grid": 28,
+      "layers": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "norm": false,
+      "aggregation": "raw arithmetic block mean, then branch-specific normalization",
+      "interpolation": "PIL bilinear square resize, center crop",
+      "position_interpolation": {
+        "antialias": false,
+        "offset": 0.1
+      },
+      "checkpoint_sha256": "36e4deffbaef061a2576705b0c36f93621e2ae20bf6274694821b0b492551b51",
+      "reference_commit": "2d5e36f357409125ccd9646ba016824005599df4",
+      "source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "source_manifest_sha256": "9ed9679525be8520b45cd087ce2bff1cd684f438ac82bc0d6080e36487adf340",
+      "device": "cpu",
+      "dtype": "float32",
+      "frozen": true,
+      "evaluation_mode": true,
+      "torch_version": "2.7.1+cpu",
+      "numpy_version": "2.2.6",
+      "pillow_version": "12.3.0",
+      "python_version": "3.12.14",
+      "implementation_sha256": "da83b69a7d7de10c0fb2dcfd5ce1330b987ebece744f97bd272fe26d97f85e1b",
+      "runtime": {
+        "source_dir": "/workspace/.cache/dinov2-source",
+        "checkpoint": "/tmp/vision_hybrid_assets_20261015/dinov2_vitl14_reg4_pretrain.pth",
+        "threads": 3
+      }
+    },
+    "episode": {
+      "id": "visa-pcb2-k1-seed17",
+      "dataset": "visa",
+      "category": "pcb2",
+      "seed": 17,
+      "shots": 1,
+      "support_ids": [
+        "pcb2/Data/Images/Normal/0818.JPG"
+      ],
+      "calibration_ids": [],
+      "query_ids": [
+        "pcb2/Data/Images/Normal/0552.JPG",
+        "pcb2/Data/Images/Normal/0569.JPG",
+        "pcb2/Data/Images/Normal/0674.JPG",
+        "pcb2/Data/Images/Normal/0797.JPG",
+        "pcb2/Data/Images/Normal/0920.JPG",
+        "pcb2/Data/Images/Normal/0779.JPG",
+        "pcb2/Data/Images/Normal/0174.JPG",
+        "pcb2/Data/Images/Normal/0261.JPG",
+        "pcb2/Data/Images/Normal/0320.JPG",
+        "pcb2/Data/Images/Normal/0871.JPG",
+        "pcb2/Data/Images/Anomaly/062.JPG",
+        "pcb2/Data/Images/Anomaly/013.JPG",
+        "pcb2/Data/Images/Anomaly/012.JPG",
+        "pcb2/Data/Images/Anomaly/082.JPG",
+        "pcb2/Data/Images/Anomaly/075.JPG",
+        "pcb2/Data/Images/Anomaly/029.JPG",
+        "pcb2/Data/Images/Anomaly/084.JPG",
+        "pcb2/Data/Images/Anomaly/007.JPG",
+        "pcb2/Data/Images/Anomaly/086.JPG",
+        "pcb2/Data/Images/Anomaly/035.JPG"
+      ],
+      "role": "development"
+    },
+    "status": "normal-only fitted bank; global hyperparameters not selected here",
+    "extra_target_calibration_images": 0
+  },
+  "model_metadata": {
+    "support_ids": [
+      "pcb2/Data/Images/Normal/0818.JPG"
+    ],
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0,
+    "grid": 28,
+    "dimension": 1024,
+    "unique_support_feature_inputs": 14,
+    "slot_indices": {
+      "identity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vflip": [
+        4,
+        6,
+        5,
+        7,
+        0,
+        2
+      ],
+      "clamp": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "subspaces": {
+      "1": {
+        "clusters": 1,
+        "variances": [
+          0.95,
+          0.99
+        ],
+        "group_counts": [
+          10976
+        ],
+        "numerical_ranks": [
+          1024
+        ],
+        "retained_ranks": [
+          {
+            "0.95": 331,
+            "0.99": 692
+          }
+        ],
+        "energy_scales": [
+          172.84219853748965
+        ],
+        "normalization": "Residual squared norm / mean total centered normal feature energy in assigned cluster",
+        "independent_original_images_not_patch_count": true
+      },
+      "4": {
+        "clusters": 4,
+        "variances": [
+          0.95,
+          0.99
+        ],
+        "group_counts": [
+          3606,
+          2182,
+          3327,
+          1861
+        ],
+        "numerical_ranks": [
+          1024,
+          1024,
+          1024,
+          1024
+        ],
+        "retained_ranks": [
+          {
+            "0.95": 297,
+            "0.99": 627
+          },
+          {
+            "0.95": 90,
+            "0.99": 302
+          },
+          {
+            "0.95": 196,
+            "0.99": 513
+          },
+          {
+            "0.95": 194,
+            "0.99": 476
+          }
+        ],
+        "energy_scales": [
+          184.52695896644568,
+          98.10105742100026,
+          119.78738630709344,
+          146.12003520044823
+        ],
+        "normalization": "Residual squared norm / mean total centered normal feature energy in assigned cluster",
+        "independent_original_images_not_patch_count": true
+      }
+    },
+    "correction": "Nonnegative additive residual; unchanged baseline when strength=0",
+    "gate_semantics": "Heuristic residual/(residual+cosine-distance), not calibrated reliability",
+    "strict_target_support_budget": true,
+    "probabilities": false
+  },
+  "software_versions": {
+    "numpy": "2.2.6",
+    "torch": "2.7.1+cpu",
+    "sklearn": "1.8.0"
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "kind": "VisionHybrid",
+  "params": {
+    "clusters": 1,
+    "variance": 0.95,
+    "strength": 0.5,
+    "gate": "uniform"
+  },
+  "parameters_id": "d74241e7ae1e21219e147a3c2056127955b941fac996f2367acaace9e7c2a9f2",
+  "threshold": 1.266317319869995,
+  "pixel_threshold": 1.1265572309494019,
+  "support_ids": [
+    "pcb4/Data/Images/Normal/0463.JPG"
+  ],
+  "slot_indices": {
+    "identity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "vflip": [
+      4,
+      6,
+      5,
+      7,
+      0,
+      2
+    ],
+    "clamp": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "clusters": [
+    1,
+    4
+  ],
+  "variances": [
+    0.95,
+    0.99
+  ],
+  "threads": 3,
+  "array_hashes": {
+    "view_000": "820cd0bd34c5756f8e47eb5e52eb4493e7991e62e885f053cece2fd274cb86cd",
+    "view_001": "4de46bcb14473752640902d136351b2fb701fb733ec2474a7241da2d8e3052cf",
+    "view_002": "2f667b98fe0e79e2343b908b3a5b0269fa778af6caa80605e7d1630ff635cbfa",
+    "view_003": "b6ed9dd98c2e15d2907d11d579a0d1bacbeda3f9e4699588ffa83a7b729ac031",
+    "view_004": "b5343e40c81444a6de3e69e5674ff2864741a1ab5d94b24edac2c74ecf3eef18",
+    "view_005": "6e362eb6bca4f1bcedc1f4e1f7cd0612aa725a734dab5fcf9539eb06fc9b9d4e",
+    "view_006": "3793ab74ce3485ec2a41b4394caa66aa5805683f095af3712475cb8dec11bf52",
+    "view_007": "459a1d795e20f5a94834995b1862dff35f3ba711bf3f7ccf5b0cc5ad962bf045",
+    "view_008": "7bc6223550e96be9c1bb76e5f27e201ff3c5a470be3a360e7a8c74826b49712b",
+    "view_009": "16481a9106568278892c14ce6b3f163e38a5c46abba526b691d5befecd8db71a",
+    "view_010": "805ec8fdabe5289f95f3dbefed95a9acc55e53df7e655ce203d3f095bc9a5e03",
+    "view_011": "227dad1e0f2be21f31519c2fd579e472da327e1d8a89705b25ebf15775ae791f",
+    "view_012": "90b83eb4c367a75821dffe2cf84e124906dcc2f6b405f47a771d09bf22b94f90",
+    "view_013": "c7143592af05bb507484e32d018be9ca8b5c95ac3a982744ae377d2b82f4bbe9"
+  },
+  "npz_sha256": "b7023917c00f06a453eb19edbaf96bac4cc67195dc639a3139655bc26bb8609a",
+  "source_hashes": {
+    "vision_hybrid_model.py": "de20f42fbee7a31f04ba51758424077b3ea5f02e2ee42e95dda44941145314f8",
+    "vision_hybrid_features.py": "da83b69a7d7de10c0fb2dcfd5ce1330b987ebece744f97bd272fe26d97f85e1b",
+    "safal_features.py": "497e67e474f502da8205c304efae676ff3c1f4eb38c17e52a461c6609fd51e39"
+  },
+  "provenance": {
+    "encoder": {
+      "backbone": "dinov2_vitl14_reg",
+      "feature_dimension": 1024,
+      "registers": 4,
+      "resize": 448,
+      "crop": 392,
+      "grid": 28,
+      "layers": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "norm": false,
+      "aggregation": "raw arithmetic block mean, then branch-specific normalization",
+      "interpolation": "PIL bilinear square resize, center crop",
+      "position_interpolation": {
+        "antialias": false,
+        "offset": 0.1
+      },
+      "checkpoint_sha256": "36e4deffbaef061a2576705b0c36f93621e2ae20bf6274694821b0b492551b51",
+      "reference_commit": "2d5e36f357409125ccd9646ba016824005599df4",
+      "source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "source_manifest_sha256": "9ed9679525be8520b45cd087ce2bff1cd684f438ac82bc0d6080e36487adf340",
+      "device": "cpu",
+      "dtype": "float32",
+      "frozen": true,
+      "evaluation_mode": true,
+      "torch_version": "2.7.1+cpu",
+      "numpy_version": "2.2.6",
+      "pillow_version": "12.3.0",
+      "python_version": "3.12.14",
+      "implementation_sha256": "da83b69a7d7de10c0fb2dcfd5ce1330b987ebece744f97bd272fe26d97f85e1b",
+      "runtime": {
+        "source_dir": "/workspace/.cache/dinov2-source",
+        "checkpoint": "/tmp/vision_hybrid_assets_20261015/dinov2_vitl14_reg4_pretrain.pth",
+        "threads": 3
+      }
+    },
+    "episode": {
+      "id": "visa-pcb4-k1-seed17",
+      "dataset": "visa",
+      "category": "pcb4",
+      "seed": 17,
+      "shots": 1,
+      "support_ids": [
+        "pcb4/Data/Images/Normal/0463.JPG"
+      ],
+      "calibration_ids": [],
+      "query_ids": [
+        "pcb4/Data/Images/Normal/0654.JPG",
+        "pcb4/Data/Images/Normal/0657.JPG",
+        "pcb4/Data/Images/Normal/0952.JPG",
+        "pcb4/Data/Images/Normal/0013.JPG",
+        "pcb4/Data/Images/Normal/0457.JPG",
+        "pcb4/Data/Images/Normal/0306.JPG",
+        "pcb4/Data/Images/Normal/0027.JPG",
+        "pcb4/Data/Images/Normal/0764.JPG",
+        "pcb4/Data/Images/Normal/0469.JPG",
+        "pcb4/Data/Images/Normal/0208.JPG",
+        "pcb4/Data/Images/Anomaly/031.JPG",
+        "pcb4/Data/Images/Anomaly/060.JPG",
+        "pcb4/Data/Images/Anomaly/080.JPG",
+        "pcb4/Data/Images/Anomaly/089.JPG",
+        "pcb4/Data/Images/Anomaly/056.JPG",
+        "pcb4/Data/Images/Anomaly/065.JPG",
+        "pcb4/Data/Images/Anomaly/050.JPG",
+        "pcb4/Data/Images/Anomaly/034.JPG",
+        "pcb4/Data/Images/Anomaly/097.JPG",
+        "pcb4/Data/Images/Anomaly/095.JPG"
+      ],
+      "role": "verification"
+    },
+    "status": "globally selected research candidate",
+    "extra_target_calibration_images": 0,
+    "decision_sha256": "fcc30a051f4fc87e316595091fb776cc13dd312b439b1b2b50e376de80f5d63f"
+  },
+  "model_metadata": {
+    "support_ids": [
+      "pcb4/Data/Images/Normal/0463.JPG"
+    ],
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0,
+    "grid": 28,
+    "dimension": 1024,
+    "unique_support_feature_inputs": 14,
+    "slot_indices": {
+      "identity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vflip": [
+        4,
+        6,
+        5,
+        7,
+        0,
+        2
+      ],
+      "clamp": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "subspaces": {
+      "1": {
+        "clusters": 1,
+        "variances": [
+          0.95,
+          0.99
+        ],
+        "group_counts": [
+          10976
+        ],
+        "numerical_ranks": [
+          1024
+        ],
+        "retained_ranks": [
+          {
+            "0.95": 324,
+            "0.99": 686
+          }
+        ],
+        "energy_scales": [
+          167.92666100338457
+        ],
+        "normalization": "Residual squared norm / mean total centered normal feature energy in assigned cluster",
+        "independent_original_images_not_patch_count": true
+      },
+      "4": {
+        "clusters": 4,
+        "variances": [
+          0.95,
+          0.99
+        ],
+        "group_counts": [
+          3750,
+          1908,
+          4334,
+          984
+        ],
+        "numerical_ranks": [
+          1024,
+          1024,
+          1024,
+          983
+        ],
+        "retained_ranks": [
+          {
+            "0.95": 336,
+            "0.99": 668
+          },
+          {
+            "0.95": 192,
+            "0.99": 474
+          },
+          {
+            "0.95": 156,
+            "0.99": 463
+          },
+          {
+            "0.95": 39,
+            "0.99": 125
+          }
+        ],
+        "energy_scales": [
+          173.65332246458152,
+          139.2476445198561,
+          107.66634219679025,
+          68.06988842923992
+        ],
+        "normalization": "Residual squared norm / mean total centered normal feature energy in assigned cluster",
+        "independent_original_images_not_patch_count": true
+      }
+    },
+    "correction": "Nonnegative additive residual; unchanged baseline when strength=0",
+    "gate_semantics": "Heuristic residual/(residual+cosine-distance), not calibrated reliability",
+    "strict_target_support_budget": true,
+    "probabilities": false
+  },
+  "software_versions": {
+    "numpy": "2.2.6",
+    "torch": "2.7.1+cpu",
+    "sklearn": "1.8.0"
+  }
+}

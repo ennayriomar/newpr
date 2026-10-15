@@ -1,3 +1,55 @@
+# SAFAL research: register-DINO search with a measured PCA correction
+
+## New completed hybrid study — 15 October 2026
+
+[Download code and fixed example model](https://github.com/ennayriomar/newpr/raw/refs/heads/main/vision_hybrid_20261015.zip) · [Measured report](results/vision_hybrid_20261015/report.md) · [Method and commands](framework/docs/vision_hybrid.md) · [All banks and raw outputs](results/vision_hybrid_20261015_archive)
+
+This independent implementation uses real frozen DINOv2 ViT-L/14 with four
+registers, 392-pixel crops, the raw mean of blocks 4–18, six normal support
+augmentations and three search slots. Each target bank uses **one original
+normal image and zero extra target calibration images**. The finite 25-cell
+development search considered global/local PCA and uniform/residual gates;
+the winner is **one global PCA, 95% retained variance, strength 0.5, uniform
+gate**. Search and normalized PCA residual are added. The foundation model is
+frozen; this is not LLM training.
+Parameter selection uses 50 normal and 50 anomalous source-category development
+images and masks; target-bank fitting uses only the single target normal.
+
+The parameters were frozen before evaluation on 100 available-history-excluded
+image IDs from five categories outside this study's selection categories,
+repeated across two support draws (200 paired cases). Some categories have
+historical prototype exposure. Mean within-category/draw image AUROC is
+**97.80% search → 98.70% hybrid**;
+the paired conditional 95% difference interval is
+[-0.50, +3.00] percentage points.
+Accuracy at the same source-category cutoff is 78.50% →
+75.50%; pixel AP is 0.4705 →
+0.5020. There are
+0 lost baseline anomaly alerts,
+42 recovered anomaly cases and
+48 added false alarms.
+**The accuracy-improvement goal was not met.** A higher ranking score does not
+resolve the large false-alarm increase at the shared cutoff; the AUROC interval
+includes zero. This candidate is a research result, not an accuracy upgrade.
+Maps and localization metrics cover only the center crop. Scores are not
+probabilities, and the source-normal cutoff carries no target FPR guarantee.
+
+This bounded CPU study does **not** establish superiority over the paper's
+full-dataset AUROC. The full 27-category, five-seed, 1/2/4-shot benchmark was
+not run. A standalone reference benchmark driver is provided for that work.
+The selected stronger feature pipeline must not be numerically compared to
+older SAFAL pilots as if their images and support budgets matched.
+
+The ZIP contains complete code, tests, licensed Meta source and the fixed
+bottle/seed17 example bank. The complete archive contains all 20 fitted banks,
+raw branches, feature probes, 200 maps, frozen manifests and audit/reproduction
+code. Dataset images and the external 1.22 GB checkpoint are separate. Follow
+the ZIP README for setup and portable inference. Complete archive downloads
+use `framework/download_vision_hybrid_results.py --ref PAYLOAD_COMMIT --extract`;
+the immutable payload commit is recorded in the publication record.
+
+All historical results and fitted-model artifact trees below are preserved.
+
 # SAFAL: measured parameter tuning and trained vision models
 
 ## Paper-informed tuning — 14 October 2026

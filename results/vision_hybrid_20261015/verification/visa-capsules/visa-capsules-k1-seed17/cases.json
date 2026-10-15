@@ -1,0 +1,342 @@
+[
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Normal/417.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-000.npz",
+    "baseline_score": 0.9451699256896973,
+    "query_feature_hashes": {
+      "identity": "ff81686d02e083c75288631aec9d8927785394d8a6c3ae3fec1b975a7b6fbeee",
+      "vflip": "c0a022f08daecc06fe81ad9942808d78666c2f0928bfec18f876ab6c7cd115ae",
+      "clamp": "dabab660427732c994cf1800c7663c14ea6efce3df587aabc1e1e8fd110180ec"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Normal/178.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-001.npz",
+    "baseline_score": 0.9412047863006592,
+    "query_feature_hashes": {
+      "identity": "c23bf3daf376bb0d2e40028de6a85ddbd8f830a3ee3576c0c2b5935ebe73d4d3",
+      "vflip": "329f1187a3494632a8af22b0d83108a9d698a55b6f38cd80e8a812d287e77143",
+      "clamp": "3b02c028b0f5bd8f583ad877b94a402e51aaf7aa107d6c7222fa11f0ba127d56"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Normal/427.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-002.npz",
+    "baseline_score": 1.0480552911758423,
+    "query_feature_hashes": {
+      "identity": "ffa99756f76434cce8e410bb053e9664274819b360cd408fdc5a6842a443f01d",
+      "vflip": "a03a288d744624fbf3f690141eb3561ce890922fe8aaab0f52cf46a8116bd3b4",
+      "clamp": "ce5800147d71c74ebb4a99cef753e110bb2655509033937bd3ab093d8992ae2a"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Normal/215.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-003.npz",
+    "baseline_score": 0.885710597038269,
+    "query_feature_hashes": {
+      "identity": "f8ca22b2ac338baa9423a2ce1e30762487fe4e513e528c936ac97c99025c4396",
+      "vflip": "995132597cb8a6c51cc8a538c29d1db2fc0cc88ee95331697b3bb3631f917bae",
+      "clamp": "26944c844275a41fff53cddb60522e99d437c1e02a3ddba712fa326ac5000595"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Normal/514.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-004.npz",
+    "baseline_score": 0.9242492914199829,
+    "query_feature_hashes": {
+      "identity": "ac13ad6b61a3e28c1545f8e67987e114233355c61f83105faf05549558fd0536",
+      "vflip": "9ad37a4fd5eef824756f00103ed9d8e3ed25add8addcba8c01c6324919c69872",
+      "clamp": "5c6fe28fcf0f2e04aa08fa39cb818715ef2c54e6920994133d46b773b416f175"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Normal/208.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-005.npz",
+    "baseline_score": 0.9502995014190674,
+    "query_feature_hashes": {
+      "identity": "c0bccf835ce2023798756e678a971c0525ab8a6764a78479da6e865de95b42fa",
+      "vflip": "e1d5e12cdc5824e2fad0a17e9ef92675eed5b5da41741b102002385a80669214",
+      "clamp": "452faa6f831ca42a622f364a334acedbe1739d447b565c9268dc60858a3ed551"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Normal/297.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-006.npz",
+    "baseline_score": 0.9304139614105225,
+    "query_feature_hashes": {
+      "identity": "d2be47342303385f247393e642a2152ad1087934bd3162aac89402fd53ab4d23",
+      "vflip": "fa7b43c27c37d587cfcf56d7510e8a28a88f639e9a2465687be8904d87537292",
+      "clamp": "5c4fd1cbcbe936a195927b249be11becf1aa099f945c250cc7d45c5a5b088f62"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Normal/170.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-007.npz",
+    "baseline_score": 0.9505648612976074,
+    "query_feature_hashes": {
+      "identity": "14ed13784046b8d59fcecff018cccfe39a452fd27906eeb12c06750b21b93069",
+      "vflip": "7894bd65997ad9f9dd76cad7b7d76ee4b5485dc8f644a2524ed78ad96c000265",
+      "clamp": "5fcbe5e220fd7d98f866438a7ad5dc10a087193f572a9d2ef84a37dcc6496ec5"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Normal/545.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-008.npz",
+    "baseline_score": 0.9253748059272766,
+    "query_feature_hashes": {
+      "identity": "3b8c98193911ab6c1b3d2817851ed1778cee6f651f6d0d1ae322807a93077bfa",
+      "vflip": "e0d13b20f400d8c15faf324d3ade33a8079aa3743655823f4eb02cfabbafa835",
+      "clamp": "fdd3b6c1085bba0e69407fdcc4d3f38b86c27c20f3d9e7fa6cc729299eb941ae"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Normal/518.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-009.npz",
+    "baseline_score": 0.9951024651527405,
+    "query_feature_hashes": {
+      "identity": "8824747cd254091a48638311e5c648e614f483facc3ec37cec9a41338d750aeb",
+      "vflip": "33c61e590aec6b6bd293d32cc3146a310d62ba80d34968089d849b2bee27dde7",
+      "clamp": "dbd41fb4333a69ba6f4596db13f86a5817b391d4efa479e291124923a267a9d6"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Anomaly/017.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-010.npz",
+    "baseline_score": 1.192824363708496,
+    "query_feature_hashes": {
+      "identity": "5ac294a304a3c82acbb3c98b7eb19c7f88546a0e6fe508e587678e8f3dffe3bc",
+      "vflip": "b2c7c704ed54e500b520ab94760507e7e8366e1a85a337fc00006b74ff4f9c96",
+      "clamp": "98449bd2eadac4384846efedd381b4736c5ee84e114f873281c04ecfdede1450"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Anomaly/044.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-011.npz",
+    "baseline_score": 1.0399082899093628,
+    "query_feature_hashes": {
+      "identity": "fd41a747bd2e63393e77e62140b5d2a51e9f34dbeb62465486dea7b97dbefe45",
+      "vflip": "7243b885172c78952265d4a3b69b2df1b05a36e1e48a1d100709b872a8597dd4",
+      "clamp": "90f9a1f74abb71480313c807950e2dc2db48ec50c9e95f87fad537d6718a3cec"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Anomaly/009.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-012.npz",
+    "baseline_score": 1.268256425857544,
+    "query_feature_hashes": {
+      "identity": "214802d76357f9c16dd2584aef3690d6281c44f6e82ff16bcd88f695663ca466",
+      "vflip": "2ae9a53587cdde0fcaa224076efb9a0d5b3552378cd55016c98bce5822e0d7e0",
+      "clamp": "3ab44cde3ce648a98eb117d7f97cc3e4a65789af5d9d67993abe6c47940eb76a"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Anomaly/055.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-013.npz",
+    "baseline_score": 1.6767114400863647,
+    "query_feature_hashes": {
+      "identity": "97aa34bae0916456a52aa4c2f2fd15ea082674cbcd84cff6d54289d1428b9103",
+      "vflip": "2a0dcc126934947b3c9107be05d86560dc48c856f73dbf9f34620ec2e9169776",
+      "clamp": "e0d4ec6c27f5a568b9c9008ae6851abf5831d11b705bca16fc7c19b54db584f5"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Anomaly/071.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-014.npz",
+    "baseline_score": 1.4837405681610107,
+    "query_feature_hashes": {
+      "identity": "da1cfc375d259408f16c112de706f0970e9c80c23208a29da81ef928507d4e20",
+      "vflip": "54ddac6728be4a0ece0e92b7769df17f7a3214e6740e76f1f6eda71df1289048",
+      "clamp": "c93b9d7831946e9010cf5f5aee8b07195125b37f702ac6bfa5ebf233d214d70a"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Anomaly/050.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-015.npz",
+    "baseline_score": 1.6037362813949585,
+    "query_feature_hashes": {
+      "identity": "76961a92cc8dc1e472eb42e1bd2a2d04c67ecc411d806203bd1fee765d8d9953",
+      "vflip": "ad7fe5d23a98c776067232886643ad6252dba52e887e01d2f18bf1c03f5f35ea",
+      "clamp": "256c4bf85280d0f366547d19b5e3ab1d89c94d5bb654cc9daf26bfad08d665d0"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Anomaly/035.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-016.npz",
+    "baseline_score": 1.0305874347686768,
+    "query_feature_hashes": {
+      "identity": "e34c113b0f020eb0c8ddec56c669938802d2b6978925a3ff01bdbbc6197a9c1e",
+      "vflip": "16246757cff7fe26e2aa3cbcd890d10580cfb52f37c9eb856db20887a54192b3",
+      "clamp": "62a8933e523498aa00fa250d0f3c799200a7146bd256205659475948844d742d"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Anomaly/058.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-017.npz",
+    "baseline_score": 1.6499109268188477,
+    "query_feature_hashes": {
+      "identity": "7fe3f771e1e525772f7ed479b3c7b7f050e37bc5cab93d39547344667a11acc1",
+      "vflip": "acd886a1cfe1f2b52c38c146289c86ab560e22f869b05042d5abbd214cca9f3b",
+      "clamp": "918c777eb51a58633c1d56c1edf46ae33b90539100e2d11052f19d66a12d237f"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Anomaly/084.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-018.npz",
+    "baseline_score": 1.5360808372497559,
+    "query_feature_hashes": {
+      "identity": "539a91865aefd5b9b8ceddac7e47c44e5ead71910c92f6d9d7c4b0081d39796b",
+      "vflip": "b374eae52c0707bb3497f9c147f3b523e9f53c1301a23b90d6407d2446c78732",
+      "clamp": "330e5bf8d8949c911fd652960b0daa1e50be05d01ca835a9ad2f06ff0e7944a6"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "query_id": "capsules/Data/Images/Anomaly/095.JPG",
+    "episode_id": "visa-capsules-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/visa-capsules/visa-capsules-k1-seed17/raw-019.npz",
+    "baseline_score": 1.1000512838363647,
+    "query_feature_hashes": {
+      "identity": "54b3339c7a0f0221537590c3ac1200bcc30b59613e3f4a4c2d1fd7394307c19d",
+      "vflip": "0b8b36154ac5565d173f4a51c94c5ff87777b0e6810d0bb23e47980f938142ee",
+      "clamp": "1cea6bae73d5d16b64afb9745c851f81b5ed5eff4f3ef10848678ccc6779dad4"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  }
+]

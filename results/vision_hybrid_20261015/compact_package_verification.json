@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "zip": "vision_hybrid_20261015.zip",
+  "bytes": 49653598,
+  "sha256": "0d03614914e7e4799927734276f707dff16004eb4622b2080d1952c48a3440af",
+  "files": 803,
+  "crc_verified": true,
+  "current_source_bytes_match": true,
+  "example_bank": "mvtec_ad-bottle-k1-seed17",
+  "full_dataset_images_included": false,
+  "foundation_checkpoint_included": false
+}

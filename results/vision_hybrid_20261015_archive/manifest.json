@@ -1,0 +1,896 @@
+{
+  "schema_version": 1,
+  "archive": "vision_hybrid_full_results_20261015.tar.gz",
+  "bytes": 1047822528,
+  "sha256": "5f76fed20878f0eabadbb3b629c55f3d799f179e37d0b4be5273cdb161d85eb3",
+  "compression": "gzip; deterministic tar headers; internal hardlinks preserve bank aliases",
+  "root": "vision_hybrid_results",
+  "logical_files": 1132,
+  "primary_banks": 20,
+  "selected_and_fit_npz_paths": 40,
+  "query_feature_probes": 10,
+  "verification_maps": 200,
+  "parts": [
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part000",
+      "offset": 0,
+      "bytes": 8388608,
+      "sha256": "1e9c65971e53771a9494eb002bd1386ff4ae89b302380707aa72460ae4b1fcb0",
+      "git_blob_sha1": "67dfbf5823cbb9988b14020e205db4e5da4dd7d9"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part001",
+      "offset": 8388608,
+      "bytes": 8388608,
+      "sha256": "584381b597e80d38644689822336716aab56ffcad69e2cbdb35dd48d5e9d2624",
+      "git_blob_sha1": "2c0cc79364b199acc7bb71541a1c928fb87592ef"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part002",
+      "offset": 16777216,
+      "bytes": 8388608,
+      "sha256": "f32f6e718b6e55bf7cfaa04b2fdcc8f0f01c21473fafdc9838251a3d44d2ad54",
+      "git_blob_sha1": "5da30104143ba1af4ab82ba2844e88a000a4eb91"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part003",
+      "offset": 25165824,
+      "bytes": 8388608,
+      "sha256": "6c805b6cd0c32023b1ece21dd9dd858f8cba673e3debf6bccc86e4eb15fe78d3",
+      "git_blob_sha1": "72d1ef5f0898522ab7526bccede7726502ce6cca"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part004",
+      "offset": 33554432,
+      "bytes": 8388608,
+      "sha256": "037e3de8cf046f6c57d0ec5b653c6ed1c164b633fe8e1be825029f54bcb4b1f2",
+      "git_blob_sha1": "cc881ae9862fb46e74d170be321dd120a987eb60"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part005",
+      "offset": 41943040,
+      "bytes": 8388608,
+      "sha256": "0f11973edf63ab79f8b977d9e78c9cab715d515276ebe9b95ac4b580b2c248f2",
+      "git_blob_sha1": "f899bc29215862e85ee0164b2771c23794708187"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part006",
+      "offset": 50331648,
+      "bytes": 8388608,
+      "sha256": "0e6c1cd5581856f28a50415b8b4b9eef869553889cb189612e1e80a05f4bc4fa",
+      "git_blob_sha1": "2589199b2ead454b13816300dad738b5efcdc8b5"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part007",
+      "offset": 58720256,
+      "bytes": 8388608,
+      "sha256": "85ab0b7147ea718554cf5c03a2045a1cab50305e2d0d9a0163d671c44052e6bf",
+      "git_blob_sha1": "3f340fbb446919b41b11d1d69dac595da5ff2027"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part008",
+      "offset": 67108864,
+      "bytes": 8388608,
+      "sha256": "5b430e0a5e1195092dce59936385b1e23bc6932e357b336f866b7a06e943489f",
+      "git_blob_sha1": "91f19252817fed76b2af66cfb95850f819624511"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part009",
+      "offset": 75497472,
+      "bytes": 8388608,
+      "sha256": "57d56c3786652a699810212e65589c0f1b97951c3cb201155c225a856e3aa216",
+      "git_blob_sha1": "a35d302956cabf565ea12a2e6f8a90522dd23e76"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part010",
+      "offset": 83886080,
+      "bytes": 8388608,
+      "sha256": "3c5be79db39ba0d69cdb5cf7aee27d31f2aa4a19ab6e04176530a0aa3bb49db6",
+      "git_blob_sha1": "50da5e7e17bd8204a1bde1f6834a5f481b5790ca"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part011",
+      "offset": 92274688,
+      "bytes": 8388608,
+      "sha256": "30b045989c53fa065ea633339f930a958609f2ee94313bc3c455a1e198f0c3c6",
+      "git_blob_sha1": "04e53c7562158deaba46695bfd5083ec10e9cfa4"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part012",
+      "offset": 100663296,
+      "bytes": 8388608,
+      "sha256": "9e7d13fd9212ff52ce99fec1602b81aaad6eb885297b87709792674abd35930b",
+      "git_blob_sha1": "4af62fb965666b0a975684b9d0e88e6a08ff0ab8"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part013",
+      "offset": 109051904,
+      "bytes": 8388608,
+      "sha256": "8dadc4c500916b89e11b67f95e8671258b767d439d32247ab706e707aad6bd2c",
+      "git_blob_sha1": "261998b0d8fdc41d6c443b6f1c4986bca9ca3199"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part014",
+      "offset": 117440512,
+      "bytes": 8388608,
+      "sha256": "ca3d4c394a87f06a90ba0814db9447d5747e3c0e227781d5dc009ac52e4fd3be",
+      "git_blob_sha1": "07737e04ed24bf41b0e509a767f229687054b58b"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part015",
+      "offset": 125829120,
+      "bytes": 8388608,
+      "sha256": "e1130ac6b9174b1e71d77aad5752e74f013ba283408000bad4386b525acd36a8",
+      "git_blob_sha1": "ad8161c65897d552e3e774fb2cdde2c45089b753"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part016",
+      "offset": 134217728,
+      "bytes": 8388608,
+      "sha256": "512ed601d6387af41cead1ca0603777c335e1a8a92ccaf34435e88b25b02c322",
+      "git_blob_sha1": "c3311275a750b84ac36c18b1ef3df7fd09730e2c"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part017",
+      "offset": 142606336,
+      "bytes": 8388608,
+      "sha256": "4e00722f5388653be341b658418a87ca3d328a9d03bb0e7388c396ef0f1d1a03",
+      "git_blob_sha1": "bda8f356e88c175c9da8ba7aaf89457105dfcd85"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part018",
+      "offset": 150994944,
+      "bytes": 8388608,
+      "sha256": "89bd279a7128ac4002837952b7e19312ea63b2095dca9dcb83fb36204181b122",
+      "git_blob_sha1": "0afba3f0dca62fdeaa530c38fb6875ddaa8f8f35"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part019",
+      "offset": 159383552,
+      "bytes": 8388608,
+      "sha256": "499bbaadf91b026c7c63a7330ebafc62f3549a60749ae14f21dd6e283fc1a6fc",
+      "git_blob_sha1": "6b05717245ab7e45992f684880d7e41f8f8f5d03"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part020",
+      "offset": 167772160,
+      "bytes": 8388608,
+      "sha256": "f1e9da1ce2603c063ed2647e821dbc09b3fa460a801a1dd60bb74c0621a0d640",
+      "git_blob_sha1": "14ec5e29afe3f8118e4d9dc2517cbbd1a4d2c02c"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part021",
+      "offset": 176160768,
+      "bytes": 8388608,
+      "sha256": "01f18a8c54c907a87f278a45c905192e57c22acc2979a69b5119be708ae68e06",
+      "git_blob_sha1": "a5a926cbce4db8d31f07718df434f12cfc1fe4af"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part022",
+      "offset": 184549376,
+      "bytes": 8388608,
+      "sha256": "7dbccdd143e3c5bdd4920bd5ab504fedef45f127b9f899823210a21d2a630225",
+      "git_blob_sha1": "4cce889d0b502e2a1bc17d570d781f94aa8ebc6b"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part023",
+      "offset": 192937984,
+      "bytes": 8388608,
+      "sha256": "21927e8ea4b1203394c3ecf4f4b87072cc0b66f0b25bf982abef4c710eabeeae",
+      "git_blob_sha1": "ec767f60533873b96245c2c93552d674bf2f5ff6"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part024",
+      "offset": 201326592,
+      "bytes": 8388608,
+      "sha256": "83c8d8f5755a41395ac084601598cdaddc98fbf638f4c703bde1725b6260ddd4",
+      "git_blob_sha1": "313c024eeca5a389e4ea826ed66d45a80bebd115"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part025",
+      "offset": 209715200,
+      "bytes": 8388608,
+      "sha256": "e72563fdfe9e7f61f80cff14cc5c4044683941469b3b770e4faf98526765f63b",
+      "git_blob_sha1": "472343432c85eab9e36719ad4fe73a59479bf48e"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part026",
+      "offset": 218103808,
+      "bytes": 8388608,
+      "sha256": "982b921b8abfad9fd4878d7c9d9587f50adbefd8db20d7e432d2de3d44f314d4",
+      "git_blob_sha1": "a9cba795e7b5bba35ffc4142963cd72e4d18f7df"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part027",
+      "offset": 226492416,
+      "bytes": 8388608,
+      "sha256": "68603118c1b351722cc4399ad622cf084d1e03bf461a5c7e9bbcca34eb5d836d",
+      "git_blob_sha1": "dbff4d260204f749c8ce199fafa62859096f5b25"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part028",
+      "offset": 234881024,
+      "bytes": 8388608,
+      "sha256": "9840ea02ea86742393e1aefcfbbaef87976af83155d5f2dd9a78099b00e67b06",
+      "git_blob_sha1": "34ac4e8759ee9fbd4d4d09f2b4ca0f10fc0dae82"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part029",
+      "offset": 243269632,
+      "bytes": 8388608,
+      "sha256": "a5a435d41098e249b71161b4b93c91e3effdc50d11045f0f289d152af5efee2b",
+      "git_blob_sha1": "df8d43e18d481f7ed0e13e0e5e6fb35a1486e419"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part030",
+      "offset": 251658240,
+      "bytes": 8388608,
+      "sha256": "8c22e084f278aeb56dc6f0d4763aa8abd979458b8e4d5b52907a7ba0953f47a5",
+      "git_blob_sha1": "31c8f9ff98b6730dd36e0afe0bd3f92019bb8097"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part031",
+      "offset": 260046848,
+      "bytes": 8388608,
+      "sha256": "b9e976774521458acef03ef6c3094e5f26adf7668eca2ee376b65a543b019e68",
+      "git_blob_sha1": "a81951fa3075e5061d2d44db965e368a11288126"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part032",
+      "offset": 268435456,
+      "bytes": 8388608,
+      "sha256": "1cb43dc01b28d58039403e6dc502b883bf1c1c3e943898c8285d755ee43595eb",
+      "git_blob_sha1": "e395e32e6f90d77e5f826e2e5cc3a61591df838e"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part033",
+      "offset": 276824064,
+      "bytes": 8388608,
+      "sha256": "077baebf421d6c6fa0a5bcfadd902dd5f187d9954722bf10673d990573025a9c",
+      "git_blob_sha1": "01222080c8fe83cac263a920ccece6906114bb32"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part034",
+      "offset": 285212672,
+      "bytes": 8388608,
+      "sha256": "d67db430162c37507daa6ba8a9da27dfcd1891bd019f2317a9ead6ea6fd4c38a",
+      "git_blob_sha1": "b35ffc815ac304f6f44d3d17cde7465d17ef8850"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part035",
+      "offset": 293601280,
+      "bytes": 8388608,
+      "sha256": "2e61018b36f68afbefeb6ef060d7c71f90ca7034e4196edb57cf4d2524df7200",
+      "git_blob_sha1": "7221b7e0fb1d912266c1c1715842895cce732973"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part036",
+      "offset": 301989888,
+      "bytes": 8388608,
+      "sha256": "a42216589ddcb75ce6095687bad9230f600cb5de84169f8af3e3a4e943c32fea",
+      "git_blob_sha1": "a58c2e654980098db213f100144ea9493fb6120f"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part037",
+      "offset": 310378496,
+      "bytes": 8388608,
+      "sha256": "e5ea848e9a37f053339698832937a2f8328db8e0a9949006f55ed3583fbaa2b6",
+      "git_blob_sha1": "7a20916069f21af24bb51868c179ce3e42f6b95a"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part038",
+      "offset": 318767104,
+      "bytes": 8388608,
+      "sha256": "bbaf2ae02c927f5cbb139a2d8c9f1f74ac93c30ed59323af6efedbb4298d7a52",
+      "git_blob_sha1": "ea8304d6d053a57bebf19aeaf6a2a948cc799469"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part039",
+      "offset": 327155712,
+      "bytes": 8388608,
+      "sha256": "3ea4844eda843b3af019f965360fd396c9a01f644b588838a43944ed42a276e2",
+      "git_blob_sha1": "03a221fdd30eabd8030b0883b355197dc28f29ff"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part040",
+      "offset": 335544320,
+      "bytes": 8388608,
+      "sha256": "127996cd55ee79eeecdb189fcb726850f714c51fb84a1164e951b544d760bf2d",
+      "git_blob_sha1": "da6ad02431ae7962305f8656f27964ac8bfc5da8"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part041",
+      "offset": 343932928,
+      "bytes": 8388608,
+      "sha256": "43353de68fc6a861ab3daac438607d51708d61843c08e5e5fa3c2f7425599b01",
+      "git_blob_sha1": "a9992135cc13c9af9049986fef50e10b29da99a0"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part042",
+      "offset": 352321536,
+      "bytes": 8388608,
+      "sha256": "21ed3e27091dff14abe8ae487120659ef0e77c7e8024d1e6481b324cd324cd90",
+      "git_blob_sha1": "421e3a56d215c73e9a6190ba65354cbc67054639"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part043",
+      "offset": 360710144,
+      "bytes": 8388608,
+      "sha256": "f9c67ce2bc0b6e0272a28002af439542a774a4a86659d3cfd2c58eec4983417a",
+      "git_blob_sha1": "9e8e01dcf67538132e5747688153e10866a9270e"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part044",
+      "offset": 369098752,
+      "bytes": 8388608,
+      "sha256": "b28cbd2cee0d42fd1a91f0d4c4919a91ad3f0de04a7b7f3a57b5ed2dc100e307",
+      "git_blob_sha1": "2ca30a54f9061032c6ee2ce8f285c90ed3cfc859"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part045",
+      "offset": 377487360,
+      "bytes": 8388608,
+      "sha256": "ff6ac14cc68ce74dfead56b9747eeffd0f947f667d62347176c4a2f06ab767fc",
+      "git_blob_sha1": "3a069e21777fb81f6c2ac924dc3a463f0a66b69a"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part046",
+      "offset": 385875968,
+      "bytes": 8388608,
+      "sha256": "bbacee4348b999a4a8baa9574e23d4c803ce0a5b38a2a2b9f40e5a3c35163e93",
+      "git_blob_sha1": "369f83a363333e9a5b6253fc09da86fec752d6a6"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part047",
+      "offset": 394264576,
+      "bytes": 8388608,
+      "sha256": "f4fa10a869c8115473a7221a2cab17ef6476a556013df13cdc73aa0eda8444cc",
+      "git_blob_sha1": "78a8da208ee7e0dae46738412e9e5bbf1159426e"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part048",
+      "offset": 402653184,
+      "bytes": 8388608,
+      "sha256": "8d27e50b44d539c7d1b5bc7c867c8987ecfab7ff736ba64bff419c4089f12473",
+      "git_blob_sha1": "e69fd4d7abe7d378f53667c9b824a995c7fd49a9"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part049",
+      "offset": 411041792,
+      "bytes": 8388608,
+      "sha256": "f53810a59982339f7daa969cc9a3e36738125da9704975510a045f268a11889b",
+      "git_blob_sha1": "804b846a4f4e0407bfe4fd61b8c475a8f4bfe03b"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part050",
+      "offset": 419430400,
+      "bytes": 8388608,
+      "sha256": "8ae2eedcf2204d453dfdcb2639e8579f3c39f8f09757571fc9cce8222db79e06",
+      "git_blob_sha1": "2843f1895d11d5c8a25a36296711a563e422cfb7"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part051",
+      "offset": 427819008,
+      "bytes": 8388608,
+      "sha256": "4f1fda0286fdbb6ee0c3aafc789066e178b7e071ae136534270dc27d69c2071d",
+      "git_blob_sha1": "1bf973cc43cd09ba3362795a9b99e6082bc9cb48"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part052",
+      "offset": 436207616,
+      "bytes": 8388608,
+      "sha256": "eff1bdf6b6ad2710e0b895481926d0e7e909a06daf8dfbae6373d2c430a3545f",
+      "git_blob_sha1": "b7fb2bae37d61b9514e2d9141873eb19ae960bdd"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part053",
+      "offset": 444596224,
+      "bytes": 8388608,
+      "sha256": "c6220033773bb30986f27137731dca184f9cc1c31d858a53a4b90ecf435d4bf3",
+      "git_blob_sha1": "906911a1f0bc2669e3e1f17054c0e562817d8088"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part054",
+      "offset": 452984832,
+      "bytes": 8388608,
+      "sha256": "cc6e1d923a53bbd60a991633e4454dfe7faa332746e6a6ee23191e5581c4ed8c",
+      "git_blob_sha1": "90fc448c1b9622bd17d9bb456350ff3b5afb8b07"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part055",
+      "offset": 461373440,
+      "bytes": 8388608,
+      "sha256": "f6d6e26220f60d6f3342573ea2d7f1cbcc8e99f33352e3c73548bb9c99971906",
+      "git_blob_sha1": "96d94fb7bea1a961ee8f0a7c0c3d4280b71b94e9"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part056",
+      "offset": 469762048,
+      "bytes": 8388608,
+      "sha256": "de99f1d38d29f87e8a1b6a276decdcc1a65fe52373ec008875e1d1560bc7d8f6",
+      "git_blob_sha1": "23b51bca8649723d60c7ff68e0cf4ce51e26de63"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part057",
+      "offset": 478150656,
+      "bytes": 8388608,
+      "sha256": "146523d839adb561d2a570e7f23ce80bf9ba9eee5124bc6279ae256c56799505",
+      "git_blob_sha1": "6f7ce73bf3fff478333a9d1c30bb73714d2825a2"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part058",
+      "offset": 486539264,
+      "bytes": 8388608,
+      "sha256": "c85717a857484b70f8b74d5f5088129a6150fdf23e36ba02660134bc324a6e8d",
+      "git_blob_sha1": "e31ea81275f163f559197f423c262d36a807ec4a"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part059",
+      "offset": 494927872,
+      "bytes": 8388608,
+      "sha256": "78bdefe3abc3137bbb56c58d6d12eec748dcc5ffcc96c5c7d417baaa5a475f7e",
+      "git_blob_sha1": "b56fe9ca39c913a4f435edfe9a90e37ce744d4d6"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part060",
+      "offset": 503316480,
+      "bytes": 8388608,
+      "sha256": "da364f45cedf69d8489a27c2392b64323f765556f91b6abf5eb698da1cff5c1e",
+      "git_blob_sha1": "dd92f60aba5255b0117f4efc650d2864978a3f23"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part061",
+      "offset": 511705088,
+      "bytes": 8388608,
+      "sha256": "40138c5949434e5d7df20fd44987d8a91789231978185b65af7d32d4a2eccde4",
+      "git_blob_sha1": "c376032462835bb77a49df562e37101d9c87b4d2"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part062",
+      "offset": 520093696,
+      "bytes": 8388608,
+      "sha256": "4141e9479fda42afe112d62f7faa3fe89d628534b352ff1f8021f0270ad80b6c",
+      "git_blob_sha1": "c22875db18785c8fd7e178b36d9b3c690f559de8"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part063",
+      "offset": 528482304,
+      "bytes": 8388608,
+      "sha256": "338c4f1d2c4ba8d79cafae69b3936325f7c8a344f2409b4637d47a0a77798929",
+      "git_blob_sha1": "21a832acf2bcc232b8e5be1e771deb2aaf96c431"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part064",
+      "offset": 536870912,
+      "bytes": 8388608,
+      "sha256": "f7363f21f1288b34085ef4ce486be88fcb37d10c866a05476007a88945a0becf",
+      "git_blob_sha1": "23250ecebbd151a8610955f0d736deb2c59c7766"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part065",
+      "offset": 545259520,
+      "bytes": 8388608,
+      "sha256": "8a5b75db000aa6ef831b5d90d7c23ab621aacb5132c92d6998a30a95ccc7afae",
+      "git_blob_sha1": "b09a8166f1f30642365e70305061c8ce2347602b"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part066",
+      "offset": 553648128,
+      "bytes": 8388608,
+      "sha256": "363ecbb561087fdbb914f03f5beeaf57101c4f96fc01b0a201a3241138b322a4",
+      "git_blob_sha1": "022c40350dd96c259c0a93abcf66014b05ef64e7"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part067",
+      "offset": 562036736,
+      "bytes": 8388608,
+      "sha256": "d8538ed84086299bc5a91e876ac361ed3952963c2a2283f0631924d168dd893d",
+      "git_blob_sha1": "e62b2fde2dd3390ca9b8b480bb1ae734555e2957"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part068",
+      "offset": 570425344,
+      "bytes": 8388608,
+      "sha256": "b3063bc013f639c31f919e4d37b366b7dd8dd306924422d8a5b76e940c6d15f0",
+      "git_blob_sha1": "634c9c064e6283f379a27bb9e8b7cae21d9d4d00"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part069",
+      "offset": 578813952,
+      "bytes": 8388608,
+      "sha256": "5a81dd621c7bd3aee4d50db75c56d3ec65c772ae04ef112a68166dd4dca08e53",
+      "git_blob_sha1": "004c9ca53aef99c3276bcc3d9bfbe17a051f24c1"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part070",
+      "offset": 587202560,
+      "bytes": 8388608,
+      "sha256": "5eb491e3a5e18219d9c0a731b76cf35b03007ddf0883cd3bb1904ea2407b6022",
+      "git_blob_sha1": "3598c60f64325e7ce7659f77c35f334a1d0e87aa"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part071",
+      "offset": 595591168,
+      "bytes": 8388608,
+      "sha256": "1c6e8efc4ea652cc256b8ac566965c77ec6a6ea7de9d625225eb9a6c9b36db5b",
+      "git_blob_sha1": "7ebcebcc63755d1c521ce6bf27d38f38c2b7bc78"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part072",
+      "offset": 603979776,
+      "bytes": 8388608,
+      "sha256": "2aa91d7e5459f8704316a8d2ec4561b91e4511061e4c06e87c48a162c9acdfc6",
+      "git_blob_sha1": "5102b9f4d6eb9b3d7d7491e8dba0afe3bfcdc1aa"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part073",
+      "offset": 612368384,
+      "bytes": 8388608,
+      "sha256": "8e9d53f91afb220049243043d3e24d36fd226667484ddc2b9cc64be383c58f05",
+      "git_blob_sha1": "e2494b1b5e6805d728ef0298233c569683a3297d"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part074",
+      "offset": 620756992,
+      "bytes": 8388608,
+      "sha256": "a13c97883f954287afcb33082623548d1942ff5525808e6577eed6a6ca092b8d",
+      "git_blob_sha1": "4f9380e7d50d9c7f831c4ef3a8693a1edcc0f87d"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part075",
+      "offset": 629145600,
+      "bytes": 8388608,
+      "sha256": "d8f6fefea27c7ce7676867aa44ac60ec9add7b3fb711286278aa526025ef849f",
+      "git_blob_sha1": "859fd216015789804ab593a2e792e82565c52e58"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part076",
+      "offset": 637534208,
+      "bytes": 8388608,
+      "sha256": "1932420b8ad0af4fda57adf33bacee3b60d3e917bcb8a97890bbe9f94313aa3e",
+      "git_blob_sha1": "07ab21bb633cb1d725eb8b341dcc344db6d1b2e8"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part077",
+      "offset": 645922816,
+      "bytes": 8388608,
+      "sha256": "74104e5f2ae8ef984ecc7add809adea14f3616b27b2516897c444b9b33dc9b57",
+      "git_blob_sha1": "198119fe490cb11f9f283d4a7c684a8fc59d1dfe"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part078",
+      "offset": 654311424,
+      "bytes": 8388608,
+      "sha256": "738087719ad504e820ac29e672bca3a0f947fc435713b6ac663c7819d4e77b9e",
+      "git_blob_sha1": "380ec294aecde89386c47909a994d89518bb8802"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part079",
+      "offset": 662700032,
+      "bytes": 8388608,
+      "sha256": "806f1be6021ebe1db5c1918f7794a16c13708846dd1e4fc8d50e1fed514fda7f",
+      "git_blob_sha1": "cc7aa705e5b2858f210d7b6205beef813cd4cdd7"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part080",
+      "offset": 671088640,
+      "bytes": 8388608,
+      "sha256": "b8d3c92dc7d4df3a21ab96f480dff173272ab291d3ae3a26163a661422624614",
+      "git_blob_sha1": "f841a6f36b84e9d084d6ee9fb125610d6fc8e1e6"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part081",
+      "offset": 679477248,
+      "bytes": 8388608,
+      "sha256": "7593999b25903d8019413960bc617c4c6f11f12c34f5f826fd297b263b654784",
+      "git_blob_sha1": "ff8fcb3bb55e04b2e9ad93f59abc52a4f5449865"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part082",
+      "offset": 687865856,
+      "bytes": 8388608,
+      "sha256": "4cfcf5da575cc8892d4df7535ea501c8762d118fa4218ab20ef3ef310ca7ffdf",
+      "git_blob_sha1": "7a068d1c9d702e7040e1a44d352c8640561c1b34"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part083",
+      "offset": 696254464,
+      "bytes": 8388608,
+      "sha256": "1bd3728cb89f5b72ffa2a7cb6214000f0baa7ecf7116deb2a090fbe9f4fda5f6",
+      "git_blob_sha1": "b75645c6b1a610c7704341b41f4e69bf33c763c1"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part084",
+      "offset": 704643072,
+      "bytes": 8388608,
+      "sha256": "fc38c5b02ce9fba005e453f9b94684a955f8e42cc12e2556e45856f1e291c483",
+      "git_blob_sha1": "cffd7f4153dc4d1192af37b55a88684951a6c01f"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part085",
+      "offset": 713031680,
+      "bytes": 8388608,
+      "sha256": "6ef7efd9194957a26b4c65a09e6f8d0e8750645ab49a538d7b0c386e305170e7",
+      "git_blob_sha1": "406bafe51bc5fd3986d1ae6f67e1c6096fa6f2b3"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part086",
+      "offset": 721420288,
+      "bytes": 8388608,
+      "sha256": "6c052bc8b526b667fbd68a51ae2dfb7955559ff4888d589f4d8d851c39325aa8",
+      "git_blob_sha1": "62633cd6acabb046595384e5266c9e493aaab594"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part087",
+      "offset": 729808896,
+      "bytes": 8388608,
+      "sha256": "750ecbb91b352782c38460ba35cd68c09f24e19f6ac17cddd42fe422b40741e0",
+      "git_blob_sha1": "58f1ee826098b955efb9a0b922c27bac839b2c76"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part088",
+      "offset": 738197504,
+      "bytes": 8388608,
+      "sha256": "e50c644f0bf9705406d0667a77e3dc04aca09f73b04220d80fb9c1beccbc96a3",
+      "git_blob_sha1": "0007f99cecfbaaa4085f4f1e5ba70ae2e3f6bfb5"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part089",
+      "offset": 746586112,
+      "bytes": 8388608,
+      "sha256": "bf8810d7fe61bad44a4cdbe58f3b36c4fb14a80cb026a7bc8a12c9057f275467",
+      "git_blob_sha1": "21bf1bf58c3673d943d4baed589784429191f93f"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part090",
+      "offset": 754974720,
+      "bytes": 8388608,
+      "sha256": "768b076b3fb4fedc2e832b4d94aca0c9fbbf082c057a53d7b223c583b3ae7b2c",
+      "git_blob_sha1": "1c2cdfbce15b4dd1f9cfdf90242f833c56825074"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part091",
+      "offset": 763363328,
+      "bytes": 8388608,
+      "sha256": "67e18c5559a0b0c1c80f6800649c0bf96b941f783840798a64be350096d2bafa",
+      "git_blob_sha1": "2f77e7e3830cc97f4712d636f4660c19f93fde2c"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part092",
+      "offset": 771751936,
+      "bytes": 8388608,
+      "sha256": "c2ef0a6cf879619d8203c6e9e36269cd2c76c7527cd6eb2d8ef788baf2658bb8",
+      "git_blob_sha1": "e501a781a15077b9c2e37bcf7c34dbdf72988110"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part093",
+      "offset": 780140544,
+      "bytes": 8388608,
+      "sha256": "186e978205be176da3ca2e533c4bf522a09d8b4b736d48a4336d8635d4f50cdf",
+      "git_blob_sha1": "f3a9967f86305cd152e102c777f634533e7c89e6"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part094",
+      "offset": 788529152,
+      "bytes": 8388608,
+      "sha256": "03f9ba24ed8220bd510f856f18ca31d2841c53395b6ab246cb61f46357eea53d",
+      "git_blob_sha1": "03f688d0e24488ad300605ae5f9ea6843992d35b"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part095",
+      "offset": 796917760,
+      "bytes": 8388608,
+      "sha256": "a5619c8e6c6d7518ebb47b9352788436bfe1992ddfb71a6b1c68f016c010b91e",
+      "git_blob_sha1": "3d0a7df9b459a075b1e4d18ed8dcf77e8f45a4cd"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part096",
+      "offset": 805306368,
+      "bytes": 8388608,
+      "sha256": "d43537de3ba101f80d4ede4cb74bea60d64ad91337ec67b7c9b0fc3bf7fb01ba",
+      "git_blob_sha1": "63078b19975be65c2c2f8ee06e4b29baff279eba"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part097",
+      "offset": 813694976,
+      "bytes": 8388608,
+      "sha256": "af4c213871f9f64b082eda2bcc9fa5403f7bd8d3724ce03e81cad07c67677fe3",
+      "git_blob_sha1": "7ae1588605d360c5e68da5386942dc5bc4bac9ba"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part098",
+      "offset": 822083584,
+      "bytes": 8388608,
+      "sha256": "191f3d61d2b1d8e5bbdc837b9d42148436609129d047bc89e231cb189c621a23",
+      "git_blob_sha1": "c407a72cc12812ed135f57f1cb475890c9f56c61"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part099",
+      "offset": 830472192,
+      "bytes": 8388608,
+      "sha256": "40093b2d22ad54790e952379c1594fdba9772ba093539fdc46dacfada9dc5c75",
+      "git_blob_sha1": "1c7ae5e9999bc47e3d9d85de662d9bd2588d44a3"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part100",
+      "offset": 838860800,
+      "bytes": 8388608,
+      "sha256": "3c756cd892f61cd7b6e23961730db3bfab3dd6fa8d47c7bf0a04d6339541c5b2",
+      "git_blob_sha1": "dd4d4b9cc2ce2b91cbca566311bc7b7aa4d528a8"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part101",
+      "offset": 847249408,
+      "bytes": 8388608,
+      "sha256": "d21807d6b8d49b05ed33df3fe77a29bed6e615d90be7bf75d4b0bb10d490956a",
+      "git_blob_sha1": "21a13d43a19d34c309809fcee3a83cdac48ccc47"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part102",
+      "offset": 855638016,
+      "bytes": 8388608,
+      "sha256": "a4990ea2522cd3dce400d40606924a41a4b465ec414cb1bed6fa10bd48a6a3dc",
+      "git_blob_sha1": "3658d65f9968917890173905e34fbd76019ffc11"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part103",
+      "offset": 864026624,
+      "bytes": 8388608,
+      "sha256": "908a7ac127e3db66a6a940d63c51dbe8f9df6c48ee0154405a66fb292cd05a18",
+      "git_blob_sha1": "14f304108f3b031a72923c2b326f3f0e57693ef3"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part104",
+      "offset": 872415232,
+      "bytes": 8388608,
+      "sha256": "a3e6ac3370244f1bc1566d2de72e1ae79fe41477d17cfb6a617c353865ead75a",
+      "git_blob_sha1": "a6407462d222c2ca87cb89302914fc59c80f07ee"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part105",
+      "offset": 880803840,
+      "bytes": 8388608,
+      "sha256": "2d2697e5097ed459d8db695d84f909246ee1e89faf8b1f851b8ff278222c20ec",
+      "git_blob_sha1": "8dbe24a3118a7bb9694d3a3c0db29fa0bc96d3eb"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part106",
+      "offset": 889192448,
+      "bytes": 8388608,
+      "sha256": "4a9de7bcc22241540bc3dd28bb5a5ab064d3952c850ca175e361f9590a0b85a2",
+      "git_blob_sha1": "830eb296876b0f39ffb65c85b1d471e3f7b7ef80"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part107",
+      "offset": 897581056,
+      "bytes": 8388608,
+      "sha256": "167da636048cd71109425ac5c8d93d18a1a0b68afb986e3dae70d2e2cc423067",
+      "git_blob_sha1": "ecab2649dba33c4bc1225329da947d3a06c95538"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part108",
+      "offset": 905969664,
+      "bytes": 8388608,
+      "sha256": "ee505de208a5379d686989c7c643aa53fa61ec0381a651c56aa61cc250c2c85e",
+      "git_blob_sha1": "3962098826d1e943f43fb89441b9fda426924d1d"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part109",
+      "offset": 914358272,
+      "bytes": 8388608,
+      "sha256": "3bdb271405f85e35197541328b50b7f9d6baf02e6b4e38fafba60dc28a41312c",
+      "git_blob_sha1": "b7005a89ef49377cab9c646e16f5adf8862cb483"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part110",
+      "offset": 922746880,
+      "bytes": 8388608,
+      "sha256": "beb294bb727d8888f193735b4a0c2fca573a586416b669a514e8769fd0c471b5",
+      "git_blob_sha1": "3aee6671c4da0399c7b189a4d95d0db4ccf93baf"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part111",
+      "offset": 931135488,
+      "bytes": 8388608,
+      "sha256": "bb0746251dfc88daedacd99e2525b164fe7efbe244629e00ff13a19982f50210",
+      "git_blob_sha1": "ef07f5eaedec7e396b0dfd5b33d0963fc10349b3"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part112",
+      "offset": 939524096,
+      "bytes": 8388608,
+      "sha256": "7cfff158ef7d4c02cdbb3a03bfcb41da7b70c41d84129046f1e6dc67b4f35900",
+      "git_blob_sha1": "ce6d0514c586a31242954ae959340413b730a5c7"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part113",
+      "offset": 947912704,
+      "bytes": 8388608,
+      "sha256": "eeedb05c22fc93b1017702798538961f450700a94286429c9b924a7782faecc9",
+      "git_blob_sha1": "b4b91eafc80b0f5f06b9042c5d94f76d60b9412b"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part114",
+      "offset": 956301312,
+      "bytes": 8388608,
+      "sha256": "550b630acf7c74f303d69e0a49bfa8d68f2ffcf2497781db57acb0dd42ec246d",
+      "git_blob_sha1": "263911444f74438f0e0b17ae27fcd88f224da671"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part115",
+      "offset": 964689920,
+      "bytes": 8388608,
+      "sha256": "f7a56fabb8fc6d2f449b42ae93619413e8fbec6ceae43a71fe81c08c33199196",
+      "git_blob_sha1": "abc2cec93a3777edd662a17169cbdec3311af93a"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part116",
+      "offset": 973078528,
+      "bytes": 8388608,
+      "sha256": "2945914460c860304415383874c1888216206d4aa8c74dd93bed36fe05b19284",
+      "git_blob_sha1": "4e02edf26b2eaca9c95a0e70271e2685eebb7190"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part117",
+      "offset": 981467136,
+      "bytes": 8388608,
+      "sha256": "0e926745d65c4a392bae0d8285d1aec95d48786b4c4beb5370580e6ff2ce1617",
+      "git_blob_sha1": "b935806ecc3d0bec5af7540c17dab93ad90ebda1"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part118",
+      "offset": 989855744,
+      "bytes": 8388608,
+      "sha256": "7a23ebb77808d4888ca9ca5c6448e84a2025124c41974ce830875bf187f51967",
+      "git_blob_sha1": "c90780cc8562abb6cd967bae0811af72453ca0ac"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part119",
+      "offset": 998244352,
+      "bytes": 8388608,
+      "sha256": "e17d95a99b8ca1b1d619b0025d46f728938fb747111f73e0a4c32787d183b04f",
+      "git_blob_sha1": "b0c168ca6acfea71970ce6712b9bdd23d6751ce4"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part120",
+      "offset": 1006632960,
+      "bytes": 8388608,
+      "sha256": "82da8ff92ef072720af0dde5a2fcefbe40fc04fc39b65ffa7381a98a8813ce47",
+      "git_blob_sha1": "ccf1a26a1b1e54245c8c00898c9f553b4640ab39"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part121",
+      "offset": 1015021568,
+      "bytes": 8388608,
+      "sha256": "58de63c49904157eac0a86aaad72456b5fa14857721ddf04e36835008df74907",
+      "git_blob_sha1": "c6ba7654161f98d9f993a2ab7b8ef1e57c6ddf2b"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part122",
+      "offset": 1023410176,
+      "bytes": 8388608,
+      "sha256": "741dd8bea7b8c03ca2ab83b3ed93956901034e3030dccd59a46f0a05bccc7193",
+      "git_blob_sha1": "8ba8a3f4707f0add24ac9c8d5ec58fa6fcb1c14d"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part123",
+      "offset": 1031798784,
+      "bytes": 8388608,
+      "sha256": "ea05f27bea203343b807e062a19e333247bb6c695874b64b38cabbb1eb1fabec",
+      "git_blob_sha1": "29abab7be03f3bc9879c6657e240b08c218ab7de"
+    },
+    {
+      "name": "vision_hybrid_full_results_20261015.tar.gz.part124",
+      "offset": 1040187392,
+      "bytes": 7635136,
+      "sha256": "81e8835b04abfa993cafa47c17b5ff5da369035568652d39916fd0031049d170",
+      "git_blob_sha1": "87970ff7790b73be52576cc56042cae6e889bb63"
+    }
+  ],
+  "excludes": [
+    "raw dataset images",
+    "external foundation checkpoint",
+    "unlicensed VisionAD source"
+  ],
+  "internal_manifest": "MANIFEST.sha256.json"
+}

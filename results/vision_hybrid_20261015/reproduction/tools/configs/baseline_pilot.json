@@ -1,0 +1,11 @@
+{
+  "output": "/workspace/reports/baseline_pilot",
+  "feature_cache": "/workspace/feature_cache/dinov2_vitb14",
+  "shots": [1, 2, 4, 8],
+  "seeds": [0, 1, 2],
+  "queries_per_label": 4,
+  "benchmarks": [
+    {"dataset": "mvtec_ad", "category": "bottle", "root": "/workspace/datasets/mvtec_ad", "verification_report": "/workspace/reports/dataset_verification/mvtec_ad/verification.json"},
+    {"dataset": "visa", "category": "capsules", "root": "/workspace/datasets/visa", "verification_report": "/workspace/reports/dataset_verification/visa/verification.json"}
+  ]
+}

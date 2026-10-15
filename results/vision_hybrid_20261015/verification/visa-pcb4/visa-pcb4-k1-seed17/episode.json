@@ -1,0 +1,34 @@
+{
+  "id": "visa-pcb4-k1-seed17",
+  "dataset": "visa",
+  "category": "pcb4",
+  "seed": 17,
+  "shots": 1,
+  "support_ids": [
+    "pcb4/Data/Images/Normal/0463.JPG"
+  ],
+  "calibration_ids": [],
+  "query_ids": [
+    "pcb4/Data/Images/Normal/0654.JPG",
+    "pcb4/Data/Images/Normal/0657.JPG",
+    "pcb4/Data/Images/Normal/0952.JPG",
+    "pcb4/Data/Images/Normal/0013.JPG",
+    "pcb4/Data/Images/Normal/0457.JPG",
+    "pcb4/Data/Images/Normal/0306.JPG",
+    "pcb4/Data/Images/Normal/0027.JPG",
+    "pcb4/Data/Images/Normal/0764.JPG",
+    "pcb4/Data/Images/Normal/0469.JPG",
+    "pcb4/Data/Images/Normal/0208.JPG",
+    "pcb4/Data/Images/Anomaly/031.JPG",
+    "pcb4/Data/Images/Anomaly/060.JPG",
+    "pcb4/Data/Images/Anomaly/080.JPG",
+    "pcb4/Data/Images/Anomaly/089.JPG",
+    "pcb4/Data/Images/Anomaly/056.JPG",
+    "pcb4/Data/Images/Anomaly/065.JPG",
+    "pcb4/Data/Images/Anomaly/050.JPG",
+    "pcb4/Data/Images/Anomaly/034.JPG",
+    "pcb4/Data/Images/Anomaly/097.JPG",
+    "pcb4/Data/Images/Anomaly/095.JPG"
+  ],
+  "role": "verification"
+}

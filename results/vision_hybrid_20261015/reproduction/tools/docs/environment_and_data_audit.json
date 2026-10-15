@@ -1,0 +1,158 @@
+{
+  "phase": "A_only",
+  "user_facing_date": "2026-10-14",
+  "repository": "ennayriomar/newpr",
+  "published_version": "0.4.0",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "cpu_affinity_count": 5,
+    "cuda_available": false,
+    "cuda_devices": 0,
+    "pytorch_cuda_build": null,
+    "nvidia_smi_available": false,
+    "disks": {
+      "/workspace": {
+        "total_bytes": 33770192896,
+        "used_bytes": 31368040448,
+        "free_bytes": 667389952
+      },
+      "/tmp": {
+        "total_bytes": 17871892480,
+        "used_bytes": 4220329984,
+        "free_bytes": 13651562496
+      }
+    },
+    "packages": {
+      "torch": "2.7.1+cpu",
+      "torchvision": "0.22.1+cpu",
+      "numpy": "2.2.6",
+      "Pillow": "12.3.0",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.8.0",
+      "opencv-python-headless": "4.12.0.88",
+      "faiss-cpu": "1.12.0",
+      "PyYAML": "6.0.3",
+      "tifffile": "2025.10.16",
+      "matplotlib": "3.10.8",
+      "threadpoolctl": "3.6.0",
+      "safe-iad-research": "0.4.0"
+    },
+    "cpu_quota_equivalents": 4.0,
+    "cgroup_memory_limit_bytes": 34359738368
+  },
+  "official_sources": {
+    "dinov2": {
+      "path": "/workspace/.cache/dinov2-source",
+      "head": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "tracked_changes": "",
+      "license_file_exists": true
+    },
+    "anomalydino": {
+      "path": "/workspace/.cache/anomalydino-source",
+      "head": "b9d1c2648e3a5247437d4d953d907a8f3d994457",
+      "tracked_changes": "",
+      "license_file_exists": true
+    },
+    "subspacead": {
+      "path": "/workspace/.cache/subspacead-source",
+      "head": "ef56d5c8ab2f1feb7dda1c93b25cc3f73f0960d7",
+      "tracked_changes": "",
+      "license_file_exists": true
+    }
+  },
+  "datasets": {
+    "mvtec_ad": {
+      "path": "/workspace/datasets/mvtec_ad",
+      "images": 5354,
+      "categories": 15,
+      "category_names": [
+        "bottle",
+        "cable",
+        "capsule",
+        "carpet",
+        "grid",
+        "hazelnut",
+        "leather",
+        "metal_nut",
+        "pill",
+        "screw",
+        "tile",
+        "toothbrush",
+        "transistor",
+        "wood",
+        "zipper"
+      ],
+      "split_label_counts": {
+        "train:normal": 3629,
+        "test:anomaly": 1258,
+        "test:normal": 467
+      },
+      "referenced_masks": 1258,
+      "inventory_issues": [],
+      "audit_scope": "Current metadata/file inventory; full decoding/checksum verification is historical except selected pilot inputs."
+    },
+    "visa": {
+      "path": "/workspace/datasets/visa",
+      "images": 10821,
+      "categories": 12,
+      "category_names": [
+        "candle",
+        "capsules",
+        "cashew",
+        "chewinggum",
+        "fryum",
+        "macaroni1",
+        "macaroni2",
+        "pcb1",
+        "pcb2",
+        "pcb3",
+        "pcb4",
+        "pipe_fryum"
+      ],
+      "split_label_counts": {
+        "train:normal": 8659,
+        "test:normal": 962,
+        "test:anomaly": 1200
+      },
+      "referenced_masks": 1200,
+      "inventory_issues": [],
+      "audit_scope": "Current metadata/file inventory; full decoding/checksum verification is historical except selected pilot inputs."
+    },
+    "mvtec_ad2": {
+      "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2",
+      "images": 3914,
+      "categories": 8,
+      "category_names": [
+        "can",
+        "fabric",
+        "fruit_jelly",
+        "rice",
+        "sheet_metal",
+        "vial",
+        "wallplugs",
+        "walnuts"
+      ],
+      "split_label_counts": {
+        "train:normal": 2528,
+        "validation:normal": 302,
+        "test_public:anomaly": 705,
+        "test_public:normal": 379
+      },
+      "referenced_masks": 705,
+      "inventory_issues": [],
+      "audit_scope": "Current metadata/file inventory; full decoding/checksum verification is historical except selected pilot inputs."
+    }
+  },
+  "realiad_local": "absent",
+  "existing_fresh_tests": "122 unit/contract tests passed before latest Phase-A-only prompt; do not conflate with full benchmark or faithful VisionAD reproduction",
+  "preliminary_method_work": "3 separate completed24-query validation prototypes, all advancement gates false; unpublished additional code retained",
+  "limitations": [
+    "CPU only",
+    "profilecheckout retained",
+    "newprlocalcheckout behind publicmain; do notpull giant rawresultarchive",
+    "officialpublished SubspaceAD/VisionAD recipes not reproduced",
+    "no final/private AD2 results",
+    "no Real-IAD data downloaded"
+  ]
+}

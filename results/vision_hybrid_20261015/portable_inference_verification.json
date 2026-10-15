@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "fixed_example_bank": "mvtec_ad-bottle-k1-seed17",
+  "query_id": "bottle/test/good/008.png",
+  "query_sha256": "c87eba626d55a28bcf5d046f8c1f5abf543d9eb9dd6c647181a26a29a58582b7",
+  "image_score": 1.2173429727554321,
+  "expected_score": 1.2173429727554321,
+  "score_absolute_error": 0.0,
+  "map_max_absolute_error": 0.0,
+  "decision_matches": true,
+  "package_source_import": "/tmp/vision_hybrid_release_20261015/portable/vision_hybrid/tools/safe_iad/vision_hybrid_cli.py",
+  "package_source_used": true,
+  "bundled_meta_source_used": true,
+  "checkpoint_sha256": "36e4deffbaef061a2576705b0c36f93621e2ae20bf6274694821b0b492551b51",
+  "real_encoder_forward": true,
+  "cached_query_features_used": false,
+  "labels_or_masks_given_to_prediction": false,
+  "probabilities": false,
+  "scope": "One fixed real-image replay from extracted ZIP; not a full independent benchmark rerun."
+}

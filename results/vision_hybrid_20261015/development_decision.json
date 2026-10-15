@@ -1,0 +1,49 @@
+{
+  "winner": {
+    "id": "d74241e7ae1e21219e147a3c2056127955b941fac996f2367acaace9e7c2a9f2",
+    "params": {
+      "clusters": 1,
+      "variance": 0.95,
+      "strength": 0.5,
+      "gate": "uniform"
+    },
+    "mean_image_auroc": 0.9329999999999998,
+    "mean_image_ap": 0.946521828146054,
+    "mean_pixel_ap": 0.45645910801777506,
+    "cases": 200,
+    "source_development_only": true,
+    "pixel_ap_guard_passed": true
+  },
+  "baseline": {
+    "id": "0f0f78e9662b721c81a9704801f3d8d990c58f06960f7eee67fc2362ba7666e4",
+    "params": {
+      "clusters": 1,
+      "variance": 0.99,
+      "strength": 0.0,
+      "gate": "uniform"
+    },
+    "mean_image_auroc": 0.9299999999999999,
+    "mean_image_ap": 0.937688256188256,
+    "mean_pixel_ap": 0.4416109967567342,
+    "cases": 200,
+    "source_development_only": true,
+    "pixel_ap_guard_passed": true
+  },
+  "params": {
+    "clusters": 1,
+    "variance": 0.95,
+    "strength": 0.5,
+    "gate": "uniform"
+  },
+  "parameters_id": "d74241e7ae1e21219e147a3c2056127955b941fac996f2367acaace9e7c2a9f2",
+  "image_threshold": 1.266317319869995,
+  "pixel_threshold": 1.1265572309494019,
+  "threshold_fit": "Image95th percentile and pixel99.5th percentile of baseline development-normal scores; separate fixed source-derived cutoffs shared by both methods",
+  "normal_calibration_unique_images": 50,
+  "threshold_target_extra_normal_images": 0,
+  "verification_inference_seen": false,
+  "verification_masks_seen": false,
+  "primary": "Mean within-category/support-draw image AUROC",
+  "pixel_guard": "Mean within-category/support-draw cropped256x256 pixel AP >= baseline",
+  "tie_break": "Higher pixel AP, smaller correction strength, fewer subspaces, parameter SHA256"
+}

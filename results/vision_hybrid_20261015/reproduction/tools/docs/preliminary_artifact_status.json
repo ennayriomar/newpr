@@ -1,0 +1,115 @@
+{
+  "scope": "Phase A read-only inspection of earlier prototype artifacts; no inference, metric rerun or new experiment",
+  "pilots": [
+    {
+      "run": "/tmp/subspace_search_v050",
+      "completed_artifact_input_code_integrity_verified": true,
+      "summary": {
+        "status": "completed_validation_pilot",
+        "unique_validation_queries": 24,
+        "paired_query_support_cases": 216,
+        "prediction_records": 648,
+        "original_input_images": 96,
+        "methods": [
+          "search",
+          "subspace",
+          "hybrid"
+        ],
+        "supports": [
+          1,
+          2,
+          4
+        ],
+        "support_draws": 3,
+        "full_benchmarks_run": false,
+        "calibration_images_are_extra_reserved_source_normals": true,
+        "outcome": "stop_before_full_experiments"
+      },
+      "advance_to_full_experiments": false,
+      "independent_full_contract_audit": "passed",
+      "limited_real_weight_reproduction": "passed",
+      "record_hashes": {
+        "config.json": "553355157540a86914c8ee1b4278032942b8954c93eba7d755aa1fc5907a15fb",
+        "summary.json": "c91cbe06494f039c881ee06552846f8da18645b3a02d4226d0f7e07b1aa9f1b0",
+        "metrics.json": "c53fbff0daedf75851a5327c1678aab2f762412f699b061120eea1332021ac41",
+        "gate.json": "930c2f196aae22006aa2639d0ec800d79054e17eb0702c828e4ee390e7aaa8f3",
+        "completion.json": "bd30d504dcf25647518673cb430275e0c4896e22de6d9c6f73c74694b90e15aa"
+      }
+    },
+    {
+      "run": "/tmp/adaptive_subspace_search_v050",
+      "completed_artifact_input_code_integrity_verified": true,
+      "summary": {
+        "status": "completed_validation_pilot",
+        "unique_validation_queries": 24,
+        "paired_query_support_cases": 216,
+        "prediction_records": 648,
+        "original_input_images": 96,
+        "methods": [
+          "search",
+          "subspace",
+          "hybrid"
+        ],
+        "supports": [
+          1,
+          2,
+          4
+        ],
+        "support_draws": 3,
+        "full_benchmarks_run": false,
+        "calibration_images_are_extra_reserved_source_normals": true,
+        "outcome": "stop_before_full_experiments"
+      },
+      "advance_to_full_experiments": false,
+      "independent_full_contract_audit": "unrun",
+      "limited_real_weight_reproduction": "passed",
+      "record_hashes": {
+        "config.json": "20cdbf1f4537f3955d50e863090af6a10caddf0e6599e2187c9c7d522893f785",
+        "summary.json": "c91cbe06494f039c881ee06552846f8da18645b3a02d4226d0f7e07b1aa9f1b0",
+        "metrics.json": "eb3c931b423928de56f2d6c4716789aed555dff8dffd13ed1032a1257b2495b3",
+        "gate.json": "00c3516908ea8078c1a03bef5d68b2046647febb43c21ab3ad73f2863648d808",
+        "completion.json": "18766d7de5977af6c6be10d0e6b2ed505f10d9f2cf39a3d356927cbc8db1b834"
+      }
+    },
+    {
+      "run": "/tmp/category_subspace_search_v050",
+      "completed_artifact_input_code_integrity_verified": true,
+      "summary": {
+        "status": "completed_validation_pilot",
+        "unique_validation_queries": 24,
+        "paired_query_support_cases": 216,
+        "prediction_records": 648,
+        "original_input_images": 72,
+        "methods": [
+          "search",
+          "subspace",
+          "hybrid"
+        ],
+        "supports": [
+          1,
+          2,
+          4
+        ],
+        "support_draws": 3,
+        "full_benchmarks_run": false,
+        "calibration_images_are_extra_reserved_target_normals": true,
+        "strict_k_image_few_shot": false,
+        "normal_information_budget": "k reference images plus4 extra disjoint target normal calibration images per inspection",
+        "outcome": "stop_before_full_experiments"
+      },
+      "advance_to_full_experiments": false,
+      "independent_full_contract_audit": "unrun",
+      "limited_real_weight_reproduction": "unrun",
+      "record_hashes": {
+        "config.json": "a3c574db38df4d9a02526702f7c595af301845bc3373d30d06fafba267b8b1fe",
+        "summary.json": "df1a6923ffabfdf31673bca42fec9b1da468dae989fd6f86626f61d27573ff28",
+        "metrics.json": "b6de5dc31f7542aa08c38967e6b047cc38e65befea3a0399ff3249fb86ef21ea",
+        "gate.json": "ba77ca87170d5f5a3838571f4ffabd8a558928e99627bd38bc91c4af76f19d6a",
+        "completion.json": "60c63f516b98f0834aadc791fa177b4456c7ff6d476ca3e136db8403e39f146a"
+      }
+    }
+  ],
+  "source_recipe_reproduction": false,
+  "robust_accuracy_gain_established": false,
+  "cross_pilot_comparison": "Different query sets and calibration protocols; do not interpret as a causal ablation"
+}

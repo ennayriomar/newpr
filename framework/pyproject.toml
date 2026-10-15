@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "safe-iad-research"
-version = "0.6.0"
+version = "0.7.0"
 description = "Reproducible support-diagnostic industrial anomaly localization research"
 requires-python = ">=3.12,<3.13"
 

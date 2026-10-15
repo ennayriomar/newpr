@@ -1,0 +1,342 @@
+[
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/good/026.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-000.npz",
+    "baseline_score": 1.0372021198272705,
+    "query_feature_hashes": {
+      "identity": "a4a25788b6d01f9f625b9775b69906b0e828f6af63606f262cd10b0bdce6843d",
+      "vflip": "9e54d4047ba352def0b079c709a5ae19694e6341480f6b6969f8c15c4bc51240",
+      "clamp": "9c64b632ead7979a5db0107f0fec728b35be59faad73a3b1194421a9826a1497"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/good/037.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-001.npz",
+    "baseline_score": 1.1690869331359863,
+    "query_feature_hashes": {
+      "identity": "9fe2b171eb52686b5b620a8972145b6e390c7738d431e5d34e60778d7d78d228",
+      "vflip": "41fdcbad1355f08e9c7fe14962ef9af55874f0301050cab8e694812990555f85",
+      "clamp": "0c8dcc98d24f6b0ccbd32b58ccfe75ef7ccd3c888ac33e0a7334a2c9a9d29cd8"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/good/038.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-002.npz",
+    "baseline_score": 1.3814531564712524,
+    "query_feature_hashes": {
+      "identity": "ab64f8854b042a500f2c35d9178083dbada82cff1b93cc3b96ff1c61f235f380",
+      "vflip": "8a7fbcc6d742f56fb28dfbde2bf327b2b01bccc85bf9a32cfd247a4e8a4c849e",
+      "clamp": "8a3563dd4913e40fdb4125872341e88999f6feb410b2bb7dc9218146ece3758f"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/good/005.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-003.npz",
+    "baseline_score": 1.265720009803772,
+    "query_feature_hashes": {
+      "identity": "d4e26cc3309085d423c403abfe06d8afbe78cbe5151c17b8a1a61af8ae753306",
+      "vflip": "5c6a1e9c6d644f4c1043d9edfd3f72e3cb3ba9552121e13e5d62aacdcf1501c8",
+      "clamp": "afc45819d7571eff6dafc2d52ea475ce344c375a36a033090fbff1a7b670114d"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/good/016.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-004.npz",
+    "baseline_score": 1.2359929084777832,
+    "query_feature_hashes": {
+      "identity": "433ca2c366cb718db9427c843ac1aea3aac9ce89ba831ce0b97090dd1484d296",
+      "vflip": "9cac99328ed51eb1e742c4df8734e0ea893a7afecfc0b980067e58a72bbfb5a9",
+      "clamp": "7108e64a662fe1464084972bdf442d44dcd31b543a5ec35dd66ff2ecd75ccbc5"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/good/022.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-005.npz",
+    "baseline_score": 1.344770073890686,
+    "query_feature_hashes": {
+      "identity": "6fddbf7fcda2885d76fd6736ca6c6de7870379cf60009dced7ce24e79d8da3dc",
+      "vflip": "efd2c51e3881588f12ecbb2c4a8b4e8928aaefa1fa32ed83f2e8c85f613cb4dd",
+      "clamp": "cb0fcfcfb1fb0d7fd24525e661e1afd45e03a5928370488e633286ea09bcff66"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/good/014.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-006.npz",
+    "baseline_score": 1.2051442861557007,
+    "query_feature_hashes": {
+      "identity": "1273deb896d758f8334fc4e189d2a67f04192c717e7a71456c5e82d5b8bb9e54",
+      "vflip": "547a277e4dd35f1884f6031d4e2f58a8a99b9f0bbf13d5cfe461e4a6757519b3",
+      "clamp": "d3f4db907eab9ccd915017a767b55c3907f2af4052895fbd3f71ecccd506f501"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/good/036.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-007.npz",
+    "baseline_score": 1.1491550207138062,
+    "query_feature_hashes": {
+      "identity": "837ee55ae04f3fe0246ea4c477a483722e1157b0cd3abc8c9c2243cf43310873",
+      "vflip": "aef484624e501be5929fa72a8a067bb0f1d41edba1da05316419fd48607a9104",
+      "clamp": "62d595e7378f84e0ff8dd794eb02010dbddacce1e498827830cd91afcb01cd07"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/good/031.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-008.npz",
+    "baseline_score": 1.3371118307113647,
+    "query_feature_hashes": {
+      "identity": "e02c6dadc8a9879fce9995863743d62ad1a340359aa840b55cd092b1908fbdbd",
+      "vflip": "cc14d95c068636142506cf1f7668b1144b1d5313b818fec46486596d5742caa7",
+      "clamp": "96830df647fcedc3ee2165cd473cf5b7396ac61d374cd8179e61474caae5a2c0"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/good/024.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-009.npz",
+    "baseline_score": 1.2649801969528198,
+    "query_feature_hashes": {
+      "identity": "95fe3da322a4fb12a821d050493c2d99afc0ae2b72111bf4d3e1e916839820ec",
+      "vflip": "e198fbd5840a8b2934552e902d09f429894a51e10710210a60369ba8c38c5568",
+      "clamp": "80a5ebb1a3a52c9b9ac9a2fb1f55702292d981737f73aa2acc98d512625629f1"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/hole/014.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-010.npz",
+    "baseline_score": 1.8260395526885986,
+    "query_feature_hashes": {
+      "identity": "a37e07af5bc04690cd2bcd48c6c79eadf1aafed0d92a400d0f4ce6827d95d53d",
+      "vflip": "1ca095e03fec56dca9ef4a62f531fbfcb427a146f1d7624ee8c9ef508c003a6e",
+      "clamp": "d27e6ea72b10d490b58489f40676e3b371ca8f08251f78c091e0bda5c34fd864"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/hole/015.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-011.npz",
+    "baseline_score": 1.7931321859359741,
+    "query_feature_hashes": {
+      "identity": "234f66a58fddf029223fb1646d482f55b7940a8711ed5e4d2cdab13db6e298fd",
+      "vflip": "3bea8fa9455ba0bdad4b3b1b1b3f98bd98ff443ba7e0c746aca917df56d51b07",
+      "clamp": "256863b430290cbf9f434f28a5c920d401121f983eb2230cc946588b286ce6c4"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/print/012.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-012.npz",
+    "baseline_score": 1.8427873849868774,
+    "query_feature_hashes": {
+      "identity": "fd7d052d21ad7653214d705c9de216bd9077031c1f3b2590f3efbb6f53c7349b",
+      "vflip": "09229745d0599b10675997bb661c6cf18d084e866231ca423568f98cfb307a13",
+      "clamp": "25cc2644afaf2c001d78eb477c1267a6ead1a3a7a36b27fedcd2a2b8fc7d0c8d"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/hole/013.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-013.npz",
+    "baseline_score": 1.778856635093689,
+    "query_feature_hashes": {
+      "identity": "d287802a1042dea74e52b0105872c589e06c77507c21f3861cd20bea48131c07",
+      "vflip": "1eb6c9d4076873f0aecc8111ea8a554ce9eee5f3e34ad8a7ba1aa91d852c659f",
+      "clamp": "ec8d3bf0181ad9bc2280d0174d8ef6f5296fca72b6618bac3f0659681477a5a7"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/hole/007.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-014.npz",
+    "baseline_score": 1.7445838451385498,
+    "query_feature_hashes": {
+      "identity": "56d0651ae51dc693fdba326ca9b2528aadead15c611508ac3dec0abe2165784a",
+      "vflip": "f18d325680cd04431c3449d40b8f1e912a998e0d75e566568e72641ecd9371b2",
+      "clamp": "1d806c7364b874a90c1cb90c9bcdabdfc7086c78b4abf5317020a85789f85b82"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/crack/008.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-015.npz",
+    "baseline_score": 1.9695988893508911,
+    "query_feature_hashes": {
+      "identity": "14ac74f34d96c839b6afb74c4761c6b970fb0110bd12901043f4a96b5abdde18",
+      "vflip": "aa4a7ac0112d28402927ab5ec15dfb59f69908a6a15b5104552e60e1a9c7895b",
+      "clamp": "bbdae79c32b552e3c1bee992354f55aab8cadf7eda999541277568b53b9fde1b"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/crack/000.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-016.npz",
+    "baseline_score": 1.844444751739502,
+    "query_feature_hashes": {
+      "identity": "d599d4afef7b883c814b17d509b8146e1cd469df984cd59f01ac8767c0742977",
+      "vflip": "2044133578fc62d22dcb943cbc12e8453c7c9836b6a18f71fcd706b47f74e59e",
+      "clamp": "d4c9d357912b287fa66dc2e06e2e0e366717bc899a8ab5a8a66405d98b7607b1"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/print/009.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-017.npz",
+    "baseline_score": 1.4448459148406982,
+    "query_feature_hashes": {
+      "identity": "e9bf9442219298bc967e80ef18a2f75db2cbf833d149a2f0e80ceaefd4e34505",
+      "vflip": "6064afa03304f4d11015880ca13223ef253194cb3d3987e4eebc8114a0ee3a90",
+      "clamp": "1f99206706d4d96c9e36702dc7348b0f8ab13269be43f7f57ddf7756fd356f3a"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/crack/005.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-018.npz",
+    "baseline_score": 1.7077182531356812,
+    "query_feature_hashes": {
+      "identity": "4b120b71a2699256479da986fdb9b39ce6b08e14800d31638bec2a1dff920082",
+      "vflip": "d05311ccecc1eee810debc0ae1d1a9b230d64df81af6eec197cfa0a41887a390",
+      "clamp": "bc56c467c8c714b65a624e5667f9ea3f526d681cd2219de2624902294d41c9c4"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "hazelnut",
+    "seed": 17,
+    "query_id": "hazelnut/test/hole/012.png",
+    "episode_id": "mvtec_ad-hazelnut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/mvtec_ad-hazelnut/mvtec_ad-hazelnut-k1-seed17/raw-019.npz",
+    "baseline_score": 1.8073949813842773,
+    "query_feature_hashes": {
+      "identity": "4edac4375e4f45e03a8893bf9a23a9998e04f899d452cf888a283e410e7a79b8",
+      "vflip": "99e996b481b79e1d0e857bd9d0946b12e977f191d83d9c1b885f9e1899880679",
+      "clamp": "ef9278c727693a06556fa8e69c79c5a43e7ffba8ab984b2c75b24afff47b249d"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  }
+]

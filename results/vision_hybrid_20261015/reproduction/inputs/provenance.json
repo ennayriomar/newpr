@@ -1,0 +1,17 @@
+{
+  "development_manifest": {
+    "original": "/tmp/safal_training_20261014/manifest.json",
+    "bundled": "reproduction/inputs/development_manifest.json",
+    "sha256": "222f0fd541e7f437e6e5f544af6c0cadf28317d807730828e07d5c68e4b34899"
+  },
+  "known_exposure": {
+    "original": "/tmp/safal_tuning_20261014/known_exposure.json",
+    "bundled": "reproduction/inputs/known_exposure.json",
+    "sha256": "deeaecdf9f55508db0302a5aa678a016ee0af9678504d6d7572f753c542858bb"
+  },
+  "previous_verification_lock": {
+    "original": "/tmp/safal_tuning_20261014/verification_query_lock.json",
+    "bundled": "reproduction/inputs/previous_verification_lock.json",
+    "sha256": "52a908c1c5d30bba2e4c07e84b07c359fb579b97bc79fe1d5b38d4eaa36389b8"
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "kind": "VisionHybrid",
+  "params": {
+    "clusters": 1,
+    "variance": 0.99,
+    "strength": 0.0,
+    "gate": "uniform"
+  },
+  "parameters_id": "0f0f78e9662b721c81a9704801f3d8d990c58f06960f7eee67fc2362ba7666e4",
+  "threshold": 0.0,
+  "pixel_threshold": null,
+  "support_ids": [
+    "macaroni2/Data/Images/Normal/0412.JPG"
+  ],
+  "slot_indices": {
+    "identity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "vflip": [
+      4,
+      6,
+      5,
+      7,
+      0,
+      2
+    ],
+    "clamp": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "clusters": [
+    1,
+    4
+  ],
+  "variances": [
+    0.95,
+    0.99
+  ],
+  "threads": 3,
+  "array_hashes": {
+    "view_000": "26435f81c6dbcff6f62fc4a6138bc6605a7fb3f6cc8a2ec4a5b4ddc6f2bafe0b",
+    "view_001": "2cbe628a34edcf76c4f4b14034d07393f1dbfccb7e22bea2f9112802c9369b47",
+    "view_002": "c66cbdca249caee0f96e704a79858b060c1898dd6891ba555522b249ea5e67c4",
+    "view_003": "44ffaa6c65498077065aaa849260d5b35e0cd1ddbdcaac2cc500d90da6e70df6",
+    "view_004": "537f6eeca88c91ea20564deb4b5ae007c714e7253d972bd5fb47b79c62da5367",
+    "view_005": "cd83898008fbc82c25742db066cbc45b4e6551056cc0c4475adc0ceb053661d7",
+    "view_006": "f0d7b1a7fd2cb850b59a8d582fa4bc4735c7b7896938eda681433063d196006c",
+    "view_007": "6a546f4bf470c382b8128e1e6275fa40cc56a83b94ff3918e4af0779ca082e99",
+    "view_008": "e2f05bd268e3fc2295301a35471430bb6e9e14ad291aa69034b32c16a8863194",
+    "view_009": "e4a4848be2096168ff4a05221f649316e67fb36363292992f14b36f0449dbc89",
+    "view_010": "f799a1c662edecb36e94a3199fd363658f1654f2f1dc0f9e7939bb7ba1f7a6e5",
+    "view_011": "f28977ec73dd8a00b8994b728670b44fa53b9c8de919b56d6f1cf673ae0a7295",
+    "view_012": "5ff9744875d82dbcdf92a4d7fb36bddcf79606704a50527a53b0e7ebfceed54f",
+    "view_013": "552c5825152ec2cf83ff18dfd3a9c35e8d06a4a3b6fbf45eb381a5375f941b7d"
+  },
+  "npz_sha256": "6c104dcf7163d0e8be9202f0bc6d9695fdc5ede69979a89aff49e2e062f59257",
+  "source_hashes": {
+    "vision_hybrid_model.py": "de20f42fbee7a31f04ba51758424077b3ea5f02e2ee42e95dda44941145314f8",
+    "vision_hybrid_features.py": "da83b69a7d7de10c0fb2dcfd5ce1330b987ebece744f97bd272fe26d97f85e1b",
+    "safal_features.py": "497e67e474f502da8205c304efae676ff3c1f4eb38c17e52a461c6609fd51e39"
+  },
+  "provenance": {
+    "encoder": {
+      "backbone": "dinov2_vitl14_reg",
+      "feature_dimension": 1024,
+      "registers": 4,
+      "resize": 448,
+      "crop": 392,
+      "grid": 28,
+      "layers": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "norm": false,
+      "aggregation": "raw arithmetic block mean, then branch-specific normalization",
+      "interpolation": "PIL bilinear square resize, center crop",
+      "position_interpolation": {
+        "antialias": false,
+        "offset": 0.1
+      },
+      "checkpoint_sha256": "36e4deffbaef061a2576705b0c36f93621e2ae20bf6274694821b0b492551b51",
+      "reference_commit": "2d5e36f357409125ccd9646ba016824005599df4",
+      "source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "source_manifest_sha256": "9ed9679525be8520b45cd087ce2bff1cd684f438ac82bc0d6080e36487adf340",
+      "device": "cpu",
+      "dtype": "float32",
+      "frozen": true,
+      "evaluation_mode": true,
+      "torch_version": "2.7.1+cpu",
+      "numpy_version": "2.2.6",
+      "pillow_version": "12.3.0",
+      "python_version": "3.12.14",
+      "implementation_sha256": "da83b69a7d7de10c0fb2dcfd5ce1330b987ebece744f97bd272fe26d97f85e1b",
+      "runtime": {
+        "source_dir": "/workspace/.cache/dinov2-source",
+        "checkpoint": "/tmp/vision_hybrid_assets_20261015/dinov2_vitl14_reg4_pretrain.pth",
+        "threads": 3
+      }
+    },
+    "episode": {
+      "id": "visa-macaroni2-k1-seed17",
+      "dataset": "visa",
+      "category": "macaroni2",
+      "seed": 17,
+      "shots": 1,
+      "support_ids": [
+        "macaroni2/Data/Images/Normal/0412.JPG"
+      ],
+      "calibration_ids": [],
+      "query_ids": [
+        "macaroni2/Data/Images/Normal/0100.JPG",
+        "macaroni2/Data/Images/Normal/0552.JPG",
+        "macaroni2/Data/Images/Normal/0525.JPG",
+        "macaroni2/Data/Images/Normal/0953.JPG",
+        "macaroni2/Data/Images/Normal/0751.JPG",
+        "macaroni2/Data/Images/Normal/0011.JPG",
+        "macaroni2/Data/Images/Normal/0363.JPG",
+        "macaroni2/Data/Images/Normal/0488.JPG",
+        "macaroni2/Data/Images/Normal/0520.JPG",
+        "macaroni2/Data/Images/Normal/0427.JPG",
+        "macaroni2/Data/Images/Anomaly/073.JPG",
+        "macaroni2/Data/Images/Anomaly/057.JPG",
+        "macaroni2/Data/Images/Anomaly/034.JPG",
+        "macaroni2/Data/Images/Anomaly/052.JPG",
+        "macaroni2/Data/Images/Anomaly/028.JPG",
+        "macaroni2/Data/Images/Anomaly/087.JPG",
+        "macaroni2/Data/Images/Anomaly/018.JPG",
+        "macaroni2/Data/Images/Anomaly/089.JPG",
+        "macaroni2/Data/Images/Anomaly/038.JPG",
+        "macaroni2/Data/Images/Anomaly/024.JPG"
+      ],
+      "role": "development"
+    },
+    "status": "normal-only fitted bank; global hyperparameters not selected here",
+    "extra_target_calibration_images": 0
+  },
+  "model_metadata": {
+    "support_ids": [
+      "macaroni2/Data/Images/Normal/0412.JPG"
+    ],
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0,
+    "grid": 28,
+    "dimension": 1024,
+    "unique_support_feature_inputs": 14,
+    "slot_indices": {
+      "identity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vflip": [
+        4,
+        6,
+        5,
+        7,
+        0,
+        2
+      ],
+      "clamp": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "subspaces": {
+      "1": {
+        "clusters": 1,
+        "variances": [
+          0.95,
+          0.99
+        ],
+        "group_counts": [
+          10976
+        ],
+        "numerical_ranks": [
+          1024
+        ],
+        "retained_ranks": [
+          {
+            "0.95": 279,
+            "0.99": 641
+          }
+        ],
+        "energy_scales": [
+          172.759869325235
+        ],
+        "normalization": "Residual squared norm / mean total centered normal feature energy in assigned cluster",
+        "independent_original_images_not_patch_count": true
+      },
+      "4": {
+        "clusters": 4,
+        "variances": [
+          0.95,
+          0.99
+        ],
+        "group_counts": [
+          2336,
+          3083,
+          2407,
+          3150
+        ],
+        "numerical_ranks": [
+          1024,
+          1024,
+          1024,
+          1024
+        ],
+        "retained_ranks": [
+          {
+            "0.95": 180,
+            "0.99": 454
+          },
+          {
+            "0.95": 181,
+            "0.99": 485
+          },
+          {
+            "0.95": 199,
+            "0.99": 493
+          },
+          {
+            "0.95": 181,
+            "0.99": 485
+          }
+        ],
+        "energy_scales": [
+          170.67866607366938,
+          131.31962872044832,
+          142.09431516395082,
+          124.52829296579517
+        ],
+        "normalization": "Residual squared norm / mean total centered normal feature energy in assigned cluster",
+        "independent_original_images_not_patch_count": true
+      }
+    },
+    "correction": "Nonnegative additive residual; unchanged baseline when strength=0",
+    "gate_semantics": "Heuristic residual/(residual+cosine-distance), not calibrated reliability",
+    "strict_target_support_budget": true,
+    "probabilities": false
+  },
+  "software_versions": {
+    "numpy": "2.2.6",
+    "torch": "2.7.1+cpu",
+    "sklearn": "1.8.0"
+  }
+}

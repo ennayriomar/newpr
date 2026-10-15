@@ -1,0 +1,342 @@
+[
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/good/012.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-000.npz",
+    "baseline_score": 1.2115613222122192,
+    "query_feature_hashes": {
+      "identity": "73a1ef0732ca0b5052c94b55f8fee688332d37f42bbfc03d2843b9fbfc7a6358",
+      "vflip": "e6d92b55c37c04d8f7e62b16ddf42c613aa1f10fd7c3e2982c855abebf1e15a4",
+      "clamp": "b484d3a33b8ff43c7a22deb1ae2141eda5f3bcc193d1883eb0417d3f96fe7e6e"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/good/007.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-001.npz",
+    "baseline_score": 1.1569300889968872,
+    "query_feature_hashes": {
+      "identity": "0d3740306de1e8513a4305dacab4ecffafccf7d74e87749045a00be6eb6b3611",
+      "vflip": "077e49ccec368db3a893c1b5122fb6ee9ef4c4aa5ce1dacce538773538a1ebb7",
+      "clamp": "c032b8fa79c0af32646d5b9e270790ee8f77b6d032bed661d9eb9043df77a974"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/good/015.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-002.npz",
+    "baseline_score": 1.118922233581543,
+    "query_feature_hashes": {
+      "identity": "7a74c9a4ac3d1be70feb93d54f30c3c22784464536cc45308beec8f68d8fae45",
+      "vflip": "cd8a512ff36ecebb601d8dce8de1c7b11ae80416f7f803786315133839501992",
+      "clamp": "7d8c30c7d724de24aab67f4abd5993e3f70680b98fd8ee8dd104bd57f273a322"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/good/001.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-003.npz",
+    "baseline_score": 1.1231606006622314,
+    "query_feature_hashes": {
+      "identity": "aa8869cbaed9f4a5946a28d05b25d16b5fb1722a3651fae30535d473add5c3df",
+      "vflip": "88f9f39d9b2bc52adbccae622443cd4d62037d7f2bab435743de37410a17eca9",
+      "clamp": "167e54cab0d733b46750550bfb963737f4ef747197b4f07c4d00607879d9240e"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/good/020.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-004.npz",
+    "baseline_score": 0.8186388611793518,
+    "query_feature_hashes": {
+      "identity": "1935c5701f7c3807bf8b83a8aec8b614c2342107c73ab7195724e120d384c0d9",
+      "vflip": "d46796e6b077b1bd761a8c8926eeb6f9097d9bad096d980a662c99a1d5bcf14d",
+      "clamp": "515bb57c46b52fba385ab7ed51be22c27d3d9892957928e78392f0c6a25bb03e"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/good/005.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-005.npz",
+    "baseline_score": 1.1066625118255615,
+    "query_feature_hashes": {
+      "identity": "66f6da098acdbbdb13e77170ad8d826cdc1b94d714dfb9409fd5120ac3bfa6b6",
+      "vflip": "a597957ce3148da720304ca924b109ec7f7a63f69fa8c89baa3580600fcdad02",
+      "clamp": "63013c57f3ea74ca79a9fd4a28ba2a18ec9df0716d23c61a91a6e23a4be7979b"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/good/018.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-006.npz",
+    "baseline_score": 1.0784788131713867,
+    "query_feature_hashes": {
+      "identity": "6fb0dc949943930718954088d6b2939773a9ee387258575666fa7b30e7b93248",
+      "vflip": "f69cca4ba906a84d649af5364025715e0c051e025d9f94c88dc0980cec74da49",
+      "clamp": "3391e41e566353e80e96974003d09965c70cb7bb637a9df3cdc95833e5ed04a5"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/good/010.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-007.npz",
+    "baseline_score": 1.0428472757339478,
+    "query_feature_hashes": {
+      "identity": "fd1fa0c9b935396f004a5797b1730ca353f75941562cc0b2fc8bd53062c253fb",
+      "vflip": "1fc43d45f2d0a68cf9e3b0e3909bca7d6090bd02786a869a91fc65d3f2b926eb",
+      "clamp": "ed0b1e864ca2f0749309b6e6a4c8db4256413638da756b71c60c368afc062ec5"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/good/004.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-008.npz",
+    "baseline_score": 0.9461671710014343,
+    "query_feature_hashes": {
+      "identity": "515692a6ff5a427c373fa7488fed9e97d3b63cbfc8910135183c2fea3aac5652",
+      "vflip": "3724a492391ba5bfb7435f450173ed209603fa68fb59429349768b236f752039",
+      "clamp": "7e455d4f43467f18eef5985a45c832ccfef7fa4325235be529936aa7bf4ad213"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/good/019.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-009.npz",
+    "baseline_score": 1.0120958089828491,
+    "query_feature_hashes": {
+      "identity": "62a213e1b7ea38e0dbd9f734ecc6e7dc6d20e63a34256e1b085a7e6a4de3b3f0",
+      "vflip": "bced9584689f1caccfcbcb8d01ff219cb873dc033d70babf36dafaf73e9f6bb4",
+      "clamp": "0ca26ef589329aabf0f400540fc1cea8873e1f34ff07ed881aca50f342a27db8"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/color/019.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-010.npz",
+    "baseline_score": 1.3636252880096436,
+    "query_feature_hashes": {
+      "identity": "d3658839aa01dadf5e556f6fbf7130d5f4ec510ee7db9945c15e7c919dd9feff",
+      "vflip": "7d3047ad4e8f2adfa87b00f78338c707837bb9c2e39d61ab6be0c1fbab4f3eef",
+      "clamp": "58eed8b4349f80588567c0bbab32c1b7286da1e4916ffd063669e4e0ff3b0a45"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/scratch/016.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-011.npz",
+    "baseline_score": 1.684520959854126,
+    "query_feature_hashes": {
+      "identity": "61626f5f93370f094e38ff265b32212af634cfaf0a1c04f636d72ae2c8db7e46",
+      "vflip": "17f14105b145a36ca317211bc612836d773207dc01939b866ab4c40e9aa6e655",
+      "clamp": "d207fc4dab0a491ba3b8e077dfd8a54176ee31826ab6b76fcb41d108ca634bf7"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/color/005.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-012.npz",
+    "baseline_score": 1.2284594774246216,
+    "query_feature_hashes": {
+      "identity": "00f0a371027ce82d823025dcf522a964e0e2eb37a676b352071a3f8a3689dd28",
+      "vflip": "a4160e3b84d8c4801de869bcf6748a9db4b442988db6a950e9f92b3cc9b3fe41",
+      "clamp": "055686e97dba18e9d939d0c767b7486e2e0338a4cb9d0c23e9acd1d8e96ef035"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/color/009.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-013.npz",
+    "baseline_score": 1.842097282409668,
+    "query_feature_hashes": {
+      "identity": "cbca1cf1e9abfa53b27e84ba734aa9a810f9f48eabfab240479539ccd50985f2",
+      "vflip": "374152f1bcbfa4a893fbe320fa19161315d0678daa2004183f7a136429f9e392",
+      "clamp": "a85b663042d60b0509a2174cdcfab88b9219f3d1d66da8988d87f84030f6861e"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/scratch/009.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-014.npz",
+    "baseline_score": 1.4405344724655151,
+    "query_feature_hashes": {
+      "identity": "a9825a4a7b5597478c6ec5ed02457abc0fbcec32259beb677a65b7957fcca3e5",
+      "vflip": "650ff506f5417e1eb772ad61c3cde88099973b0955ad9193481017fe4f226f8f",
+      "clamp": "4689c35855fe56b1a74e771fa782d10a453884d1f21c348b3b5e8baa01b0587d"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/flip/003.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-015.npz",
+    "baseline_score": 1.532147765159607,
+    "query_feature_hashes": {
+      "identity": "cc478bb64bf0fc629d576f10a1b47dd8d00bc6edfc2b144b385915c3df371fec",
+      "vflip": "97fabfa298ef2e8b1a714f894ea9b5639276fb93fb5c722e94c687682114da61",
+      "clamp": "39938b5a54eb89a0d892db8e1fbcfa336fa4e049c6ac7e343339cbb8eb97f721"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/bent/022.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-016.npz",
+    "baseline_score": 1.178939938545227,
+    "query_feature_hashes": {
+      "identity": "f09730897816551633ab29a976a23b12a7b8d17f4044a386c055310dd294c111",
+      "vflip": "245edf071171f271aa59a9290d186f89d00d6642f4fd4d44d0ce1fc7eefcb831",
+      "clamp": "0592c11fe8c6e09b0543a3dd44b8dcde372b2c4941fb3cfdb25338abb9f26125"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/bent/003.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-017.npz",
+    "baseline_score": 1.529571533203125,
+    "query_feature_hashes": {
+      "identity": "0741bbb9cc7b8b3eba4a89e50eb29de2492d4b8a4bdbf9d7630377b12d63fa42",
+      "vflip": "351cdba2d49140cd4e105864d9f57247fdfd9796dd574f2529c0eb66942c97a9",
+      "clamp": "d9e9cef52bb262290cd4df848274291da90fe9fe6de9bfd213e6a5c9443b5896"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/bent/005.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-018.npz",
+    "baseline_score": 1.6776432991027832,
+    "query_feature_hashes": {
+      "identity": "cfc27253e7aeba7010f43d9ba792aee5b849f350675ec21469ef22b476cbe0af",
+      "vflip": "4078810308f76250469b80590b86587a3fa642964d1cd389cff93d1662725a57",
+      "clamp": "ddb96ad3ebcf31ee29b9d272ca718be212a8b38474817be9852f05acf817c388"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "mvtec_ad",
+    "category": "metal_nut",
+    "seed": 17,
+    "query_id": "metal_nut/test/scratch/018.png",
+    "episode_id": "mvtec_ad-metal_nut-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/verification/mvtec_ad-metal_nut/mvtec_ad-metal_nut-k1-seed17/raw-019.npz",
+    "baseline_score": 1.7823965549468994,
+    "query_feature_hashes": {
+      "identity": "5faa9e8db03cd4490227810852ac335f342df04f17c931776723005020ea57ea",
+      "vflip": "6200923fb6a7a41cdaaba3940652b229dba061c22503b240f5e886808b21cdef",
+      "clamp": "19e535d46c0e7bae4224bdcebeda3f5dfe4e32498ef6f15959db5e974974f355"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  }
+]

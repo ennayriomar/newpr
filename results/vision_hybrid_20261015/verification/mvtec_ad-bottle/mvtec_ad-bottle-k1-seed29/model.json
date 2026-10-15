@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "kind": "VisionHybrid",
+  "params": {
+    "clusters": 1,
+    "variance": 0.95,
+    "strength": 0.5,
+    "gate": "uniform"
+  },
+  "parameters_id": "d74241e7ae1e21219e147a3c2056127955b941fac996f2367acaace9e7c2a9f2",
+  "threshold": 1.266317319869995,
+  "pixel_threshold": 1.1265572309494019,
+  "support_ids": [
+    "bottle/train/good/115.png"
+  ],
+  "slot_indices": {
+    "identity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "vflip": [
+      4,
+      6,
+      5,
+      7,
+      0,
+      2
+    ],
+    "clamp": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "clusters": [
+    1,
+    4
+  ],
+  "variances": [
+    0.95,
+    0.99
+  ],
+  "threads": 3,
+  "array_hashes": {
+    "view_000": "42bbc996ad5b7c88b91f64f0cf94515050086fb8634e584b0e1921a015930572",
+    "view_001": "e6b7762de775a65b5be820147e8f50fe0f875bef5b84004ffe79fb7b16a25d9a",
+    "view_002": "fd0996b563eecc3973c356e315384fae7a1e188ff47e6bd17e304ade2306435f",
+    "view_003": "951e85a08e5ba565e4f5af3f31fe82934469e5926f75f680b088414e915003ef",
+    "view_004": "d20f72ce31b3afd141a45e5a54a61b0b6b1ae962f1c1b3a213c5cee754af4331",
+    "view_005": "a7d82ce19d8c351c3b54db6d58bac24cbeca15af76e19bfd66c9e21825dcf07c",
+    "view_006": "ca68a2f483c1bb7d966f97e39c5c2306524e79edd5c838a64dc05cb461aa0015",
+    "view_007": "b22b28d55a317f3311a05ea844fb30bcae0c1456620486b87b906a975e2bd3e1",
+    "view_008": "e893944728eb91bb5054653a9965a0f7f69abe424f774d2d893d5b6384190649",
+    "view_009": "658cd63052d2c4bbb567439d8f451f28d7fabd81987053aac83db048b01739a0",
+    "view_010": "9114d9e1a3e325a4ea632448913758b957e32baef37e2cdde2150b20703bca03",
+    "view_011": "55eb1a6e12070582a4edddfbbba251a01b379ea3532ec5a61ac3e08ce50443a7",
+    "view_012": "94e5667adc78b906b26c0abfd73c87ae81f4a55fd423df1bfcac0265d0a1174a",
+    "view_013": "26f25c5e61699ccdd011bd82c70cfe744928224a32fcca97b38a938345000d37"
+  },
+  "npz_sha256": "49241216e5c4dfcf4a3eef2af2e803f32743b60565bb8386588337b7ecaca92d",
+  "source_hashes": {
+    "vision_hybrid_model.py": "de20f42fbee7a31f04ba51758424077b3ea5f02e2ee42e95dda44941145314f8",
+    "vision_hybrid_features.py": "da83b69a7d7de10c0fb2dcfd5ce1330b987ebece744f97bd272fe26d97f85e1b",
+    "safal_features.py": "497e67e474f502da8205c304efae676ff3c1f4eb38c17e52a461c6609fd51e39"
+  },
+  "provenance": {
+    "encoder": {
+      "backbone": "dinov2_vitl14_reg",
+      "feature_dimension": 1024,
+      "registers": 4,
+      "resize": 448,
+      "crop": 392,
+      "grid": 28,
+      "layers": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "norm": false,
+      "aggregation": "raw arithmetic block mean, then branch-specific normalization",
+      "interpolation": "PIL bilinear square resize, center crop",
+      "position_interpolation": {
+        "antialias": false,
+        "offset": 0.1
+      },
+      "checkpoint_sha256": "36e4deffbaef061a2576705b0c36f93621e2ae20bf6274694821b0b492551b51",
+      "reference_commit": "2d5e36f357409125ccd9646ba016824005599df4",
+      "source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "source_manifest_sha256": "9ed9679525be8520b45cd087ce2bff1cd684f438ac82bc0d6080e36487adf340",
+      "device": "cpu",
+      "dtype": "float32",
+      "frozen": true,
+      "evaluation_mode": true,
+      "torch_version": "2.7.1+cpu",
+      "numpy_version": "2.2.6",
+      "pillow_version": "12.3.0",
+      "python_version": "3.12.14",
+      "implementation_sha256": "da83b69a7d7de10c0fb2dcfd5ce1330b987ebece744f97bd272fe26d97f85e1b",
+      "runtime": {
+        "source_dir": "/workspace/.cache/dinov2-source",
+        "checkpoint": "/tmp/vision_hybrid_assets_20261015/dinov2_vitl14_reg4_pretrain.pth",
+        "threads": 3
+      }
+    },
+    "episode": {
+      "id": "mvtec_ad-bottle-k1-seed29",
+      "dataset": "mvtec_ad",
+      "category": "bottle",
+      "seed": 29,
+      "shots": 1,
+      "support_ids": [
+        "bottle/train/good/115.png"
+      ],
+      "calibration_ids": [],
+      "query_ids": [
+        "bottle/test/good/008.png",
+        "bottle/test/good/019.png",
+        "bottle/test/good/012.png",
+        "bottle/test/good/017.png",
+        "bottle/test/good/004.png",
+        "bottle/test/good/014.png",
+        "bottle/test/good/013.png",
+        "bottle/test/good/009.png",
+        "bottle/test/good/005.png",
+        "bottle/test/good/011.png",
+        "bottle/test/contamination/016.png",
+        "bottle/test/broken_small/013.png",
+        "bottle/test/broken_small/011.png",
+        "bottle/test/contamination/000.png",
+        "bottle/test/contamination/005.png",
+        "bottle/test/contamination/008.png",
+        "bottle/test/contamination/014.png",
+        "bottle/test/contamination/004.png",
+        "bottle/test/contamination/020.png",
+        "bottle/test/contamination/012.png"
+      ],
+      "role": "verification"
+    },
+    "status": "globally selected research candidate",
+    "extra_target_calibration_images": 0,
+    "decision_sha256": "fcc30a051f4fc87e316595091fb776cc13dd312b439b1b2b50e376de80f5d63f"
+  },
+  "model_metadata": {
+    "support_ids": [
+      "bottle/train/good/115.png"
+    ],
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0,
+    "grid": 28,
+    "dimension": 1024,
+    "unique_support_feature_inputs": 14,
+    "slot_indices": {
+      "identity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vflip": [
+        4,
+        6,
+        5,
+        7,
+        0,
+        2
+      ],
+      "clamp": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "subspaces": {
+      "1": {
+        "clusters": 1,
+        "variances": [
+          0.95,
+          0.99
+        ],
+        "group_counts": [
+          10976
+        ],
+        "numerical_ranks": [
+          1024
+        ],
+        "retained_ranks": [
+          {
+            "0.95": 216,
+            "0.99": 576
+          }
+        ],
+        "energy_scales": [
+          162.75852047634726
+        ],
+        "normalization": "Residual squared norm / mean total centered normal feature energy in assigned cluster",
+        "independent_original_images_not_patch_count": true
+      },
+      "4": {
+        "clusters": 4,
+        "variances": [
+          0.95,
+          0.99
+        ],
+        "group_counts": [
+          4043,
+          2598,
+          3007,
+          1328
+        ],
+        "numerical_ranks": [
+          1024,
+          1024,
+          1024,
+          1024
+        ],
+        "retained_ranks": [
+          {
+            "0.95": 82,
+            "0.99": 289
+          },
+          {
+            "0.95": 200,
+            "0.99": 510
+          },
+          {
+            "0.95": 144,
+            "0.99": 426
+          },
+          {
+            "0.95": 188,
+            "0.99": 447
+          }
+        ],
+        "energy_scales": [
+          135.44143401884318,
+          127.61780527183308,
+          117.52239619020145,
+          138.6734720586567
+        ],
+        "normalization": "Residual squared norm / mean total centered normal feature energy in assigned cluster",
+        "independent_original_images_not_patch_count": true
+      }
+    },
+    "correction": "Nonnegative additive residual; unchanged baseline when strength=0",
+    "gate_semantics": "Heuristic residual/(residual+cosine-distance), not calibrated reliability",
+    "strict_target_support_budget": true,
+    "probabilities": false
+  },
+  "software_versions": {
+    "numpy": "2.2.6",
+    "torch": "2.7.1+cpu",
+    "sklearn": "1.8.0"
+  }
+}

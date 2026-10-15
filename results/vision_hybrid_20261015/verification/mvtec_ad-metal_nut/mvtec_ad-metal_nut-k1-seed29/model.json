@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "kind": "VisionHybrid",
+  "params": {
+    "clusters": 1,
+    "variance": 0.95,
+    "strength": 0.5,
+    "gate": "uniform"
+  },
+  "parameters_id": "d74241e7ae1e21219e147a3c2056127955b941fac996f2367acaace9e7c2a9f2",
+  "threshold": 1.266317319869995,
+  "pixel_threshold": 1.1265572309494019,
+  "support_ids": [
+    "metal_nut/train/good/209.png"
+  ],
+  "slot_indices": {
+    "identity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "vflip": [
+      4,
+      6,
+      5,
+      7,
+      0,
+      2
+    ],
+    "clamp": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "clusters": [
+    1,
+    4
+  ],
+  "variances": [
+    0.95,
+    0.99
+  ],
+  "threads": 3,
+  "array_hashes": {
+    "view_000": "387346f0ef02786909fe24a25a5bb19ef75f5e9d8e7ffd68fc77e54fedbc72c4",
+    "view_001": "1f8bcdd2d16a028a550c465a9a528fc173981201674c2b2f78b4833378c91bd3",
+    "view_002": "628a81283665ed61ebb5d1c07c110ed7df02182bdba13ff443031ef60717a757",
+    "view_003": "8fd4af1d7326becbdd26ed3b43fb673d68f71dd99a846bfe5cb024e956c58e0b",
+    "view_004": "1afdcd1444e5b245a9f1a2e0efd463b81c73d76373dd86fee6ed2152586b36cf",
+    "view_005": "bd3672640acd31af46a88c8fd33072bfec021c73da54ebf3cb045b9421eb7eda",
+    "view_006": "9f3132518bd5bbc6093a5c04b558598c63d1bd4324db621a2edd724b405d3f04",
+    "view_007": "9366514496acbd7c4928542f5ab3a84069f87becbe6726d703bf633ecc7d2b85",
+    "view_008": "53a1838b3de70803d555dfc24341e5661a0f980fe0b26b9dce035748ea03e386",
+    "view_009": "f0b86bff723098cf9e155c083353e65d6f0ff50cbc82b6e2f16deb4a9bb1051f",
+    "view_010": "06365e4cbeb52a7b281d9cf293e6471a3aacdc41f96b111d8c27ebb2c1c63b78",
+    "view_011": "4d747c3310a2ca70edea6dab872337fcf8103579e87420dd6630e76008a1cf66",
+    "view_012": "b0996735bbb31f59e85c5b2eefc0243f76d9f6062edfc95ad75fa338831d3df3",
+    "view_013": "3e5c88e650a46b7be24e5b70a9df6ab6a009f2721c208b0ed62537489031e77c"
+  },
+  "npz_sha256": "841064d81b6e4d2e1c90b83f8234e19f1b25b2351ede8a25095e9ee8f50b7cad",
+  "source_hashes": {
+    "vision_hybrid_model.py": "de20f42fbee7a31f04ba51758424077b3ea5f02e2ee42e95dda44941145314f8",
+    "vision_hybrid_features.py": "da83b69a7d7de10c0fb2dcfd5ce1330b987ebece744f97bd272fe26d97f85e1b",
+    "safal_features.py": "497e67e474f502da8205c304efae676ff3c1f4eb38c17e52a461c6609fd51e39"
+  },
+  "provenance": {
+    "encoder": {
+      "backbone": "dinov2_vitl14_reg",
+      "feature_dimension": 1024,
+      "registers": 4,
+      "resize": 448,
+      "crop": 392,
+      "grid": 28,
+      "layers": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "norm": false,
+      "aggregation": "raw arithmetic block mean, then branch-specific normalization",
+      "interpolation": "PIL bilinear square resize, center crop",
+      "position_interpolation": {
+        "antialias": false,
+        "offset": 0.1
+      },
+      "checkpoint_sha256": "36e4deffbaef061a2576705b0c36f93621e2ae20bf6274694821b0b492551b51",
+      "reference_commit": "2d5e36f357409125ccd9646ba016824005599df4",
+      "source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "source_manifest_sha256": "9ed9679525be8520b45cd087ce2bff1cd684f438ac82bc0d6080e36487adf340",
+      "device": "cpu",
+      "dtype": "float32",
+      "frozen": true,
+      "evaluation_mode": true,
+      "torch_version": "2.7.1+cpu",
+      "numpy_version": "2.2.6",
+      "pillow_version": "12.3.0",
+      "python_version": "3.12.14",
+      "implementation_sha256": "da83b69a7d7de10c0fb2dcfd5ce1330b987ebece744f97bd272fe26d97f85e1b",
+      "runtime": {
+        "source_dir": "/workspace/.cache/dinov2-source",
+        "checkpoint": "/tmp/vision_hybrid_assets_20261015/dinov2_vitl14_reg4_pretrain.pth",
+        "threads": 3
+      }
+    },
+    "episode": {
+      "id": "mvtec_ad-metal_nut-k1-seed29",
+      "dataset": "mvtec_ad",
+      "category": "metal_nut",
+      "seed": 29,
+      "shots": 1,
+      "support_ids": [
+        "metal_nut/train/good/209.png"
+      ],
+      "calibration_ids": [],
+      "query_ids": [
+        "metal_nut/test/good/012.png",
+        "metal_nut/test/good/007.png",
+        "metal_nut/test/good/015.png",
+        "metal_nut/test/good/001.png",
+        "metal_nut/test/good/020.png",
+        "metal_nut/test/good/005.png",
+        "metal_nut/test/good/018.png",
+        "metal_nut/test/good/010.png",
+        "metal_nut/test/good/004.png",
+        "metal_nut/test/good/019.png",
+        "metal_nut/test/color/019.png",
+        "metal_nut/test/scratch/016.png",
+        "metal_nut/test/color/005.png",
+        "metal_nut/test/color/009.png",
+        "metal_nut/test/scratch/009.png",
+        "metal_nut/test/flip/003.png",
+        "metal_nut/test/bent/022.png",
+        "metal_nut/test/bent/003.png",
+        "metal_nut/test/bent/005.png",
+        "metal_nut/test/scratch/018.png"
+      ],
+      "role": "verification"
+    },
+    "status": "globally selected research candidate",
+    "extra_target_calibration_images": 0,
+    "decision_sha256": "fcc30a051f4fc87e316595091fb776cc13dd312b439b1b2b50e376de80f5d63f"
+  },
+  "model_metadata": {
+    "support_ids": [
+      "metal_nut/train/good/209.png"
+    ],
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0,
+    "grid": 28,
+    "dimension": 1024,
+    "unique_support_feature_inputs": 14,
+    "slot_indices": {
+      "identity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vflip": [
+        4,
+        6,
+        5,
+        7,
+        0,
+        2
+      ],
+      "clamp": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "subspaces": {
+      "1": {
+        "clusters": 1,
+        "variances": [
+          0.95,
+          0.99
+        ],
+        "group_counts": [
+          10976
+        ],
+        "numerical_ranks": [
+          1024
+        ],
+        "retained_ranks": [
+          {
+            "0.95": 310,
+            "0.99": 679
+          }
+        ],
+        "energy_scales": [
+          173.6836857966189
+        ],
+        "normalization": "Residual squared norm / mean total centered normal feature energy in assigned cluster",
+        "independent_original_images_not_patch_count": true
+      },
+      "4": {
+        "clusters": 4,
+        "variances": [
+          0.95,
+          0.99
+        ],
+        "group_counts": [
+          3262,
+          1965,
+          2975,
+          2774
+        ],
+        "numerical_ranks": [
+          1024,
+          1024,
+          1024,
+          1024
+        ],
+        "retained_ranks": [
+          {
+            "0.95": 232,
+            "0.99": 561
+          },
+          {
+            "0.95": 179,
+            "0.99": 463
+          },
+          {
+            "0.95": 275,
+            "0.99": 601
+          },
+          {
+            "0.95": 106,
+            "0.99": 364
+          }
+        ],
+        "energy_scales": [
+          142.77011665573156,
+          144.6546421144347,
+          157.16910754103813,
+          126.72593127737774
+        ],
+        "normalization": "Residual squared norm / mean total centered normal feature energy in assigned cluster",
+        "independent_original_images_not_patch_count": true
+      }
+    },
+    "correction": "Nonnegative additive residual; unchanged baseline when strength=0",
+    "gate_semantics": "Heuristic residual/(residual+cosine-distance), not calibrated reliability",
+    "strict_target_support_budget": true,
+    "probabilities": false
+  },
+  "software_versions": {
+    "numpy": "2.2.6",
+    "torch": "2.7.1+cpu",
+    "sklearn": "1.8.0"
+  }
+}

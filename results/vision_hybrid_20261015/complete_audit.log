@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "mode": "complete",
+  "selection_lock_sha256": "ce680154c657d1896d05772f12c37d0815269800a63d62f37186c228bacefcaf",
+  "inherited_development_audit_sha256": "e088ea00cea62b78caca8a21193171ab3fbf27b5b1f1f3f0c03fa6c7aa9d114b",
+  "verification_cases": 200,
+  "method_rows": 400,
+  "verification_unique_images": 100,
+  "serialized_models_checked": 10,
+  "feature_probe_replays": 10,
+  "raw_score_and_map_replays": 200,
+  "float32_map_archives_checked": 200,
+  "native_mask_files_checked": 50,
+  "metrics_independently_recomputed": true,
+  "paired_auc_interval_recomputed": true,
+  "methods": {
+    "baseline": {
+      "accuracy": 0.785,
+      "misses": 43,
+      "false_positives": 0,
+      "mean_image_auroc": 0.9780000000000001,
+      "mean_image_ap": 0.9819167499167498,
+      "localization": {
+        "pixel_auroc": 0.9272246216683563,
+        "pixel_ap": 0.4704513904162422,
+        "au_pro": 0.8841114852052636,
+        "iou": 0.268648708916654,
+        "pixel_f1": 0.41571355149111994
+      }
+    },
+    "hybrid": {
+      "accuracy": 0.755,
+      "misses": 1,
+      "false_positives": 48,
+      "mean_image_auroc": 0.9869999999999999,
+      "mean_image_ap": 0.9885205905205904,
+      "localization": {
+        "pixel_auroc": 0.9400675633358526,
+        "pixel_ap": 0.5019506570347986,
+        "au_pro": 0.9079597410146336,
+        "iou": 0.25603073419844974,
+        "pixel_f1": 0.40142391024697355
+      }
+    }
+  },
+  "transitions": {
+    "detected_to_missed": 0,
+    "missed_to_detected": 42,
+    "false_positives_added": 48,
+    "false_positives_removed": 0
+  },
+  "strict_target_normal_budget": 1,
+  "extra_target_calibration_images": 0,
+  "verification_used_for_selection": false,
+  "full_paper_benchmark_completed": false,
+  "caveats": [
+    "Two support draws and five fixed evaluation categories limit the conditional interval.",
+    "Accuracy reflects a balanced normal/anomaly image cohort, not industrial prevalence.",
+    "Classification labels are native; localization is center-croppedROI only.",
+    "No global or full-paper SOTA claim follows from this bounded matched comparison."
+  ]
+}

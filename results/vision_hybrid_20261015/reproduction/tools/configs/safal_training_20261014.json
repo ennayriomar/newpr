@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "partition_seed": 20261014,
+  "shots": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "normal_calibration_images": 4,
+  "normal_calibration_quantile": 0.95,
+  "queries_per_label": 10,
+  "source_fit_parents": 16,
+  "source_cal_parents": 4,
+  "abstain_error_probability": 0.2,
+  "encoder": {
+    "source_dir": "/workspace/.cache/dinov2-source",
+    "checkpoint": "/workspace/.cache/torch/hub/checkpoints/dinov2_vitb14_pretrain.pth",
+    "cache_root": "/tmp/safal_training_20261014_feature_cache",
+    "resolution": 224,
+    "layers": [
+      2,
+      5,
+      8,
+      11
+    ],
+    "threads": 3
+  },
+  "roots": {
+    "mvtec_ad": "/workspace/datasets/mvtec_ad",
+    "visa": "/workspace/datasets/visa"
+  },
+  "source_categories": {
+    "mvtec_ad": [
+      "carpet",
+      "grid",
+      "leather",
+      "tile",
+      "wood"
+    ],
+    "visa": [
+      "candle",
+      "cashew",
+      "chewinggum",
+      "macaroni1",
+      "pcb1"
+    ]
+  },
+  "validation_categories": {
+    "mvtec_ad": [
+      "cable",
+      "hazelnut",
+      "transistor"
+    ],
+    "visa": [
+      "macaroni2",
+      "pcb2"
+    ]
+  },
+  "category_roles": {
+    "mvtec_ad": {
+      "meta_training": [
+        "carpet",
+        "grid",
+        "leather",
+        "tile",
+        "wood"
+      ],
+      "validation": [
+        "cable",
+        "hazelnut",
+        "transistor"
+      ],
+      "calibration": [
+        "capsule",
+        "screw",
+        "toothbrush"
+      ],
+      "final_test": [
+        "bottle",
+        "metal_nut",
+        "pill",
+        "zipper"
+      ]
+    },
+    "visa": {
+      "meta_training": [
+        "candle",
+        "cashew",
+        "chewinggum",
+        "macaroni1",
+        "pcb1"
+      ],
+      "validation": [
+        "macaroni2",
+        "pcb2"
+      ],
+      "calibration": [
+        "fryum",
+        "pcb3"
+      ],
+      "final_test": [
+        "capsules",
+        "pcb4",
+        "pipe_fryum"
+      ]
+    }
+  },
+  "run_description": "Requested SAFAL training: frozen pretrained DINO, fitted PCA/reference banks, learned source-only error head; broader development validation, not LLM training or final benchmark.",
+  "previous_pilot_seen": true
+}

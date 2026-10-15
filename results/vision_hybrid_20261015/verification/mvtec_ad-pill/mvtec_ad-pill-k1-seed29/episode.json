@@ -1,0 +1,34 @@
+{
+  "id": "mvtec_ad-pill-k1-seed29",
+  "dataset": "mvtec_ad",
+  "category": "pill",
+  "seed": 29,
+  "shots": 1,
+  "support_ids": [
+    "pill/train/good/125.png"
+  ],
+  "calibration_ids": [],
+  "query_ids": [
+    "pill/test/good/025.png",
+    "pill/test/good/000.png",
+    "pill/test/good/017.png",
+    "pill/test/good/014.png",
+    "pill/test/good/013.png",
+    "pill/test/good/005.png",
+    "pill/test/good/024.png",
+    "pill/test/good/022.png",
+    "pill/test/good/015.png",
+    "pill/test/good/001.png",
+    "pill/test/combined/004.png",
+    "pill/test/color/017.png",
+    "pill/test/contamination/006.png",
+    "pill/test/scratch/019.png",
+    "pill/test/color/009.png",
+    "pill/test/pill_type/004.png",
+    "pill/test/contamination/010.png",
+    "pill/test/scratch/004.png",
+    "pill/test/color/004.png",
+    "pill/test/scratch/002.png"
+  ],
+  "role": "verification"
+}

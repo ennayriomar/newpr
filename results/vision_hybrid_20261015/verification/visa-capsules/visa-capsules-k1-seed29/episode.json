@@ -1,0 +1,34 @@
+{
+  "id": "visa-capsules-k1-seed29",
+  "dataset": "visa",
+  "category": "capsules",
+  "seed": 29,
+  "shots": 1,
+  "support_ids": [
+    "capsules/Data/Images/Normal/387.JPG"
+  ],
+  "calibration_ids": [],
+  "query_ids": [
+    "capsules/Data/Images/Normal/417.JPG",
+    "capsules/Data/Images/Normal/178.JPG",
+    "capsules/Data/Images/Normal/427.JPG",
+    "capsules/Data/Images/Normal/215.JPG",
+    "capsules/Data/Images/Normal/514.JPG",
+    "capsules/Data/Images/Normal/208.JPG",
+    "capsules/Data/Images/Normal/297.JPG",
+    "capsules/Data/Images/Normal/170.JPG",
+    "capsules/Data/Images/Normal/545.JPG",
+    "capsules/Data/Images/Normal/518.JPG",
+    "capsules/Data/Images/Anomaly/017.JPG",
+    "capsules/Data/Images/Anomaly/044.JPG",
+    "capsules/Data/Images/Anomaly/009.JPG",
+    "capsules/Data/Images/Anomaly/055.JPG",
+    "capsules/Data/Images/Anomaly/071.JPG",
+    "capsules/Data/Images/Anomaly/050.JPG",
+    "capsules/Data/Images/Anomaly/035.JPG",
+    "capsules/Data/Images/Anomaly/058.JPG",
+    "capsules/Data/Images/Anomaly/084.JPG",
+    "capsules/Data/Images/Anomaly/095.JPG"
+  ],
+  "role": "verification"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "files": 1132,
+  "hardlink_aliases": 20,
+  "bytes": 1047822528,
+  "sha256": "5f76fed20878f0eabadbb3b629c55f3d799f179e37d0b4be5273cdb161d85eb3",
+  "gzip_crc_verified": true,
+  "all_source_bytes_match": true
+}

@@ -1,0 +1,7 @@
+{
+  "status": "verified_redundant_copy_reclaimed",
+  "path": "/tmp/safal_tuning_release_20261014/safal_tuning_full_results_20261014.zip",
+  "bytes": 365702061,
+  "sha256": "d34212fd98d98fb036208f22e63619b6814105567412580cc932de439c1141a2",
+  "retained": "All original run/model/map files, local Git archive-part blobs, and verified public immutable archive parts. Only redundant assembled release ZIP removed."
+}

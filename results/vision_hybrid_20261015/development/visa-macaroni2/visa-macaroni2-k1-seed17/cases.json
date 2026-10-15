@@ -1,0 +1,342 @@
+[
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Normal/0100.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-000.npz",
+    "baseline_score": 0.8269896507263184,
+    "query_feature_hashes": {
+      "identity": "396d9ad6b0a894b1053a5be423f3674f04395a620c52f613b9003d9ef5fd3a39",
+      "vflip": "979f67dc317776e5d116f007e20964bbba8b429f1e349a90982730e7c9a51984",
+      "clamp": "b05fced40a00a091d215b3c1888879d6562c5ab7a36202d7584ff368669024ac"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Normal/0552.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-001.npz",
+    "baseline_score": 0.9336647391319275,
+    "query_feature_hashes": {
+      "identity": "ea5f2b5f6f170049d4701381bb388356cbb49b2c910d353f56ab78269b66328c",
+      "vflip": "0569fb2ad864d1eacca408687a82c290d5fdf67430b1f83e7e37352f94034901",
+      "clamp": "0203e57ccc259484ecadc273e905391f6d0e09e6cc399fa396a963d25f201544"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Normal/0525.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-002.npz",
+    "baseline_score": 0.9307188391685486,
+    "query_feature_hashes": {
+      "identity": "4660c085d20294e15e065e7f83c9282e4b0cb139f9e0a7b3ef6f6af51d5fdabb",
+      "vflip": "28ada0bb5f883fa7966ed3bffcb4a5c4e57e21d52d2faaa3f7235cc6356a8d7c",
+      "clamp": "ca8fa7e758e78c872e30c6b394d80689bfeabaa001e51d35218f78af49617646"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Normal/0953.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-003.npz",
+    "baseline_score": 0.8853573203086853,
+    "query_feature_hashes": {
+      "identity": "e25689a18828c24e06c4c45a47d2c9c9351834a1806145ef02f6e846d737dd3e",
+      "vflip": "3d5450ddb2fa1da139e363c15d52fe090a57a5ba6b6dfcd158a902838056c2ce",
+      "clamp": "b2cbd0b610d489499a66d89e796bb4f5e4deb1ab9e65bec90ac35e8b7d1bb7aa"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Normal/0751.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-004.npz",
+    "baseline_score": 1.0034996271133423,
+    "query_feature_hashes": {
+      "identity": "a30ee02f720f63e931f3e91a33b30c1899e91597d6c04c6b654dce18b71c4f87",
+      "vflip": "c33feb4b4dcb83a62f41b9c2de152e819bc04353b5928c29ef92b91b7cf08c95",
+      "clamp": "530c43c705fb17bb774a3d1ffb523da57914437f740a4423d74e2c8c3ef7d37f"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Normal/0011.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-005.npz",
+    "baseline_score": 0.7887733578681946,
+    "query_feature_hashes": {
+      "identity": "39f762baffb3d159c93669a4ee6075439cddfd600bbb2b4547e1319422c99084",
+      "vflip": "df6da1084c14441a2dbfcee100cc90263e3baa79348b35f470bed91e9930a0c3",
+      "clamp": "dcc4583c93499cdaee090ed0d077fc98ee208e3872b4e69730f8fd4f38e2dcd4"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Normal/0363.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-006.npz",
+    "baseline_score": 0.7990788817405701,
+    "query_feature_hashes": {
+      "identity": "9de91e401bf4a9d4a366a49662e4b1bee1decaf043eb2350b37a724331aae9fc",
+      "vflip": "cfb2050272aac9b8b00fd1663320e15a3b088380e4b0eaeccf80d808e6997a3d",
+      "clamp": "5ea87dab94e5a40715631bbedb6c83932e9e73da56ae357c37700e4b840c437a"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Normal/0488.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-007.npz",
+    "baseline_score": 0.9056809544563293,
+    "query_feature_hashes": {
+      "identity": "9bad51133e80355bddf8649f21b3ad91f345c3e6699f65245c409b6f5b600188",
+      "vflip": "421d368a4075e301c4abb68be39e4e00ad9a524b702257ce789d6ea852c19ad4",
+      "clamp": "1d82da326f4ef9ff4378f06176966ab754d899499a0a9a234a14a06cf9008605"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Normal/0520.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-008.npz",
+    "baseline_score": 0.9040780067443848,
+    "query_feature_hashes": {
+      "identity": "c5f1d198dae73f46257b098fc2a34ba9d0d09fa7671e700e06f3e8861145f4fe",
+      "vflip": "17bc1fdf6a666fbd58028ae4bf92a9687e1e0b8fc67a37ff2201dac9e1003710",
+      "clamp": "d9307e592816329f41ca79f47fa016ab374c6f141af7c8b8035004f8acab883b"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Normal/0427.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 0,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-009.npz",
+    "baseline_score": 0.8685608506202698,
+    "query_feature_hashes": {
+      "identity": "b34dd77f9bf19796a339899dac3ef0358d83dc6f1dc4cbb7285152b561784adb",
+      "vflip": "e19253f57ecc6e5fb487b98762b82466bf92fe5c48d4a656143807a3079bbcfc",
+      "clamp": "eec55f7e7128e4c6739b58985294f86251804e37ff6d3edcd15bca3c62298512"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Anomaly/073.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-010.npz",
+    "baseline_score": 1.1348806619644165,
+    "query_feature_hashes": {
+      "identity": "8831fe275fd25fd5943f575652f92c1895afd64cd1e876dbf6f8c75a7aacd4ae",
+      "vflip": "883ee1df357f09a912eff6b7f184b670cfa6497735c73ead845284bb53cdf889",
+      "clamp": "59cfef19e4bf83b8aaadc4aa6bc7346b45b6d70ccbeda61b76e6d1f13ce75b92"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Anomaly/057.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-011.npz",
+    "baseline_score": 0.921377956867218,
+    "query_feature_hashes": {
+      "identity": "3f1afdc6773e17817104e60fa36f5b05357846eee05122ec005613e639f72548",
+      "vflip": "3e88f1efb1369b55f6d2a4053c38d4d974bced149184f0578ceb048f7c295d0d",
+      "clamp": "7461d239467791ebddd490af35c86ee49cdcc26ae56772e73a1b2dd3df6ab9f8"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Anomaly/034.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-012.npz",
+    "baseline_score": 0.8022393584251404,
+    "query_feature_hashes": {
+      "identity": "60d271ba33148ba700151f44c0998f17d96b8faa2f3a03176365d2a115149e73",
+      "vflip": "54e83467754dcbe2a95aab34bdc7df9c4674f365fb2df1a66402c22a970c9433",
+      "clamp": "7a13028bb6bdc1651229740a45c243344c383398d17b61dda8479c16d17c9ae4"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Anomaly/052.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-013.npz",
+    "baseline_score": 0.9300025701522827,
+    "query_feature_hashes": {
+      "identity": "a9eb8c4a02e8f7943984647aa03b9ebd608adea93a61fc37ec5da0aa9e8c4eb8",
+      "vflip": "378e09401f55e31545470e8e3992ab75cc87e9846b1779b0b9192e2662683b3f",
+      "clamp": "b05229b2cbeeef1dcab98ad4970bc26852eb81d171efd9c74cfdb883a3326cd5"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Anomaly/028.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-014.npz",
+    "baseline_score": 0.9526241421699524,
+    "query_feature_hashes": {
+      "identity": "b3c53735f7ecfe768cd11f0c8f80cc0b33421bb832bdb9b1137c8851cd129c38",
+      "vflip": "ae2d747a36153be51f8aa540f9612e99c483aa61e0ba368121d6c0b003d2d913",
+      "clamp": "1e290706e12a2a9c0d4f7388452e782405522c4e389cedd5d78a03df07d91ae6"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Anomaly/087.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-015.npz",
+    "baseline_score": 0.9679253101348877,
+    "query_feature_hashes": {
+      "identity": "5c495ddcff506db3b90387ac6693a03f06625c28557c97562393a24b89c875af",
+      "vflip": "be2227d5a271594cbeb3d0abb3e5858814bd724b2ad7e3450ee2880490f318d1",
+      "clamp": "f8017a1065ea81ef261c6e9bb03fe57dcb8f0b017ba962343967506b25218671"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Anomaly/018.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-016.npz",
+    "baseline_score": 1.0195746421813965,
+    "query_feature_hashes": {
+      "identity": "6a45d685dfda181c8f43ef2f9d31a3502b12ae307976df169cd2e95a4e3c7035",
+      "vflip": "6b68365a7321cb4748256344e39af29a0ff975dcd4e4989f535a20937e70c56a",
+      "clamp": "7e19204b24848a0df965d1d3e7b2691f3e91fb2a47bed15bc19ff08c867d3bf3"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Anomaly/089.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-017.npz",
+    "baseline_score": 1.065047025680542,
+    "query_feature_hashes": {
+      "identity": "59fe47fd93be18e0c733bd04579e314bc16168e52690ac80fd8705f567bec9b2",
+      "vflip": "3a1c9f1ec5ac0c72dc1e760019ee204983185c3b0e817f94b7661037ea23a66d",
+      "clamp": "645368b2c6c38f26afc05e4195f3f21844dec362c0834a40efa5318e0e0b30cd"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Anomaly/038.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-018.npz",
+    "baseline_score": 0.9077832698822021,
+    "query_feature_hashes": {
+      "identity": "5b905ec23510b7cb940b3f4c5549bcd10367771abf2f984c4235a66ffa2aa7b6",
+      "vflip": "7e29ce097edd3fa304db7df3e8222007462b17f1d694afd9a291c8a7f7bcf96c",
+      "clamp": "162245401794956ca3f3979bc58e09211c87a809b63c67c4ae6e8ad7705b6f08"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "query_id": "macaroni2/Data/Images/Anomaly/024.JPG",
+    "episode_id": "visa-macaroni2-k1-seed17",
+    "label": 1,
+    "raw_file": "/tmp/vision_hybrid_20261015/development/visa-macaroni2/visa-macaroni2-k1-seed17/raw-019.npz",
+    "baseline_score": 0.9943118691444397,
+    "query_feature_hashes": {
+      "identity": "9f36d38f4fa0022c74ed141124ccc18a75845760aebe23ab4d701b10bbbe31d7",
+      "vflip": "7234a43109995ffdeb25d8e3c38601dcfe8afcb6cff43f641989b38a17cee3b9",
+      "clamp": "aa53a51b10cc9f91d0ff0ba418bb8338563882ab0ce103e2344c1f054ef54b7f"
+    },
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0
+  }
+]

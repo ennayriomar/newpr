@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "kind": "VisionHybrid",
+  "params": {
+    "clusters": 1,
+    "variance": 0.99,
+    "strength": 0.0,
+    "gate": "uniform"
+  },
+  "parameters_id": "0f0f78e9662b721c81a9704801f3d8d990c58f06960f7eee67fc2362ba7666e4",
+  "threshold": 0.0,
+  "pixel_threshold": null,
+  "support_ids": [
+    "metal_nut/train/good/143.png"
+  ],
+  "slot_indices": {
+    "identity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "vflip": [
+      4,
+      6,
+      5,
+      7,
+      0,
+      2
+    ],
+    "clamp": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "clusters": [
+    1,
+    4
+  ],
+  "variances": [
+    0.95,
+    0.99
+  ],
+  "threads": 3,
+  "array_hashes": {
+    "view_000": "503b2fa9d2789749cd32a76a67435db9a38835e493549c7f0e4f3f81c190bc5d",
+    "view_001": "c1e176e772e4fbced1a76eec921e6b6f46b3a25896f69b171c2e7a6e7c8e81ab",
+    "view_002": "bed07a59835bcf7bd578eb6dc52fa63c19232d9ee9928cf227a9241fc7a42cde",
+    "view_003": "1dc0e186f783370e6ae3cac8645ba2442cb006ad9114fe972c11f81abdfb1d7a",
+    "view_004": "94b3b9caacaee80689f829820844899e85d6c8480ce7bd78809a3b4236130f70",
+    "view_005": "a765455b07358fd85b96848dbe589934f4bdc33eaaa644db4d358384d368eb3a",
+    "view_006": "c9ba13a79c6528cb14c1849cea0a787f73f8af681ee68a576771d4b55aeff45e",
+    "view_007": "5ae9760e835847404799e4f183d91de63202372f4d384a6797b79ad9eaa20dbb",
+    "view_008": "98a208cb34504f966acde55ab8a972e0c5458400983f3fa54e7f0b43570df467",
+    "view_009": "d49fe96a8b0161b26c5d73222ff59815c2e8311a0d306e8546c0e3bce3b09387",
+    "view_010": "4c815b069b8acb4345e78ad4bd2cf8d596173aa467b610c8c4db5774d4a07f84",
+    "view_011": "f8b92f793ac4ae8cf2fd8ec7c9efcf5b488379391dc38b51c7bd39d46db119a3",
+    "view_012": "448104a06792e123920bfd5fb60905898f9273a4346e4810f520840f80ba6b9a",
+    "view_013": "b64c48b2c7993e2193d67b8bba55e77e14941fd567bd5d8e40405f9584fa692a"
+  },
+  "npz_sha256": "5cc2ae67753f7ecb1a081399aebbb9e9f6627c9c03b663be5e473ff4e813302b",
+  "source_hashes": {
+    "vision_hybrid_model.py": "de20f42fbee7a31f04ba51758424077b3ea5f02e2ee42e95dda44941145314f8",
+    "vision_hybrid_features.py": "da83b69a7d7de10c0fb2dcfd5ce1330b987ebece744f97bd272fe26d97f85e1b",
+    "safal_features.py": "497e67e474f502da8205c304efae676ff3c1f4eb38c17e52a461c6609fd51e39"
+  },
+  "provenance": {
+    "encoder": {
+      "backbone": "dinov2_vitl14_reg",
+      "feature_dimension": 1024,
+      "registers": 4,
+      "resize": 448,
+      "crop": 392,
+      "grid": 28,
+      "layers": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "norm": false,
+      "aggregation": "raw arithmetic block mean, then branch-specific normalization",
+      "interpolation": "PIL bilinear square resize, center crop",
+      "position_interpolation": {
+        "antialias": false,
+        "offset": 0.1
+      },
+      "checkpoint_sha256": "36e4deffbaef061a2576705b0c36f93621e2ae20bf6274694821b0b492551b51",
+      "reference_commit": "2d5e36f357409125ccd9646ba016824005599df4",
+      "source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "source_manifest_sha256": "9ed9679525be8520b45cd087ce2bff1cd684f438ac82bc0d6080e36487adf340",
+      "device": "cpu",
+      "dtype": "float32",
+      "frozen": true,
+      "evaluation_mode": true,
+      "torch_version": "2.7.1+cpu",
+      "numpy_version": "2.2.6",
+      "pillow_version": "12.3.0",
+      "python_version": "3.12.14",
+      "implementation_sha256": "da83b69a7d7de10c0fb2dcfd5ce1330b987ebece744f97bd272fe26d97f85e1b",
+      "runtime": {
+        "source_dir": "/workspace/.cache/dinov2-source",
+        "checkpoint": "/tmp/vision_hybrid_assets_20261015/dinov2_vitl14_reg4_pretrain.pth",
+        "threads": 3
+      }
+    },
+    "episode": {
+      "id": "mvtec_ad-metal_nut-k1-seed17",
+      "dataset": "mvtec_ad",
+      "category": "metal_nut",
+      "seed": 17,
+      "shots": 1,
+      "support_ids": [
+        "metal_nut/train/good/143.png"
+      ],
+      "calibration_ids": [],
+      "query_ids": [
+        "metal_nut/test/good/012.png",
+        "metal_nut/test/good/007.png",
+        "metal_nut/test/good/015.png",
+        "metal_nut/test/good/001.png",
+        "metal_nut/test/good/020.png",
+        "metal_nut/test/good/005.png",
+        "metal_nut/test/good/018.png",
+        "metal_nut/test/good/010.png",
+        "metal_nut/test/good/004.png",
+        "metal_nut/test/good/019.png",
+        "metal_nut/test/color/019.png",
+        "metal_nut/test/scratch/016.png",
+        "metal_nut/test/color/005.png",
+        "metal_nut/test/color/009.png",
+        "metal_nut/test/scratch/009.png",
+        "metal_nut/test/flip/003.png",
+        "metal_nut/test/bent/022.png",
+        "metal_nut/test/bent/003.png",
+        "metal_nut/test/bent/005.png",
+        "metal_nut/test/scratch/018.png"
+      ],
+      "role": "verification"
+    },
+    "status": "normal-only fitted bank; global hyperparameters not selected here",
+    "extra_target_calibration_images": 0
+  },
+  "model_metadata": {
+    "support_ids": [
+      "metal_nut/train/good/143.png"
+    ],
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0,
+    "grid": 28,
+    "dimension": 1024,
+    "unique_support_feature_inputs": 14,
+    "slot_indices": {
+      "identity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vflip": [
+        4,
+        6,
+        5,
+        7,
+        0,
+        2
+      ],
+      "clamp": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "subspaces": {
+      "1": {
+        "clusters": 1,
+        "variances": [
+          0.95,
+          0.99
+        ],
+        "group_counts": [
+          10976
+        ],
+        "numerical_ranks": [
+          1024
+        ],
+        "retained_ranks": [
+          {
+            "0.95": 301,
+            "0.99": 670
+          }
+        ],
+        "energy_scales": [
+          173.80078035263804
+        ],
+        "normalization": "Residual squared norm / mean total centered normal feature energy in assigned cluster",
+        "independent_original_images_not_patch_count": true
+      },
+      "4": {
+        "clusters": 4,
+        "variances": [
+          0.95,
+          0.99
+        ],
+        "group_counts": [
+          3623,
+          808,
+          3947,
+          2598
+        ],
+        "numerical_ranks": [
+          1024,
+          807,
+          1024,
+          1024
+        ],
+        "retained_ranks": [
+          {
+            "0.95": 245,
+            "0.99": 579
+          },
+          {
+            "0.95": 35,
+            "0.99": 116
+          },
+          {
+            "0.95": 276,
+            "0.99": 617
+          },
+          {
+            "0.95": 125,
+            "0.99": 401
+          }
+        ],
+        "energy_scales": [
+          146.53517759324245,
+          91.54608260360241,
+          162.71524388837847,
+          121.25556496294907
+        ],
+        "normalization": "Residual squared norm / mean total centered normal feature energy in assigned cluster",
+        "independent_original_images_not_patch_count": true
+      }
+    },
+    "correction": "Nonnegative additive residual; unchanged baseline when strength=0",
+    "gate_semantics": "Heuristic residual/(residual+cosine-distance), not calibrated reliability",
+    "strict_target_support_budget": true,
+    "probabilities": false
+  },
+  "software_versions": {
+    "numpy": "2.2.6",
+    "torch": "2.7.1+cpu",
+    "sklearn": "1.8.0"
+  }
+}
