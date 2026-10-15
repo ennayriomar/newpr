@@ -31,7 +31,7 @@ split_csv/1cls.csv. See [dataset setup](../prepare_data/README.md).
 python train.py --dataset mvtec_ad --data_path data/mvtec_ad \
   --category bottle --shots 1 --seed 17 --output runs/bottle
 
-python test.py --run-dir runs/bottle --localization --save-maps
+python hybrid_mvtec_test.py --run-dir runs/bottle --localization --save-maps
 ```
 
 For VisA:
@@ -58,10 +58,10 @@ The external encoder checkpoint remains separate. `test.py` saves
 Results include both the unchanged search baseline and the selected hybrid.
 The same source-derived cutoff is retained for both methods.
 
-A fast smoke test is:
+A fast smoke test with formatted outputs is:
 
 ```bash
-python test.py --run-dir runs/bottle --max-images 2 --output runs/bottle/smoke
+python hybrid_mvtec_test.py --run-dir runs/bottle --max-images 2 --output runs/bottle/smoke
 ```
 
 This evaluates a metadata-stratified subset, marks it as such and does not
@@ -70,6 +70,11 @@ Native labels and masks provide evaluation metrics and do not tune parameters;
 the smoke subset uses native label metadata for its sampling order.
 The full native test split may overlap prior research history; these simple
 category scripts make no claim of a newly reserved cohort.
+
+The dataset scripts and `evaluate.py` produce reference-style metric lines,
+tables and diagnostic PNGs by default. See [output options](OUTPUTS.md) for
+`--save_dir`, `--save_name`, category means, global/local display scaling and
+exporting existing results. `test.py` remains the original raw evaluator.
 
 ## Predict your image
 

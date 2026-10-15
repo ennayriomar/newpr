@@ -1,8 +1,8 @@
 {
   "status": "passed",
-  "interface_tests": 8,
+  "interface_tests": 15,
   "legacy_tests": 198,
-  "total_tests": 206,
+  "total_tests": 213,
   "real_normal_reference_fit": true,
   "fixed_reference_id": "bottle/train/good/038.png",
   "support_bank_byte_identical_to_previous": true,
@@ -29,5 +29,20 @@
   "full_benchmark_run_for_reorganization": false,
   "scope": "Interface and checkpoint compatibility verification on known images, not a new accuracy experiment.",
   "study_plan_entry_point_checked": true,
-  "original_study_support_and_query_ids_preserved": true
+  "original_study_support_and_query_ids_preserved": true,
+  "output_presentation": {
+    "status": "passed",
+    "real_evaluation_query_images": 2,
+    "smoke_subset": true,
+    "metrics_and_prediction_files_byte_identical_to_previous": true,
+    "raw_maps_bitwise_identical": true,
+    "png_outputs_checked": 12,
+    "five_individual_panels_plus_compound_per_image": true,
+    "global_and_local_scaling_affects_display_only": true,
+    "f1_columns": "descriptive evaluation F1-max; fixed operating thresholds unchanged",
+    "actual_mvtec_and_visa_example_panels_visually_checked": true,
+    "no_dataset_images_required_for_table_only_export": true,
+    "category_summary_smoke_checked": true,
+    "full_new_benchmark_run": false
+  }
 }

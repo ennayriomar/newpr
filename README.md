@@ -8,6 +8,7 @@ entry points. Existing SAFAL fitted banks remain compatible.
 
 [Download source ZIP](https://github.com/ennayriomar/newpr/raw/refs/heads/main/safal_visionad_style_code.zip)
 · [Training guide](docs/TRAINING.md)
+· [Output guide and examples](docs/OUTPUTS.md)
 · [Measured study](https://github.com/ennayriomar/newpr/blob/0d0b1db6c0133d3876bd18cc9920f930dfeb2519/results/vision_hybrid_20261015/report.md)
 · [Previous model download](https://github.com/ennayriomar/newpr/raw/0d0b1db6c0133d3876bd18cc9920f930dfeb2519/vision_hybrid_20261015.zip)
 
@@ -48,6 +49,9 @@ dataset.py                # Native MVTec AD / VisA Dataset classes
 utils.py                  # Paths, frozen configuration and integrity checks
 train.py                  # Fit one category's normal-reference bank
 test.py                   # Evaluate search baseline and hybrid
+evaluate.py               # Reference-style logs, tables and visualizations
+outputs.py                # Metric presentation and aligned diagnostic panels
+summarize.py              # Category / mean tables across evaluated runs
 predict.py                # Predict a single image
 hybrid_mvtec_test.py       # MVTec AD evaluation entry point
 hybrid_visa_test.py        # VisA evaluation entry point
@@ -114,10 +118,17 @@ python train.py --dataset visa --data_path data/visa \
 python hybrid_visa_test.py --run-dir runs/capsules --localization
 ```
 
-Use a new output directory per category/draw. `test.py --run-dir runs/bottle`
-is the generic evaluation command. `--max-images 2` performs an explicitly
+Use a new output directory per category/draw. `evaluate.py --run-dir runs/bottle`
+is the generic command with the same outputs. `--max-images 2` performs an explicitly
 marked smoke subset. Training saves `model.json`, `model.npz` and
 `training.json`; evaluation writes metrics and per-image predictions.
+
+Evaluation now prints `I-Auroc`, `I-AP`, `I-F1`, `P-AUROC`, `P-AP`, `P-F1`,
+`P-AUPRO` and a Mean row. It also saves a log, CSV/Markdown tables and
+`ori`, `gt`, `global`, `local`, `gt_red` and compound PNGs in a
+`vis_compound_1/category/defect` tree. See the [output guide](docs/OUTPUTS.md).
+The F1 columns use descriptive benchmark F1-max; fixed-cutoff results remain
+separate. The original `test.py` raw evaluator is retained for existing runs.
 
 Commands for reproducing development selection are in the
 [training guide](docs/TRAINING.md). That known-cohort reproduction is separate

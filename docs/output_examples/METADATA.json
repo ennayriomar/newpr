@@ -1,0 +1,22 @@
+{
+  "purpose": "Formatting examples on previously evaluated images; not new benchmark results",
+  "images_are_center_cropped_roi": true,
+  "modified_raw_scores_or_decisions": false,
+  "mvtec_ad": {
+    "native_image_id": "bottle/test/broken_large/000.png",
+    "normalization_cohort_images": 2,
+    "smoke_subset": true,
+    "source_dataset_license": "CC BY-NC-SA 4.0",
+    "image_sha256": "11a691a06a33dd78c5fcab6a822caa48c0d72f27f660e19f5abd9b5aa392b0eb"
+  },
+  "visa": {
+    "native_image_id": "capsules/Data/Images/Anomaly/017.JPG",
+    "image_score": 1.6321110725402832,
+    "normalization_cohort_images": 20,
+    "seed": 17,
+    "source_dataset_license": "CC BY 4.0",
+    "source_map_sha256": "ffea476d8f97d059227679c7e39d9b8a41412ee9bb4802d04a57e0dd95b37093",
+    "image_sha256": "4a7e36eeec1866061f88fddcab1592bba11ee54f5e5d9a228f88831733bbf3b7",
+    "source_map_archive_relative_path": "verification/visa-capsules/visa-capsules-k1-seed17/maps/query-010.npz"
+  }
+}
