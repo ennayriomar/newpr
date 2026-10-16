@@ -1,0 +1,5 @@
+{
+  "subset_as_full_category_rejected": true,
+  "output_directory_not_created": true,
+  "reason": "ValueError: Expected the complete native test category in recorded order"
+}

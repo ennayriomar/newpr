@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "queries": 83,
+  "normal": 20,
+  "anomalous": 63,
+  "metric_region": "Center-cropped ROI at 256x256; outer image border unscored",
+  "image_metric_scope": "All native test labels; image scores derived from center crop",
+  "whole_image_segmentation_evaluated": false,
+  "scored_area_fraction_before_256_resize": 0.765625,
+  "native_defect_pixels_outside_crop": 15668,
+  "native_defect_pixels_total": 3886731,
+  "images_with_defect_pixels_outside_crop": 4,
+  "coverage_affected_images": [
+    {
+      "sample_id": "bottle/test/broken_large/003.png",
+      "native_defect_pixels_outside_crop": 6460,
+      "native_defect_pixels_total": 222091
+    },
+    {
+      "sample_id": "bottle/test/contamination/007.png",
+      "native_defect_pixels_outside_crop": 2921,
+      "native_defect_pixels_total": 45048
+    },
+    {
+      "sample_id": "bottle/test/contamination/013.png",
+      "native_defect_pixels_outside_crop": 5507,
+      "native_defect_pixels_total": 41319
+    },
+    {
+      "sample_id": "bottle/test/contamination/014.png",
+      "native_defect_pixels_outside_crop": 780,
+      "native_defect_pixels_total": 5429
+    }
+  ],
+  "native_anomalies_with_empty_cropped_mask": [],
+  "identical_baseline_hybrid_maps": 0,
+  "shared_score_display_bounds": [
+    0.002300409832969308,
+    3.7375290393829346
+  ],
+  "delta_display_bounds": [
+    0.0,
+    1.5744762420654297
+  ],
+  "display_panel_correction": "Old Global/Local panels are two display scalings of ONE hybrid map, never model branches",
+  "previous_example_selection": "broken_large/000 was first anomaly in a two-image smoke check; not a prospectively selected representative figure",
+  "reviewed_example": {
+    "index": 0,
+    "sample_id": "bottle/test/broken_large/000.png",
+    "label": 1,
+    "image_sha256": "11a691a06a33dd78c5fcab6a822caa48c0d72f27f660e19f5abd9b5aa392b0eb",
+    "baseline_score": 1.7643742561340332,
+    "hybrid_score": 2.5919151306152344,
+    "max_abs_branch_difference": 0.9722357988357544,
+    "mean_abs_branch_difference": 0.25134405169278295,
+    "branch_maps_bitwise_identical": false,
+    "truth_pixels": 9288,
+    "native_truth_pixels": 88192,
+    "native_truth_pixels_outside_crop": 0,
+    "hybrid_false_positive_pixels": 5303,
+    "hybrid_pixel_iou": 0.6066753478171476,
+    "raw_map": "map-00000.npz",
+    "raw_map_sha256": "2fe75ce1b479a715d6ba77ee26617e220c725b8fb8613608790cf4c40803adc3",
+    "max_abs_shared_vs_image_display_difference": 0.27229084623359334,
+    "image_threshold": 1.266317319869995,
+    "same_model_as_reported_cutoff": true
+  },
+  "intervals": {
+    "baseline": {
+      "image_auroc": {
+        "point": 0.9896825396825397,
+        "percentile_interval": [
+          0.9666666666666667,
+          1.0
+        ]
+      },
+      "au_pro": {
+        "point": 0.9356724169489666,
+        "percentile_interval": [
+          0.9080294598528754,
+          0.9578783571948118
+        ]
+      }
+    },
+    "hybrid": {
+      "image_auroc": {
+        "point": 0.9968253968253968,
+        "percentile_interval": [
+          0.9880952380952381,
+          1.0
+        ]
+      },
+      "au_pro": {
+        "point": 0.9425977988231035,
+        "percentile_interval": [
+          0.9202778797247785,
+          0.9610131271748918
+        ]
+      }
+    }
+  },
+  "paired_hybrid_minus_baseline_intervals": {
+    "image_auroc": {
+      "point": 0.0071428571428571175,
+      "percentile_interval": [
+        -0.0023809523809523725,
+        0.026984126984127
+      ]
+    },
+    "au_pro": {
+      "point": 0.006925381874136827,
+      "percentile_interval": [
+        0.0021787563422029145,
+        0.012876655096934088
+      ]
+    }
+  },
+  "interval_definition": {
+    "replicates": 2000,
+    "seed": 20261016,
+    "confidence": 0.95,
+    "resampling_unit": "query image, stratified by native normal/anomalous label; paired methods use identical sampled indices",
+    "scope": "Conditional on this fitted bank/support image and known category; excludes support draw, training and category uncertainty",
+    "image_auroc": "exact rank statistic per replicate",
+    "au_pro": "8-connected equal-region PRO, pooled normal-pixel FPR, integrated to .3; fixed 128 distinct-score rank thresholds from original full cohort plus +/-inf, same as point estimate; bootstrap reweights image-level sufficient statistics at this fixed grid; approximate sampled-threshold interval, not adaptive-grid bootstrap"
+  },
+  "figure_selection": {
+    "true_negative": "bottle/test/good/010.png",
+    "false_positive": "bottle/test/good/016.png",
+    "smallest_defect": "bottle/test/contamination/018.png",
+    "miss": null,
+    "localization_failure": "bottle/test/contamination/014.png"
+  },
+  "selected_cases": [
+    {
+      "index": 73,
+      "sample_id": "bottle/test/good/010.png",
+      "label": 0,
+      "image_sha256": "b31ddd1a297e85ad505f8d8b1b2df94452ab22a5d5482f500db920635356f963",
+      "baseline_score": 0.7363824248313904,
+      "hybrid_score": 1.0658669471740723,
+      "max_abs_branch_difference": 0.48966920375823975,
+      "mean_abs_branch_difference": 0.12803284700425976,
+      "branch_maps_bitwise_identical": false,
+      "truth_pixels": 0,
+      "native_truth_pixels": 0,
+      "native_truth_pixels_outside_crop": 0,
+      "hybrid_false_positive_pixels": 121,
+      "hybrid_pixel_iou": 0.0,
+      "raw_map": "map-00073.npz",
+      "raw_map_sha256": "71b02b226a4d0b4c252b55298d79ddcd03f191f0457d89fc0f4c91afb5024e40",
+      "max_abs_shared_vs_image_display_difference": 0.6128770210069971,
+      "selection_reasons": [
+        "true_negative"
+      ],
+      "figure_metadata": "6be5be92b8b9_metadata.json"
+    },
+    {
+      "index": 79,
+      "sample_id": "bottle/test/good/016.png",
+      "label": 0,
+      "image_sha256": "5ff7596e9a7fec2b34166dba196022c09282d9b45df671aac6759bbc2995e561",
+      "baseline_score": 1.0222605466842651,
+      "hybrid_score": 1.4468574523925781,
+      "max_abs_branch_difference": 0.6107234954833984,
+      "mean_abs_branch_difference": 0.13931523855045214,
+      "branch_maps_bitwise_identical": false,
+      "truth_pixels": 0,
+      "native_truth_pixels": 0,
+      "native_truth_pixels_outside_crop": 0,
+      "hybrid_false_positive_pixels": 1417,
+      "hybrid_pixel_iou": 0.0,
+      "raw_map": "map-00079.npz",
+      "raw_map_sha256": "a8803a9c4ba3e8544cfc2a2378663cd01d273bbcf1146466e7e2a695cc519ab8",
+      "max_abs_shared_vs_image_display_difference": 0.524427945073155,
+      "selection_reasons": [
+        "false_positive"
+      ],
+      "figure_metadata": "e3e1d5da106b_metadata.json"
+    },
+    {
+      "index": 56,
+      "sample_id": "bottle/test/contamination/014.png",
+      "label": 1,
+      "image_sha256": "503a4011f035f9a703bd435917d14118cb47ed4c4712b8f77f1f2dbb119c0d0a",
+      "baseline_score": 1.389357328414917,
+      "hybrid_score": 2.2529001235961914,
+      "max_abs_branch_difference": 1.2449753284454346,
+      "mean_abs_branch_difference": 0.17743557334058835,
+      "branch_maps_bitwise_identical": false,
+      "truth_pixels": 489,
+      "native_truth_pixels": 5429,
+      "native_truth_pixels_outside_crop": 780,
+      "hybrid_false_positive_pixels": 3954,
+      "hybrid_pixel_iou": 0.1100607697501688,
+      "raw_map": "map-00056.npz",
+      "raw_map_sha256": "6adecc39658cefefd7cef03d83dcd57fced751fc84584bca4fe62b30714eb44d",
+      "max_abs_shared_vs_image_display_difference": 0.2424189001202499,
+      "selection_reasons": [
+        "localization_failure"
+      ],
+      "figure_metadata": "ce43d0e3f601_metadata.json"
+    },
+    {
+      "index": 60,
+      "sample_id": "bottle/test/contamination/018.png",
+      "label": 1,
+      "image_sha256": "71c18397def5e402077a127a882dc3c871053b2796cf158aad1ff1a149a465dc",
+      "baseline_score": 1.6814693212509155,
+      "hybrid_score": 2.733793258666992,
+      "max_abs_branch_difference": 1.2555721998214722,
+      "mean_abs_branch_difference": 0.16959842270330228,
+      "branch_maps_bitwise_identical": false,
+      "truth_pixels": 488,
+      "native_truth_pixels": 4663,
+      "native_truth_pixels_outside_crop": 0,
+      "hybrid_false_positive_pixels": 3145,
+      "hybrid_pixel_iou": 0.13432424993118636,
+      "raw_map": "map-00060.npz",
+      "raw_map_sha256": "5b5e4d86dc4f43f2bfd631188d2be674d4c0864ce980f6cec8a5aa058d80182e",
+      "max_abs_shared_vs_image_display_difference": 0.1767571118280601,
+      "selection_reasons": [
+        "smallest_defect"
+      ],
+      "figure_metadata": "50e8f36dbf5a_metadata.json"
+    }
+  ],
+  "operational_metrics": {
+    "baseline": {
+      "tp": 53,
+      "fp": 0,
+      "fn": 10,
+      "tn": 20,
+      "threshold": 1.266317319869995,
+      "queries": 83,
+      "f1": 0.9137931034482759,
+      "missed_defect_rate": 0.15873015873015872,
+      "false_alarm_rate": 0.0,
+      "auroc": 0.9896825396825397,
+      "ap": 0.9970574318710492,
+      "threshold_origin": "externally selected; never optimized by this metric",
+      "accuracy": 0.8795180722891566
+    },
+    "hybrid": {
+      "tp": 63,
+      "fp": 8,
+      "fn": 0,
+      "tn": 12,
+      "threshold": 1.266317319869995,
+      "queries": 83,
+      "f1": 0.9402985074626866,
+      "missed_defect_rate": 0.0,
+      "false_alarm_rate": 0.4,
+      "auroc": 0.9968253968253968,
+      "ap": 0.9990036304936458,
+      "threshold_origin": "externally selected; never optimized by this metric",
+      "accuracy": 0.9036144578313253
+    }
+  },
+  "source_metrics_sha256": "7a86c34f2c951b2ec08f66cf007804536ed4ed6ef5cdf95ef46dc80ae922deda",
+  "source_predictions_sha256": "1d1673090f67b110061eaa06a1c8f77a2641c7ae220a4db36a9c3c7461f31da2",
+  "model_json_sha256": "f5bc079e66e6920928e21f6aab8388e858b5fa60cc26b5f967a3ed29cdc490a4",
+  "protocol_sha256": "f4225e224cb0996a5b82f43ea721f5cfb699139b9c0666ee49fa87ede2d3f6da",
+  "thresholds_changed": false,
+  "raw_maps_changed": false,
+  "reporter_sha256": "1a08abed241993feee7a9830cb32ed2803b7bcc08d76cb4113a04d271e2ecb08",
+  "history": "Known, previously exposed bottle category; one fitted support draw; no full-paper or held-out superiority claim"
+}

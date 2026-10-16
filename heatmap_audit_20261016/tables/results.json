@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "dataset": "mvtec_ad",
+      "category": "bottle",
+      "method": "baseline",
+      "shots": 1,
+      "seed": 17,
+      "I-Auroc": 0.9896825396825397,
+      "I-AP": 0.9970574318710492,
+      "I-F1": 0.9841269841269841,
+      "P-AUROC": 0.9673040900291994,
+      "P-AP": 0.7841472894723713,
+      "P-F1": 0.7383974023726302,
+      "P-AUPRO": 0.9356724169489666
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "bottle",
+      "method": "hybrid",
+      "shots": 1,
+      "seed": 17,
+      "I-Auroc": 0.9968253968253968,
+      "I-AP": 0.9990036304936458,
+      "I-F1": 0.9843749999999999,
+      "P-AUROC": 0.9714726542249585,
+      "P-AP": 0.7861665771973971,
+      "P-F1": 0.7399653668137222,
+      "P-AUPRO": 0.9425977988231035
+    }
+  ],
+  "table_rows": [
+    {
+      "dataset": "mvtec_ad",
+      "method": "baseline",
+      "category": "bottle",
+      "draws": 1,
+      "I-Auroc": 0.9896825396825397,
+      "I-AP": 0.9970574318710492,
+      "I-F1": 0.9841269841269841,
+      "P-AUROC": 0.9673040900291994,
+      "P-AP": 0.7841472894723713,
+      "P-F1": 0.7383974023726302,
+      "P-AUPRO": 0.9356724169489666
+    },
+    {
+      "dataset": "mvtec_ad",
+      "method": "baseline",
+      "category": "Mean",
+      "draws": null,
+      "I-Auroc": 0.9896825396825397,
+      "I-AP": 0.9970574318710492,
+      "I-F1": 0.9841269841269841,
+      "P-AUROC": 0.9673040900291994,
+      "P-AP": 0.7841472894723713,
+      "P-F1": 0.7383974023726302,
+      "P-AUPRO": 0.9356724169489666
+    },
+    {
+      "dataset": "mvtec_ad",
+      "method": "hybrid",
+      "category": "bottle",
+      "draws": 1,
+      "I-Auroc": 0.9968253968253968,
+      "I-AP": 0.9990036304936458,
+      "I-F1": 0.9843749999999999,
+      "P-AUROC": 0.9714726542249585,
+      "P-AP": 0.7861665771973971,
+      "P-F1": 0.7399653668137222,
+      "P-AUPRO": 0.9425977988231035
+    },
+    {
+      "dataset": "mvtec_ad",
+      "method": "hybrid",
+      "category": "Mean",
+      "draws": null,
+      "I-Auroc": 0.9968253968253968,
+      "I-AP": 0.9990036304936458,
+      "I-F1": 0.9843749999999999,
+      "P-AUROC": 0.9714726542249585,
+      "P-AP": 0.7861665771973971,
+      "P-F1": 0.7399653668137222,
+      "P-AUPRO": 0.9425977988231035
+    }
+  ],
+  "dataset": "mvtec_ad",
+  "category": "bottle",
+  "shots": 1,
+  "seed": 17,
+  "subset": false,
+  "queries": 83,
+  "cohort_sha256": "e787ccccd4ff214460d670f7005c3615ce0ea0ebb43b33fe1939123d7ac7dad4",
+  "model_json_sha256": "f5bc079e66e6920928e21f6aab8388e858b5fa60cc26b5f967a3ed29cdc490a4",
+  "f1_semantics": "Evaluation F1-max; no deployment threshold selected",
+  "operational_metrics": {
+    "baseline": {
+      "image_threshold": 1.266317319869995,
+      "image_f1": 0.9137931034482759,
+      "accuracy": 0.8795180722891566,
+      "false_alarm_rate": 0.0,
+      "pixel_f1": 0.6986801806385409
+    },
+    "hybrid": {
+      "image_threshold": 1.266317319869995,
+      "image_f1": 0.9402985074626866,
+      "accuracy": 0.9036144578313253,
+      "false_alarm_rate": 0.4,
+      "pixel_f1": 0.7052379975379565
+    }
+  },
+  "operational_thresholds_changed": false,
+  "raw_maps_changed": false,
+  "visualization_global_bounds": null,
+  "global_normalization_scope": "Hybrid maps of this evaluated category/draw only; no labels",
+  "visualization_region": "Center-cropped ROI at 256x256; outer image border unscored",
+  "visualizations": [],
+  "source_metrics_sha256": "7a86c34f2c951b2ec08f66cf007804536ed4ed6ef5cdf95ef46dc80ae922deda",
+  "source_predictions_sha256": "1d1673090f67b110061eaa06a1c8f77a2641c7ae220a4db36a9c3c7461f31da2"
+}

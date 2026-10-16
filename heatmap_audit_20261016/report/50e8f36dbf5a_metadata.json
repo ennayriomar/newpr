@@ -1,0 +1,53 @@
+{
+  "index": 60,
+  "sample_id": "bottle/test/contamination/018.png",
+  "label": 1,
+  "image_sha256": "71c18397def5e402077a127a882dc3c871053b2796cf158aad1ff1a149a465dc",
+  "baseline_score": 1.6814693212509155,
+  "hybrid_score": 2.733793258666992,
+  "max_abs_branch_difference": 1.2555721998214722,
+  "mean_abs_branch_difference": 0.16959842270330228,
+  "branch_maps_bitwise_identical": false,
+  "truth_pixels": 488,
+  "native_truth_pixels": 4663,
+  "native_truth_pixels_outside_crop": 0,
+  "hybrid_false_positive_pixels": 3145,
+  "hybrid_pixel_iou": 0.13432424993118636,
+  "raw_map": "50e8f36dbf5a_raw.npz",
+  "raw_map_sha256": "5b5e4d86dc4f43f2bfd631188d2be674d4c0864ce980f6cec8a5aa058d80182e",
+  "max_abs_shared_vs_image_display_difference": 0.1767571118280601,
+  "selection_reasons": [
+    "smallest_defect"
+  ],
+  "model_json_sha256": "f5bc079e66e6920928e21f6aab8388e858b5fa60cc26b5f967a3ed29cdc490a4",
+  "predictions": {
+    "baseline": {
+      "sample_id": "bottle/test/contamination/018.png",
+      "label": 1,
+      "method": "baseline",
+      "score": 1.6814693212509155,
+      "threshold": 1.266317319869995,
+      "decision": true,
+      "probabilities": false
+    },
+    "hybrid": {
+      "sample_id": "bottle/test/contamination/018.png",
+      "label": 1,
+      "method": "hybrid",
+      "score": 2.733793258666992,
+      "threshold": 1.266317319869995,
+      "decision": true,
+      "probabilities": false
+    }
+  },
+  "shared_display_bounds": [
+    0.002300409832969308,
+    3.7375290393829346
+  ],
+  "delta_display_bounds": [
+    0.0,
+    1.5744762420654297
+  ],
+  "metric_region": "Center-cropped ROI at 256x256; outer image border unscored",
+  "protocol_sha256": "f4225e224cb0996a5b82f43ea721f5cfb699139b9c0666ee49fa87ede2d3f6da"
+}

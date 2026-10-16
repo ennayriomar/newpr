@@ -1,0 +1,53 @@
+{
+  "index": 79,
+  "sample_id": "bottle/test/good/016.png",
+  "label": 0,
+  "image_sha256": "5ff7596e9a7fec2b34166dba196022c09282d9b45df671aac6759bbc2995e561",
+  "baseline_score": 1.0222605466842651,
+  "hybrid_score": 1.4468574523925781,
+  "max_abs_branch_difference": 0.6107234954833984,
+  "mean_abs_branch_difference": 0.13931523855045214,
+  "branch_maps_bitwise_identical": false,
+  "truth_pixels": 0,
+  "native_truth_pixels": 0,
+  "native_truth_pixels_outside_crop": 0,
+  "hybrid_false_positive_pixels": 1417,
+  "hybrid_pixel_iou": 0.0,
+  "raw_map": "e3e1d5da106b_raw.npz",
+  "raw_map_sha256": "a8803a9c4ba3e8544cfc2a2378663cd01d273bbcf1146466e7e2a695cc519ab8",
+  "max_abs_shared_vs_image_display_difference": 0.524427945073155,
+  "selection_reasons": [
+    "false_positive"
+  ],
+  "model_json_sha256": "f5bc079e66e6920928e21f6aab8388e858b5fa60cc26b5f967a3ed29cdc490a4",
+  "predictions": {
+    "baseline": {
+      "sample_id": "bottle/test/good/016.png",
+      "label": 0,
+      "method": "baseline",
+      "score": 1.0222605466842651,
+      "threshold": 1.266317319869995,
+      "decision": false,
+      "probabilities": false
+    },
+    "hybrid": {
+      "sample_id": "bottle/test/good/016.png",
+      "label": 0,
+      "method": "hybrid",
+      "score": 1.4468574523925781,
+      "threshold": 1.266317319869995,
+      "decision": true,
+      "probabilities": false
+    }
+  },
+  "shared_display_bounds": [
+    0.002300409832969308,
+    3.7375290393829346
+  ],
+  "delta_display_bounds": [
+    0.0,
+    1.5744762420654297
+  ],
+  "metric_region": "Center-cropped ROI at 256x256; outer image border unscored",
+  "protocol_sha256": "f4225e224cb0996a5b82f43ea721f5cfb699139b9c0666ee49fa87ede2d3f6da"
+}

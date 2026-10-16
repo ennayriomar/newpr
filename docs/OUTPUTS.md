@@ -58,6 +58,8 @@ saved_results/bottle_run/
         000__<id>_local.png
         000__<id>_gt_red.png
         000__<id>_compound.png
+        000__<id>_raw.npz
+        000__<id>_metadata.json
 ```
 
 The short ID avoids collisions between native filenames. Healthy images are
@@ -73,6 +75,61 @@ evaluated images. Local heatmaps use each image's own display range. Global
 and local refer to visualization scaling, not different PCA models. Neither
 normalization changes raw maps, metric calculations, decisions or probabilities.
 High local color contrast alone does not establish an anomaly.
+The compound labels now say **Hybrid: shared scale** and **Hybrid: image
+contrast**. The legacy `_global` and `_local` filenames remain compatible.
+Both panels display the same hybrid map. Each figure now has an unchanged
+raw NPZ with baseline/hybrid/truth and metadata containing its native image
+ID, hashes, predictions, cutoff and display bounds.
+
+## Checkable category audit
+
+Record the rules **before** starting a complete category evaluation. Use a
+new directory and the same fitted bank throughout:
+
+```bash
+mkdir -p saved_results/bottle_audit
+python audit_outputs.py --run-dir runs/bottle \
+  --prepare-protocol saved_results/bottle_audit/protocol.json
+python test.py --run-dir runs/bottle --localization --save-maps \
+  --output saved_results/bottle_audit/evaluation
+python audit_outputs.py --run-dir runs/bottle \
+  --evaluation saved_results/bottle_audit/evaluation \
+  --protocol saved_results/bottle_audit/protocol.json \
+  --output saved_results/bottle_audit/report
+```
+
+The audit requires every native test ID, matching model/cutoff/input hashes
+and the original ROI masks. It compares **search baseline vs hybrid**
+numerically on every image (max/mean absolute difference), separately from
+the difference between display scalings. Figures use one raw score scale
+across both methods and normal/defective images; a separate colorbar labels
+the additive correction. Each selected image has raw maps and native-ID
+metadata beside the figure.
+
+The recorded figure rule picks the lowest-score true-negative normal,
+highest-score normal false alarm, smallest positive cropped defect, lowest-score
+miss, and lowest cropped-mask IoU. Ties use native IDs. Duplicate cases
+retain all selection reasons; an absent event is reported as absent. These
+are outcome-selected diagnostic examples, not a random sample.
+
+Image AUROC and ROI AU-PRO receive 95% percentile intervals from 2,000
+paired, native-label-stratified **query-image** bootstrap replicates. AU-PRO
+uses 8-connected equal-weight regions, pooled normal-pixel FPR and a 0.3 FPR
+limit. The original cohort's 128-score-rank grid is fixed in the bootstrap,
+so its interval is a sampled-grid approximation. Sufficient statistics,
+thresholds and image multiplicities are saved for replay. Intervals are
+conditional on this fitted bank and support image; they do not include
+support-draw, fitting or category variability.
+
+All native image labels enter image AUROC, but their scores are crop-derived.
+Pixel metrics cover only the 392/448 center crop resized to 256×256, not
+full-image segmentation. The audit also counts native defect pixels outside
+the crop by original pixel-center coordinates. It leaves those borders
+unscored and does not fill them with zero-valued predictions.
+
+The [full bottle audit](https://github.com/ennayriomar/newpr/tree/main/heatmap_audit_20261016/report) uses the
+previously exposed bottle category and one fixed fitted bank. It does not
+retune cutoffs or establish a full-dataset paper comparison.
 
 ## Reformat existing saved results
 

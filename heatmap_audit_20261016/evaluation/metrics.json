@@ -1,0 +1,756 @@
+{
+  "schema_version": 1,
+  "dataset": "mvtec_ad",
+  "category": "bottle",
+  "shots": 1,
+  "seed": 17,
+  "queries": 83,
+  "subset": false,
+  "max_images_requested": null,
+  "full_paper_benchmark": false,
+  "parameters_selected_on_these_queries": false,
+  "methods": {
+    "baseline": {
+      "detection": {
+        "tp": 53,
+        "fp": 0,
+        "fn": 10,
+        "tn": 20,
+        "threshold": 1.266317319869995,
+        "queries": 83,
+        "f1": 0.9137931034482759,
+        "missed_defect_rate": 0.15873015873015872,
+        "false_alarm_rate": 0.0,
+        "auroc": 0.9896825396825397,
+        "ap": 0.9970574318710492,
+        "threshold_origin": "externally selected; never optimized by this metric",
+        "accuracy": 0.8795180722891566
+      },
+      "localization": {
+        "tp": 243751,
+        "fp": 45465,
+        "fn": 164780,
+        "tn": 4985492,
+        "iou": 0.536901206178028,
+        "pixel_f1": 0.6986801806385409,
+        "pixel_auroc": 0.9673040900291994,
+        "pixel_ap": 0.7841472894723713,
+        "pixel_threshold": 1.1265572309494019,
+        "images": 83,
+        "pixels": 5439488,
+        "overlap_aggregation": "pooled pixel counts; empty union yields null",
+        "threshold_origin": "externally selected; not optimized using evaluation masks",
+        "au_pro_fpr_limit": 0.3,
+        "au_pro_num_regions": 68,
+        "au_pro_connectivity": 8,
+        "au_pro_semantics": "normalized area over pooled normal-pixel FPR; equal weight per connected defect region; sampled thresholds",
+        "au_pro_threshold_sampling": "uniform ranks of distinct native scores, plus +inf/-inf endpoints",
+        "au_pro": 0.9356724169489666,
+        "au_pro_curve": [
+          {
+            "fpr": 0.0,
+            "pro": 0.0,
+            "threshold": null
+          },
+          {
+            "fpr": 0.0,
+            "pro": 3.3136282904328925e-06,
+            "threshold": 2.163052797317505
+          },
+          {
+            "fpr": 0.00039475590826954,
+            "pro": 0.13623687772742268,
+            "threshold": 1.6407310962677002
+          },
+          {
+            "fpr": 0.0009093697282644236,
+            "pro": 0.24758348592013532,
+            "threshold": 1.529998779296875
+          },
+          {
+            "fpr": 0.001634281509462315,
+            "pro": 0.3428469751953479,
+            "threshold": 1.4373196363449097
+          },
+          {
+            "fpr": 0.0026750377711437408,
+            "pro": 0.4287552660807792,
+            "threshold": 1.3572245836257935
+          },
+          {
+            "fpr": 0.0039475590826954,
+            "pro": 0.5170852820151268,
+            "threshold": 1.2881170511245728
+          },
+          {
+            "fpr": 0.005529365486526719,
+            "pro": 0.5865986956270194,
+            "threshold": 1.2249335050582886
+          },
+          {
+            "fpr": 0.007636916793365556,
+            "pro": 0.6520939942498337,
+            "threshold": 1.1612768173217773
+          },
+          {
+            "fpr": 0.010270014233872403,
+            "pro": 0.7098440785195196,
+            "threshold": 1.0997122526168823
+          },
+          {
+            "fpr": 0.013755235832864404,
+            "pro": 0.7577052316452932,
+            "threshold": 1.0397869348526
+          },
+          {
+            "fpr": 0.018067139114884105,
+            "pro": 0.7952720001663065,
+            "threshold": 0.9834244847297668
+          },
+          {
+            "fpr": 0.02301132766588941,
+            "pro": 0.8356208245452486,
+            "threshold": 0.93287593126297
+          },
+          {
+            "fpr": 0.028448662948222375,
+            "pro": 0.8582731569339193,
+            "threshold": 0.8889369964599609
+          },
+          {
+            "fpr": 0.03435250987038848,
+            "pro": 0.8746731003605194,
+            "threshold": 0.8511453866958618
+          },
+          {
+            "fpr": 0.0405632566527601,
+            "pro": 0.8885635969309025,
+            "threshold": 0.8185518383979797
+          },
+          {
+            "fpr": 0.04706500174817634,
+            "pro": 0.9000423479875265,
+            "threshold": 0.7899211645126343
+          },
+          {
+            "fpr": 0.05381023928449399,
+            "pro": 0.9100304382061456,
+            "threshold": 0.7650500535964966
+          },
+          {
+            "fpr": 0.060672750731123326,
+            "pro": 0.9184970851668435,
+            "threshold": 0.7429239153862
+          },
+          {
+            "fpr": 0.06757779881640809,
+            "pro": 0.9263401400655813,
+            "threshold": 0.7229349613189697
+          },
+          {
+            "fpr": 0.07456613125494811,
+            "pro": 0.9334516659468148,
+            "threshold": 0.7047792673110962
+          },
+          {
+            "fpr": 0.08175382934101802,
+            "pro": 0.9391435229841164,
+            "threshold": 0.6879908442497253
+          },
+          {
+            "fpr": 0.0891039219774687,
+            "pro": 0.9437048514394292,
+            "threshold": 0.6723621487617493
+          },
+          {
+            "fpr": 0.09660229654119484,
+            "pro": 0.9476073437981976,
+            "threshold": 0.6578865051269531
+          },
+          {
+            "fpr": 0.10415394128791003,
+            "pro": 0.9513610351129922,
+            "threshold": 0.6444180011749268
+          },
+          {
+            "fpr": 0.1117787331515654,
+            "pro": 0.95464987391154,
+            "threshold": 0.6317498087882996
+          },
+          {
+            "fpr": 0.11948521921375993,
+            "pro": 0.9580550777393299,
+            "threshold": 0.6197156310081482
+          },
+          {
+            "fpr": 0.1272539200792215,
+            "pro": 0.961028823448748,
+            "threshold": 0.608309805393219
+          },
+          {
+            "fpr": 0.13510610406727785,
+            "pro": 0.9638858931600145,
+            "threshold": 0.5974134206771851
+          },
+          {
+            "fpr": 0.14307834473639905,
+            "pro": 0.9661629357033905,
+            "threshold": 0.5869659781455994
+          },
+          {
+            "fpr": 0.15112870175594822,
+            "pro": 0.9683060986561872,
+            "threshold": 0.5769991278648376
+          },
+          {
+            "fpr": 0.15923650311461618,
+            "pro": 0.9704146628319054,
+            "threshold": 0.5674241185188293
+          },
+          {
+            "fpr": 0.16743037159729252,
+            "pro": 0.9723526929076008,
+            "threshold": 0.5581786036491394
+          },
+          {
+            "fpr": 0.1756773114936184,
+            "pro": 0.9741387162520613,
+            "threshold": 0.5492112636566162
+          },
+          {
+            "fpr": 0.18402164836630486,
+            "pro": 0.9758330507864817,
+            "threshold": 0.5406243801116943
+          },
+          {
+            "fpr": 0.19241249726443696,
+            "pro": 0.9775397116920028,
+            "threshold": 0.5323394536972046
+          },
+          {
+            "fpr": 0.20086973512196585,
+            "pro": 0.978943217679609,
+            "threshold": 0.5242724418640137
+          },
+          {
+            "fpr": 0.20938779639738522,
+            "pro": 0.980295975265435,
+            "threshold": 0.516473114490509
+          },
+          {
+            "fpr": 0.21796588601333702,
+            "pro": 0.9815586931919105,
+            "threshold": 0.508885383605957
+          },
+          {
+            "fpr": 0.22660400396982125,
+            "pro": 0.9828288383521989,
+            "threshold": 0.50146484375
+          },
+          {
+            "fpr": 0.23471319671386578,
+            "pro": 0.9839678903567242,
+            "threshold": 0.4947233200073242
+          },
+          {
+            "fpr": 0.2427102835504259,
+            "pro": 0.9849520574000988,
+            "threshold": 0.4882722795009613
+          },
+          {
+            "fpr": 0.2507328128624435,
+            "pro": 0.9859997568143634,
+            "threshold": 0.48194676637649536
+          },
+          {
+            "fpr": 0.2587768092631283,
+            "pro": 0.9869368242183268,
+            "threshold": 0.4757380187511444
+          },
+          {
+            "fpr": 0.26685658414492514,
+            "pro": 0.9878647319739581,
+            "threshold": 0.4696008861064911
+          },
+          {
+            "fpr": 0.27497511904792665,
+            "pro": 0.9886760822076767,
+            "threshold": 0.4635903239250183
+          },
+          {
+            "fpr": 0.2831020022631877,
+            "pro": 0.9894895601800168,
+            "threshold": 0.45772549510002136
+          },
+          {
+            "fpr": 0.29125055133645544,
+            "pro": 0.9902422987035882,
+            "threshold": 0.4519064128398895
+          },
+          {
+            "fpr": 0.299403274565853,
+            "pro": 0.9910414961339269,
+            "threshold": 0.4461701214313507
+          },
+          {
+            "fpr": 0.3,
+            "pro": 0.9910999844880003,
+            "threshold": null
+          }
+        ],
+        "au_pro_threshold_count": 130,
+        "au_pro_score_representation": "input score-map dtype; no quantization performed"
+      }
+    },
+    "hybrid": {
+      "detection": {
+        "tp": 63,
+        "fp": 8,
+        "fn": 0,
+        "tn": 12,
+        "threshold": 1.266317319869995,
+        "queries": 83,
+        "f1": 0.9402985074626866,
+        "missed_defect_rate": 0.0,
+        "false_alarm_rate": 0.4,
+        "auroc": 0.9968253968253968,
+        "ap": 0.9990036304936458,
+        "threshold_origin": "externally selected; never optimized by this metric",
+        "accuracy": 0.9036144578313253
+      },
+      "localization": {
+        "tp": 343733,
+        "fp": 222536,
+        "fn": 64798,
+        "tn": 4808421,
+        "iou": 0.5446854295978082,
+        "pixel_f1": 0.7052379975379565,
+        "pixel_auroc": 0.9714726542249585,
+        "pixel_ap": 0.7861665771973971,
+        "pixel_threshold": 1.1265572309494019,
+        "images": 83,
+        "pixels": 5439488,
+        "overlap_aggregation": "pooled pixel counts; empty union yields null",
+        "threshold_origin": "externally selected; not optimized using evaluation masks",
+        "au_pro_fpr_limit": 0.3,
+        "au_pro_num_regions": 68,
+        "au_pro_connectivity": 8,
+        "au_pro_semantics": "normalized area over pooled normal-pixel FPR; equal weight per connected defect region; sampled thresholds",
+        "au_pro_threshold_sampling": "uniform ranks of distinct native scores, plus +inf/-inf endpoints",
+        "au_pro": 0.9425977988231035,
+        "au_pro_curve": [
+          {
+            "fpr": 0.0,
+            "pro": 0.0,
+            "threshold": null
+          },
+          {
+            "fpr": 0.0,
+            "pro": 3.3136282904328925e-06,
+            "threshold": 3.7375290393829346
+          },
+          {
+            "fpr": 0.0005491996850698585,
+            "pro": 0.14219634529929503,
+            "threshold": 2.4521100521087646
+          },
+          {
+            "fpr": 0.0010906473658987743,
+            "pro": 0.25291709302930143,
+            "threshold": 2.2497286796569824
+          },
+          {
+            "fpr": 0.001898843500351921,
+            "pro": 0.3488744553377091,
+            "threshold": 2.0929932594299316
+          },
+          {
+            "fpr": 0.0029435751488235736,
+            "pro": 0.4441424910619201,
+            "threshold": 1.9651737213134766
+          },
+          {
+            "fpr": 0.004202580145288461,
+            "pro": 0.5270284678498035,
+            "threshold": 1.8593037128448486
+          },
+          {
+            "fpr": 0.0057424462184828854,
+            "pro": 0.593122015559899,
+            "threshold": 1.763602375984192
+          },
+          {
+            "fpr": 0.007726760534824686,
+            "pro": 0.6544620612700254,
+            "threshold": 1.6683118343353271
+          },
+          {
+            "fpr": 0.010283331779619662,
+            "pro": 0.7104795908968725,
+            "threshold": 1.575433611869812
+          },
+          {
+            "fpr": 0.01348351814575239,
+            "pro": 0.7641359962133961,
+            "threshold": 1.4896184206008911
+          },
+          {
+            "fpr": 0.017506013269443566,
+            "pro": 0.8092645013291518,
+            "threshold": 1.4087212085723877
+          },
+          {
+            "fpr": 0.022162185047496927,
+            "pro": 0.8391365752308728,
+            "threshold": 1.3343929052352905
+          },
+          {
+            "fpr": 0.027335554646958818,
+            "pro": 0.8626302526360109,
+            "threshold": 1.2693681716918945
+          },
+          {
+            "fpr": 0.03292713493675259,
+            "pro": 0.8816905786166468,
+            "threshold": 1.2125509977340698
+          },
+          {
+            "fpr": 0.03881448400373925,
+            "pro": 0.8977631852920785,
+            "threshold": 1.164091944694519
+          },
+          {
+            "fpr": 0.0450397409478952,
+            "pro": 0.9113462611838887,
+            "threshold": 1.1215237379074097
+          },
+          {
+            "fpr": 0.05160131561450436,
+            "pro": 0.9219261407596704,
+            "threshold": 1.0837020874023438
+          },
+          {
+            "fpr": 0.05847038644933757,
+            "pro": 0.9303653175547041,
+            "threshold": 1.0507042407989502
+          },
+          {
+            "fpr": 0.06555273678546646,
+            "pro": 0.9371316791251046,
+            "threshold": 1.0206924676895142
+          },
+          {
+            "fpr": 0.07272473209371497,
+            "pro": 0.9429794517820743,
+            "threshold": 0.9941539764404297
+          },
+          {
+            "fpr": 0.07978044733834934,
+            "pro": 0.9478781364704569,
+            "threshold": 0.9704997539520264
+          },
+          {
+            "fpr": 0.08695443033999296,
+            "pro": 0.9520603935402085,
+            "threshold": 0.9487342238426208
+          },
+          {
+            "fpr": 0.09420533707602749,
+            "pro": 0.9558849971579593,
+            "threshold": 0.9286781549453735
+          },
+          {
+            "fpr": 0.10153018600636023,
+            "pro": 0.9593966107417226,
+            "threshold": 0.9103207588195801
+          },
+          {
+            "fpr": 0.10895263068239303,
+            "pro": 0.9625474108584141,
+            "threshold": 0.8927736878395081
+          },
+          {
+            "fpr": 0.11645219786215624,
+            "pro": 0.9652201745039724,
+            "threshold": 0.8762914538383484
+          },
+          {
+            "fpr": 0.12398436321359932,
+            "pro": 0.9677649995481684,
+            "threshold": 0.8607010841369629
+          },
+          {
+            "fpr": 0.13161432308008197,
+            "pro": 0.9699914605178259,
+            "threshold": 0.84599769115448
+          },
+          {
+            "fpr": 0.13931981529557896,
+            "pro": 0.972036295772728,
+            "threshold": 0.8318792581558228
+          },
+          {
+            "fpr": 0.14706148353086698,
+            "pro": 0.9739873710599966,
+            "threshold": 0.8184021711349487
+          },
+          {
+            "fpr": 0.15486318010668745,
+            "pro": 0.9757673572203238,
+            "threshold": 0.805425226688385
+          },
+          {
+            "fpr": 0.16270622070512628,
+            "pro": 0.9774965379362551,
+            "threshold": 0.7931519746780396
+          },
+          {
+            "fpr": 0.1706259862686165,
+            "pro": 0.9790590138541283,
+            "threshold": 0.7812843918800354
+          },
+          {
+            "fpr": 0.17857477215567535,
+            "pro": 0.9804803606820827,
+            "threshold": 0.7697088122367859
+          },
+          {
+            "fpr": 0.18658179745921105,
+            "pro": 0.9817677102024708,
+            "threshold": 0.7586731314659119
+          },
+          {
+            "fpr": 0.19464706217922356,
+            "pro": 0.9830381294597658,
+            "threshold": 0.7478731870651245
+          },
+          {
+            "fpr": 0.2027389619907306,
+            "pro": 0.9842291023440066,
+            "threshold": 0.7374346256256104
+          },
+          {
+            "fpr": 0.21091593507954848,
+            "pro": 0.9853471553339159,
+            "threshold": 0.7273377180099487
+          },
+          {
+            "fpr": 0.21911656171976823,
+            "pro": 0.9864686450990104,
+            "threshold": 0.7176023721694946
+          },
+          {
+            "fpr": 0.2273863600901379,
+            "pro": 0.9874264092309152,
+            "threshold": 0.7080748677253723
+          },
+          {
+            "fpr": 0.23566947600625487,
+            "pro": 0.988345345402283,
+            "threshold": 0.6986856460571289
+          },
+          {
+            "fpr": 0.24397922701386635,
+            "pro": 0.9892555746187031,
+            "threshold": 0.6895890235900879
+          },
+          {
+            "fpr": 0.252370274681338,
+            "pro": 0.990109673371231,
+            "threshold": 0.6806849837303162
+          },
+          {
+            "fpr": 0.2607649001969208,
+            "pro": 0.9909942742355966,
+            "threshold": 0.6719865798950195
+          },
+          {
+            "fpr": 0.269192720192202,
+            "pro": 0.9918249845491722,
+            "threshold": 0.6634805202484131
+          },
+          {
+            "fpr": 0.2777060110034731,
+            "pro": 0.9926828550158506,
+            "threshold": 0.6551428437232971
+          },
+          {
+            "fpr": 0.28620677934635497,
+            "pro": 0.9934037963587481,
+            "threshold": 0.646889865398407
+          },
+          {
+            "fpr": 0.29477950219014,
+            "pro": 0.9940397199923967,
+            "threshold": 0.6387985944747925
+          },
+          {
+            "fpr": 0.3,
+            "pro": 0.9944292657618319,
+            "threshold": null
+          }
+        ],
+        "au_pro_threshold_count": 130,
+        "au_pro_score_representation": "input score-map dtype; no quantization performed"
+      }
+    }
+  },
+  "input_sha256": {
+    "bottle/test/broken_large/000.png": "11a691a06a33dd78c5fcab6a822caa48c0d72f27f660e19f5abd9b5aa392b0eb",
+    "bottle/ground_truth/broken_large/000_mask.png": "e0c99ed15df25c67ad48505a3c50682172d49115650b8d0bdafa687e3c48c7c5",
+    "bottle/test/broken_large/001.png": "b5e6fd5f3f9ac5310f4fecc37f64d42eaa3326d3d3b327369d2d789752189a0f",
+    "bottle/ground_truth/broken_large/001_mask.png": "d13b7c8b89e6944e9a3d94e5572fe258a1ced9f61238454508174de0e88ae5da",
+    "bottle/test/broken_large/002.png": "249813c6bccb58b9de711a6b7248f4fd8ba4136364cfad2e0577769db91353c2",
+    "bottle/ground_truth/broken_large/002_mask.png": "9ebd1eb07373c7e60515c82d92fea198acd86418ee6ef31140327d3b78cd5ef3",
+    "bottle/test/broken_large/003.png": "b4797ce35dd407629e29dd199cd6e497f0a706a1ddd72ace226f30858d3199c4",
+    "bottle/ground_truth/broken_large/003_mask.png": "3388a546b00286c0c8098a530d0bea4bbd05efea40d80f4e587c37ad1bf16e92",
+    "bottle/test/broken_large/004.png": "ede2360ddfaba9c13112b6159f5fd3342226203719ba9f067c2ff16e3d4690e0",
+    "bottle/ground_truth/broken_large/004_mask.png": "93003d705d10d06681458e47f055b8aa09ca1ca3a0102a16c72e3bf3fa3872ea",
+    "bottle/test/broken_large/005.png": "cb4dfa6e11f536aa8746834d41e27f86facf51fb8c92e421af7c6dc342a32553",
+    "bottle/ground_truth/broken_large/005_mask.png": "90e2751deccdc0f1e2ef4e217cc61e505c056a8906cdf18b471e00f9df8f4d91",
+    "bottle/test/broken_large/006.png": "7e1590d94352b6a5d9463d4b378721ac80335f512d78095c7126d3eae1799fae",
+    "bottle/ground_truth/broken_large/006_mask.png": "88dea230ed1c731217bc7a55c13e5c1c2ca18e656983fdb4d0c3341521a1d64a",
+    "bottle/test/broken_large/007.png": "944292b41adbdcbc22c19027f3e0b02eae1cd9defa93bb41e4f4acb84047a3f2",
+    "bottle/ground_truth/broken_large/007_mask.png": "016ebeaaea7e2c399f2e04fc45e20dda61104437e3f46d16d0ece66038ca75da",
+    "bottle/test/broken_large/008.png": "0ded17a988dd56d1027d90402e0eff6030727b541c7c263bd77287a62a49b334",
+    "bottle/ground_truth/broken_large/008_mask.png": "ce1937a4df067ae523136cb5985d7f9fe0157fd4365ca845ab307808e6f0dd0f",
+    "bottle/test/broken_large/009.png": "eb6b625a6b86299dbf335512cb3fee553f337892023560c7a5652fcbbb63d1e0",
+    "bottle/ground_truth/broken_large/009_mask.png": "2368280597be2b9e64980054ff6d02e50550ea149c8ebaee52f82d53e80950ab",
+    "bottle/test/broken_large/010.png": "cac8b9cc86de2513a673453689e927a2c70a86b2f4961df2e70d795aad9fc0c6",
+    "bottle/ground_truth/broken_large/010_mask.png": "7de90f9b811ebf6e2ada321b572048cfd1d41acf98596f167f6be295dadbf9b9",
+    "bottle/test/broken_large/011.png": "d1819a2167952638c4826a78d3d081fdf26e5a923f3868713af122f5b1d8eddb",
+    "bottle/ground_truth/broken_large/011_mask.png": "5d0ce72f47849a34cff1cfe53ba824a3a3136b4037cdda41a34385d304fa64f3",
+    "bottle/test/broken_large/012.png": "d531152578b689d196411359c7e8db8f06ba865916e62d0bd7d4f9a81869b6db",
+    "bottle/ground_truth/broken_large/012_mask.png": "d3c4da3f64f5704c7a48fbd326dc014469280fc9da80afa702727db3e11b63ce",
+    "bottle/test/broken_large/013.png": "cdb49dee73c2b02e2e062fe890ad5b6babc6aa5d95c84ba35486631a105f8373",
+    "bottle/ground_truth/broken_large/013_mask.png": "f569d4fb98bfb8c74b4ea8ae8d51e8aea01d1c687414532fe8f8f1c807070217",
+    "bottle/test/broken_large/014.png": "e32c92da6a4689dfb9aa8e627da233b154d3f141c171aa6abfd32be4ac0589f8",
+    "bottle/ground_truth/broken_large/014_mask.png": "9a55e8b33aef37f6e8e8c471198ae87a030845d07f0c409eb0e10f81b1d79603",
+    "bottle/test/broken_large/015.png": "3237744b81d8c38e32188bd5b0ae5cabedf37560f721466bd4a8db9851fb10cc",
+    "bottle/ground_truth/broken_large/015_mask.png": "79a4d08770ade1e553fdbe02ce12805becdc08f284527ccfc4cd7122a3b4e258",
+    "bottle/test/broken_large/016.png": "8b5b47f25ebec3e88c3a09b8f20e14e2413252c82737009ff6f8f20d61a2b779",
+    "bottle/ground_truth/broken_large/016_mask.png": "424a6f24af9f83147cb8020a12a90e31673291ac3bf6b0150199609f1841561e",
+    "bottle/test/broken_large/017.png": "32a2c9cf43301567ccbb7c2e9a4eccff5a8e464de8a9c545885d6bfb28ab0315",
+    "bottle/ground_truth/broken_large/017_mask.png": "b7fb9f78bcb5c8dfd60c4040eb0af37e2ed4cab4d2a6209c084c7e0d8cf73862",
+    "bottle/test/broken_large/018.png": "ced7c9391abb29b26e126885a1dde2310f3fd1e2cfdf997cd463221e7664e57e",
+    "bottle/ground_truth/broken_large/018_mask.png": "7f85d2f5a97fba698c67ce2f10931d9b524fe9822b08a59e213699fdd1aeec7c",
+    "bottle/test/broken_large/019.png": "6807074bef09e3257c3bb516167264a9003ca666e1ddb65d7e306025a9cee695",
+    "bottle/ground_truth/broken_large/019_mask.png": "e3dd0bf9e5793c99f4d2bae2333d030baeb0e59be56bdff7c2ae3d85fee0973f",
+    "bottle/test/broken_small/000.png": "05b96e1102fba8cc19bf60e17d33a0830247df2bbba56cae3df100336392941e",
+    "bottle/ground_truth/broken_small/000_mask.png": "e869e1c4a70db5f15fa178e69b2163c830298447296e62cb65e96cdab6aa8564",
+    "bottle/test/broken_small/001.png": "bc60260af053f2f84f71550dda6f2d88c9c8e427109a56249f0dc60e30bc9759",
+    "bottle/ground_truth/broken_small/001_mask.png": "e57b703ea298039a154302c943333bb7c68f3f2404ff01063eed8b05f0e1a717",
+    "bottle/test/broken_small/002.png": "e605efdbf20478f09084f3026eaa96b91d9d1e7bc113cbe8fb700f2bbcc2763e",
+    "bottle/ground_truth/broken_small/002_mask.png": "a2a132da1d5f7d101f8aa3cd9eb187a4351536d6af1481bdf1b9d97e5f689021",
+    "bottle/test/broken_small/003.png": "c97b387cdafd8df6d1834dcd4bb284cb784969a5416dc067f6f2476592c1ee57",
+    "bottle/ground_truth/broken_small/003_mask.png": "612d84d62449633b63f50d8956062890b908a53f83d11f7bdbe56c6355f1adc7",
+    "bottle/test/broken_small/004.png": "6f57501c4ae23aac51f06c7ea4916d8977cf84664832cc7c542447624bd9c142",
+    "bottle/ground_truth/broken_small/004_mask.png": "a11ff70f7bdc0a7b5d2cfc666331de2986f7595d925ffc4bf00f5400eb727343",
+    "bottle/test/broken_small/005.png": "1dcaf0ee6666df4b793de50d2371b400e468f5c3b39456f8af66e6a9593f7950",
+    "bottle/ground_truth/broken_small/005_mask.png": "41b7eabaa5d7e46ba7485eb479c3cc2f9e326c8f91eac8be3ad6fbb04400fbe3",
+    "bottle/test/broken_small/006.png": "3663a963886304bb1fc308bb63bdd63edb58904980662d034136f53af3124d54",
+    "bottle/ground_truth/broken_small/006_mask.png": "47eb003fe51cab6f6792faa1c4dbd1a46b590e9858aafa68657a5c820e79b0f8",
+    "bottle/test/broken_small/007.png": "648a8cb8babfa35f2574ae0dbff581db740cc6ff6ecb14806de29d5e4facb4a6",
+    "bottle/ground_truth/broken_small/007_mask.png": "54c5dc961502c982a303e67f5305cd8ba86349b9522967eecb3e83cce1be7934",
+    "bottle/test/broken_small/008.png": "26af850d4eee499c803f372e17ac9297ebe8edc04695dea8d288ac93711325e3",
+    "bottle/ground_truth/broken_small/008_mask.png": "df523ada0db03ed4e04b045008a6fd1cad18e0dd734df974c296b10134e8bc95",
+    "bottle/test/broken_small/009.png": "d83afc9847c680e6b9f5c36f49ca19e1b1f275fc0358e4864ec1809d42df32c7",
+    "bottle/ground_truth/broken_small/009_mask.png": "397f41ca94c2902a7f0ad9e9bbd84883af5b600beabd9ba324f21ea6b3438da1",
+    "bottle/test/broken_small/010.png": "21cd62dad2af2a7841c2ed469ab0909385805fa67d4ee7ba4b8dd6417c6ea95c",
+    "bottle/ground_truth/broken_small/010_mask.png": "b7896d8a2dd1209ebc3a22a2e9be80bcbc6e51040a2f18e25c8dba6015c2cf1d",
+    "bottle/test/broken_small/011.png": "0b864bfc835768c65992b235c435e397480cfadeed57ea3884e234a2b473a9c9",
+    "bottle/ground_truth/broken_small/011_mask.png": "cf1a458b5f09a3b2c6f637c78d0b3f78b352f369677fc6882c84ad4bc6d831a8",
+    "bottle/test/broken_small/012.png": "945cf8614874e85e7d81ebf0ea69340600eec2df6b3d8cdbe0019b27f0a006dc",
+    "bottle/ground_truth/broken_small/012_mask.png": "63965709fed3fbe6d6d377d54252994b744abd46589ee9004062b7503f6b6f6e",
+    "bottle/test/broken_small/013.png": "b32208859b9262fa19ad2f01043ed13aac2cebaa4c85936ad489d68c719a2ea1",
+    "bottle/ground_truth/broken_small/013_mask.png": "9abb0443920ebf7abf029be581dd3e0fd35c7a960c80833e53051966bbd75af4",
+    "bottle/test/broken_small/014.png": "c74fb6a0cfc32692175c6f97f337fa49a0146a2ccb66ffa308e90b8b95ce50d8",
+    "bottle/ground_truth/broken_small/014_mask.png": "9bb03cd55745df7aa8514d48330289df1ce20c5507b0d67646ecc875571d147a",
+    "bottle/test/broken_small/015.png": "ef423951e8f0bed66ab053c28ad709e68ef24af62b4650254c3d39aaa2bb48da",
+    "bottle/ground_truth/broken_small/015_mask.png": "e9b59d2678fcb0a171b93bfcdb8d47732ec455c6d5f96a25897c27fdefdb2336",
+    "bottle/test/broken_small/016.png": "72e0dfb0da261ee3b349dc34235f65c23bf6b2cbb8928a055348980c1f428bba",
+    "bottle/ground_truth/broken_small/016_mask.png": "14925d267db94aeec8253dc074681b2e915ace266ed6b4b5a6d48c88ee8c27e8",
+    "bottle/test/broken_small/017.png": "437b1c2b5f0c055ee250ba1c4266725eae7c4e21293b0b13141e672f42a2d55b",
+    "bottle/ground_truth/broken_small/017_mask.png": "be934c0211b8812265173188d89722336a82e074a3dd69555a15bfa56f96483f",
+    "bottle/test/broken_small/018.png": "b145d2c83ef34456539118e18ba0a197277a9625320ed7248492b308856170af",
+    "bottle/ground_truth/broken_small/018_mask.png": "0626e8814b4686b5aabf179bcf127b45b82d9df996f94e1cc8d7b71b208db59d",
+    "bottle/test/broken_small/019.png": "a6e0b07c9402eb7ce810955032a54d5b05cc60f30579b397e83eba6957390c34",
+    "bottle/ground_truth/broken_small/019_mask.png": "5c77eae05a27db9e6147da0bda520fff859362c81c17d861d0a62525dfa90346",
+    "bottle/test/broken_small/020.png": "266ed29aeada42b0ff5160b41a754887301cef8a5aeec278af64e68a736b105a",
+    "bottle/ground_truth/broken_small/020_mask.png": "567abaa1834fa5b1f036f58f0a3a2e6fbd44116f181faff2a706cfcc090e6f8d",
+    "bottle/test/broken_small/021.png": "8fd65fc5519cf685764d5f87f3ad1cfe088e7c54e3a54ad68b5ab3df120a084d",
+    "bottle/ground_truth/broken_small/021_mask.png": "c3ea27860cc01dc85baf5c4388ec6c33f0ae10cdc3e48d3cfc4bb0c11d98c722",
+    "bottle/test/contamination/000.png": "fe2e96a8cba624ace02985481197ee8ab112d2a2faa4b79f137ace2c452eb4ea",
+    "bottle/ground_truth/contamination/000_mask.png": "cfe36811f8cce820e7f154da92428e95686b2611602b875f7e40081814363456",
+    "bottle/test/contamination/001.png": "2ddf5d0d53b2dc3d13286af69d668e9b572a360a87309bb91a4682dde8f2311a",
+    "bottle/ground_truth/contamination/001_mask.png": "ed47aed3dbd0783af35ab384247df3da86dc7b5651ad9f0016695df8d00942b6",
+    "bottle/test/contamination/002.png": "905880d6f1f7c33cce414116beae1bda241efff97ba78647e7c2b5d25a94dd05",
+    "bottle/ground_truth/contamination/002_mask.png": "dc2fba450415a63981345a4347ed445c0c395f98182b7b0be9dff4f4b700b80e",
+    "bottle/test/contamination/003.png": "023c4e62fbe0b7f408245e85b8fc60259d826dedee67fdc5a41655b7fa494e4a",
+    "bottle/ground_truth/contamination/003_mask.png": "5690f875e05d2881232a3a4a5e030ef97ea73762a899a819a6fb51271055451e",
+    "bottle/test/contamination/004.png": "8def2401278eb433c1a2fa0a78c79abfeea7a4d0b363e637e51c39cef34c073c",
+    "bottle/ground_truth/contamination/004_mask.png": "bc4adf3db98c2e54061941b3e8caeffa50fb84c4ec81f38b2d3110f0fcd0b116",
+    "bottle/test/contamination/005.png": "606d939e295c39be7097829e33f82b1fea32006379817b5de2a0e0548a10b50e",
+    "bottle/ground_truth/contamination/005_mask.png": "cdf55253188436cbfb2f7c11e90ca8e27e838b2c5a8ed72115d6dc5a50fa4579",
+    "bottle/test/contamination/006.png": "d458db2da3744fd2fc797bd7568ed8282fe1583e05d427ffa8e41d67f7e14b03",
+    "bottle/ground_truth/contamination/006_mask.png": "01444c8160c0454291c416670f9ca93656baf40937d7a7e1cf2589b29f0e2db7",
+    "bottle/test/contamination/007.png": "a3918b94553a8922b3c16d064ef73e9062710b35639a949c56d926037e4c0d0a",
+    "bottle/ground_truth/contamination/007_mask.png": "cfdad6505900e90097903a476cf71c095ac03a515abad5c3df4f32da66a900ff",
+    "bottle/test/contamination/008.png": "35b9af10eaa1fe5525d6fb54ed3ddb069391d7dff93e8c6a6140272431115b00",
+    "bottle/ground_truth/contamination/008_mask.png": "f388a8a593cfce07a7af040391f08b2c50c5df0cdaae9031a507e55fc95cda3b",
+    "bottle/test/contamination/009.png": "ee3e214406dac4a5334c37423f86495f6f4440569a8b9c4b4d778f7c015e35fc",
+    "bottle/ground_truth/contamination/009_mask.png": "74788661609be480d668dca531bafc264cc413768ec455c9fbd6c8ec2d8f57aa",
+    "bottle/test/contamination/010.png": "9cabee2946258e61422d092acdf82bdc9946d7b881dd8bfa4ed032b674be49fe",
+    "bottle/ground_truth/contamination/010_mask.png": "ea1b1961cf975b0bbea0b1aa43d68f4d21923937ea187f620f0a6a8e80e29be4",
+    "bottle/test/contamination/011.png": "29b03be4b7ff17a2e32446c60ea7d7c6dbffc2ffe091f17455fdc528fb337317",
+    "bottle/ground_truth/contamination/011_mask.png": "cf45da82555d5f70d140d8258705fb92906ab4b4c149a386ce7e173f05824edc",
+    "bottle/test/contamination/012.png": "e3fbaab9071bb10ba574e33bd244f3ff61c5f7f8c50a6f13c714b1bde5a32e2c",
+    "bottle/ground_truth/contamination/012_mask.png": "2cbb91a4571c2737ff51e6b4589400fd5b41bc92cb83f0e5230d8ca1e1dee69b",
+    "bottle/test/contamination/013.png": "a8a05f265d400831973ae361c2773d5719f9469cc798bab1ec883274723d3165",
+    "bottle/ground_truth/contamination/013_mask.png": "bf8104d9dd1d5e52be1edc8df2bea81bc7544e2fbe1b20e05715f6aa6e930033",
+    "bottle/test/contamination/014.png": "503a4011f035f9a703bd435917d14118cb47ed4c4712b8f77f1f2dbb119c0d0a",
+    "bottle/ground_truth/contamination/014_mask.png": "3e99b1002405aefbc7299b2dc3e71ae66b73da90c3cdabb6b1356db0cb3d5065",
+    "bottle/test/contamination/015.png": "1e8ba471a607de42e71890f010c0e7a620522f5c55abc8f64d52b290438c31be",
+    "bottle/ground_truth/contamination/015_mask.png": "44b99c3f376afb842118efc8a21ec68b270635799aa1db28d3560f0193757ffc",
+    "bottle/test/contamination/016.png": "9693bc441d758ca05db5602c66243681697a4d273a9468508f4a9a9b3205c0c1",
+    "bottle/ground_truth/contamination/016_mask.png": "a39ba576e8b8823171f223f97c256a82d08cdfeb0ac2a708b97ddd19dd804397",
+    "bottle/test/contamination/017.png": "39353cd83649e95260e53e0ec2ac3985cc5d42732f721cc26f7027db616695c8",
+    "bottle/ground_truth/contamination/017_mask.png": "c3d70d42729e95d1faf73f7fcafec876cee22bc7902199c4e9557d9b2966d54c",
+    "bottle/test/contamination/018.png": "71c18397def5e402077a127a882dc3c871053b2796cf158aad1ff1a149a465dc",
+    "bottle/ground_truth/contamination/018_mask.png": "b4e5bed8a33f40336a6267833512ffa516a7e8da104b9bafe2b6622adc02adaa",
+    "bottle/test/contamination/019.png": "883de514d58337d56397cd06cccf12e3954bdf3e2293833726c255d8f9071a3c",
+    "bottle/ground_truth/contamination/019_mask.png": "c42e96c92ac63b9fc27bbb662636ed1fcdbfceaeea5b9cc0c10adf808562842d",
+    "bottle/test/contamination/020.png": "19dd90eb49a90512b56e9174da1fdd6e8a2ef40e590bfb8d76b1ca854c82f16b",
+    "bottle/ground_truth/contamination/020_mask.png": "46912a2a23cf577f2b4bebebcf71ec791510a03d4063d1d9df068b6c6d4234c8",
+    "bottle/test/good/000.png": "9e7bfe658efe9b6db2607a96405b4ac6880936eaf93b89c85bcd311122ceb57b",
+    "bottle/test/good/001.png": "a45aba86ef3e1ef8dbd95ca56abeb63f576fcd2bbd040ba748a1410bb70d6d78",
+    "bottle/test/good/002.png": "281e0b0dada22effec4fee5b09bef9a54feaef9d8d717aeb7947aa499ab9a1f8",
+    "bottle/test/good/003.png": "08c6a6cbeecb25f84c1a8a6fbc1437228980076075058550eedd2f7e1d172978",
+    "bottle/test/good/004.png": "22e8a84b84435aa6e67266529d6a2f3b7a29f89e4701fd0a969031e517a12dea",
+    "bottle/test/good/005.png": "fa1fb2fa7dbdebe55fa61b1aec5563c769d10ceaa96e8a822fd544a748429807",
+    "bottle/test/good/006.png": "cb8b1201fa027fada3209cde87514b778231e5d0923c5517d40e78b2e0423e35",
+    "bottle/test/good/007.png": "7d3036445dcce53d746e8e1804eca5e2acaa2646c85eb574782c74a940a72921",
+    "bottle/test/good/008.png": "c87eba626d55a28bcf5d046f8c1f5abf543d9eb9dd6c647181a26a29a58582b7",
+    "bottle/test/good/009.png": "b093faf3767345a4a75ed355d62e8461590fe94778df733e6acbeff2353f9f6b",
+    "bottle/test/good/010.png": "b31ddd1a297e85ad505f8d8b1b2df94452ab22a5d5482f500db920635356f963",
+    "bottle/test/good/011.png": "17033f7fb5f93eee444224d7dd9482a6444c526e0f68591a21b12b4d356cbb8a",
+    "bottle/test/good/012.png": "12b90fbbb65590d8b1f48d1a5ffff440c45af785b26f23cebd20ad0b86d4ad50",
+    "bottle/test/good/013.png": "f1b83b016bd73e9490a17f052da9eae96797d6dfb11c328b6ddea5eb9af7ba73",
+    "bottle/test/good/014.png": "a71581c613032a4db9ac7fc3e5f1b73cf0015015ee6f5a08b2f92495e4c3e3e8",
+    "bottle/test/good/015.png": "179aecaca86a1964bdc3075782bb36dcd1c7b25266077711a157d2dd565cfffc",
+    "bottle/test/good/016.png": "5ff7596e9a7fec2b34166dba196022c09282d9b45df671aac6759bbc2995e561",
+    "bottle/test/good/017.png": "ac516a2650e86145083c3a5c5b6c13b44062b4ec8daec52ee7fc81fe2fec6d4d",
+    "bottle/test/good/018.png": "4f0c476b10508c8f163cba4a93f6272126e4b55b59df9d7ace36247ab72709df",
+    "bottle/test/good/019.png": "44ef90ec530671e4c8125bf67b05b5f6b25a7bf24ee0d4d29dffc9af06f162dd"
+  },
+  "model_json_sha256": "f5bc079e66e6920928e21f6aab8388e858b5fa60cc26b5f967a3ed29cdc490a4",
+  "normal_support_ids": [
+    "bottle/train/good/038.png"
+  ],
+  "extra_target_calibration_images": 0,
+  "native_anomalies_with_empty_cropped_mask": [],
+  "metric_region": "Center-cropped ROI at 256x256; outer image border unscored",
+  "cohort": "Native category test split; no claim of exclusion from prior research history",
+  "threshold_scope": "Unchanged source-category cutoff; no target FPR guarantee",
+  "source_selection_supervision": "50 normal and 50 anomalous source images plus masks"
+}

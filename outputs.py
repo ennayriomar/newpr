@@ -98,12 +98,12 @@ def render_case(image_path, score_map, truth, destination, *, stem, global_bound
     font = ImageFont.load_default(size=14)
     subtitle = f"{title} | score={score:.4f}" if score is not None else title
     draw.text((padding, 8), subtitle, fill="black", font=font)
-    labels = ("Image (center ROI)", "Ground truth", "Global heatmap", "Local heatmap", "Ground truth in red")
+    labels = ("Image (center ROI)", "Ground truth", "Hybrid: shared scale", "Hybrid: image contrast", "Ground truth in red")
     for i, ((_, panel), label) in enumerate(zip(panels.items(), labels)):
         x = padding + i * (256 + gap)
         draw.text((x, 33), label, fill="black", font=font)
         canvas.paste(panel, (x, 54))
-    draw.text((padding, 316), "Display normalization only; center ROI shown; outer borders unscored.",
+    draw.text((padding, 316), "Same hybrid map in both heatmaps; display scaling only. Center ROI; outer borders unscored.",
               fill="#555555", font=font)
     canvas.save(names["compound"])
     return {kind: str(path) for kind, path in names.items()}
@@ -248,6 +248,22 @@ def export_evaluation(evaluation, run_dir, *, data_path=None, visualize=True,
                                     stem=stem, global_bounds=bounds, resize=encoder["resize"],
                                     crop=encoder["crop"], title=f"{summary['category']} / {identifier}",
                                     score=case["hybrid"]["score"])
+            # Keep the scored arrays and native ID beside each figure, without
+            # recomputing, rescaling or casting any score.
+            import shutil
+            raw_path = image_destination / f"{stem}_raw.npz"
+            shutil.copyfile(evaluation / f"map-{i:05d}.npz", raw_path)
+            metadata_path = image_destination / f"{stem}_metadata.json"
+            write_json(metadata_path, {
+                "sample_id": identifier, "image_sha256": summary["input_sha256"][identifier],
+                "model_json_sha256": summary["model_json_sha256"], "predictions": case,
+                "raw_map": raw_path.name, "raw_map_sha256": file_sha256(raw_path),
+                "arrays": "baseline, hybrid and truth; raw 256x256 scored ROI",
+                "shared_display_bounds": bounds,
+                "display_semantics": "global/local are shared/per-image scaling of the SAME hybrid map",
+                "metric_region": summary["metric_region"],
+            })
+            files.update(raw=str(raw_path), metadata=str(metadata_path))
             visualizations.append({"sample_id": identifier,
                                    "files": {kind: str(Path(path).relative_to(destination))
                                              for kind, path in files.items()}})

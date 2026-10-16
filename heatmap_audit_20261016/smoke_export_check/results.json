@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "dataset": "mvtec_ad",
+      "category": "bottle",
+      "method": "baseline",
+      "shots": 1,
+      "seed": 17,
+      "I-Auroc": 1.0,
+      "I-AP": 1.0,
+      "I-F1": 1.0,
+      "P-AUROC": 0.9903800442911507,
+      "P-AP": 0.9057209434589719,
+      "P-F1": 0.825809199318569,
+      "P-AUPRO": 0.967721234770554
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "bottle",
+      "method": "hybrid",
+      "shots": 1,
+      "seed": 17,
+      "I-Auroc": 1.0,
+      "I-AP": 1.0,
+      "I-F1": 1.0,
+      "P-AUROC": 0.9894202450641492,
+      "P-AP": 0.895874651900292,
+      "P-F1": 0.8214226496435085,
+      "P-AUPRO": 0.9645968255662978
+    }
+  ],
+  "table_rows": [
+    {
+      "dataset": "mvtec_ad",
+      "method": "baseline",
+      "category": "bottle",
+      "draws": 1,
+      "I-Auroc": 1.0,
+      "I-AP": 1.0,
+      "I-F1": 1.0,
+      "P-AUROC": 0.9903800442911507,
+      "P-AP": 0.9057209434589719,
+      "P-F1": 0.825809199318569,
+      "P-AUPRO": 0.967721234770554
+    },
+    {
+      "dataset": "mvtec_ad",
+      "method": "baseline",
+      "category": "Mean",
+      "draws": null,
+      "I-Auroc": 1.0,
+      "I-AP": 1.0,
+      "I-F1": 1.0,
+      "P-AUROC": 0.9903800442911507,
+      "P-AP": 0.9057209434589719,
+      "P-F1": 0.825809199318569,
+      "P-AUPRO": 0.967721234770554
+    },
+    {
+      "dataset": "mvtec_ad",
+      "method": "hybrid",
+      "category": "bottle",
+      "draws": 1,
+      "I-Auroc": 1.0,
+      "I-AP": 1.0,
+      "I-F1": 1.0,
+      "P-AUROC": 0.9894202450641492,
+      "P-AP": 0.895874651900292,
+      "P-F1": 0.8214226496435085,
+      "P-AUPRO": 0.9645968255662978
+    },
+    {
+      "dataset": "mvtec_ad",
+      "method": "hybrid",
+      "category": "Mean",
+      "draws": null,
+      "I-Auroc": 1.0,
+      "I-AP": 1.0,
+      "I-F1": 1.0,
+      "P-AUROC": 0.9894202450641492,
+      "P-AP": 0.895874651900292,
+      "P-F1": 0.8214226496435085,
+      "P-AUPRO": 0.9645968255662978
+    }
+  ],
+  "dataset": "mvtec_ad",
+  "category": "bottle",
+  "shots": 1,
+  "seed": 17,
+  "subset": true,
+  "queries": 2,
+  "cohort_sha256": "721aaaa0e1949568a199746796ebabdc99d38bf97ceffcccc69d782e53cecc37",
+  "model_json_sha256": "f5bc079e66e6920928e21f6aab8388e858b5fa60cc26b5f967a3ed29cdc490a4",
+  "f1_semantics": "Evaluation F1-max; no deployment threshold selected",
+  "operational_metrics": {
+    "baseline": {
+      "image_threshold": 1.266317319869995,
+      "image_f1": 1.0,
+      "accuracy": 1.0,
+      "false_alarm_rate": 0.0,
+      "pixel_f1": 0.8231217687823121
+    },
+    "hybrid": {
+      "image_threshold": 1.266317319869995,
+      "image_f1": 0.6666666666666666,
+      "accuracy": 0.5,
+      "false_alarm_rate": 1.0,
+      "pixel_f1": 0.7222290213356178
+    }
+  },
+  "operational_thresholds_changed": false,
+  "raw_maps_changed": false,
+  "visualization_global_bounds": [
+    0.03006761334836483,
+    2.7276546955108643
+  ],
+  "global_normalization_scope": "Hybrid maps of this evaluated category/draw only; no labels",
+  "visualization_region": "Center-cropped ROI at 256x256; outer image border unscored",
+  "visualizations": [
+    {
+      "sample_id": "bottle/test/good/000.png",
+      "files": {
+        "ori": "vis_compound_1/bottle/good/000__6dac6999_ori.png",
+        "gt": "vis_compound_1/bottle/good/000__6dac6999_gt.png",
+        "global": "vis_compound_1/bottle/good/000__6dac6999_global.png",
+        "local": "vis_compound_1/bottle/good/000__6dac6999_local.png",
+        "gt_red": "vis_compound_1/bottle/good/000__6dac6999_gt_red.png",
+        "compound": "vis_compound_1/bottle/good/000__6dac6999_compound.png",
+        "raw": "vis_compound_1/bottle/good/000__6dac6999_raw.npz",
+        "metadata": "vis_compound_1/bottle/good/000__6dac6999_metadata.json"
+      }
+    },
+    {
+      "sample_id": "bottle/test/broken_large/000.png",
+      "files": {
+        "ori": "vis_compound_1/bottle/broken_large/000__2d3f6c6e_ori.png",
+        "gt": "vis_compound_1/bottle/broken_large/000__2d3f6c6e_gt.png",
+        "global": "vis_compound_1/bottle/broken_large/000__2d3f6c6e_global.png",
+        "local": "vis_compound_1/bottle/broken_large/000__2d3f6c6e_local.png",
+        "gt_red": "vis_compound_1/bottle/broken_large/000__2d3f6c6e_gt_red.png",
+        "compound": "vis_compound_1/bottle/broken_large/000__2d3f6c6e_compound.png",
+        "raw": "vis_compound_1/bottle/broken_large/000__2d3f6c6e_raw.npz",
+        "metadata": "vis_compound_1/bottle/broken_large/000__2d3f6c6e_metadata.json"
+      }
+    }
+  ],
+  "source_metrics_sha256": "1fd38e12babf8cfc66210e2b86790feaf3583b8b92f4832c75183f0c53ab32e6",
+  "source_predictions_sha256": "2a762959b2052358ef92c989e2b00a8e845b622ab800d22ab4d48bfe889e2a67"
+}

@@ -1,0 +1,11 @@
+2 native image IDs; shots=1; seed=17; subset=True. Mean covers only the listed categories. All values use a 0–1 scale; NA means unavailable.
+I-F1/P-F1: evaluation F1-max only; fixed-source metrics remain in metrics.json.
+Dataset: mvtec_ad | Method: baseline | Categories: 1
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9904, P-AP:0.9057, P-F1:0.8258, P-AUPRO:0.9677
+Mean: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9904, P-AP:0.9057, P-F1:0.8258, P-AUPRO:0.9677
+Dataset: mvtec_ad | Method: hybrid | Categories: 1
+bottle: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9894, P-AP:0.8959, P-F1:0.8214, P-AUPRO:0.9646
+Mean: I-Auroc:1.0000, I-AP:1.0000, I-F1:1.0000, P-AUROC:0.9894, P-AP:0.8959, P-F1:0.8214, P-AUPRO:0.9646
+baseline fixed-source cutoff: Accuracy:1.0000, I-F1:1.0, FPR:0.0
+hybrid fixed-source cutoff: Accuracy:0.5000, I-F1:0.6666666666666666, FPR:1.0
+We have saved the predicted images: /workspace/safal_bottle_audit_20261016/smoke_export_check/vis_compound_1

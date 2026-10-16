@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "queries": 83,
+  "native_normal": 20,
+  "native_anomalous": 63,
+  "parameters_and_cutoffs_unchanged": true,
+  "seven_frozen_interface_files_verified": {
+    "utils.py": "0d593637366abcb4028b2119ca4f4d427bfd6ddce1f535531f9b0affcbd386e9",
+    "dataset.py": "772b7537b0c8262c98da37d5470ed0d68440695656243ede1884ebf958e8ba3d",
+    "models/uad.py": "6ab81313f56663c50443a82e1d876b914f5a8c6f79421ae6959ac4002340abcd",
+    "models/vit_encoder.py": "8fcb9b474dee49c1b15dfc919c277a27b3f20dba4dd5b087756940edd39dfa44",
+    "train.py": "ad3aa0724373d80334fa53e90bc43f1eb429011915756770b60398932d254ac5",
+    "test.py": "f2ffb1583c9c18d052a5d8211a5f80cbeac9d08ece9414cf19ed2c9eb86c27d7",
+    "predict.py": "9d1da240f94e54db1dcd327d2f81b4033e9b3e934c43772173dc5c832966bcff"
+  },
+  "two_previous_smoke_maps_all_arrays_bitwise_reproduced": true,
+  "native_image_and_mask_hashes_verified": true,
+  "raw_map_top_one_percent_scores_replayed": true,
+  "raw_maps_roi_masks_verified_against_native_masks": true,
+  "selected_raw_files_bitwise_copied": true,
+  "bootstrap_auroc_replayed_with_sklearn_replicates_per_method": 20,
+  "saved_bootstrap_percentiles_replayed": true,
+  "identical_baseline_hybrid_maps": 0,
+  "native_defect_pixels_outside_crop": 15668,
+  "images_with_defect_pixels_outside_crop": 4,
+  "model_json_sha256": "f5bc079e66e6920928e21f6aab8388e858b5fa60cc26b5f967a3ed29cdc490a4",
+  "model_npz_sha256": "78eceb8a82304b328d7dd2ed5e724dff4d7e1ae4501f58cba92326d47c689e17",
+  "core_model_changed": false
+}

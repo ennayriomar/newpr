@@ -1,0 +1,12 @@
+[
+  {
+    "sample_id": "bottle/test/broken_large/000.png",
+    "raw_copy_bitwise_identical": true,
+    "cutoff": 1.266317319869995
+  },
+  {
+    "sample_id": "bottle/test/good/000.png",
+    "raw_copy_bitwise_identical": true,
+    "cutoff": 1.266317319869995
+  }
+]

@@ -9,6 +9,8 @@ entry points. Existing SAFAL fitted banks remain compatible.
 [Download source ZIP](https://github.com/ennayriomar/newpr/raw/refs/heads/main/safal_visionad_style_code.zip)
 · [Training guide](docs/TRAINING.md)
 · [Output guide and examples](docs/OUTPUTS.md)
+· [Full bottle audit](https://github.com/ennayriomar/newpr/tree/main/heatmap_audit_20261016/report)
+· [Download raw audit ZIP](https://github.com/ennayriomar/newpr/raw/refs/heads/main/heatmap_audit_20261016.zip)
 · [Measured study](https://github.com/ennayriomar/newpr/blob/0d0b1db6c0133d3876bd18cc9920f930dfeb2519/results/vision_hybrid_20261015/report.md)
 · [Previous model download](https://github.com/ennayriomar/newpr/raw/0d0b1db6c0133d3876bd18cc9920f930dfeb2519/vision_hybrid_20261015.zip)
 
@@ -51,6 +53,7 @@ train.py                  # Fit one category's normal-reference bank
 test.py                   # Evaluate search baseline and hybrid
 evaluate.py               # Reference-style logs, tables and visualizations
 outputs.py                # Metric presentation and aligned diagnostic panels
+audit_outputs.py          # Raw branch comparisons, intervals and fixed-rule failures
 summarize.py              # Category / mean tables across evaluated runs
 predict.py                # Predict a single image
 hybrid_mvtec_test.py       # MVTec AD evaluation entry point
@@ -129,6 +132,8 @@ Evaluation now prints `I-Auroc`, `I-AP`, `I-F1`, `P-AUROC`, `P-AP`, `P-F1`,
 `vis_compound_1/category/defect` tree. See the [output guide](docs/OUTPUTS.md).
 The F1 columns use descriptive benchmark F1-max; fixed-cutoff results remain
 separate. The original `test.py` raw evaluator is retained for existing runs.
+For numerical branch checks, shared-scale normal/failure figures and conditional
+confidence intervals, follow the [audit workflow](docs/OUTPUTS.md#checkable-category-audit).
 
 Commands for reproducing development selection are in the
 [training guide](docs/TRAINING.md). That known-cohort reproduction is separate
@@ -162,6 +167,17 @@ interval is −0.50 to +3.00 percentage points and includes zero. Additional
 false alarms offset recovered anomalies at the shared cutoff. This repository
 reorganization changes the interface, not those scientific results. The full
 27-category/five-draw/1–2–4-shot benchmark has not been run.
+
+A later [full bottle diagnostic audit](https://github.com/ennayriomar/newpr/tree/main/heatmap_audit_20261016/report)
+evaluates all 83 native bottle test images with the same one-image support
+bank and unchanged cutoffs. Hybrid image AUROC is 0.9968 (conditional 95%
+interval 0.9881–1.0000); cropped-ROI AU-PRO is 0.9426 (0.9203–0.9610).
+It detects all 63 anomalies but falsely flags 8/20 normals. Its paired AUROC
+difference interval includes zero. Four native masks have defect pixels
+outside the scored crop. Raw arrays, IDs, per-image branch differences,
+rule-selected shared-scale failure figures and bootstrap data are supplied.
+This known-category, single-bank audit is separate from the earlier study
+and does not establish full-dataset superiority or full-image segmentation.
 
 [All 20 fitted banks and raw study outputs](https://github.com/ennayriomar/newpr/tree/0d0b1db6c0133d3876bd18cc9920f930dfeb2519/results/vision_hybrid_20261015_archive)
 are retained separately. The archive downloader is

@@ -1,0 +1,34 @@
+{
+  "sample_id": "bottle/test/broken_large/000.png",
+  "image_sha256": "11a691a06a33dd78c5fcab6a822caa48c0d72f27f660e19f5abd9b5aa392b0eb",
+  "model_json_sha256": "f5bc079e66e6920928e21f6aab8388e858b5fa60cc26b5f967a3ed29cdc490a4",
+  "predictions": {
+    "baseline": {
+      "sample_id": "bottle/test/broken_large/000.png",
+      "label": 1,
+      "method": "baseline",
+      "score": 1.7643742561340332,
+      "threshold": 1.266317319869995,
+      "decision": true,
+      "probabilities": false
+    },
+    "hybrid": {
+      "sample_id": "bottle/test/broken_large/000.png",
+      "label": 1,
+      "method": "hybrid",
+      "score": 2.5919151306152344,
+      "threshold": 1.266317319869995,
+      "decision": true,
+      "probabilities": false
+    }
+  },
+  "raw_map": "000__2d3f6c6e_raw.npz",
+  "raw_map_sha256": "2fe75ce1b479a715d6ba77ee26617e220c725b8fb8613608790cf4c40803adc3",
+  "arrays": "baseline, hybrid and truth; raw 256x256 scored ROI",
+  "shared_display_bounds": [
+    0.03006761334836483,
+    2.7276546955108643
+  ],
+  "display_semantics": "global/local are shared/per-image scaling of the SAME hybrid map",
+  "metric_region": "Center-cropped ROI at 256x256; outer image border unscored"
+}

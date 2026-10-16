@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "dataset": "mvtec_ad",
+  "category": "bottle",
+  "data_path": "/workspace/datasets/mvtec_ad",
+  "shots": 1,
+  "seed": 17,
+  "support_ids": [
+    "bottle/train/good/038.png"
+  ],
+  "extra_target_calibration_images": 0,
+  "support_sha256": {
+    "bottle/train/good/038.png": "905e9e23f2c982de65f7687ad31d35c750f4812cf681b7263b6cd072548d474d"
+  },
+  "source_config_sha256": "d3c9f46bd605e866a419780146e5cf2be67c885e838ce8babeec1b551bd1294b",
+  "parameters_id": "d74241e7ae1e21219e147a3c2056127955b941fac996f2367acaace9e7c2a9f2",
+  "model_json_sha256": "f5bc079e66e6920928e21f6aab8388e858b5fa60cc26b5f967a3ed29cdc490a4",
+  "interface_sha256": {
+    "utils.py": "0d593637366abcb4028b2119ca4f4d427bfd6ddce1f535531f9b0affcbd386e9",
+    "dataset.py": "772b7537b0c8262c98da37d5470ed0d68440695656243ede1884ebf958e8ba3d",
+    "models/uad.py": "6ab81313f56663c50443a82e1d876b914f5a8c6f79421ae6959ac4002340abcd",
+    "models/vit_encoder.py": "8fcb9b474dee49c1b15dfc919c277a27b3f20dba4dd5b087756940edd39dfa44",
+    "train.py": "ad3aa0724373d80334fa53e90bc43f1eb429011915756770b60398932d254ac5",
+    "test.py": "f2ffb1583c9c18d052a5d8211a5f80cbeac9d08ece9414cf19ed2c9eb86c27d7",
+    "predict.py": "9d1da240f94e54db1dcd327d2f81b4033e9b3e934c43772173dc5c832966bcff"
+  },
+  "source_selection_supervision": "50 normal and 50 anomalous source images plus masks",
+  "cutoff_scope": "Source-category cutoff; target false-alarm rate is not guaranteed",
+  "support_draw_rule": "random.Random(seed).sample(sorted native normal train IDs)",
+  "previous_pilot_accuracy_improved": false
+}

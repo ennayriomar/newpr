@@ -1,0 +1,10 @@
+83 native image IDs; shots=1; seed=17; subset=False. Mean covers only the listed categories. All values use a 0–1 scale; NA means unavailable.
+I-F1/P-F1: evaluation F1-max only; fixed-source metrics remain in metrics.json.
+Dataset: mvtec_ad | Method: baseline | Categories: 1
+bottle: I-Auroc:0.9897, I-AP:0.9971, I-F1:0.9841, P-AUROC:0.9673, P-AP:0.7841, P-F1:0.7384, P-AUPRO:0.9357
+Mean: I-Auroc:0.9897, I-AP:0.9971, I-F1:0.9841, P-AUROC:0.9673, P-AP:0.7841, P-F1:0.7384, P-AUPRO:0.9357
+Dataset: mvtec_ad | Method: hybrid | Categories: 1
+bottle: I-Auroc:0.9968, I-AP:0.9990, I-F1:0.9844, P-AUROC:0.9715, P-AP:0.7862, P-F1:0.7400, P-AUPRO:0.9426
+Mean: I-Auroc:0.9968, I-AP:0.9990, I-F1:0.9844, P-AUROC:0.9715, P-AP:0.7862, P-F1:0.7400, P-AUPRO:0.9426
+baseline fixed-source cutoff: Accuracy:0.8795, I-F1:0.9137931034482759, FPR:0.0
+hybrid fixed-source cutoff: Accuracy:0.9036, I-F1:0.9402985074626866, FPR:0.4
