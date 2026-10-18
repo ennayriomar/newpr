@@ -1,0 +1,1 @@
+{"utc": "2026-10-18T13:01:35.167843+00:00", "stage": "prepared", "passed": true, "role_unique_counts": {"support": 45, "calibration": 160, "source_query": 80, "evaluation": 2245}, "id_overlaps": 0, "resolved_path_overlaps": 0, "repeated_query_ids_across_support_draws": "Permitted; same evaluation role only"}
