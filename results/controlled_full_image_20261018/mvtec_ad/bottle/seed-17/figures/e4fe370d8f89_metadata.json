@@ -1,0 +1,99 @@
+{
+  "dataset": "mvtec_ad",
+  "category": "bottle",
+  "seed": 17,
+  "shots": 1,
+  "image_id": "mvtec_ad:bottle/test/good/014.png",
+  "native_id": "bottle/test/good/014.png",
+  "image_sha256": "a71581c613032a4db9ac7fc3e5f1b73cf0015015ee6f5a08b2f92495e4c3e3e8",
+  "mask_sha256": null,
+  "label": 0,
+  "scores": {
+    "baseline": 0.7780542373657227,
+    "hybrid": 0.9531909823417664,
+    "lambda_zero": 0.7780542373657227
+  },
+  "method_labels": {
+    "baseline": "internal baseline",
+    "hybrid": "adapted implementation",
+    "lambda_zero": "adapted implementation"
+  },
+  "decisions": {
+    "baseline": false,
+    "hybrid": false,
+    "lambda_zero": false
+  },
+  "truth_pixels": 0,
+  "hybrid_pixel_iou": null,
+  "max_abs_branch_difference": 0.25004446506500244,
+  "mean_abs_branch_difference": 0.059449185622106736,
+  "lambda_zero_exact": true,
+  "map_shape": [
+    448,
+    448
+  ],
+  "gt_shape": [
+    448,
+    448
+  ],
+  "scored_field_fraction": 1.0,
+  "protocol_sha256": "dc078b5a681b8a44015dc02a227afb4b20f248e7ca70ac8e31a95f321aa2f408",
+  "support_ids": [
+    "mvtec_ad:bottle/train/good/133.png"
+  ],
+  "raw_map": "e4fe370d8f89_raw.npz",
+  "raw_map_sha256": "3c35a0834dfc40a2e3f112b8a9e45883c7afea322e1a2dada17b94d26d3e945e",
+  "selection_reasons": [
+    "true_negative"
+  ],
+  "shared_raw_bounds": [
+    0.0016035860171541572,
+    2.9275753498077393
+  ],
+  "delta_range": [
+    0.0,
+    0.8809846639633179
+  ],
+  "cutoffs": {
+    "baseline": {
+      "image": {
+        "cutoff": 1.9804482460021973,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 160,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      },
+      "pixel": {
+        "cutoff": 1.179829716682434,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 32112640,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      }
+    },
+    "hybrid": {
+      "image": {
+        "cutoff": 2.343151807785034,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 160,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      },
+      "pixel": {
+        "cutoff": 1.3915828466415405,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 32112640,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      }
+    }
+  }
+}

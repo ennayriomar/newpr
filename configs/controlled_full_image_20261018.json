@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "backbone": "dinov2_vitl14_reg",
+  "checkpoint_sha256": "36e4deffbaef061a2576705b0c36f93621e2ae20bf6274694821b0b492551b51",
+  "checkpoint": "/tmp/safal_controlled_assets/dinov2_vitl14_reg4_pretrain.pth",
+  "source_dir": "/workspace/.cache/dinov2-source",
+  "resize": 448,
+  "crop": 448,
+  "map_shape": [
+    448,
+    448
+  ],
+  "dtype": "float32",
+  "threads": 4,
+  "layers": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "source_root": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2",
+  "bottle_root": "/workspace/datasets/mvtec_ad",
+  "visa_root": "/workspace/datasets/visa",
+  "shots": [
+    1
+  ],
+  "source_seed": 17,
+  "target_seeds": [
+    17,
+    29,
+    43
+  ],
+  "split_seed": 20261018,
+  "calibration_normals_per_ad2_category": 20,
+  "source_query_normals_per_category": 5,
+  "source_query_anomalies_per_category": 5,
+  "lambdas": [
+    0,
+    0.1,
+    0.25,
+    0.5
+  ],
+  "variance": 0.95,
+  "clusters": 1,
+  "gate": "uniform",
+  "image_fpr": 0.05,
+  "pixel_fpr": 0.05,
+  "selection_rule": "Maximize source-category mean balanced accuracy at separate source-normal-calibrated image cutoffs; tie: mean source AUROC; then smaller lambda. No target inputs or labels.",
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20261018,
+  "bootstrap_confidence": 0.95,
+  "au_pro_fpr_limit": 0.3,
+  "au_pro_max_thresholds": 128,
+  "stop_rule": "Complete bottle development check and all 12 VisA categories, three support draws, before applying stop to overall VisA category-cluster bootstrap. Stop without tuning if paired interval includes zero or balanced-accuracy gain disappears under per-method calibration.",
+  "stop_rule_primary": "mean per-category image AUROC hybrid-minus-baseline across support draws; calibrated balanced accuracy must also improve",
+  "figure_rule": {
+    "true_negative": "lowest hybrid score among native normals below/equal locked image cutoff",
+    "false_positive": "highest hybrid score among native normals above locked image cutoff",
+    "miss": "lowest hybrid score among native anomalies below/equal locked image cutoff",
+    "smallest_defect": "fewest positive full-frame 448x448 GT pixels among native anomalies",
+    "localization_failure": "lowest hybrid pixel IoU at calibrated pixel cutoff among native anomalies",
+    "ties": "native image ID; deduplicate and keep all reasons; report absent events"
+  },
+  "geometry_scope": "Entire input field resized to448x448 without cropping; GT full-image resized nearest to448x448; maps evaluated/saved at identical448x448 shape. Native-resolution metrics are not claimed.",
+  "history": "Bottle is development evidence. VisA has prior prototype exposure; this is a controlled known-dataset comparison, not untouched-data generalization. Earlier numerical core unchanged.",
+  "deviations": [
+    "Internal baseline and adapted implementation; no claim of official VisionAD reproduction.",
+    "Full448x448 image/maps instead of earlier448-resize392-center-crop256-maps.",
+    "Only global PCA95%, uniform additive gate; lambda selected on AD2 only.",
+    "Image and pixel cutoffs separately fit for each candidate from AD2 train normals; no extra target calibration images.",
+    "AD2 public-test anomalies used only for source lambda selection, not cutoff calibration.",
+    "One-shot only, three support draws, nested support prefixes; no full paper shot sweep.",
+    "Frozen official DINOv2 ViT-L/14 register weights, mean zero-based blocks4\u201318, three slots and six support views as existing internal recipe.",
+    "AU-PRO is sampled at128 raw-score rank thresholds; query-image bootstrap holds each original grid fixed."
+  ]
+}

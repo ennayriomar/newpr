@@ -6,6 +6,13 @@ This workflow compares an **internal baseline** (DINOv2 patch search), an
 import the official VisionAD implementation or claim paper reproduction.
 Historical cropped-map figures and results are not reused.
 
+The controlled bottle draw uses `bottle/train/good/133.png`. The older cropped
+audit used `bottle/train/good/038.png`, despite also being labeled seed17;
+the support sampler differs. All methods in this controlled run share the same
+new reference. Old-versus-new bottle numbers therefore cannot isolate the
+effect of full-field scoring or calibration. The controlled protocol and its
+support IDs remain frozen; the old reference is not substituted after scoring.
+
 `controlled_experiment.py` has separate `prepare`, `source` and `evaluate`
 commands. `controlled_report.py` reports completed native cohorts only. Every
 stage writes its real command output and machine-readable progress to disk.
@@ -61,9 +68,18 @@ fails if those files change.
 
 ## Commands
 
-Create a fresh run directory and `experiment_config.json` with the dataset
-roots, pinned encoder source/checkpoint, fixed settings and selection rules.
-The recorded configuration for the18 October run is delivered with its results.
+Start from the exact executed configuration preset in a fresh directory:
+
+```bash
+mkdir -p runs/controlled
+cp configs/controlled_full_image_20261018.json runs/controlled/experiment_config.json
+```
+
+Set the dataset roots and pinned encoder source/checkpoint paths in that new
+copy to your filesystem before running `prepare`. The preset records the
+original cloud paths, fixed settings and selection rules. Changing paths
+produces a new recorded configuration hash. Never edit the sealed configuration
+or protocol of an existing run. Set `RUN_DIR` below to your fresh directory.
 
 ```bash
 python controlled_experiment.py prepare --run RUN_DIR > RUN_DIR/prepare.log 2>&1

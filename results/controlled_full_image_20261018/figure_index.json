@@ -1,0 +1,483 @@
+[
+  {
+    "dataset": "mvtec_ad",
+    "category": "bottle",
+    "seed": 17,
+    "selection": {
+      "true_negative": "mvtec_ad:bottle/test/good/014.png",
+      "false_positive": null,
+      "miss": "mvtec_ad:bottle/test/contamination/002.png",
+      "smallest_defect": "mvtec_ad:bottle/test/contamination/018.png",
+      "localization_failure": "mvtec_ad:bottle/test/contamination/002.png"
+    },
+    "figure": "mvtec_ad/bottle/seed-17/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "candle",
+    "seed": 17,
+    "selection": {
+      "true_negative": "visa:candle/Data/Images/Normal/0657.JPG",
+      "false_positive": null,
+      "miss": "visa:candle/Data/Images/Anomaly/000.JPG",
+      "smallest_defect": "visa:candle/Data/Images/Anomaly/056.JPG",
+      "localization_failure": "visa:candle/Data/Images/Anomaly/000.JPG"
+    },
+    "figure": "visa/candle/seed-17/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "candle",
+    "seed": 29,
+    "selection": {
+      "true_negative": "visa:candle/Data/Images/Normal/0739.JPG",
+      "false_positive": null,
+      "miss": "visa:candle/Data/Images/Anomaly/033.JPG",
+      "smallest_defect": "visa:candle/Data/Images/Anomaly/056.JPG",
+      "localization_failure": "visa:candle/Data/Images/Anomaly/000.JPG"
+    },
+    "figure": "visa/candle/seed-29/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "candle",
+    "seed": 43,
+    "selection": {
+      "true_negative": "visa:candle/Data/Images/Normal/0170.JPG",
+      "false_positive": null,
+      "miss": "visa:candle/Data/Images/Anomaly/033.JPG",
+      "smallest_defect": "visa:candle/Data/Images/Anomaly/056.JPG",
+      "localization_failure": "visa:candle/Data/Images/Anomaly/017.JPG"
+    },
+    "figure": "visa/candle/seed-43/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 17,
+    "selection": {
+      "true_negative": "visa:capsules/Data/Images/Normal/594.JPG",
+      "false_positive": null,
+      "miss": "visa:capsules/Data/Images/Anomaly/027.JPG",
+      "smallest_defect": "visa:capsules/Data/Images/Anomaly/038.JPG",
+      "localization_failure": "visa:capsules/Data/Images/Anomaly/027.JPG"
+    },
+    "figure": "visa/capsules/seed-17/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 29,
+    "selection": {
+      "true_negative": "visa:capsules/Data/Images/Normal/400.JPG",
+      "false_positive": null,
+      "miss": "visa:capsules/Data/Images/Anomaly/087.JPG",
+      "smallest_defect": "visa:capsules/Data/Images/Anomaly/038.JPG",
+      "localization_failure": "visa:capsules/Data/Images/Anomaly/027.JPG"
+    },
+    "figure": "visa/capsules/seed-29/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "capsules",
+    "seed": 43,
+    "selection": {
+      "true_negative": "visa:capsules/Data/Images/Normal/377.JPG",
+      "false_positive": null,
+      "miss": "visa:capsules/Data/Images/Anomaly/039.JPG",
+      "smallest_defect": "visa:capsules/Data/Images/Anomaly/038.JPG",
+      "localization_failure": "visa:capsules/Data/Images/Anomaly/031.JPG"
+    },
+    "figure": "visa/capsules/seed-43/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "cashew",
+    "seed": 17,
+    "selection": {
+      "true_negative": "visa:cashew/Data/Images/Normal/384.JPG",
+      "false_positive": null,
+      "miss": "visa:cashew/Data/Images/Anomaly/056.JPG",
+      "smallest_defect": "visa:cashew/Data/Images/Anomaly/067.JPG",
+      "localization_failure": "visa:cashew/Data/Images/Anomaly/051.JPG"
+    },
+    "figure": "visa/cashew/seed-17/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "cashew",
+    "seed": 29,
+    "selection": {
+      "true_negative": "visa:cashew/Data/Images/Normal/087.JPG",
+      "false_positive": null,
+      "miss": "visa:cashew/Data/Images/Anomaly/055.JPG",
+      "smallest_defect": "visa:cashew/Data/Images/Anomaly/067.JPG",
+      "localization_failure": "visa:cashew/Data/Images/Anomaly/021.JPG"
+    },
+    "figure": "visa/cashew/seed-29/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "cashew",
+    "seed": 43,
+    "selection": {
+      "true_negative": "visa:cashew/Data/Images/Normal/260.JPG",
+      "false_positive": null,
+      "miss": "visa:cashew/Data/Images/Anomaly/063.JPG",
+      "smallest_defect": "visa:cashew/Data/Images/Anomaly/067.JPG",
+      "localization_failure": "visa:cashew/Data/Images/Anomaly/008.JPG"
+    },
+    "figure": "visa/cashew/seed-43/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "chewinggum",
+    "seed": 17,
+    "selection": {
+      "true_negative": "visa:chewinggum/Data/Images/Normal/089.JPG",
+      "false_positive": null,
+      "miss": "visa:chewinggum/Data/Images/Anomaly/033.JPG",
+      "smallest_defect": "visa:chewinggum/Data/Images/Anomaly/072.JPG",
+      "localization_failure": "visa:chewinggum/Data/Images/Anomaly/031.JPG"
+    },
+    "figure": "visa/chewinggum/seed-17/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "chewinggum",
+    "seed": 29,
+    "selection": {
+      "true_negative": "visa:chewinggum/Data/Images/Normal/405.JPG",
+      "false_positive": null,
+      "miss": "visa:chewinggum/Data/Images/Anomaly/033.JPG",
+      "smallest_defect": "visa:chewinggum/Data/Images/Anomaly/072.JPG",
+      "localization_failure": "visa:chewinggum/Data/Images/Anomaly/031.JPG"
+    },
+    "figure": "visa/chewinggum/seed-29/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "chewinggum",
+    "seed": 43,
+    "selection": {
+      "true_negative": "visa:chewinggum/Data/Images/Normal/405.JPG",
+      "false_positive": null,
+      "miss": "visa:chewinggum/Data/Images/Anomaly/032.JPG",
+      "smallest_defect": "visa:chewinggum/Data/Images/Anomaly/072.JPG",
+      "localization_failure": "visa:chewinggum/Data/Images/Anomaly/031.JPG"
+    },
+    "figure": "visa/chewinggum/seed-43/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "fryum",
+    "seed": 17,
+    "selection": {
+      "true_negative": "visa:fryum/Data/Images/Normal/012.JPG",
+      "false_positive": null,
+      "miss": "visa:fryum/Data/Images/Anomaly/094.JPG",
+      "smallest_defect": "visa:fryum/Data/Images/Anomaly/038.JPG",
+      "localization_failure": "visa:fryum/Data/Images/Anomaly/034.JPG"
+    },
+    "figure": "visa/fryum/seed-17/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "fryum",
+    "seed": 29,
+    "selection": {
+      "true_negative": "visa:fryum/Data/Images/Normal/087.JPG",
+      "false_positive": null,
+      "miss": "visa:fryum/Data/Images/Anomaly/094.JPG",
+      "smallest_defect": "visa:fryum/Data/Images/Anomaly/038.JPG",
+      "localization_failure": "visa:fryum/Data/Images/Anomaly/010.JPG"
+    },
+    "figure": "visa/fryum/seed-29/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "fryum",
+    "seed": 43,
+    "selection": {
+      "true_negative": "visa:fryum/Data/Images/Normal/369.JPG",
+      "false_positive": null,
+      "miss": "visa:fryum/Data/Images/Anomaly/094.JPG",
+      "smallest_defect": "visa:fryum/Data/Images/Anomaly/038.JPG",
+      "localization_failure": "visa:fryum/Data/Images/Anomaly/010.JPG"
+    },
+    "figure": "visa/fryum/seed-43/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni1",
+    "seed": 17,
+    "selection": {
+      "true_negative": "visa:macaroni1/Data/Images/Normal/0490.JPG",
+      "false_positive": null,
+      "miss": "visa:macaroni1/Data/Images/Anomaly/001.JPG",
+      "smallest_defect": "visa:macaroni1/Data/Images/Anomaly/076.JPG",
+      "localization_failure": "visa:macaroni1/Data/Images/Anomaly/000.JPG"
+    },
+    "figure": "visa/macaroni1/seed-17/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni1",
+    "seed": 29,
+    "selection": {
+      "true_negative": "visa:macaroni1/Data/Images/Normal/0469.JPG",
+      "false_positive": null,
+      "miss": "visa:macaroni1/Data/Images/Anomaly/048.JPG",
+      "smallest_defect": "visa:macaroni1/Data/Images/Anomaly/076.JPG",
+      "localization_failure": "visa:macaroni1/Data/Images/Anomaly/000.JPG"
+    },
+    "figure": "visa/macaroni1/seed-29/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni1",
+    "seed": 43,
+    "selection": {
+      "true_negative": "visa:macaroni1/Data/Images/Normal/0469.JPG",
+      "false_positive": null,
+      "miss": "visa:macaroni1/Data/Images/Anomaly/017.JPG",
+      "smallest_defect": "visa:macaroni1/Data/Images/Anomaly/076.JPG",
+      "localization_failure": "visa:macaroni1/Data/Images/Anomaly/000.JPG"
+    },
+    "figure": "visa/macaroni1/seed-43/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 17,
+    "selection": {
+      "true_negative": "visa:macaroni2/Data/Images/Normal/0739.JPG",
+      "false_positive": null,
+      "miss": "visa:macaroni2/Data/Images/Anomaly/050.JPG",
+      "smallest_defect": "visa:macaroni2/Data/Images/Anomaly/044.JPG",
+      "localization_failure": "visa:macaroni2/Data/Images/Anomaly/030.JPG"
+    },
+    "figure": "visa/macaroni2/seed-17/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 29,
+    "selection": {
+      "true_negative": "visa:macaroni2/Data/Images/Normal/0514.JPG",
+      "false_positive": null,
+      "miss": "visa:macaroni2/Data/Images/Anomaly/064.JPG",
+      "smallest_defect": "visa:macaroni2/Data/Images/Anomaly/044.JPG",
+      "localization_failure": "visa:macaroni2/Data/Images/Anomaly/030.JPG"
+    },
+    "figure": "visa/macaroni2/seed-29/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "macaroni2",
+    "seed": 43,
+    "selection": {
+      "true_negative": "visa:macaroni2/Data/Images/Normal/0303.JPG",
+      "false_positive": null,
+      "miss": "visa:macaroni2/Data/Images/Anomaly/034.JPG",
+      "smallest_defect": "visa:macaroni2/Data/Images/Anomaly/044.JPG",
+      "localization_failure": "visa:macaroni2/Data/Images/Anomaly/030.JPG"
+    },
+    "figure": "visa/macaroni2/seed-43/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb1",
+    "seed": 17,
+    "selection": {
+      "true_negative": "visa:pcb1/Data/Images/Normal/0178.JPG",
+      "false_positive": null,
+      "miss": "visa:pcb1/Data/Images/Anomaly/051.JPG",
+      "smallest_defect": "visa:pcb1/Data/Images/Anomaly/065.JPG",
+      "localization_failure": "visa:pcb1/Data/Images/Anomaly/012.JPG"
+    },
+    "figure": "visa/pcb1/seed-17/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb1",
+    "seed": 29,
+    "selection": {
+      "true_negative": "visa:pcb1/Data/Images/Normal/0674.JPG",
+      "false_positive": null,
+      "miss": "visa:pcb1/Data/Images/Anomaly/057.JPG",
+      "smallest_defect": "visa:pcb1/Data/Images/Anomaly/065.JPG",
+      "localization_failure": "visa:pcb1/Data/Images/Anomaly/006.JPG"
+    },
+    "figure": "visa/pcb1/seed-29/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb1",
+    "seed": 43,
+    "selection": {
+      "true_negative": "visa:pcb1/Data/Images/Normal/0952.JPG",
+      "false_positive": null,
+      "miss": "visa:pcb1/Data/Images/Anomaly/048.JPG",
+      "smallest_defect": "visa:pcb1/Data/Images/Anomaly/065.JPG",
+      "localization_failure": "visa:pcb1/Data/Images/Anomaly/012.JPG"
+    },
+    "figure": "visa/pcb1/seed-43/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 17,
+    "selection": {
+      "true_negative": "visa:pcb2/Data/Images/Normal/0685.JPG",
+      "false_positive": null,
+      "miss": "visa:pcb2/Data/Images/Anomaly/053.JPG",
+      "smallest_defect": "visa:pcb2/Data/Images/Anomaly/058.JPG",
+      "localization_failure": "visa:pcb2/Data/Images/Anomaly/000.JPG"
+    },
+    "figure": "visa/pcb2/seed-17/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 29,
+    "selection": {
+      "true_negative": "visa:pcb2/Data/Images/Normal/0214.JPG",
+      "false_positive": null,
+      "miss": "visa:pcb2/Data/Images/Anomaly/055.JPG",
+      "smallest_defect": "visa:pcb2/Data/Images/Anomaly/058.JPG",
+      "localization_failure": "visa:pcb2/Data/Images/Anomaly/003.JPG"
+    },
+    "figure": "visa/pcb2/seed-29/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb2",
+    "seed": 43,
+    "selection": {
+      "true_negative": "visa:pcb2/Data/Images/Normal/0619.JPG",
+      "false_positive": null,
+      "miss": "visa:pcb2/Data/Images/Anomaly/047.JPG",
+      "smallest_defect": "visa:pcb2/Data/Images/Anomaly/058.JPG",
+      "localization_failure": "visa:pcb2/Data/Images/Anomaly/000.JPG"
+    },
+    "figure": "visa/pcb2/seed-43/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb3",
+    "seed": 17,
+    "selection": {
+      "true_negative": "visa:pcb3/Data/Images/Normal/0674.JPG",
+      "false_positive": null,
+      "miss": "visa:pcb3/Data/Images/Anomaly/044.JPG",
+      "smallest_defect": "visa:pcb3/Data/Images/Anomaly/049.JPG",
+      "localization_failure": "visa:pcb3/Data/Images/Anomaly/041.JPG"
+    },
+    "figure": "visa/pcb3/seed-17/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb3",
+    "seed": 29,
+    "selection": {
+      "true_negative": "visa:pcb3/Data/Images/Normal/0619.JPG",
+      "false_positive": null,
+      "miss": "visa:pcb3/Data/Images/Anomaly/044.JPG",
+      "smallest_defect": "visa:pcb3/Data/Images/Anomaly/049.JPG",
+      "localization_failure": "visa:pcb3/Data/Images/Anomaly/015.JPG"
+    },
+    "figure": "visa/pcb3/seed-29/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb3",
+    "seed": 43,
+    "selection": {
+      "true_negative": "visa:pcb3/Data/Images/Normal/0294.JPG",
+      "false_positive": null,
+      "miss": "visa:pcb3/Data/Images/Anomaly/044.JPG",
+      "smallest_defect": "visa:pcb3/Data/Images/Anomaly/049.JPG",
+      "localization_failure": "visa:pcb3/Data/Images/Anomaly/015.JPG"
+    },
+    "figure": "visa/pcb3/seed-43/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb4",
+    "seed": 17,
+    "selection": {
+      "true_negative": "visa:pcb4/Data/Images/Normal/0730.JPG",
+      "false_positive": null,
+      "miss": "visa:pcb4/Data/Images/Anomaly/012.JPG",
+      "smallest_defect": "visa:pcb4/Data/Images/Anomaly/046.JPG",
+      "localization_failure": "visa:pcb4/Data/Images/Anomaly/005.JPG"
+    },
+    "figure": "visa/pcb4/seed-17/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb4",
+    "seed": 29,
+    "selection": {
+      "true_negative": "visa:pcb4/Data/Images/Normal/0363.JPG",
+      "false_positive": null,
+      "miss": "visa:pcb4/Data/Images/Anomaly/046.JPG",
+      "smallest_defect": "visa:pcb4/Data/Images/Anomaly/046.JPG",
+      "localization_failure": "visa:pcb4/Data/Images/Anomaly/005.JPG"
+    },
+    "figure": "visa/pcb4/seed-29/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "pcb4",
+    "seed": 43,
+    "selection": {
+      "true_negative": "visa:pcb4/Data/Images/Normal/0107.JPG",
+      "false_positive": null,
+      "miss": "visa:pcb4/Data/Images/Anomaly/046.JPG",
+      "smallest_defect": "visa:pcb4/Data/Images/Anomaly/046.JPG",
+      "localization_failure": "visa:pcb4/Data/Images/Anomaly/012.JPG"
+    },
+    "figure": "visa/pcb4/seed-43/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "pipe_fryum",
+    "seed": 17,
+    "selection": {
+      "true_negative": "visa:pipe_fryum/Data/Images/Normal/402.JPG",
+      "false_positive": null,
+      "miss": "visa:pipe_fryum/Data/Images/Anomaly/063.JPG",
+      "smallest_defect": "visa:pipe_fryum/Data/Images/Anomaly/039.JPG",
+      "localization_failure": "visa:pipe_fryum/Data/Images/Anomaly/063.JPG"
+    },
+    "figure": "visa/pipe_fryum/seed-17/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "pipe_fryum",
+    "seed": 29,
+    "selection": {
+      "true_negative": "visa:pipe_fryum/Data/Images/Normal/352.JPG",
+      "false_positive": null,
+      "miss": "visa:pipe_fryum/Data/Images/Anomaly/062.JPG",
+      "smallest_defect": "visa:pipe_fryum/Data/Images/Anomaly/039.JPG",
+      "localization_failure": "visa:pipe_fryum/Data/Images/Anomaly/069.JPG"
+    },
+    "figure": "visa/pipe_fryum/seed-29/figures/cases.png"
+  },
+  {
+    "dataset": "visa",
+    "category": "pipe_fryum",
+    "seed": 43,
+    "selection": {
+      "true_negative": "visa:pipe_fryum/Data/Images/Normal/012.JPG",
+      "false_positive": null,
+      "miss": "visa:pipe_fryum/Data/Images/Anomaly/063.JPG",
+      "smallest_defect": "visa:pipe_fryum/Data/Images/Anomaly/039.JPG",
+      "localization_failure": "visa:pipe_fryum/Data/Images/Anomaly/039.JPG"
+    },
+    "figure": "visa/pipe_fryum/seed-43/figures/cases.png"
+  }
+]

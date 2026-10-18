@@ -1,0 +1,30 @@
+{
+  "source_only": true,
+  "id_and_path_leakage_check_passed": true,
+  "methods": {
+    "0.0": {
+      "image": {
+        "cutoff": 1.9804482460021973,
+        "replayed_calibration_fpr": 0.05,
+        "observations": 160
+      },
+      "pixel": {
+        "cutoff": 1.179829716682434,
+        "replayed_calibration_fpr": 0.05,
+        "observations": 32112640
+      }
+    },
+    "0.25": {
+      "image": {
+        "cutoff": 2.343151807785034,
+        "replayed_calibration_fpr": 0.05,
+        "observations": 160
+      },
+      "pixel": {
+        "cutoff": 1.3915828466415405,
+        "replayed_calibration_fpr": 0.05,
+        "observations": 32112640
+      }
+    }
+  }
+}

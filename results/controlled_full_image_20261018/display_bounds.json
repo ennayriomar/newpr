@@ -1,0 +1,11 @@
+{
+  "shared_raw_bounds": [
+    0.0016035860171541572,
+    2.9275753498077393
+  ],
+  "shared_delta_range": [
+    0.0,
+    0.8809846639633179
+  ],
+  "scope": "All evaluated bottle and VisA images, both methods, all draws; display only"
+}

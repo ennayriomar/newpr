@@ -1,0 +1,11 @@
+{
+  "old_development_support_ids": [
+    "bottle/train/good/038.png"
+  ],
+  "controlled_development_support_ids": [
+    "mvtec_ad:bottle/train/good/133.png"
+  ],
+  "same_seed_label": 17,
+  "within_run_methods_share_identical_support": true,
+  "limitation": "Different support sampler/reference between historical audit and controlled run. Do not attribute old-versus-new bottle metric changes solely to calibration or geometry. Controlled support/protocol is unchanged after scoring."
+}

@@ -1,0 +1,99 @@
+{
+  "dataset": "visa",
+  "category": "chewinggum",
+  "seed": 29,
+  "shots": 1,
+  "image_id": "visa:chewinggum/Data/Images/Anomaly/072.JPG",
+  "native_id": "chewinggum/Data/Images/Anomaly/072.JPG",
+  "image_sha256": "c0bc30c58f0985f8e30b34ac4284deed8a85d52b45689551ec81a77a3002ec83",
+  "mask_sha256": "9826c58cb95991ccc074c28a2fcd9215e3a88bbc5fcee757c3a3583c10c89bfb",
+  "label": 1,
+  "scores": {
+    "baseline": 1.246828317642212,
+    "hybrid": 1.5896453857421875,
+    "lambda_zero": 1.246828317642212
+  },
+  "method_labels": {
+    "baseline": "internal baseline",
+    "hybrid": "adapted implementation",
+    "lambda_zero": "adapted implementation"
+  },
+  "decisions": {
+    "baseline": false,
+    "hybrid": false,
+    "lambda_zero": false
+  },
+  "truth_pixels": 63,
+  "hybrid_pixel_iou": 0.03567251461988304,
+  "max_abs_branch_difference": 0.4583181142807007,
+  "mean_abs_branch_difference": 0.07032370668947602,
+  "lambda_zero_exact": true,
+  "map_shape": [
+    448,
+    448
+  ],
+  "gt_shape": [
+    448,
+    448
+  ],
+  "scored_field_fraction": 1.0,
+  "protocol_sha256": "dc078b5a681b8a44015dc02a227afb4b20f248e7ca70ac8e31a95f321aa2f408",
+  "support_ids": [
+    "visa:chewinggum/Data/Images/Normal/304.JPG"
+  ],
+  "raw_map": "f5d364681d9a_raw.npz",
+  "raw_map_sha256": "04cad440ff2cf87ea55e08c0f0d370177b32103cbcc2ae3fd80fd877bb348bd0",
+  "selection_reasons": [
+    "smallest_defect"
+  ],
+  "shared_raw_bounds": [
+    0.0016035860171541572,
+    2.9275753498077393
+  ],
+  "delta_range": [
+    0.0,
+    0.8809846639633179
+  ],
+  "cutoffs": {
+    "baseline": {
+      "image": {
+        "cutoff": 1.9804482460021973,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 160,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      },
+      "pixel": {
+        "cutoff": 1.179829716682434,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 32112640,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      }
+    },
+    "hybrid": {
+      "image": {
+        "cutoff": 2.343151807785034,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 160,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      },
+      "pixel": {
+        "cutoff": 1.3915828466415405,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 32112640,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      }
+    }
+  }
+}

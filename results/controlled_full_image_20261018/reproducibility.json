@@ -1,0 +1,291 @@
+[
+  {
+    "image_id": "mvtec_ad:bottle/test/broken_large/000.png",
+    "identical_scores": true,
+    "scores": [
+      [
+        1.7090486288070679,
+        2.1506004333496094,
+        1.7090486288070679
+      ]
+    ],
+    "same_frozen_bank_and_seed": true,
+    "encoder_inference_repeated": true
+  },
+  {
+    "image_id": "visa:candle/Data/Images/Anomaly/000.JPG",
+    "identical_scores": true,
+    "scores": [
+      [
+        0.7905095219612122,
+        0.941093385219574,
+        0.7905095219612122
+      ],
+      [
+        0.790313720703125,
+        0.9701875448226929,
+        0.790313720703125
+      ],
+      [
+        0.8424032330513,
+        1.0318461656570435,
+        0.8424032330513
+      ]
+    ],
+    "same_frozen_bank_and_seed": true,
+    "encoder_inference_repeated": true
+  },
+  {
+    "image_id": "visa:capsules/Data/Images/Anomaly/000.JPG",
+    "identical_scores": true,
+    "scores": [
+      [
+        0.9814198613166809,
+        1.0917327404022217,
+        0.9814198613166809
+      ],
+      [
+        1.0211149454116821,
+        1.1537284851074219,
+        1.0211149454116821
+      ],
+      [
+        1.0141292810440063,
+        1.1377097368240356,
+        1.0141292810440063
+      ]
+    ],
+    "same_frozen_bank_and_seed": true,
+    "encoder_inference_repeated": true
+  },
+  {
+    "image_id": "visa:cashew/Data/Images/Anomaly/000.JPG",
+    "identical_scores": true,
+    "scores": [
+      [
+        1.0590612888336182,
+        1.3659441471099854,
+        1.0590612888336182
+      ],
+      [
+        1.0401450395584106,
+        1.3402228355407715,
+        1.0401450395584106
+      ],
+      [
+        0.9324575662612915,
+        1.2020398378372192,
+        0.9324575662612915
+      ]
+    ],
+    "same_frozen_bank_and_seed": true,
+    "encoder_inference_repeated": true
+  },
+  {
+    "image_id": "visa:chewinggum/Data/Images/Anomaly/000.JPG",
+    "identical_scores": true,
+    "scores": [
+      [
+        1.7071388959884644,
+        2.2007172107696533,
+        1.7071388959884644
+      ],
+      [
+        1.8553019762039185,
+        2.4125094413757324,
+        1.8553019762039185
+      ],
+      [
+        1.792536973953247,
+        2.3216137886047363,
+        1.792536973953247
+      ]
+    ],
+    "same_frozen_bank_and_seed": true,
+    "encoder_inference_repeated": true
+  },
+  {
+    "image_id": "visa:fryum/Data/Images/Anomaly/000.JPG",
+    "identical_scores": true,
+    "scores": [
+      [
+        1.6430420875549316,
+        2.1666464805603027,
+        1.6430420875549316
+      ],
+      [
+        1.6253445148468018,
+        2.130239486694336,
+        1.6253445148468018
+      ],
+      [
+        1.5872591733932495,
+        2.1071486473083496,
+        1.5872591733932495
+      ]
+    ],
+    "same_frozen_bank_and_seed": true,
+    "encoder_inference_repeated": true
+  },
+  {
+    "image_id": "visa:macaroni1/Data/Images/Anomaly/000.JPG",
+    "identical_scores": true,
+    "scores": [
+      [
+        0.7119600772857666,
+        0.8761623501777649,
+        0.7119600772857666
+      ],
+      [
+        0.6637957096099854,
+        0.8157141208648682,
+        0.6637957096099854
+      ],
+      [
+        0.759958803653717,
+        0.9278318285942078,
+        0.759958803653717
+      ]
+    ],
+    "same_frozen_bank_and_seed": true,
+    "encoder_inference_repeated": true
+  },
+  {
+    "image_id": "visa:macaroni2/Data/Images/Anomaly/000.JPG",
+    "identical_scores": true,
+    "scores": [
+      [
+        0.9233273863792419,
+        1.0992414951324463,
+        0.9233273863792419
+      ],
+      [
+        0.9629247784614563,
+        1.1803032159805298,
+        0.9629247784614563
+      ],
+      [
+        0.9404072761535645,
+        1.1075687408447266,
+        0.9404072761535645
+      ]
+    ],
+    "same_frozen_bank_and_seed": true,
+    "encoder_inference_repeated": true
+  },
+  {
+    "image_id": "visa:pcb1/Data/Images/Anomaly/000.JPG",
+    "identical_scores": true,
+    "scores": [
+      [
+        0.8640021085739136,
+        1.0162906646728516,
+        0.8640021085739136
+      ],
+      [
+        0.8650102615356445,
+        1.035773754119873,
+        0.8650102615356445
+      ],
+      [
+        0.8135767579078674,
+        0.9733818173408508,
+        0.8135767579078674
+      ]
+    ],
+    "same_frozen_bank_and_seed": true,
+    "encoder_inference_repeated": true
+  },
+  {
+    "image_id": "visa:pcb2/Data/Images/Anomaly/000.JPG",
+    "identical_scores": true,
+    "scores": [
+      [
+        0.9321051836013794,
+        1.0891385078430176,
+        0.9321051836013794
+      ],
+      [
+        0.9062340259552002,
+        1.0673695802688599,
+        0.9062340259552002
+      ],
+      [
+        0.9261696338653564,
+        1.0835380554199219,
+        0.9261696338653564
+      ]
+    ],
+    "same_frozen_bank_and_seed": true,
+    "encoder_inference_repeated": true
+  },
+  {
+    "image_id": "visa:pcb3/Data/Images/Anomaly/000.JPG",
+    "identical_scores": true,
+    "scores": [
+      [
+        1.1363544464111328,
+        1.3595222234725952,
+        1.1363544464111328
+      ],
+      [
+        1.1229498386383057,
+        1.3499298095703125,
+        1.1229498386383057
+      ],
+      [
+        1.1389341354370117,
+        1.3670679330825806,
+        1.1389341354370117
+      ]
+    ],
+    "same_frozen_bank_and_seed": true,
+    "encoder_inference_repeated": true
+  },
+  {
+    "image_id": "visa:pcb4/Data/Images/Anomaly/000.JPG",
+    "identical_scores": true,
+    "scores": [
+      [
+        1.3144336938858032,
+        1.5807116031646729,
+        1.3144336938858032
+      ],
+      [
+        1.2652342319488525,
+        1.5101828575134277,
+        1.2652342319488525
+      ],
+      [
+        1.28511643409729,
+        1.5559691190719604,
+        1.28511643409729
+      ]
+    ],
+    "same_frozen_bank_and_seed": true,
+    "encoder_inference_repeated": true
+  },
+  {
+    "image_id": "visa:pipe_fryum/Data/Images/Anomaly/000.JPG",
+    "identical_scores": true,
+    "scores": [
+      [
+        1.102117657661438,
+        1.5409804582595825,
+        1.102117657661438
+      ],
+      [
+        1.2687002420425415,
+        1.7419987916946411,
+        1.2687002420425415
+      ],
+      [
+        1.3050388097763062,
+        1.776350498199463,
+        1.3050388097763062
+      ]
+    ],
+    "same_frozen_bank_and_seed": true,
+    "encoder_inference_repeated": true
+  }
+]

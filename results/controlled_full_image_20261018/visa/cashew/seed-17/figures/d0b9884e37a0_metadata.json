@@ -1,0 +1,99 @@
+{
+  "dataset": "visa",
+  "category": "cashew",
+  "seed": 17,
+  "shots": 1,
+  "image_id": "visa:cashew/Data/Images/Anomaly/056.JPG",
+  "native_id": "cashew/Data/Images/Anomaly/056.JPG",
+  "image_sha256": "868235b910b333735e825cde8a8feff10b357ef1689a2b56c51e9ff1b7becee2",
+  "mask_sha256": "c2b7e61970e22ec324e28aac7ffd3cc21f78dd930f833852a7e2b6b9a94db399",
+  "label": 1,
+  "scores": {
+    "baseline": 0.7535462975502014,
+    "hybrid": 0.9215863943099976,
+    "lambda_zero": 0.7535462975502014
+  },
+  "method_labels": {
+    "baseline": "internal baseline",
+    "hybrid": "adapted implementation",
+    "lambda_zero": "adapted implementation"
+  },
+  "decisions": {
+    "baseline": false,
+    "hybrid": false,
+    "lambda_zero": false
+  },
+  "truth_pixels": 315,
+  "hybrid_pixel_iou": 0.1394658753709199,
+  "max_abs_branch_difference": 0.3161044120788574,
+  "mean_abs_branch_difference": 0.06084719721974932,
+  "lambda_zero_exact": true,
+  "map_shape": [
+    448,
+    448
+  ],
+  "gt_shape": [
+    448,
+    448
+  ],
+  "scored_field_fraction": 1.0,
+  "protocol_sha256": "dc078b5a681b8a44015dc02a227afb4b20f248e7ca70ac8e31a95f321aa2f408",
+  "support_ids": [
+    "visa:cashew/Data/Images/Normal/292.JPG"
+  ],
+  "raw_map": "d0b9884e37a0_raw.npz",
+  "raw_map_sha256": "ab6e9f4a1179abe2e99042c21d6e2e89a65a8484137ebbb00ad5fc7aeb1959e5",
+  "selection_reasons": [
+    "miss"
+  ],
+  "shared_raw_bounds": [
+    0.0016035860171541572,
+    2.9275753498077393
+  ],
+  "delta_range": [
+    0.0,
+    0.8809846639633179
+  ],
+  "cutoffs": {
+    "baseline": {
+      "image": {
+        "cutoff": 1.9804482460021973,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 160,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      },
+      "pixel": {
+        "cutoff": 1.179829716682434,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 32112640,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      }
+    },
+    "hybrid": {
+      "image": {
+        "cutoff": 2.343151807785034,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 160,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      },
+      "pixel": {
+        "cutoff": 1.3915828466415405,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 32112640,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      }
+    }
+  }
+}

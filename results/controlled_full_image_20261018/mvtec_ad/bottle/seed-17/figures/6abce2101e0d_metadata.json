@@ -1,0 +1,100 @@
+{
+  "dataset": "mvtec_ad",
+  "category": "bottle",
+  "seed": 17,
+  "shots": 1,
+  "image_id": "mvtec_ad:bottle/test/contamination/002.png",
+  "native_id": "bottle/test/contamination/002.png",
+  "image_sha256": "905880d6f1f7c33cce414116beae1bda241efff97ba78647e7c2b5d25a94dd05",
+  "mask_sha256": "dc2fba450415a63981345a4347ed445c0c395f98182b7b0be9dff4f4b700b80e",
+  "label": 1,
+  "scores": {
+    "baseline": 0.837230920791626,
+    "hybrid": 1.04384446144104,
+    "lambda_zero": 0.837230920791626
+  },
+  "method_labels": {
+    "baseline": "internal baseline",
+    "hybrid": "adapted implementation",
+    "lambda_zero": "adapted implementation"
+  },
+  "decisions": {
+    "baseline": false,
+    "hybrid": false,
+    "lambda_zero": false
+  },
+  "truth_pixels": 3719,
+  "hybrid_pixel_iou": 0.0,
+  "max_abs_branch_difference": 0.31804078817367554,
+  "mean_abs_branch_difference": 0.06569526626862524,
+  "lambda_zero_exact": true,
+  "map_shape": [
+    448,
+    448
+  ],
+  "gt_shape": [
+    448,
+    448
+  ],
+  "scored_field_fraction": 1.0,
+  "protocol_sha256": "dc078b5a681b8a44015dc02a227afb4b20f248e7ca70ac8e31a95f321aa2f408",
+  "support_ids": [
+    "mvtec_ad:bottle/train/good/133.png"
+  ],
+  "raw_map": "6abce2101e0d_raw.npz",
+  "raw_map_sha256": "19bd874096b3ed51ec66152142f8bc0a35f92fd4453bd37afe1ef17d88451495",
+  "selection_reasons": [
+    "miss",
+    "localization_failure"
+  ],
+  "shared_raw_bounds": [
+    0.0016035860171541572,
+    2.9275753498077393
+  ],
+  "delta_range": [
+    0.0,
+    0.8809846639633179
+  ],
+  "cutoffs": {
+    "baseline": {
+      "image": {
+        "cutoff": 1.9804482460021973,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 160,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      },
+      "pixel": {
+        "cutoff": 1.179829716682434,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 32112640,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      }
+    },
+    "hybrid": {
+      "image": {
+        "cutoff": 2.343151807785034,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 160,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      },
+      "pixel": {
+        "cutoff": 1.3915828466415405,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 32112640,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      }
+    }
+  }
+}
