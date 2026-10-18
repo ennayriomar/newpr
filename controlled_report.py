@@ -44,7 +44,7 @@ def render(rows,run,plan,path,bounds,delta_max,cuts):
         axes[i,0].set_xlabel(row["native_id"],fontsize=7)
         for j,method in ((2,"baseline"),(3,"hybrid")):
             predicted="defective" if row["decisions"][method] else "normal"
-            axes[i,j].set_xlabel(f"{row['scores'][method]:.4f} > {cuts[method]['image']['cutoff']:.4f}: {predicted}",fontsize=8)
+            axes[i,j].set_xlabel(f"score={row['scores'][method]:.4f} | cutoff={cuts[method]['image']['cutoff']:.4f} | {predicted}",fontsize=8)
         if not delta_max:axes[i,4].set_xlabel("All differences exactly zero",fontsize=8)
     fig.subplots_adjust(left=.08,right=.98,top=.94,bottom=.12,hspace=.4,wspace=.1)
     bar=fig.add_axes([.2,.045,.29,.012])

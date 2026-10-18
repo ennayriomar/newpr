@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-18T13:58:18.208211+00:00",
+  "scope": "Presentation-only caption correction discovered in real bottle rendering smoke test; no change to numeric scoring, source calibration, source selection, bootstraps, stop rule, figure selection or shared colour bounds",
+  "old_reporter_sha256": "99548676abcb2c60331cf95db5c9c59f1c97865516824d97ee86276cbecfd972",
+  "new_reporter_sha256": "d8189ebb8a47ecac3a47c82ca9b164d1c2bf04240fdafe90e00f4a58b5be9855",
+  "diff": [
+    "--- ",
+    "+++ ",
+    "@@ -44,7 +44,7 @@",
+    "         axes[i,0].set_xlabel(row[\"native_id\"],fontsize=7)",
+    "         for j,method in ((2,\"baseline\"),(3,\"hybrid\")):",
+    "             predicted=\"defective\" if row[\"decisions\"][method] else \"normal\"",
+    "-            axes[i,j].set_xlabel(f\"{row['scores'][method]:.4f} > {cuts[method]['image']['cutoff']:.4f}: {predicted}\",fontsize=8)",
+    "+            axes[i,j].set_xlabel(f\"score={row['scores'][method]:.4f} | cutoff={cuts[method]['image']['cutoff']:.4f} | {predicted}\",fontsize=8)",
+    "         if not delta_max:axes[i,4].set_xlabel(\"All differences exactly zero\",fontsize=8)",
+    "     fig.subplots_adjust(left=.08,right=.98,top=.94,bottom=.12,hspace=.4,wspace=.1)",
+    "     bar=fig.add_axes([.2,.045,.29,.012])"
+  ]
+}
