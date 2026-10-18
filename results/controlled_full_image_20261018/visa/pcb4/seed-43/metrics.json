@@ -1,0 +1,138 @@
+{
+  "baseline": {
+    "image_auroc": 0.9931683168316832,
+    "pixel_auroc": 0.9602211418642504,
+    "au_pro": 0.8425342681004055,
+    "image_fpr": 0.0,
+    "recall": 0.0,
+    "balanced_accuracy": 0.5,
+    "pixel_iou": 0.17966301416458125,
+    "pixel_f1": 0.30460057153155007,
+    "image_fp": 0,
+    "image_fn": 100,
+    "normal_images": 101,
+    "anomalous_images": 100,
+    "pixel_counts": {
+      "tp": 59158,
+      "fp": 63900,
+      "fn": 206214,
+      "tn": 40012232
+    },
+    "metric_region": "Whole input field, GT and score map both448x448; no center crop",
+    "native_resolution_metrics": false,
+    "au_pro_max_thresholds": 128,
+    "cutoff_decision": "strict >",
+    "cutoffs": {
+      "image": {
+        "cutoff": 1.9804482460021973,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 160,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      },
+      "pixel": {
+        "cutoff": 1.179829716682434,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 32112640,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      }
+    },
+    "method_label": "internal baseline"
+  },
+  "hybrid": {
+    "image_auroc": 0.99,
+    "pixel_auroc": 0.9645516835265063,
+    "au_pro": 0.8607359661459959,
+    "image_fpr": 0.0,
+    "recall": 0.0,
+    "balanced_accuracy": 0.5,
+    "pixel_iou": 0.1816943380161771,
+    "pixel_f1": 0.3075149506448591,
+    "image_fp": 0,
+    "image_fn": 100,
+    "normal_images": 101,
+    "anomalous_images": 100,
+    "pixel_counts": {
+      "tp": 59752,
+      "fp": 63488,
+      "fn": 205620,
+      "tn": 40012644
+    },
+    "metric_region": "Whole input field, GT and score map both448x448; no center crop",
+    "native_resolution_metrics": false,
+    "au_pro_max_thresholds": 128,
+    "cutoff_decision": "strict >",
+    "cutoffs": {
+      "image": {
+        "cutoff": 2.343151807785034,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 160,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      },
+      "pixel": {
+        "cutoff": 1.3915828466415405,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 32112640,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      }
+    },
+    "method_label": "adapted implementation"
+  },
+  "lambda_zero": {
+    "image_auroc": 0.9931683168316832,
+    "pixel_auroc": 0.9602211418642504,
+    "au_pro": 0.8425342681004055,
+    "image_fpr": 0.0,
+    "recall": 0.0,
+    "balanced_accuracy": 0.5,
+    "pixel_iou": 0.17966301416458125,
+    "pixel_f1": 0.30460057153155007,
+    "image_fp": 0,
+    "image_fn": 100,
+    "normal_images": 101,
+    "anomalous_images": 100,
+    "pixel_counts": {
+      "tp": 59158,
+      "fp": 63900,
+      "fn": 206214,
+      "tn": 40012232
+    },
+    "metric_region": "Whole input field, GT and score map both448x448; no center crop",
+    "native_resolution_metrics": false,
+    "au_pro_max_thresholds": 128,
+    "cutoff_decision": "strict >",
+    "cutoffs": {
+      "image": {
+        "cutoff": 1.9804482460021973,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 160,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      },
+      "pixel": {
+        "cutoff": 1.179829716682434,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 32112640,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      }
+    },
+    "method_label": "adapted implementation",
+    "exact_control": true
+  }
+}

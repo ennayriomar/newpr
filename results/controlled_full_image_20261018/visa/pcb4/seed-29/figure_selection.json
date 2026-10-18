@@ -1,0 +1,7 @@
+{
+  "true_negative": "visa:pcb4/Data/Images/Normal/0363.JPG",
+  "false_positive": null,
+  "miss": "visa:pcb4/Data/Images/Anomaly/046.JPG",
+  "smallest_defect": "visa:pcb4/Data/Images/Anomaly/046.JPG",
+  "localization_failure": "visa:pcb4/Data/Images/Anomaly/005.JPG"
+}
