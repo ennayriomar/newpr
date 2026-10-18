@@ -1,0 +1,7 @@
+{
+  "true_negative": "visa:macaroni1/Data/Images/Normal/0490.JPG",
+  "false_positive": null,
+  "miss": "visa:macaroni1/Data/Images/Anomaly/001.JPG",
+  "smallest_defect": "visa:macaroni1/Data/Images/Anomaly/076.JPG",
+  "localization_failure": "visa:macaroni1/Data/Images/Anomaly/000.JPG"
+}
