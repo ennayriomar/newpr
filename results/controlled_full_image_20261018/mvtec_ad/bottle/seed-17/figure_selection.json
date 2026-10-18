@@ -1,0 +1,7 @@
+{
+  "true_negative": "mvtec_ad:bottle/test/good/014.png",
+  "false_positive": null,
+  "miss": "mvtec_ad:bottle/test/contamination/002.png",
+  "smallest_defect": "mvtec_ad:bottle/test/contamination/018.png",
+  "localization_failure": "mvtec_ad:bottle/test/contamination/002.png"
+}
