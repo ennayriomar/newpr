@@ -1,0 +1,164 @@
+{
+  "episode": {
+    "dataset": "mvtec_ad2",
+    "category": "fruit_jelly",
+    "seed": 17,
+    "support_ids": [
+      "mvtec_ad2:fruit_jelly/train/good/212_regular.png"
+    ],
+    "calibration_ids": [
+      "mvtec_ad2:fruit_jelly/train/good/236_regular.png",
+      "mvtec_ad2:fruit_jelly/train/good/160_regular.png",
+      "mvtec_ad2:fruit_jelly/train/good/108_regular.png",
+      "mvtec_ad2:fruit_jelly/train/good/247_regular.png",
+      "mvtec_ad2:fruit_jelly/train/good/031_regular.png",
+      "mvtec_ad2:fruit_jelly/train/good/254_regular.png",
+      "mvtec_ad2:fruit_jelly/train/good/041_regular.png",
+      "mvtec_ad2:fruit_jelly/train/good/075_regular.png",
+      "mvtec_ad2:fruit_jelly/train/good/016_regular.png",
+      "mvtec_ad2:fruit_jelly/train/good/165_regular.png",
+      "mvtec_ad2:fruit_jelly/train/good/261_regular.png",
+      "mvtec_ad2:fruit_jelly/train/good/104_regular.png",
+      "mvtec_ad2:fruit_jelly/train/good/033_regular.png",
+      "mvtec_ad2:fruit_jelly/train/good/126_regular.png",
+      "mvtec_ad2:fruit_jelly/train/good/219_regular.png",
+      "mvtec_ad2:fruit_jelly/train/good/046_regular.png",
+      "mvtec_ad2:fruit_jelly/train/good/113_regular.png",
+      "mvtec_ad2:fruit_jelly/train/good/109_regular.png",
+      "mvtec_ad2:fruit_jelly/train/good/078_regular.png",
+      "mvtec_ad2:fruit_jelly/train/good/025_regular.png"
+    ],
+    "query_ids": [
+      "mvtec_ad2:fruit_jelly/test_public/bad/004_shift_1.png",
+      "mvtec_ad2:fruit_jelly/test_public/bad/006_overexposed.png",
+      "mvtec_ad2:fruit_jelly/test_public/bad/007_overexposed.png",
+      "mvtec_ad2:fruit_jelly/test_public/bad/008_regular.png",
+      "mvtec_ad2:fruit_jelly/test_public/bad/009_regular.png",
+      "mvtec_ad2:fruit_jelly/test_public/good/002_regular.png",
+      "mvtec_ad2:fruit_jelly/test_public/good/003_overexposed.png",
+      "mvtec_ad2:fruit_jelly/test_public/good/003_shift_1.png",
+      "mvtec_ad2:fruit_jelly/test_public/good/004_overexposed.png",
+      "mvtec_ad2:fruit_jelly/test_public/good/004_shift_1.png"
+    ]
+  },
+  "input_sha256": {
+    "mvtec_ad2:fruit_jelly/train/good/212_regular.png": "65e345d9ba279be25909a105baf447ab5dcca048d339c6d3cdcdf35bb917a184"
+  },
+  "encoder": {
+    "backbone": "dinov2_vitl14_reg",
+    "feature_dimension": 1024,
+    "registers": 4,
+    "resize": 448,
+    "crop": 448,
+    "grid": 32,
+    "layers": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "norm": false,
+    "aggregation": "raw arithmetic block mean, then branch-specific normalization",
+    "interpolation": "PIL bilinear square resize, center crop",
+    "position_interpolation": {
+      "antialias": false,
+      "offset": 0.1
+    },
+    "checkpoint_sha256": "36e4deffbaef061a2576705b0c36f93621e2ae20bf6274694821b0b492551b51",
+    "reference_commit": "2d5e36f357409125ccd9646ba016824005599df4",
+    "source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+    "source_manifest_sha256": "9ed9679525be8520b45cd087ce2bff1cd684f438ac82bc0d6080e36487adf340",
+    "device": "cpu",
+    "dtype": "float32",
+    "frozen": true,
+    "evaluation_mode": true,
+    "torch_version": "2.7.1+cpu",
+    "numpy_version": "2.2.6",
+    "pillow_version": "12.3.0",
+    "python_version": "3.12.14",
+    "implementation_sha256": "da83b69a7d7de10c0fb2dcfd5ce1330b987ebece744f97bd272fe26d97f85e1b",
+    "runtime": {
+      "source_dir": "/workspace/.cache/dinov2-source",
+      "checkpoint": "/tmp/safal_controlled_assets/dinov2_vitl14_reg4_pretrain.pth",
+      "threads": 4
+    }
+  },
+  "model": {
+    "support_ids": [
+      "mvtec_ad2:fruit_jelly/train/good/212_regular.png"
+    ],
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0,
+    "grid": 32,
+    "dimension": 1024,
+    "unique_support_feature_inputs": 14,
+    "slot_indices": {
+      "identity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vflip": [
+        4,
+        6,
+        5,
+        7,
+        0,
+        2
+      ],
+      "clamp": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "subspaces": {
+      "1": {
+        "clusters": 1,
+        "variances": [
+          0.95
+        ],
+        "group_counts": [
+          14336
+        ],
+        "numerical_ranks": [
+          1024
+        ],
+        "retained_ranks": [
+          {
+            "0.95": 283
+          }
+        ],
+        "energy_scales": [
+          161.40839017795093
+        ],
+        "normalization": "Residual squared norm / mean total centered normal feature energy in assigned cluster",
+        "independent_original_images_not_patch_count": true
+      }
+    },
+    "correction": "Nonnegative additive residual; unchanged baseline when strength=0",
+    "gate_semantics": "Heuristic residual/(residual+cosine-distance), not calibrated reliability",
+    "strict_target_support_budget": true,
+    "probabilities": false
+  },
+  "same_support_for_all_methods": true,
+  "extra_target_normal_images": 0,
+  "support_features_sha256": "0f6c22438f5984c00700f16a74cb9dd423e5d8fb9b87080a6ce5233a46d8669d"
+}
