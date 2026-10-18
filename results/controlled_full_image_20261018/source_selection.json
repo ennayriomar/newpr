@@ -1,0 +1,277 @@
+{
+  "candidates": [
+    {
+      "lambda": 0.0,
+      "mean_balanced_accuracy": 0.475,
+      "mean_image_auroc": 0.625,
+      "categories": [
+        {
+          "category": "can",
+          "balanced_accuracy": 0.3,
+          "image_auroc": 0.31999999999999995
+        },
+        {
+          "category": "fabric",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.52
+        },
+        {
+          "category": "fruit_jelly",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.72
+        },
+        {
+          "category": "rice",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.72
+        },
+        {
+          "category": "sheet_metal",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.76
+        },
+        {
+          "category": "vial",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 1.0
+        },
+        {
+          "category": "wallplugs",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.19999999999999996
+        },
+        {
+          "category": "walnuts",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.76
+        }
+      ]
+    },
+    {
+      "lambda": 0.1,
+      "mean_balanced_accuracy": 0.475,
+      "mean_image_auroc": 0.635,
+      "categories": [
+        {
+          "category": "can",
+          "balanced_accuracy": 0.3,
+          "image_auroc": 0.31999999999999995
+        },
+        {
+          "category": "fabric",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.52
+        },
+        {
+          "category": "fruit_jelly",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.8
+        },
+        {
+          "category": "rice",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.72
+        },
+        {
+          "category": "sheet_metal",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.76
+        },
+        {
+          "category": "vial",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 1.0
+        },
+        {
+          "category": "wallplugs",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.19999999999999996
+        },
+        {
+          "category": "walnuts",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.76
+        }
+      ]
+    },
+    {
+      "lambda": 0.25,
+      "mean_balanced_accuracy": 0.475,
+      "mean_image_auroc": 0.65,
+      "categories": [
+        {
+          "category": "can",
+          "balanced_accuracy": 0.3,
+          "image_auroc": 0.31999999999999995
+        },
+        {
+          "category": "fabric",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.52
+        },
+        {
+          "category": "fruit_jelly",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.84
+        },
+        {
+          "category": "rice",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.72
+        },
+        {
+          "category": "sheet_metal",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.76
+        },
+        {
+          "category": "vial",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.9600000000000001
+        },
+        {
+          "category": "wallplugs",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.27999999999999997
+        },
+        {
+          "category": "walnuts",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.8
+        }
+      ]
+    },
+    {
+      "lambda": 0.5,
+      "mean_balanced_accuracy": 0.475,
+      "mean_image_auroc": 0.6400000000000001,
+      "categories": [
+        {
+          "category": "can",
+          "balanced_accuracy": 0.3,
+          "image_auroc": 0.27999999999999997
+        },
+        {
+          "category": "fabric",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.52
+        },
+        {
+          "category": "fruit_jelly",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.84
+        },
+        {
+          "category": "rice",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.72
+        },
+        {
+          "category": "sheet_metal",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.72
+        },
+        {
+          "category": "vial",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.9600000000000001
+        },
+        {
+          "category": "wallplugs",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.31999999999999995
+        },
+        {
+          "category": "walnuts",
+          "balanced_accuracy": 0.5,
+          "image_auroc": 0.7600000000000001
+        }
+      ]
+    }
+  ],
+  "selected_lambda": 0.25,
+  "calibration": {
+    "0.0": {
+      "image": {
+        "cutoff": 1.9804482460021973,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 160,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      },
+      "pixel": {
+        "cutoff": 1.179829716682434,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 32112640,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      }
+    },
+    "0.1": {
+      "image": {
+        "cutoff": 2.1134612560272217,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 160,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      },
+      "pixel": {
+        "cutoff": 1.2640646696090698,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 32112640,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      }
+    },
+    "0.25": {
+      "image": {
+        "cutoff": 2.343151807785034,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 160,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      },
+      "pixel": {
+        "cutoff": 1.3915828466415405,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 32112640,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      }
+    },
+    "0.5": {
+      "image": {
+        "cutoff": 2.696584463119507,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 160,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      },
+      "pixel": {
+        "cutoff": 1.6066844463348389,
+        "decision": "score > cutoff",
+        "target_fpr": 0.05,
+        "realised_calibration_fpr": 0.05,
+        "observations": 32112640,
+        "target_fpr_guaranteed": false,
+        "source_normal_only": true
+      }
+    }
+  },
+  "selection_images": "AD2 public-test queries only",
+  "cutoff_images": "AD2 train normals only"
+}

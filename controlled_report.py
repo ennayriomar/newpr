@@ -131,7 +131,8 @@ def report(run):
         variation[method]={"per_seed_macro":per_seed,
                            "std_across_three_draws_ddof1":{metric:float(np.std([values[metric] for values in per_seed.values()],ddof=1)) for metric in METRICS}}
     lo,hi=overall["image_auroc"]["category_cluster_interval"]
-    benefit=lo>0 and overall["image_auroc"]["paired_mean_difference"]>0 and overall["balanced_accuracy"]["paired_mean_difference"]>0
+    benefit=(lo>0 and overall["image_auroc"]["paired_mean_difference"]>0
+             and overall["balanced_accuracy"]["category_cluster_interval"][0]>0)
     conclusion="demonstrated benefit in this controlled known-dataset comparison" if benefit else "no demonstrated benefit"
     # One literal raw range across both methods and ALL figures, without labels.
     minimum,maximum,delta_max=np.inf,-np.inf,0.
@@ -176,7 +177,7 @@ def report(run):
              "uncertainty":"Paired query-image stratified bootstrap conditional on fixed support banks; common image weights across support draws within category; category-cluster bootstrap averages draws before resampling12 categories. Pixel AUROC bootstrap uses4096-score-rank grid; its point metric is exact. AU-PRO uses128-score-rank grid, FPR0.3. Neither resamples pixels independently.",
              "interpretation":"Known datasets with prior research exposure; no fresh-data, official reproduction or state-of-the-art claim"}
     write_json(run/"results/summary.json",summary)
-    for name in ("protocol.json","protocol.json.sha256","calibration_ids.json","source_selection.json","leakage_check.json","experiment_config.json","source_reproducibility.json","unit_tests.log"):
+    for name in ("protocol.json","protocol.json.sha256","calibration_ids.json","source_selection.json","leakage_check.json","experiment_config.json","source_reproducibility.json","unit_tests.log","analysis_plan.json","analysis_plan.json.sha256"):
         shutil.copyfile(run/name,run/"results"/name)
     lines=["# Controlled full-image source-calibrated experiment", "", f"**{conclusion}.** Frozen lambda: {protocol['frozen_lambda']}.", "",
            "VisA: all12 native categories, all2162 native test images, one-shot supports at seeds17/29/43; the three methods use exactly the same support images and no additional target normals. Bottle is development evidence only and did not select any setting.", "",

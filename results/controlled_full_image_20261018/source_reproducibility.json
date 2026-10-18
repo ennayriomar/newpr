@@ -1,0 +1,16 @@
+[
+  {
+    "image_id": "mvtec_ad2:can/test_public/bad/000_underexposed.png",
+    "identical_scores": true,
+    "scores": [
+      [
+        1.9637619256973267,
+        2.106688976287842,
+        2.3248298168182373,
+        2.6958773136138916
+      ]
+    ],
+    "same_frozen_bank_and_seed": true,
+    "encoder_inference_repeated": true
+  }
+]

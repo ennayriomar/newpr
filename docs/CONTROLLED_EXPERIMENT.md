@@ -106,8 +106,10 @@ independently.
 Overall differences first average support draws within category, then weight
 categories equally. A category-level cluster bootstrap resamples the12 VisA
 categories. The primary stop criterion is the overall image-AUROC paired
-interval: it must exclude zero in the positive direction, and calibrated
-balanced accuracy must also improve. Otherwise the report says **no demonstrated
+interval: it must exclude zero in the positive direction, and the calibrated
+balanced-accuracy interval must also exclude zero positively. This conservative
+interpretation is separately sealed in analysis_plan.json before target inference.
+Otherwise the report says **no demonstrated
 benefit**, and the experiment ends without searching more settings. All12
 VisA categories and three draws run before this rule is applied.
 

@@ -1,0 +1,8 @@
+{
+  "recorded_at_utc": "2026-10-18T13:32:42.430894+00:00",
+  "target_inference_started": false,
+  "no_change_to_source_selection_or_scoring": true,
+  "conservative_stop_interpretation": "No demonstrated benefit unless BOTH overall VisA mean image-AUROC difference and source-calibrated balanced-accuracy difference have category-cluster95% intervals wholly above zero. Any gain inside noise is reported without further search.",
+  "report_code_sha256": "99548676abcb2c60331cf95db5c9c59f1c97865516824d97ee86276cbecfd972",
+  "bootstrap_code_sha256": "a8269cd0ee1ed75cb3152c86c0486b11909de69052cf8f242992cac617bc60c2"
+}
