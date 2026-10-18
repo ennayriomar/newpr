@@ -1,0 +1,164 @@
+{
+  "episode": {
+    "dataset": "mvtec_ad2",
+    "category": "vial",
+    "seed": 17,
+    "support_ids": [
+      "mvtec_ad2:vial/train/good/267_regular.png"
+    ],
+    "calibration_ids": [
+      "mvtec_ad2:vial/train/good/129_regular.png",
+      "mvtec_ad2:vial/train/good/135_regular.png",
+      "mvtec_ad2:vial/train/good/103_regular.png",
+      "mvtec_ad2:vial/train/good/274_regular.png",
+      "mvtec_ad2:vial/train/good/180_regular.png",
+      "mvtec_ad2:vial/train/good/123_regular.png",
+      "mvtec_ad2:vial/train/good/187_regular.png",
+      "mvtec_ad2:vial/train/good/011_regular.png",
+      "mvtec_ad2:vial/train/good/208_regular.png",
+      "mvtec_ad2:vial/train/good/039_regular.png",
+      "mvtec_ad2:vial/train/good/204_regular.png",
+      "mvtec_ad2:vial/train/good/104_regular.png",
+      "mvtec_ad2:vial/train/good/159_regular.png",
+      "mvtec_ad2:vial/train/good/177_regular.png",
+      "mvtec_ad2:vial/train/good/151_regular.png",
+      "mvtec_ad2:vial/train/good/132_regular.png",
+      "mvtec_ad2:vial/train/good/181_regular.png",
+      "mvtec_ad2:vial/train/good/022_regular.png",
+      "mvtec_ad2:vial/train/good/206_regular.png",
+      "mvtec_ad2:vial/train/good/010_regular.png"
+    ],
+    "query_ids": [
+      "mvtec_ad2:vial/test_public/bad/002_underexposed.png",
+      "mvtec_ad2:vial/test_public/bad/009_overexposed.png",
+      "mvtec_ad2:vial/test_public/bad/010_shift_2.png",
+      "mvtec_ad2:vial/test_public/bad/011_underexposed.png",
+      "mvtec_ad2:vial/test_public/bad/013_shift_4.png",
+      "mvtec_ad2:vial/test_public/good/000_shift_4.png",
+      "mvtec_ad2:vial/test_public/good/001_shift_2.png",
+      "mvtec_ad2:vial/test_public/good/001_shift_3.png",
+      "mvtec_ad2:vial/test_public/good/004_shift_2.png",
+      "mvtec_ad2:vial/test_public/good/004_underexposed.png"
+    ]
+  },
+  "input_sha256": {
+    "mvtec_ad2:vial/train/good/267_regular.png": "6f2199257cc52402b9b62ec64c23e2ee1d99c6ee1406de63f7b317196b2ba3e7"
+  },
+  "encoder": {
+    "backbone": "dinov2_vitl14_reg",
+    "feature_dimension": 1024,
+    "registers": 4,
+    "resize": 448,
+    "crop": 448,
+    "grid": 32,
+    "layers": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "norm": false,
+    "aggregation": "raw arithmetic block mean, then branch-specific normalization",
+    "interpolation": "PIL bilinear square resize, center crop",
+    "position_interpolation": {
+      "antialias": false,
+      "offset": 0.1
+    },
+    "checkpoint_sha256": "36e4deffbaef061a2576705b0c36f93621e2ae20bf6274694821b0b492551b51",
+    "reference_commit": "2d5e36f357409125ccd9646ba016824005599df4",
+    "source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+    "source_manifest_sha256": "9ed9679525be8520b45cd087ce2bff1cd684f438ac82bc0d6080e36487adf340",
+    "device": "cpu",
+    "dtype": "float32",
+    "frozen": true,
+    "evaluation_mode": true,
+    "torch_version": "2.7.1+cpu",
+    "numpy_version": "2.2.6",
+    "pillow_version": "12.3.0",
+    "python_version": "3.12.14",
+    "implementation_sha256": "da83b69a7d7de10c0fb2dcfd5ce1330b987ebece744f97bd272fe26d97f85e1b",
+    "runtime": {
+      "source_dir": "/workspace/.cache/dinov2-source",
+      "checkpoint": "/tmp/safal_controlled_assets/dinov2_vitl14_reg4_pretrain.pth",
+      "threads": 4
+    }
+  },
+  "model": {
+    "support_ids": [
+      "mvtec_ad2:vial/train/good/267_regular.png"
+    ],
+    "original_support_images": 1,
+    "extra_target_calibration_images": 0,
+    "grid": 32,
+    "dimension": 1024,
+    "unique_support_feature_inputs": 14,
+    "slot_indices": {
+      "identity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vflip": [
+        4,
+        6,
+        5,
+        7,
+        0,
+        2
+      ],
+      "clamp": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "subspaces": {
+      "1": {
+        "clusters": 1,
+        "variances": [
+          0.95
+        ],
+        "group_counts": [
+          14336
+        ],
+        "numerical_ranks": [
+          1024
+        ],
+        "retained_ranks": [
+          {
+            "0.95": 305
+          }
+        ],
+        "energy_scales": [
+          156.91456720963384
+        ],
+        "normalization": "Residual squared norm / mean total centered normal feature energy in assigned cluster",
+        "independent_original_images_not_patch_count": true
+      }
+    },
+    "correction": "Nonnegative additive residual; unchanged baseline when strength=0",
+    "gate_semantics": "Heuristic residual/(residual+cosine-distance), not calibrated reliability",
+    "strict_target_support_budget": true,
+    "probabilities": false
+  },
+  "same_support_for_all_methods": true,
+  "extra_target_normal_images": 0,
+  "support_features_sha256": "ce3e4671c9158e0a4f0de7fb348c3e4ea9d3fe90f804738acd0b86b793ab21ac"
+}
