@@ -1,0 +1,7 @@
+{
+  "true_negative": "visa:chewinggum/Data/Images/Normal/089.JPG",
+  "false_positive": null,
+  "miss": "visa:chewinggum/Data/Images/Anomaly/033.JPG",
+  "smallest_defect": "visa:chewinggum/Data/Images/Anomaly/072.JPG",
+  "localization_failure": "visa:chewinggum/Data/Images/Anomaly/031.JPG"
+}
