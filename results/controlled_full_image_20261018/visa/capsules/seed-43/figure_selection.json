@@ -1,0 +1,7 @@
+{
+  "true_negative": "visa:capsules/Data/Images/Normal/377.JPG",
+  "false_positive": null,
+  "miss": "visa:capsules/Data/Images/Anomaly/039.JPG",
+  "smallest_defect": "visa:capsules/Data/Images/Anomaly/038.JPG",
+  "localization_failure": "visa:capsules/Data/Images/Anomaly/031.JPG"
+}
