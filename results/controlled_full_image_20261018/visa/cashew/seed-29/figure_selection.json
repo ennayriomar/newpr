@@ -1,0 +1,7 @@
+{
+  "true_negative": "visa:cashew/Data/Images/Normal/087.JPG",
+  "false_positive": null,
+  "miss": "visa:cashew/Data/Images/Anomaly/055.JPG",
+  "smallest_defect": "visa:cashew/Data/Images/Anomaly/067.JPG",
+  "localization_failure": "visa:cashew/Data/Images/Anomaly/021.JPG"
+}
