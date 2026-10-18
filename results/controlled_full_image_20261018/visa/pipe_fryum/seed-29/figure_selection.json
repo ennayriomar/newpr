@@ -1,0 +1,7 @@
+{
+  "true_negative": "visa:pipe_fryum/Data/Images/Normal/352.JPG",
+  "false_positive": null,
+  "miss": "visa:pipe_fryum/Data/Images/Anomaly/062.JPG",
+  "smallest_defect": "visa:pipe_fryum/Data/Images/Anomaly/039.JPG",
+  "localization_failure": "visa:pipe_fryum/Data/Images/Anomaly/069.JPG"
+}
