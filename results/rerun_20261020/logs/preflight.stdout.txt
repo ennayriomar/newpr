@@ -1,0 +1,8 @@
+{"errno": 2, "error": "[Errno 2] No such file or directory: '/tmp/safal_controlled_assets/dinov2_vitl14_reg4_pretrain.pth'", "error_type": "FileNotFoundError", "path": "/tmp/safal_controlled_assets/dinov2_vitl14_reg4_pretrain.pth"}
+{"errno": 2, "error": "[Errno 2] No such file or directory: '/workspace/.cache/dinov2-source'", "error_type": "FileNotFoundError", "path": "/workspace/.cache/dinov2-source"}
+{"errno": 2, "error": "[Errno 2] No such file or directory: '/workspace/datasets/mvtec_ad2_public/mvtec_ad_2'", "error_type": "FileNotFoundError", "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2"}
+{"errno": 2, "error": "[Errno 2] No such file or directory: '/workspace/datasets/mvtec_ad'", "error_type": "FileNotFoundError", "path": "/workspace/datasets/mvtec_ad"}
+{"errno": 2, "error": "[Errno 2] No such file or directory: '/workspace/datasets/visa'", "error_type": "FileNotFoundError", "path": "/workspace/datasets/visa"}
+{"errno": 2, "error": "[Errno 2] No such file or directory: '/workspace/scratch/87bcf964428f/controlled_experiment.py'", "error_type": "FileNotFoundError", "path": "/workspace/scratch/87bcf964428f/controlled_experiment.py"}
+{"errno": 2, "error": "[Errno 2] No such file or directory: '/workspace/scratch/87bcf964428f/results/controlled_full_image_20261018/per_image.jsonl'", "error_type": "FileNotFoundError", "path": "/workspace/scratch/87bcf964428f/results/controlled_full_image_20261018/per_image.jsonl"}
+PREFLIGHT ONLY: no features extracted, PCA fitted, inference, calibration, metrics, leakage enumeration, or model reruns performed.
