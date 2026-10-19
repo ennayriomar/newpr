@@ -1,0 +1,20 @@
+{
+  "tool": "github_create_branch",
+  "arguments": {
+    "repository_full_name": "ennayriomar/newpr",
+    "branch_name": "rerun-20261020",
+    "sha": "05c0fcea1b3289f0daf2f658c56b08c2848b71e9"
+  },
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "branch": "rerun-20261020"
+    },
+    "isError": false
+  }
+}
