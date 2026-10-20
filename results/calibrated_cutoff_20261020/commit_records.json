@@ -4,9 +4,21 @@
   "base_branch": "controlled-full-image-20261018",
   "base_commit": "05c0fcea1b3289f0daf2f658c56b08c2848b71e9",
   "branch_created_from_base": true,
-  "audit_commit": null,
-  "publication_verified": false,
+  "audit_commit": "6f1515c514a51ceb961e4616e87620e48f630c3d",
+  "audit_commit_url": "https://github.com/ennayriomar/newpr/commit/6f1515c514a51ceb961e4616e87620e48f630c3d",
+  "publication_verified": true,
+  "verification": {
+    "source": "GitHub compare_commits",
+    "base": "05c0fcea1b3289f0daf2f658c56b08c2848b71e9",
+    "head": "6f1515c514a51ceb961e4616e87620e48f630c3d",
+    "ahead_by": 1,
+    "behind_by": 0,
+    "files_added": 48,
+    "all_changes_within_new_results_directory": true,
+    "historical_results_or_scoring_code_changed": false
+  },
   "frozen_study_protocol_commit": null,
   "inference_stage_commits": [],
-  "note": "Preflight audit only. Publication is recorded after the audit commit is created. No smoke/source/VisA stage was run."
+  "publication_record_commit": "The commit containing this finalized file; resolve from branch history.",
+  "note": "Preflight audit only. No new cutoff implementation, smoke, source calibration or VisA stage was run. No completed-study verdict was issued."
 }
