@@ -1,0 +1,59 @@
+{
+  "required_filename": "dinov2_vitl14_reg4_pretrain.pth",
+  "required_sha256": "36e4deffbaef061a2576705b0c36f93621e2ae20bf6274694821b0b492551b51",
+  "required_bytes": 1217607321,
+  "search_roots": [
+    "C:\\Users\\ennay\\Downloads",
+    "C:\\Users\\ennay\\Documents\\Codex",
+    "C:\\Users\\ennay\\.cache",
+    "D:\\"
+  ],
+  "candidates": [
+    {
+      "path": "C:\\Users\\ennay\\.cache\\torch\\hub\\checkpoints\\dinov2_vits14_pretrain.pth",
+      "bytes": 88283115,
+      "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+      "matches_required": false
+    },
+    {
+      "path": "C:\\Users\\ennay\\.cache\\torch\\hub\\checkpoints\\dinov2_vitb14_pretrain.pth",
+      "bytes": 346378731,
+      "sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+      "matches_required": false
+    }
+  ],
+  "verified": false,
+  "no_checkpoint_loaded": true,
+  "search_command": {
+    "name": "checkpoint_search",
+    "argv": [
+      "rg",
+      "--files",
+      "--hidden",
+      "-g",
+      "*dinov2*.pth",
+      "-g",
+      "*vitl14*",
+      "-g",
+      "!**/node_modules/**",
+      "-g",
+      "!**/site-packages/**",
+      "-g",
+      "!**/.git/**",
+      "C:\\Users\\ennay\\Downloads",
+      "C:\\Users\\ennay\\Documents\\Codex",
+      "C:\\Users\\ennay\\.cache",
+      "D:\\"
+    ],
+    "cwd": "C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr",
+    "started_utc": "2026-10-20T09:07:44.722329+00:00",
+    "elapsed_seconds": 0.28795890000037616,
+    "returncode": 2,
+    "infrastructure_error": null,
+    "stdout": "logs/checkpoint_search.stdout.log",
+    "stderr": "logs/checkpoint_search.stderr.log",
+    "environment_overrides": {}
+  },
+  "limitation": "Unreadable directories are reported in stderr; absence is scoped to accessible searched locations.",
+  "no_download_or_substitution": true
+}

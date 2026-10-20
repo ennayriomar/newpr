@@ -1,0 +1,64 @@
+{
+  "recorded_utc": "2026-10-20T09:43:27.036106+00:00",
+  "scope": "preflight audit only",
+  "repository": "ennayriomar/newpr",
+  "branch": "calibrated-cutoff-20261020",
+  "base_commit": "05c0fcea1b3289f0daf2f658c56b08c2848b71e9",
+  "preflight_passed": false,
+  "infrastructure_or_prerequisite_failure": true,
+  "blockers": [
+    "Required DINOv2 ViT-L/14 register checkpoint not located or SHA-256 verified in accessible searched locations.",
+    "Available DINOv2 hub source rejected: missing pinned source SHA-256 manifest; configured original Linux source path is unavailable on this host.",
+    "Existing root unit suite failed on this Windows runtime (one assertion failure and one dataset-path error).",
+    "Existing framework suite has errors, including two module-import failures; not all tests could be discovered."
+  ],
+  "frozen_repository_hashes_verified": true,
+  "tests": {
+    "root": {
+      "discovered_entries": 28,
+      "run_entries": 28,
+      "passed": 26,
+      "failures": 1,
+      "errors": 1,
+      "skipped": 0,
+      "failed_import_placeholders": 0,
+      "successful": false
+    },
+    "framework": {
+      "discovered_entries": 179,
+      "run_entries": 179,
+      "passed": 170,
+      "failures": 0,
+      "errors": 9,
+      "skipped": 0,
+      "failed_import_placeholders": 2,
+      "successful": false
+    }
+  },
+  "dataset_counts": {
+    "mvtec_ad2": 3914,
+    "mvtec_ad": 5354,
+    "visa": 10821
+  },
+  "dataset_verification_scope": "Native category/split metadata and file existence only. No image decoding, archive verification, or image-content leakage audit.",
+  "study_implementation_written": false,
+  "new_cutoff_unit_test_gate_passed": false,
+  "real_weights_verified": false,
+  "real_dataset_verified": false,
+  "smoke_images_run": 0,
+  "source_calibration_run": false,
+  "source_rule_selection_run": false,
+  "new_protocol_frozen": false,
+  "target_inference_run": false,
+  "target_query_images_scored": 0,
+  "benchmark_evaluated": false,
+  "operating_point_results": null,
+  "bootstrap_intervals": null,
+  "stop_rule_verdict": null,
+  "verdict_reason": "Study incomplete at prerequisite gate; no completed-study verdict is issued.",
+  "target_pixels_masks_scores_read": false,
+  "supported_statuses": [
+    "written"
+  ],
+  "supported_status_scope": "Preflight audit and report only; the requested cutoff study was not implemented."
+}

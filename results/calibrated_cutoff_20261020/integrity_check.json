@@ -1,0 +1,155 @@
+{
+  "base_commit": "05c0fcea1b3289f0daf2f658c56b08c2848b71e9",
+  "AGENTS_files_in_repository": [],
+  "checks": {
+    "controlled_experiment.py": {
+      "expected": "89ff3e15f06df0dda2b665e1f02c37dc87c2c95160323fb1d11dea9163b3dfa5",
+      "git_blob_sha256": "89ff3e15f06df0dda2b665e1f02c37dc87c2c95160323fb1d11dea9163b3dfa5",
+      "git_blob_match": true,
+      "working_tree_sha256": "628a6e8b9789afebfd314a8b9f4498b8dc167369fa1f627b364bababe37f3f17",
+      "checkout_crlf_only": true
+    },
+    "controlled_common.py": {
+      "expected": "a8269cd0ee1ed75cb3152c86c0486b11909de69052cf8f242992cac617bc60c2",
+      "git_blob_sha256": "a8269cd0ee1ed75cb3152c86c0486b11909de69052cf8f242992cac617bc60c2",
+      "git_blob_match": true,
+      "working_tree_sha256": "a0c8305ad948e5565c78ef8f50b0296f33a2d3537494f6f044a5391da192fb19",
+      "checkout_crlf_only": true
+    },
+    "audit_outputs.py": {
+      "expected": "1a08abed241993feee7a9830cb32ed2803b7bcc08d76cb4113a04d271e2ecb08",
+      "git_blob_sha256": "1a08abed241993feee7a9830cb32ed2803b7bcc08d76cb4113a04d271e2ecb08",
+      "git_blob_match": true,
+      "working_tree_sha256": "8e71be9db3c3c6f49e3ca28ec7e6199190a5e82e8328d98e39cf89198ed5ac89",
+      "checkout_crlf_only": true
+    },
+    "utils.py": {
+      "expected": "0d593637366abcb4028b2119ca4f4d427bfd6ddce1f535531f9b0affcbd386e9",
+      "git_blob_sha256": "0d593637366abcb4028b2119ca4f4d427bfd6ddce1f535531f9b0affcbd386e9",
+      "git_blob_match": true,
+      "working_tree_sha256": "39d348869990d62d5572a887d2bc07625683ac311bb499756efef7d5672c4309",
+      "checkout_crlf_only": true
+    },
+    "framework/safe_iad/vision_hybrid_model.py": {
+      "expected": "de20f42fbee7a31f04ba51758424077b3ea5f02e2ee42e95dda44941145314f8",
+      "git_blob_sha256": "de20f42fbee7a31f04ba51758424077b3ea5f02e2ee42e95dda44941145314f8",
+      "git_blob_match": true,
+      "working_tree_sha256": "7644e21b63ba1740c54aa638352971a69c26955c0f5940da81d2e03ccba0cad0",
+      "checkout_crlf_only": true
+    },
+    "framework/safe_iad/vision_hybrid_features.py": {
+      "expected": "da83b69a7d7de10c0fb2dcfd5ce1330b987ebece744f97bd272fe26d97f85e1b",
+      "git_blob_sha256": "da83b69a7d7de10c0fb2dcfd5ce1330b987ebece744f97bd272fe26d97f85e1b",
+      "git_blob_match": true,
+      "working_tree_sha256": "eb2760c3545d5d700e2f9c6363f61a07c9bd0c230b65633b354f5f24f44efee7",
+      "checkout_crlf_only": true
+    },
+    "framework/safe_iad/safal_features.py": {
+      "expected": "497e67e474f502da8205c304efae676ff3c1f4eb38c17e52a461c6609fd51e39",
+      "git_blob_sha256": "497e67e474f502da8205c304efae676ff3c1f4eb38c17e52a461c6609fd51e39",
+      "git_blob_match": true,
+      "working_tree_sha256": "9ced3b62864f5a0d829a82f98d5cc415cb55afe7b08e57774e7c1850240e86ef",
+      "checkout_crlf_only": true
+    },
+    "framework/safe_iad/research_metrics.py": {
+      "expected": "e8c2a0319b005aa61c831ba044e9757231e46179b482cb68380d859ca14f6314",
+      "git_blob_sha256": "e8c2a0319b005aa61c831ba044e9757231e46179b482cb68380d859ca14f6314",
+      "git_blob_match": true,
+      "working_tree_sha256": "50e09443452467e002cedbfbb0ac87bd765e460f8e62dd7535327167da4be9bc",
+      "checkout_crlf_only": true
+    },
+    "framework/safe_iad/verify_dataset.py": {
+      "expected": "ab20c9dc946ff1185ab42c329cf75455face25243204dd2e2e67ed3a177663e2",
+      "git_blob_sha256": "ab20c9dc946ff1185ab42c329cf75455face25243204dd2e2e67ed3a177663e2",
+      "git_blob_match": true,
+      "working_tree_sha256": "f3ba3f5855802f56fd0ebd2f7415ff07cdcb04d188787db9b7f45ac466a9dc68",
+      "checkout_crlf_only": true
+    },
+    "config": {
+      "path": "configs/controlled_full_image_20261018.json",
+      "expected": "de82b811f771708dfb8fa2f14eefb71cc7842a5241fb4365a3678b7c89320990",
+      "git_blob_sha256": "de82b811f771708dfb8fa2f14eefb71cc7842a5241fb4365a3678b7c89320990",
+      "git_blob_match": true
+    },
+    "source_plan": {
+      "path": "results/controlled_full_image_20261018/source_plan.json",
+      "expected": "0cbbae8137c184554757f7959d056dbd10496de847ed685b5a40996e438a501f",
+      "git_blob_sha256": "0cbbae8137c184554757f7959d056dbd10496de847ed685b5a40996e438a501f",
+      "git_blob_match": true
+    },
+    "source_selection": {
+      "path": "results/controlled_full_image_20261018/source_selection.json",
+      "expected": "f4dbefcbf5b549d879e630dab843e35c7aa0effc708cba62081ce1bfb48b1f9a",
+      "git_blob_sha256": "f4dbefcbf5b549d879e630dab843e35c7aa0effc708cba62081ce1bfb48b1f9a",
+      "git_blob_match": true
+    },
+    "calibration_ids": {
+      "path": "results/controlled_full_image_20261018/calibration_ids.json",
+      "expected": "2fadeccf2bb2a52ef54af654548aa4d53ab82f20818bd60b9ed6e970d0d52f00",
+      "git_blob_sha256": "2fadeccf2bb2a52ef54af654548aa4d53ab82f20818bd60b9ed6e970d0d52f00",
+      "git_blob_match": true
+    },
+    "protocol": {
+      "expected": "dc078b5a681b8a44015dc02a227afb4b20f248e7ca70ac8e31a95f321aa2f408",
+      "git_blob_sha256": "dc078b5a681b8a44015dc02a227afb4b20f248e7ca70ac8e31a95f321aa2f408",
+      "git_blob_match": true
+    }
+  },
+  "all_recorded_hashes_match_git_blobs": true,
+  "windows_checkout_conversion": "Initial checkout uses CRLF; tests use byte-exact Git export under the NEW results directory. Historical files are never edited.",
+  "settings_confirmed": {
+    "backbone": "dinov2_vitl14_reg",
+    "lambda": 0.25,
+    "resize": 448,
+    "crop": 448,
+    "layers": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "variance": 0.95,
+    "clusters": 1,
+    "gate": "uniform",
+    "original_shots": [
+      1
+    ],
+    "original_target_seeds": [
+      17,
+      29,
+      43
+    ]
+  },
+  "old_image_cutoffs_provenance_only": {
+    "baseline_k1": {
+      "cutoff": 1.9804482460021973,
+      "decision": "score > cutoff",
+      "target_fpr": 0.05,
+      "realised_calibration_fpr": 0.05,
+      "observations": 160,
+      "target_fpr_guaranteed": false,
+      "source_normal_only": true
+    },
+    "hybrid_k1": {
+      "cutoff": 2.343151807785034,
+      "decision": "score > cutoff",
+      "target_fpr": 0.05,
+      "realised_calibration_fpr": 0.05,
+      "observations": 160,
+      "target_fpr_guaranteed": false,
+      "source_normal_only": true
+    },
+    "k2_k4": "No original budget-specific calibration exists. No new cutoff was fitted or assigned."
+  }
+}

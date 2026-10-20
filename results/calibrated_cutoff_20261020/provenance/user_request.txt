@@ -1,0 +1,210 @@
+ROLE
+You are a research software engineer and independent auditor. Implement and run
+a reproducible image anomaly-detection study. Report negative results honestly.
+Never fabricate measurements, predictions, heatmaps, references or completed runs.
+
+REPOSITORY AND FILE SAFETY
+Repository: ennayriomar/newpr
+Base branch: controlled-full-image-20261018
+
+1. Inspect AGENTS.md and repository instructions.
+2. Create branch calibrated-cutoff-<YYYYMMDD> from the base branch.
+3. Treat all existing results folders as read-only, especially:
+   results/controlled_full_image_20261018/
+4. Write every new file, log and result under:
+   results/calibrated_cutoff_<YYYYMMDD>/
+5. Preserve existing user changes. Do not force-push or overwrite historical results.
+6. Do not assume earlier runs completed. Inspect the actual artifacts.
+
+MODEL
+This is an experimental SAFAL hybrid, not an LLM or an official paper reproduction:
+
+- Frozen DINOv2 ViT-L/14 with register tokens.
+- Normal support images provide patch-feature reference banks.
+- Baseline: nearest-normal-patch cosine-distance scoring.
+- Hybrid: baseline plus the existing normalized PCA-residual correction.
+- Global PCA retains 95% variance.
+- The existing controlled protocol selected lambda=0.25.
+- Full-field input: resize=448, crop=448.
+- Image score: mean of the highest-scoring 1% of map pixels.
+- There is no gradient training, optimizer or epoch loop.
+
+Read protocol.json and the frozen implementation before changing anything.
+Verify the recorded settings rather than relying on this description.
+Preserve the exact feature aggregation, layers, augmentation, normalization,
+PCA fitting, fusion and image-score definitions. Do not silently simplify them.
+
+OBJECTIVE
+Determine whether a label-free support-based cutoff fixes the poor VisA operating
+point produced by AD2-calibrated fixed cutoffs.
+
+This study changes cutoff rules, not the encoder or anomaly-scoring method.
+Do not optimize settings using VisA test images, labels, scores or masks.
+
+PREFLIGHT — STOP IF REQUIRED ASSETS ARE UNAVAILABLE
+Before real inference:
+
+- Report Python, Torch, CPU/GPU, available RAM and free disk.
+- Locate MVTec AD2, MVTec AD and VisA.
+- Report native per-category image counts and split counts.
+- Locate the DINOv2 ViT-L/14 register checkpoint.
+- Compute its SHA-256 and require:
+  36e4deffbaef061a2576705b0c36f93621e2ae20bf6274694821b0b492551b51
+- Verify the original protocol/config hashes and required source files.
+- Run the existing tests; approximately 28 were previously reported, but report
+  the actual discovered tests and full pass/fail output.
+- If data, code or the checkpoint is missing or mismatched, STOP and identify it.
+  Do not substitute random weights, another backbone or synthetic benchmark data.
+- If the execution environment is unavailable, report the infrastructure failure.
+  Do not describe it as a model-reproduction failure.
+
+IMPLEMENTATION AND TEST GATE
+The existing experiment was one-shot only. Implement and unit-test:
+
+- k=1,2,4 support banks.
+- Five deterministic support draws.
+- Nested support prefixes within each draw.
+- Identical support IDs for baseline, hybrid and all cutoff rules.
+- Leave-one-image-out fitting that excludes every feature/augmentation belonging
+  to the held-out support image.
+- k=1 leave-one-out explicitly marked NOT APPLICABLE.
+- Finite, positive normalization scales and conservative strict > decisions.
+- Tests that cutoff-only changes preserve within-category image AUROC.
+- Automated leakage failures.
+
+Complete these tests before any real-data study run.
+
+CUTOFF RULES
+Evaluate these rules for each scoring method:
+
+A. AD2 fixed cutoff:
+   Preserve the existing source-calibrated control. Document exactly which
+   cutoff applies to each support budget and do not refit it on VisA.
+
+B. Support leave-one-out percentile:
+   Applicable only for k>=2. Fit on k-1 support images and score the held-out
+   normal support image. Derive the cutoff from these held-out scores.
+   Document the percentile definition and the small calibration sample size.
+   Do not claim a guaranteed 5% false-alarm rate from two or four observations.
+
+C. Support-statistics normalization:
+   Derive category/bank-specific location and scale from normal support patch
+   scores, using z-score or median/MAD normalization.
+   Fit the final normalized-score threshold on AD2 source data only.
+   Prevent trivial self-matching from producing misleading zero-scale statistics.
+   Any patch cross-fitting, self-match exclusion, scale floor and normalization
+   choice must be specified, tested and frozen using source data only.
+   Never estimate normalization statistics from target query scores.
+
+D. Oracle diagnostic:
+   Report a target-label-dependent cutoff separately, labelled:
+   “UNATTAINABLE ORACLE — uses target labels”.
+   Compute it only after predictions are fixed. It must not influence selection,
+   deployable cutoffs, settings or the success verdict.
+
+LEAKAGE AND SOURCE-ONLY SELECTION
+- Source calibration normals must be disjoint from supports, source-selection
+  queries and target evaluation images.
+- Check IDs, resolved paths and image-content hashes.
+- Support-derived calibration may use only the declared support images.
+  Record this intentional reuse explicitly; target test images are prohibited.
+- Select the applicable rule using AD2 source data only.
+- Define the selection objective, tie-breaking, percentile convention and
+  quantitative success criteria before target inference.
+- Freeze all settings, support IDs, source-calibration IDs, selected rules,
+  code hashes and configuration in protocol.json.
+- Save protocol.json.sha256 and commit the frozen protocol before VisA inference.
+- Never adjust settings after observing VisA.
+
+EXECUTION STAGES
+Run in this order:
+
+1. Five-image smoke test using AD2 source-normal images.
+   Record IDs, commands, full output, timings and memory use.
+2. Source calibration and rule selection; freeze and commit the protocol.
+3. k=1: all 12 VisA categories, five support draws.
+4. k=2: all 12 VisA categories, five support draws.
+5. k=4: all 12 VisA categories, five support draws.
+
+Save outputs and commit after every completed stage. Save incremental progress
+within stages so a crash does not erase completed work.
+
+Extract target query features once where valid and reuse them across frozen
+support banks/rules. Do not repeatedly evaluate and then revise the method.
+Record cache provenance and hashes.
+
+METRICS AND UNCERTAINTY
+For each method, rule, category, k and draw report:
+
+- Image AUROC from the unchanged anomaly scores.
+- Image false-alarm rate.
+- Recall.
+- Balanced accuracy.
+- Realised false-alarm rate versus the nominal 5% target.
+- Calibration sample size and unsupported conditions.
+
+Report per-draw, per-category and category-macro results.
+
+Use paired category-cluster bootstrap intervals for differences:
+average support draws within category before resampling categories.
+Use identical bootstrap category samples for the compared rules.
+Do not treat repeated query images across draws as independent observations.
+Report support-draw variation separately.
+
+QUALITATIVE FIGURES
+Produce publication-style figures resembling a compact qualitative-comparison grid:
+
+- White background, aligned tiles, small serif headings, category row labels.
+- Columns: Image / GT / Baseline / Hybrid.
+- Heatmaps must come from actual saved raw arrays.
+- Use fixed, recorded selection rules and include normal images and failures.
+- Produce a primary version with one shared raw-score colour scale.
+- Produce a separate clearly labelled row-wise display-normalized version,
+  sharing the row scale between methods.
+- Save PNG and PDF, plus image IDs, raw-map paths, hashes and display bounds.
+- Never paint defects manually or generate synthetic heatmaps.
+- Never reuse the old Global/Local presentation as separate-method evidence.
+- Do not include PromptAD, AnomalyDINO or other method columns without their
+  actual predictions under a documented comparable protocol.
+- Do not claim better accuracy from visual appearance.
+
+STOP RULE
+Before VisA, freeze numerical definitions of “material recall improvement” and
+“false-alarm rate near 5%”, together with the uncertainty requirement.
+
+Apply those frozen criteria after the completed comparison.
+If no deployable label-free rule meets them, report exactly:
+“no demonstrated fix”.
+
+Stop without searching for more settings.
+If a stage is incomplete, identify it and do not issue a completed-study verdict.
+
+DELIVERABLES
+Inside the new results directory, save:
+
+- README_results.md
+- protocol.json and protocol.json.sha256
+- source_selection.json
+- calibration IDs, statistics and cutoffs
+- leakage_check.json
+- per_image.jsonl
+- per_draw.csv and per_category.csv
+- summary.json
+- paired bootstrap arrays
+- raw prediction maps and figure metadata
+- commands and full stdout/stderr logs
+- environment/version information
+- stage completion and commit records
+
+Publish the completed work to the new branch in ennayriomar/newpr.
+Every reported number must be traceable to an executed command and saved output.
+
+FINAL RESPONSE
+Explain the model, what actually ran, actual operating-point results, uncertainty,
+limitations and the frozen stop-rule verdict. Link the report and artifacts.
+
+Finish with a status table using only:
+written / unit-tested / smoke-tested / real-weights verified /
+real-dataset verified / benchmark evaluated.
+
+Assign a status only when evidence supports it. Never mark an unrun stage complete.

@@ -1,0 +1,12 @@
+{
+  "repository": "ennayriomar/newpr",
+  "branch": "calibrated-cutoff-20261020",
+  "base_branch": "controlled-full-image-20261018",
+  "base_commit": "05c0fcea1b3289f0daf2f658c56b08c2848b71e9",
+  "branch_created_from_base": true,
+  "audit_commit": null,
+  "publication_verified": false,
+  "frozen_study_protocol_commit": null,
+  "inference_stage_commits": [],
+  "note": "Preflight audit only. Publication is recorded after the audit commit is created. No smoke/source/VisA stage was run."
+}

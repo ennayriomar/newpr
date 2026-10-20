@@ -1,0 +1,31 @@
+{
+  "recorded_utc": "2026-10-20T09:08:27.217801+00:00",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "audit_python": "3.11.0 (main, Oct 24 2022, 18:26:48) [MSC v.1933 64 bit (AMD64)]",
+  "audit_python_executable": "C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "study_runtime_candidate": "C:\\Users\\ennay\\Downloads\\safe_iad_m1\\safe_iad\\venv\\Scripts\\python.exe",
+  "cpu": "AMD Ryzen 7 6800H with Radeon Graphics",
+  "logical_cpus": 16,
+  "memory_api_success": true,
+  "ram_bytes": 33549955072,
+  "available_ram_bytes": 16096264192,
+  "disk_bytes": {
+    "C:/": {
+      "total": 510821134336,
+      "used": 484102041600,
+      "free": 26719092736
+    },
+    "D:/": {
+      "total": 512107737088,
+      "used": 137388126208,
+      "free": 374719610880
+    }
+  },
+  "required_original_versions": {
+    "python_version": "3.12.14",
+    "torch_version": "2.7.1+cpu",
+    "numpy_version": "2.2.6",
+    "pillow_version": "12.3.0"
+  },
+  "no_inference_run": true
+}
