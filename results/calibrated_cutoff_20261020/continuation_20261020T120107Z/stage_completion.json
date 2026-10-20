@@ -1,0 +1,59 @@
+{
+  "study_complete": false,
+  "stages": [
+    {
+      "stage": "preflight",
+      "completed": true,
+      "passed": false,
+      "evidence": [
+        "integrity_check.json",
+        "checkpoint_check.json",
+        "dataset_inventory.json",
+        "root_tests.json",
+        "framework_tests.json"
+      ]
+    },
+    {
+      "stage": "cutoff implementation and unit-test gate",
+      "completed": false,
+      "executed": false,
+      "reason": "Preflight stop"
+    },
+    {
+      "stage": "five AD2-normal image smoke test",
+      "completed": false,
+      "executed": false,
+      "reason": "Preflight stop"
+    },
+    {
+      "stage": "source calibration, rule selection and protocol-freeze commit",
+      "completed": false,
+      "executed": false,
+      "reason": "Preflight stop"
+    },
+    {
+      "stage": "VisA k=1, 12 categories, five draws",
+      "completed": false,
+      "executed": false,
+      "reason": "Preflight stop"
+    },
+    {
+      "stage": "VisA k=2, 12 categories, five draws",
+      "completed": false,
+      "executed": false,
+      "reason": "Preflight stop"
+    },
+    {
+      "stage": "VisA k=4, 12 categories, five draws",
+      "completed": false,
+      "executed": false,
+      "reason": "Preflight stop"
+    },
+    {
+      "stage": "paired category-cluster bootstrap and figures",
+      "completed": false,
+      "executed": false,
+      "reason": "Preflight stop"
+    }
+  ]
+}

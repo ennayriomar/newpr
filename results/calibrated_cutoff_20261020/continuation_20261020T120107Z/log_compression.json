@@ -1,0 +1,32 @@
+{
+  "logs/git_003.stdout.log": {
+    "path": "logs/git_003.stdout.log.gz",
+    "uncompressed_bytes": 1040865,
+    "uncompressed_sha256": "a5e9764e90f47c31ccec85baa324a721d1a8ea545cdb0ac694f9048aa68bede4",
+    "gzip_sha256": "7c0e0406d16dce1c61031f68c47b6d145240576cd26984d96b9aa4901e7fe13c"
+  },
+  "logs/git_004.stdout.log": {
+    "path": "logs/git_004.stdout.log.gz",
+    "uncompressed_bytes": 1069728,
+    "uncompressed_sha256": "dd151fd1fccc29512a09f8852176a0c397e176007757ec8189481bcf5a8487ff",
+    "gzip_sha256": "6f8ae491c17b5d76dcb93836769fc2e0b2614a43c3f5357a3d30823c13b0b6b7"
+  },
+  "logs/git_005.stdout.log": {
+    "path": "logs/git_005.stdout.log.gz",
+    "uncompressed_bytes": 3806382,
+    "uncompressed_sha256": "b8b76649b494c2d20a85977b7649b134549619657484fffdbedfc504c21d3861",
+    "gzip_sha256": "c5daa99551980b8470da577c393d129170ed99c1e68179cbd98aeaf530b3ad31"
+  },
+  "logs/git_006.stdout.log": {
+    "path": "logs/git_006.stdout.log.gz",
+    "uncompressed_bytes": 357597,
+    "uncompressed_sha256": "dc078b5a681b8a44015dc02a227afb4b20f248e7ca70ac8e31a95f321aa2f408",
+    "gzip_sha256": "56e8ee293c67e122c6b8e34e1f3e3a337c1bbcf51e7d9ede592fcbedb6502e87"
+  },
+  "logs/git_018.stdout.log": {
+    "path": "logs/git_018.stdout.log.gz",
+    "uncompressed_bytes": 2373209,
+    "uncompressed_sha256": "0cbbae8137c184554757f7959d056dbd10496de847ed685b5a40996e438a501f",
+    "gzip_sha256": "9be896ebf35e685ff693c6254b68122b38133d0c8be7ae638fe56762e983d1c8"
+  }
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\ennay\Documents\Codex\2026-10-20\files-pasted-by-the-user-role\outputs\newpr\results\calibrated_cutoff_20261020\continuation_20261020T120107Z\reference_source\framework\safe_iad\safal_features.py", line 90, in verify_source
+    raise ValueError('Bundled DINOv2 source requires its pinned source SHA256 manifest.')
+ValueError: Bundled DINOv2 source requires its pinned source SHA256 manifest.

@@ -1,0 +1,13 @@
+{
+  "python": "3.11.0 (main, Oct 24 2022, 18:26:48) [MSC v.1933 64 bit (AMD64)]",
+  "executable": "C:\\Users\\ennay\\Downloads\\safe_iad_m1\\safe_iad\\venv\\Scripts\\python.exe",
+  "torch": "2.11.0+cu128",
+  "cuda_available": true,
+  "cuda_runtime": "12.8",
+  "numpy": "2.4.6",
+  "pillow": "12.3.0",
+  "sklearn": "1.9.0",
+  "scipy": "1.17.1",
+  "matplotlib": "3.11.1",
+  "threadpoolctl": "3.6.0"
+}

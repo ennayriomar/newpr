@@ -1,0 +1,12 @@
+reference_source/
+runtime/
+tmp/
+__pycache__/
+*.pyc
+native_image_inventory.jsonl
+provenance/original_protocol.json
+/logs/git_003.stdout.log
+/logs/git_004.stdout.log
+/logs/git_005.stdout.log
+/logs/git_006.stdout.log
+/logs/git_018.stdout.log

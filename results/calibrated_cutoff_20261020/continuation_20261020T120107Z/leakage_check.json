@@ -1,0 +1,9 @@
+{
+  "passed": null,
+  "executed": false,
+  "reason": "No new source/support calibration plan was created because preflight failed.",
+  "native_metadata_path_check": "See dataset_inventory.json",
+  "id_path_content_hash_experimental_role_audit": "not performed",
+  "support_reuse_declared": null,
+  "target_query_scores_used_for_selection": false
+}

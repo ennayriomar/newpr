@@ -1,0 +1,13 @@
+{
+  "recorded_utc": "2026-10-20T12:07:21.141568+00:00",
+  "branch": "calibrated-cutoff-20261020",
+  "source_base_commit": "05c0fcea1b3289f0daf2f658c56b08c2848b71e9",
+  "parent_published_audit_commit": "fca2c04a1f86a459892297eedda12017c93f9973",
+  "continuation_commit": "Resolve the commit containing this file from the branch history.",
+  "parent_manifest_files_verified": 47,
+  "parent_hash_mismatches": [],
+  "parent_results_modified": false,
+  "study_protocol_freeze_commit": null,
+  "inference_stage_commits": [],
+  "scope": "Fresh failed-preflight evidence only; no completed-study verdict."
+}

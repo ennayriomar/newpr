@@ -1,0 +1,784 @@
+{
+  "mvtec_ad2": {
+    "root": "C:\\Users\\ennay\\Downloads\\safe_iad_m1\\safe_iad\\data\\mvtec_ad_2\\mvtec_ad_2",
+    "located": true,
+    "categories": [
+      "can",
+      "fabric",
+      "fruit_jelly",
+      "rice",
+      "sheet_metal",
+      "vial",
+      "wallplugs",
+      "walnuts"
+    ],
+    "total_images": 3914,
+    "counts": [
+      {
+        "category": "can",
+        "split": "test_public",
+        "label": "anomaly",
+        "count": 90
+      },
+      {
+        "category": "can",
+        "split": "test_public",
+        "label": "normal",
+        "count": 72
+      },
+      {
+        "category": "can",
+        "split": "train",
+        "label": "normal",
+        "count": 412
+      },
+      {
+        "category": "can",
+        "split": "validation",
+        "label": "normal",
+        "count": 46
+      },
+      {
+        "category": "fabric",
+        "split": "test_public",
+        "label": "anomaly",
+        "count": 90
+      },
+      {
+        "category": "fabric",
+        "split": "test_public",
+        "label": "normal",
+        "count": 66
+      },
+      {
+        "category": "fabric",
+        "split": "train",
+        "label": "normal",
+        "count": 387
+      },
+      {
+        "category": "fabric",
+        "split": "validation",
+        "label": "normal",
+        "count": 43
+      },
+      {
+        "category": "fruit_jelly",
+        "split": "test_public",
+        "label": "anomaly",
+        "count": 60
+      },
+      {
+        "category": "fruit_jelly",
+        "split": "test_public",
+        "label": "normal",
+        "count": 20
+      },
+      {
+        "category": "fruit_jelly",
+        "split": "train",
+        "label": "normal",
+        "count": 263
+      },
+      {
+        "category": "fruit_jelly",
+        "split": "validation",
+        "label": "normal",
+        "count": 37
+      },
+      {
+        "category": "rice",
+        "split": "test_public",
+        "label": "anomaly",
+        "count": 90
+      },
+      {
+        "category": "rice",
+        "split": "test_public",
+        "label": "normal",
+        "count": 42
+      },
+      {
+        "category": "rice",
+        "split": "train",
+        "label": "normal",
+        "count": 313
+      },
+      {
+        "category": "rice",
+        "split": "validation",
+        "label": "normal",
+        "count": 35
+      },
+      {
+        "category": "sheet_metal",
+        "split": "test_public",
+        "label": "anomaly",
+        "count": 90
+      },
+      {
+        "category": "sheet_metal",
+        "split": "test_public",
+        "label": "normal",
+        "count": 24
+      },
+      {
+        "category": "sheet_metal",
+        "split": "train",
+        "label": "normal",
+        "count": 137
+      },
+      {
+        "category": "sheet_metal",
+        "split": "validation",
+        "label": "normal",
+        "count": 19
+      },
+      {
+        "category": "vial",
+        "split": "test_public",
+        "label": "anomaly",
+        "count": 105
+      },
+      {
+        "category": "vial",
+        "split": "test_public",
+        "label": "normal",
+        "count": 35
+      },
+      {
+        "category": "vial",
+        "split": "train",
+        "label": "normal",
+        "count": 291
+      },
+      {
+        "category": "vial",
+        "split": "validation",
+        "label": "normal",
+        "count": 41
+      },
+      {
+        "category": "wallplugs",
+        "split": "test_public",
+        "label": "anomaly",
+        "count": 90
+      },
+      {
+        "category": "wallplugs",
+        "split": "test_public",
+        "label": "normal",
+        "count": 60
+      },
+      {
+        "category": "wallplugs",
+        "split": "train",
+        "label": "normal",
+        "count": 293
+      },
+      {
+        "category": "wallplugs",
+        "split": "validation",
+        "label": "normal",
+        "count": 33
+      },
+      {
+        "category": "walnuts",
+        "split": "test_public",
+        "label": "anomaly",
+        "count": 90
+      },
+      {
+        "category": "walnuts",
+        "split": "test_public",
+        "label": "normal",
+        "count": 60
+      },
+      {
+        "category": "walnuts",
+        "split": "train",
+        "label": "normal",
+        "count": 432
+      },
+      {
+        "category": "walnuts",
+        "split": "validation",
+        "label": "normal",
+        "count": 48
+      }
+    ],
+    "missing_images": [],
+    "missing_masks": [],
+    "listed_not_native": [],
+    "native_not_listed": [],
+    "duplicate_image_ids": 0,
+    "path_escapes": [],
+    "annotation_mismatch": [],
+    "split_csv_sha256": null,
+    "scope": "Native filename, split metadata and path existence only; no target pixels, score arrays or masks decoded.",
+    "archive_checksum_verified": false,
+    "image_decoding_verified": false,
+    "content_hash_leakage_checked": false,
+    "excluded_splits": [
+      "test_private",
+      "test_private_mixed"
+    ]
+  },
+  "mvtec_ad": {
+    "root": "C:\\Users\\ennay\\Downloads\\mvtec_ad",
+    "located": true,
+    "categories": [
+      "bottle",
+      "cable",
+      "capsule",
+      "carpet",
+      "grid",
+      "hazelnut",
+      "leather",
+      "metal_nut",
+      "pill",
+      "screw",
+      "tile",
+      "toothbrush",
+      "transistor",
+      "wood",
+      "zipper"
+    ],
+    "total_images": 5354,
+    "counts": [
+      {
+        "category": "bottle",
+        "split": "test",
+        "label": "anomaly",
+        "count": 63
+      },
+      {
+        "category": "bottle",
+        "split": "test",
+        "label": "normal",
+        "count": 20
+      },
+      {
+        "category": "bottle",
+        "split": "train",
+        "label": "normal",
+        "count": 209
+      },
+      {
+        "category": "cable",
+        "split": "test",
+        "label": "anomaly",
+        "count": 92
+      },
+      {
+        "category": "cable",
+        "split": "test",
+        "label": "normal",
+        "count": 58
+      },
+      {
+        "category": "cable",
+        "split": "train",
+        "label": "normal",
+        "count": 224
+      },
+      {
+        "category": "capsule",
+        "split": "test",
+        "label": "anomaly",
+        "count": 109
+      },
+      {
+        "category": "capsule",
+        "split": "test",
+        "label": "normal",
+        "count": 23
+      },
+      {
+        "category": "capsule",
+        "split": "train",
+        "label": "normal",
+        "count": 219
+      },
+      {
+        "category": "carpet",
+        "split": "test",
+        "label": "anomaly",
+        "count": 89
+      },
+      {
+        "category": "carpet",
+        "split": "test",
+        "label": "normal",
+        "count": 28
+      },
+      {
+        "category": "carpet",
+        "split": "train",
+        "label": "normal",
+        "count": 280
+      },
+      {
+        "category": "grid",
+        "split": "test",
+        "label": "anomaly",
+        "count": 57
+      },
+      {
+        "category": "grid",
+        "split": "test",
+        "label": "normal",
+        "count": 21
+      },
+      {
+        "category": "grid",
+        "split": "train",
+        "label": "normal",
+        "count": 264
+      },
+      {
+        "category": "hazelnut",
+        "split": "test",
+        "label": "anomaly",
+        "count": 70
+      },
+      {
+        "category": "hazelnut",
+        "split": "test",
+        "label": "normal",
+        "count": 40
+      },
+      {
+        "category": "hazelnut",
+        "split": "train",
+        "label": "normal",
+        "count": 391
+      },
+      {
+        "category": "leather",
+        "split": "test",
+        "label": "anomaly",
+        "count": 92
+      },
+      {
+        "category": "leather",
+        "split": "test",
+        "label": "normal",
+        "count": 32
+      },
+      {
+        "category": "leather",
+        "split": "train",
+        "label": "normal",
+        "count": 245
+      },
+      {
+        "category": "metal_nut",
+        "split": "test",
+        "label": "anomaly",
+        "count": 93
+      },
+      {
+        "category": "metal_nut",
+        "split": "test",
+        "label": "normal",
+        "count": 22
+      },
+      {
+        "category": "metal_nut",
+        "split": "train",
+        "label": "normal",
+        "count": 220
+      },
+      {
+        "category": "pill",
+        "split": "test",
+        "label": "anomaly",
+        "count": 141
+      },
+      {
+        "category": "pill",
+        "split": "test",
+        "label": "normal",
+        "count": 26
+      },
+      {
+        "category": "pill",
+        "split": "train",
+        "label": "normal",
+        "count": 267
+      },
+      {
+        "category": "screw",
+        "split": "test",
+        "label": "anomaly",
+        "count": 119
+      },
+      {
+        "category": "screw",
+        "split": "test",
+        "label": "normal",
+        "count": 41
+      },
+      {
+        "category": "screw",
+        "split": "train",
+        "label": "normal",
+        "count": 320
+      },
+      {
+        "category": "tile",
+        "split": "test",
+        "label": "anomaly",
+        "count": 84
+      },
+      {
+        "category": "tile",
+        "split": "test",
+        "label": "normal",
+        "count": 33
+      },
+      {
+        "category": "tile",
+        "split": "train",
+        "label": "normal",
+        "count": 230
+      },
+      {
+        "category": "toothbrush",
+        "split": "test",
+        "label": "anomaly",
+        "count": 30
+      },
+      {
+        "category": "toothbrush",
+        "split": "test",
+        "label": "normal",
+        "count": 12
+      },
+      {
+        "category": "toothbrush",
+        "split": "train",
+        "label": "normal",
+        "count": 60
+      },
+      {
+        "category": "transistor",
+        "split": "test",
+        "label": "anomaly",
+        "count": 40
+      },
+      {
+        "category": "transistor",
+        "split": "test",
+        "label": "normal",
+        "count": 60
+      },
+      {
+        "category": "transistor",
+        "split": "train",
+        "label": "normal",
+        "count": 213
+      },
+      {
+        "category": "wood",
+        "split": "test",
+        "label": "anomaly",
+        "count": 60
+      },
+      {
+        "category": "wood",
+        "split": "test",
+        "label": "normal",
+        "count": 19
+      },
+      {
+        "category": "wood",
+        "split": "train",
+        "label": "normal",
+        "count": 247
+      },
+      {
+        "category": "zipper",
+        "split": "test",
+        "label": "anomaly",
+        "count": 119
+      },
+      {
+        "category": "zipper",
+        "split": "test",
+        "label": "normal",
+        "count": 32
+      },
+      {
+        "category": "zipper",
+        "split": "train",
+        "label": "normal",
+        "count": 240
+      }
+    ],
+    "missing_images": [],
+    "missing_masks": [],
+    "listed_not_native": [],
+    "native_not_listed": [],
+    "duplicate_image_ids": 0,
+    "path_escapes": [],
+    "annotation_mismatch": [],
+    "split_csv_sha256": null,
+    "scope": "Native filename, split metadata and path existence only; no target pixels, score arrays or masks decoded.",
+    "archive_checksum_verified": false,
+    "image_decoding_verified": false,
+    "content_hash_leakage_checked": false,
+    "excluded_splits": []
+  },
+  "visa": {
+    "root": "C:\\Users\\ennay\\Downloads\\safe_iad_m1\\safe_iad\\data\\visa",
+    "located": true,
+    "categories": [
+      "candle",
+      "capsules",
+      "cashew",
+      "chewinggum",
+      "fryum",
+      "macaroni1",
+      "macaroni2",
+      "pcb1",
+      "pcb2",
+      "pcb3",
+      "pcb4",
+      "pipe_fryum"
+    ],
+    "total_images": 10821,
+    "counts": [
+      {
+        "category": "candle",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "candle",
+        "split": "test",
+        "label": "normal",
+        "count": 100
+      },
+      {
+        "category": "candle",
+        "split": "train",
+        "label": "normal",
+        "count": 900
+      },
+      {
+        "category": "capsules",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "capsules",
+        "split": "test",
+        "label": "normal",
+        "count": 60
+      },
+      {
+        "category": "capsules",
+        "split": "train",
+        "label": "normal",
+        "count": 542
+      },
+      {
+        "category": "cashew",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "cashew",
+        "split": "test",
+        "label": "normal",
+        "count": 50
+      },
+      {
+        "category": "cashew",
+        "split": "train",
+        "label": "normal",
+        "count": 450
+      },
+      {
+        "category": "chewinggum",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "chewinggum",
+        "split": "test",
+        "label": "normal",
+        "count": 50
+      },
+      {
+        "category": "chewinggum",
+        "split": "train",
+        "label": "normal",
+        "count": 453
+      },
+      {
+        "category": "fryum",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "fryum",
+        "split": "test",
+        "label": "normal",
+        "count": 50
+      },
+      {
+        "category": "fryum",
+        "split": "train",
+        "label": "normal",
+        "count": 450
+      },
+      {
+        "category": "macaroni1",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "macaroni1",
+        "split": "test",
+        "label": "normal",
+        "count": 100
+      },
+      {
+        "category": "macaroni1",
+        "split": "train",
+        "label": "normal",
+        "count": 900
+      },
+      {
+        "category": "macaroni2",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "macaroni2",
+        "split": "test",
+        "label": "normal",
+        "count": 100
+      },
+      {
+        "category": "macaroni2",
+        "split": "train",
+        "label": "normal",
+        "count": 900
+      },
+      {
+        "category": "pcb1",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "pcb1",
+        "split": "test",
+        "label": "normal",
+        "count": 100
+      },
+      {
+        "category": "pcb1",
+        "split": "train",
+        "label": "normal",
+        "count": 904
+      },
+      {
+        "category": "pcb2",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "pcb2",
+        "split": "test",
+        "label": "normal",
+        "count": 100
+      },
+      {
+        "category": "pcb2",
+        "split": "train",
+        "label": "normal",
+        "count": 901
+      },
+      {
+        "category": "pcb3",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "pcb3",
+        "split": "test",
+        "label": "normal",
+        "count": 101
+      },
+      {
+        "category": "pcb3",
+        "split": "train",
+        "label": "normal",
+        "count": 905
+      },
+      {
+        "category": "pcb4",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "pcb4",
+        "split": "test",
+        "label": "normal",
+        "count": 101
+      },
+      {
+        "category": "pcb4",
+        "split": "train",
+        "label": "normal",
+        "count": 904
+      },
+      {
+        "category": "pipe_fryum",
+        "split": "test",
+        "label": "anomaly",
+        "count": 100
+      },
+      {
+        "category": "pipe_fryum",
+        "split": "test",
+        "label": "normal",
+        "count": 50
+      },
+      {
+        "category": "pipe_fryum",
+        "split": "train",
+        "label": "normal",
+        "count": 450
+      }
+    ],
+    "missing_images": [],
+    "missing_masks": [],
+    "listed_not_native": [],
+    "native_not_listed": [],
+    "duplicate_image_ids": 0,
+    "path_escapes": [],
+    "annotation_mismatch": [],
+    "split_csv_sha256": "a48557e6033318cb90556f706196bc9d247a776a23ea51aecee5a80dd0332995",
+    "scope": "Native filename, split metadata and path existence only; no target pixels, score arrays or masks decoded.",
+    "archive_checksum_verified": false,
+    "image_decoding_verified": false,
+    "content_hash_leakage_checked": false,
+    "excluded_splits": []
+  }
+}

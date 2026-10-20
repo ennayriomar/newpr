@@ -1,0 +1,1602 @@
+[
+  {
+    "image_id": "mvtec_ad2:can/train/good/401_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/401_regular.png",
+    "native_id": "can/train/good/401_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:can/train/good/102_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/102_regular.png",
+    "native_id": "can/train/good/102_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:can/train/good/168_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/168_regular.png",
+    "native_id": "can/train/good/168_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:can/train/good/400_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/400_regular.png",
+    "native_id": "can/train/good/400_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:can/train/good/032_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/032_regular.png",
+    "native_id": "can/train/good/032_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:can/train/good/234_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/234_regular.png",
+    "native_id": "can/train/good/234_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:can/train/good/257_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/257_regular.png",
+    "native_id": "can/train/good/257_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:can/train/good/280_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/280_regular.png",
+    "native_id": "can/train/good/280_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:can/train/good/406_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/406_regular.png",
+    "native_id": "can/train/good/406_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:can/train/good/059_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/059_regular.png",
+    "native_id": "can/train/good/059_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:can/train/good/113_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/113_regular.png",
+    "native_id": "can/train/good/113_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:can/train/good/028_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/028_regular.png",
+    "native_id": "can/train/good/028_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:can/train/good/317_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/317_regular.png",
+    "native_id": "can/train/good/317_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:can/train/good/139_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/139_regular.png",
+    "native_id": "can/train/good/139_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:can/train/good/131_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/131_regular.png",
+    "native_id": "can/train/good/131_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:can/train/good/295_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/295_regular.png",
+    "native_id": "can/train/good/295_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:can/train/good/095_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/095_regular.png",
+    "native_id": "can/train/good/095_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:can/train/good/375_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/375_regular.png",
+    "native_id": "can/train/good/375_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:can/train/good/277_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/277_regular.png",
+    "native_id": "can/train/good/277_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:can/train/good/260_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/can/train/good/260_regular.png",
+    "native_id": "can/train/good/260_regular.png",
+    "mask": null,
+    "category": "can",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/302_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/302_regular.png",
+    "native_id": "fabric/train/good/302_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/165_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/165_regular.png",
+    "native_id": "fabric/train/good/165_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/371_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/371_regular.png",
+    "native_id": "fabric/train/good/371_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/061_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/061_regular.png",
+    "native_id": "fabric/train/good/061_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/108_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/108_regular.png",
+    "native_id": "fabric/train/good/108_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/240_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/240_regular.png",
+    "native_id": "fabric/train/good/240_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/277_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/277_regular.png",
+    "native_id": "fabric/train/good/277_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/149_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/149_regular.png",
+    "native_id": "fabric/train/good/149_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/136_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/136_regular.png",
+    "native_id": "fabric/train/good/136_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/367_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/367_regular.png",
+    "native_id": "fabric/train/good/367_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/014_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/014_regular.png",
+    "native_id": "fabric/train/good/014_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/178_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/178_regular.png",
+    "native_id": "fabric/train/good/178_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/070_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/070_regular.png",
+    "native_id": "fabric/train/good/070_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/002_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/002_regular.png",
+    "native_id": "fabric/train/good/002_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/372_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/372_regular.png",
+    "native_id": "fabric/train/good/372_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/280_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/280_regular.png",
+    "native_id": "fabric/train/good/280_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/150_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/150_regular.png",
+    "native_id": "fabric/train/good/150_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/225_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/225_regular.png",
+    "native_id": "fabric/train/good/225_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/330_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/330_regular.png",
+    "native_id": "fabric/train/good/330_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fabric/train/good/138_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fabric/train/good/138_regular.png",
+    "native_id": "fabric/train/good/138_regular.png",
+    "mask": null,
+    "category": "fabric",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/236_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/236_regular.png",
+    "native_id": "fruit_jelly/train/good/236_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/160_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/160_regular.png",
+    "native_id": "fruit_jelly/train/good/160_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/108_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/108_regular.png",
+    "native_id": "fruit_jelly/train/good/108_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/247_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/247_regular.png",
+    "native_id": "fruit_jelly/train/good/247_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/031_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/031_regular.png",
+    "native_id": "fruit_jelly/train/good/031_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/254_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/254_regular.png",
+    "native_id": "fruit_jelly/train/good/254_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/041_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/041_regular.png",
+    "native_id": "fruit_jelly/train/good/041_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/075_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/075_regular.png",
+    "native_id": "fruit_jelly/train/good/075_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/016_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/016_regular.png",
+    "native_id": "fruit_jelly/train/good/016_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/165_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/165_regular.png",
+    "native_id": "fruit_jelly/train/good/165_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/261_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/261_regular.png",
+    "native_id": "fruit_jelly/train/good/261_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/104_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/104_regular.png",
+    "native_id": "fruit_jelly/train/good/104_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/033_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/033_regular.png",
+    "native_id": "fruit_jelly/train/good/033_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/126_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/126_regular.png",
+    "native_id": "fruit_jelly/train/good/126_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/219_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/219_regular.png",
+    "native_id": "fruit_jelly/train/good/219_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/046_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/046_regular.png",
+    "native_id": "fruit_jelly/train/good/046_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/113_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/113_regular.png",
+    "native_id": "fruit_jelly/train/good/113_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/109_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/109_regular.png",
+    "native_id": "fruit_jelly/train/good/109_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/078_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/078_regular.png",
+    "native_id": "fruit_jelly/train/good/078_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:fruit_jelly/train/good/025_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/fruit_jelly/train/good/025_regular.png",
+    "native_id": "fruit_jelly/train/good/025_regular.png",
+    "mask": null,
+    "category": "fruit_jelly",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/280_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/280_regular.png",
+    "native_id": "rice/train/good/280_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/197_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/197_regular.png",
+    "native_id": "rice/train/good/197_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/298_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/298_regular.png",
+    "native_id": "rice/train/good/298_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/005_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/005_regular.png",
+    "native_id": "rice/train/good/005_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/195_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/195_regular.png",
+    "native_id": "rice/train/good/195_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/207_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/207_regular.png",
+    "native_id": "rice/train/good/207_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/160_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/160_regular.png",
+    "native_id": "rice/train/good/160_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/119_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/119_regular.png",
+    "native_id": "rice/train/good/119_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/246_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/246_regular.png",
+    "native_id": "rice/train/good/246_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/204_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/204_regular.png",
+    "native_id": "rice/train/good/204_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/000_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/000_regular.png",
+    "native_id": "rice/train/good/000_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/112_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/112_regular.png",
+    "native_id": "rice/train/good/112_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/009_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/009_regular.png",
+    "native_id": "rice/train/good/009_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/027_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/027_regular.png",
+    "native_id": "rice/train/good/027_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/301_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/301_regular.png",
+    "native_id": "rice/train/good/301_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/031_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/031_regular.png",
+    "native_id": "rice/train/good/031_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/061_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/061_regular.png",
+    "native_id": "rice/train/good/061_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/236_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/236_regular.png",
+    "native_id": "rice/train/good/236_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/209_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/209_regular.png",
+    "native_id": "rice/train/good/209_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:rice/train/good/046_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/rice/train/good/046_regular.png",
+    "native_id": "rice/train/good/046_regular.png",
+    "mask": null,
+    "category": "rice",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/090_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/090_regular.png",
+    "native_id": "sheet_metal/train/good/090_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/072_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/072_regular.png",
+    "native_id": "sheet_metal/train/good/072_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/044_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/044_regular.png",
+    "native_id": "sheet_metal/train/good/044_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/012_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/012_regular.png",
+    "native_id": "sheet_metal/train/good/012_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/061_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/061_regular.png",
+    "native_id": "sheet_metal/train/good/061_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/058_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/058_regular.png",
+    "native_id": "sheet_metal/train/good/058_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/060_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/060_regular.png",
+    "native_id": "sheet_metal/train/good/060_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/000_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/000_regular.png",
+    "native_id": "sheet_metal/train/good/000_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/033_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/033_regular.png",
+    "native_id": "sheet_metal/train/good/033_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/015_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/015_regular.png",
+    "native_id": "sheet_metal/train/good/015_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/050_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/050_regular.png",
+    "native_id": "sheet_metal/train/good/050_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/049_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/049_regular.png",
+    "native_id": "sheet_metal/train/good/049_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/078_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/078_regular.png",
+    "native_id": "sheet_metal/train/good/078_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/027_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/027_regular.png",
+    "native_id": "sheet_metal/train/good/027_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/038_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/038_regular.png",
+    "native_id": "sheet_metal/train/good/038_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/130_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/130_regular.png",
+    "native_id": "sheet_metal/train/good/130_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/029_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/029_regular.png",
+    "native_id": "sheet_metal/train/good/029_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/055_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/055_regular.png",
+    "native_id": "sheet_metal/train/good/055_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/115_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/115_regular.png",
+    "native_id": "sheet_metal/train/good/115_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:sheet_metal/train/good/001_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/sheet_metal/train/good/001_regular.png",
+    "native_id": "sheet_metal/train/good/001_regular.png",
+    "mask": null,
+    "category": "sheet_metal",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/129_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/129_regular.png",
+    "native_id": "vial/train/good/129_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/135_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/135_regular.png",
+    "native_id": "vial/train/good/135_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/103_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/103_regular.png",
+    "native_id": "vial/train/good/103_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/274_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/274_regular.png",
+    "native_id": "vial/train/good/274_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/180_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/180_regular.png",
+    "native_id": "vial/train/good/180_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/123_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/123_regular.png",
+    "native_id": "vial/train/good/123_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/187_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/187_regular.png",
+    "native_id": "vial/train/good/187_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/011_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/011_regular.png",
+    "native_id": "vial/train/good/011_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/208_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/208_regular.png",
+    "native_id": "vial/train/good/208_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/039_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/039_regular.png",
+    "native_id": "vial/train/good/039_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/204_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/204_regular.png",
+    "native_id": "vial/train/good/204_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/104_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/104_regular.png",
+    "native_id": "vial/train/good/104_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/159_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/159_regular.png",
+    "native_id": "vial/train/good/159_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/177_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/177_regular.png",
+    "native_id": "vial/train/good/177_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/151_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/151_regular.png",
+    "native_id": "vial/train/good/151_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/132_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/132_regular.png",
+    "native_id": "vial/train/good/132_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/181_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/181_regular.png",
+    "native_id": "vial/train/good/181_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/022_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/022_regular.png",
+    "native_id": "vial/train/good/022_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/206_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/206_regular.png",
+    "native_id": "vial/train/good/206_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:vial/train/good/010_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/vial/train/good/010_regular.png",
+    "native_id": "vial/train/good/010_regular.png",
+    "mask": null,
+    "category": "vial",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/090_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/090_regular.png",
+    "native_id": "wallplugs/train/good/090_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/038_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/038_regular.png",
+    "native_id": "wallplugs/train/good/038_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/157_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/157_regular.png",
+    "native_id": "wallplugs/train/good/157_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/009_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/009_regular.png",
+    "native_id": "wallplugs/train/good/009_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/098_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/098_regular.png",
+    "native_id": "wallplugs/train/good/098_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/270_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/270_regular.png",
+    "native_id": "wallplugs/train/good/270_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/031_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/031_regular.png",
+    "native_id": "wallplugs/train/good/031_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/287_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/287_regular.png",
+    "native_id": "wallplugs/train/good/287_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/044_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/044_regular.png",
+    "native_id": "wallplugs/train/good/044_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/173_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/173_regular.png",
+    "native_id": "wallplugs/train/good/173_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/262_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/262_regular.png",
+    "native_id": "wallplugs/train/good/262_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/257_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/257_regular.png",
+    "native_id": "wallplugs/train/good/257_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/177_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/177_regular.png",
+    "native_id": "wallplugs/train/good/177_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/204_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/204_regular.png",
+    "native_id": "wallplugs/train/good/204_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/081_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/081_regular.png",
+    "native_id": "wallplugs/train/good/081_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/089_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/089_regular.png",
+    "native_id": "wallplugs/train/good/089_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/242_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/242_regular.png",
+    "native_id": "wallplugs/train/good/242_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/222_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/222_regular.png",
+    "native_id": "wallplugs/train/good/222_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/249_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/249_regular.png",
+    "native_id": "wallplugs/train/good/249_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:wallplugs/train/good/136_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/wallplugs/train/good/136_regular.png",
+    "native_id": "wallplugs/train/good/136_regular.png",
+    "mask": null,
+    "category": "wallplugs",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/217_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/217_regular.png",
+    "native_id": "walnuts/train/good/217_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/194_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/194_regular.png",
+    "native_id": "walnuts/train/good/194_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/400_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/400_regular.png",
+    "native_id": "walnuts/train/good/400_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/115_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/115_regular.png",
+    "native_id": "walnuts/train/good/115_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/100_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/100_regular.png",
+    "native_id": "walnuts/train/good/100_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/347_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/347_regular.png",
+    "native_id": "walnuts/train/good/347_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/369_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/369_regular.png",
+    "native_id": "walnuts/train/good/369_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/293_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/293_regular.png",
+    "native_id": "walnuts/train/good/293_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/227_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/227_regular.png",
+    "native_id": "walnuts/train/good/227_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/036_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/036_regular.png",
+    "native_id": "walnuts/train/good/036_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/419_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/419_regular.png",
+    "native_id": "walnuts/train/good/419_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/209_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/209_regular.png",
+    "native_id": "walnuts/train/good/209_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/186_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/186_regular.png",
+    "native_id": "walnuts/train/good/186_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/073_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/073_regular.png",
+    "native_id": "walnuts/train/good/073_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/393_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/393_regular.png",
+    "native_id": "walnuts/train/good/393_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/354_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/354_regular.png",
+    "native_id": "walnuts/train/good/354_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/069_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/069_regular.png",
+    "native_id": "walnuts/train/good/069_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/026_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/026_regular.png",
+    "native_id": "walnuts/train/good/026_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/173_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/173_regular.png",
+    "native_id": "walnuts/train/good/173_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  },
+  {
+    "image_id": "mvtec_ad2:walnuts/train/good/225_regular.png",
+    "dataset": "mvtec_ad2",
+    "path": "/workspace/datasets/mvtec_ad2_public/mvtec_ad_2/walnuts/train/good/225_regular.png",
+    "native_id": "walnuts/train/good/225_regular.png",
+    "mask": null,
+    "category": "walnuts",
+    "split": "train",
+    "label": "normal"
+  }
+]
