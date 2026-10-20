@@ -1,0 +1,144 @@
+{
+  "prior_audit_commit": "08d5c7fc28af368a85c77dec8014d92e43b1989e",
+  "failure_error_count": 11,
+  "complete_prior_tracebacks_read": true,
+  "issues": [
+    {
+      "test": "ERROR: test_visa_uses_original_csv_roles_and_masks (test_repository_interface.RepositoryInterfaceTests.test_visa_uses_original_csv_roles_and_masks)",
+      "method": "test_visa_uses_original_csv_roles_and_masks",
+      "suite": "root",
+      "exact_exception_or_assertion": "ValueError: Dataset inventory has unresolved issues: [{'kind': 'unlisted_or_missing_images', 'unlisted': ['capsules\\\\Data\\\\Images\\\\Anomaly\\\\002.JPG', 'capsules\\\\Data\\\\Images\\\\Normal\\\\000.JPG', 'capsules\\\\Data\\\\Images\\\\Normal\\\\001.JPG'], 'missing': ['capsules/Data/Images/Anomaly/002.JPG', 'capsules/Data/Images/Normal/000.JPG', 'capsules/Data/Images/Normal/001.JPG']}, {'kind': 'mask_inventory_mismatch', 'orphan_masks': ['capsules\\\\Data\\\\Masks\\\\Anomaly\\\\002.png'], 'missing_masks': ['capsules/Data/Masks/Anomaly/002.png']}]",
+      "complete_traceback": "ERROR: test_visa_uses_original_csv_roles_and_masks (test_repository_interface.RepositoryInterfaceTests.test_visa_uses_original_csv_roles_and_masks)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\calibrated_cutoff_20261020\\continuation_20261020T120107Z\\reference_source\\tests\\test_repository_interface.py\", line 80, in test_visa_uses_original_csv_roles_and_masks\n    train = VisADataset(root, \"capsules\", \"train\")\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\calibrated_cutoff_20261020\\continuation_20261020T120107Z\\reference_source\\dataset.py\", line 93, in __init__\n    super().__init__(root, \"visa\", category, phase)\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\calibrated_cutoff_20261020\\continuation_20261020T120107Z\\reference_source\\dataset.py\", line 26, in __init__\n    self.root, self.lookup = inventory({\"roots\": {dataset: str(root)}}, dataset)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\calibrated_cutoff_20261020\\continuation_20261020T120107Z\\reference_source\\framework\\safe_iad\\safal_cli.py\", line 47, in inventory\n    raise ValueError(f'Dataset inventory has unresolved issues: {issues[:3]}')\nValueError: Dataset inventory has unresolved issues: [{'kind': 'unlisted_or_missing_images', 'unlisted': ['capsules\\\\Data\\\\Images\\\\Anomaly\\\\002.JPG', 'capsules\\\\Data\\\\Images\\\\Normal\\\\000.JPG', 'capsules\\\\Data\\\\Images\\\\Normal\\\\001.JPG'], 'missing': ['capsules/Data/Images/Anomaly/002.JPG', 'capsules/Data/Images/Normal/000.JPG', 'capsules/Data/Images/Normal/001.JPG']}, {'kind': 'mask_inventory_mismatch', 'orphan_masks': ['capsules\\\\Data\\\\Masks\\\\Anomaly\\\\002.png'], 'missing_masks': ['capsules/Data/Masks/Anomaly/002.png']}]",
+      "classification": "implementation portability defect (metadata paths)",
+      "root_cause": "verify_dataset.discover uses str(Path.relative_to(...)), producing Windows backslashes, while official VisA CSV paths use forward slashes. The traceback lists the same existing fixture images as both unlisted and missing under different separators.",
+      "proposed_correction": "Use the declared Linux runtime for the unchanged implementation. If Windows support is later required, separately change native relative-path serialization to as_posix and retain all assertions; no scoring mathematics needs to change.",
+      "source_evidence": "framework/safe_iad/verify_dataset.py: discovery actual/listed and mask path sets",
+      "resolution_status": "proposed; not yet rerun"
+    },
+    {
+      "test": "FAIL: test_study_configuration_resolves_every_historical_input (test_repository_interface.RepositoryInterfaceTests.test_study_configuration_resolves_every_historical_input)",
+      "method": "test_study_configuration_resolves_every_historical_input",
+      "suite": "root",
+      "exact_exception_or_assertion": "AssertionError: 'C:\\\\tmp\\\\custom-mvtec' != '/tmp/custom-mvtec'",
+      "complete_traceback": "FAIL: test_study_configuration_resolves_every_historical_input (test_repository_interface.RepositoryInterfaceTests.test_study_configuration_resolves_every_historical_input)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\calibrated_cutoff_20261020\\continuation_20261020T120107Z\\reference_source\\tests\\test_repository_interface.py\", line 119, in test_study_configuration_resolves_every_historical_input\n    self.assertEqual(override[\"roots\"][\"mvtec_ad\"], \"/tmp/custom-mvtec\")\nAssertionError: 'C:\\\\tmp\\\\custom-mvtec' != '/tmp/custom-mvtec'\n- C:\\tmp\\custom-mvtec\n? ^^^   ^\n+ /tmp/custom-mvtec\n? ^   ^",
+      "classification": "runtime/platform incompatibility (Linux path expectation)",
+      "root_cause": "The test explicitly expects /tmp/custom-mvtec; Windows pathlib resolves that POSIX-style absolute input to C:\\tmp\\custom-mvtec. This is a platform-specific assertion, not a missing dataset or anomaly-score defect.",
+      "proposed_correction": "Run this unchanged Linux-oriented gate in the documented Linux filesystem layout. Do not relax the expected assertion.",
+      "source_evidence": "tests/test_repository_interface.py:114-119; train_study.resolved_config",
+      "resolution_status": "proposed; not yet rerun"
+    },
+    {
+      "test": "ERROR: test_synthetic_bad_checksum_never_publishes_data (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_bad_checksum_never_publishes_data)",
+      "method": "test_synthetic_bad_checksum_never_publishes_data",
+      "suite": "framework",
+      "exact_exception_or_assertion": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ennay\\\\Documents\\\\Codex\\\\2026-10-20\\\\files-pasted-by-the-user-role\\\\outputs\\\\newpr\\\\results\\\\calibrated_cutoff_20261020\\\\continuation_20261020T120107Z\\\\tmp\\\\tmpjmi7id0k\\\\acquisition.json'",
+      "complete_traceback": "ERROR: test_synthetic_bad_checksum_never_publishes_data (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_bad_checksum_never_publishes_data)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\calibrated_cutoff_20261020\\continuation_20261020T120107Z\\reference_source\\framework\\tests\\test_dataset_tools_synthetic.py\", line 84, in test_synthetic_bad_checksum_never_publishes_data\n    report = json.loads((self.root / 'acquisition.json').read_text())\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pathlib.py\", line 1058, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pathlib.py\", line 1044, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ennay\\\\Documents\\\\Codex\\\\2026-10-20\\\\files-pasted-by-the-user-role\\\\outputs\\\\newpr\\\\results\\\\calibrated_cutoff_20261020\\\\continuation_20261020T120107Z\\\\tmp\\\\tmpjmi7id0k\\\\acquisition.json'",
+      "classification": "documented CLI path/layout mismatch",
+      "root_cause": "Observed subprocess exit 2: C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\python.exe: can't open file 'C:\\\\workspace\\\\tools\\\\acquire_public_data.py': [Errno 2] No such file or directory. The acquisition helper never ran, so it could not create acquisition.json.",
+      "proposed_correction": "Establish the nested subprocess exception, then restore the documented /workspace/tools layout in the compatible runtime. Do not create a fake acquisition report.",
+      "source_evidence": "framework/tests/test_dataset_tools_synthetic.py: acquire helper and failing method",
+      "resolution_status": "proposed; not yet rerun"
+    },
+    {
+      "test": "ERROR: test_configured_symlink_target_change_invalidates_input (test_experiment_io_synthetic.SyntheticExperimentIOTests.test_configured_symlink_target_change_invalidates_input)",
+      "method": "test_configured_symlink_target_change_invalidates_input",
+      "suite": "framework",
+      "exact_exception_or_assertion": "OSError: [WinError 1314] A required privilege is not held by the client: 'C:\\\\Users\\\\ennay\\\\Documents\\\\Codex\\\\2026-10-20\\\\files-pasted-by-the-user-role\\\\outputs\\\\newpr\\\\results\\\\calibrated_cutoff_20261020\\\\continuation_20261020T120107Z\\\\tmp\\\\tmp1pgsf2lp\\\\original' -> 'C:\\\\Users\\\\ennay\\\\Documents\\\\Codex\\\\2026-10-20\\\\files-pasted-by-the-user-role\\\\outputs\\\\newpr\\\\results\\\\calibrated_cutoff_20261020\\\\continuation_20261020T120107Z\\\\tmp\\\\tmp1pgsf2lp\\\\configured'",
+      "complete_traceback": "ERROR: test_configured_symlink_target_change_invalidates_input (test_experiment_io_synthetic.SyntheticExperimentIOTests.test_configured_symlink_target_change_invalidates_input)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\calibrated_cutoff_20261020\\continuation_20261020T120107Z\\reference_source\\framework\\tests\\test_experiment_io_synthetic.py\", line 112, in test_configured_symlink_target_change_invalidates_input\n    configured.symlink_to(original)\n  File \"C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pathlib.py\", line 1198, in symlink_to\n    os.symlink(target, self, target_is_directory)\nOSError: [WinError 1314] A required privilege is not held by the client: 'C:\\\\Users\\\\ennay\\\\Documents\\\\Codex\\\\2026-10-20\\\\files-pasted-by-the-user-role\\\\outputs\\\\newpr\\\\results\\\\calibrated_cutoff_20261020\\\\continuation_20261020T120107Z\\\\tmp\\\\tmp1pgsf2lp\\\\original' -> 'C:\\\\Users\\\\ennay\\\\Documents\\\\Codex\\\\2026-10-20\\\\files-pasted-by-the-user-role\\\\outputs\\\\newpr\\\\results\\\\calibrated_cutoff_20261020\\\\continuation_20261020T120107Z\\\\tmp\\\\tmp1pgsf2lp\\\\configured'",
+      "classification": "runtime OS privilege/feature incompatibility",
+      "root_cause": "os.symlink raised WinError 1314 before the actual invalidation check: this Windows process lacks permission for the requested symlink. This is not evidence that cache invalidation is defective.",
+      "proposed_correction": "Run unchanged tests in a Linux runtime that provides normal symlink semantics; do not mock symlinks or skip the assertion.",
+      "source_evidence": "framework/tests/test_experiment_io_synthetic.py:112; full WinError 1314 traceback",
+      "resolution_status": "proposed; not yet rerun"
+    },
+    {
+      "test": "ERROR: test_hybrid_pipeline (unittest.loader._FailedTest.test_hybrid_pipeline)",
+      "method": "test_hybrid_pipeline",
+      "suite": "framework",
+      "exact_exception_or_assertion": "ImportError: Failed to import test module: test_hybrid_pipeline\nModuleNotFoundError: No module named 'tifffile'",
+      "complete_traceback": "ERROR: test_hybrid_pipeline (unittest.loader._FailedTest.test_hybrid_pipeline)\n----------------------------------------------------------------------\nImportError: Failed to import test module: test_hybrid_pipeline\nTraceback (most recent call last):\n  File \"C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\loader.py\", line 407, in _find_test_path\n    module = self._get_module_from_name(name)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\loader.py\", line 350, in _get_module_from_name\n    __import__(name)\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\calibrated_cutoff_20261020\\continuation_20261020T120107Z\\reference_source\\framework\\tests\\test_hybrid_pipeline.py\", line 14, in <module>\n    from safe_iad.official_ad2 import export_map, official_checker, relative_output, validate_complete_submission\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\calibrated_cutoff_20261020\\continuation_20261020T120107Z\\reference_source\\framework\\safe_iad\\official_ad2.py\", line 10, in <module>\n    import tifffile\nModuleNotFoundError: No module named 'tifffile'",
+      "classification": "missing declared dependency",
+      "root_cause": "Importing safe_iad.official_ad2 failed at import tifffile; the current interpreter has no tifffile module. The pipeline test module therefore did not finish discovery.",
+      "proposed_correction": "Install tifffile==2025.10.16 from framework/requirements-pipeline.txt in the same interpreter used by both test gates, then rediscover the complete module.",
+      "source_evidence": "framework/safe_iad/official_ad2.py:10; framework/requirements-pipeline.txt",
+      "resolution_status": "proposed; not yet rerun"
+    },
+    {
+      "test": "ERROR: test_json_reload_replays_exact_and_has_no_pickle (test_safal_calibration.SafalCalibrationTests.test_json_reload_replays_exact_and_has_no_pickle)",
+      "method": "test_json_reload_replays_exact_and_has_no_pickle",
+      "suite": "framework",
+      "exact_exception_or_assertion": "FileNotFoundError: [WinError 3] The system cannot find the path specified: '/tmp\\\\tmpes566kus'",
+      "complete_traceback": "ERROR: test_json_reload_replays_exact_and_has_no_pickle (test_safal_calibration.SafalCalibrationTests.test_json_reload_replays_exact_and_has_no_pickle)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\calibrated_cutoff_20261020\\continuation_20261020T120107Z\\reference_source\\framework\\tests\\test_safal_calibration.py\", line 107, in test_json_reload_replays_exact_and_has_no_pickle\n    with tempfile.TemporaryDirectory(dir='/tmp') as directory:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tempfile.py\", line 854, in __init__\n    self.name = mkdtemp(suffix, prefix, dir)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tempfile.py\", line 368, in mkdtemp\n    _os.mkdir(file, 0o700)\nFileNotFoundError: [WinError 3] The system cannot find the path specified: '/tmp\\\\tmpes566kus'",
+      "classification": "runtime filesystem layout incompatibility",
+      "root_cause": "The unchanged test passes dir='/tmp' explicitly to TemporaryDirectory. On this Windows host that directory does not exist; TEMP/TMPDIR overrides do not replace an explicit dir argument.",
+      "proposed_correction": "Provide the documented Linux /tmp directory; keep serialization/replay assertions intact.",
+      "source_evidence": "framework/tests/test_safal_calibration.py:107",
+      "resolution_status": "proposed; not yet rerun"
+    },
+    {
+      "test": "ERROR: test_synthetic_checkpoint_without_pickle_reconstructs_identical_predictions (test_safal_model.SyntheticSAFALTests.test_synthetic_checkpoint_without_pickle_reconstructs_identical_predictions)",
+      "method": "test_synthetic_checkpoint_without_pickle_reconstructs_identical_predictions",
+      "suite": "framework",
+      "exact_exception_or_assertion": "FileNotFoundError: [WinError 3] The system cannot find the path specified: '/tmp\\\\tmp9qnghh42'",
+      "complete_traceback": "ERROR: test_synthetic_checkpoint_without_pickle_reconstructs_identical_predictions (test_safal_model.SyntheticSAFALTests.test_synthetic_checkpoint_without_pickle_reconstructs_identical_predictions)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\calibrated_cutoff_20261020\\continuation_20261020T120107Z\\reference_source\\framework\\tests\\test_safal_model.py\", line 88, in test_synthetic_checkpoint_without_pickle_reconstructs_identical_predictions\n    with tempfile.TemporaryDirectory(dir='/tmp') as directory:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tempfile.py\", line 854, in __init__\n    self.name = mkdtemp(suffix, prefix, dir)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tempfile.py\", line 368, in mkdtemp\n    _os.mkdir(file, 0o700)\nFileNotFoundError: [WinError 3] The system cannot find the path specified: '/tmp\\\\tmp9qnghh42'",
+      "classification": "runtime filesystem layout incompatibility",
+      "root_cause": "TemporaryDirectory(dir='/tmp') failed before any checkpoint replay assertion because the explicit Linux directory is absent on Windows.",
+      "proposed_correction": "Provide the documented Linux /tmp directory and rerun unchanged replay/tamper tests.",
+      "source_evidence": "framework/tests/test_safal_model.py:88",
+      "resolution_status": "proposed; not yet rerun"
+    },
+    {
+      "test": "ERROR: test_synthetic_save_load_replays_grid_scores_and_selected_inference (test_safal_tunable.SyntheticTunableSAFALTests.test_synthetic_save_load_replays_grid_scores_and_selected_inference)",
+      "method": "test_synthetic_save_load_replays_grid_scores_and_selected_inference",
+      "suite": "framework",
+      "exact_exception_or_assertion": "FileNotFoundError: [WinError 3] The system cannot find the path specified: '/tmp\\\\tmpoae5k3x9'",
+      "complete_traceback": "ERROR: test_synthetic_save_load_replays_grid_scores_and_selected_inference (test_safal_tunable.SyntheticTunableSAFALTests.test_synthetic_save_load_replays_grid_scores_and_selected_inference)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\calibrated_cutoff_20261020\\continuation_20261020T120107Z\\reference_source\\framework\\tests\\test_safal_tunable.py\", line 115, in test_synthetic_save_load_replays_grid_scores_and_selected_inference\n    with tempfile.TemporaryDirectory(dir='/tmp') as directory:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tempfile.py\", line 854, in __init__\n    self.name = mkdtemp(suffix, prefix, dir)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tempfile.py\", line 368, in mkdtemp\n    _os.mkdir(file, 0o700)\nFileNotFoundError: [WinError 3] The system cannot find the path specified: '/tmp\\\\tmpoae5k3x9'",
+      "classification": "runtime filesystem layout incompatibility",
+      "root_cause": "TemporaryDirectory(dir='/tmp') failed before the save/load assertions because the explicit Linux directory is absent on Windows.",
+      "proposed_correction": "Use the documented Linux filesystem and keep the grid-score and selected-inference equality assertions unchanged.",
+      "source_evidence": "framework/tests/test_safal_tunable.py:115",
+      "resolution_status": "proposed; not yet rerun"
+    },
+    {
+      "test": "ERROR: test_localization_is_recorded_not_invented_and_outputs_are_serializable (test_safal_tuning_report.SafalTuningReportTests.test_localization_is_recorded_not_invented_and_outputs_are_serializable)",
+      "method": "test_localization_is_recorded_not_invented_and_outputs_are_serializable",
+      "suite": "framework",
+      "exact_exception_or_assertion": "UnicodeEncodeError: 'charmap' codec can't encode character '\\u2192' in position 1666: character maps to <undefined>",
+      "complete_traceback": "ERROR: test_localization_is_recorded_not_invented_and_outputs_are_serializable (test_safal_tuning_report.SafalTuningReportTests.test_localization_is_recorded_not_invented_and_outputs_are_serializable)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\calibrated_cutoff_20261020\\continuation_20261020T120107Z\\reference_source\\framework\\tests\\test_safal_tuning_report.py\", line 192, in test_localization_is_recorded_not_invented_and_outputs_are_serializable\n    paths = write_tuning_report(self.run, n_bootstrap=100, bootstrap_seed=11)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\calibrated_cutoff_20261020\\continuation_20261020T120107Z\\reference_source\\framework\\safe_iad\\safal_tuning_report.py\", line 449, in write_tuning_report\n    report_path.write_text(_markdown(summary))\n  File \"C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pathlib.py\", line 1079, in write_text\n    return f.write(data)\n           ^^^^^^^^^^^^^\n  File \"C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u2192' in position 1666: character maps to <undefined>",
+      "classification": "runtime text encoding incompatibility",
+      "root_cause": "Path.write_text used the Windows cp1252 default when rendering a Markdown arrow U+2192. The traceback is UnicodeEncodeError, not an invalid metric or JSON serialization result.",
+      "proposed_correction": "Use a UTF-8 Linux locale/UTF-8 Python mode in the isolated runtime. If portability is needed later, document explicit encoding='utf-8' as a separate presentation-only code change.",
+      "source_evidence": "framework/safe_iad/safal_tuning_report.py:449; cp1252 traceback",
+      "resolution_status": "proposed; not yet rerun"
+    },
+    {
+      "test": "ERROR: test_checked_download_and_hardlink_extraction (test_vision_hybrid_download.DownloadTests.test_checked_download_and_hardlink_extraction)",
+      "method": "test_checked_download_and_hardlink_extraction",
+      "suite": "framework",
+      "exact_exception_or_assertion": "TypeError: TarFile.extractall() got an unexpected keyword argument 'filter'",
+      "complete_traceback": "ERROR: test_checked_download_and_hardlink_extraction (test_vision_hybrid_download.DownloadTests.test_checked_download_and_hardlink_extraction)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\calibrated_cutoff_20261020\\continuation_20261020T120107Z\\reference_source\\framework\\tests\\test_vision_hybrid_download.py\", line 40, in test_checked_download_and_hardlink_extraction\n    output=Path(directory)/'study.tar.gz';downloader.download('a'*40,output,extract=True)\n                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\calibrated_cutoff_20261020\\continuation_20261020T120107Z\\reference_source\\framework\\download_vision_hybrid_results.py\", line 71, in download\n    folder.mkdir();archive.extractall(folder,filter='data')\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: TarFile.extractall() got an unexpected keyword argument 'filter'",
+      "classification": "Python runtime-version incompatibility",
+      "root_cause": "Python 3.11.0's TarFile.extractall does not accept filter='data'; the error occurs after fixture archive checksums were successfully verified.",
+      "proposed_correction": "Use the declared Python 3.12.14 runtime, retaining the safe data extraction filter and all archive integrity/hardlink assertions.",
+      "source_evidence": "framework/download_vision_hybrid_results.py:71; TypeError traceback",
+      "resolution_status": "proposed; not yet rerun"
+    },
+    {
+      "test": "ERROR: test_vision_hybrid_protocol (unittest.loader._FailedTest.test_vision_hybrid_protocol)",
+      "method": "test_vision_hybrid_protocol",
+      "suite": "framework",
+      "exact_exception_or_assertion": "ImportError: Failed to import test module: test_vision_hybrid_protocol\nModuleNotFoundError: No module named 'fcntl'",
+      "complete_traceback": "ERROR: test_vision_hybrid_protocol (unittest.loader._FailedTest.test_vision_hybrid_protocol)\n----------------------------------------------------------------------\nImportError: Failed to import test module: test_vision_hybrid_protocol\nTraceback (most recent call last):\n  File \"C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\loader.py\", line 407, in _find_test_path\n    module = self._get_module_from_name(name)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\loader.py\", line 350, in _get_module_from_name\n    __import__(name)\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\calibrated_cutoff_20261020\\continuation_20261020T120107Z\\reference_source\\framework\\tests\\test_vision_hybrid_protocol.py\", line 5, in <module>\n    from safe_iad.vision_hybrid_cli import paired_auc_interval,select_candidate,stage_lock\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\calibrated_cutoff_20261020\\continuation_20261020T120107Z\\reference_source\\framework\\safe_iad\\vision_hybrid_cli.py\", line 12, in <module>\n    import fcntl\nModuleNotFoundError: No module named 'fcntl'",
+      "classification": "runtime OS incompatibility (POSIX locking import)",
+      "root_cause": "The test module cannot import because safe_iad.vision_hybrid_cli imports POSIX fcntl, which is unavailable in native Windows Python. Its protocol assertions were not executed.",
+      "proposed_correction": "Run with POSIX fcntl in the documented Linux runtime. Do not fake fcntl, disable stage locks or skip the module.",
+      "source_evidence": "framework/safe_iad/vision_hybrid_cli.py:12",
+      "resolution_status": "proposed; not yet rerun"
+    }
+  ],
+  "scoring_code_changed": false,
+  "missing_assets_separate_from_test_failures": {
+    "checkpoint": "Required register ViT-L checkpoint missing in prior search; these existing logic tests do not validate real weights.",
+    "encoder_source": "Cached source lacks a trusted pinned manifest; separate from fcntl/tifffile import errors."
+  }
+}

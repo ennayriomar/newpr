@@ -1,0 +1,67 @@
+name: Preflight repair only
+
+on:
+  push:
+    branches: [preflight-repair-20261020]
+    paths:
+      - .github/workflows/preflight-repair.yml
+      - results/preflight_repair_20261020/ci_only_gates.py
+      - results/preflight_repair_20261020/run_existing_tests.py
+
+permissions:
+  contents: write
+
+jobs:
+  unchanged-unit-gates:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - name: Checkout only source and repair evidence
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*.py
+            /README.md
+            /requirements.txt
+            /.gitignore
+            /.github/workflows/preflight-repair.yml
+            /configs/
+            /models/
+            /framework/
+            /tests/
+            /prepare_data/
+            /docs/*.md
+            /results/controlled_full_image_20261018/protocol.json
+            /results/preflight_repair_20261020/
+      - name: Set exact declared Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+          check-latest: false
+      - name: Install declared dependencies and run both unchanged gates
+        run: python -B results/preflight_repair_20261020/ci_only_gates.py
+      - name: Save complete test and dependency logs
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: preflight-repair-${{ github.run_id }}-${{ github.run_attempt }}
+          path: results/preflight_repair_20261020/ci_runs/
+          if-no-files-found: warn
+          retention-days: 30
+      - name: Commit observed gate evidence to repair branch
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          evidence="results/preflight_repair_20261020/ci_runs/${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          if [ ! -d "$evidence" ]; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- "$evidence"
+          python -c 'import subprocess; paths=subprocess.check_output(["git","diff","--cached","--name-only"]).decode().splitlines(); assert all(p.startswith("results/preflight_repair_20261020/ci_runs/") for p in paths), paths'
+          if ! git diff --cached --quiet; then
+            git commit -m "Record preflight-only gate evidence ${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+            git push origin HEAD:refs/heads/preflight-repair-20261020
+          fi

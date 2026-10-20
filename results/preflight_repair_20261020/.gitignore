@@ -1,0 +1,6 @@
+/assets/
+/runtime/
+/tmp/
+__pycache__/
+*.pyc
+/logs/frozen_protocol_git_blob.stdout.log

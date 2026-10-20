@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "C:\Users\ennay\Documents\Codex\2026-10-20\files-pasted-by-the-user-role\outputs\newpr\results\preflight_repair_20261020\restore_checkpoint.py", line 44, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "C:\Users\ennay\Documents\Codex\2026-10-20\files-pasted-by-the-user-role\outputs\newpr\results\preflight_repair_20261020\restore_checkpoint.py", line 31, in main
+    prepare(path)
+  File "C:\Users\ennay\Documents\Codex\2026-10-20\files-pasted-by-the-user-role\outputs\newpr\framework\safe_iad\vision_hybrid_features.py", line 189, in prepare
+    raise ValueError('Downloaded weight length/SHA256 mismatch.')
+ValueError: Downloaded weight length/SHA256 mismatch.

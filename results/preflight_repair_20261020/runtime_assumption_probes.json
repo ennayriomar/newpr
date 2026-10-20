@@ -1,0 +1,65 @@
+{
+  "python": "3.11.0 (main, Oct 24 2022, 18:26:48) [MSC v.1933 64 bit (AMD64)]",
+  "executable": "C:\\Users\\ennay\\Downloads\\safe_iad_m1\\safe_iad\\venv\\Scripts\\python.exe",
+  "os_name": "nt",
+  "fcntl_present": false,
+  "tifffile_present": false,
+  "tar_extractall_signature": "(self, path='.', members=None, *, numeric_owner=False)",
+  "explicit_linux_tmp_exists": false,
+  "documented_helper_exists": false,
+  "locale_encoding": "cp1252",
+  "utf8_mode": 1,
+  "test_assertions_modified": false,
+  "actual_default_text_file_encoding": "utf-8",
+  "utf8_correction_probe": {
+    "successful": true,
+    "complete_output": "test_localization_is_recorded_not_invented_and_outputs_are_serializable (test_safal_tuning_report.SafalTuningReportTests.test_localization_is_recorded_not_invented_and_outputs_are_serializable) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.243s\n\nOK\n",
+    "correction": "PYTHONUTF8=1 applied by run_logged.py; presentation code and assertions unchanged",
+    "scope": "Targeted diagnostic on the old Python runtime, not a full repaired-runtime gate"
+  },
+  "neighboring_path_assumptions": {
+    "successful": true,
+    "complete_output": "test_synthetic_unsafe_archive_never_escapes_staging (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_unsafe_archive_never_escapes_staging) ... ok\ntest_synthetic_existing_data_is_preserved (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_existing_data_is_preserved) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.139s\n\nOK\n",
+    "observed_subprocesses": [
+      {
+        "argv": [
+          "C:\\Users\\ennay\\Downloads\\safe_iad_m1\\safe_iad\\venv\\Scripts\\python.exe",
+          "/workspace/tools/acquire_public_data.py",
+          "--archive",
+          "C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\preflight_repair_20261020\\tmp\\tmp4qt30ri1\\fixture.tar",
+          "--sha256",
+          "97cb0fc13e739b1db5289deb0c4b5ce23f7ba4693f714a9df58ca03e2b20e8bc",
+          "--root",
+          "C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\preflight_repair_20261020\\tmp\\tmp4qt30ri1\\data",
+          "--report",
+          "C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\preflight_repair_20261020\\tmp\\tmp4qt30ri1\\acquisition.json",
+          "--reserve-gib",
+          "0"
+        ],
+        "returncode": 2,
+        "stdout": "",
+        "stderr": "C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\python.exe: can't open file 'C:\\\\workspace\\\\tools\\\\acquire_public_data.py': [Errno 2] No such file or directory\n"
+      },
+      {
+        "argv": [
+          "C:\\Users\\ennay\\Downloads\\safe_iad_m1\\safe_iad\\venv\\Scripts\\python.exe",
+          "/workspace/tools/acquire_public_data.py",
+          "--archive",
+          "C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\preflight_repair_20261020\\tmp\\tmpuzbaybg4\\fixture.tar",
+          "--sha256",
+          "60285b96b7aa8cfa3dde9dbb34f0e67381d393c03b609192c0b9c3ce9e22c9ca",
+          "--root",
+          "C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\preflight_repair_20261020\\tmp\\tmpuzbaybg4\\data",
+          "--report",
+          "C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\preflight_repair_20261020\\tmp\\tmpuzbaybg4\\acquisition.json",
+          "--reserve-gib",
+          "0"
+        ],
+        "returncode": 2,
+        "stdout": "",
+        "stderr": "C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\python.exe: can't open file 'C:\\\\workspace\\\\tools\\\\acquire_public_data.py': [Errno 2] No such file or directory\n"
+      }
+    ],
+    "interpretation": "If subprocess stderr says the helper cannot be opened, a passing assertion does not demonstrate that archive extraction/checksum handling ran. The documented CLI path must be restored before accepting the gate."
+  }
+}

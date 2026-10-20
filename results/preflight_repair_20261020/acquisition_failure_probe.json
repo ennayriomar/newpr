@@ -1,0 +1,27 @@
+{
+  "test_result": "test_synthetic_bad_checksum_never_publishes_data (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_bad_checksum_never_publishes_data) ... ERROR\n\n======================================================================\nERROR: test_synthetic_bad_checksum_never_publishes_data (test_dataset_tools_synthetic.SyntheticDatasetToolTests.test_synthetic_bad_checksum_never_publishes_data)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\framework\\tests\\test_dataset_tools_synthetic.py\", line 84, in test_synthetic_bad_checksum_never_publishes_data\n    report = json.loads((self.root / 'acquisition.json').read_text())\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pathlib.py\", line 1058, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pathlib.py\", line 1044, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ennay\\\\Documents\\\\Codex\\\\2026-10-20\\\\files-pasted-by-the-user-role\\\\outputs\\\\newpr\\\\results\\\\preflight_repair_20261020\\\\tmp\\\\tmpsek0_lcv\\\\acquisition.json'\n\n----------------------------------------------------------------------\nRan 1 test in 0.062s\n\nFAILED (errors=1)\n",
+  "captured_subprocesses": [
+    {
+      "argv": [
+        "C:\\Users\\ennay\\Downloads\\safe_iad_m1\\safe_iad\\venv\\Scripts\\python.exe",
+        "/workspace/tools/acquire_public_data.py",
+        "--archive",
+        "C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\preflight_repair_20261020\\tmp\\tmpsek0_lcv\\fixture.tar",
+        "--sha256",
+        "0000000000000000000000000000000000000000000000000000000000000000",
+        "--root",
+        "C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\preflight_repair_20261020\\tmp\\tmpsek0_lcv\\data",
+        "--report",
+        "C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\preflight_repair_20261020\\tmp\\tmpsek0_lcv\\acquisition.json",
+        "--reserve-gib",
+        "0"
+      ],
+      "returncode": 2,
+      "stdout": "",
+      "stderr": "C:\\Users\\ennay\\AppData\\Local\\Programs\\Python\\Python311\\python.exe: can't open file 'C:\\\\workspace\\\\tools\\\\acquire_public_data.py': [Errno 2] No such file or directory\n"
+    }
+  ],
+  "successful": false,
+  "assertions_modified": false,
+  "synthetic_fixture_only": true
+}

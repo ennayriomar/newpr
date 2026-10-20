@@ -1,0 +1,40 @@
+{
+  "note": "Executed bootstrap commands; exact wall-clock timestamps were not separately recorded. All named stdout/stderr logs are complete.",
+  "commands": [
+    {
+      "argv": [
+        "git",
+        "fetch",
+        "--depth",
+        "4",
+        "origin",
+        "calibrated-cutoff-20261020"
+      ],
+      "returncode": 0,
+      "stdout": "logs/fetch.stdout.log",
+      "stderr": "logs/fetch.stderr.log"
+    },
+    {
+      "argv": [
+        "git",
+        "reset",
+        "--mixed",
+        "FETCH_HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "logs/sync.stdout.log",
+      "stderr": "logs/sync.stderr.log"
+    },
+    {
+      "argv": [
+        "git",
+        "switch",
+        "-c",
+        "preflight-repair-20261020"
+      ],
+      "returncode": 0,
+      "stdout": "logs/branch.stdout.log",
+      "stderr": "logs/branch.stderr.log"
+    }
+  ]
+}

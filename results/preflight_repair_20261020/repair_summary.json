@@ -1,0 +1,28 @@
+{
+  "recorded_utc": "2026-10-20T13:48:04.491894+00:00",
+  "scope": "prerequisite repair only",
+  "start_branch": "calibrated-cutoff-20261020",
+  "start_commit": "08d5c7fc28af368a85c77dec8014d92e43b1989e",
+  "repair_branch": "preflight-repair-20261020",
+  "checkpoint_verified": false,
+  "encoder_source_verified": true,
+  "required_unit_gates_passed": false,
+  "repair_gate_complete": false,
+  "remaining_blockers": [
+    "Original official checkpoint downloader rejected the download with ValueError('Downloaded weight length/SHA256 mismatch.'); required SHA-256 was not verified. Actual final byte count/digest were not exposed by the combined guard.",
+    "Compatible Linux/Python 3.12.14 and declared dependencies were not installed after the checkpoint STOP; the existing Windows environment remains in place.",
+    "The required root and framework gates have not both passed in the declared compatible runtime."
+  ],
+  "gate_evidence": null,
+  "smoke_inference_run": false,
+  "source_selection_run": false,
+  "visa_evaluation_run": false,
+  "real_encoder_inference_run": false,
+  "frozen_model_or_test_assertions_changed": false,
+  "native_windows_runtime_converted_to_linux": false,
+  "checkpoint_stop_rule_applied": true,
+  "compatible_dependencies_installed": false,
+  "full_root_framework_gates_rerun": false,
+  "active_ci_workflow_installed": false,
+  "remaining_old_test_failures_are_not_claimed_resolved": true
+}

@@ -1,0 +1,15 @@
+{
+  "started_utc": "2026-10-20T12:42:35.576194+00:00",
+  "url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_reg4_pretrain.pth",
+  "expected_sha256": "36e4deffbaef061a2576705b0c36f93621e2ae20bf6274694821b0b492551b51",
+  "expected_bytes": 1217607321,
+  "destination": "C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\preflight_repair_20261020\\assets\\checkpoints\\dinov2_vitl14_reg4_pretrain.pth",
+  "downloader": "safe_iad.vision_hybrid_features.prepare",
+  "downloader_source_git_path": "framework/safe_iad/vision_hybrid_features.py",
+  "model_instantiated": false,
+  "inference_run": false,
+  "verified": false,
+  "exception": "ValueError('Downloaded weight length/SHA256 mismatch.')",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\results\\preflight_repair_20261020\\restore_checkpoint.py\", line 31, in main\n    prepare(path)\n  File \"C:\\Users\\ennay\\Documents\\Codex\\2026-10-20\\files-pasted-by-the-user-role\\outputs\\newpr\\framework\\safe_iad\\vision_hybrid_features.py\", line 189, in prepare\n    raise ValueError('Downloaded weight length/SHA256 mismatch.')\nValueError: Downloaded weight length/SHA256 mismatch.\n",
+  "finished_utc": "2026-10-20T13:06:23.509820+00:00"
+}

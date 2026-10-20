@@ -1,0 +1,33 @@
+{
+  "validation_scope": "Saved evidence only; no repair step, test gate or inference run",
+  "prior_evidence": {
+    "results/calibrated_cutoff_20261020": {
+      "files_checked": 47,
+      "mismatches": []
+    },
+    "results/calibrated_cutoff_20261020/continuation_20261020T120107Z": {
+      "files_checked": 93,
+      "mismatches": []
+    }
+  },
+  "persistent_encoder_source_files_checked": 158,
+  "encoder_source_file_mismatches": [],
+  "frozen_git_code_hash_matches": {
+    "controlled_experiment.py": true,
+    "controlled_common.py": true,
+    "audit_outputs.py": true,
+    "utils.py": true,
+    "framework/safe_iad/vision_hybrid_model.py": true,
+    "framework/safe_iad/vision_hybrid_features.py": true,
+    "framework/safe_iad/safal_features.py": true,
+    "framework/safe_iad/research_metrics.py": true,
+    "framework/safe_iad/verify_dataset.py": true
+  },
+  "checkpoint_file_present": false,
+  "checkpoint_partial_present": false,
+  "checkpoint_verification_passed": false,
+  "full_gates_executed": false,
+  "active_ci_workflow": false,
+  "prior_tracked_file_changes": [],
+  "repair_summary_is_incomplete": true
+}
