@@ -46,6 +46,7 @@
     "logs/source_dependency_check.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "provenance/original_protocol.json.gz": "56e8ee293c67e122c6b8e34e1f3e3a337c1bbcf51e7d9ede592fcbedb6502e87",
     "provenance/original_protocol.json.sha256": "3ec01dab97a458dc591fcfec76518994fb7fe3cac5dd745a211e05082c63cd11",
-    "provenance/user_request.txt": "f7b6f20ebf33019002ba8c76fc1e8be992ffa83b8abfa0f01cc7a344637a596a"
+    "provenance/user_request.txt": "f7b6f20ebf33019002ba8c76fc1e8be992ffa83b8abfa0f01cc7a344637a596a",
+    ".gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
   }
 }

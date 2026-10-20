@@ -19,6 +19,8 @@
   },
   "frozen_study_protocol_commit": null,
   "inference_stage_commits": [],
-  "publication_record_commit": "The commit containing this finalized file; resolve from branch history.",
-  "note": "Preflight audit only. No new cutoff implementation, smoke, source calibration or VisA stage was run. No completed-study verdict was issued."
+  "publication_record_commit": "2fb0592a47c474770dacb76910a8e76380e1cee4",
+  "note": "Preflight audit only. No new cutoff implementation, smoke, source calibration or VisA stage was run. No completed-study verdict was issued.",
+  "publication_record_commit_url": "https://github.com/ennayriomar/newpr/commit/2fb0592a47c474770dacb76910a8e76380e1cee4",
+  "byte_preservation": "New audit directory has a local .gitattributes disabling newline conversion to preserve its recorded artifact hashes."
 }
